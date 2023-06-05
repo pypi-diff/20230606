@@ -1817,3 +1817,71 @@
 [2023-06-06 01:48:28] INFO root fetch - processPackages [pymablock]: Remove: archive file [/home/abi/fetcher/tmp/pymablock-1.0.0.post0.tar.gz]
 [2023-06-06 01:48:28] INFO root fetch - main [MainThread]: End processing [pymablock]: success
 [2023-06-06 01:48:28] INFO root fetch - main [MainThread]: Store serial: [18382728]
+[2023-06-06 01:53:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18382728]
+[2023-06-06 01:53:37] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-06 01:53:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-roborock
+[2023-06-06 01:53:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: datasette-sqlite-vss
+[2023-06-06 01:53:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlite-vss
+[2023-06-06 01:53:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: np-nwb-trials
+[2023-06-06 01:53:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seamapi
+[2023-06-06 01:53:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Digiseller-API-TokenManager
+[2023-06-06 01:53:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: np-tools
+[2023-06-06 01:53:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: assisted-service-client
+[2023-06-06 01:53:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vollseg
+[2023-06-06 01:53:37] WARNING root fetch - processPackages [np-nwb-trials]: Skipping, unable to determine old version
+[2023-06-06 01:53:37] INFO root fetch - main [MainThread]: End processing [np-nwb-trials] error
+[2023-06-06 01:53:37] INFO root fetch - processPackages [datasette-sqlite-vss]: New version: [0.1.1a9] Old Version: [0.1.1a8]
+[2023-06-06 01:53:37] INFO root fetch - processPackages [np-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 01:53:37] INFO root fetch - processPackages [seamapi]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-06-06 01:53:37] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-06 01:53:37] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-06-06 01:53:37] INFO root fetch - processPackages [sqlite-vss]: New version: [0.1.1a9] Old Version: [0.1.1a8]
+[2023-06-06 01:53:37] INFO root fetch - processPackages [assisted-service-client]: New version: [2.9.0.post9] Old Version: [2.9.0.post8]
+[2023-06-06 01:53:37] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-06 01:53:37] INFO root fetch - processPackages [np-tools]: Downloading https://files.pythonhosted.org/packages/7d/00/4ffdf7879b57a53675c0a072a6994ee222cef3f6c1623e7c822a02d2d8be/np_tools-0.1.8.tar.gz
+[2023-06-06 01:53:37] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/a5/ee/a5837c5427b0689f863021f5d65c42ff9d4ae267905a751492653198b2dc/assisted_service_client-2.9.0.post8-py3-none-any.whl
+[2023-06-06 01:53:37] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-06 01:53:37] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-06 01:53:37] ERROR root fetch - processPackages [Digiseller-API-TokenManager]: Unable to get metadata: No such project 'Digiseller-API-TokenManager'
+[2023-06-06 01:53:37] INFO root fetch - main [MainThread]: End processing [Digiseller-API-TokenManager] error
+[2023-06-06 01:53:37] INFO root fetch - processPackages [sqlite-vss]: Downloading https://files.pythonhosted.org/packages/51/63/9dd1545bb1d137578652a5f27284866e142c23a512c823ced396eb35870b/sqlite_vss-0.1.1a8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-06-06 01:53:37] INFO root fetch - processPackages [seamapi]: Downloading https://files.pythonhosted.org/packages/66/89/44ca8fd07b0ae73a320a143a76e9f2dac864dff04d1fb1c5410964fbe6c5/seamapi-2.9.0.tar.gz
+[2023-06-06 01:53:37] INFO root fetch - processPackages [datasette-sqlite-vss]: Downloading https://files.pythonhosted.org/packages/6b/c9/46cbc03e6120a6d031ef47d3764f65fae9e0925e556486102f15dea9a2e7/datasette_sqlite_vss-0.1.1a8-py3-none-any.whl
+[2023-06-06 01:53:38] INFO root fetch - processPackages [np-tools]: Downloading https://files.pythonhosted.org/packages/63/fb/c0aa437bbfc78ecde48c8fd50dc43e54d68497a94d2f9416445f466a76b6/np_tools-0.1.9.tar.gz
+[2023-06-06 01:53:38] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/bc/a5/7bd08437421c34e92b81b72e3d3eaf9ab00bc7dcca9dd03a427476c13e59/python_roborock-0.9.0.tar.gz
+[2023-06-06 01:53:38] INFO root fetch - processPackages [assisted-service-client]: Downloading https://files.pythonhosted.org/packages/f6/90/2599b3c134ea21c06d22f83dd1dfac6801d974b9aa0958f008fb332e5b4d/assisted_service_client-2.9.0.post9-py3-none-any.whl
+[2023-06-06 01:53:38] INFO root fetch - processPackages [np-tools]: executing diffoscope
+[2023-06-06 01:53:38] INFO root fetch - processPackages [np-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_tools-0.1.8.tar.gz tmp/np_tools-0.1.9.tar.gz --markdown 20230606/n/np-tools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 01:53:38] INFO root fetch - processPackages [assisted-service-client]: executing diffoscope
+[2023-06-06 01:53:38] INFO root fetch - processPackages [assisted-service-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip --markdown 20230606/a/assisted-service-client/2.9.0.post8-2.9.0.post9/diff.md --exclude *.pyd
+[2023-06-06 01:53:38] INFO root fetch - processPackages [sqlite-vss]: Downloading https://files.pythonhosted.org/packages/84/49/c3e9edf1447bbca8e97d5a521f090a99ac9069452f7cf7863df641abd8c2/sqlite_vss-0.1.1a9-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-06-06 01:53:38] INFO root fetch - processPackages [seamapi]: Downloading https://files.pythonhosted.org/packages/d1/68/f644a5fadb8237d0e4c2be5925a6d30926799e24541904fdde5f9bdf5437/seamapi-2.9.1.tar.gz
+[2023-06-06 01:53:38] INFO root fetch - processPackages [datasette-sqlite-vss]: Downloading https://files.pythonhosted.org/packages/78/39/1de339a6154e659c8a6464539aaa36ab5e4340a7d77d50f437b106ca0d12/datasette_sqlite_vss-0.1.1a9-py3-none-any.whl
+[2023-06-06 01:53:38] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/40/9b/30bb82604def56c9a66db0578b68938e38bd30a9c931295d66012a137825/python_roborock-0.9.0rc0.tar.gz
+[2023-06-06 01:53:38] INFO root fetch - processPackages [datasette-sqlite-vss]: executing diffoscope
+[2023-06-06 01:53:38] INFO root fetch - processPackages [datasette-sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_vss-0.1.1a8-py3-none-any.whl.zip tmp/datasette_sqlite_vss-0.1.1a9-py3-none-any.whl.zip --markdown 20230606/d/datasette-sqlite-vss/0.1.1a8-0.1.1a9/diff.md --exclude *.pyd
+[2023-06-06 01:53:38] INFO root fetch - processPackages [sqlite-vss]: executing diffoscope
+[2023-06-06 01:53:38] INFO root fetch - processPackages [sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_vss-0.1.1a8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_vss-0.1.1a9-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230606/s/sqlite-vss/0.1.1a8-0.1.1a9/diff.md --exclude *.pyd
+[2023-06-06 01:53:38] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-06-06 01:53:38] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.9.0.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230606/p/python-roborock/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-06-06 01:53:38] INFO root fetch - processPackages [seamapi]: executing diffoscope
+[2023-06-06 01:53:38] INFO root fetch - processPackages [seamapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seamapi-2.9.0.tar.gz tmp/seamapi-2.9.1.tar.gz --markdown 20230606/s/seamapi/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-06-06 01:53:39] INFO root fetch - processPackages [np-tools]: Remove: archive file [/home/abi/fetcher/tmp/np_tools-0.1.8.tar.gz]
+[2023-06-06 01:53:39] INFO root fetch - processPackages [np-tools]: Remove: archive file [/home/abi/fetcher/tmp/np_tools-0.1.9.tar.gz]
+[2023-06-06 01:53:39] INFO root fetch - main [MainThread]: End processing [np-tools]: success
+[2023-06-06 01:53:39] INFO root fetch - processPackages [datasette-sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_vss-0.1.1a8-py3-none-any.whl.zip]
+[2023-06-06 01:53:39] INFO root fetch - processPackages [datasette-sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_vss-0.1.1a9-py3-none-any.whl.zip]
+[2023-06-06 01:53:39] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-vss]: success
+[2023-06-06 01:53:39] INFO root fetch - processPackages [python-roborock]: Remove: archive file [/home/abi/fetcher/tmp/python_roborock-0.9.0.tar.gz]
+[2023-06-06 01:53:39] INFO root fetch - processPackages [python-roborock]: Remove: archive file [/home/abi/fetcher/tmp/python_roborock-0.9.0rc0.tar.gz]
+[2023-06-06 01:53:39] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-06-06 01:53:39] INFO root fetch - processPackages [seamapi]: Remove: archive file [/home/abi/fetcher/tmp/seamapi-2.9.0.tar.gz]
+[2023-06-06 01:53:39] INFO root fetch - processPackages [seamapi]: Remove: archive file [/home/abi/fetcher/tmp/seamapi-2.9.1.tar.gz]
+[2023-06-06 01:53:39] INFO root fetch - main [MainThread]: End processing [seamapi]: success
+[2023-06-06 01:53:41] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post8-py3-none-any.whl.zip]
+[2023-06-06 01:53:42] INFO root fetch - processPackages [assisted-service-client]: Remove: archive file [/home/abi/fetcher/tmp/assisted_service_client-2.9.0.post9-py3-none-any.whl.zip]
+[2023-06-06 01:53:42] INFO root fetch - main [MainThread]: End processing [assisted-service-client]: success
+[2023-06-06 01:54:17] INFO root fetch - processPackages [sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_vss-0.1.1a8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-06-06 01:54:17] INFO root fetch - processPackages [sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_vss-0.1.1a9-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-06-06 01:54:17] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
+[2023-06-06 01:54:17] INFO root fetch - main [MainThread]: Store serial: [18382765]
