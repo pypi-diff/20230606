@@ -1293,3 +1293,129 @@
 [2023-06-06 01:13:34] INFO root fetch - processPackages [pyquil]: Remove: archive file [/home/abi/fetcher/tmp/pyquil-4.0.0rc9.tar.gz]
 [2023-06-06 01:13:34] INFO root fetch - main [MainThread]: End processing [pyquil]: success
 [2023-06-06 01:13:34] INFO root fetch - main [MainThread]: Store serial: [18382527]
+[2023-06-06 01:18:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18382527]
+[2023-06-06 01:18:43] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-06 01:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ultralytics
+[2023-06-06 01:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: docassemble
+[2023-06-06 01:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: viser
+[2023-06-06 01:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: docassemble.base
+[2023-06-06 01:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: docassemble.demo
+[2023-06-06 01:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: docassemble.webapp
+[2023-06-06 01:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: psifr
+[2023-06-06 01:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: label-studio
+[2023-06-06 01:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: homeassistant
+[2023-06-06 01:18:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: faker-file
+[2023-06-06 01:18:43] INFO root fetch - processPackages [psifr]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-06 01:18:43] INFO root fetch - processPackages [docassemble]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-06 01:18:43] INFO root fetch - processPackages [viser]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 01:18:43] INFO root fetch - processPackages [faker-file]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-06 01:18:43] INFO root fetch - processPackages [ultralytics]: New version: [8.0.99] Old Version: [8.0.98]
+[2023-06-06 01:18:43] INFO root fetch - processPackages [docassemble.webapp]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-06 01:18:43] INFO root fetch - processPackages [label-studio]: New version: [1.8.0] Old Version: [1.7.3]
+[2023-06-06 01:18:43] INFO root fetch - processPackages [docassemble.demo]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-06 01:18:43] INFO root fetch - processPackages [docassemble.base]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-06 01:18:43] INFO root fetch - processPackages [homeassistant]: New version: [2023.6.0b5] Old Version: [2023.6.0b4]
+[2023-06-06 01:18:43] INFO root fetch - processPackages [viser]: Downloading https://files.pythonhosted.org/packages/6e/fe/c353160b1cadb91f2eb1f35a3c0e853765a09f0b07a38f84fb158ed4da6c/viser-0.0.8.tar.gz
+[2023-06-06 01:18:43] INFO root fetch - processPackages [psifr]: Downloading https://files.pythonhosted.org/packages/e7/da/61834273af28421147131de72f6549f72666269b93b1fd2011fcfac2c039/psifr-0.8.2.tar.gz
+[2023-06-06 01:18:43] INFO root fetch - processPackages [docassemble]: Downloading https://files.pythonhosted.org/packages/1b/b1/8cd8c51bc2b5aa0fa89d1528f73674a02f1202fc12d3696bb33172926993/docassemble-1.4.8.tar.gz
+[2023-06-06 01:18:43] INFO root fetch - processPackages [docassemble.webapp]: Downloading https://files.pythonhosted.org/packages/fe/48/4d304022057f0e254fc8916a718a52b355f0ae2843c22d86139803ae0020/docassemble.webapp-1.4.8.tar.gz
+[2023-06-06 01:18:43] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b6/de/f3172b8f928ec31c47cbc2e23d6a875eea575cba8e11ad4548900923efa1/ultralytics-8.0.98.tar.gz
+[2023-06-06 01:18:43] INFO root fetch - processPackages [label-studio]: Downloading https://files.pythonhosted.org/packages/33/2b/ff76b68ea7bc4abd6557966e896e817a6d14ba0f5f31ddc8006335bf3172/label-studio-1.7.3.tar.gz
+[2023-06-06 01:18:43] INFO root fetch - processPackages [docassemble.demo]: Downloading https://files.pythonhosted.org/packages/12/65/72be3778d6c8df2fc0725932b11671c295cbe40fccf8e32f5fad392c226b/docassemble.demo-1.4.8.tar.gz
+[2023-06-06 01:18:43] INFO root fetch - processPackages [faker-file]: Downloading https://files.pythonhosted.org/packages/3b/a1/ad4ac7b368163a317102172cd45891028d6b068dc096e110814cc517deed/faker-file-0.9.2.tar.gz
+[2023-06-06 01:18:43] INFO root fetch - processPackages [homeassistant]: Downloading https://files.pythonhosted.org/packages/1c/34/b951177aaccbdcb37806c54a9ce1355b04498205c6d74095955b113bf597/homeassistant-2023.6.0b4.tar.gz
+[2023-06-06 01:18:43] INFO root fetch - processPackages [docassemble.base]: Downloading https://files.pythonhosted.org/packages/49/6f/c82f5b1b26e0b12bdf1e565f9218b862142854979a0f01ea54c864ac7770/docassemble.base-1.4.8.tar.gz
+[2023-06-06 01:18:43] WARNING root fetch - processPackages [label-studio]: Skipping package: exceeds size limit 45996155>=10485760
+[2023-06-06 01:18:43] INFO root fetch - processPackages [label-studio]: Start processing: benchling-api-client
+[2023-06-06 01:18:43] INFO root fetch - main [MainThread]: End processing [label-studio] error
+[2023-06-06 01:18:43] WARNING root fetch - processPackages [homeassistant]: Skipping package: exceeds size limit 14172761>=10485760
+[2023-06-06 01:18:43] INFO root fetch - processPackages [homeassistant]: Start processing: flowtask
+[2023-06-06 01:18:43] INFO root fetch - main [MainThread]: End processing [homeassistant] error
+[2023-06-06 01:18:43] WARNING root fetch - processPackages [docassemble.base]: Skipping package: exceeds size limit 10987248>=10485760
+[2023-06-06 01:18:43] INFO root fetch - processPackages [docassemble.base]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-06 01:18:43] INFO root fetch - main [MainThread]: End processing [docassemble.base] error
+[2023-06-06 01:18:43] INFO root fetch - processPackages [benchling-api-client]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-06 01:18:43] INFO root fetch - processPackages [flowtask]: New version: [4.4.2] Old Version: [4.4.1]
+[2023-06-06 01:18:43] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.347] Old Version: [0.3.346]
+[2023-06-06 01:18:43] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/37/1f/ec3257279cacd7cdba7cca4b82e3e3e5c2d3fdac9efc42818a9090b8ef3d/pepperize.cdk-ses-smtp-credentials-0.3.346.tar.gz
+[2023-06-06 01:18:43] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/e8/a2/d69626d52de92e95f2d4cc76fbb1fa19b1758353f5896f5e989e18a6949a/flowtask-4.4.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-06 01:18:44] INFO root fetch - processPackages [docassemble]: Downloading https://files.pythonhosted.org/packages/8b/4e/0fabe3ae223b84b73fa9a38526c3f22a21eab5f747f408034f5c0ba59e7d/docassemble-1.4.9.tar.gz
+[2023-06-06 01:18:44] INFO root fetch - processPackages [viser]: Downloading https://files.pythonhosted.org/packages/cb/f5/f013f503f5b339d78ad453be61c50acb5961c960d8c771453d6f3817f03c/viser-0.0.9.tar.gz
+[2023-06-06 01:18:44] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/ce/1d/9c3669396c4c52924ccf39a48a438a2c8167c4fb512eca865bd64066d33e/benchling_api_client-2.0.98.tar.gz
+[2023-06-06 01:18:44] INFO root fetch - processPackages [docassemble]: executing diffoscope
+[2023-06-06 01:18:44] INFO root fetch - processPackages [docassemble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble-1.4.8.tar.gz tmp/docassemble-1.4.9.tar.gz --markdown 20230606/d/docassemble/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-06 01:18:44] INFO root fetch - processPackages [docassemble.webapp]: Downloading https://files.pythonhosted.org/packages/ee/bd/035c358ae80b3b4826a36a17e6a993251ad2bb4c42b826fd879f02355d0e/docassemble.webapp-1.4.9.tar.gz
+[2023-06-06 01:18:44] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/b6/1e/fd8335c027c927ff9cf28c41d1bd15a6a0870b37fcbac813da7a5d309688/pepperize.cdk-ses-smtp-credentials-0.3.347.tar.gz
+[2023-06-06 01:18:44] INFO root fetch - processPackages [docassemble.demo]: Downloading https://files.pythonhosted.org/packages/ea/e2/301126e8ccea026042cf14b25646d8a8775d5bc90eaed08eb9da6c61421a/docassemble.demo-1.4.9.tar.gz
+[2023-06-06 01:18:44] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/c4/53/dad7a7f5cf86a0865b683d3c3c49969f6e164bd528b2ac4597f93f10e019/flowtask-4.4.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-06 01:18:44] INFO root fetch - processPackages [faker-file]: Downloading https://files.pythonhosted.org/packages/91/2c/08a72a0cb6b8f0b657b334700bce122299a7f1c0d94c1e201959121ee226/faker-file-0.9.3.tar.gz
+[2023-06-06 01:18:44] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b3/b0/87b289ca8a910cd1421d5a217c06fb642b51546dd96bd6b923c67be00415/ultralytics-8.0.99.tar.gz
+[2023-06-06 01:18:44] INFO root fetch - processPackages [viser]: executing diffoscope
+[2023-06-06 01:18:44] INFO root fetch - processPackages [psifr]: Downloading https://files.pythonhosted.org/packages/fc/35/0fce1dcc822a90f398889dae0f0c196bd403d6fb9726726bec4f6d9911c0/psifr-0.9.0.tar.gz
+[2023-06-06 01:18:44] INFO root fetch - processPackages [viser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viser-0.0.8.tar.gz tmp/viser-0.0.9.tar.gz --markdown 20230606/v/viser/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 01:18:44] INFO root fetch - processPackages [faker-file]: executing diffoscope
+[2023-06-06 01:18:44] INFO root fetch - processPackages [faker-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faker-file-0.9.2.tar.gz tmp/faker-file-0.9.3.tar.gz --markdown 20230606/f/faker-file/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-06 01:18:44] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-06 01:18:44] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.346.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.347.tar.gz --markdown 20230606/p/pepperize.cdk-ses-smtp-credentials/0.3.346-0.3.347/diff.md --exclude *.pyd
+[2023-06-06 01:18:44] INFO root fetch - processPackages [docassemble.webapp]: executing diffoscope
+[2023-06-06 01:18:44] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/f9/23/649c2147d11c171b4b3d27c6a52dab32d22dc24ec1c248cf5d1dd8a4451d/benchling_api_client-2.0.99.tar.gz
+[2023-06-06 01:18:44] INFO root fetch - processPackages [docassemble.webapp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble.webapp-1.4.8.tar.gz tmp/docassemble.webapp-1.4.9.tar.gz --markdown 20230606/d/docassemble.webapp/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-06 01:18:44] INFO root fetch - processPackages [docassemble.demo]: executing diffoscope
+[2023-06-06 01:18:44] INFO root fetch - processPackages [docassemble.demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docassemble.demo-1.4.8.tar.gz tmp/docassemble.demo-1.4.9.tar.gz --markdown 20230606/d/docassemble.demo/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-06 01:18:44] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-06-06 01:18:44] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.98.tar.gz tmp/ultralytics-8.0.99.tar.gz --markdown 20230606/u/ultralytics/8.0.98-8.0.99/diff.md --exclude *.pyd
+[2023-06-06 01:18:44] INFO root fetch - processPackages [psifr]: executing diffoscope
+[2023-06-06 01:18:44] INFO root fetch - processPackages [psifr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psifr-0.8.2.tar.gz tmp/psifr-0.9.0.tar.gz --markdown 20230606/p/psifr/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-06 01:18:44] INFO root fetch - processPackages [benchling-api-client]: executing diffoscope
+[2023-06-06 01:18:44] INFO root fetch - processPackages [benchling-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_api_client-2.0.98.tar.gz tmp/benchling_api_client-2.0.99.tar.gz --markdown 20230606/b/benchling-api-client/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-06 01:18:44] INFO root fetch - processPackages [flowtask]: executing diffoscope
+[2023-06-06 01:18:44] INFO root fetch - processPackages [flowtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowtask-4.4.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/flowtask-4.4.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230606/f/flowtask/4.4.1-4.4.2/diff.md --exclude *.pyd
+[2023-06-06 01:18:45] INFO root fetch - processPackages [docassemble]: Remove: archive file [/home/abi/fetcher/tmp/docassemble-1.4.8.tar.gz]
+[2023-06-06 01:18:45] INFO root fetch - processPackages [docassemble]: Remove: archive file [/home/abi/fetcher/tmp/docassemble-1.4.9.tar.gz]
+[2023-06-06 01:18:45] INFO root fetch - processPackages [docassemble]: Start processing: metaphor-models
+[2023-06-06 01:18:45] INFO root fetch - main [MainThread]: End processing [docassemble]: success
+[2023-06-06 01:18:45] INFO root fetch - processPackages [metaphor-models]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-06 01:18:45] INFO root fetch - processPackages [metaphor-models]: Downloading https://files.pythonhosted.org/packages/74/c8/861ac19e980a9e86a231d993a5edbbe8c2ed5a3c7ec8a0d0202fc8ec34c7/metaphor-models-0.9.0.tar.gz
+[2023-06-06 01:18:46] INFO root fetch - processPackages [metaphor-models]: Downloading https://files.pythonhosted.org/packages/56/65/21a7865fd28d1a8651af865fd1ef807e93d934f8e69bf168c4bd764821d7/metaphor-models-0.9.1.tar.gz
+[2023-06-06 01:18:46] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.346.tar.gz]
+[2023-06-06 01:18:46] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.347.tar.gz]
+[2023-06-06 01:18:46] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Start processing: pinecone-client
+[2023-06-06 01:18:46] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-06 01:18:46] INFO root fetch - processPackages [pinecone-client]: New version: [3.0.0rc2] Old Version: [2.2.2rc3]
+[2023-06-06 01:18:46] INFO root fetch - processPackages [metaphor-models]: executing diffoscope
+[2023-06-06 01:18:46] INFO root fetch - processPackages [metaphor-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metaphor-models-0.9.0.tar.gz tmp/metaphor-models-0.9.1.tar.gz --markdown 20230606/m/metaphor-models/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-06 01:18:46] INFO root fetch - processPackages [pinecone-client]: Downloading https://files.pythonhosted.org/packages/9a/95/49151ae4d5f8c68a61fb1c2a456f7d4b00d77748017f8c4f3c3df18cde44/pinecone-client-2.2.2rc3.tar.gz
+[2023-06-06 01:18:46] INFO root fetch - processPackages [psifr]: Remove: archive file [/home/abi/fetcher/tmp/psifr-0.8.2.tar.gz]
+[2023-06-06 01:18:46] INFO root fetch - processPackages [psifr]: Remove: archive file [/home/abi/fetcher/tmp/psifr-0.9.0.tar.gz]
+[2023-06-06 01:18:46] INFO root fetch - main [MainThread]: End processing [psifr]: success
+[2023-06-06 01:18:47] INFO root fetch - processPackages [pinecone-client]: Downloading https://files.pythonhosted.org/packages/ff/d5/68a0e91460cfa23e60d89ec1fc56fc93efe811521fed1a263634e019c52b/pinecone_client-3.0.0rc2.tar.gz
+[2023-06-06 01:18:47] INFO root fetch - processPackages [pinecone-client]: executing diffoscope
+[2023-06-06 01:18:47] INFO root fetch - processPackages [pinecone-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pinecone-client-2.2.2rc3.tar.gz tmp/pinecone_client-3.0.0rc2.tar.gz --markdown 20230606/p/pinecone-client/2.2.2rc3-3.0.0rc2/diff.md --exclude *.pyd
+[2023-06-06 01:18:47] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.98.tar.gz]
+[2023-06-06 01:18:47] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.99.tar.gz]
+[2023-06-06 01:18:47] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-06-06 01:18:47] INFO root fetch - processPackages [faker-file]: Remove: archive file [/home/abi/fetcher/tmp/faker-file-0.9.2.tar.gz]
+[2023-06-06 01:18:47] INFO root fetch - processPackages [faker-file]: Remove: archive file [/home/abi/fetcher/tmp/faker-file-0.9.3.tar.gz]
+[2023-06-06 01:18:47] INFO root fetch - main [MainThread]: End processing [faker-file]: success
+[2023-06-06 01:18:47] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.4.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-06 01:18:47] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.4.2-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-06 01:18:47] INFO root fetch - main [MainThread]: End processing [flowtask]: success
+[2023-06-06 01:18:47] INFO root fetch - processPackages [metaphor-models]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-models-0.9.0.tar.gz]
+[2023-06-06 01:18:47] INFO root fetch - processPackages [metaphor-models]: Remove: archive file [/home/abi/fetcher/tmp/metaphor-models-0.9.1.tar.gz]
+[2023-06-06 01:18:47] INFO root fetch - main [MainThread]: End processing [metaphor-models]: success
+[2023-06-06 01:18:48] INFO root fetch - processPackages [pinecone-client]: Remove: archive file [/home/abi/fetcher/tmp/pinecone-client-2.2.2rc3.tar.gz]
+[2023-06-06 01:18:48] INFO root fetch - processPackages [pinecone-client]: Remove: archive file [/home/abi/fetcher/tmp/pinecone_client-3.0.0rc2.tar.gz]
+[2023-06-06 01:18:48] INFO root fetch - main [MainThread]: End processing [pinecone-client]: success
+[2023-06-06 01:18:54] INFO root fetch - processPackages [docassemble.demo]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.demo-1.4.8.tar.gz]
+[2023-06-06 01:18:54] INFO root fetch - processPackages [docassemble.demo]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.demo-1.4.9.tar.gz]
+[2023-06-06 01:18:54] INFO root fetch - main [MainThread]: End processing [docassemble.demo]: success
+[2023-06-06 01:18:57] INFO root fetch - processPackages [docassemble.webapp]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.webapp-1.4.8.tar.gz]
+[2023-06-06 01:18:57] INFO root fetch - processPackages [docassemble.webapp]: Remove: archive file [/home/abi/fetcher/tmp/docassemble.webapp-1.4.9.tar.gz]
+[2023-06-06 01:18:57] INFO root fetch - main [MainThread]: End processing [docassemble.webapp]: success
+[2023-06-06 01:20:34] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.98.tar.gz]
+[2023-06-06 01:20:34] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.99.tar.gz]
+[2023-06-06 01:20:34] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
+[2023-06-06 01:21:01] INFO root fetch - processPackages [viser]: Remove: archive file [/home/abi/fetcher/tmp/viser-0.0.8.tar.gz]
+[2023-06-06 01:21:01] INFO root fetch - processPackages [viser]: Remove: archive file [/home/abi/fetcher/tmp/viser-0.0.9.tar.gz]
+[2023-06-06 01:21:01] INFO root fetch - main [MainThread]: End processing [viser]: success
+[2023-06-06 01:21:01] INFO root fetch - main [MainThread]: Store serial: [18382571]
