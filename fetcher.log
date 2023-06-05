@@ -1885,3 +1885,65 @@
 [2023-06-06 01:54:17] INFO root fetch - processPackages [sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_vss-0.1.1a9-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
 [2023-06-06 01:54:17] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
 [2023-06-06 01:54:17] INFO root fetch - main [MainThread]: Store serial: [18382765]
+[2023-06-06 01:59:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18382765]
+[2023-06-06 01:59:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-06 01:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: maadstml
+[2023-06-06 01:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nyckel
+[2023-06-06 01:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kolibri-ml
+[2023-06-06 01:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: np-nwb-trials
+[2023-06-06 01:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sleep-inhibitor
+[2023-06-06 01:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: np-tools
+[2023-06-06 01:59:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vollseg
+[2023-06-06 01:59:26] INFO root fetch - processPackages [maadstml]: New version: [3.24] Old Version: [3.23]
+[2023-06-06 01:59:26] INFO root fetch - processPackages [nyckel]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 01:59:26] INFO root fetch - processPackages [np-nwb-trials]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-06 01:59:26] INFO root fetch - processPackages [kolibri-ml]: New version: [1.1.8] Old Version: [1.1.72]
+[2023-06-06 01:59:26] INFO root fetch - processPackages [np-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 01:59:26] INFO root fetch - processPackages [sleep-inhibitor]: New version: [1.9] Old Version: [1.8.1]
+[2023-06-06 01:59:26] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-06 01:59:26] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-06 01:59:26] INFO root fetch - processPackages [np-tools]: Downloading https://files.pythonhosted.org/packages/7d/00/4ffdf7879b57a53675c0a072a6994ee222cef3f6c1623e7c822a02d2d8be/np_tools-0.1.8.tar.gz
+[2023-06-06 01:59:26] INFO root fetch - processPackages [nyckel]: Downloading https://files.pythonhosted.org/packages/84/16/921be5721a1bf9aaa52ee17c5a3877a7fb5eee5fffba36999ff2ce374379/nyckel-0.0.8.tar.gz
+[2023-06-06 01:59:26] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/a7/b5/4825d202a6a7f5553dd8b36ac988db37653e7d2e97d624ab018679542efa/kolibri_ml-1.1.72-py3-none-any.whl
+[2023-06-06 01:59:26] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-06 01:59:26] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-06 01:59:26] INFO root fetch - processPackages [np-nwb-trials]: Downloading https://files.pythonhosted.org/packages/84/38/af012f84270d5d916f6bc2e03eb22bc7e998b30520d6eefa5e8c476cbaba/np-nwb-trials-0.1.0.tar.gz
+[2023-06-06 01:59:26] INFO root fetch - processPackages [sleep-inhibitor]: Downloading https://files.pythonhosted.org/packages/c1/3a/3a6c64088b2a48f43e4460792b144c42fbb4805e71ef2450ed9a82c63830/sleep-inhibitor-1.8.1.tar.gz
+[2023-06-06 01:59:26] INFO root fetch - processPackages [maadstml]: Downloading https://files.pythonhosted.org/packages/9f/44/7eb217ee7880cf7e0a12ce52fde21bb4c717006881a97939fd6145061704/maadstml-3.23.tar.gz
+[2023-06-06 01:59:26] INFO root fetch - processPackages [np-tools]: Downloading https://files.pythonhosted.org/packages/63/fb/c0aa437bbfc78ecde48c8fd50dc43e54d68497a94d2f9416445f466a76b6/np_tools-0.1.9.tar.gz
+[2023-06-06 01:59:26] INFO root fetch - processPackages [np-tools]: executing diffoscope
+[2023-06-06 01:59:26] INFO root fetch - processPackages [np-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_tools-0.1.8.tar.gz tmp/np_tools-0.1.9.tar.gz --markdown 20230606/n/np-tools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 01:59:26] INFO root fetch - processPackages [nyckel]: Downloading https://files.pythonhosted.org/packages/44/be/18126ac7e7be3b6db5916e37529641b2aa83b85ad3076f23a737bac70bf7/nyckel-0.0.9.tar.gz
+[2023-06-06 01:59:26] INFO root fetch - processPackages [np-nwb-trials]: Downloading https://files.pythonhosted.org/packages/e8/f8/775b6a952a6b512ee4d193ac1a8cdc8555a441a3cea26de7ceea2f8b6a24/np-nwb-trials-0.2.0.tar.gz
+[2023-06-06 01:59:26] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/cf/97/90c21f98d1d917a1aba37dde9f7497a137a46ef54f7c363a162fd4a91d71/kolibri_ml-1.1.8-py3-none-any.whl
+[2023-06-06 01:59:26] INFO root fetch - processPackages [maadstml]: Downloading https://files.pythonhosted.org/packages/2a/4d/1d531af1f75a1945cd458510882555ea4e7899e78bf82a9a2d8f6f76b07e/maadstml-3.24.tar.gz
+[2023-06-06 01:59:27] INFO root fetch - processPackages [nyckel]: executing diffoscope
+[2023-06-06 01:59:27] INFO root fetch - processPackages [nyckel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyckel-0.0.8.tar.gz tmp/nyckel-0.0.9.tar.gz --markdown 20230606/n/nyckel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 01:59:27] INFO root fetch - processPackages [maadstml]: executing diffoscope
+[2023-06-06 01:59:27] INFO root fetch - processPackages [maadstml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maadstml-3.23.tar.gz tmp/maadstml-3.24.tar.gz --markdown 20230606/m/maadstml/3.23-3.24/diff.md --exclude *.pyd
+[2023-06-06 01:59:27] INFO root fetch - processPackages [kolibri-ml]: executing diffoscope
+[2023-06-06 01:59:27] INFO root fetch - processPackages [kolibri-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolibri_ml-1.1.72-py3-none-any.whl.zip tmp/kolibri_ml-1.1.8-py3-none-any.whl.zip --markdown 20230606/k/kolibri-ml/1.1.72-1.1.8/diff.md --exclude *.pyd
+[2023-06-06 01:59:27] INFO root fetch - processPackages [np-nwb-trials]: executing diffoscope
+[2023-06-06 01:59:27] INFO root fetch - processPackages [np-nwb-trials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np-nwb-trials-0.1.0.tar.gz tmp/np-nwb-trials-0.2.0.tar.gz --markdown 20230606/n/np-nwb-trials/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-06 01:59:27] INFO root fetch - processPackages [sleep-inhibitor]: Downloading https://files.pythonhosted.org/packages/e1/0c/4e177110002dd7654fa87c662a524b3dbc80c6f08624bede67ad498257ad/sleep-inhibitor-1.9.tar.gz
+[2023-06-06 01:59:27] INFO root fetch - processPackages [sleep-inhibitor]: executing diffoscope
+[2023-06-06 01:59:27] INFO root fetch - processPackages [sleep-inhibitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleep-inhibitor-1.8.1.tar.gz tmp/sleep-inhibitor-1.9.tar.gz --markdown 20230606/s/sleep-inhibitor/1.8.1-1.9/diff.md --exclude *.pyd
+[2023-06-06 01:59:28] INFO root fetch - processPackages [np-tools]: Remove: archive file [/home/abi/fetcher/tmp/np_tools-0.1.8.tar.gz]
+[2023-06-06 01:59:28] INFO root fetch - processPackages [np-tools]: Remove: archive file [/home/abi/fetcher/tmp/np_tools-0.1.9.tar.gz]
+[2023-06-06 01:59:28] INFO root fetch - main [MainThread]: End processing [np-tools]: success
+[2023-06-06 01:59:28] INFO root fetch - processPackages [nyckel]: Remove: archive file [/home/abi/fetcher/tmp/nyckel-0.0.8.tar.gz]
+[2023-06-06 01:59:28] INFO root fetch - processPackages [nyckel]: Remove: archive file [/home/abi/fetcher/tmp/nyckel-0.0.9.tar.gz]
+[2023-06-06 01:59:28] INFO root fetch - main [MainThread]: End processing [nyckel]: success
+[2023-06-06 01:59:28] INFO root fetch - processPackages [maadstml]: Remove: archive file [/home/abi/fetcher/tmp/maadstml-3.23.tar.gz]
+[2023-06-06 01:59:28] INFO root fetch - processPackages [maadstml]: Remove: archive file [/home/abi/fetcher/tmp/maadstml-3.24.tar.gz]
+[2023-06-06 01:59:28] INFO root fetch - main [MainThread]: End processing [maadstml]: success
+[2023-06-06 01:59:28] INFO root fetch - processPackages [np-nwb-trials]: Remove: archive file [/home/abi/fetcher/tmp/np-nwb-trials-0.1.0.tar.gz]
+[2023-06-06 01:59:28] INFO root fetch - processPackages [np-nwb-trials]: Remove: archive file [/home/abi/fetcher/tmp/np-nwb-trials-0.2.0.tar.gz]
+[2023-06-06 01:59:28] INFO root fetch - main [MainThread]: End processing [np-nwb-trials]: success
+[2023-06-06 01:59:28] INFO root fetch - processPackages [sleep-inhibitor]: Remove: archive file [/home/abi/fetcher/tmp/sleep-inhibitor-1.8.1.tar.gz]
+[2023-06-06 01:59:28] INFO root fetch - processPackages [sleep-inhibitor]: Remove: archive file [/home/abi/fetcher/tmp/sleep-inhibitor-1.9.tar.gz]
+[2023-06-06 01:59:28] INFO root fetch - main [MainThread]: End processing [sleep-inhibitor]: success
+[2023-06-06 01:59:36] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.72-py3-none-any.whl.zip]
+[2023-06-06 01:59:36] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.8-py3-none-any.whl.zip]
+[2023-06-06 01:59:36] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
+[2023-06-06 01:59:36] INFO root fetch - main [MainThread]: Store serial: [18382785]
