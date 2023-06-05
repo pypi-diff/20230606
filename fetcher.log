@@ -859,3 +859,90 @@
 [2023-06-06 00:39:26] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230605223657-py3-none-any.whl.zip]
 [2023-06-06 00:39:26] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2023-06-06 00:39:26] INFO root fetch - main [MainThread]: Store serial: [18382288]
+[2023-06-06 00:44:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18382288]
+[2023-06-06 00:44:34] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-06 00:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: djangocms-simple-admin-style
+[2023-06-06 00:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lbt-dragonfly
+[2023-06-06 00:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: python-roborock
+[2023-06-06 00:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: steganodf
+[2023-06-06 00:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: SBILoops
+[2023-06-06 00:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-account-credit-control
+[2023-06-06 00:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dql-alpha
+[2023-06-06 00:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coremltools
+[2023-06-06 00:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Anaplan-API-Python-Library
+[2023-06-06 00:44:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: parsl
+[2023-06-06 00:44:34] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-06-06 00:44:34] INFO root fetch - processPackages [djangocms-simple-admin-style]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-06 00:44:34] INFO root fetch - processPackages [steganodf]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-06 00:44:34] INFO root fetch - processPackages [SBILoops]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-06 00:44:35] INFO root fetch - processPackages [odoo-addon-account-credit-control]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.5]
+[2023-06-06 00:44:35] INFO root fetch - processPackages [dql-alpha]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-06 00:44:35] INFO root fetch - processPackages [parsl]: New version: [2023.6.5] Old Version: [2023.5.8]
+[2023-06-06 00:44:35] WARNING root fetch - processPackages [Anaplan-API-Python-Library]: Skipping, unable to determine old version
+[2023-06-06 00:44:35] INFO root fetch - main [MainThread]: End processing [Anaplan-API-Python-Library] error
+[2023-06-06 00:44:35] INFO root fetch - processPackages [coremltools]: New version: [7.0b1] Old Version: [6.3.0]
+[2023-06-06 00:44:35] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-06-06 00:44:35] INFO root fetch - processPackages [SBILoops]: Downloading https://files.pythonhosted.org/packages/63/2a/a7fffc30551bc570b27e9ae895e62ec7a333cfe92da97b189c0cfd14eed9/SBILoops-0.2.1.tar.gz
+[2023-06-06 00:44:35] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/bc/a5/7bd08437421c34e92b81b72e3d3eaf9ab00bc7dcca9dd03a427476c13e59/python_roborock-0.9.0.tar.gz
+[2023-06-06 00:44:35] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-06-06 00:44:35] INFO root fetch - processPackages [djangocms-simple-admin-style]: Downloading https://files.pythonhosted.org/packages/a9/5b/1f61b495bab471b23aea23cafa1861e024c3609b4d240a83a5905dbff2c8/djangocms-simple-admin-style-0.4.4.tar.gz
+[2023-06-06 00:44:35] INFO root fetch - processPackages [odoo-addon-account-credit-control]: Downloading https://files.pythonhosted.org/packages/bf/17/5f267d3f057fd70a41385747852a234d0168d61d0386a50f064e58cb265e/odoo_addon_account_credit_control-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-06 00:44:35] INFO root fetch - processPackages [steganodf]: Downloading https://files.pythonhosted.org/packages/0c/24/8b06c8ba81df2730e0f7435db2b0440dfe7f1369b243438b0bc6d44fb80e/steganodf-0.1.1.tar.gz
+[2023-06-06 00:44:35] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/40/9b/30bb82604def56c9a66db0578b68938e38bd30a9c931295d66012a137825/python_roborock-0.9.0rc0.tar.gz
+[2023-06-06 00:44:35] INFO root fetch - processPackages [dql-alpha]: Downloading https://files.pythonhosted.org/packages/60/8e/27c481daa147be803b678cc7bfdff371dfff6e0cc9ec15e0bfe25ef6773c/dql-alpha-0.8.0.tar.gz
+[2023-06-06 00:44:35] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-06-06 00:44:35] INFO root fetch - processPackages [coremltools]: Downloading https://files.pythonhosted.org/packages/b3/1d/fdd85a22cca286a85d48721a95b6f59976daa99b02e90f71351bf7f31db9/coremltools-6.3.0.tar.gz
+[2023-06-06 00:44:35] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/4d/9e/cd09cfd1048ae5b90d606eb634587248820b8d470107c3f0dbc358fb75c2/parsl-2023.5.8.tar.gz
+[2023-06-06 00:44:35] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-06-06 00:44:35] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.9.0.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230606/p/python-roborock/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-06-06 00:44:35] INFO root fetch - processPackages [SBILoops]: Downloading https://files.pythonhosted.org/packages/70/25/2550b7eac18a07ca42a65a7d119019890805164526cca458d3df110c7139/SBILoops-0.2.2.tar.gz
+[2023-06-06 00:44:35] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-06-06 00:44:35] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230606/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-06-06 00:44:35] INFO root fetch - processPackages [djangocms-simple-admin-style]: Downloading https://files.pythonhosted.org/packages/c2/14/5efcbd10900eb7c239b3fa150bbfc8e025725657ef97e93d3a5f4e5b1864/djangocms-simple-admin-style-0.4.5.tar.gz
+[2023-06-06 00:44:35] INFO root fetch - processPackages [steganodf]: Downloading https://files.pythonhosted.org/packages/ff/9a/58b1f716b0a315f8b6311462bb18eee12ddf0820a10c19090bd86c290c63/steganodf-0.1.2.tar.gz
+[2023-06-06 00:44:35] INFO root fetch - processPackages [SBILoops]: executing diffoscope
+[2023-06-06 00:44:35] INFO root fetch - processPackages [SBILoops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SBILoops-0.2.1.tar.gz tmp/SBILoops-0.2.2.tar.gz --markdown 20230606/S/SBILoops/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-06 00:44:35] INFO root fetch - processPackages [odoo-addon-account-credit-control]: Downloading https://files.pythonhosted.org/packages/45/dc/6fcf63b87be30e7f08507821fdf4121f1ef9580b0116c6b21fa45f0f66ab/odoo_addon_account_credit_control-16.0.1.0.1-py3-none-any.whl
+[2023-06-06 00:44:35] INFO root fetch - processPackages [djangocms-simple-admin-style]: executing diffoscope
+[2023-06-06 00:44:35] INFO root fetch - processPackages [djangocms-simple-admin-style]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms-simple-admin-style-0.4.4.tar.gz tmp/djangocms-simple-admin-style-0.4.5.tar.gz --markdown 20230606/d/djangocms-simple-admin-style/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-06 00:44:35] INFO root fetch - processPackages [steganodf]: executing diffoscope
+[2023-06-06 00:44:35] INFO root fetch - processPackages [steganodf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steganodf-0.1.1.tar.gz tmp/steganodf-0.1.2.tar.gz --markdown 20230606/s/steganodf/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-06 00:44:35] INFO root fetch - processPackages [dql-alpha]: Downloading https://files.pythonhosted.org/packages/5f/4b/932e15e7e71f8b51b4966e96056e13cbd2203696a798fbe0c15a8ad136d8/dql-alpha-0.9.0.tar.gz
+[2023-06-06 00:44:35] INFO root fetch - processPackages [parsl]: Downloading https://files.pythonhosted.org/packages/38/83/17847e1f1f6a2c7fcabf5f2438004df559ee716ebc308fe5ccb489dfac1f/parsl-2023.6.5.tar.gz
+[2023-06-06 00:44:35] INFO root fetch - processPackages [coremltools]: Downloading https://files.pythonhosted.org/packages/11/64/694087b40580d67f929c9313cd75e2d6b99c50e95dba51497c7e304fbdbf/coremltools-7.0b1.tar.gz
+[2023-06-06 00:44:35] INFO root fetch - processPackages [odoo-addon-account-credit-control]: executing diffoscope
+[2023-06-06 00:44:35] INFO root fetch - processPackages [odoo-addon-account-credit-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_credit_control-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_account_credit_control-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-account-credit-control/16.0.1.0.0.5-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-06-06 00:44:35] INFO root fetch - processPackages [dql-alpha]: executing diffoscope
+[2023-06-06 00:44:35] INFO root fetch - processPackages [dql-alpha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dql-alpha-0.8.0.tar.gz tmp/dql-alpha-0.9.0.tar.gz --markdown 20230606/d/dql-alpha/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-06 00:44:35] INFO root fetch - processPackages [parsl]: executing diffoscope
+[2023-06-06 00:44:35] INFO root fetch - processPackages [parsl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parsl-2023.5.8.tar.gz tmp/parsl-2023.6.5.tar.gz --markdown 20230606/p/parsl/2023.5.8-2023.6.5/diff.md --exclude *.pyd
+[2023-06-06 00:44:35] INFO root fetch - processPackages [coremltools]: executing diffoscope
+[2023-06-06 00:44:35] INFO root fetch - processPackages [coremltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coremltools-6.3.0.tar.gz tmp/coremltools-7.0b1.tar.gz --markdown 20230606/c/coremltools/6.3.0-7.0b1/diff.md --exclude *.pyd
+[2023-06-06 00:44:36] INFO root fetch - processPackages [steganodf]: Remove: archive file [/home/abi/fetcher/tmp/steganodf-0.1.1.tar.gz]
+[2023-06-06 00:44:36] INFO root fetch - processPackages [steganodf]: Remove: archive file [/home/abi/fetcher/tmp/steganodf-0.1.2.tar.gz]
+[2023-06-06 00:44:36] INFO root fetch - main [MainThread]: End processing [steganodf]: success
+[2023-06-06 00:44:37] INFO root fetch - processPackages [djangocms-simple-admin-style]: Remove: archive file [/home/abi/fetcher/tmp/djangocms-simple-admin-style-0.4.4.tar.gz]
+[2023-06-06 00:44:37] INFO root fetch - processPackages [djangocms-simple-admin-style]: Remove: archive file [/home/abi/fetcher/tmp/djangocms-simple-admin-style-0.4.5.tar.gz]
+[2023-06-06 00:44:37] INFO root fetch - main [MainThread]: End processing [djangocms-simple-admin-style]: success
+[2023-06-06 00:44:37] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-06-06 00:44:37] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-06-06 00:44:37] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-06-06 00:44:37] INFO root fetch - processPackages [python-roborock]: Remove: archive file [/home/abi/fetcher/tmp/python_roborock-0.9.0.tar.gz]
+[2023-06-06 00:44:37] INFO root fetch - processPackages [python-roborock]: Remove: archive file [/home/abi/fetcher/tmp/python_roborock-0.9.0rc0.tar.gz]
+[2023-06-06 00:44:37] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-06-06 00:44:37] INFO root fetch - processPackages [SBILoops]: Remove: archive file [/home/abi/fetcher/tmp/SBILoops-0.2.1.tar.gz]
+[2023-06-06 00:44:37] INFO root fetch - processPackages [SBILoops]: Remove: archive file [/home/abi/fetcher/tmp/SBILoops-0.2.2.tar.gz]
+[2023-06-06 00:44:37] INFO root fetch - main [MainThread]: End processing [SBILoops]: success
+[2023-06-06 00:44:37] INFO root fetch - processPackages [odoo-addon-account-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_credit_control-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-06 00:44:37] INFO root fetch - processPackages [odoo-addon-account-credit-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_credit_control-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-06 00:44:37] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-credit-control]: success
+[2023-06-06 00:44:38] INFO root fetch - processPackages [dql-alpha]: Remove: archive file [/home/abi/fetcher/tmp/dql-alpha-0.8.0.tar.gz]
+[2023-06-06 00:44:38] INFO root fetch - processPackages [dql-alpha]: Remove: archive file [/home/abi/fetcher/tmp/dql-alpha-0.9.0.tar.gz]
+[2023-06-06 00:44:38] INFO root fetch - main [MainThread]: End processing [dql-alpha]: success
+[2023-06-06 00:44:39] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2023.5.8.tar.gz]
+[2023-06-06 00:44:39] INFO root fetch - processPackages [parsl]: Remove: archive file [/home/abi/fetcher/tmp/parsl-2023.6.5.tar.gz]
+[2023-06-06 00:44:39] INFO root fetch - main [MainThread]: End processing [parsl]: success
+[2023-06-06 00:44:43] INFO root fetch - processPackages [coremltools]: Remove: archive file [/home/abi/fetcher/tmp/coremltools-6.3.0.tar.gz]
+[2023-06-06 00:44:43] INFO root fetch - processPackages [coremltools]: Remove: archive file [/home/abi/fetcher/tmp/coremltools-7.0b1.tar.gz]
+[2023-06-06 00:44:43] INFO root fetch - main [MainThread]: End processing [coremltools]: success
+[2023-06-06 00:44:43] INFO root fetch - main [MainThread]: Store serial: [18382333]
