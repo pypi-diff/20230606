@@ -1648,3 +1648,39 @@
 [2023-06-06 01:31:32] INFO root fetch - processPackages [img2table]: Remove: archive file [/home/abi/fetcher/tmp/img2table-1.0.2.tar.gz]
 [2023-06-06 01:31:32] INFO root fetch - main [MainThread]: End processing [img2table]: success
 [2023-06-06 01:31:32] INFO root fetch - main [MainThread]: Store serial: [18382654]
+[2023-06-06 01:36:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18382654]
+[2023-06-06 01:36:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-06 01:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiofauna
+[2023-06-06 01:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: msglib
+[2023-06-06 01:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Digiseller-API-TokenManager
+[2023-06-06 01:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tornado-cliff-walking
+[2023-06-06 01:36:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cwsearch-utils
+[2023-06-06 01:36:40] INFO root fetch - processPackages [aiofauna]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 01:36:40] INFO root fetch - processPackages [tornado-cliff-walking]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-06-06 01:36:40] INFO root fetch - processPackages [cwsearch-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 01:36:40] WARNING root fetch - processPackages [msglib]: Skipping, unable to determine old version
+[2023-06-06 01:36:40] INFO root fetch - main [MainThread]: End processing [msglib] error
+[2023-06-06 01:36:40] WARNING root fetch - processPackages [Digiseller-API-TokenManager]: Skipping, unable to determine old version
+[2023-06-06 01:36:40] INFO root fetch - main [MainThread]: End processing [Digiseller-API-TokenManager] error
+[2023-06-06 01:36:41] INFO root fetch - processPackages [tornado-cliff-walking]: Downloading https://files.pythonhosted.org/packages/19/5d/abfbd5e2fe91abd83d0bb724b2057521129e782e38fd50c52efef786c093/tornado_cliff_walking-0.0.3.tar.gz
+[2023-06-06 01:36:41] INFO root fetch - processPackages [cwsearch-utils]: Downloading https://files.pythonhosted.org/packages/65/c9/a64d8fa6079ebae541219a0943480b41cc0d44a3d51c33ff8e4e1c1360fc/cwsearch_utils-0.1.8-py3-none-any.whl
+[2023-06-06 01:36:41] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/3e/34/45e4d8e4dc572a71d3667cb471907d117cbe30ff4ab274142fdfc9aff5bb/aiofauna-0.1.8.tar.gz
+[2023-06-06 01:36:41] INFO root fetch - processPackages [cwsearch-utils]: Downloading https://files.pythonhosted.org/packages/05/1a/f47c6297c519e44b98abd002fb268d6ca714741bd948a13bd77290fa22f8/cwsearch_utils-0.1.9-py3-none-any.whl
+[2023-06-06 01:36:41] INFO root fetch - processPackages [cwsearch-utils]: executing diffoscope
+[2023-06-06 01:36:41] INFO root fetch - processPackages [cwsearch-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwsearch_utils-0.1.8-py3-none-any.whl.zip tmp/cwsearch_utils-0.1.9-py3-none-any.whl.zip --markdown 20230606/c/cwsearch-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 01:36:41] INFO root fetch - processPackages [tornado-cliff-walking]: Downloading https://files.pythonhosted.org/packages/56/33/52c8e90b21374f5303b68a8d8374e9bcc94ce8acd9297060c78fee7dc1f2/tornado_cliff_walking-0.1.0.tar.gz
+[2023-06-06 01:36:41] INFO root fetch - processPackages [aiofauna]: Downloading https://files.pythonhosted.org/packages/d7/d5/ea2895300374337f982c6e19ce7049fb1c99fa3489038d2ff524d477a522/aiofauna-0.1.9.tar.gz
+[2023-06-06 01:36:41] INFO root fetch - processPackages [tornado-cliff-walking]: executing diffoscope
+[2023-06-06 01:36:41] INFO root fetch - processPackages [tornado-cliff-walking]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tornado_cliff_walking-0.0.3.tar.gz tmp/tornado_cliff_walking-0.1.0.tar.gz --markdown 20230606/t/tornado-cliff-walking/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-06-06 01:36:41] INFO root fetch - processPackages [aiofauna]: executing diffoscope
+[2023-06-06 01:36:41] INFO root fetch - processPackages [aiofauna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiofauna-0.1.8.tar.gz tmp/aiofauna-0.1.9.tar.gz --markdown 20230606/a/aiofauna/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 01:36:42] INFO root fetch - processPackages [cwsearch-utils]: Remove: archive file [/home/abi/fetcher/tmp/cwsearch_utils-0.1.8-py3-none-any.whl.zip]
+[2023-06-06 01:36:42] INFO root fetch - processPackages [cwsearch-utils]: Remove: archive file [/home/abi/fetcher/tmp/cwsearch_utils-0.1.9-py3-none-any.whl.zip]
+[2023-06-06 01:36:42] INFO root fetch - main [MainThread]: End processing [cwsearch-utils]: success
+[2023-06-06 01:36:42] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.8.tar.gz]
+[2023-06-06 01:36:42] INFO root fetch - processPackages [aiofauna]: Remove: archive file [/home/abi/fetcher/tmp/aiofauna-0.1.9.tar.gz]
+[2023-06-06 01:36:42] INFO root fetch - main [MainThread]: End processing [aiofauna]: success
+[2023-06-06 01:36:42] INFO root fetch - processPackages [tornado-cliff-walking]: Remove: archive file [/home/abi/fetcher/tmp/tornado_cliff_walking-0.0.3.tar.gz]
+[2023-06-06 01:36:42] INFO root fetch - processPackages [tornado-cliff-walking]: Remove: archive file [/home/abi/fetcher/tmp/tornado_cliff_walking-0.1.0.tar.gz]
+[2023-06-06 01:36:42] INFO root fetch - main [MainThread]: End processing [tornado-cliff-walking]: success
+[2023-06-06 01:36:42] INFO root fetch - main [MainThread]: Store serial: [18382679]
