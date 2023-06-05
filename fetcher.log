@@ -577,3 +577,107 @@
 [2023-06-06 00:28:09] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.2.tar.gz]
 [2023-06-06 00:28:09] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
 [2023-06-06 00:28:09] INFO root fetch - main [MainThread]: Store serial: [18382173]
+[2023-06-06 00:33:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18382173]
+[2023-06-06 00:33:18] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-06 00:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pulumi-alicloud
+[2023-06-06 00:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fluxoperator
+[2023-06-06 00:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tecton
+[2023-06-06 00:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: honeybee-radiance-postprocess
+[2023-06-06 00:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datasette-sqlite-vss
+[2023-06-06 00:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sqlite-vss
+[2023-06-06 00:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rad-tools
+[2023-06-06 00:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: netCDF4
+[2023-06-06 00:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: NcduColors
+[2023-06-06 00:33:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: jarvis-leaderboard
+[2023-06-06 00:33:18] INFO root fetch - processPackages [datasette-sqlite-vss]: New version: [0.1.1a9] Old Version: [0.1.1a8]
+[2023-06-06 00:33:18] INFO root fetch - processPackages [fluxoperator]: New version: [0.0.26] Old Version: [0.0.24]
+[2023-06-06 00:33:18] INFO root fetch - processPackages [pulumi-alicloud]: New version: [3.9.0a1637592974] Old Version: [3.9.0a1635778307]
+[2023-06-06 00:33:18] WARNING root fetch - processPackages [NcduColors]: Skipping, unable to determine old version
+[2023-06-06 00:33:18] INFO root fetch - processPackages [NcduColors]: Start processing: blaster-server
+[2023-06-06 00:33:18] INFO root fetch - main [MainThread]: End processing [NcduColors] error
+[2023-06-06 00:33:18] INFO root fetch - processPackages [jarvis-leaderboard]: New version: [2023.5.5] Old Version: [2023.5.30]
+[2023-06-06 00:33:18] INFO root fetch - processPackages [sqlite-vss]: New version: [0.1.1a9] Old Version: [0.1.1a8]
+[2023-06-06 00:33:18] INFO root fetch - processPackages [rad-tools]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-06 00:33:18] INFO root fetch - processPackages [honeybee-radiance-postprocess]: New version: [0.4.99] Old Version: [0.4.98]
+[2023-06-06 00:33:18] INFO root fetch - processPackages [tecton]: New version: [0.7.0b9] Old Version: [0.7.0b8]
+[2023-06-06 00:33:18] INFO root fetch - processPackages [blaster-server]: New version: [0.0.435b0] Old Version: [0.0.435]
+[2023-06-06 00:33:18] INFO root fetch - processPackages [netCDF4]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-06-06 00:33:18] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/b6/91/e656cf214b08dde444b27576e74fc06004fa6bbc0d5f04f1d6514eb05429/honeybee-radiance-postprocess-0.4.98.tar.gz
+[2023-06-06 00:33:18] INFO root fetch - processPackages [fluxoperator]: Downloading https://files.pythonhosted.org/packages/c1/85/e6d8017d85264ffa7036f3c36f9c9c9d55f141f133d2e7a1c8a5db806044/fluxoperator-0.0.24.tar.gz
+[2023-06-06 00:33:18] INFO root fetch - processPackages [blaster-server]: Downloading https://files.pythonhosted.org/packages/d3/e9/4fc979608a88982812a4c1964d6514f415b354b94fb66e4f2ce010c950a6/blaster-server-0.0.435.tar.gz
+[2023-06-06 00:33:18] INFO root fetch - processPackages [datasette-sqlite-vss]: Downloading https://files.pythonhosted.org/packages/6b/c9/46cbc03e6120a6d031ef47d3764f65fae9e0925e556486102f15dea9a2e7/datasette_sqlite_vss-0.1.1a8-py3-none-any.whl
+[2023-06-06 00:33:18] INFO root fetch - processPackages [jarvis-leaderboard]: Downloading https://files.pythonhosted.org/packages/63/40/1f06389faf1783b238a5b1e791d7055d1aeacd74b43115dc7600f4bdb203/jarvis_leaderboard-2023.5.30.tar.gz
+[2023-06-06 00:33:18] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/be/79/da6d86e1953fc7bde0762279ac850d45fe8ad91ff27a3c837009ede717a4/pulumi_alicloud-3.9.0a1635778307.tar.gz
+[2023-06-06 00:33:18] WARNING root fetch - processPackages [jarvis-leaderboard]: Skipping package: exceeds size limit 72348530>=10485760
+[2023-06-06 00:33:18] INFO root fetch - processPackages [jarvis-leaderboard]: Start processing: unipropic
+[2023-06-06 00:33:18] INFO root fetch - main [MainThread]: End processing [jarvis-leaderboard] error
+[2023-06-06 00:33:18] INFO root fetch - processPackages [tecton]: Downloading https://files.pythonhosted.org/packages/ab/15/50fe8be1bdfae399aa601c6c83095d3815c92941e31e67f6dd894dc1d5e6/tecton-0.7.0b8.tar.gz
+[2023-06-06 00:33:19] INFO root fetch - processPackages [sqlite-vss]: Downloading https://files.pythonhosted.org/packages/51/63/9dd1545bb1d137578652a5f27284866e142c23a512c823ced396eb35870b/sqlite_vss-0.1.1a8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-06-06 00:33:19] INFO root fetch - processPackages [netCDF4]: Downloading https://files.pythonhosted.org/packages/8b/92/ff3b18a2f5fe03ffc2807c2ac8b55bee2c8ee730d1100b79bc8a7ab96134/netCDF4-1.6.3.tar.gz
+[2023-06-06 00:33:19] INFO root fetch - processPackages [rad-tools]: Downloading https://files.pythonhosted.org/packages/83/0d/38d4b613f9f11b9e6f53fc339f8c1b1a2b97811efc13b5b40f72457b44a8/rad-tools-0.6.1.tar.gz
+[2023-06-06 00:33:19] WARNING root fetch - processPackages [unipropic]: Skipping, unable to determine old version
+[2023-06-06 00:33:19] INFO root fetch - processPackages [unipropic]: Start processing: pyslit
+[2023-06-06 00:33:19] INFO root fetch - main [MainThread]: End processing [unipropic] error
+[2023-06-06 00:33:19] INFO root fetch - processPackages [pyslit]: New version: [2.3.5] Old Version: [1.0.0]
+[2023-06-06 00:33:19] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Downloading https://files.pythonhosted.org/packages/e0/41/5be881e0724bb4d271ee5bb707666eff4c4b9ca79bc8c67f7316687d2f67/honeybee-radiance-postprocess-0.4.99.tar.gz
+[2023-06-06 00:33:19] INFO root fetch - processPackages [pyslit]: Downloading https://files.pythonhosted.org/packages/1f/35/b69ad277969906cf12f60d5b506afb0b417df10f3166bc3b6499e7651c91/pyslit-1.0.0.tar.gz
+[2023-06-06 00:33:19] INFO root fetch - processPackages [fluxoperator]: Downloading https://files.pythonhosted.org/packages/d2/ff/b84956ec6ccfdab8c8107139937c735168555e1ed7ed4bcc55b645cb7ffa/fluxoperator-0.0.26.tar.gz
+[2023-06-06 00:33:19] INFO root fetch - processPackages [honeybee-radiance-postprocess]: executing diffoscope
+[2023-06-06 00:33:19] INFO root fetch - processPackages [honeybee-radiance-postprocess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/honeybee-radiance-postprocess-0.4.98.tar.gz tmp/honeybee-radiance-postprocess-0.4.99.tar.gz --markdown 20230606/h/honeybee-radiance-postprocess/0.4.98-0.4.99/diff.md --exclude *.pyd
+[2023-06-06 00:33:19] INFO root fetch - processPackages [blaster-server]: Downloading https://files.pythonhosted.org/packages/6a/59/b421d3e126583ff0e3216cf69538be7649302fcff710a8cd2fa1e3a03d30/blaster-server-0.0.435b0.tar.gz
+[2023-06-06 00:33:19] INFO root fetch - processPackages [datasette-sqlite-vss]: Downloading https://files.pythonhosted.org/packages/78/39/1de339a6154e659c8a6464539aaa36ab5e4340a7d77d50f437b106ca0d12/datasette_sqlite_vss-0.1.1a9-py3-none-any.whl
+[2023-06-06 00:33:19] INFO root fetch - processPackages [rad-tools]: Downloading https://files.pythonhosted.org/packages/ef/a3/c61b2b8863af29f65e20a40dc7b748c5d8bfe9a791fac6aa88737080f1eb/rad-tools-0.6.2.tar.gz
+[2023-06-06 00:33:19] INFO root fetch - processPackages [fluxoperator]: executing diffoscope
+[2023-06-06 00:33:19] INFO root fetch - processPackages [fluxoperator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fluxoperator-0.0.24.tar.gz tmp/fluxoperator-0.0.26.tar.gz --markdown 20230606/f/fluxoperator/0.0.24-0.0.26/diff.md --exclude *.pyd
+[2023-06-06 00:33:19] INFO root fetch - processPackages [netCDF4]: Downloading https://files.pythonhosted.org/packages/8f/39/f8c4b2f3a4d78164e9850bb0924e1fd490e0bf8a8366b9b42cd295d7bbee/netCDF4-1.6.4.tar.gz
+[2023-06-06 00:33:19] INFO root fetch - processPackages [pyslit]: Downloading https://files.pythonhosted.org/packages/8c/db/1026027c4990c76db8247d5fc237ccf5d25805008fb07d62a79f8eb60bfd/pyslit-2.3.5.tar.gz
+[2023-06-06 00:33:19] INFO root fetch - processPackages [datasette-sqlite-vss]: executing diffoscope
+[2023-06-06 00:33:19] INFO root fetch - processPackages [datasette-sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_vss-0.1.1a8-py3-none-any.whl.zip tmp/datasette_sqlite_vss-0.1.1a9-py3-none-any.whl.zip --markdown 20230606/d/datasette-sqlite-vss/0.1.1a8-0.1.1a9/diff.md --exclude *.pyd
+[2023-06-06 00:33:19] INFO root fetch - processPackages [pulumi-alicloud]: Downloading https://files.pythonhosted.org/packages/7a/b5/f47603b555625f7ec29ec6dcdc2cf74fe00dc52cba5fad75ddd65d3bd99e/pulumi_alicloud-3.9.0a1637592974.tar.gz
+[2023-06-06 00:33:19] INFO root fetch - processPackages [rad-tools]: executing diffoscope
+[2023-06-06 00:33:19] INFO root fetch - processPackages [rad-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rad-tools-0.6.1.tar.gz tmp/rad-tools-0.6.2.tar.gz --markdown 20230606/r/rad-tools/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-06 00:33:19] INFO root fetch - processPackages [blaster-server]: executing diffoscope
+[2023-06-06 00:33:19] INFO root fetch - processPackages [blaster-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blaster-server-0.0.435.tar.gz tmp/blaster-server-0.0.435b0.tar.gz --markdown 20230606/b/blaster-server/0.0.435-0.0.435b0/diff.md --exclude *.pyd
+[2023-06-06 00:33:19] INFO root fetch - processPackages [pyslit]: executing diffoscope
+[2023-06-06 00:33:19] INFO root fetch - processPackages [pyslit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyslit-1.0.0.tar.gz tmp/pyslit-2.3.5.tar.gz --markdown 20230606/p/pyslit/1.0.0-2.3.5/diff.md --exclude *.pyd
+[2023-06-06 00:33:19] INFO root fetch - processPackages [netCDF4]: executing diffoscope
+[2023-06-06 00:33:19] INFO root fetch - processPackages [netCDF4]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netCDF4-1.6.3.tar.gz tmp/netCDF4-1.6.4.tar.gz --markdown 20230606/n/netCDF4/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-06-06 00:33:19] INFO root fetch - processPackages [pulumi-alicloud]: executing diffoscope
+[2023-06-06 00:33:19] INFO root fetch - processPackages [pulumi-alicloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz --markdown 20230606/p/pulumi-alicloud/3.9.0a1635778307-3.9.0a1637592974/diff.md --exclude *.pyd
+[2023-06-06 00:33:19] INFO root fetch - processPackages [sqlite-vss]: Downloading https://files.pythonhosted.org/packages/84/49/c3e9edf1447bbca8e97d5a521f090a99ac9069452f7cf7863df641abd8c2/sqlite_vss-0.1.1a9-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-06-06 00:33:19] INFO root fetch - processPackages [sqlite-vss]: executing diffoscope
+[2023-06-06 00:33:19] INFO root fetch - processPackages [sqlite-vss]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_vss-0.1.1a8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_vss-0.1.1a9-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230606/s/sqlite-vss/0.1.1a8-0.1.1a9/diff.md --exclude *.pyd
+[2023-06-06 00:33:20] INFO root fetch - processPackages [tecton]: Downloading https://files.pythonhosted.org/packages/69/ce/1a0b9ac92ad90f7624d38a3450d2ad3914be1fa55edb89778b3f2e58f43c/tecton-0.7.0b9.tar.gz
+[2023-06-06 00:33:20] INFO root fetch - processPackages [pyslit]: Remove: archive file [/home/abi/fetcher/tmp/pyslit-1.0.0.tar.gz]
+[2023-06-06 00:33:20] INFO root fetch - processPackages [pyslit]: Remove: archive file [/home/abi/fetcher/tmp/pyslit-2.3.5.tar.gz]
+[2023-06-06 00:33:20] INFO root fetch - main [MainThread]: End processing [pyslit]: success
+[2023-06-06 00:33:20] INFO root fetch - processPackages [datasette-sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_vss-0.1.1a8-py3-none-any.whl.zip]
+[2023-06-06 00:33:20] INFO root fetch - processPackages [datasette-sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_vss-0.1.1a9-py3-none-any.whl.zip]
+[2023-06-06 00:33:20] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-vss]: success
+[2023-06-06 00:33:21] INFO root fetch - processPackages [blaster-server]: Remove: archive file [/home/abi/fetcher/tmp/blaster-server-0.0.435.tar.gz]
+[2023-06-06 00:33:21] INFO root fetch - processPackages [blaster-server]: Remove: archive file [/home/abi/fetcher/tmp/blaster-server-0.0.435b0.tar.gz]
+[2023-06-06 00:33:21] INFO root fetch - main [MainThread]: End processing [blaster-server]: success
+[2023-06-06 00:33:21] INFO root fetch - processPackages [tecton]: executing diffoscope
+[2023-06-06 00:33:21] INFO root fetch - processPackages [tecton]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tecton-0.7.0b8.tar.gz tmp/tecton-0.7.0b9.tar.gz --markdown 20230606/t/tecton/0.7.0b8-0.7.0b9/diff.md --exclude *.pyd
+[2023-06-06 00:33:21] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.98.tar.gz]
+[2023-06-06 00:33:21] INFO root fetch - processPackages [honeybee-radiance-postprocess]: Remove: archive file [/home/abi/fetcher/tmp/honeybee-radiance-postprocess-0.4.99.tar.gz]
+[2023-06-06 00:33:21] INFO root fetch - main [MainThread]: End processing [honeybee-radiance-postprocess]: success
+[2023-06-06 00:33:21] INFO root fetch - processPackages [rad-tools]: Remove: archive file [/home/abi/fetcher/tmp/rad-tools-0.6.1.tar.gz]
+[2023-06-06 00:33:21] INFO root fetch - processPackages [rad-tools]: Remove: archive file [/home/abi/fetcher/tmp/rad-tools-0.6.2.tar.gz]
+[2023-06-06 00:33:21] INFO root fetch - main [MainThread]: End processing [rad-tools]: success
+[2023-06-06 00:33:21] INFO root fetch - processPackages [netCDF4]: Remove: archive file [/home/abi/fetcher/tmp/netCDF4-1.6.3.tar.gz]
+[2023-06-06 00:33:21] INFO root fetch - processPackages [netCDF4]: Remove: archive file [/home/abi/fetcher/tmp/netCDF4-1.6.4.tar.gz]
+[2023-06-06 00:33:21] INFO root fetch - main [MainThread]: End processing [netCDF4]: success
+[2023-06-06 00:33:21] INFO root fetch - processPackages [fluxoperator]: Remove: archive file [/home/abi/fetcher/tmp/fluxoperator-0.0.24.tar.gz]
+[2023-06-06 00:33:21] INFO root fetch - processPackages [fluxoperator]: Remove: archive file [/home/abi/fetcher/tmp/fluxoperator-0.0.26.tar.gz]
+[2023-06-06 00:33:21] INFO root fetch - main [MainThread]: End processing [fluxoperator]: success
+[2023-06-06 00:33:25] INFO root fetch - processPackages [tecton]: Remove: archive file [/home/abi/fetcher/tmp/tecton-0.7.0b8.tar.gz]
+[2023-06-06 00:33:25] INFO root fetch - processPackages [tecton]: Remove: archive file [/home/abi/fetcher/tmp/tecton-0.7.0b9.tar.gz]
+[2023-06-06 00:33:25] INFO root fetch - main [MainThread]: End processing [tecton]: success
+[2023-06-06 00:33:42] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1635778307.tar.gz]
+[2023-06-06 00:33:42] INFO root fetch - processPackages [pulumi-alicloud]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_alicloud-3.9.0a1637592974.tar.gz]
+[2023-06-06 00:33:42] INFO root fetch - main [MainThread]: End processing [pulumi-alicloud]: success
+[2023-06-06 00:33:57] INFO root fetch - processPackages [sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_vss-0.1.1a8-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-06-06 00:33:57] INFO root fetch - processPackages [sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_vss-0.1.1a9-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-06-06 00:33:57] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
+[2023-06-06 00:33:57] INFO root fetch - main [MainThread]: Store serial: [18382232]
