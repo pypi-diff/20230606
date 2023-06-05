@@ -1,0 +1,192 @@
+[2023-06-06 00:02:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18381920]
+[2023-06-06 00:02:26] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-06 00:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: astromulti
+[2023-06-06 00:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qcs-sdk-python
+[2023-06-06 00:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openfractal-client
+[2023-06-06 00:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dbt-redshift
+[2023-06-06 00:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seeq
+[2023-06-06 00:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: django-pg-jsonschema
+[2023-06-06 00:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openseespylinux
+[2023-06-06 00:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openseespywin
+[2023-06-06 00:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quickstats
+[2023-06-06 00:02:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: openseespy
+[2023-06-06 00:02:26] INFO root fetch - processPackages [openfractal-client]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-06 00:02:26] INFO root fetch - processPackages [openseespylinux]: New version: [3.5.1.2] Old Version: [3.4.0.8]
+[2023-06-06 00:02:26] INFO root fetch - processPackages [django-pg-jsonschema]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-06 00:02:26] INFO root fetch - processPackages [openseespywin]: New version: [3.5.1.2] Old Version: [3.4.0.8]
+[2023-06-06 00:02:26] INFO root fetch - processPackages [dbt-redshift]: New version: [1.6.0b2] Old Version: [1.6.0b1]
+[2023-06-06 00:02:26] INFO root fetch - processPackages [qcs-sdk-python]: New version: [0.8.1] Old Version: [0.7.1rc0]
+[2023-06-06 00:02:27] INFO root fetch - processPackages [seeq]: New version: [61.1.0] Old Version: [61.0.1]
+[2023-06-06 00:02:27] INFO root fetch - processPackages [openseespy]: New version: [3.5.1.2] Old Version: [3.4.0.8]
+[2023-06-06 00:02:27] INFO root fetch - processPackages [quickstats]: New version: [0.6.8.4] Old Version: [0.6.8.3]
+[2023-06-06 00:02:27] INFO root fetch - processPackages [astromulti]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-06 00:02:27] INFO root fetch - processPackages [openseespylinux]: Downloading https://files.pythonhosted.org/packages/66/79/309ee87b1e0a28f6f412a64890bc84974249b3af0001a545dc621723db4e/openseespylinux-3.4.0.8-py3-none-any.whl
+[2023-06-06 00:02:27] INFO root fetch - processPackages [openseespywin]: Downloading https://files.pythonhosted.org/packages/fc/fb/97daed0a3e28da5c11facd43e1ddc9eec90b92e5ac8ef17aa30083bb9461/openseespywin-3.4.0.8-py3-none-any.whl
+[2023-06-06 00:02:27] INFO root fetch - processPackages [seeq]: Downloading https://files.pythonhosted.org/packages/51/cb/5158943533d7f92264fa6cb016f75a2042e52d7c4be7a266504f6f0939b8/seeq-61.0.1.tar.gz
+[2023-06-06 00:02:27] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/8e/dc/6dc85a621c350b4e34d3da2d7ee879fa3e8fb1733b250bb8df67f3f6c9bb/qcs_sdk_python-0.7.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-06 00:02:27] INFO root fetch - processPackages [django-pg-jsonschema]: Downloading https://files.pythonhosted.org/packages/8e/31/68e889f7ddf506fb428f9b0ec667fa09ad4f302190502fe26da5750827a0/django_pg_jsonschema-0.1.0.tar.gz
+[2023-06-06 00:02:27] INFO root fetch - processPackages [astromulti]: Downloading https://files.pythonhosted.org/packages/f7/d8/52cadbc507ab3db5bc9ca187f73c7c402aa623c23efabf12b015f4affde9/astromulti-1.0.5.tar.gz
+[2023-06-06 00:02:27] WARNING root fetch - processPackages [openseespylinux]: Skipping package: exceeds size limit 13973526>=10485760
+[2023-06-06 00:02:27] INFO root fetch - processPackages [openseespylinux]: Start processing: lamadava
+[2023-06-06 00:02:27] INFO root fetch - main [MainThread]: End processing [openseespylinux] error
+[2023-06-06 00:02:27] INFO root fetch - processPackages [dbt-redshift]: Downloading https://files.pythonhosted.org/packages/41/4d/c43409cf59f4ff30ff21533235a0bb69efd8cd37778a218d2d10ec42d36d/dbt-redshift-1.6.0b1.tar.gz
+[2023-06-06 00:02:27] INFO root fetch - processPackages [openseespy]: Downloading https://files.pythonhosted.org/packages/87/fb/748867eb7b99c5d540190d893cb7d645b7c6d646bdf1ded8762821d7ba81/openseespy-3.4.0.8-py3-none-any.whl
+[2023-06-06 00:02:27] INFO root fetch - processPackages [quickstats]: Downloading https://files.pythonhosted.org/packages/6b/29/d888cd5dd1539b5b0010f6050e091403e02d448105d2c62f388d56b3c2c3/quickstats-0.6.8.3.tar.gz
+[2023-06-06 00:02:27] INFO root fetch - processPackages [openfractal-client]: Downloading https://files.pythonhosted.org/packages/1e/00/3ec417d0d1e7ef09a856bde6a63d522002c3393f20a083b625b8c484197d/openfractal_client-0.0.3.tar.gz
+[2023-06-06 00:02:27] INFO root fetch - processPackages [lamadava]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-06 00:02:27] INFO root fetch - processPackages [openfractal-client]: executing diffoscope
+[2023-06-06 00:02:27] INFO root fetch - processPackages [openfractal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openfractal_client-0.0.2.tar.gz tmp/openfractal_client-0.0.3.tar.gz --markdown 20230606/o/openfractal-client/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-06 00:02:27] INFO root fetch - processPackages [lamadava]: Downloading https://files.pythonhosted.org/packages/6d/67/edc0834c9c2b3c167e208eb7666bd93a2793e411131c60094d97c64ea6db/lamadava-1.0.5.tar.gz
+[2023-06-06 00:02:27] INFO root fetch - processPackages [django-pg-jsonschema]: Downloading https://files.pythonhosted.org/packages/2b/9e/b910a87baea60b4d1d7d77faf63ef678070969cf47507eec5eb3313639f0/django_pg_jsonschema-0.1.1.tar.gz
+[2023-06-06 00:02:27] INFO root fetch - processPackages [astromulti]: Downloading https://files.pythonhosted.org/packages/22/cd/dc63783c1974ece56ecbd542d1fa8cbbb9136d22241091f351145544b34c/astromulti-1.0.6.tar.gz
+[2023-06-06 00:02:27] INFO root fetch - processPackages [openseespy]: Downloading https://files.pythonhosted.org/packages/b5/20/5f296aa68d4b8da4b0e356d5b9c02e6df24d3143ab28265d7ac29f72d1e1/openseespy-3.5.1.2-py3-none-any.whl
+[2023-06-06 00:02:27] INFO root fetch - processPackages [django-pg-jsonschema]: executing diffoscope
+[2023-06-06 00:02:27] INFO root fetch - processPackages [django-pg-jsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_pg_jsonschema-0.1.0.tar.gz tmp/django_pg_jsonschema-0.1.1.tar.gz --markdown 20230606/d/django-pg-jsonschema/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-06 00:02:27] INFO root fetch - processPackages [astromulti]: executing diffoscope
+[2023-06-06 00:02:27] INFO root fetch - processPackages [astromulti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astromulti-1.0.5.tar.gz tmp/astromulti-1.0.6.tar.gz --markdown 20230606/a/astromulti/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-06 00:02:27] INFO root fetch - processPackages [quickstats]: Downloading https://files.pythonhosted.org/packages/56/0d/e58c6d829276a84d27ea1a27dcd64472cc2992d7a5ac3776bf1c306c19fd/quickstats-0.6.8.4.tar.gz
+[2023-06-06 00:02:27] INFO root fetch - processPackages [dbt-redshift]: Downloading https://files.pythonhosted.org/packages/67/a1/ff40fd3f5633474724ba52afa39a0a50012cce427f9c67f143a4e3320781/dbt-redshift-1.6.0b2.tar.gz
+[2023-06-06 00:02:27] INFO root fetch - processPackages [seeq]: Downloading https://files.pythonhosted.org/packages/c7/01/e75dec0e5386cab8dcf6e352e54d233ca9cb1cb734658767c7f957119abb/seeq-61.1.0.tar.gz
+[2023-06-06 00:02:27] INFO root fetch - processPackages [openseespy]: executing diffoscope
+[2023-06-06 00:02:27] INFO root fetch - processPackages [openseespy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openseespy-3.4.0.8-py3-none-any.whl.zip tmp/openseespy-3.5.1.2-py3-none-any.whl.zip --markdown 20230606/o/openseespy/3.4.0.8-3.5.1.2/diff.md --exclude *.pyd
+[2023-06-06 00:02:27] INFO root fetch - processPackages [openseespywin]: Downloading https://files.pythonhosted.org/packages/8c/4c/5a0c90721a01a5dfbc38627780fc35dbb3844d7ff09e526036767da1daf7/openseespywin-3.5.1.2-py3-none-any.whl
+[2023-06-06 00:02:27] INFO root fetch - processPackages [lamadava]: Downloading https://files.pythonhosted.org/packages/b7/21/8dc449d84706fb849bfb9e5139759d5c9f8cc1dfa036e5e03e6e31523aa7/lamadava-1.0.6.tar.gz
+[2023-06-06 00:02:27] INFO root fetch - processPackages [dbt-redshift]: executing diffoscope
+[2023-06-06 00:02:27] INFO root fetch - processPackages [dbt-redshift]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-redshift-1.6.0b1.tar.gz tmp/dbt-redshift-1.6.0b2.tar.gz --markdown 20230606/d/dbt-redshift/1.6.0b1-1.6.0b2/diff.md --exclude *.pyd
+[2023-06-06 00:02:27] INFO root fetch - processPackages [quickstats]: executing diffoscope
+[2023-06-06 00:02:27] INFO root fetch - processPackages [quickstats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstats-0.6.8.3.tar.gz tmp/quickstats-0.6.8.4.tar.gz --markdown 20230606/q/quickstats/0.6.8.3-0.6.8.4/diff.md --exclude *.pyd
+[2023-06-06 00:02:27] INFO root fetch - processPackages [seeq]: executing diffoscope
+[2023-06-06 00:02:27] INFO root fetch - processPackages [seeq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seeq-61.0.1.tar.gz tmp/seeq-61.1.0.tar.gz --markdown 20230606/s/seeq/61.0.1-61.1.0/diff.md --exclude *.pyd
+[2023-06-06 00:02:27] INFO root fetch - processPackages [lamadava]: executing diffoscope
+[2023-06-06 00:02:27] INFO root fetch - processPackages [lamadava]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lamadava-1.0.5.tar.gz tmp/lamadava-1.0.6.tar.gz --markdown 20230606/l/lamadava/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-06 00:02:27] INFO root fetch - processPackages [openseespywin]: executing diffoscope
+[2023-06-06 00:02:27] INFO root fetch - processPackages [openseespywin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openseespywin-3.4.0.8-py3-none-any.whl.zip tmp/openseespywin-3.5.1.2-py3-none-any.whl.zip --markdown 20230606/o/openseespywin/3.4.0.8-3.5.1.2/diff.md --exclude *.pyd
+[2023-06-06 00:02:28] INFO root fetch - processPackages [django-pg-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/django_pg_jsonschema-0.1.0.tar.gz]
+[2023-06-06 00:02:28] INFO root fetch - processPackages [django-pg-jsonschema]: Remove: archive file [/home/abi/fetcher/tmp/django_pg_jsonschema-0.1.1.tar.gz]
+[2023-06-06 00:02:28] INFO root fetch - processPackages [django-pg-jsonschema]: Start processing: extras-py
+[2023-06-06 00:02:28] INFO root fetch - main [MainThread]: End processing [django-pg-jsonschema]: success
+[2023-06-06 00:02:28] INFO root fetch - processPackages [extras-py]: New version: [0.1.2] Old Version: [0.1.0]
+[2023-06-06 00:02:29] INFO root fetch - processPackages [extras-py]: Downloading https://files.pythonhosted.org/packages/ae/95/9809dd5dc9836505c4f9e7cb1870e2c1b2a62fa75ded2ccd8ceb0b2ab507/extras-py-0.1.0.tar.gz
+[2023-06-06 00:02:29] INFO root fetch - processPackages [openseespy]: Remove: archive file [/home/abi/fetcher/tmp/openseespy-3.4.0.8-py3-none-any.whl.zip]
+[2023-06-06 00:02:29] INFO root fetch - processPackages [openseespy]: Remove: archive file [/home/abi/fetcher/tmp/openseespy-3.5.1.2-py3-none-any.whl.zip]
+[2023-06-06 00:02:29] INFO root fetch - processPackages [openseespy]: Start processing: cached-url
+[2023-06-06 00:02:29] INFO root fetch - main [MainThread]: End processing [openseespy]: success
+[2023-06-06 00:02:29] INFO root fetch - processPackages [cached-url]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 00:02:29] INFO root fetch - processPackages [qcs-sdk-python]: Downloading https://files.pythonhosted.org/packages/5c/d9/8459b3abdc74feb6db17d35740b47ccc7c5a0d14c2c5b9239678befe2f7d/qcs_sdk_python-0.8.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-06 00:02:29] INFO root fetch - processPackages [cached-url]: Downloading https://files.pythonhosted.org/packages/a6/f4/5919b477b554f8925ec16632921855810e23c975790245307a13dc5d79ed/cached_url-0.0.8.tar.gz
+[2023-06-06 00:02:29] INFO root fetch - processPackages [openseespywin]: Remove: archive file [/home/abi/fetcher/tmp/openseespywin-3.4.0.8-py3-none-any.whl.zip]
+[2023-06-06 00:02:29] INFO root fetch - processPackages [openseespywin]: Remove: archive file [/home/abi/fetcher/tmp/openseespywin-3.5.1.2-py3-none-any.whl.zip]
+[2023-06-06 00:02:29] INFO root fetch - processPackages [openseespywin]: Start processing: chalkpy
+[2023-06-06 00:02:29] INFO root fetch - main [MainThread]: End processing [openseespywin]: success
+[2023-06-06 00:02:29] INFO root fetch - processPackages [astromulti]: Remove: archive file [/home/abi/fetcher/tmp/astromulti-1.0.5.tar.gz]
+[2023-06-06 00:02:29] INFO root fetch - processPackages [astromulti]: Remove: archive file [/home/abi/fetcher/tmp/astromulti-1.0.6.tar.gz]
+[2023-06-06 00:02:29] INFO root fetch - processPackages [astromulti]: Start processing: zeetils
+[2023-06-06 00:02:29] INFO root fetch - main [MainThread]: End processing [astromulti]: success
+[2023-06-06 00:02:29] INFO root fetch - processPackages [chalkpy]: New version: [2.6.0] Old Version: [2.5.9]
+[2023-06-06 00:02:29] INFO root fetch - processPackages [zeetils]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-06 00:02:29] INFO root fetch - processPackages [qcs-sdk-python]: executing diffoscope
+[2023-06-06 00:02:29] INFO root fetch - processPackages [qcs-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qcs_sdk_python-0.7.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/qcs_sdk_python-0.8.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230606/q/qcs-sdk-python/0.7.1rc0-0.8.1/diff.md --exclude *.pyd
+[2023-06-06 00:02:29] INFO root fetch - processPackages [openfractal-client]: Remove: archive file [/home/abi/fetcher/tmp/openfractal_client-0.0.2.tar.gz]
+[2023-06-06 00:02:29] INFO root fetch - processPackages [openfractal-client]: Remove: archive file [/home/abi/fetcher/tmp/openfractal_client-0.0.3.tar.gz]
+[2023-06-06 00:02:29] INFO root fetch - processPackages [openfractal-client]: Start processing: embedding-reader
+[2023-06-06 00:02:29] INFO root fetch - main [MainThread]: End processing [openfractal-client]: success
+[2023-06-06 00:02:29] INFO root fetch - processPackages [extras-py]: Downloading https://files.pythonhosted.org/packages/1d/53/d457dcf0d3319b88a0f51a451a4fd870e556e5ee671994ee70ec6d687995/extras-py-0.1.2.tar.gz
+[2023-06-06 00:02:29] INFO root fetch - processPackages [cached-url]: Downloading https://files.pythonhosted.org/packages/ac/27/2d72325349abfd6eb53cded5af403ef9596661b8c498e7dc04212372d585/cached_url-0.0.9.tar.gz
+[2023-06-06 00:02:29] INFO root fetch - processPackages [embedding-reader]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-06-06 00:02:29] INFO root fetch - processPackages [extras-py]: executing diffoscope
+[2023-06-06 00:02:29] INFO root fetch - processPackages [extras-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extras-py-0.1.0.tar.gz tmp/extras-py-0.1.2.tar.gz --markdown 20230606/e/extras-py/0.1.0-0.1.2/diff.md --exclude *.pyd
+[2023-06-06 00:02:29] INFO root fetch - processPackages [cached-url]: executing diffoscope
+[2023-06-06 00:02:29] INFO root fetch - processPackages [cached-url]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cached_url-0.0.8.tar.gz tmp/cached_url-0.0.9.tar.gz --markdown 20230606/c/cached-url/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 00:02:29] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/a8/30/75a37dd4c68ab0deb4239169fd18fea789561c694c9da2844a3db8e443f9/chalkpy-2.5.9.tar.gz
+[2023-06-06 00:02:29] INFO root fetch - processPackages [dbt-redshift]: Remove: archive file [/home/abi/fetcher/tmp/dbt-redshift-1.6.0b1.tar.gz]
+[2023-06-06 00:02:29] INFO root fetch - processPackages [dbt-redshift]: Remove: archive file [/home/abi/fetcher/tmp/dbt-redshift-1.6.0b2.tar.gz]
+[2023-06-06 00:02:29] INFO root fetch - processPackages [dbt-redshift]: Start processing: datascope-experiments
+[2023-06-06 00:02:29] INFO root fetch - main [MainThread]: End processing [dbt-redshift]: success
+[2023-06-06 00:02:29] INFO root fetch - processPackages [zeetils]: Downloading https://files.pythonhosted.org/packages/39/3a/a63e212ab27b1eb2da5b0130710312657fc80ecbff6faf0467f461088cde/zeetils-0.1.0.tar.gz
+[2023-06-06 00:02:29] INFO root fetch - processPackages [embedding-reader]: Downloading https://files.pythonhosted.org/packages/e7/a4/a78dc8919954953628278324d15da7f78aa2c39a1543e3f8bf78167d540c/embedding_reader-1.5.0.tar.gz
+[2023-06-06 00:02:29] INFO root fetch - processPackages [datascope-experiments]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 00:02:29] INFO root fetch - processPackages [datascope-experiments]: Downloading https://files.pythonhosted.org/packages/45/04/38d90a22277d9e206a1f680f99cbfda58ca9cb856a5fdfdcee40e032f0e8/datascope-experiments-0.0.8.tar.gz
+[2023-06-06 00:02:29] INFO root fetch - processPackages [lamadava]: Remove: archive file [/home/abi/fetcher/tmp/lamadava-1.0.5.tar.gz]
+[2023-06-06 00:02:29] INFO root fetch - processPackages [lamadava]: Remove: archive file [/home/abi/fetcher/tmp/lamadava-1.0.6.tar.gz]
+[2023-06-06 00:02:29] INFO root fetch - processPackages [lamadava]: Start processing: adafruit-circuitpython-matrixkeypad
+[2023-06-06 00:02:29] INFO root fetch - main [MainThread]: End processing [lamadava]: success
+[2023-06-06 00:02:29] INFO root fetch - processPackages [adafruit-circuitpython-matrixkeypad]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-06 00:02:29] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/33/0c/74753c511769b5b2137eab19f76ff50c5b6cc626b1bcfe08fe23cb043724/chalkpy-2.6.0.tar.gz
+[2023-06-06 00:02:29] INFO root fetch - processPackages [zeetils]: Downloading https://files.pythonhosted.org/packages/e6/83/6042a97360aff0762d1ca3045313f3996b490ce85d9ddb19d21d8cd8cb90/zeetils-0.1.1.tar.gz
+[2023-06-06 00:02:29] INFO root fetch - processPackages [datascope-experiments]: Downloading https://files.pythonhosted.org/packages/b1/bc/05ddc96ba1314c3a59709691d24646790023b2b8b38620c39e9ae4412371/datascope-experiments-0.0.9.tar.gz
+[2023-06-06 00:02:29] INFO root fetch - processPackages [embedding-reader]: Downloading https://files.pythonhosted.org/packages/24/dc/456c8459d039bef32ca8644ccb5c3cfbf8f6debc8261a2ba0a9449569c77/embedding_reader-1.5.1.tar.gz
+[2023-06-06 00:02:29] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-06-06 00:02:29] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.5.9.tar.gz tmp/chalkpy-2.6.0.tar.gz --markdown 20230606/c/chalkpy/2.5.9-2.6.0/diff.md --exclude *.pyd
+[2023-06-06 00:02:29] INFO root fetch - processPackages [adafruit-circuitpython-matrixkeypad]: Downloading https://files.pythonhosted.org/packages/2f/33/f4bbc0cd06c7e3dd24e9b7c2ca214a2155b19d099beca1d8554e1e28683e/adafruit-circuitpython-matrixkeypad-1.2.8.tar.gz
+[2023-06-06 00:02:29] INFO root fetch - processPackages [zeetils]: executing diffoscope
+[2023-06-06 00:02:29] INFO root fetch - processPackages [zeetils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zeetils-0.1.0.tar.gz tmp/zeetils-0.1.1.tar.gz --markdown 20230606/z/zeetils/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-06 00:02:29] INFO root fetch - processPackages [datascope-experiments]: executing diffoscope
+[2023-06-06 00:02:29] INFO root fetch - processPackages [datascope-experiments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datascope-experiments-0.0.8.tar.gz tmp/datascope-experiments-0.0.9.tar.gz --markdown 20230606/d/datascope-experiments/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 00:02:29] INFO root fetch - processPackages [embedding-reader]: executing diffoscope
+[2023-06-06 00:02:29] INFO root fetch - processPackages [embedding-reader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embedding_reader-1.5.0.tar.gz tmp/embedding_reader-1.5.1.tar.gz --markdown 20230606/e/embedding-reader/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-06-06 00:02:30] INFO root fetch - processPackages [adafruit-circuitpython-matrixkeypad]: Downloading https://files.pythonhosted.org/packages/57/da/a463bd6f587e6a0e95cd417951b60cb42f49c56aebcf33ff8a485f9784ec/adafruit-circuitpython-matrixkeypad-1.2.9.tar.gz
+[2023-06-06 00:02:30] INFO root fetch - processPackages [adafruit-circuitpython-matrixkeypad]: executing diffoscope
+[2023-06-06 00:02:30] INFO root fetch - processPackages [adafruit-circuitpython-matrixkeypad]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adafruit-circuitpython-matrixkeypad-1.2.8.tar.gz tmp/adafruit-circuitpython-matrixkeypad-1.2.9.tar.gz --markdown 20230606/a/adafruit-circuitpython-matrixkeypad/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-06 00:02:30] INFO root fetch - processPackages [cached-url]: Remove: archive file [/home/abi/fetcher/tmp/cached_url-0.0.8.tar.gz]
+[2023-06-06 00:02:30] INFO root fetch - processPackages [cached-url]: Remove: archive file [/home/abi/fetcher/tmp/cached_url-0.0.9.tar.gz]
+[2023-06-06 00:02:30] INFO root fetch - processPackages [cached-url]: Start processing: pydecs
+[2023-06-06 00:02:30] INFO root fetch - main [MainThread]: End processing [cached-url]: success
+[2023-06-06 00:02:30] INFO root fetch - processPackages [extras-py]: Remove: archive file [/home/abi/fetcher/tmp/extras-py-0.1.0.tar.gz]
+[2023-06-06 00:02:30] INFO root fetch - processPackages [extras-py]: Remove: archive file [/home/abi/fetcher/tmp/extras-py-0.1.2.tar.gz]
+[2023-06-06 00:02:30] INFO root fetch - processPackages [extras-py]: Start processing: kelpie-personal-trainer
+[2023-06-06 00:02:30] INFO root fetch - main [MainThread]: End processing [extras-py]: success
+[2023-06-06 00:02:30] INFO root fetch - processPackages [pydecs]: New version: [2023.6.6] Old Version: [2023.6.4]
+[2023-06-06 00:02:30] INFO root fetch - processPackages [kelpie-personal-trainer]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-06 00:02:30] INFO root fetch - processPackages [pydecs]: Downloading https://files.pythonhosted.org/packages/17/58/cdc3aec3b32666419248c4fc21be955df71b65c4d34cd76c5c2079cacb67/pydecs-2023.6.4.tar.gz
+[2023-06-06 00:02:30] INFO root fetch - processPackages [kelpie-personal-trainer]: Downloading https://files.pythonhosted.org/packages/bb/19/56211df351f93dbb1b1bcfd5b47a3feb4d520f35ebf7286ef7ee06795755/kelpie_personal_trainer-0.2.8.tar.gz
+[2023-06-06 00:02:30] WARNING root fetch - processPackages [kelpie-personal-trainer]: Skipping package: exceeds size limit 18721272>=10485760
+[2023-06-06 00:02:30] INFO root fetch - processPackages [kelpie-personal-trainer]: Start processing: openfractal-client
+[2023-06-06 00:02:30] INFO root fetch - main [MainThread]: End processing [kelpie-personal-trainer] error
+[2023-06-06 00:02:30] INFO root fetch - processPackages [openfractal-client]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-06 00:02:30] INFO root fetch - processPackages [zeetils]: Remove: archive file [/home/abi/fetcher/tmp/zeetils-0.1.0.tar.gz]
+[2023-06-06 00:02:30] INFO root fetch - processPackages [zeetils]: Remove: archive file [/home/abi/fetcher/tmp/zeetils-0.1.1.tar.gz]
+[2023-06-06 00:02:30] INFO root fetch - processPackages [zeetils]: Start processing: HanLabImport
+[2023-06-06 00:02:30] INFO root fetch - main [MainThread]: End processing [zeetils]: success
+[2023-06-06 00:02:31] INFO root fetch - processPackages [openfractal-client]: Downloading https://files.pythonhosted.org/packages/1e/00/3ec417d0d1e7ef09a856bde6a63d522002c3393f20a083b625b8c484197d/openfractal_client-0.0.3.tar.gz
+[2023-06-06 00:02:31] INFO root fetch - processPackages [pydecs]: Downloading https://files.pythonhosted.org/packages/6f/66/a05b46db9d0c97479b47469d32b387da0d69b0b83e835dacb2f60fb4c016/pydecs-2023.6.6-py3-none-any.whl
+[2023-06-06 00:02:31] INFO root fetch - processPackages [HanLabImport]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 00:02:31] INFO root fetch - processPackages [embedding-reader]: Remove: archive file [/home/abi/fetcher/tmp/embedding_reader-1.5.0.tar.gz]
+[2023-06-06 00:02:31] INFO root fetch - processPackages [embedding-reader]: Remove: archive file [/home/abi/fetcher/tmp/embedding_reader-1.5.1.tar.gz]
+[2023-06-06 00:02:31] INFO root fetch - main [MainThread]: End processing [embedding-reader]: success
+[2023-06-06 00:02:31] INFO root fetch - processPackages [pydecs]: executing diffoscope
+[2023-06-06 00:02:31] INFO root fetch - processPackages [pydecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydecs-2023.6.4.tar.gz tmp/pydecs-2023.6.6-py3-none-any.whl.zip --markdown 20230606/p/pydecs/2023.6.4-2023.6.6/diff.md --exclude *.pyd
+[2023-06-06 00:02:31] INFO root fetch - processPackages [openfractal-client]: Downloading https://files.pythonhosted.org/packages/32/d6/69aebb08a9f016c3674a9ab8ea870c5ea67065f61fefc77be13b4c8fe898/openfractal_client-0.0.4.tar.gz
+[2023-06-06 00:02:31] INFO root fetch - processPackages [datascope-experiments]: Remove: archive file [/home/abi/fetcher/tmp/datascope-experiments-0.0.8.tar.gz]
+[2023-06-06 00:02:31] INFO root fetch - processPackages [datascope-experiments]: Remove: archive file [/home/abi/fetcher/tmp/datascope-experiments-0.0.9.tar.gz]
+[2023-06-06 00:02:31] INFO root fetch - main [MainThread]: End processing [datascope-experiments]: success
+[2023-06-06 00:02:31] INFO root fetch - processPackages [adafruit-circuitpython-matrixkeypad]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-matrixkeypad-1.2.8.tar.gz]
+[2023-06-06 00:02:31] INFO root fetch - processPackages [adafruit-circuitpython-matrixkeypad]: Remove: archive file [/home/abi/fetcher/tmp/adafruit-circuitpython-matrixkeypad-1.2.9.tar.gz]
+[2023-06-06 00:02:31] INFO root fetch - main [MainThread]: End processing [adafruit-circuitpython-matrixkeypad]: success
+[2023-06-06 00:02:31] INFO root fetch - processPackages [openfractal-client]: executing diffoscope
+[2023-06-06 00:02:31] INFO root fetch - processPackages [openfractal-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openfractal_client-0.0.3.tar.gz tmp/openfractal_client-0.0.4.tar.gz --markdown 20230606/o/openfractal-client/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-06 00:02:31] INFO root fetch - processPackages [HanLabImport]: Downloading https://files.pythonhosted.org/packages/78/d4/4047a7454f4219f8b6ef679cc4654dc4e44c81782d0a414852daa5886871/HanLabImport-0.0.8.tar.gz
+[2023-06-06 00:02:31] INFO root fetch - processPackages [HanLabImport]: Downloading https://files.pythonhosted.org/packages/6d/00/043a6959854bd894aa4780e4e0b5f9a771ae1888de58630e87e4ae897bc8/HanLabImport-0.0.9.tar.gz
+[2023-06-06 00:02:31] INFO root fetch - processPackages [HanLabImport]: executing diffoscope
+[2023-06-06 00:02:31] INFO root fetch - processPackages [HanLabImport]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HanLabImport-0.0.8.tar.gz tmp/HanLabImport-0.0.9.tar.gz --markdown 20230606/H/HanLabImport/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 00:02:32] INFO root fetch - processPackages [pydecs]: Remove: archive file [/home/abi/fetcher/tmp/pydecs-2023.6.4.tar.gz]
+[2023-06-06 00:02:32] INFO root fetch - processPackages [pydecs]: Remove: archive file [/home/abi/fetcher/tmp/pydecs-2023.6.6-py3-none-any.whl.zip]
+[2023-06-06 00:02:32] INFO root fetch - main [MainThread]: End processing [pydecs]: success
+[2023-06-06 00:02:32] INFO root fetch - processPackages [openfractal-client]: Remove: archive file [/home/abi/fetcher/tmp/openfractal_client-0.0.3.tar.gz]
+[2023-06-06 00:02:32] INFO root fetch - processPackages [openfractal-client]: Remove: archive file [/home/abi/fetcher/tmp/openfractal_client-0.0.4.tar.gz]
+[2023-06-06 00:02:32] INFO root fetch - main [MainThread]: End processing [openfractal-client]: success
+[2023-06-06 00:02:32] INFO root fetch - processPackages [HanLabImport]: Remove: archive file [/home/abi/fetcher/tmp/HanLabImport-0.0.8.tar.gz]
+[2023-06-06 00:02:32] INFO root fetch - processPackages [HanLabImport]: Remove: archive file [/home/abi/fetcher/tmp/HanLabImport-0.0.9.tar.gz]
+[2023-06-06 00:02:32] INFO root fetch - main [MainThread]: End processing [HanLabImport]: success
+[2023-06-06 00:02:33] INFO root fetch - processPackages [quickstats]: Remove: archive file [/home/abi/fetcher/tmp/quickstats-0.6.8.3.tar.gz]
+[2023-06-06 00:02:33] INFO root fetch - processPackages [quickstats]: Remove: archive file [/home/abi/fetcher/tmp/quickstats-0.6.8.4.tar.gz]
+[2023-06-06 00:02:33] INFO root fetch - main [MainThread]: End processing [quickstats]: success
+[2023-06-06 00:02:39] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.5.9.tar.gz]
+[2023-06-06 00:02:39] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.6.0.tar.gz]
+[2023-06-06 00:02:39] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-06-06 00:02:40] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-61.0.1.tar.gz]
+[2023-06-06 00:02:40] INFO root fetch - processPackages [seeq]: Remove: archive file [/home/abi/fetcher/tmp/seeq-61.1.0.tar.gz]
+[2023-06-06 00:02:40] INFO root fetch - main [MainThread]: End processing [seeq]: success
+[2023-06-06 00:05:18] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.7.1rc0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-06 00:05:18] INFO root fetch - processPackages [qcs-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/qcs_sdk_python-0.8.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-06 00:05:18] INFO root fetch - main [MainThread]: End processing [qcs-sdk-python]: success
+[2023-06-06 00:05:18] INFO root fetch - main [MainThread]: Store serial: [18381991]
