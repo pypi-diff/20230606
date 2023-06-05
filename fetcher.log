@@ -1684,3 +1684,88 @@
 [2023-06-06 01:36:42] INFO root fetch - processPackages [tornado-cliff-walking]: Remove: archive file [/home/abi/fetcher/tmp/tornado_cliff_walking-0.1.0.tar.gz]
 [2023-06-06 01:36:42] INFO root fetch - main [MainThread]: End processing [tornado-cliff-walking]: success
 [2023-06-06 01:36:42] INFO root fetch - main [MainThread]: Store serial: [18382679]
+[2023-06-06 01:41:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18382679]
+[2023-06-06 01:41:50] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-06 01:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hijacknet
+[2023-06-06 01:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: Digiseller-API-TokenManager
+[2023-06-06 01:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigdl-dllib-spark3
+[2023-06-06 01:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: phoebusgen
+[2023-06-06 01:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nxs-analysis-tools
+[2023-06-06 01:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-orca-spark3
+[2023-06-06 01:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-friesian-spark3
+[2023-06-06 01:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-chronos-spark3
+[2023-06-06 01:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sidetrek
+[2023-06-06 01:41:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-spark3
+[2023-06-06 01:41:50] INFO root fetch - processPackages [nxs-analysis-tools]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 01:41:50] ERROR root fetch - processPackages [Digiseller-API-TokenManager]: Unable to get metadata: No such project 'Digiseller-API-TokenManager'
+[2023-06-06 01:41:50] INFO root fetch - processPackages [Digiseller-API-TokenManager]: Start processing: alphawave
+[2023-06-06 01:41:50] INFO root fetch - main [MainThread]: End processing [Digiseller-API-TokenManager] error
+[2023-06-06 01:41:50] WARNING root fetch - processPackages [hijacknet]: Skipping, unable to determine old version
+[2023-06-06 01:41:50] INFO root fetch - processPackages [hijacknet]: Start processing: hijacknet
+[2023-06-06 01:41:50] INFO root fetch - main [MainThread]: End processing [hijacknet] error
+[2023-06-06 01:41:50] INFO root fetch - processPackages [sidetrek]: New version: [0.0.94] Old Version: [0.0.93]
+[2023-06-06 01:41:50] INFO root fetch - processPackages [phoebusgen]: New version: [2.6.0] Old Version: [2.5.1]
+[2023-06-06 01:41:50] INFO root fetch - processPackages [bigdl-dllib-spark3]: New version: [2.4.0b20230605] Old Version: [2.4.0b20230603]
+[2023-06-06 01:41:50] INFO root fetch - processPackages [bigdl-orca-spark3]: New version: [2.4.0b20230605] Old Version: [2.4.0b20230603]
+[2023-06-06 01:41:50] INFO root fetch - processPackages [alphawave]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-06-06 01:41:50] INFO root fetch - processPackages [bigdl-spark3]: New version: [2.4.0b20230605] Old Version: [2.4.0b20230603]
+[2023-06-06 01:41:50] INFO root fetch - processPackages [bigdl-friesian-spark3]: New version: [2.4.0b20230605] Old Version: [2.4.0b20230603]
+[2023-06-06 01:41:50] INFO root fetch - processPackages [bigdl-chronos-spark3]: New version: [2.4.0b20230605] Old Version: [2.4.0b20230603]
+[2023-06-06 01:41:50] WARNING root fetch - processPackages [hijacknet]: Skipping, unable to determine old version
+[2023-06-06 01:41:50] INFO root fetch - main [MainThread]: End processing [hijacknet] error
+[2023-06-06 01:41:50] INFO root fetch - processPackages [sidetrek]: Downloading https://files.pythonhosted.org/packages/79/4b/20ae3853056e75aa487846424b53818b0f383aa3ad5971455ab1a617494d/sidetrek-0.0.93.tar.gz
+[2023-06-06 01:41:51] INFO root fetch - processPackages [nxs-analysis-tools]: Downloading https://files.pythonhosted.org/packages/e4/e4/6646caf25fd374fbe3110e9453d2b343238505837996f9e00e024a805dcf/nxs_analysis_tools-0.0.8.tar.gz
+[2023-06-06 01:41:51] INFO root fetch - processPackages [phoebusgen]: Downloading https://files.pythonhosted.org/packages/ce/85/2c4f51d40c6b2358031253d42e1dcd756dd2c9aa6b87574c87fd1cd080f1/phoebusgen-2.5.1.tar.gz
+[2023-06-06 01:41:51] INFO root fetch - processPackages [alphawave]: Downloading https://files.pythonhosted.org/packages/a0/d4/8a2bfb0a84b8f1cefb57a2ea6cefd9a53f7b130dce59f4e24a5306427fe0/alphawave-0.0.5.tar.gz
+[2023-06-06 01:41:51] INFO root fetch - processPackages [bigdl-dllib-spark3]: Downloading https://files.pythonhosted.org/packages/69/2e/c2333047b09ce0bfac42e55956c64653d2d2528622d0b1a1006e1335fea0/bigdl-dllib-spark3-2.4.0b20230603.tar.gz
+[2023-06-06 01:41:51] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/51/d2/436b71dc0f8cf5d283a255707b5d6f99a3b8841cb3b95d2864f4ff070929/bigdl_spark3-2.4.0b20230603-py3-none-manylinux1_x86_64.whl
+[2023-06-06 01:41:51] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/84/26/44fd6b8768b52cac84ccdcb99a7f6276aa3c261623728fcd879939371117/bigdl_chronos_spark3-2.4.0b20230603-py3-none-manylinux1_x86_64.whl
+[2023-06-06 01:41:51] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/ad/79/31869eb0d30bfd1dc989f85335b2c1139880d4407c702b78c4713fd90816/bigdl_friesian_spark3-2.4.0b20230603-py3-none-manylinux1_x86_64.whl
+[2023-06-06 01:41:51] INFO root fetch - processPackages [bigdl-orca-spark3]: Downloading https://files.pythonhosted.org/packages/7e/41/1410252b482bc3feb9a05b43705fbe529bd4bde9d09d955b5315f69d2c4f/bigdl_orca_spark3-2.4.0b20230603-py3-none-manylinux1_x86_64.whl
+[2023-06-06 01:41:51] WARNING root fetch - processPackages [bigdl-orca-spark3]: Skipping package: exceeds size limit 20207618>=10485760
+[2023-06-06 01:41:51] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark3] error
+[2023-06-06 01:41:51] INFO root fetch - processPackages [sidetrek]: Downloading https://files.pythonhosted.org/packages/7e/3d/0160dc48b5996dcc94685d58df08f35100aa9ac6ea91a11e27e8ceada0dc/sidetrek-0.0.94.tar.gz
+[2023-06-06 01:41:51] WARNING root fetch - processPackages [bigdl-dllib-spark3]: Skipping package: exceeds size limit 61251952>=10485760
+[2023-06-06 01:41:51] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark3] error
+[2023-06-06 01:41:51] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-06-06 01:41:51] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.93.tar.gz tmp/sidetrek-0.0.94.tar.gz --markdown 20230606/s/sidetrek/0.0.93-0.0.94/diff.md --exclude *.pyd
+[2023-06-06 01:41:51] INFO root fetch - processPackages [alphawave]: Downloading https://files.pythonhosted.org/packages/a9/ef/a83fab81934f5c4c8ec75391430a7d4d52c343d9df45a9cdf8a6bb8af0ab/alphawave-0.1.0.tar.gz
+[2023-06-06 01:41:51] INFO root fetch - processPackages [phoebusgen]: Downloading https://files.pythonhosted.org/packages/c0/18/ffd7ff935c3f8614d1e9abc5f272b555756ac3165aeef6233bc023052138/phoebusgen-2.6.0.tar.gz
+[2023-06-06 01:41:51] INFO root fetch - processPackages [nxs-analysis-tools]: Downloading https://files.pythonhosted.org/packages/00/4b/5d3ac0f07cb8ee10cad96b62338468321913b17aecf974dba9c42f66df54/nxs_analysis_tools-0.0.9.tar.gz
+[2023-06-06 01:41:51] INFO root fetch - processPackages [bigdl-spark3]: Downloading https://files.pythonhosted.org/packages/53/03/6c5e9ccf7c822888609d258f1bf03ea06d85b9de0e9b9c7d87cdff9704dd/bigdl_spark3-2.4.0b20230605-py3-none-manylinux1_x86_64.whl
+[2023-06-06 01:41:51] INFO root fetch - processPackages [bigdl-friesian-spark3]: Downloading https://files.pythonhosted.org/packages/a0/ce/4f526de61ba1c1a5d8eda53861477bf0291aac5bc3acf11deacfab9e301f/bigdl_friesian_spark3-2.4.0b20230605-py3-none-manylinux1_x86_64.whl
+[2023-06-06 01:41:51] INFO root fetch - processPackages [bigdl-chronos-spark3]: Downloading https://files.pythonhosted.org/packages/b0/78/a4217cc3bcf58698198591c22dbadf92f994f412fedaef6e21f74bb8327f/bigdl_chronos_spark3-2.4.0b20230605-py3-none-manylinux1_x86_64.whl
+[2023-06-06 01:41:51] INFO root fetch - processPackages [alphawave]: executing diffoscope
+[2023-06-06 01:41:51] INFO root fetch - processPackages [alphawave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphawave-0.0.5.tar.gz tmp/alphawave-0.1.0.tar.gz --markdown 20230606/a/alphawave/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-06-06 01:41:51] INFO root fetch - processPackages [phoebusgen]: executing diffoscope
+[2023-06-06 01:41:51] INFO root fetch - processPackages [phoebusgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phoebusgen-2.5.1.tar.gz tmp/phoebusgen-2.6.0.tar.gz --markdown 20230606/p/phoebusgen/2.5.1-2.6.0/diff.md --exclude *.pyd
+[2023-06-06 01:41:51] INFO root fetch - processPackages [bigdl-spark3]: executing diffoscope
+[2023-06-06 01:41:51] INFO root fetch - processPackages [bigdl-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark3-2.4.0b20230603-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark3-2.4.0b20230605-py3-none-manylinux1_x86_64.whl.zip --markdown 20230606/b/bigdl-spark3/2.4.0b20230603-2.4.0b20230605/diff.md --exclude *.pyd
+[2023-06-06 01:41:51] INFO root fetch - processPackages [bigdl-friesian-spark3]: executing diffoscope
+[2023-06-06 01:41:51] INFO root fetch - processPackages [bigdl-friesian-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark3-2.4.0b20230603-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark3-2.4.0b20230605-py3-none-manylinux1_x86_64.whl.zip --markdown 20230606/b/bigdl-friesian-spark3/2.4.0b20230603-2.4.0b20230605/diff.md --exclude *.pyd
+[2023-06-06 01:41:51] INFO root fetch - processPackages [nxs-analysis-tools]: executing diffoscope
+[2023-06-06 01:41:51] INFO root fetch - processPackages [nxs-analysis-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nxs_analysis_tools-0.0.8.tar.gz tmp/nxs_analysis_tools-0.0.9.tar.gz --markdown 20230606/n/nxs-analysis-tools/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 01:41:51] INFO root fetch - processPackages [bigdl-chronos-spark3]: executing diffoscope
+[2023-06-06 01:41:51] INFO root fetch - processPackages [bigdl-chronos-spark3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark3-2.4.0b20230603-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark3-2.4.0b20230605-py3-none-manylinux1_x86_64.whl.zip --markdown 20230606/b/bigdl-chronos-spark3/2.4.0b20230603-2.4.0b20230605/diff.md --exclude *.pyd
+[2023-06-06 01:41:52] INFO root fetch - processPackages [sidetrek]: Remove: archive file [/home/abi/fetcher/tmp/sidetrek-0.0.93.tar.gz]
+[2023-06-06 01:41:52] INFO root fetch - processPackages [sidetrek]: Remove: archive file [/home/abi/fetcher/tmp/sidetrek-0.0.94.tar.gz]
+[2023-06-06 01:41:52] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-06-06 01:41:52] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230603-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-06 01:41:52] INFO root fetch - processPackages [bigdl-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark3-2.4.0b20230605-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-06 01:41:52] INFO root fetch - main [MainThread]: End processing [bigdl-spark3]: success
+[2023-06-06 01:41:52] INFO root fetch - processPackages [nxs-analysis-tools]: Remove: archive file [/home/abi/fetcher/tmp/nxs_analysis_tools-0.0.8.tar.gz]
+[2023-06-06 01:41:52] INFO root fetch - processPackages [nxs-analysis-tools]: Remove: archive file [/home/abi/fetcher/tmp/nxs_analysis_tools-0.0.9.tar.gz]
+[2023-06-06 01:41:52] INFO root fetch - main [MainThread]: End processing [nxs-analysis-tools]: success
+[2023-06-06 01:41:52] INFO root fetch - processPackages [phoebusgen]: Remove: archive file [/home/abi/fetcher/tmp/phoebusgen-2.5.1.tar.gz]
+[2023-06-06 01:41:52] INFO root fetch - processPackages [phoebusgen]: Remove: archive file [/home/abi/fetcher/tmp/phoebusgen-2.6.0.tar.gz]
+[2023-06-06 01:41:52] INFO root fetch - main [MainThread]: End processing [phoebusgen]: success
+[2023-06-06 01:41:52] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230603-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-06 01:41:52] INFO root fetch - processPackages [bigdl-friesian-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark3-2.4.0b20230605-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-06 01:41:52] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark3]: success
+[2023-06-06 01:41:53] INFO root fetch - processPackages [alphawave]: Remove: archive file [/home/abi/fetcher/tmp/alphawave-0.0.5.tar.gz]
+[2023-06-06 01:41:53] INFO root fetch - processPackages [alphawave]: Remove: archive file [/home/abi/fetcher/tmp/alphawave-0.1.0.tar.gz]
+[2023-06-06 01:41:53] INFO root fetch - main [MainThread]: End processing [alphawave]: success
+[2023-06-06 01:41:54] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230603-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-06 01:41:54] INFO root fetch - processPackages [bigdl-chronos-spark3]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark3-2.4.0b20230605-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-06 01:41:54] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark3]: success
+[2023-06-06 01:41:54] INFO root fetch - main [MainThread]: Store serial: [18382714]
