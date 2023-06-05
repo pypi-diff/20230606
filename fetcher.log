@@ -1051,3 +1051,73 @@
 [2023-06-06 00:57:21] INFO root fetch - processPackages [viser]: Remove: archive file [/home/abi/fetcher/tmp/viser-0.0.9.tar.gz]
 [2023-06-06 00:57:21] INFO root fetch - main [MainThread]: End processing [viser]: success
 [2023-06-06 00:57:21] INFO root fetch - main [MainThread]: Store serial: [18382393]
+[2023-06-06 01:02:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18382393]
+[2023-06-06 01:02:30] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-06 01:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Anaplan-API-Python-Library
+[2023-06-06 01:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tornadocliffwalking
+[2023-06-06 01:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: EvoMSA
+[2023-06-06 01:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cwsearch-utils
+[2023-06-06 01:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gridworks-atn
+[2023-06-06 01:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AnaplanPY
+[2023-06-06 01:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: landingai
+[2023-06-06 01:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chappie-ai
+[2023-06-06 01:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: embreex
+[2023-06-06 01:02:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nyckel
+[2023-06-06 01:02:30] INFO root fetch - processPackages [gridworks-atn]: New version: [0.3.7] Old Version: [0.3.6]
+[2023-06-06 01:02:30] WARNING root fetch - processPackages [AnaplanPY]: Skipping, unable to determine old version
+[2023-06-06 01:02:30] INFO root fetch - processPackages [AnaplanPY]: Start processing: tmnt-cu101
+[2023-06-06 01:02:30] INFO root fetch - main [MainThread]: End processing [AnaplanPY] error
+[2023-06-06 01:02:30] INFO root fetch - processPackages [EvoMSA]: New version: [1.9.5] Old Version: [1.9.4]
+[2023-06-06 01:02:30] INFO root fetch - processPackages [nyckel]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 01:02:30] WARNING root fetch - processPackages [chappie-ai]: Skipping, unable to determine old version
+[2023-06-06 01:02:30] INFO root fetch - processPackages [cwsearch-utils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 01:02:30] INFO root fetch - processPackages [embreex]: New version: [2.17.7.post1] Old Version: [2.17.7]
+[2023-06-06 01:02:30] INFO root fetch - processPackages [landingai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-06 01:02:30] INFO root fetch - main [MainThread]: End processing [chappie-ai] error
+[2023-06-06 01:02:30] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230605] Old Version: [0.7.0b20230604]
+[2023-06-06 01:02:30] INFO root fetch - processPackages [nyckel]: Downloading https://files.pythonhosted.org/packages/84/16/921be5721a1bf9aaa52ee17c5a3877a7fb5eee5fffba36999ff2ce374379/nyckel-0.0.8.tar.gz
+[2023-06-06 01:02:30] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/af/e9/bb2fb51b2961b75415a8b56aedaaf0f7aa54ac1f9e0a1c4d37b6ecf014f7/tmnt-cu101-0.7.0b20230604.tar.gz
+[2023-06-06 01:02:30] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/24/85/41de202cb57658583318c807ea79fedd058c090462f950346d7677af0cfb/landingai-0.0.7.tar.gz
+[2023-06-06 01:02:30] WARNING root fetch - processPackages [tornadocliffwalking]: Skipping, unable to determine old version
+[2023-06-06 01:02:30] INFO root fetch - main [MainThread]: End processing [tornadocliffwalking] error
+[2023-06-06 01:02:30] ERROR root fetch - processPackages [Anaplan-API-Python-Library]: Unable to get metadata: No such project 'Anaplan-API-Python-Library'
+[2023-06-06 01:02:30] INFO root fetch - main [MainThread]: End processing [Anaplan-API-Python-Library] error
+[2023-06-06 01:02:30] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/fe/41/217b3e0de0fdb300f1bc686d8d5f39f3f600569ab95aa5302ab5c16adc30/landingai-0.0.8.tar.gz
+[2023-06-06 01:02:30] INFO root fetch - processPackages [gridworks-atn]: Downloading https://files.pythonhosted.org/packages/a5/a6/979937d4e51949dddd6146a8e7de139fbf9fb01f16c3b7b69ad85b1c1782/gridworks_atn-0.3.6.tar.gz
+[2023-06-06 01:02:30] INFO root fetch - processPackages [cwsearch-utils]: Downloading https://files.pythonhosted.org/packages/65/c9/a64d8fa6079ebae541219a0943480b41cc0d44a3d51c33ff8e4e1c1360fc/cwsearch_utils-0.1.8-py3-none-any.whl
+[2023-06-06 01:02:30] INFO root fetch - processPackages [embreex]: Downloading https://files.pythonhosted.org/packages/23/52/3a2bd8bc0e6a1d416343b849bcbf038166fb33da6d1f4ce80614f0360611/embreeX-2.17.7-cp39-cp39-win_amd64.whl
+[2023-06-06 01:02:30] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-06-06 01:02:30] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.0.7.tar.gz tmp/landingai-0.0.8.tar.gz --markdown 20230606/l/landingai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-06 01:02:30] INFO root fetch - processPackages [nyckel]: Downloading https://files.pythonhosted.org/packages/44/be/18126ac7e7be3b6db5916e37529641b2aa83b85ad3076f23a737bac70bf7/nyckel-0.0.9.tar.gz
+[2023-06-06 01:02:30] WARNING root fetch - processPackages [embreex]: Skipping package: exceeds size limit 13439992>=10485760
+[2023-06-06 01:02:30] INFO root fetch - main [MainThread]: End processing [embreex] error
+[2023-06-06 01:02:30] INFO root fetch - processPackages [EvoMSA]: Downloading https://files.pythonhosted.org/packages/8b/14/09b9953b8275e31637fbe0e8e6cd928b74406d9e207c2d73666f363f3462/EvoMSA-1.9.4.tar.gz
+[2023-06-06 01:02:31] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/1b/44/6ba48396c4dd773a2e4ab28c266b347dbedcbca04556f7a70f5dbb165ace/tmnt-cu101-0.7.0b20230605.tar.gz
+[2023-06-06 01:02:31] INFO root fetch - processPackages [nyckel]: executing diffoscope
+[2023-06-06 01:02:31] INFO root fetch - processPackages [nyckel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyckel-0.0.8.tar.gz tmp/nyckel-0.0.9.tar.gz --markdown 20230606/n/nyckel/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 01:02:31] INFO root fetch - processPackages [gridworks-atn]: Downloading https://files.pythonhosted.org/packages/e1/e8/b2fd1f35e151863deda822b1559b2167f359e5190a7bc58acb855a8bcfc1/gridworks_atn-0.3.7.tar.gz
+[2023-06-06 01:02:31] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-06-06 01:02:31] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230604.tar.gz tmp/tmnt-cu101-0.7.0b20230605.tar.gz --markdown 20230606/t/tmnt-cu101/0.7.0b20230604-0.7.0b20230605/diff.md --exclude *.pyd
+[2023-06-06 01:02:31] INFO root fetch - processPackages [cwsearch-utils]: Downloading https://files.pythonhosted.org/packages/05/1a/f47c6297c519e44b98abd002fb268d6ca714741bd948a13bd77290fa22f8/cwsearch_utils-0.1.9-py3-none-any.whl
+[2023-06-06 01:02:31] WARNING root fetch - processPackages [EvoMSA]: Skipping package: exceeds size limit 32311127>=10485760
+[2023-06-06 01:02:31] INFO root fetch - main [MainThread]: End processing [EvoMSA] error
+[2023-06-06 01:02:31] INFO root fetch - processPackages [cwsearch-utils]: executing diffoscope
+[2023-06-06 01:02:31] INFO root fetch - processPackages [cwsearch-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cwsearch_utils-0.1.8-py3-none-any.whl.zip tmp/cwsearch_utils-0.1.9-py3-none-any.whl.zip --markdown 20230606/c/cwsearch-utils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 01:02:31] INFO root fetch - processPackages [gridworks-atn]: executing diffoscope
+[2023-06-06 01:02:31] INFO root fetch - processPackages [gridworks-atn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gridworks_atn-0.3.6.tar.gz tmp/gridworks_atn-0.3.7.tar.gz --markdown 20230606/g/gridworks-atn/0.3.6-0.3.7/diff.md --exclude *.pyd
+[2023-06-06 01:02:31] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.0.7.tar.gz]
+[2023-06-06 01:02:31] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.0.8.tar.gz]
+[2023-06-06 01:02:31] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-06-06 01:02:32] INFO root fetch - processPackages [nyckel]: Remove: archive file [/home/abi/fetcher/tmp/nyckel-0.0.8.tar.gz]
+[2023-06-06 01:02:32] INFO root fetch - processPackages [nyckel]: Remove: archive file [/home/abi/fetcher/tmp/nyckel-0.0.9.tar.gz]
+[2023-06-06 01:02:32] INFO root fetch - main [MainThread]: End processing [nyckel]: success
+[2023-06-06 01:02:32] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230604.tar.gz]
+[2023-06-06 01:02:32] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230605.tar.gz]
+[2023-06-06 01:02:32] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-06-06 01:02:32] INFO root fetch - processPackages [cwsearch-utils]: Remove: archive file [/home/abi/fetcher/tmp/cwsearch_utils-0.1.8-py3-none-any.whl.zip]
+[2023-06-06 01:02:32] INFO root fetch - processPackages [cwsearch-utils]: Remove: archive file [/home/abi/fetcher/tmp/cwsearch_utils-0.1.9-py3-none-any.whl.zip]
+[2023-06-06 01:02:32] INFO root fetch - main [MainThread]: End processing [cwsearch-utils]: success
+[2023-06-06 01:02:33] INFO root fetch - processPackages [gridworks-atn]: Remove: archive file [/home/abi/fetcher/tmp/gridworks_atn-0.3.6.tar.gz]
+[2023-06-06 01:02:33] INFO root fetch - processPackages [gridworks-atn]: Remove: archive file [/home/abi/fetcher/tmp/gridworks_atn-0.3.7.tar.gz]
+[2023-06-06 01:02:33] INFO root fetch - main [MainThread]: End processing [gridworks-atn]: success
+[2023-06-06 01:02:33] INFO root fetch - main [MainThread]: Store serial: [18382456]
