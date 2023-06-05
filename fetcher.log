@@ -1219,3 +1219,77 @@
 [2023-06-06 01:08:23] INFO root fetch - processPackages [sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_vss-0.1.1a9-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
 [2023-06-06 01:08:23] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
 [2023-06-06 01:08:23] INFO root fetch - main [MainThread]: Store serial: [18382491]
+[2023-06-06 01:13:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18382491]
+[2023-06-06 01:13:32] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-06 01:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lib-for-messanger
+[2023-06-06 01:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: intelicity
+[2023-06-06 01:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-06 01:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: unibetscraper
+[2023-06-06 01:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sagemaker-feature-store-pyspark-3.1
+[2023-06-06 01:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rs-distances
+[2023-06-06 01:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tornadocliffwalking
+[2023-06-06 01:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flamapy-fm-dist
+[2023-06-06 01:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyquil
+[2023-06-06 01:13:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tornado-cliff-walking
+[2023-06-06 01:13:32] ERROR root fetch - processPackages [tornadocliffwalking]: Unable to get metadata: No such project 'tornadocliffwalking'
+[2023-06-06 01:13:32] INFO root fetch - processPackages [tornadocliffwalking]: Start processing: dt-maps
+[2023-06-06 01:13:32] INFO root fetch - main [MainThread]: End processing [tornadocliffwalking] error
+[2023-06-06 01:13:32] WARNING root fetch - processPackages [unibetscraper]: Skipping, unable to determine old version
+[2023-06-06 01:13:32] INFO root fetch - processPackages [lib-for-messanger]: New version: [1.0.0] Old Version: [0.9]
+[2023-06-06 01:13:32] INFO root fetch - main [MainThread]: End processing [unibetscraper] error
+[2023-06-06 01:13:32] INFO root fetch - processPackages [sagemaker-feature-store-pyspark-3.1]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-06 01:13:32] ERROR root fetch - processPackages [dt-maps]: Unable to get metadata: No such project 'dt-maps'
+[2023-06-06 01:13:32] WARNING root fetch - processPackages [tornado-cliff-walking]: Skipping, unable to determine old version
+[2023-06-06 01:13:32] INFO root fetch - main [MainThread]: End processing [dt-maps] error
+[2023-06-06 01:13:32] INFO root fetch - processPackages [rs-distances]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-06 01:13:32] INFO root fetch - processPackages [intelicity]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 01:13:32] INFO root fetch - processPackages [flamapy-fm-dist]: New version: [1.0.0.dev5] Old Version: [1.0.0.dev3]
+[2023-06-06 01:13:32] INFO root fetch - main [MainThread]: End processing [tornado-cliff-walking] error
+[2023-06-06 01:13:32] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.346] Old Version: [0.3.345]
+[2023-06-06 01:13:32] INFO root fetch - processPackages [pyquil]: New version: [4.0.0rc9] Old Version: [4.0.0rc8]
+[2023-06-06 01:13:32] INFO root fetch - processPackages [flamapy-fm-dist]: Downloading https://files.pythonhosted.org/packages/b1/b6/d19ac3a485cac9e8321738b1a16c9a1050bebbc4fb4d07187c19265e20ad/flamapy-fm-dist-1.0.0.dev3.tar.gz
+[2023-06-06 01:13:32] INFO root fetch - processPackages [rs-distances]: Downloading https://files.pythonhosted.org/packages/fe/54/a437ab8acdd71b9e2bd0baedda11c797428b32f7f18318fe4f34d1aa6c02/rs_distances-0.5.0.tar.gz
+[2023-06-06 01:13:32] INFO root fetch - processPackages [lib-for-messanger]: Downloading https://files.pythonhosted.org/packages/3e/c3/e9edbe226fa2ade852938a49e2e426a1d3a55e5d5372cef80ceaca70ab4d/lib_for_messanger-0.9.tar.gz
+[2023-06-06 01:13:32] INFO root fetch - processPackages [intelicity]: Downloading https://files.pythonhosted.org/packages/d8/d5/b80f44becf0b513aa24f37df87efc13aea9b1a46d3a619addb74a8c6c22d/intelicity-0.0.8-py3-none-any.whl
+[2023-06-06 01:13:32] INFO root fetch - processPackages [sagemaker-feature-store-pyspark-3.1]: Downloading https://files.pythonhosted.org/packages/b9/a4/fd38c982523a7c02ecbe3121c9e67af0159912cb940257c9ad80ef23544b/sagemaker_feature_store_pyspark_3.1-1.1.1.tar.gz
+[2023-06-06 01:13:32] INFO root fetch - processPackages [pyquil]: Downloading https://files.pythonhosted.org/packages/d9/31/04bebe8a0e1e9f50a7c18106b7d8ade8b3377f99c6a2249e5a49105b59b4/pyquil-4.0.0rc8.tar.gz
+[2023-06-06 01:13:32] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/81/40/458983fbcc07aa9f08df18cd31f0a5f205634e137dba933d487b670a320d/pepperize.cdk-ses-smtp-credentials-0.3.345.tar.gz
+[2023-06-06 01:13:32] WARNING root fetch - processPackages [sagemaker-feature-store-pyspark-3.1]: Skipping package: exceeds size limit 54122073>=10485760
+[2023-06-06 01:13:32] INFO root fetch - main [MainThread]: End processing [sagemaker-feature-store-pyspark-3.1] error
+[2023-06-06 01:13:32] INFO root fetch - processPackages [flamapy-fm-dist]: Downloading https://files.pythonhosted.org/packages/1f/b6/4c8929d26634cd1ad5e87c2306bc517cf45d5ba50b6f1667e2cbb758767f/flamapy-fm-dist-1.0.0.dev5.tar.gz
+[2023-06-06 01:13:32] INFO root fetch - processPackages [rs-distances]: Downloading https://files.pythonhosted.org/packages/97/46/f24c770464a040cb7037ea03f49a65cb43941d2e94500b2748391beb5acc/rs_distances-0.6.0.tar.gz
+[2023-06-06 01:13:32] INFO root fetch - processPackages [lib-for-messanger]: Downloading https://files.pythonhosted.org/packages/82/be/c9ec369a8d44bf7c780c1b113d0ccc2e4db260f2069bd1cc155e5165f8e4/lib_for_messanger-1.0.0.tar.gz
+[2023-06-06 01:13:33] INFO root fetch - processPackages [intelicity]: Downloading https://files.pythonhosted.org/packages/1b/2d/0708a9fe843651a49224ac0248565241a9436eb7ad26e15dfb739e85c48e/intelicity-0.0.9-py3-none-any.whl
+[2023-06-06 01:13:33] INFO root fetch - processPackages [rs-distances]: executing diffoscope
+[2023-06-06 01:13:33] INFO root fetch - processPackages [rs-distances]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rs_distances-0.5.0.tar.gz tmp/rs_distances-0.6.0.tar.gz --markdown 20230606/r/rs-distances/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-06 01:13:33] INFO root fetch - processPackages [lib-for-messanger]: executing diffoscope
+[2023-06-06 01:13:33] INFO root fetch - processPackages [lib-for-messanger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_for_messanger-0.9.tar.gz tmp/lib_for_messanger-1.0.0.tar.gz --markdown 20230606/l/lib-for-messanger/0.9-1.0.0/diff.md --exclude *.pyd
+[2023-06-06 01:13:33] INFO root fetch - processPackages [flamapy-fm-dist]: executing diffoscope
+[2023-06-06 01:13:33] INFO root fetch - processPackages [flamapy-fm-dist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flamapy-fm-dist-1.0.0.dev3.tar.gz tmp/flamapy-fm-dist-1.0.0.dev5.tar.gz --markdown 20230606/f/flamapy-fm-dist/1.0.0.dev3-1.0.0.dev5/diff.md --exclude *.pyd
+[2023-06-06 01:13:33] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/37/1f/ec3257279cacd7cdba7cca4b82e3e3e5c2d3fdac9efc42818a9090b8ef3d/pepperize.cdk-ses-smtp-credentials-0.3.346.tar.gz
+[2023-06-06 01:13:33] INFO root fetch - processPackages [pyquil]: Downloading https://files.pythonhosted.org/packages/3f/f5/a07361d9cd9abaff042e646976f0046519493e9c310c03d2e627f3ff97e8/pyquil-4.0.0rc9.tar.gz
+[2023-06-06 01:13:33] INFO root fetch - processPackages [intelicity]: executing diffoscope
+[2023-06-06 01:13:33] INFO root fetch - processPackages [intelicity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intelicity-0.0.8-py3-none-any.whl.zip tmp/intelicity-0.0.9-py3-none-any.whl.zip --markdown 20230606/i/intelicity/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 01:13:33] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-06 01:13:33] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.345.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.346.tar.gz --markdown 20230606/p/pepperize.cdk-ses-smtp-credentials/0.3.345-0.3.346/diff.md --exclude *.pyd
+[2023-06-06 01:13:33] INFO root fetch - processPackages [pyquil]: executing diffoscope
+[2023-06-06 01:13:33] INFO root fetch - processPackages [pyquil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyquil-4.0.0rc8.tar.gz tmp/pyquil-4.0.0rc9.tar.gz --markdown 20230606/p/pyquil/4.0.0rc8-4.0.0rc9/diff.md --exclude *.pyd
+[2023-06-06 01:13:34] INFO root fetch - processPackages [lib-for-messanger]: Remove: archive file [/home/abi/fetcher/tmp/lib_for_messanger-0.9.tar.gz]
+[2023-06-06 01:13:34] INFO root fetch - processPackages [lib-for-messanger]: Remove: archive file [/home/abi/fetcher/tmp/lib_for_messanger-1.0.0.tar.gz]
+[2023-06-06 01:13:34] INFO root fetch - main [MainThread]: End processing [lib-for-messanger]: success
+[2023-06-06 01:13:34] INFO root fetch - processPackages [rs-distances]: Remove: archive file [/home/abi/fetcher/tmp/rs_distances-0.5.0.tar.gz]
+[2023-06-06 01:13:34] INFO root fetch - processPackages [rs-distances]: Remove: archive file [/home/abi/fetcher/tmp/rs_distances-0.6.0.tar.gz]
+[2023-06-06 01:13:34] INFO root fetch - main [MainThread]: End processing [rs-distances]: success
+[2023-06-06 01:13:34] INFO root fetch - processPackages [flamapy-fm-dist]: Remove: archive file [/home/abi/fetcher/tmp/flamapy-fm-dist-1.0.0.dev3.tar.gz]
+[2023-06-06 01:13:34] INFO root fetch - processPackages [flamapy-fm-dist]: Remove: archive file [/home/abi/fetcher/tmp/flamapy-fm-dist-1.0.0.dev5.tar.gz]
+[2023-06-06 01:13:34] INFO root fetch - main [MainThread]: End processing [flamapy-fm-dist]: success
+[2023-06-06 01:13:34] INFO root fetch - processPackages [intelicity]: Remove: archive file [/home/abi/fetcher/tmp/intelicity-0.0.8-py3-none-any.whl.zip]
+[2023-06-06 01:13:34] INFO root fetch - processPackages [intelicity]: Remove: archive file [/home/abi/fetcher/tmp/intelicity-0.0.9-py3-none-any.whl.zip]
+[2023-06-06 01:13:34] INFO root fetch - main [MainThread]: End processing [intelicity]: success
+[2023-06-06 01:13:34] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.345.tar.gz]
+[2023-06-06 01:13:34] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.346.tar.gz]
+[2023-06-06 01:13:34] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-06 01:13:34] INFO root fetch - processPackages [pyquil]: Remove: archive file [/home/abi/fetcher/tmp/pyquil-4.0.0rc8.tar.gz]
+[2023-06-06 01:13:34] INFO root fetch - processPackages [pyquil]: Remove: archive file [/home/abi/fetcher/tmp/pyquil-4.0.0rc9.tar.gz]
+[2023-06-06 01:13:34] INFO root fetch - main [MainThread]: End processing [pyquil]: success
+[2023-06-06 01:13:34] INFO root fetch - main [MainThread]: Store serial: [18382527]
