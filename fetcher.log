@@ -282,3 +282,104 @@
 [2023-06-06 00:13:48] ERROR root fetch - processPackages [i2x]: Timeout during execution of pkgdiff
 [2023-06-06 00:13:48] INFO root fetch - main [MainThread]: End processing [i2x] error
 [2023-06-06 00:13:48] INFO root fetch - main [MainThread]: Store serial: [18382051]
+[2023-06-06 00:18:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18382051]
+[2023-06-06 00:18:57] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-06 00:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ladybug-comfort
+[2023-06-06 00:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chima
+[2023-06-06 00:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kelpie-personal-trainer
+[2023-06-06 00:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kfish
+[2023-06-06 00:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-06-06 00:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: oci
+[2023-06-06 00:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sidetrek
+[2023-06-06 00:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: json-explorer
+[2023-06-06 00:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sumatra-client
+[2023-06-06 00:18:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: shub-workflow
+[2023-06-06 00:18:57] INFO root fetch - processPackages [kelpie-personal-trainer]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-06 00:18:57] WARNING root fetch - processPackages [chima]: Skipping, unable to determine old version
+[2023-06-06 00:18:57] INFO root fetch - processPackages [chima]: Start processing: cellmaps-utils
+[2023-06-06 00:18:57] INFO root fetch - main [MainThread]: End processing [chima] error
+[2023-06-06 00:18:57] INFO root fetch - processPackages [sumatra-client]: New version: [1.3.0rc2] Old Version: [1.3.0rc1]
+[2023-06-06 00:18:57] INFO root fetch - processPackages [cellmaps-utils]: New version: [0.1.0a8] Old Version: [0.1.0a7]
+[2023-06-06 00:18:57] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-06 00:18:57] WARNING root fetch - processPackages [json-explorer]: Skipping, unable to determine old version
+[2023-06-06 00:18:57] INFO root fetch - processPackages [json-explorer]: Start processing: pepperize.cdk-serverless-cluster-from-snapshot
+[2023-06-06 00:18:57] INFO root fetch - main [MainThread]: End processing [json-explorer] error
+[2023-06-06 00:18:57] INFO root fetch - processPackages [ladybug-comfort]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-06 00:18:57] INFO root fetch - processPackages [oci]: New version: [2.99.1] Old Version: [2.99.0]
+[2023-06-06 00:18:57] INFO root fetch - processPackages [sidetrek]: New version: [0.0.93] Old Version: [0.0.92]
+[2023-06-06 00:18:57] INFO root fetch - processPackages [shub-workflow]: New version: [1.9.7.4] Old Version: [1.9.7.3]
+[2023-06-06 00:18:57] INFO root fetch - processPackages [kfish]: New version: [99.0.202306052213] Old Version: [99.0.202306052013]
+[2023-06-06 00:18:57] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-06 00:18:57] INFO root fetch - processPackages [cellmaps-utils]: Downloading https://files.pythonhosted.org/packages/0a/55/1f7b3a92bde846f8df40c4542e821c256b497b0492129e43c128921f97e6/cellmaps_utils-0.1.0a7.tar.gz
+[2023-06-06 00:18:57] INFO root fetch - processPackages [kelpie-personal-trainer]: Downloading https://files.pythonhosted.org/packages/bb/19/56211df351f93dbb1b1bcfd5b47a3feb4d520f35ebf7286ef7ee06795755/kelpie_personal_trainer-0.2.8.tar.gz
+[2023-06-06 00:18:58] INFO root fetch - processPackages [sumatra-client]: Downloading https://files.pythonhosted.org/packages/49/68/1cce6adbd19b75cfb2e2925ff4250c358e8634354480f6a59649b64dba83/sumatra-client-1.3.0rc1.tar.gz
+[2023-06-06 00:18:58] INFO root fetch - processPackages [shub-workflow]: Downloading https://files.pythonhosted.org/packages/b8/b5/f37b87a1a4c72917366bc3b9794f1729c62b0130131750ba52c35c41e5e4/shub-workflow-1.9.7.3.tar.gz
+[2023-06-06 00:18:58] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/41/ed/5efe219dc09a3767781b18e59998e46265479245ef5e56798033e654efe2/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz
+[2023-06-06 00:18:58] INFO root fetch - processPackages [sidetrek]: Downloading https://files.pythonhosted.org/packages/36/b5/dd878c1f90f005464cc37248ed63c58182e4efe0b552417bd210d863fe7e/sidetrek-0.0.92.tar.gz
+[2023-06-06 00:18:58] WARNING root fetch - processPackages [kelpie-personal-trainer]: Skipping package: exceeds size limit 18721272>=10485760
+[2023-06-06 00:18:58] INFO root fetch - processPackages [kelpie-personal-trainer]: Start processing: SBILoops
+[2023-06-06 00:18:58] INFO root fetch - processPackages [ladybug-comfort]: Downloading https://files.pythonhosted.org/packages/6a/bf/8102b0e33435882b5600b8c0d7b5ebb92e379d665f3767b706dce6bdd2d3/ladybug-comfort-0.9.8.tar.gz
+[2023-06-06 00:18:58] INFO root fetch - main [MainThread]: End processing [kelpie-personal-trainer] error
+[2023-06-06 00:18:58] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/41/ed/5efe219dc09a3767781b18e59998e46265479245ef5e56798033e654efe2/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz
+[2023-06-06 00:18:58] INFO root fetch - processPackages [oci]: Downloading https://files.pythonhosted.org/packages/b7/50/166794801e82f1f65176a501f1451e6c542bd24f1b9bc4cae6e79a4bcd64/oci-2.99.0.tar.gz
+[2023-06-06 00:18:58] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/46/ee/d83be4bcaa0214ea851ec1469665a72f5449c1132c51bc6fcdc0b2c17c04/kfish-99.0.202306052013-py3-none-any.whl
+[2023-06-06 00:18:58] INFO root fetch - processPackages [SBILoops]: New version: [0.2.1] Old Version: [0.2]
+[2023-06-06 00:18:58] INFO root fetch - processPackages [sidetrek]: Downloading https://files.pythonhosted.org/packages/79/4b/20ae3853056e75aa487846424b53818b0f383aa3ad5971455ab1a617494d/sidetrek-0.0.93.tar.gz
+[2023-06-06 00:18:58] INFO root fetch - processPackages [SBILoops]: Downloading https://files.pythonhosted.org/packages/33/f0/475bb00c51ab2afe46be572be42b0af8eb8848c1c02da4f3aeb096400259/SBILoops-0.2.tar.gz
+[2023-06-06 00:18:58] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c4/ea/0cf325d4bd457f0b1bfb84c83bf5df10fdebe597cb1c5f4f298171a5f234/kfish-99.0.202306052213-py3-none-any.whl
+[2023-06-06 00:18:58] INFO root fetch - processPackages [sidetrek]: executing diffoscope
+[2023-06-06 00:18:58] INFO root fetch - processPackages [sidetrek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sidetrek-0.0.92.tar.gz tmp/sidetrek-0.0.93.tar.gz --markdown 20230606/s/sidetrek/0.0.92-0.0.93/diff.md --exclude *.pyd
+[2023-06-06 00:18:58] INFO root fetch - processPackages [sumatra-client]: Downloading https://files.pythonhosted.org/packages/00/61/cf23eb7ff2861a5b77133eb52082d3dc656821ec5a9fbbaffcfe19eac75a/sumatra-client-1.3.0rc2.tar.gz
+[2023-06-06 00:18:58] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-06 00:18:58] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306052013-py3-none-any.whl.zip tmp/kfish-99.0.202306052213-py3-none-any.whl.zip --markdown 20230606/k/kfish/99.0.202306052013-99.0.202306052213/diff.md --exclude *.pyd
+[2023-06-06 00:18:58] INFO root fetch - processPackages [shub-workflow]: Downloading https://files.pythonhosted.org/packages/06/49/c3ec898ce5372e567e1a288374d950650ae37bcffa6f46c6d7233228eee6/shub-workflow-1.9.7.4.tar.gz
+[2023-06-06 00:18:58] INFO root fetch - processPackages [cellmaps-utils]: Downloading https://files.pythonhosted.org/packages/cf/df/fdfd764b1cf2ab712128c009da5f5071771a6dc51f1b741975a834810063/cellmaps_utils-0.1.0a8.tar.gz
+[2023-06-06 00:18:58] INFO root fetch - processPackages [ladybug-comfort]: Downloading https://files.pythonhosted.org/packages/01/02/b871500d4bb81f18c253d98ce272a040dfa679de4682eb2f66a1f039c17a/ladybug-comfort-0.9.9.tar.gz
+[2023-06-06 00:18:58] INFO root fetch - processPackages [sumatra-client]: executing diffoscope
+[2023-06-06 00:18:58] INFO root fetch - processPackages [sumatra-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sumatra-client-1.3.0rc1.tar.gz tmp/sumatra-client-1.3.0rc2.tar.gz --markdown 20230606/s/sumatra-client/1.3.0rc1-1.3.0rc2/diff.md --exclude *.pyd
+[2023-06-06 00:18:58] INFO root fetch - processPackages [cellmaps-utils]: executing diffoscope
+[2023-06-06 00:18:58] INFO root fetch - processPackages [cellmaps-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellmaps_utils-0.1.0a7.tar.gz tmp/cellmaps_utils-0.1.0a8.tar.gz --markdown 20230606/c/cellmaps-utils/0.1.0a7-0.1.0a8/diff.md --exclude *.pyd
+[2023-06-06 00:18:58] INFO root fetch - processPackages [shub-workflow]: executing diffoscope
+[2023-06-06 00:18:58] INFO root fetch - processPackages [shub-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shub-workflow-1.9.7.3.tar.gz tmp/shub-workflow-1.9.7.4.tar.gz --markdown 20230606/s/shub-workflow/1.9.7.3-1.9.7.4/diff.md --exclude *.pyd
+[2023-06-06 00:18:58] INFO root fetch - processPackages [SBILoops]: Downloading https://files.pythonhosted.org/packages/63/2a/a7fffc30551bc570b27e9ae895e62ec7a333cfe92da97b189c0cfd14eed9/SBILoops-0.2.1.tar.gz
+[2023-06-06 00:18:58] INFO root fetch - processPackages [ladybug-comfort]: executing diffoscope
+[2023-06-06 00:18:58] INFO root fetch - processPackages [ladybug-comfort]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladybug-comfort-0.9.8.tar.gz tmp/ladybug-comfort-0.9.9.tar.gz --markdown 20230606/l/ladybug-comfort/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-06 00:18:58] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/0a/e1/974dfac343666db334bd3dc6b819d5e46e3769ce75e9baccd0067702f4ad/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz
+[2023-06-06 00:18:58] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Downloading https://files.pythonhosted.org/packages/0a/e1/974dfac343666db334bd3dc6b819d5e46e3769ce75e9baccd0067702f4ad/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz
+[2023-06-06 00:18:58] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-06-06 00:18:58] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230606/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-06 00:18:58] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: executing diffoscope
+[2023-06-06 00:18:58] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz --markdown 20230606/p/pepperize.cdk-serverless-cluster-from-snapshot/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-06 00:18:59] INFO root fetch - processPackages [SBILoops]: executing diffoscope
+[2023-06-06 00:18:59] INFO root fetch - processPackages [SBILoops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SBILoops-0.2.tar.gz tmp/SBILoops-0.2.1.tar.gz --markdown 20230606/S/SBILoops/0.2-0.2.1/diff.md --exclude *.pyd
+[2023-06-06 00:18:59] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306052013-py3-none-any.whl.zip]
+[2023-06-06 00:18:59] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306052213-py3-none-any.whl.zip]
+[2023-06-06 00:18:59] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-06 00:18:59] INFO root fetch - processPackages [sidetrek]: Remove: archive file [/home/abi/fetcher/tmp/sidetrek-0.0.92.tar.gz]
+[2023-06-06 00:18:59] INFO root fetch - processPackages [sidetrek]: Remove: archive file [/home/abi/fetcher/tmp/sidetrek-0.0.93.tar.gz]
+[2023-06-06 00:18:59] INFO root fetch - main [MainThread]: End processing [sidetrek]: success
+[2023-06-06 00:19:00] INFO root fetch - processPackages [cellmaps-utils]: Remove: archive file [/home/abi/fetcher/tmp/cellmaps_utils-0.1.0a7.tar.gz]
+[2023-06-06 00:19:00] INFO root fetch - processPackages [cellmaps-utils]: Remove: archive file [/home/abi/fetcher/tmp/cellmaps_utils-0.1.0a8.tar.gz]
+[2023-06-06 00:19:00] INFO root fetch - main [MainThread]: End processing [cellmaps-utils]: success
+[2023-06-06 00:19:00] INFO root fetch - processPackages [ladybug-comfort]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-comfort-0.9.8.tar.gz]
+[2023-06-06 00:19:00] INFO root fetch - processPackages [ladybug-comfort]: Remove: archive file [/home/abi/fetcher/tmp/ladybug-comfort-0.9.9.tar.gz]
+[2023-06-06 00:19:00] INFO root fetch - main [MainThread]: End processing [ladybug-comfort]: success
+[2023-06-06 00:19:00] INFO root fetch - processPackages [sumatra-client]: Remove: archive file [/home/abi/fetcher/tmp/sumatra-client-1.3.0rc1.tar.gz]
+[2023-06-06 00:19:00] INFO root fetch - processPackages [sumatra-client]: Remove: archive file [/home/abi/fetcher/tmp/sumatra-client-1.3.0rc2.tar.gz]
+[2023-06-06 00:19:00] INFO root fetch - main [MainThread]: End processing [sumatra-client]: success
+[2023-06-06 00:19:00] INFO root fetch - processPackages [oci]: Downloading https://files.pythonhosted.org/packages/8f/3f/4d237aeedaa8d6cb488beefd362f4e0024342ac507be45fc223132c6f3a6/oci-2.99.1.tar.gz
+[2023-06-06 00:19:00] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.98.tar.gz]
+[2023-06-06 00:19:00] INFO root fetch - processPackages [pepperize.cdk-serverless-cluster-from-snapshot]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-serverless-cluster-from-snapshot-0.0.99.tar.gz]
+[2023-06-06 00:19:00] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-06-06 00:19:00] INFO root fetch - processPackages [shub-workflow]: Remove: archive file [/home/abi/fetcher/tmp/shub-workflow-1.9.7.3.tar.gz]
+[2023-06-06 00:19:00] INFO root fetch - processPackages [shub-workflow]: Remove: archive file [/home/abi/fetcher/tmp/shub-workflow-1.9.7.4.tar.gz]
+[2023-06-06 00:19:00] INFO root fetch - main [MainThread]: End processing [shub-workflow]: success
+[2023-06-06 00:19:01] INFO root fetch - processPackages [oci]: executing diffoscope
+[2023-06-06 00:19:01] INFO root fetch - processPackages [oci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oci-2.99.0.tar.gz tmp/oci-2.99.1.tar.gz --markdown 20230606/o/oci/2.99.0-2.99.1/diff.md --exclude *.pyd
+[2023-06-06 00:19:01] INFO root fetch - processPackages [SBILoops]: Remove: archive file [/home/abi/fetcher/tmp/SBILoops-0.2.tar.gz]
+[2023-06-06 00:19:01] INFO root fetch - processPackages [SBILoops]: Remove: archive file [/home/abi/fetcher/tmp/SBILoops-0.2.1.tar.gz]
+[2023-06-06 00:19:01] INFO root fetch - main [MainThread]: End processing [SBILoops]: success
+[2023-06-06 00:19:47] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-serverless-cluster-from-snapshot]: success
+[2023-06-06 00:22:01] ERROR root fetch - processPackages [oci]: Timeout during execution of pkgdiff
+[2023-06-06 00:22:01] INFO root fetch - main [MainThread]: End processing [oci] error
+[2023-06-06 00:22:01] INFO root fetch - main [MainThread]: Store serial: [18382093]
