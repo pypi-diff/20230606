@@ -1419,3 +1419,151 @@
 [2023-06-06 01:21:01] INFO root fetch - processPackages [viser]: Remove: archive file [/home/abi/fetcher/tmp/viser-0.0.9.tar.gz]
 [2023-06-06 01:21:01] INFO root fetch - main [MainThread]: End processing [viser]: success
 [2023-06-06 01:21:01] INFO root fetch - main [MainThread]: Store serial: [18382571]
+[2023-06-06 01:26:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18382571]
+[2023-06-06 01:26:10] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-06-06 01:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quantconnect-stubs
+[2023-06-06 01:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: absplit
+[2023-06-06 01:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-06 01:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: AnaplanPY
+[2023-06-06 01:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: joern-lib
+[2023-06-06 01:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: intelicity
+[2023-06-06 01:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: test-pypi-publishing
+[2023-06-06 01:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: promptrix
+[2023-06-06 01:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: djangocms-simple-admin-style
+[2023-06-06 01:26:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sagemaker-feature-store-pyspark-3.2
+[2023-06-06 01:26:10] INFO root fetch - processPackages [intelicity]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 01:26:10] WARNING root fetch - processPackages [test-pypi-publishing]: Skipping, unable to determine old version
+[2023-06-06 01:26:10] INFO root fetch - processPackages [joern-lib]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-06 01:26:10] INFO root fetch - processPackages [test-pypi-publishing]: Start processing: h21ak9-poetry-test
+[2023-06-06 01:26:10] INFO root fetch - main [MainThread]: End processing [test-pypi-publishing] error
+[2023-06-06 01:26:10] INFO root fetch - processPackages [AnaplanPY]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-06 01:26:10] INFO root fetch - processPackages [sagemaker-feature-store-pyspark-3.2]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-06 01:26:10] INFO root fetch - processPackages [promptrix]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-06-06 01:26:10] INFO root fetch - processPackages [h21ak9-poetry-test]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-06 01:26:10] INFO root fetch - processPackages [djangocms-simple-admin-style]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-06-06 01:26:10] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.349] Old Version: [0.3.348]
+[2023-06-06 01:26:10] INFO root fetch - processPackages [djangocms-simple-admin-style]: Downloading https://files.pythonhosted.org/packages/c2/14/5efcbd10900eb7c239b3fa150bbfc8e025725657ef97e93d3a5f4e5b1864/djangocms-simple-admin-style-0.4.5.tar.gz
+[2023-06-06 01:26:10] INFO root fetch - processPackages [absplit]: New version: [1.0.0] Old Version: [0.1.5]
+[2023-06-06 01:26:10] INFO root fetch - processPackages [quantconnect-stubs]: New version: [9998] Old Version: [9997]
+[2023-06-06 01:26:10] INFO root fetch - processPackages [AnaplanPY]: Downloading https://files.pythonhosted.org/packages/e9/b9/4d9a61397a555c5f56791f41d3b3f472a0f193c2ed3504c0077d1d0a585f/AnaplanPY-0.2.1.tar.gz
+[2023-06-06 01:26:10] INFO root fetch - processPackages [joern-lib]: Downloading https://files.pythonhosted.org/packages/87/e7/8b1480ae33f1773b92c0b97041d7ba8ea6b00e2522decab107f86c60392d/joern_lib-0.9.1.tar.gz
+[2023-06-06 01:26:10] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/80/1e/9fdc619a5bebac3ed2c3b83de9e203456c18107d799509aafdd5b82a30e0/pepperize.cdk-ses-smtp-credentials-0.3.348.tar.gz
+[2023-06-06 01:26:10] INFO root fetch - processPackages [intelicity]: Downloading https://files.pythonhosted.org/packages/d8/d5/b80f44becf0b513aa24f37df87efc13aea9b1a46d3a619addb74a8c6c22d/intelicity-0.0.8-py3-none-any.whl
+[2023-06-06 01:26:10] INFO root fetch - processPackages [sagemaker-feature-store-pyspark-3.2]: Downloading https://files.pythonhosted.org/packages/e6/e5/b2665f785741aabd91d92755c2014bcc2d3b6a3340d3cec84eac7d048439/sagemaker_feature_store_pyspark_3.2-1.1.1.tar.gz
+[2023-06-06 01:26:10] INFO root fetch - processPackages [h21ak9-poetry-test]: Downloading https://files.pythonhosted.org/packages/3e/d9/48e36f56c55528bd75db17c53111fea83ad938e4bb307f939d872e2ce4d5/h21ak9_poetry_test-0.1.0.tar.gz
+[2023-06-06 01:26:10] INFO root fetch - processPackages [promptrix]: Downloading https://files.pythonhosted.org/packages/5e/79/d684195a462719ed4e3e8dc6745c93591e26f280a596f8c8cae29fbc8962/promptrix-0.0.5.tar.gz
+[2023-06-06 01:26:10] INFO root fetch - processPackages [djangocms-simple-admin-style]: Downloading https://files.pythonhosted.org/packages/60/eb/7bf9aaeafdb8fb282b03782e85504c6b18850ebd66edc6af50ad0a4aa979/djangocms-simple-admin-style-0.4.6.tar.gz
+[2023-06-06 01:26:11] WARNING root fetch - processPackages [sagemaker-feature-store-pyspark-3.2]: Skipping package: exceeds size limit 54886763>=10485760
+[2023-06-06 01:26:11] INFO root fetch - processPackages [sagemaker-feature-store-pyspark-3.2]: Start processing: ploomes-api-client
+[2023-06-06 01:26:11] INFO root fetch - main [MainThread]: End processing [sagemaker-feature-store-pyspark-3.2] error
+[2023-06-06 01:26:11] INFO root fetch - processPackages [absplit]: Downloading https://files.pythonhosted.org/packages/bf/57/0c1fa507f1cdebe8c7063d67b7ed13fb82fea0a48fe03f16e412c4a92cf5/absplit-0.1.5.tar.gz
+[2023-06-06 01:26:11] INFO root fetch - processPackages [djangocms-simple-admin-style]: executing diffoscope
+[2023-06-06 01:26:11] INFO root fetch - processPackages [djangocms-simple-admin-style]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangocms-simple-admin-style-0.4.5.tar.gz tmp/djangocms-simple-admin-style-0.4.6.tar.gz --markdown 20230606/d/djangocms-simple-admin-style/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-06-06 01:26:11] INFO root fetch - processPackages [ploomes-api-client]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 01:26:11] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/c1/05/f15c16a3f852decfd032ce1688dfdf02fd7289f1780742453533e8c55209/quantconnect-stubs-9997.tar.gz
+[2023-06-06 01:26:11] INFO root fetch - processPackages [ploomes-api-client]: Downloading https://files.pythonhosted.org/packages/62/a8/e0ea5ef8ce0764fc5bedb94233fa72b112e5a1ee8178f6d2d3c952d2799a/ploomes-api-client-0.1.8.tar.gz
+[2023-06-06 01:26:11] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/15/4a/82eceb4c3767b1e198cd3b649ac0b5fa6242c9d4936b284942256b310a98/pepperize.cdk-ses-smtp-credentials-0.3.349.tar.gz
+[2023-06-06 01:26:11] INFO root fetch - processPackages [h21ak9-poetry-test]: Downloading https://files.pythonhosted.org/packages/a7/b0/7fca6d8c30efc90dc068d33d522e241b420aabfab248f50094654cf8a25b/h21ak9_poetry_test-0.1.1.tar.gz
+[2023-06-06 01:26:11] INFO root fetch - processPackages [intelicity]: Downloading https://files.pythonhosted.org/packages/1b/2d/0708a9fe843651a49224ac0248565241a9436eb7ad26e15dfb739e85c48e/intelicity-0.0.9-py3-none-any.whl
+[2023-06-06 01:26:11] INFO root fetch - processPackages [joern-lib]: Downloading https://files.pythonhosted.org/packages/f7/29/c0e9300a691c11ec5a7c40feb7c726caedd36573d9dd9c11cac6b5521cce/joern_lib-0.9.2.tar.gz
+[2023-06-06 01:26:11] INFO root fetch - processPackages [h21ak9-poetry-test]: executing diffoscope
+[2023-06-06 01:26:11] INFO root fetch - processPackages [h21ak9-poetry-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h21ak9_poetry_test-0.1.0.tar.gz tmp/h21ak9_poetry_test-0.1.1.tar.gz --markdown 20230606/h/h21ak9-poetry-test/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-06 01:26:11] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-06 01:26:11] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.348.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.349.tar.gz --markdown 20230606/p/pepperize.cdk-ses-smtp-credentials/0.3.348-0.3.349/diff.md --exclude *.pyd
+[2023-06-06 01:26:11] INFO root fetch - processPackages [promptrix]: Downloading https://files.pythonhosted.org/packages/f0/98/9c764876a29f602745974876402303ab80a60a6fa286f187828a8297772b/promptrix-0.1.0.tar.gz
+[2023-06-06 01:26:11] INFO root fetch - processPackages [AnaplanPY]: Downloading https://files.pythonhosted.org/packages/59/df/69c2f30610b81ba4888ff81d435d80fcf92279ee7f3e33e19bc247022446/AnaplanPY-0.2.2.tar.gz
+[2023-06-06 01:26:11] INFO root fetch - processPackages [intelicity]: executing diffoscope
+[2023-06-06 01:26:11] INFO root fetch - processPackages [intelicity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/intelicity-0.0.8-py3-none-any.whl.zip tmp/intelicity-0.0.9-py3-none-any.whl.zip --markdown 20230606/i/intelicity/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 01:26:11] INFO root fetch - processPackages [ploomes-api-client]: Downloading https://files.pythonhosted.org/packages/d7/39/7efabf72e3c56b14fc4fcf70038c8fe61a02cb641a68807b976fa574de67/ploomes-api-client-0.1.9.tar.gz
+[2023-06-06 01:26:11] INFO root fetch - processPackages [AnaplanPY]: executing diffoscope
+[2023-06-06 01:26:11] INFO root fetch - processPackages [AnaplanPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AnaplanPY-0.2.1.tar.gz tmp/AnaplanPY-0.2.2.tar.gz --markdown 20230606/A/AnaplanPY/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-06 01:26:11] INFO root fetch - processPackages [ploomes-api-client]: executing diffoscope
+[2023-06-06 01:26:11] INFO root fetch - processPackages [ploomes-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ploomes-api-client-0.1.8.tar.gz tmp/ploomes-api-client-0.1.9.tar.gz --markdown 20230606/p/ploomes-api-client/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 01:26:11] INFO root fetch - processPackages [joern-lib]: executing diffoscope
+[2023-06-06 01:26:11] INFO root fetch - processPackages [joern-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joern_lib-0.9.1.tar.gz tmp/joern_lib-0.9.2.tar.gz --markdown 20230606/j/joern-lib/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-06 01:26:11] INFO root fetch - processPackages [promptrix]: executing diffoscope
+[2023-06-06 01:26:11] INFO root fetch - processPackages [promptrix]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/promptrix-0.0.5.tar.gz tmp/promptrix-0.1.0.tar.gz --markdown 20230606/p/promptrix/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-06-06 01:26:11] INFO root fetch - processPackages [absplit]: Downloading https://files.pythonhosted.org/packages/be/52/5ccd688712befe7f646a1a691797fe4108b58fcf71bb34a1bd840891eb4a/absplit-1.0.0.tar.gz
+[2023-06-06 01:26:11] INFO root fetch - processPackages [absplit]: executing diffoscope
+[2023-06-06 01:26:11] INFO root fetch - processPackages [absplit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absplit-0.1.5.tar.gz tmp/absplit-1.0.0.tar.gz --markdown 20230606/a/absplit/0.1.5-1.0.0/diff.md --exclude *.pyd
+[2023-06-06 01:26:11] INFO root fetch - processPackages [quantconnect-stubs]: Downloading https://files.pythonhosted.org/packages/b7/4c/71e6bb724f14efcd8865f2aa692528a4c45877c58f5cf8c964a8e0fc0e74/quantconnect-stubs-9998.tar.gz
+[2023-06-06 01:26:11] INFO root fetch - processPackages [quantconnect-stubs]: executing diffoscope
+[2023-06-06 01:26:11] INFO root fetch - processPackages [quantconnect-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantconnect-stubs-9997.tar.gz tmp/quantconnect-stubs-9998.tar.gz --markdown 20230606/q/quantconnect-stubs/9997-9998/diff.md --exclude *.pyd
+[2023-06-06 01:26:12] INFO root fetch - processPackages [h21ak9-poetry-test]: Remove: archive file [/home/abi/fetcher/tmp/h21ak9_poetry_test-0.1.0.tar.gz]
+[2023-06-06 01:26:12] INFO root fetch - processPackages [h21ak9-poetry-test]: Remove: archive file [/home/abi/fetcher/tmp/h21ak9_poetry_test-0.1.1.tar.gz]
+[2023-06-06 01:26:12] INFO root fetch - processPackages [h21ak9-poetry-test]: Start processing: sphinx-revealjs-slides
+[2023-06-06 01:26:12] INFO root fetch - main [MainThread]: End processing [h21ak9-poetry-test]: success
+[2023-06-06 01:26:12] WARNING root fetch - processPackages [sphinx-revealjs-slides]: Skipping, unable to determine old version
+[2023-06-06 01:26:12] INFO root fetch - processPackages [sphinx-revealjs-slides]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-06-06 01:26:12] INFO root fetch - main [MainThread]: End processing [sphinx-revealjs-slides] error
+[2023-06-06 01:26:12] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.349] Old Version: [0.3.348]
+[2023-06-06 01:26:12] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-06-06 01:26:12] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.348.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.349.tar.gz --markdown 20230606/p/pepperize.cdk-ses-smtp-credentials/0.3.348-0.3.349/diff.md --exclude *.pyd
+[2023-06-06 01:26:12] INFO root fetch - processPackages [AnaplanPY]: Remove: archive file [/home/abi/fetcher/tmp/AnaplanPY-0.2.1.tar.gz]
+[2023-06-06 01:26:12] INFO root fetch - processPackages [AnaplanPY]: Remove: archive file [/home/abi/fetcher/tmp/AnaplanPY-0.2.2.tar.gz]
+[2023-06-06 01:26:12] INFO root fetch - processPackages [AnaplanPY]: Start processing: bigdl-nano
+[2023-06-06 01:26:12] INFO root fetch - main [MainThread]: End processing [AnaplanPY]: success
+[2023-06-06 01:26:12] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230605] Old Version: [2.4.0b20230603]
+[2023-06-06 01:26:12] INFO root fetch - processPackages [djangocms-simple-admin-style]: Remove: archive file [/home/abi/fetcher/tmp/djangocms-simple-admin-style-0.4.5.tar.gz]
+[2023-06-06 01:26:12] INFO root fetch - processPackages [djangocms-simple-admin-style]: Remove: archive file [/home/abi/fetcher/tmp/djangocms-simple-admin-style-0.4.6.tar.gz]
+[2023-06-06 01:26:12] INFO root fetch - processPackages [djangocms-simple-admin-style]: Start processing: bigdl-chronos
+[2023-06-06 01:26:12] INFO root fetch - main [MainThread]: End processing [djangocms-simple-admin-style]: success
+[2023-06-06 01:26:12] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230605] Old Version: [2.4.0b20230603]
+[2023-06-06 01:26:12] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/b6/11/e96edbb17ed70f99173764938bc1f4bf496548b103df6c215904c86a660d/bigdl_nano-2.4.0b20230603-py3-none-win_amd64.whl
+[2023-06-06 01:26:12] INFO root fetch - processPackages [ploomes-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ploomes-api-client-0.1.8.tar.gz]
+[2023-06-06 01:26:12] INFO root fetch - processPackages [ploomes-api-client]: Remove: archive file [/home/abi/fetcher/tmp/ploomes-api-client-0.1.9.tar.gz]
+[2023-06-06 01:26:12] INFO root fetch - processPackages [ploomes-api-client]: Start processing: stegonosaurus
+[2023-06-06 01:26:12] INFO root fetch - main [MainThread]: End processing [ploomes-api-client]: success
+[2023-06-06 01:26:12] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/94/2e/31ea8d42bbd80428a3e8e71cd5cdc325d13cf7ce497eb0056b625ca5cb1d/bigdl_chronos-2.4.0b20230603-py3-none-win_amd64.whl
+[2023-06-06 01:26:13] INFO root fetch - processPackages [stegonosaurus]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-06 01:26:13] INFO root fetch - processPackages [intelicity]: Remove: archive file [/home/abi/fetcher/tmp/intelicity-0.0.8-py3-none-any.whl.zip]
+[2023-06-06 01:26:13] INFO root fetch - processPackages [intelicity]: Remove: archive file [/home/abi/fetcher/tmp/intelicity-0.0.9-py3-none-any.whl.zip]
+[2023-06-06 01:26:13] INFO root fetch - processPackages [intelicity]: Start processing: bigdl-serving
+[2023-06-06 01:26:13] INFO root fetch - main [MainThread]: End processing [intelicity]: success
+[2023-06-06 01:26:13] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230605] Old Version: [2.4.0b20230603]
+[2023-06-06 01:26:13] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.348.tar.gz]
+[2023-06-06 01:26:13] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.349.tar.gz]
+[2023-06-06 01:26:13] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-06-06 01:26:13] INFO root fetch - processPackages [stegonosaurus]: Downloading https://files.pythonhosted.org/packages/e9/e8/61bc3810fd167e54ea47a49738b3a7b43f3d94535b4fdca28543cbd26f27/stegonosaurus-1.2.2.tar.gz
+[2023-06-06 01:26:13] INFO root fetch - processPackages [promptrix]: Remove: archive file [/home/abi/fetcher/tmp/promptrix-0.0.5.tar.gz]
+[2023-06-06 01:26:13] INFO root fetch - processPackages [promptrix]: Remove: archive file [/home/abi/fetcher/tmp/promptrix-0.1.0.tar.gz]
+[2023-06-06 01:26:13] INFO root fetch - main [MainThread]: End processing [promptrix]: success
+[2023-06-06 01:26:13] INFO root fetch - processPackages [joern-lib]: Remove: archive file [/home/abi/fetcher/tmp/joern_lib-0.9.1.tar.gz]
+[2023-06-06 01:26:13] INFO root fetch - processPackages [joern-lib]: Remove: archive file [/home/abi/fetcher/tmp/joern_lib-0.9.2.tar.gz]
+[2023-06-06 01:26:13] INFO root fetch - main [MainThread]: End processing [joern-lib]: success
+[2023-06-06 01:26:13] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/f0/a9/a873e40d985395915cfcdf803680ecfa459cf866aa7529e9ae98017f4c61/bigdl_chronos-2.4.0b20230605-py3-none-win_amd64.whl
+[2023-06-06 01:26:13] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/85/21/69297ab8df866ba81e46af614d4f8575365b03d81c66605b62d7d8c868eb/bigdl_serving-2.4.0b20230603-py2.py3-none-any.whl
+[2023-06-06 01:26:13] INFO root fetch - processPackages [stegonosaurus]: Downloading https://files.pythonhosted.org/packages/62/03/acd3baacc55f81011f057f92ca74a5229c02b9a60e84dcea293bb2f983d6/stegonosaurus-1.2.3.tar.gz
+[2023-06-06 01:26:13] ERROR root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/pepperize.cdk-ses-smtp-credentials-0.3.348.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/pepperize.cdk-ses-smtp-credentials-0.3.349.tar.gz: No such file or directory
+
+[2023-06-06 01:26:13] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials] error
+[2023-06-06 01:26:13] INFO root fetch - processPackages [stegonosaurus]: executing diffoscope
+[2023-06-06 01:26:13] INFO root fetch - processPackages [stegonosaurus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stegonosaurus-1.2.2.tar.gz tmp/stegonosaurus-1.2.3.tar.gz --markdown 20230606/s/stegonosaurus/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-06 01:26:13] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-06-06 01:26:13] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230603-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230605-py3-none-win_amd64.whl.zip --markdown 20230606/b/bigdl-chronos/2.4.0b20230603-2.4.0b20230605/diff.md --exclude *.pyd
+[2023-06-06 01:26:13] INFO root fetch - processPackages [absplit]: Remove: archive file [/home/abi/fetcher/tmp/absplit-0.1.5.tar.gz]
+[2023-06-06 01:26:13] INFO root fetch - processPackages [absplit]: Remove: archive file [/home/abi/fetcher/tmp/absplit-1.0.0.tar.gz]
+[2023-06-06 01:26:13] INFO root fetch - main [MainThread]: End processing [absplit]: success
+[2023-06-06 01:26:13] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/1a/4e/1310dbcd7ac9baccd6cc369280be02c91dd999e78d0edd3e0194dc692579/bigdl_nano-2.4.0b20230605-py3-none-win_amd64.whl
+[2023-06-06 01:26:13] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/d1/bf/458e9896f66949612fe76d0653808b93974dba13b93c2bfb54413f6798f1/bigdl_serving-2.4.0b20230605-py2.py3-none-any.whl
+[2023-06-06 01:26:13] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-06-06 01:26:13] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230603-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230605-py2.py3-none-any.whl.zip --markdown 20230606/b/bigdl-serving/2.4.0b20230603-2.4.0b20230605/diff.md --exclude *.pyd
+[2023-06-06 01:26:13] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-06-06 01:26:13] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230603-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230605-py3-none-win_amd64.whl.zip --markdown 20230606/b/bigdl-nano/2.4.0b20230603-2.4.0b20230605/diff.md --exclude *.pyd
+[2023-06-06 01:26:14] INFO root fetch - processPackages [stegonosaurus]: Remove: archive file [/home/abi/fetcher/tmp/stegonosaurus-1.2.2.tar.gz]
+[2023-06-06 01:26:14] INFO root fetch - processPackages [stegonosaurus]: Remove: archive file [/home/abi/fetcher/tmp/stegonosaurus-1.2.3.tar.gz]
+[2023-06-06 01:26:14] INFO root fetch - main [MainThread]: End processing [stegonosaurus]: success
+[2023-06-06 01:26:14] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230603-py2.py3-none-any.whl.zip]
+[2023-06-06 01:26:14] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230605-py2.py3-none-any.whl.zip]
+[2023-06-06 01:26:14] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-06-06 01:26:15] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230603-py3-none-win_amd64.whl.zip]
+[2023-06-06 01:26:15] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230605-py3-none-win_amd64.whl.zip]
+[2023-06-06 01:26:15] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-06-06 01:26:16] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230603-py3-none-win_amd64.whl.zip]
+[2023-06-06 01:26:16] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230605-py3-none-win_amd64.whl.zip]
+[2023-06-06 01:26:16] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-06-06 01:26:19] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9997.tar.gz]
+[2023-06-06 01:26:19] INFO root fetch - processPackages [quantconnect-stubs]: Remove: archive file [/home/abi/fetcher/tmp/quantconnect-stubs-9998.tar.gz]
+[2023-06-06 01:26:19] INFO root fetch - main [MainThread]: End processing [quantconnect-stubs]: success
+[2023-06-06 01:26:19] INFO root fetch - main [MainThread]: Store serial: [18382625]
