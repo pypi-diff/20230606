@@ -681,3 +681,181 @@
 [2023-06-06 00:33:57] INFO root fetch - processPackages [sqlite-vss]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_vss-0.1.1a9-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
 [2023-06-06 00:33:57] INFO root fetch - main [MainThread]: End processing [sqlite-vss]: success
 [2023-06-06 00:33:57] INFO root fetch - main [MainThread]: Store serial: [18382232]
+[2023-06-06 00:39:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18382232]
+[2023-06-06 00:39:06] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-06 00:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: momento-wire-types
+[2023-06-06 00:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dragonfly-radiance
+[2023-06-06 00:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graphscope-client
+[2023-06-06 00:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lbt-honeybee
+[2023-06-06 00:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyRDDLGym
+[2023-06-06 00:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dragonfly-uwg
+[2023-06-06 00:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py2opsin
+[2023-06-06 00:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dragonfly-energy
+[2023-06-06 00:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cirq-web
+[2023-06-06 00:39:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cirq-pasqal
+[2023-06-06 00:39:06] INFO root fetch - processPackages [dragonfly-radiance]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-06 00:39:06] INFO root fetch - processPackages [momento-wire-types]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-06 00:39:06] INFO root fetch - processPackages [pyRDDLGym]: New version: [1.0.56] Old Version: [1.0.55]
+[2023-06-06 00:39:06] INFO root fetch - processPackages [dragonfly-uwg]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-06-06 00:39:06] INFO root fetch - processPackages [cirq-web]: New version: [1.2.0.dev20230605223657] Old Version: [1.2.0.dev20230605202226]
+[2023-06-06 00:39:06] INFO root fetch - processPackages [graphscope-client]: New version: [0.22.0a20230605] Old Version: [0.22.0a20230602]
+[2023-06-06 00:39:06] INFO root fetch - processPackages [dragonfly-energy]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-06 00:39:06] INFO root fetch - processPackages [cirq-pasqal]: New version: [1.2.0.dev20230605223657] Old Version: [1.2.0.dev20230605202226]
+[2023-06-06 00:39:06] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-06 00:39:06] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/85/3b/b35e9d56c64198566beee84eced2ef92e87c245a72fefabe487467a26891/cirq_web-1.2.0.dev20230605202226-py3-none-any.whl
+[2023-06-06 00:39:06] INFO root fetch - processPackages [py2opsin]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-06 00:39:06] INFO root fetch - processPackages [pyRDDLGym]: Downloading https://files.pythonhosted.org/packages/e0/86/c5c71537a171b38e482bd6b73c7c9246ff313856a7b0e3c1b36d5b8afa74/pyRDDLGym-1.0.55.tar.gz
+[2023-06-06 00:39:06] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/b4/ea/842f417057908cfbbee9eb12b4a775e654b7fc883523e2c0f2b71e4a9dcc/cirq_pasqal-1.2.0.dev20230605202226-py3-none-any.whl
+[2023-06-06 00:39:06] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-06-06 00:39:06] INFO root fetch - processPackages [momento-wire-types]: Downloading https://files.pythonhosted.org/packages/18/54/ccd65bdf20002ba25a699332474568819f75c3de8212c94571f4a0146af7/momento-wire-types-0.9.1.tar.gz
+[2023-06-06 00:39:06] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/dd/6c/7d5ffb363ba985b326d3b266d8eaea74bc6cc890eb733cc9e0cc127ccc55/dragonfly-radiance-0.2.8.tar.gz
+[2023-06-06 00:39:06] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/a6/3c/7afbd082f170d8d51ed57abdf8bb67058ca404ede70f9d982fd95c8bb807/dragonfly-uwg-0.5.98.tar.gz
+[2023-06-06 00:39:06] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-06-06 00:39:06] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/20/4e/115840f938ee254b23bd515351ba786228441464717f8557431f914e75f4/dragonfly-energy-1.9.8.tar.gz
+[2023-06-06 00:39:06] INFO root fetch - processPackages [graphscope-client]: Downloading https://files.pythonhosted.org/packages/f0/1c/cf09c8ee460c3fcf398f4f0e070ebeebac92a50a3ec6b9ef55194687bf7b/graphscope_client-0.22.0a20230602-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-06-06 00:39:06] INFO root fetch - processPackages [py2opsin]: Downloading https://files.pythonhosted.org/packages/54/2c/43218652f9293c05f61b12774966ab33b18c8c59ec34be45bcddc7b1fecb/py2opsin-1.0.2.tar.gz
+[2023-06-06 00:39:07] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/da/5c/cb89baa67b71964f48d950a09b0a4e9f39654f2a0fe7e69081a41168d888/cirq_web-1.2.0.dev20230605223657-py3-none-any.whl
+[2023-06-06 00:39:07] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-06-06 00:39:07] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230606/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-06 00:39:07] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/c8/8f/d588bdda77ade0f8c084cb252ef8231f90409af532a0c29dc1ab7d691d97/cirq_pasqal-1.2.0.dev20230605223657-py3-none-any.whl
+[2023-06-06 00:39:07] WARNING root fetch - processPackages [graphscope-client]: Skipping package: exceeds size limit 41477840>=10485760
+[2023-06-06 00:39:07] INFO root fetch - processPackages [graphscope-client]: Start processing: cirq-google
+[2023-06-06 00:39:07] INFO root fetch - main [MainThread]: End processing [graphscope-client] error
+[2023-06-06 00:39:07] WARNING root fetch - processPackages [py2opsin]: Skipping package: exceeds size limit 12169900>=10485760
+[2023-06-06 00:39:07] INFO root fetch - processPackages [py2opsin]: Start processing: cirq-core
+[2023-06-06 00:39:07] INFO root fetch - main [MainThread]: End processing [py2opsin] error
+[2023-06-06 00:39:07] INFO root fetch - processPackages [pyRDDLGym]: Downloading https://files.pythonhosted.org/packages/42/58/9db77f1302c8600daa14b103c58f0357e46f56c94b582b3b99408d38523e/pyRDDLGym-1.0.56.tar.gz
+[2023-06-06 00:39:07] INFO root fetch - processPackages [cirq-google]: New version: [1.2.0.dev20230605223657] Old Version: [1.2.0.dev20230605202226]
+[2023-06-06 00:39:07] INFO root fetch - processPackages [cirq-pasqal]: executing diffoscope
+[2023-06-06 00:39:07] INFO root fetch - processPackages [cirq-pasqal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_pasqal-1.2.0.dev20230605202226-py3-none-any.whl.zip tmp/cirq_pasqal-1.2.0.dev20230605223657-py3-none-any.whl.zip --markdown 20230606/c/cirq-pasqal/1.2.0.dev20230605202226-1.2.0.dev20230605223657/diff.md --exclude *.pyd
+[2023-06-06 00:39:07] INFO root fetch - processPackages [cirq-core]: New version: [1.2.0.dev20230605223657] Old Version: [1.2.0.dev20230605202226]
+[2023-06-06 00:39:07] INFO root fetch - processPackages [cirq-web]: executing diffoscope
+[2023-06-06 00:39:07] INFO root fetch - processPackages [cirq-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_web-1.2.0.dev20230605202226-py3-none-any.whl.zip tmp/cirq_web-1.2.0.dev20230605223657-py3-none-any.whl.zip --markdown 20230606/c/cirq-web/1.2.0.dev20230605202226-1.2.0.dev20230605223657/diff.md --exclude *.pyd
+[2023-06-06 00:39:07] INFO root fetch - processPackages [pyRDDLGym]: executing diffoscope
+[2023-06-06 00:39:07] INFO root fetch - processPackages [pyRDDLGym]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyRDDLGym-1.0.55.tar.gz tmp/pyRDDLGym-1.0.56.tar.gz --markdown 20230606/p/pyRDDLGym/1.0.55-1.0.56/diff.md --exclude *.pyd
+[2023-06-06 00:39:07] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/b1/dd/2d2ec8b268383d2557dcd48edec3adaba086335f7647300b82ce01e90e5d/cirq_core-1.2.0.dev20230605202226-py3-none-any.whl
+[2023-06-06 00:39:07] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/de/2e/3af0d3c8b64d71b27dc7c8b35278c483a4c315901c616863afc55171f71e/cirq_google-1.2.0.dev20230605202226-py3-none-any.whl
+[2023-06-06 00:39:07] INFO root fetch - processPackages [dragonfly-radiance]: Downloading https://files.pythonhosted.org/packages/e9/01/706de1a3d81bb520c7a73e10a084040d9e5f37ff57b7defd9715a2c4018e/dragonfly-radiance-0.2.9.tar.gz
+[2023-06-06 00:39:07] INFO root fetch - processPackages [dragonfly-uwg]: Downloading https://files.pythonhosted.org/packages/55/b3/3f9a36d82b87f343d4e196e93a8cf3e838b9c80b0849f927d4f3505355af/dragonfly-uwg-0.5.99.tar.gz
+[2023-06-06 00:39:07] INFO root fetch - processPackages [dragonfly-energy]: Downloading https://files.pythonhosted.org/packages/09/b6/c12f13159c5beb3b855a32f792faef162ad37358d2e0d3311cbd68a969db/dragonfly-energy-1.9.9.tar.gz
+[2023-06-06 00:39:07] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/8c/ca/3ba788fec54cc44136d22d645b263d5ab5832bfcc6139caf6df5eded4b00/cirq_google-1.2.0.dev20230605223657-py3-none-any.whl
+[2023-06-06 00:39:07] INFO root fetch - processPackages [dragonfly-energy]: executing diffoscope
+[2023-06-06 00:39:07] INFO root fetch - processPackages [dragonfly-energy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-energy-1.9.8.tar.gz tmp/dragonfly-energy-1.9.9.tar.gz --markdown 20230606/d/dragonfly-energy/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-06 00:39:07] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/ad/53/56a45a14007b9a573efc21fcf88b115cfe35a9a10f17f8d58d74ee2fcccb/cirq_core-1.2.0.dev20230605223657-py3-none-any.whl
+[2023-06-06 00:39:07] INFO root fetch - processPackages [momento-wire-types]: Downloading https://files.pythonhosted.org/packages/75/15/7d75acb737fa02bd4cb50ec1a419edf9095d3a1dae489937169934768b51/momento-wire-types-0.9.2.tar.gz
+[2023-06-06 00:39:07] INFO root fetch - processPackages [cirq-google]: executing diffoscope
+[2023-06-06 00:39:07] INFO root fetch - processPackages [cirq-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_google-1.2.0.dev20230605202226-py3-none-any.whl.zip tmp/cirq_google-1.2.0.dev20230605223657-py3-none-any.whl.zip --markdown 20230606/c/cirq-google/1.2.0.dev20230605202226-1.2.0.dev20230605223657/diff.md --exclude *.pyd
+[2023-06-06 00:39:07] INFO root fetch - processPackages [dragonfly-uwg]: executing diffoscope
+[2023-06-06 00:39:07] INFO root fetch - processPackages [dragonfly-uwg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-uwg-0.5.98.tar.gz tmp/dragonfly-uwg-0.5.99.tar.gz --markdown 20230606/d/dragonfly-uwg/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-06-06 00:39:07] INFO root fetch - processPackages [dragonfly-radiance]: executing diffoscope
+[2023-06-06 00:39:07] INFO root fetch - processPackages [dragonfly-radiance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonfly-radiance-0.2.8.tar.gz tmp/dragonfly-radiance-0.2.9.tar.gz --markdown 20230606/d/dragonfly-radiance/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-06 00:39:07] INFO root fetch - processPackages [cirq-core]: executing diffoscope
+[2023-06-06 00:39:07] INFO root fetch - processPackages [cirq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_core-1.2.0.dev20230605202226-py3-none-any.whl.zip tmp/cirq_core-1.2.0.dev20230605223657-py3-none-any.whl.zip --markdown 20230606/c/cirq-core/1.2.0.dev20230605202226-1.2.0.dev20230605223657/diff.md --exclude *.pyd
+[2023-06-06 00:39:07] INFO root fetch - processPackages [momento-wire-types]: executing diffoscope
+[2023-06-06 00:39:07] INFO root fetch - processPackages [momento-wire-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/momento-wire-types-0.9.1.tar.gz tmp/momento-wire-types-0.9.2.tar.gz --markdown 20230606/m/momento-wire-types/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-06 00:39:08] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-06-06 00:39:08] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-06-06 00:39:08] INFO root fetch - processPackages [lbt-honeybee]: Start processing: lbt-honeybee
+[2023-06-06 00:39:08] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-06-06 00:39:08] INFO root fetch - processPackages [lbt-honeybee]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-06 00:39:08] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/19/59/4901be09b4bc6b97917c58bf3279cb373aa222989b9501e53b4c43213a9e/lbt-honeybee-0.7.98.tar.gz
+[2023-06-06 00:39:08] INFO root fetch - processPackages [lbt-honeybee]: Downloading https://files.pythonhosted.org/packages/a2/24/156ec161f44515db7966a68d9cc8aa62da7475128d138541e64b86dd4487/lbt-honeybee-0.7.99.tar.gz
+[2023-06-06 00:39:08] INFO root fetch - processPackages [lbt-honeybee]: executing diffoscope
+[2023-06-06 00:39:08] INFO root fetch - processPackages [lbt-honeybee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-honeybee-0.7.98.tar.gz tmp/lbt-honeybee-0.7.99.tar.gz --markdown 20230606/l/lbt-honeybee/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-06 00:39:08] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.2.0.dev20230605202226-py3-none-any.whl.zip]
+[2023-06-06 00:39:08] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.2.0.dev20230605223657-py3-none-any.whl.zip]
+[2023-06-06 00:39:08] INFO root fetch - processPackages [cirq-pasqal]: Start processing: cirq-aqt
+[2023-06-06 00:39:08] INFO root fetch - main [MainThread]: End processing [cirq-pasqal]: success
+[2023-06-06 00:39:08] INFO root fetch - processPackages [cirq-aqt]: New version: [1.2.0.dev20230605223657] Old Version: [1.2.0.dev20230605202226]
+[2023-06-06 00:39:08] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/76/d5/e290aaa586c80139723b0a43a862a582abe54d1db14c3f00b818e1fb2750/cirq_aqt-1.2.0.dev20230605202226-py3-none-any.whl
+[2023-06-06 00:39:09] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/e9/4c/67c106a82af9f886fc144d35f406635ce133e09913b2d9f2afd260337690/cirq_aqt-1.2.0.dev20230605223657-py3-none-any.whl
+[2023-06-06 00:39:09] INFO root fetch - processPackages [cirq-aqt]: executing diffoscope
+[2023-06-06 00:39:09] INFO root fetch - processPackages [cirq-aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_aqt-1.2.0.dev20230605202226-py3-none-any.whl.zip tmp/cirq_aqt-1.2.0.dev20230605223657-py3-none-any.whl.zip --markdown 20230606/c/cirq-aqt/1.2.0.dev20230605202226-1.2.0.dev20230605223657/diff.md --exclude *.pyd
+[2023-06-06 00:39:09] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.8.tar.gz]
+[2023-06-06 00:39:09] INFO root fetch - processPackages [dragonfly-energy]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-energy-1.9.9.tar.gz]
+[2023-06-06 00:39:09] INFO root fetch - processPackages [dragonfly-energy]: Start processing: lbt-dragonfly
+[2023-06-06 00:39:09] INFO root fetch - main [MainThread]: End processing [dragonfly-energy]: success
+[2023-06-06 00:39:09] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.8.tar.gz]
+[2023-06-06 00:39:09] INFO root fetch - processPackages [dragonfly-radiance]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-radiance-0.2.9.tar.gz]
+[2023-06-06 00:39:09] INFO root fetch - processPackages [dragonfly-radiance]: Start processing: cirq
+[2023-06-06 00:39:09] INFO root fetch - main [MainThread]: End processing [dragonfly-radiance]: success
+[2023-06-06 00:39:09] INFO root fetch - processPackages [lbt-dragonfly]: New version: [0.9.99] Old Version: [0.9.98]
+[2023-06-06 00:39:09] INFO root fetch - processPackages [cirq]: New version: [1.2.0.dev20230605223657] Old Version: [1.2.0.dev20230605202226]
+[2023-06-06 00:39:09] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/be/ae/7267dfd241a0641f3fbadea4128db5ffa29609911cadb5fc4840656bb44a/lbt-dragonfly-0.9.98.tar.gz
+[2023-06-06 00:39:09] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/3d/c6/2e7c4fd368ed31c3c98356d560f34f7ff29550a56f4d7a5a844502555cba/cirq-1.2.0.dev20230605202226-py3-none-any.whl
+[2023-06-06 00:39:09] INFO root fetch - processPackages [momento-wire-types]: Remove: archive file [/home/abi/fetcher/tmp/momento-wire-types-0.9.1.tar.gz]
+[2023-06-06 00:39:09] INFO root fetch - processPackages [momento-wire-types]: Remove: archive file [/home/abi/fetcher/tmp/momento-wire-types-0.9.2.tar.gz]
+[2023-06-06 00:39:09] INFO root fetch - processPackages [momento-wire-types]: Start processing: cirq-rigetti
+[2023-06-06 00:39:09] INFO root fetch - main [MainThread]: End processing [momento-wire-types]: success
+[2023-06-06 00:39:09] INFO root fetch - processPackages [cirq-rigetti]: New version: [1.2.0.dev20230605223657] Old Version: [1.2.0.dev20230605202226]
+[2023-06-06 00:39:09] INFO root fetch - processPackages [lbt-dragonfly]: Downloading https://files.pythonhosted.org/packages/b4/08/0ca46e9f7eef7b2cce7f0c6110106c42aa35a79bd88110559177f64d733a/lbt-dragonfly-0.9.99.tar.gz
+[2023-06-06 00:39:09] INFO root fetch - processPackages [lbt-dragonfly]: executing diffoscope
+[2023-06-06 00:39:09] INFO root fetch - processPackages [lbt-dragonfly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lbt-dragonfly-0.9.98.tar.gz tmp/lbt-dragonfly-0.9.99.tar.gz --markdown 20230606/l/lbt-dragonfly/0.9.98-0.9.99/diff.md --exclude *.pyd
+[2023-06-06 00:39:09] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/ba/b7/f660a8aeb822436d92722e8e84e28b063d45a33efaf1f1189869573d451c/cirq_rigetti-1.2.0.dev20230605202226-py3-none-any.whl
+[2023-06-06 00:39:09] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/42/f2/b9431c031eae688bcd02c2d8f7e6ede631947296eeceeef15c0cd311ab8e/cirq-1.2.0.dev20230605223657-py3-none-any.whl
+[2023-06-06 00:39:09] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.98.tar.gz]
+[2023-06-06 00:39:09] INFO root fetch - processPackages [dragonfly-uwg]: Remove: archive file [/home/abi/fetcher/tmp/dragonfly-uwg-0.5.99.tar.gz]
+[2023-06-06 00:39:09] INFO root fetch - processPackages [dragonfly-uwg]: Start processing: cirq-ionq
+[2023-06-06 00:39:09] INFO root fetch - main [MainThread]: End processing [dragonfly-uwg]: success
+[2023-06-06 00:39:09] INFO root fetch - processPackages [cirq-ionq]: New version: [1.2.0.dev20230605223657] Old Version: [1.2.0.dev20230605202226]
+[2023-06-06 00:39:09] INFO root fetch - processPackages [cirq]: executing diffoscope
+[2023-06-06 00:39:09] INFO root fetch - processPackages [cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-1.2.0.dev20230605202226-py3-none-any.whl.zip tmp/cirq-1.2.0.dev20230605223657-py3-none-any.whl.zip --markdown 20230606/c/cirq/1.2.0.dev20230605202226-1.2.0.dev20230605223657/diff.md --exclude *.pyd
+[2023-06-06 00:39:09] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/98/f4/e2e09925b69dd8fc152ff9c70c8d7ca2deeb5f6397e800a4ef45e0ba584d/cirq_ionq-1.2.0.dev20230605202226-py3-none-any.whl
+[2023-06-06 00:39:09] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/c2/a1/204016169bd2876326660c51472f931fed0817499e0e6ecf4be64ae23296/cirq_rigetti-1.2.0.dev20230605223657-py3-none-any.whl
+[2023-06-06 00:39:09] INFO root fetch - processPackages [cirq-rigetti]: executing diffoscope
+[2023-06-06 00:39:09] INFO root fetch - processPackages [cirq-rigetti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_rigetti-1.2.0.dev20230605202226-py3-none-any.whl.zip tmp/cirq_rigetti-1.2.0.dev20230605223657-py3-none-any.whl.zip --markdown 20230606/c/cirq-rigetti/1.2.0.dev20230605202226-1.2.0.dev20230605223657/diff.md --exclude *.pyd
+[2023-06-06 00:39:09] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/f7/0f/738e9086e78eeaa0fcd4263ba915173907d8fd208bb2a52e59464694277e/cirq_ionq-1.2.0.dev20230605223657-py3-none-any.whl
+[2023-06-06 00:39:10] INFO root fetch - processPackages [cirq-ionq]: executing diffoscope
+[2023-06-06 00:39:10] INFO root fetch - processPackages [cirq-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ionq-1.2.0.dev20230605202226-py3-none-any.whl.zip tmp/cirq_ionq-1.2.0.dev20230605223657-py3-none-any.whl.zip --markdown 20230606/c/cirq-ionq/1.2.0.dev20230605202226-1.2.0.dev20230605223657/diff.md --exclude *.pyd
+[2023-06-06 00:39:10] INFO root fetch - processPackages [pyRDDLGym]: Remove: archive file [/home/abi/fetcher/tmp/pyRDDLGym-1.0.55.tar.gz]
+[2023-06-06 00:39:10] INFO root fetch - processPackages [pyRDDLGym]: Remove: archive file [/home/abi/fetcher/tmp/pyRDDLGym-1.0.56.tar.gz]
+[2023-06-06 00:39:10] INFO root fetch - processPackages [pyRDDLGym]: Start processing: timering
+[2023-06-06 00:39:10] INFO root fetch - main [MainThread]: End processing [pyRDDLGym]: success
+[2023-06-06 00:39:10] WARNING root fetch - processPackages [timering]: Skipping, unable to determine old version
+[2023-06-06 00:39:10] INFO root fetch - processPackages [timering]: Start processing: unipropic
+[2023-06-06 00:39:10] INFO root fetch - main [MainThread]: End processing [timering] error
+[2023-06-06 00:39:10] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.98.tar.gz]
+[2023-06-06 00:39:10] INFO root fetch - processPackages [lbt-honeybee]: Remove: archive file [/home/abi/fetcher/tmp/lbt-honeybee-0.7.99.tar.gz]
+[2023-06-06 00:39:10] INFO root fetch - processPackages [lbt-honeybee]: Start processing: lib-for-messanger
+[2023-06-06 00:39:10] INFO root fetch - main [MainThread]: End processing [lbt-honeybee]: success
+[2023-06-06 00:39:10] INFO root fetch - processPackages [unipropic]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-06 00:39:10] INFO root fetch - processPackages [lib-for-messanger]: New version: [0.9] Old Version: [0.8]
+[2023-06-06 00:39:10] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.2.0.dev20230605202226-py3-none-any.whl.zip]
+[2023-06-06 00:39:10] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.2.0.dev20230605223657-py3-none-any.whl.zip]
+[2023-06-06 00:39:10] INFO root fetch - main [MainThread]: End processing [cirq-aqt]: success
+[2023-06-06 00:39:10] INFO root fetch - processPackages [unipropic]: Downloading https://files.pythonhosted.org/packages/4b/4a/3c9d79e976050dca691982edb9c316bb4b2eaa6f12d7ba922712a4b40100/unipropic-1.0.0.tar.gz
+[2023-06-06 00:39:10] INFO root fetch - processPackages [lib-for-messanger]: Downloading https://files.pythonhosted.org/packages/e9/3a/0201fd8a3ee83e0c975996b90db671fb2f56ddfd185ef1cd232065b9ec1b/lib_for_messanger-0.8.tar.gz
+[2023-06-06 00:39:10] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.98.tar.gz]
+[2023-06-06 00:39:10] INFO root fetch - processPackages [lbt-dragonfly]: Remove: archive file [/home/abi/fetcher/tmp/lbt-dragonfly-0.9.99.tar.gz]
+[2023-06-06 00:39:10] INFO root fetch - main [MainThread]: End processing [lbt-dragonfly]: success
+[2023-06-06 00:39:10] INFO root fetch - processPackages [unipropic]: Downloading https://files.pythonhosted.org/packages/2c/65/5f2b49761df79b58652eea0ee6195d25d359b535232f28b95c66ae06eb1c/unipropic-1.0.1.tar.gz
+[2023-06-06 00:39:10] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.2.0.dev20230605202226-py3-none-any.whl.zip]
+[2023-06-06 00:39:10] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.2.0.dev20230605223657-py3-none-any.whl.zip]
+[2023-06-06 00:39:10] INFO root fetch - main [MainThread]: End processing [cirq]: success
+[2023-06-06 00:39:11] INFO root fetch - processPackages [lib-for-messanger]: Downloading https://files.pythonhosted.org/packages/3e/c3/e9edbe226fa2ade852938a49e2e426a1d3a55e5d5372cef80ceaca70ab4d/lib_for_messanger-0.9.tar.gz
+[2023-06-06 00:39:11] INFO root fetch - processPackages [unipropic]: executing diffoscope
+[2023-06-06 00:39:11] INFO root fetch - processPackages [unipropic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/unipropic-1.0.0.tar.gz tmp/unipropic-1.0.1.tar.gz --markdown 20230606/u/unipropic/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-06 00:39:11] INFO root fetch - processPackages [lib-for-messanger]: executing diffoscope
+[2023-06-06 00:39:11] INFO root fetch - processPackages [lib-for-messanger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_for_messanger-0.8.tar.gz tmp/lib_for_messanger-0.9.tar.gz --markdown 20230606/l/lib-for-messanger/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-06 00:39:11] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.2.0.dev20230605202226-py3-none-any.whl.zip]
+[2023-06-06 00:39:11] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.2.0.dev20230605223657-py3-none-any.whl.zip]
+[2023-06-06 00:39:11] INFO root fetch - main [MainThread]: End processing [cirq-web]: success
+[2023-06-06 00:39:11] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.2.0.dev20230605202226-py3-none-any.whl.zip]
+[2023-06-06 00:39:11] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.2.0.dev20230605223657-py3-none-any.whl.zip]
+[2023-06-06 00:39:11] INFO root fetch - main [MainThread]: End processing [cirq-rigetti]: success
+[2023-06-06 00:39:11] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.2.0.dev20230605202226-py3-none-any.whl.zip]
+[2023-06-06 00:39:11] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.2.0.dev20230605223657-py3-none-any.whl.zip]
+[2023-06-06 00:39:11] INFO root fetch - main [MainThread]: End processing [cirq-ionq]: success
+[2023-06-06 00:39:11] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.2.0.dev20230605202226-py3-none-any.whl.zip]
+[2023-06-06 00:39:11] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.2.0.dev20230605223657-py3-none-any.whl.zip]
+[2023-06-06 00:39:11] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
+[2023-06-06 00:39:12] INFO root fetch - processPackages [unipropic]: Remove: archive file [/home/abi/fetcher/tmp/unipropic-1.0.0.tar.gz]
+[2023-06-06 00:39:12] INFO root fetch - processPackages [unipropic]: Remove: archive file [/home/abi/fetcher/tmp/unipropic-1.0.1.tar.gz]
+[2023-06-06 00:39:12] INFO root fetch - main [MainThread]: End processing [unipropic]: success
+[2023-06-06 00:39:12] INFO root fetch - processPackages [lib-for-messanger]: Remove: archive file [/home/abi/fetcher/tmp/lib_for_messanger-0.8.tar.gz]
+[2023-06-06 00:39:12] INFO root fetch - processPackages [lib-for-messanger]: Remove: archive file [/home/abi/fetcher/tmp/lib_for_messanger-0.9.tar.gz]
+[2023-06-06 00:39:12] INFO root fetch - main [MainThread]: End processing [lib-for-messanger]: success
+[2023-06-06 00:39:26] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230605202226-py3-none-any.whl.zip]
+[2023-06-06 00:39:26] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230605223657-py3-none-any.whl.zip]
+[2023-06-06 00:39:26] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
+[2023-06-06 00:39:26] INFO root fetch - main [MainThread]: Store serial: [18382288]
