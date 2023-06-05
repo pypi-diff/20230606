@@ -994,3 +994,60 @@
 [2023-06-06 00:49:55] INFO root fetch - processPackages [ironbot]: Remove: archive file [/home/abi/fetcher/tmp/ironbot-0.0.4.tar.gz]
 [2023-06-06 00:49:55] INFO root fetch - main [MainThread]: End processing [ironbot]: success
 [2023-06-06 00:49:55] INFO root fetch - main [MainThread]: Store serial: [18382357]
+[2023-06-06 00:54:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18382357]
+[2023-06-06 00:55:04] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-06 00:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zaber-motion-bindings-windows
+[2023-06-06 00:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zaber-motion-bindings-linux
+[2023-06-06 00:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: viser
+[2023-06-06 00:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: app-store-server-library
+[2023-06-06 00:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: maap-jupyter-server-extension
+[2023-06-06 00:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zaber-motion-bindings-darwin
+[2023-06-06 00:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: zaber-motion
+[2023-06-06 00:55:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pebbles-bot
+[2023-06-06 00:55:04] INFO root fetch - processPackages [viser]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 00:55:04] INFO root fetch - processPackages [zaber-motion-bindings-darwin]: New version: [4.0.0] Old Version: [3.4.2]
+[2023-06-06 00:55:04] INFO root fetch - processPackages [pebbles-bot]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-06 00:55:04] WARNING root fetch - processPackages [app-store-server-library]: Skipping, unable to determine old version
+[2023-06-06 00:55:04] INFO root fetch - processPackages [maap-jupyter-server-extension]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-06 00:55:04] INFO root fetch - main [MainThread]: End processing [app-store-server-library] error
+[2023-06-06 00:55:04] INFO root fetch - processPackages [zaber-motion]: New version: [4.0.0] Old Version: [3.4.2]
+[2023-06-06 00:55:04] INFO root fetch - processPackages [zaber-motion-bindings-linux]: New version: [4.0.0] Old Version: [3.4.2]
+[2023-06-06 00:55:04] INFO root fetch - processPackages [zaber-motion-bindings-windows]: New version: [4.0.0] Old Version: [3.4.2]
+[2023-06-06 00:55:04] INFO root fetch - processPackages [zaber-motion-bindings-darwin]: Downloading https://files.pythonhosted.org/packages/be/44/78d82cb999481b77009df114d210d60a208e6796c0336a18d11ede0795e4/zaber_motion_bindings_darwin-3.4.2.tar.gz
+[2023-06-06 00:55:04] INFO root fetch - processPackages [viser]: Downloading https://files.pythonhosted.org/packages/6e/fe/c353160b1cadb91f2eb1f35a3c0e853765a09f0b07a38f84fb158ed4da6c/viser-0.0.8.tar.gz
+[2023-06-06 00:55:04] INFO root fetch - processPackages [zaber-motion-bindings-windows]: Downloading https://files.pythonhosted.org/packages/53/0a/e7d5e27fc5eea392c423fbafd81ebddcfc6faa6d1bb655317f33c9b6be4e/zaber_motion_bindings_windows-3.4.2.tar.gz
+[2023-06-06 00:55:04] INFO root fetch - processPackages [zaber-motion]: Downloading https://files.pythonhosted.org/packages/09/e9/af826c30e9f0b47c23685434b3c8b66a462a427dd2c672d7a5a2dca0f133/zaber_motion-3.4.2.tar.gz
+[2023-06-06 00:55:04] INFO root fetch - processPackages [zaber-motion-bindings-linux]: Downloading https://files.pythonhosted.org/packages/78/12/2551eb2c18ba7d0d01b71479e5a574f4114f7c1db597e8a74d9082cc8b06/zaber_motion_bindings_linux-3.4.2.tar.gz
+[2023-06-06 00:55:04] WARNING root fetch - processPackages [zaber-motion-bindings-darwin]: Skipping package: exceeds size limit 20868150>=10485760
+[2023-06-06 00:55:04] INFO root fetch - main [MainThread]: End processing [zaber-motion-bindings-darwin] error
+[2023-06-06 00:55:04] WARNING root fetch - processPackages [zaber-motion-bindings-windows]: Skipping package: exceeds size limit 18753130>=10485760
+[2023-06-06 00:55:04] INFO root fetch - main [MainThread]: End processing [zaber-motion-bindings-windows] error
+[2023-06-06 00:55:04] INFO root fetch - processPackages [maap-jupyter-server-extension]: Downloading https://files.pythonhosted.org/packages/02/e3/8c6d70fd94910b2881a517b661231b3bb4a318dcc73e50f21edc8b83580d/maap_jupyter_server_extension-1.0.0.tar.gz
+[2023-06-06 00:55:04] WARNING root fetch - processPackages [zaber-motion-bindings-linux]: Skipping package: exceeds size limit 37016297>=10485760
+[2023-06-06 00:55:04] INFO root fetch - main [MainThread]: End processing [zaber-motion-bindings-linux] error
+[2023-06-06 00:55:04] INFO root fetch - processPackages [zaber-motion]: Downloading https://files.pythonhosted.org/packages/62/4b/191dbb66f2a9da26598aaa15178d3e73676dd4031e2e9cf7e3a9845f25eb/zaber_motion-4.0.0.tar.gz
+[2023-06-06 00:55:04] INFO root fetch - processPackages [zaber-motion]: executing diffoscope
+[2023-06-06 00:55:04] INFO root fetch - processPackages [zaber-motion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zaber_motion-3.4.2.tar.gz tmp/zaber_motion-4.0.0.tar.gz --markdown 20230606/z/zaber-motion/3.4.2-4.0.0/diff.md --exclude *.pyd
+[2023-06-06 00:55:04] INFO root fetch - processPackages [maap-jupyter-server-extension]: Downloading https://files.pythonhosted.org/packages/7c/d1/3bc8e5a651be0d887b47d26f45b92315c7532a2fa5870fdbfb0a97e65ea9/maap_jupyter_server_extension-1.0.1.tar.gz
+[2023-06-06 00:55:04] INFO root fetch - processPackages [maap-jupyter-server-extension]: executing diffoscope
+[2023-06-06 00:55:04] INFO root fetch - processPackages [maap-jupyter-server-extension]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maap_jupyter_server_extension-1.0.0.tar.gz tmp/maap_jupyter_server_extension-1.0.1.tar.gz --markdown 20230606/m/maap-jupyter-server-extension/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-06 00:55:04] INFO root fetch - processPackages [viser]: Downloading https://files.pythonhosted.org/packages/cb/f5/f013f503f5b339d78ad453be61c50acb5961c960d8c771453d6f3817f03c/viser-0.0.9.tar.gz
+[2023-06-06 00:55:05] INFO root fetch - processPackages [viser]: executing diffoscope
+[2023-06-06 00:55:05] INFO root fetch - processPackages [viser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viser-0.0.8.tar.gz tmp/viser-0.0.9.tar.gz --markdown 20230606/v/viser/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 00:55:05] INFO root fetch - processPackages [maap-jupyter-server-extension]: Remove: archive file [/home/abi/fetcher/tmp/maap_jupyter_server_extension-1.0.0.tar.gz]
+[2023-06-06 00:55:05] INFO root fetch - processPackages [maap-jupyter-server-extension]: Remove: archive file [/home/abi/fetcher/tmp/maap_jupyter_server_extension-1.0.1.tar.gz]
+[2023-06-06 00:55:05] INFO root fetch - main [MainThread]: End processing [maap-jupyter-server-extension]: success
+[2023-06-06 00:55:06] INFO root fetch - processPackages [zaber-motion]: Remove: archive file [/home/abi/fetcher/tmp/zaber_motion-3.4.2.tar.gz]
+[2023-06-06 00:55:06] INFO root fetch - processPackages [zaber-motion]: Remove: archive file [/home/abi/fetcher/tmp/zaber_motion-4.0.0.tar.gz]
+[2023-06-06 00:55:06] INFO root fetch - main [MainThread]: End processing [zaber-motion]: success
+[2023-06-06 00:55:07] INFO root fetch - processPackages [pebbles-bot]: Downloading https://files.pythonhosted.org/packages/68/f7/d8bd37b0553f1fc9ea84bbfc60ad401c4c43697d763d6192dae97fbf27ed/pebbles_bot-0.3.2.tar.gz
+[2023-06-06 00:55:08] INFO root fetch - processPackages [pebbles-bot]: Downloading https://files.pythonhosted.org/packages/3d/c7/54ef388ebefec097d26f8dc6b61f93f2e0c5a26bcf28cf257fd05b7d19f3/pebbles_bot-0.3.3.tar.gz
+[2023-06-06 00:55:08] INFO root fetch - processPackages [pebbles-bot]: executing diffoscope
+[2023-06-06 00:55:08] INFO root fetch - processPackages [pebbles-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pebbles_bot-0.3.2.tar.gz tmp/pebbles_bot-0.3.3.tar.gz --markdown 20230606/p/pebbles-bot/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-06 00:55:09] INFO root fetch - processPackages [pebbles-bot]: Remove: archive file [/home/abi/fetcher/tmp/pebbles_bot-0.3.2.tar.gz]
+[2023-06-06 00:55:09] INFO root fetch - processPackages [pebbles-bot]: Remove: archive file [/home/abi/fetcher/tmp/pebbles_bot-0.3.3.tar.gz]
+[2023-06-06 00:55:09] INFO root fetch - main [MainThread]: End processing [pebbles-bot]: success
+[2023-06-06 00:57:21] INFO root fetch - processPackages [viser]: Remove: archive file [/home/abi/fetcher/tmp/viser-0.0.8.tar.gz]
+[2023-06-06 00:57:21] INFO root fetch - processPackages [viser]: Remove: archive file [/home/abi/fetcher/tmp/viser-0.0.9.tar.gz]
+[2023-06-06 00:57:21] INFO root fetch - main [MainThread]: End processing [viser]: success
+[2023-06-06 00:57:21] INFO root fetch - main [MainThread]: Store serial: [18382393]
