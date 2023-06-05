@@ -946,3 +946,51 @@
 [2023-06-06 00:44:43] INFO root fetch - processPackages [coremltools]: Remove: archive file [/home/abi/fetcher/tmp/coremltools-7.0b1.tar.gz]
 [2023-06-06 00:44:43] INFO root fetch - main [MainThread]: End processing [coremltools]: success
 [2023-06-06 00:44:43] INFO root fetch - main [MainThread]: Store serial: [18382333]
+[2023-06-06 00:49:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18382333]
+[2023-06-06 00:49:53] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-06 00:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ipdw
+[2023-06-06 00:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mrpyconvert
+[2023-06-06 00:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openmock
+[2023-06-06 00:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ironbot
+[2023-06-06 00:49:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-gem
+[2023-06-06 00:49:53] INFO root fetch - processPackages [openmock]: New version: [2.3.1] Old Version: [2.3.0]
+[2023-06-06 00:49:53] INFO root fetch - processPackages [ironbot]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-06 00:49:53] INFO root fetch - processPackages [ipdw]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-06 00:49:53] INFO root fetch - processPackages [django-gem]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-06 00:49:53] INFO root fetch - processPackages [mrpyconvert]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 00:49:53] INFO root fetch - processPackages [mrpyconvert]: Downloading https://files.pythonhosted.org/packages/54/3f/c9d339e5edae9c3006f1f918e46a21b8cdb45fc18bf28f5d3b37a82cd884/mrpyconvert-0.1.8.tar.gz
+[2023-06-06 00:49:53] INFO root fetch - processPackages [openmock]: Downloading https://files.pythonhosted.org/packages/eb/fa/87230ba0620faffcacbce425831de88a97131506f01f254cadca98a128f4/openmock-2.3.0.tar.gz
+[2023-06-06 00:49:53] INFO root fetch - processPackages [ipdw]: Downloading https://files.pythonhosted.org/packages/d5/d6/5c67b7afd956c6968a279103f02a14fac13f310176fc1e44c807b1fb1d33/ipdw-1.0.0.tar.gz
+[2023-06-06 00:49:53] INFO root fetch - processPackages [django-gem]: Downloading https://files.pythonhosted.org/packages/9f/b8/402b7d7aaeb759b82ce39aeb6e0d84c3b20d1bdfbc26a1092b36d98c5438/django_gem-1.0.4.tar.gz
+[2023-06-06 00:49:53] INFO root fetch - processPackages [mrpyconvert]: Downloading https://files.pythonhosted.org/packages/16/6e/b026da03a13cd6075dafdff77f95cddaea5524d18d1aa084cc02f7598990/mrpyconvert-0.1.9.tar.gz
+[2023-06-06 00:49:53] INFO root fetch - processPackages [mrpyconvert]: executing diffoscope
+[2023-06-06 00:49:53] INFO root fetch - processPackages [mrpyconvert]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mrpyconvert-0.1.8.tar.gz tmp/mrpyconvert-0.1.9.tar.gz --markdown 20230606/m/mrpyconvert/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 00:49:53] INFO root fetch - processPackages [ironbot]: Downloading https://files.pythonhosted.org/packages/5d/db/91f59a2b57c6f3ebc2bc85d559d04a1ab23fd40996965f98b9d3c4781972/ironbot-0.0.3.tar.gz
+[2023-06-06 00:49:53] INFO root fetch - processPackages [openmock]: Downloading https://files.pythonhosted.org/packages/06/08/ddfd997473450452f48809aef14a5a545c63751e89ce5a8bf273aa9f3382/openmock-2.3.1.tar.gz
+[2023-06-06 00:49:53] INFO root fetch - processPackages [django-gem]: Downloading https://files.pythonhosted.org/packages/95/bd/e6808805cb25a63d85c8f09d66032c839ec76cb97cba3b6a2cf9f49ab761/django_gem-1.0.5.tar.gz
+[2023-06-06 00:49:53] INFO root fetch - processPackages [ipdw]: Downloading https://files.pythonhosted.org/packages/f8/ac/2c5f557ed91656a0c9244df95f4b586d6d107574ebbbc8d30c640b3caafe/ipdw-1.0.1.tar.gz
+[2023-06-06 00:49:53] INFO root fetch - processPackages [openmock]: executing diffoscope
+[2023-06-06 00:49:53] INFO root fetch - processPackages [openmock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmock-2.3.0.tar.gz tmp/openmock-2.3.1.tar.gz --markdown 20230606/o/openmock/2.3.0-2.3.1/diff.md --exclude *.pyd
+[2023-06-06 00:49:53] INFO root fetch - processPackages [ipdw]: executing diffoscope
+[2023-06-06 00:49:53] INFO root fetch - processPackages [ipdw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipdw-1.0.0.tar.gz tmp/ipdw-1.0.1.tar.gz --markdown 20230606/i/ipdw/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-06 00:49:53] INFO root fetch - processPackages [django-gem]: executing diffoscope
+[2023-06-06 00:49:53] INFO root fetch - processPackages [django-gem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_gem-1.0.4.tar.gz tmp/django_gem-1.0.5.tar.gz --markdown 20230606/d/django-gem/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-06 00:49:54] INFO root fetch - processPackages [ironbot]: Downloading https://files.pythonhosted.org/packages/d7/ef/dde81a91adcf061f9ac8e22a97b62f80868c6c28bd3378caf6bfd3a0498d/ironbot-0.0.4.tar.gz
+[2023-06-06 00:49:54] INFO root fetch - processPackages [ironbot]: executing diffoscope
+[2023-06-06 00:49:54] INFO root fetch - processPackages [ironbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ironbot-0.0.3.tar.gz tmp/ironbot-0.0.4.tar.gz --markdown 20230606/i/ironbot/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-06 00:49:54] INFO root fetch - processPackages [mrpyconvert]: Remove: archive file [/home/abi/fetcher/tmp/mrpyconvert-0.1.8.tar.gz]
+[2023-06-06 00:49:54] INFO root fetch - processPackages [mrpyconvert]: Remove: archive file [/home/abi/fetcher/tmp/mrpyconvert-0.1.9.tar.gz]
+[2023-06-06 00:49:54] INFO root fetch - main [MainThread]: End processing [mrpyconvert]: success
+[2023-06-06 00:49:54] INFO root fetch - processPackages [openmock]: Remove: archive file [/home/abi/fetcher/tmp/openmock-2.3.0.tar.gz]
+[2023-06-06 00:49:54] INFO root fetch - processPackages [openmock]: Remove: archive file [/home/abi/fetcher/tmp/openmock-2.3.1.tar.gz]
+[2023-06-06 00:49:54] INFO root fetch - main [MainThread]: End processing [openmock]: success
+[2023-06-06 00:49:55] INFO root fetch - processPackages [ipdw]: Remove: archive file [/home/abi/fetcher/tmp/ipdw-1.0.0.tar.gz]
+[2023-06-06 00:49:55] INFO root fetch - processPackages [ipdw]: Remove: archive file [/home/abi/fetcher/tmp/ipdw-1.0.1.tar.gz]
+[2023-06-06 00:49:55] INFO root fetch - main [MainThread]: End processing [ipdw]: success
+[2023-06-06 00:49:55] INFO root fetch - processPackages [django-gem]: Remove: archive file [/home/abi/fetcher/tmp/django_gem-1.0.4.tar.gz]
+[2023-06-06 00:49:55] INFO root fetch - processPackages [django-gem]: Remove: archive file [/home/abi/fetcher/tmp/django_gem-1.0.5.tar.gz]
+[2023-06-06 00:49:55] INFO root fetch - main [MainThread]: End processing [django-gem]: success
+[2023-06-06 00:49:55] INFO root fetch - processPackages [ironbot]: Remove: archive file [/home/abi/fetcher/tmp/ironbot-0.0.3.tar.gz]
+[2023-06-06 00:49:55] INFO root fetch - processPackages [ironbot]: Remove: archive file [/home/abi/fetcher/tmp/ironbot-0.0.4.tar.gz]
+[2023-06-06 00:49:55] INFO root fetch - main [MainThread]: End processing [ironbot]: success
+[2023-06-06 00:49:55] INFO root fetch - main [MainThread]: Store serial: [18382357]
