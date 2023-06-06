@@ -3148,3 +3148,43 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 02:49:47] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202306050047.tar.gz]
 [2023-06-06 02:49:47] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-06-06 02:49:47] INFO root fetch - main [MainThread]: Store serial: [18383344]
+[2023-06-06 02:54:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18383344]
+[2023-06-06 02:54:56] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-06 02:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vstutils
+[2023-06-06 02:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openmht
+[2023-06-06 02:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-comprehend-s3olap
+[2023-06-06 02:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: NikChat
+[2023-06-06 02:54:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: coastseg
+[2023-06-06 02:54:56] INFO root fetch - processPackages [openmht]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-06-06 02:54:56] INFO root fetch - processPackages [NikChat]: New version: [2.2.1] Old Version: [2.2]
+[2023-06-06 02:54:56] INFO root fetch - processPackages [coastseg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 02:54:56] INFO root fetch - processPackages [cdk-comprehend-s3olap]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-06 02:54:56] INFO root fetch - processPackages [vstutils]: New version: [5.4.9] Old Version: [5.4.8]
+[2023-06-06 02:54:56] INFO root fetch - processPackages [coastseg]: Downloading https://files.pythonhosted.org/packages/75/3b/19efffac60ef69a861417a37a370dc3f3a497cb93009fe8fff8dda38b476/coastseg-0.0.8.tar.gz
+[2023-06-06 02:54:56] INFO root fetch - processPackages [cdk-comprehend-s3olap]: Downloading https://files.pythonhosted.org/packages/d2/64/ec00fce58a2563fe9a768f5ee5a77ecba74bfccf89b1ec489306be4a20a8/cdk_comprehend_s3olap-2.0.98.tar.gz
+[2023-06-06 02:54:56] WARNING root fetch - processPackages [coastseg]: Skipping package: exceeds size limit 38421077>=10485760
+[2023-06-06 02:54:56] INFO root fetch - main [MainThread]: End processing [coastseg] error
+[2023-06-06 02:54:56] INFO root fetch - processPackages [openmht]: Downloading https://files.pythonhosted.org/packages/f3/82/2d4123ff9edf396d29b930bee6be7fe512d3ad9f6e182218ffde656f2e55/openmht-0.1.0.tar.gz
+[2023-06-06 02:54:56] WARNING root fetch - processPackages [cdk-comprehend-s3olap]: Skipping package: exceeds size limit 14179128>=10485760
+[2023-06-06 02:54:56] INFO root fetch - main [MainThread]: End processing [cdk-comprehend-s3olap] error
+[2023-06-06 02:54:56] INFO root fetch - processPackages [NikChat]: Downloading https://files.pythonhosted.org/packages/2a/1e/db8507ba632e65aa1718756d335dcfd9a01f627374022fdcc2a4b770b78b/NikChat-2.2.tar.gz
+[2023-06-06 02:54:56] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/93/71/ffc4838cd7e27cad7cd401f4d32e58bc09b0268ee7255474cad2eedb1029/vstutils-5.4.8.tar.gz
+[2023-06-06 02:54:56] INFO root fetch - processPackages [openmht]: Downloading https://files.pythonhosted.org/packages/18/27/ba3e90e1895b0b1a27d667a93904e1c66b6e46e613f53f21bfc2b5e40b9c/openmht-1.0.0.tar.gz
+[2023-06-06 02:54:56] INFO root fetch - processPackages [NikChat]: Downloading https://files.pythonhosted.org/packages/89/5b/9986ec828431e520b5c4fb4a490c53a6dc374e93d17fa3fca1bc86a59599/NikChat-2.2.1.tar.gz
+[2023-06-06 02:54:56] INFO root fetch - processPackages [openmht]: executing diffoscope
+[2023-06-06 02:54:56] INFO root fetch - processPackages [openmht]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmht-0.1.0.tar.gz tmp/openmht-1.0.0.tar.gz --markdown 20230606/o/openmht/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-06-06 02:54:56] INFO root fetch - processPackages [NikChat]: executing diffoscope
+[2023-06-06 02:54:56] INFO root fetch - processPackages [NikChat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NikChat-2.2.tar.gz tmp/NikChat-2.2.1.tar.gz --markdown 20230606/N/NikChat/2.2-2.2.1/diff.md --exclude *.pyd
+[2023-06-06 02:54:56] INFO root fetch - processPackages [vstutils]: Downloading https://files.pythonhosted.org/packages/c3/e9/d4abad63dcfc1004b5c1557a027354436691c249a98f05da7bf8d54b856f/vstutils-5.4.9.tar.gz
+[2023-06-06 02:54:57] INFO root fetch - processPackages [vstutils]: executing diffoscope
+[2023-06-06 02:54:57] INFO root fetch - processPackages [vstutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vstutils-5.4.8.tar.gz tmp/vstutils-5.4.9.tar.gz --markdown 20230606/v/vstutils/5.4.8-5.4.9/diff.md --exclude *.pyd
+[2023-06-06 02:54:57] INFO root fetch - processPackages [openmht]: Remove: archive file [/home/abi/fetcher/tmp/openmht-0.1.0.tar.gz]
+[2023-06-06 02:54:57] INFO root fetch - processPackages [openmht]: Remove: archive file [/home/abi/fetcher/tmp/openmht-1.0.0.tar.gz]
+[2023-06-06 02:54:57] INFO root fetch - main [MainThread]: End processing [openmht]: success
+[2023-06-06 02:54:57] INFO root fetch - processPackages [NikChat]: Remove: archive file [/home/abi/fetcher/tmp/NikChat-2.2.tar.gz]
+[2023-06-06 02:54:57] INFO root fetch - processPackages [NikChat]: Remove: archive file [/home/abi/fetcher/tmp/NikChat-2.2.1.tar.gz]
+[2023-06-06 02:54:57] INFO root fetch - main [MainThread]: End processing [NikChat]: success
+[2023-06-06 02:54:59] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.4.8.tar.gz]
+[2023-06-06 02:54:59] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.4.9.tar.gz]
+[2023-06-06 02:54:59] INFO root fetch - main [MainThread]: End processing [vstutils]: success
+[2023-06-06 02:54:59] INFO root fetch - main [MainThread]: Store serial: [18383361]
