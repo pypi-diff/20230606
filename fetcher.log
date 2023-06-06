@@ -16872,3 +16872,123 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-06 10:30:18] INFO root fetch - processPackages [pylogics]: Remove: archive file [/home/abi/fetcher/tmp/pylogics-0.2.1.tar.gz]
 [2023-06-06 10:30:18] INFO root fetch - main [MainThread]: End processing [pylogics]: success
 [2023-06-06 10:30:18] INFO root fetch - main [MainThread]: Store serial: [18388631]
+[2023-06-06 10:35:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18388631]
+[2023-06-06 10:35:28] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-06 10:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: diveplane-reactor
+[2023-06-06 10:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mlflow
+[2023-06-06 10:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: decorworld-database-model
+[2023-06-06 10:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mit-tools
+[2023-06-06 10:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: transbigdata
+[2023-06-06 10:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: simba-ml
+[2023-06-06 10:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: rdfhash
+[2023-06-06 10:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: diveplane-openapi-client
+[2023-06-06 10:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: decorworld-database-model
+[2023-06-06 10:35:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: perseus-restful-api-framework
+[2023-06-06 10:35:28] INFO root fetch - processPackages [mit-tools]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-06 10:35:28] INFO root fetch - processPackages [decorworld-database-model]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-06 10:35:28] INFO root fetch - processPackages [mlflow]: New version: [2.4.0] Old Version: [2.3.2]
+[2023-06-06 10:35:28] WARNING root fetch - processPackages [diveplane-openapi-client]: Skipping, unable to determine old version
+[2023-06-06 10:35:28] INFO root fetch - processPackages [rdfhash]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-06-06 10:35:28] INFO root fetch - processPackages [diveplane-openapi-client]: Start processing: mysqlx
+[2023-06-06 10:35:28] INFO root fetch - main [MainThread]: End processing [diveplane-openapi-client] error
+[2023-06-06 10:35:28] INFO root fetch - processPackages [transbigdata]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-06 10:35:28] WARNING root fetch - processPackages [diveplane-reactor]: Skipping, unable to determine old version
+[2023-06-06 10:35:28] INFO root fetch - processPackages [simba-ml]: New version: [1.0.0rc7] Old Version: [1.0.0rc6]
+[2023-06-06 10:35:28] INFO root fetch - processPackages [diveplane-reactor]: Start processing: oddrn-generator
+[2023-06-06 10:35:28] INFO root fetch - processPackages [decorworld-database-model]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-06 10:35:28] INFO root fetch - main [MainThread]: End processing [diveplane-reactor] error
+[2023-06-06 10:35:28] INFO root fetch - processPackages [mysqlx]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-06 10:35:28] INFO root fetch - processPackages [perseus-restful-api-framework]: New version: [1.26.9] Old Version: [1.26.8]
+[2023-06-06 10:35:28] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/ec/2b/1c9e78659609b15a09b5415f34f8bf7f57451613215ce97ac9cd23893bcf/mysqlx-1.1.4.tar.gz
+[2023-06-06 10:35:28] INFO root fetch - processPackages [decorworld-database-model]: Downloading https://files.pythonhosted.org/packages/ec/0c/6fcbc48156ad6a9a591a431298a7da47cb1f5608ec4a3d1fe3f18350bbed/decorworld_database_model-0.6.8.tar.gz
+[2023-06-06 10:35:28] INFO root fetch - processPackages [oddrn-generator]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 10:35:28] INFO root fetch - processPackages [mlflow]: Downloading https://files.pythonhosted.org/packages/dc/2d/e4d40897bea708b50d8b9a8a7c165e0a267f425fd67bab68e80ac4dd8c6f/mlflow-2.3.2.tar.gz
+[2023-06-06 10:35:28] INFO root fetch - processPackages [decorworld-database-model]: Downloading https://files.pythonhosted.org/packages/ec/0c/6fcbc48156ad6a9a591a431298a7da47cb1f5608ec4a3d1fe3f18350bbed/decorworld_database_model-0.6.8.tar.gz
+[2023-06-06 10:35:28] WARNING root fetch - processPackages [mlflow]: Skipping package: exceeds size limit 17314979>=10485760
+[2023-06-06 10:35:28] INFO root fetch - processPackages [mlflow]: Start processing: amsterdam-schema-tools
+[2023-06-06 10:35:28] INFO root fetch - main [MainThread]: End processing [mlflow] error
+[2023-06-06 10:35:28] INFO root fetch - processPackages [rdfhash]: Downloading https://files.pythonhosted.org/packages/cc/22/89d18d1a626c8b16e955b3ebdea0c4dc8860272bf4ad3b8c50db69d92bac/rdfhash-0.3.3.tar.gz
+[2023-06-06 10:35:28] INFO root fetch - processPackages [mit-tools]: Downloading https://files.pythonhosted.org/packages/33/17/5afdb37f626031bd084888c43c82b3bd54058a25eec271884a20549c67bf/mit_tools-0.1.0.tar.gz
+[2023-06-06 10:35:28] INFO root fetch - processPackages [simba-ml]: Downloading https://files.pythonhosted.org/packages/19/ae/7e948e9888a9f49815d4cd75217bf6c4919adc235eafd116081c91746868/simba_ml-1.0.0rc6.tar.gz
+[2023-06-06 10:35:28] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/7b/6b/62e6c4a3f60c06ea8a0557cd3d482fb921da36d85307c0bfd28df84e1df2/mysqlx-1.1.5.tar.gz
+[2023-06-06 10:35:28] INFO root fetch - processPackages [perseus-restful-api-framework]: Downloading https://files.pythonhosted.org/packages/80/72/6a2628fda2ee20de41514a51916001d12eb60a0d744948a158e0b495038d/perseus_restful_api_framework-1.26.8.tar.gz
+[2023-06-06 10:35:28] INFO root fetch - processPackages [transbigdata]: Downloading https://files.pythonhosted.org/packages/94/6b/c3288e187d925c326f2bf2ed3afb9f4dfd3eb331fa7e15c02dd7615e8359/transbigdata-0.5.0.tar.gz
+[2023-06-06 10:35:28] INFO root fetch - processPackages [amsterdam-schema-tools]: New version: [5.9.3] Old Version: [5.9.2]
+[2023-06-06 10:35:28] INFO root fetch - processPackages [oddrn-generator]: Downloading https://files.pythonhosted.org/packages/3c/34/699cecf0046ed3a9658b2cc8dee7ad28f76ab3f13dc6bbcba8d01e63adca/oddrn-generator-0.1.8.tar.gz
+[2023-06-06 10:35:28] INFO root fetch - processPackages [mysqlx]: executing diffoscope
+[2023-06-06 10:35:28] INFO root fetch - processPackages [mysqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-1.1.4.tar.gz tmp/mysqlx-1.1.5.tar.gz --markdown 20230606/m/mysqlx/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-06 10:35:28] INFO root fetch - processPackages [decorworld-database-model]: Downloading https://files.pythonhosted.org/packages/d9/1d/e136f1627d0b5d423fe100cfac5dad5a81b0d08203b07e7956bd2e1c2033/decorworld_database_model-0.6.9.tar.gz
+[2023-06-06 10:35:28] INFO root fetch - processPackages [decorworld-database-model]: Downloading https://files.pythonhosted.org/packages/d9/1d/e136f1627d0b5d423fe100cfac5dad5a81b0d08203b07e7956bd2e1c2033/decorworld_database_model-0.6.9.tar.gz
+[2023-06-06 10:35:28] INFO root fetch - processPackages [mit-tools]: Downloading https://files.pythonhosted.org/packages/68/0b/1829a4b734d130355a1b371240293db4280431015b0bc032a262847e024f/mit_tools-0.1.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-06 10:35:28] INFO root fetch - processPackages [rdfhash]: Downloading https://files.pythonhosted.org/packages/a1/60/d6cab9892ba60aa90ae5fe65926f66f543fab336f02461c65d47f81a43f5/rdfhash-0.4.0.tar.gz
+[2023-06-06 10:35:28] INFO root fetch - processPackages [simba-ml]: Downloading https://files.pythonhosted.org/packages/c3/78/2283afe6f956e97c88116ea77bb103a4aa7a9a9a45c5b305a0a1f2001160/simba_ml-1.0.0rc7.tar.gz
+[2023-06-06 10:35:28] INFO root fetch - processPackages [decorworld-database-model]: executing diffoscope
+[2023-06-06 10:35:28] INFO root fetch - processPackages [decorworld-database-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decorworld_database_model-0.6.8.tar.gz tmp/decorworld_database_model-0.6.9.tar.gz --markdown 20230606/d/decorworld-database-model/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-06 10:35:28] INFO root fetch - processPackages [decorworld-database-model]: executing diffoscope
+[2023-06-06 10:35:28] INFO root fetch - processPackages [decorworld-database-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decorworld_database_model-0.6.8.tar.gz tmp/decorworld_database_model-0.6.9.tar.gz --markdown 20230606/d/decorworld-database-model/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-06 10:35:28] INFO root fetch - processPackages [transbigdata]: Downloading https://files.pythonhosted.org/packages/a6/4c/1f74b8e19d3b1a64ea062d033279f256d11bb4d30411f230b64c6d32c930/transbigdata-0.5.1.tar.gz
+[2023-06-06 10:35:28] INFO root fetch - processPackages [rdfhash]: executing diffoscope
+[2023-06-06 10:35:28] INFO root fetch - processPackages [rdfhash]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdfhash-0.3.3.tar.gz tmp/rdfhash-0.4.0.tar.gz --markdown 20230606/r/rdfhash/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-06-06 10:35:28] INFO root fetch - processPackages [simba-ml]: executing diffoscope
+[2023-06-06 10:35:28] INFO root fetch - processPackages [simba-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simba_ml-1.0.0rc6.tar.gz tmp/simba_ml-1.0.0rc7.tar.gz --markdown 20230606/s/simba-ml/1.0.0rc6-1.0.0rc7/diff.md --exclude *.pyd
+[2023-06-06 10:35:28] INFO root fetch - processPackages [transbigdata]: executing diffoscope
+[2023-06-06 10:35:28] INFO root fetch - processPackages [transbigdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/transbigdata-0.5.0.tar.gz tmp/transbigdata-0.5.1.tar.gz --markdown 20230606/t/transbigdata/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-06 10:35:29] INFO root fetch - processPackages [oddrn-generator]: Downloading https://files.pythonhosted.org/packages/2a/2e/c01483d58b0cf1c450eb92f93a9180e3d71bda2dfe4cbe678bad80d62bfb/oddrn-generator-0.1.9.tar.gz
+[2023-06-06 10:35:29] INFO root fetch - processPackages [perseus-restful-api-framework]: Downloading https://files.pythonhosted.org/packages/cf/74/730b74192f6c1e7410d7a9ba9957dad8eebbc5f556057ff6a238cac07e2a/perseus_restful_api_framework-1.26.9.tar.gz
+[2023-06-06 10:35:29] INFO root fetch - processPackages [amsterdam-schema-tools]: Downloading https://files.pythonhosted.org/packages/1f/30/4cb7af8d4d1f00da78de0a18355a2eea64732fcd8654137d6173c80c699d/amsterdam-schema-tools-5.9.2.tar.gz
+[2023-06-06 10:35:29] INFO root fetch - processPackages [oddrn-generator]: executing diffoscope
+[2023-06-06 10:35:29] INFO root fetch - processPackages [oddrn-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/oddrn-generator-0.1.8.tar.gz tmp/oddrn-generator-0.1.9.tar.gz --markdown 20230606/o/oddrn-generator/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 10:35:29] INFO root fetch - processPackages [mit-tools]: executing diffoscope
+[2023-06-06 10:35:29] INFO root fetch - processPackages [mit-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mit_tools-0.1.0.tar.gz tmp/mit_tools-0.1.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230606/m/mit-tools/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-06 10:35:29] INFO root fetch - processPackages [perseus-restful-api-framework]: executing diffoscope
+[2023-06-06 10:35:29] INFO root fetch - processPackages [perseus-restful-api-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perseus_restful_api_framework-1.26.8.tar.gz tmp/perseus_restful_api_framework-1.26.9.tar.gz --markdown 20230606/p/perseus-restful-api-framework/1.26.8-1.26.9/diff.md --exclude *.pyd
+[2023-06-06 10:35:29] INFO root fetch - processPackages [amsterdam-schema-tools]: Downloading https://files.pythonhosted.org/packages/4d/24/9b16605372327f85f59868308c2dc3f6e93f5faf2941312efe6702b27d8c/amsterdam-schema-tools-5.9.3.tar.gz
+[2023-06-06 10:35:29] INFO root fetch - processPackages [amsterdam-schema-tools]: executing diffoscope
+[2023-06-06 10:35:29] INFO root fetch - processPackages [amsterdam-schema-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amsterdam-schema-tools-5.9.2.tar.gz tmp/amsterdam-schema-tools-5.9.3.tar.gz --markdown 20230606/a/amsterdam-schema-tools/5.9.2-5.9.3/diff.md --exclude *.pyd
+[2023-06-06 10:35:30] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.1.4.tar.gz]
+[2023-06-06 10:35:30] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.1.5.tar.gz]
+[2023-06-06 10:35:30] INFO root fetch - processPackages [mysqlx]: Start processing: gov-uk-dashboards
+[2023-06-06 10:35:30] INFO root fetch - main [MainThread]: End processing [mysqlx]: success
+[2023-06-06 10:35:30] INFO root fetch - processPackages [gov-uk-dashboards]: New version: [9.6.0] Old Version: [9.5.0]
+[2023-06-06 10:35:30] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/b3/de/1ec8f2e4d02d3ccd422ec94963ecf7e0dbb62ac30d45afc52453d240a86d/gov_uk_dashboards-9.5.0.tar.gz
+[2023-06-06 10:35:30] INFO root fetch - processPackages [rdfhash]: Remove: archive file [/home/abi/fetcher/tmp/rdfhash-0.3.3.tar.gz]
+[2023-06-06 10:35:30] INFO root fetch - processPackages [rdfhash]: Remove: archive file [/home/abi/fetcher/tmp/rdfhash-0.4.0.tar.gz]
+[2023-06-06 10:35:30] INFO root fetch - processPackages [rdfhash]: Start processing: hojichar
+[2023-06-06 10:35:30] INFO root fetch - main [MainThread]: End processing [rdfhash]: success
+[2023-06-06 10:35:30] INFO root fetch - processPackages [decorworld-database-model]: Remove: archive file [/home/abi/fetcher/tmp/decorworld_database_model-0.6.8.tar.gz]
+[2023-06-06 10:35:30] INFO root fetch - processPackages [decorworld-database-model]: Remove: archive file [/home/abi/fetcher/tmp/decorworld_database_model-0.6.9.tar.gz]
+[2023-06-06 10:35:30] INFO root fetch - main [MainThread]: End processing [decorworld-database-model]: success
+[2023-06-06 10:35:30] INFO root fetch - processPackages [hojichar]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-06 10:35:30] INFO root fetch - main [MainThread]: End processing [decorworld-database-model]: success
+[2023-06-06 10:35:30] INFO root fetch - processPackages [oddrn-generator]: Remove: archive file [/home/abi/fetcher/tmp/oddrn-generator-0.1.8.tar.gz]
+[2023-06-06 10:35:30] INFO root fetch - processPackages [oddrn-generator]: Remove: archive file [/home/abi/fetcher/tmp/oddrn-generator-0.1.9.tar.gz]
+[2023-06-06 10:35:30] INFO root fetch - main [MainThread]: End processing [oddrn-generator]: success
+[2023-06-06 10:35:30] INFO root fetch - processPackages [mit-tools]: Remove: archive file [/home/abi/fetcher/tmp/mit_tools-0.1.0.tar.gz]
+[2023-06-06 10:35:30] INFO root fetch - processPackages [mit-tools]: Remove: archive file [/home/abi/fetcher/tmp/mit_tools-0.1.1-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-06 10:35:30] INFO root fetch - main [MainThread]: End processing [mit-tools]: success
+[2023-06-06 10:35:30] INFO root fetch - processPackages [gov-uk-dashboards]: Downloading https://files.pythonhosted.org/packages/c5/47/2144cf124cf34b82d40c37fcc0a8dc231cf518a71de1ff7e72e7e616df5d/gov_uk_dashboards-9.6.0.tar.gz
+[2023-06-06 10:35:30] INFO root fetch - processPackages [hojichar]: Downloading https://files.pythonhosted.org/packages/0c/5e/3579ee310d93818bc27c6e11fb659e3433752684cb409a2ff1a8010b5673/hojichar-0.4.0.tar.gz
+[2023-06-06 10:35:30] INFO root fetch - processPackages [gov-uk-dashboards]: executing diffoscope
+[2023-06-06 10:35:30] INFO root fetch - processPackages [gov-uk-dashboards]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gov_uk_dashboards-9.5.0.tar.gz tmp/gov_uk_dashboards-9.6.0.tar.gz --markdown 20230606/g/gov-uk-dashboards/9.5.0-9.6.0/diff.md --exclude *.pyd
+[2023-06-06 10:35:31] INFO root fetch - processPackages [hojichar]: Downloading https://files.pythonhosted.org/packages/bc/d4/b28b8a3853ea8052d45ee6f7efe8ece4e9e03703026d1fd75a93d515b140/hojichar-0.5.0.tar.gz
+[2023-06-06 10:35:31] INFO root fetch - processPackages [hojichar]: executing diffoscope
+[2023-06-06 10:35:31] INFO root fetch - processPackages [hojichar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hojichar-0.4.0.tar.gz tmp/hojichar-0.5.0.tar.gz --markdown 20230606/h/hojichar/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-06 10:35:31] INFO root fetch - processPackages [transbigdata]: Remove: archive file [/home/abi/fetcher/tmp/transbigdata-0.5.0.tar.gz]
+[2023-06-06 10:35:31] INFO root fetch - processPackages [transbigdata]: Remove: archive file [/home/abi/fetcher/tmp/transbigdata-0.5.1.tar.gz]
+[2023-06-06 10:35:31] INFO root fetch - main [MainThread]: End processing [transbigdata]: success
+[2023-06-06 10:35:31] INFO root fetch - processPackages [amsterdam-schema-tools]: Remove: archive file [/home/abi/fetcher/tmp/amsterdam-schema-tools-5.9.2.tar.gz]
+[2023-06-06 10:35:31] INFO root fetch - processPackages [amsterdam-schema-tools]: Remove: archive file [/home/abi/fetcher/tmp/amsterdam-schema-tools-5.9.3.tar.gz]
+[2023-06-06 10:35:31] INFO root fetch - main [MainThread]: End processing [amsterdam-schema-tools]: success
+[2023-06-06 10:35:31] INFO root fetch - processPackages [perseus-restful-api-framework]: Remove: archive file [/home/abi/fetcher/tmp/perseus_restful_api_framework-1.26.8.tar.gz]
+[2023-06-06 10:35:31] INFO root fetch - processPackages [perseus-restful-api-framework]: Remove: archive file [/home/abi/fetcher/tmp/perseus_restful_api_framework-1.26.9.tar.gz]
+[2023-06-06 10:35:31] INFO root fetch - main [MainThread]: End processing [perseus-restful-api-framework]: success
+[2023-06-06 10:35:32] INFO root fetch - processPackages [simba-ml]: Remove: archive file [/home/abi/fetcher/tmp/simba_ml-1.0.0rc6.tar.gz]
+[2023-06-06 10:35:32] INFO root fetch - processPackages [simba-ml]: Remove: archive file [/home/abi/fetcher/tmp/simba_ml-1.0.0rc7.tar.gz]
+[2023-06-06 10:35:32] INFO root fetch - main [MainThread]: End processing [simba-ml]: success
+[2023-06-06 10:35:32] INFO root fetch - processPackages [hojichar]: Remove: archive file [/home/abi/fetcher/tmp/hojichar-0.4.0.tar.gz]
+[2023-06-06 10:35:32] INFO root fetch - processPackages [hojichar]: Remove: archive file [/home/abi/fetcher/tmp/hojichar-0.5.0.tar.gz]
+[2023-06-06 10:35:32] INFO root fetch - main [MainThread]: End processing [hojichar]: success
+[2023-06-06 10:35:32] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.5.0.tar.gz]
+[2023-06-06 10:35:32] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.6.0.tar.gz]
+[2023-06-06 10:35:32] INFO root fetch - main [MainThread]: End processing [gov-uk-dashboards]: success
+[2023-06-06 10:35:32] INFO root fetch - main [MainThread]: Store serial: [18388747]
