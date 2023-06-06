@@ -7520,3 +7520,60 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 03:56:29] INFO root fetch - processPackages [metdig]: Remove: archive file [/home/abi/fetcher/tmp/metdig-0.1.9.9.9-py3-none-any.whl.zip]
 [2023-06-06 03:56:29] INFO root fetch - main [MainThread]: End processing [metdig]: success
 [2023-06-06 03:56:29] INFO root fetch - main [MainThread]: Store serial: [18384935]
+[2023-06-06 04:01:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18384935]
+[2023-06-06 04:01:39] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-06 04:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: text-emotion
+[2023-06-06 04:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: vnpy-xex
+[2023-06-06 04:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-lambda-layer-wget
+[2023-06-06 04:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dte
+[2023-06-06 04:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: EnergyCapSdk
+[2023-06-06 04:01:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: BigBrainGHLPy
+[2023-06-06 04:01:39] INFO root fetch - processPackages [text-emotion]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-06 04:01:39] INFO root fetch - processPackages [vnpy-xex]: New version: [2023.6.6.1] Old Version: [2023.6.5.1]
+[2023-06-06 04:01:39] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-06 04:01:39] INFO root fetch - processPackages [vnpy-xex]: Downloading https://files.pythonhosted.org/packages/0e/8d/426833b05629a764bda23284e02890964407f5ee366c441ed0f8a3eacec7/vnpy_xex-2023.6.5.1.tar.gz
+[2023-06-06 04:01:39] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Downloading https://files.pythonhosted.org/packages/f8/35/e47c6ddfa64ed9ac5f5a4b035ea0cc02916916c4bdbbbb9cc31928af9582/cdk-lambda-layer-wget-2.0.98.tar.gz
+[2023-06-06 04:01:39] INFO root fetch - processPackages [dte]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-06 04:01:39] INFO root fetch - processPackages [BigBrainGHLPy]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 04:01:39] INFO root fetch - processPackages [text-emotion]: Downloading https://files.pythonhosted.org/packages/96/60/7421f538878131a452eca717e4ddc7a854d98a85ad23858623c6d8e0e6cd/text_emotion-0.0.1.tar.gz
+[2023-06-06 04:01:39] INFO root fetch - processPackages [BigBrainGHLPy]: Downloading https://files.pythonhosted.org/packages/c7/de/da00e183505cd7187c5e372c9a1259fdaf9f35ee1bb46af108277828024d/BigBrainGHLPy-0.0.8.tar.gz
+[2023-06-06 04:01:39] INFO root fetch - processPackages [dte]: Downloading https://files.pythonhosted.org/packages/68/67/6019ea4f313baed4d4cb35908470a85521dcfb1f662af1eb40fa8f7e6ecc/dte-0.3.1.tar.gz
+[2023-06-06 04:01:39] INFO root fetch - processPackages [vnpy-xex]: Downloading https://files.pythonhosted.org/packages/7a/dd/2de802b68b79c938abc7941cbd3eda4af8491d11713b31481f938687802e/vnpy_xex-2023.6.6.1.tar.gz
+[2023-06-06 04:01:39] INFO root fetch - processPackages [text-emotion]: Downloading https://files.pythonhosted.org/packages/f7/00/12a73c52e03a9e526ba08282c82be1af0691ffbb642a39f3b1b34b13906d/text_emotion-0.0.2.tar.gz
+[2023-06-06 04:01:39] INFO root fetch - processPackages [vnpy-xex]: executing diffoscope
+[2023-06-06 04:01:39] INFO root fetch - processPackages [vnpy-xex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnpy_xex-2023.6.5.1.tar.gz tmp/vnpy_xex-2023.6.6.1.tar.gz --markdown 20230606/v/vnpy-xex/2023.6.5.1-2023.6.6.1/diff.md --exclude *.pyd
+[2023-06-06 04:01:40] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Downloading https://files.pythonhosted.org/packages/98/52/07cb776b41ec70fb5cc0faffb812732ed10edeb529408976a37a888ef997/cdk-lambda-layer-wget-2.0.99.tar.gz
+[2023-06-06 04:01:40] INFO root fetch - processPackages [BigBrainGHLPy]: Downloading https://files.pythonhosted.org/packages/c9/3e/6c90cb2e83aaaa726ff442556e8d2931d3414d60651c84c0580b19a28fac/BigBrainGHLPy-0.0.9.tar.gz
+[2023-06-06 04:01:40] INFO root fetch - processPackages [EnergyCapSdk]: New version: [8.2304.4578] Old Version: [8.2304.4573]
+[2023-06-06 04:01:40] INFO root fetch - processPackages [dte]: Downloading https://files.pythonhosted.org/packages/4b/92/e13047db5e79f7bd85e6ae9371f46c4483098989fea5918c0ec3d4f74fda/dte-0.3.2.tar.gz
+[2023-06-06 04:01:40] INFO root fetch - processPackages [text-emotion]: executing diffoscope
+[2023-06-06 04:01:40] INFO root fetch - processPackages [text-emotion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text_emotion-0.0.1.tar.gz tmp/text_emotion-0.0.2.tar.gz --markdown 20230606/t/text-emotion/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-06 04:01:40] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-06-06 04:01:40] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230606/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-06 04:01:40] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/27/1c/52e917dba0d52914b75ea993af07844cc4bf29314dc138bbe26636620618/EnergyCapSdk-8.2304.4573.tar.gz
+[2023-06-06 04:01:40] INFO root fetch - processPackages [dte]: executing diffoscope
+[2023-06-06 04:01:40] INFO root fetch - processPackages [dte]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dte-0.3.1.tar.gz tmp/dte-0.3.2.tar.gz --markdown 20230606/d/dte/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-06 04:01:40] INFO root fetch - processPackages [BigBrainGHLPy]: executing diffoscope
+[2023-06-06 04:01:40] INFO root fetch - processPackages [BigBrainGHLPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BigBrainGHLPy-0.0.8.tar.gz tmp/BigBrainGHLPy-0.0.9.tar.gz --markdown 20230606/B/BigBrainGHLPy/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 04:01:40] INFO root fetch - processPackages [EnergyCapSdk]: Downloading https://files.pythonhosted.org/packages/5e/d6/10a6e63adcb92aba368d1822087d0515b4fb52f5bb2fc256bbfc500d68a0/EnergyCapSdk-8.2304.4578.tar.gz
+[2023-06-06 04:01:40] INFO root fetch - processPackages [EnergyCapSdk]: executing diffoscope
+[2023-06-06 04:01:40] INFO root fetch - processPackages [EnergyCapSdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EnergyCapSdk-8.2304.4573.tar.gz tmp/EnergyCapSdk-8.2304.4578.tar.gz --markdown 20230606/E/EnergyCapSdk/8.2304.4573-8.2304.4578/diff.md --exclude *.pyd
+[2023-06-06 04:01:41] INFO root fetch - processPackages [vnpy-xex]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_xex-2023.6.5.1.tar.gz]
+[2023-06-06 04:01:41] INFO root fetch - processPackages [vnpy-xex]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_xex-2023.6.6.1.tar.gz]
+[2023-06-06 04:01:41] INFO root fetch - main [MainThread]: End processing [vnpy-xex]: success
+[2023-06-06 04:01:41] INFO root fetch - processPackages [text-emotion]: Remove: archive file [/home/abi/fetcher/tmp/text_emotion-0.0.1.tar.gz]
+[2023-06-06 04:01:41] INFO root fetch - processPackages [text-emotion]: Remove: archive file [/home/abi/fetcher/tmp/text_emotion-0.0.2.tar.gz]
+[2023-06-06 04:01:41] INFO root fetch - main [MainThread]: End processing [text-emotion]: success
+[2023-06-06 04:01:41] INFO root fetch - processPackages [BigBrainGHLPy]: Remove: archive file [/home/abi/fetcher/tmp/BigBrainGHLPy-0.0.8.tar.gz]
+[2023-06-06 04:01:41] INFO root fetch - processPackages [BigBrainGHLPy]: Remove: archive file [/home/abi/fetcher/tmp/BigBrainGHLPy-0.0.9.tar.gz]
+[2023-06-06 04:01:41] INFO root fetch - main [MainThread]: End processing [BigBrainGHLPy]: success
+[2023-06-06 04:01:41] INFO root fetch - processPackages [dte]: Remove: archive file [/home/abi/fetcher/tmp/dte-0.3.1.tar.gz]
+[2023-06-06 04:01:41] INFO root fetch - processPackages [dte]: Remove: archive file [/home/abi/fetcher/tmp/dte-0.3.2.tar.gz]
+[2023-06-06 04:01:41] INFO root fetch - main [MainThread]: End processing [dte]: success
+[2023-06-06 04:01:43] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-wget-2.0.98.tar.gz]
+[2023-06-06 04:01:43] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-wget-2.0.99.tar.gz]
+[2023-06-06 04:01:43] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-06-06 04:02:13] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4573.tar.gz]
+[2023-06-06 04:02:13] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4578.tar.gz]
+[2023-06-06 04:02:13] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
+[2023-06-06 04:02:13] INFO root fetch - main [MainThread]: Store serial: [18385011]
