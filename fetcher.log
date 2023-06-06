@@ -21284,3 +21284,72 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-06 13:32:37] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230605-py3-none-win_amd64.whl.zip]
 [2023-06-06 13:32:37] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
 [2023-06-06 13:32:37] INFO root fetch - main [MainThread]: Store serial: [18390515]
+[2023-06-06 13:37:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18390515]
+[2023-06-06 13:37:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-06 13:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tpypack
+[2023-06-06 13:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: th2-data-services-lwdp
+[2023-06-06 13:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chimpflow
+[2023-06-06 13:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hdpws
+[2023-06-06 13:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seven-cloudapp-frame
+[2023-06-06 13:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: algokit-client-generator
+[2023-06-06 13:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pySSRSapi
+[2023-06-06 13:37:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hcai-nova-server
+[2023-06-06 13:37:46] INFO root fetch - processPackages [hdpws]: New version: [0.6.6] Old Version: [0.6.2]
+[2023-06-06 13:37:46] WARNING root fetch - processPackages [tpypack]: Skipping, unable to determine old version
+[2023-06-06 13:37:46] INFO root fetch - main [MainThread]: End processing [tpypack] error
+[2023-06-06 13:37:46] INFO root fetch - processPackages [algokit-client-generator]: New version: [0.1.0b8] Old Version: [0.1.0b7]
+[2023-06-06 13:37:46] INFO root fetch - processPackages [chimpflow]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-06-06 13:37:46] INFO root fetch - processPackages [pySSRSapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 13:37:46] INFO root fetch - processPackages [hcai-nova-server]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 13:37:46] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.1.0.0.dev5188014825] Old Version: [2.1.0.0.dev5187878094]
+[2023-06-06 13:37:46] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-06-06 13:37:46] INFO root fetch - processPackages [hcai-nova-server]: Downloading https://files.pythonhosted.org/packages/41/e7/88c9ee328c9b7058af2bccb07742ff63eb94c157f8aa8043f8e77de83d19/hcai-nova-server-0.1.8.tar.gz
+[2023-06-06 13:37:46] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/35/2b/05b1b8a3faf3e0417c648bb54a3032af0de6b3d08180acd83e1eea5e3701/seven_cloudapp_frame-1.0.9.8.tar.gz
+[2023-06-06 13:37:47] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/38/81/8075ae498be833ddda2c5e2ec6375ed9eeadffe23235c60efd4d87ff8677/th2_data_services_lwdp-2.1.0.0.dev5187878094.tar.gz
+[2023-06-06 13:37:47] INFO root fetch - processPackages [hdpws]: Downloading https://files.pythonhosted.org/packages/12/97/35a6f9ff54a60d76080c55558b95832e36cc85a2d8d5e5c228846f3807de/hdpws-0.6.2.tar.gz
+[2023-06-06 13:37:47] INFO root fetch - processPackages [pySSRSapi]: Downloading https://files.pythonhosted.org/packages/c1/1f/3cdcbe16d3596d5f4c8b2bd2a676c177f21741fde5a400918310da0cf6ef/pySSRSapi-0.0.8.tar.gz
+[2023-06-06 13:37:47] INFO root fetch - processPackages [algokit-client-generator]: Downloading https://files.pythonhosted.org/packages/05/16/352bd2ae6f9f2158b150ff1142b5d5768280d5332e6ed5c02217e71ed8b8/algokit_client_generator-0.1.0b7-py3-none-any.whl
+[2023-06-06 13:37:47] INFO root fetch - processPackages [chimpflow]: Downloading https://files.pythonhosted.org/packages/08/15/c651bb57b0f2a60ddea4b3abc0571a1f530cb642fdbb8b36358a47ee26f8/chimpflow-1.3.0.tar.gz
+[2023-06-06 13:37:47] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/74/d6/645286f46e81a7cbd30574c917b65af03679c974a979c0421012bd713cbd/seven_cloudapp_frame-1.0.9.9.tar.gz
+[2023-06-06 13:37:47] INFO root fetch - processPackages [hcai-nova-server]: Downloading https://files.pythonhosted.org/packages/f2/15/6f1137a2294b11c9cac9e2f1c5e80c38876f24591c7f0323ec9c49543613/hcai-nova-server-0.1.9.tar.gz
+[2023-06-06 13:37:47] INFO root fetch - processPackages [hcai-nova-server]: executing diffoscope
+[2023-06-06 13:37:47] INFO root fetch - processPackages [hcai-nova-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-0.1.8.tar.gz tmp/hcai-nova-server-0.1.9.tar.gz --markdown 20230606/h/hcai-nova-server/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 13:37:47] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-06-06 13:37:47] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230606/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-06-06 13:37:47] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/4a/14/9c3bda7394e634c827c6043f32aba58f3a06792447e6e7738e0455679923/th2_data_services_lwdp-2.1.0.0.dev5188014825.tar.gz
+[2023-06-06 13:37:47] INFO root fetch - processPackages [hdpws]: Downloading https://files.pythonhosted.org/packages/dd/07/192a04d73b3b33803e0e65fd2836a8c3720b15bb152d78bf76405c8b6200/hdpws-0.6.6.tar.gz
+[2023-06-06 13:37:47] INFO root fetch - processPackages [chimpflow]: Downloading https://files.pythonhosted.org/packages/37/7c/c91298b2b8cb1579bc18a3c88f86d5970379e9308feac2815fd9d7061750/chimpflow-1.4.0.tar.gz
+[2023-06-06 13:37:47] INFO root fetch - processPackages [pySSRSapi]: Downloading https://files.pythonhosted.org/packages/28/33/55f9f8da569cf0d93252ba2a1cdba374c9c59c45ca96b8374e8925475457/pySSRSapi-0.0.9.tar.gz
+[2023-06-06 13:37:47] INFO root fetch - processPackages [algokit-client-generator]: Downloading https://files.pythonhosted.org/packages/66/95/8f4503f7306a8c5c56901b8403c8f039d70a5fcadb8bffe41f307b35451e/algokit_client_generator-0.1.0b8-py3-none-any.whl
+[2023-06-06 13:37:47] INFO root fetch - processPackages [hdpws]: executing diffoscope
+[2023-06-06 13:37:47] INFO root fetch - processPackages [hdpws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hdpws-0.6.2.tar.gz tmp/hdpws-0.6.6.tar.gz --markdown 20230606/h/hdpws/0.6.2-0.6.6/diff.md --exclude *.pyd
+[2023-06-06 13:37:47] INFO root fetch - processPackages [pySSRSapi]: executing diffoscope
+[2023-06-06 13:37:47] INFO root fetch - processPackages [pySSRSapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pySSRSapi-0.0.8.tar.gz tmp/pySSRSapi-0.0.9.tar.gz --markdown 20230606/p/pySSRSapi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 13:37:47] INFO root fetch - processPackages [chimpflow]: executing diffoscope
+[2023-06-06 13:37:47] INFO root fetch - processPackages [algokit-client-generator]: executing diffoscope
+[2023-06-06 13:37:47] INFO root fetch - processPackages [algokit-client-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_client_generator-0.1.0b7-py3-none-any.whl.zip tmp/algokit_client_generator-0.1.0b8-py3-none-any.whl.zip --markdown 20230606/a/algokit-client-generator/0.1.0b7-0.1.0b8/diff.md --exclude *.pyd
+[2023-06-06 13:37:47] INFO root fetch - processPackages [chimpflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chimpflow-1.3.0.tar.gz tmp/chimpflow-1.4.0.tar.gz --markdown 20230606/c/chimpflow/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-06-06 13:37:47] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-06-06 13:37:47] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.1.0.0.dev5187878094.tar.gz tmp/th2_data_services_lwdp-2.1.0.0.dev5188014825.tar.gz --markdown 20230606/t/th2-data-services-lwdp/2.1.0.0.dev5187878094-2.1.0.0.dev5188014825/diff.md --exclude *.pyd
+[2023-06-06 13:37:48] INFO root fetch - processPackages [hcai-nova-server]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-server-0.1.8.tar.gz]
+[2023-06-06 13:37:48] INFO root fetch - processPackages [hcai-nova-server]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-server-0.1.9.tar.gz]
+[2023-06-06 13:37:48] INFO root fetch - main [MainThread]: End processing [hcai-nova-server]: success
+[2023-06-06 13:37:48] INFO root fetch - processPackages [pySSRSapi]: Remove: archive file [/home/abi/fetcher/tmp/pySSRSapi-0.0.8.tar.gz]
+[2023-06-06 13:37:48] INFO root fetch - processPackages [pySSRSapi]: Remove: archive file [/home/abi/fetcher/tmp/pySSRSapi-0.0.9.tar.gz]
+[2023-06-06 13:37:48] INFO root fetch - main [MainThread]: End processing [pySSRSapi]: success
+[2023-06-06 13:37:49] INFO root fetch - processPackages [algokit-client-generator]: Remove: archive file [/home/abi/fetcher/tmp/algokit_client_generator-0.1.0b7-py3-none-any.whl.zip]
+[2023-06-06 13:37:49] INFO root fetch - processPackages [algokit-client-generator]: Remove: archive file [/home/abi/fetcher/tmp/algokit_client_generator-0.1.0b8-py3-none-any.whl.zip]
+[2023-06-06 13:37:49] INFO root fetch - main [MainThread]: End processing [algokit-client-generator]: success
+[2023-06-06 13:37:49] INFO root fetch - processPackages [hdpws]: Remove: archive file [/home/abi/fetcher/tmp/hdpws-0.6.2.tar.gz]
+[2023-06-06 13:37:49] INFO root fetch - processPackages [hdpws]: Remove: archive file [/home/abi/fetcher/tmp/hdpws-0.6.6.tar.gz]
+[2023-06-06 13:37:49] INFO root fetch - main [MainThread]: End processing [hdpws]: success
+[2023-06-06 13:37:49] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5187878094.tar.gz]
+[2023-06-06 13:37:49] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5188014825.tar.gz]
+[2023-06-06 13:37:49] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-06-06 13:37:49] INFO root fetch - processPackages [chimpflow]: Remove: archive file [/home/abi/fetcher/tmp/chimpflow-1.3.0.tar.gz]
+[2023-06-06 13:37:49] INFO root fetch - processPackages [chimpflow]: Remove: archive file [/home/abi/fetcher/tmp/chimpflow-1.4.0.tar.gz]
+[2023-06-06 13:37:49] INFO root fetch - main [MainThread]: End processing [chimpflow]: success
+[2023-06-06 13:37:51] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.8.tar.gz]
+[2023-06-06 13:37:51] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.9.tar.gz]
+[2023-06-06 13:37:51] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-06-06 13:37:51] INFO root fetch - main [MainThread]: Store serial: [18390540]
