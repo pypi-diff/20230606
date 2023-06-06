@@ -16810,3 +16810,65 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-06 10:24:57] INFO root fetch - processPackages [mlflow-skinny]: Remove: archive file [/home/abi/fetcher/tmp/mlflow-skinny-2.4.0.tar.gz]
 [2023-06-06 10:24:57] INFO root fetch - main [MainThread]: End processing [mlflow-skinny]: success
 [2023-06-06 10:24:57] INFO root fetch - main [MainThread]: Store serial: [18388608]
+[2023-06-06 10:30:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18388608]
+[2023-06-06 10:30:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-06 10:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: genopyc
+[2023-06-06 10:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ensmallen
+[2023-06-06 10:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pipeline-feature
+[2023-06-06 10:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stb-amount
+[2023-06-06 10:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pylogics
+[2023-06-06 10:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datadm
+[2023-06-06 10:30:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdnmon
+[2023-06-06 10:30:16] INFO root fetch - processPackages [genopyc]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-06-06 10:30:16] INFO root fetch - processPackages [pipeline-feature]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 10:30:16] INFO root fetch - processPackages [stb-amount]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-06 10:30:16] INFO root fetch - processPackages [cdnmon]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-06 10:30:16] INFO root fetch - processPackages [datadm]: New version: [0.1.0] Old Version: [0.0.3]
+[2023-06-06 10:30:16] INFO root fetch - processPackages [ensmallen]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-06 10:30:16] INFO root fetch - processPackages [pylogics]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-06 10:30:16] INFO root fetch - processPackages [datadm]: Downloading https://files.pythonhosted.org/packages/ca/d9/844f96759e4d9e7995f3658981052faffe12e72601bbf8e1757fd24d55d8/datadm-0.0.3.tar.gz
+[2023-06-06 10:30:16] INFO root fetch - processPackages [cdnmon]: Downloading https://files.pythonhosted.org/packages/36/79/e7af7f205a6466c30015435fb659361de46f1a5b7e7bb5f78ba9e9b7b9f0/cdnmon-0.2.4.tar.gz
+[2023-06-06 10:30:16] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/f3/4a/2e80d65029b16741c3837546037e85683a420fa8ed5653d5378655998e68/pipeline-feature-0.0.8.tar.gz
+[2023-06-06 10:30:16] INFO root fetch - processPackages [genopyc]: Downloading https://files.pythonhosted.org/packages/18/e4/b5dfde885548c709aaeeb613ef7e94ecb3edff1098c605dac4f67c9cb188/genopyc-0.3.5-py3-none-any.whl
+[2023-06-06 10:30:16] INFO root fetch - processPackages [ensmallen]: Downloading https://files.pythonhosted.org/packages/75/07/70c25877db695ae02b4a944b722513282eaca44b6bec77e09bed7e8bea0c/ensmallen-0.8.8-cp37-abi3-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+[2023-06-06 10:30:16] INFO root fetch - processPackages [stb-amount]: Downloading https://files.pythonhosted.org/packages/1b/dd/b1fd9ef54daa974ce8fb57eab0dfeab328e9a6bc9fb593ae9a007b1d2dbd/stb_amount-1.0.0.tar.gz
+[2023-06-06 10:30:16] INFO root fetch - processPackages [datadm]: Downloading https://files.pythonhosted.org/packages/34/cc/7483bb53a028532035dc6358151c1dece58d5b9bd043c4d5e459fc4062d3/datadm-0.1.0.tar.gz
+[2023-06-06 10:30:16] WARNING root fetch - processPackages [ensmallen]: Skipping package: exceeds size limit 18826030>=10485760
+[2023-06-06 10:30:16] INFO root fetch - main [MainThread]: End processing [ensmallen] error
+[2023-06-06 10:30:16] INFO root fetch - processPackages [pylogics]: Downloading https://files.pythonhosted.org/packages/01/31/1ad2ccdd7bcba17b6fadeb95b7b49923b431e53517d3526369a916e98990/pylogics-0.2.0.tar.gz
+[2023-06-06 10:30:16] INFO root fetch - processPackages [cdnmon]: Downloading https://files.pythonhosted.org/packages/e3/23/f6da47f1dcdc32daff2dfe3ddf0ab25b5bb353e3c71719369b56c2827b9e/cdnmon-0.2.5.tar.gz
+[2023-06-06 10:30:16] INFO root fetch - processPackages [datadm]: executing diffoscope
+[2023-06-06 10:30:16] INFO root fetch - processPackages [datadm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datadm-0.0.3.tar.gz tmp/datadm-0.1.0.tar.gz --markdown 20230606/d/datadm/0.0.3-0.1.0/diff.md --exclude *.pyd
+[2023-06-06 10:30:17] INFO root fetch - processPackages [cdnmon]: executing diffoscope
+[2023-06-06 10:30:17] INFO root fetch - processPackages [cdnmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdnmon-0.2.4.tar.gz tmp/cdnmon-0.2.5.tar.gz --markdown 20230606/c/cdnmon/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-06 10:30:17] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/2d/7d/8d87cbdf414b1b7a2a9cc9b2bd5f360572b7da334ce7f3ff61009413e3d6/pipeline-feature-0.0.9.tar.gz
+[2023-06-06 10:30:17] INFO root fetch - processPackages [genopyc]: Downloading https://files.pythonhosted.org/packages/66/fd/2b44553f422dabc9d9a997a0bba9d4c26ee57ff005595f33eff02190b87e/genopyc-0.3.6-py3-none-any.whl
+[2023-06-06 10:30:17] INFO root fetch - processPackages [stb-amount]: Downloading https://files.pythonhosted.org/packages/22/d8/95f96c37605ebb877c228f16afa78bf3e816ec4fec8d34eb35a053e6262c/stb_amount-1.0.1.tar.gz
+[2023-06-06 10:30:17] INFO root fetch - processPackages [pylogics]: Downloading https://files.pythonhosted.org/packages/a6/c6/de546cf7382b7385b3ca9a32ee9c6f683eee89b2aa25bafe1c2ca166dd54/pylogics-0.2.1.tar.gz
+[2023-06-06 10:30:17] INFO root fetch - processPackages [genopyc]: executing diffoscope
+[2023-06-06 10:30:17] INFO root fetch - processPackages [genopyc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/genopyc-0.3.5-py3-none-any.whl.zip tmp/genopyc-0.3.6-py3-none-any.whl.zip --markdown 20230606/g/genopyc/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-06-06 10:30:17] INFO root fetch - processPackages [stb-amount]: executing diffoscope
+[2023-06-06 10:30:17] INFO root fetch - processPackages [stb-amount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stb_amount-1.0.0.tar.gz tmp/stb_amount-1.0.1.tar.gz --markdown 20230606/s/stb-amount/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-06 10:30:17] INFO root fetch - processPackages [pipeline-feature]: executing diffoscope
+[2023-06-06 10:30:17] INFO root fetch - processPackages [pipeline-feature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline-feature-0.0.8.tar.gz tmp/pipeline-feature-0.0.9.tar.gz --markdown 20230606/p/pipeline-feature/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 10:30:17] INFO root fetch - processPackages [pylogics]: executing diffoscope
+[2023-06-06 10:30:17] INFO root fetch - processPackages [pylogics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylogics-0.2.0.tar.gz tmp/pylogics-0.2.1.tar.gz --markdown 20230606/p/pylogics/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-06 10:30:18] INFO root fetch - processPackages [cdnmon]: Remove: archive file [/home/abi/fetcher/tmp/cdnmon-0.2.4.tar.gz]
+[2023-06-06 10:30:18] INFO root fetch - processPackages [cdnmon]: Remove: archive file [/home/abi/fetcher/tmp/cdnmon-0.2.5.tar.gz]
+[2023-06-06 10:30:18] INFO root fetch - main [MainThread]: End processing [cdnmon]: success
+[2023-06-06 10:30:18] INFO root fetch - processPackages [datadm]: Remove: archive file [/home/abi/fetcher/tmp/datadm-0.0.3.tar.gz]
+[2023-06-06 10:30:18] INFO root fetch - processPackages [datadm]: Remove: archive file [/home/abi/fetcher/tmp/datadm-0.1.0.tar.gz]
+[2023-06-06 10:30:18] INFO root fetch - main [MainThread]: End processing [datadm]: success
+[2023-06-06 10:30:18] INFO root fetch - processPackages [stb-amount]: Remove: archive file [/home/abi/fetcher/tmp/stb_amount-1.0.0.tar.gz]
+[2023-06-06 10:30:18] INFO root fetch - processPackages [stb-amount]: Remove: archive file [/home/abi/fetcher/tmp/stb_amount-1.0.1.tar.gz]
+[2023-06-06 10:30:18] INFO root fetch - main [MainThread]: End processing [stb-amount]: success
+[2023-06-06 10:30:18] INFO root fetch - processPackages [genopyc]: Remove: archive file [/home/abi/fetcher/tmp/genopyc-0.3.5-py3-none-any.whl.zip]
+[2023-06-06 10:30:18] INFO root fetch - processPackages [genopyc]: Remove: archive file [/home/abi/fetcher/tmp/genopyc-0.3.6-py3-none-any.whl.zip]
+[2023-06-06 10:30:18] INFO root fetch - main [MainThread]: End processing [genopyc]: success
+[2023-06-06 10:30:18] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.8.tar.gz]
+[2023-06-06 10:30:18] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.9.tar.gz]
+[2023-06-06 10:30:18] INFO root fetch - main [MainThread]: End processing [pipeline-feature]: success
+[2023-06-06 10:30:18] INFO root fetch - processPackages [pylogics]: Remove: archive file [/home/abi/fetcher/tmp/pylogics-0.2.0.tar.gz]
+[2023-06-06 10:30:18] INFO root fetch - processPackages [pylogics]: Remove: archive file [/home/abi/fetcher/tmp/pylogics-0.2.1.tar.gz]
+[2023-06-06 10:30:18] INFO root fetch - main [MainThread]: End processing [pylogics]: success
+[2023-06-06 10:30:18] INFO root fetch - main [MainThread]: Store serial: [18388631]
