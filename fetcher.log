@@ -16440,3 +16440,107 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-06 10:08:49] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230606.tar.gz]
 [2023-06-06 10:08:49] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2023-06-06 10:08:49] INFO root fetch - main [MainThread]: Store serial: [18388444]
+[2023-06-06 10:13:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18388444]
+[2023-06-06 10:13:58] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-06 10:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xplain
+[2023-06-06 10:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tiledb-jupyter-bioimg
+[2023-06-06 10:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: diveplane-amalgam-api
+[2023-06-06 10:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kndsa
+[2023-06-06 10:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: human-protocol-sdk
+[2023-06-06 10:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: omnata-plugin-runtime
+[2023-06-06 10:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: thipster
+[2023-06-06 10:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: psbody-mesh
+[2023-06-06 10:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: zhousf-lib
+[2023-06-06 10:13:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: obs-cli
+[2023-06-06 10:13:58] INFO root fetch - processPackages [xplain]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 10:13:58] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: New version: [0.1.2a2] Old Version: [0.1.2a1]
+[2023-06-06 10:13:58] INFO root fetch - processPackages [thipster]: New version: [0.14.0] Old Version: [0.13.6]
+[2023-06-06 10:13:58] INFO root fetch - processPackages [zhousf-lib]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-06-06 10:13:58] WARNING root fetch - processPackages [diveplane-amalgam-api]: Skipping, unable to determine old version
+[2023-06-06 10:13:58] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 10:13:58] WARNING root fetch - processPackages [kndsa]: Skipping, unable to determine old version
+[2023-06-06 10:13:58] INFO root fetch - processPackages [diveplane-amalgam-api]: Start processing: riotee-gateway
+[2023-06-06 10:13:58] INFO root fetch - main [MainThread]: End processing [diveplane-amalgam-api] error
+[2023-06-06 10:13:58] INFO root fetch - processPackages [kndsa]: Start processing: blaster-server
+[2023-06-06 10:13:58] INFO root fetch - processPackages [obs-cli]: New version: [0.6.0] Old Version: [0.5.3]
+[2023-06-06 10:13:58] INFO root fetch - main [MainThread]: End processing [kndsa] error
+[2023-06-06 10:13:58] INFO root fetch - processPackages [psbody-mesh]: New version: [0.3] Old Version: [0.0.1]
+[2023-06-06 10:13:58] INFO root fetch - processPackages [human-protocol-sdk]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-06 10:13:58] INFO root fetch - processPackages [riotee-gateway]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-06 10:13:58] INFO root fetch - processPackages [blaster-server]: New version: [0.0.436] Old Version: [0.0.435b0]
+[2023-06-06 10:13:58] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-06-06 10:13:58] INFO root fetch - processPackages [blaster-server]: Downloading https://files.pythonhosted.org/packages/6a/59/b421d3e126583ff0e3216cf69538be7649302fcff710a8cd2fa1e3a03d30/blaster-server-0.0.435b0.tar.gz
+[2023-06-06 10:13:58] INFO root fetch - processPackages [obs-cli]: Downloading https://files.pythonhosted.org/packages/9a/88/c333f5ab4c8c4125652854d047882591fe4598d56b8e8302c33c207ab655/obs-cli-0.5.3.tar.gz
+[2023-06-06 10:13:58] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/d5/22/18983432d0d4a6f65a2da2291238c123bd69785c51277276d829fc0ae757/zhousf-lib-0.5.5.tar.gz
+[2023-06-06 10:13:58] INFO root fetch - processPackages [xplain]: Downloading https://files.pythonhosted.org/packages/d2/32/72d5bb95e5e32e62e09aa619ddf071b53b1d1bf600ed708cdfceb8f0dc6c/xplain-0.0.8.tar.gz
+[2023-06-06 10:13:59] WARNING root fetch - processPackages [zhousf-lib]: Skipping package: exceeds size limit 14947902>=10485760
+[2023-06-06 10:13:59] INFO root fetch - processPackages [zhousf-lib]: Start processing: findmyorder
+[2023-06-06 10:13:59] INFO root fetch - main [MainThread]: End processing [zhousf-lib] error
+[2023-06-06 10:13:59] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/8d/15/712b5fa4304cc36404f1f0a983f42bdff3d2545476dcfef200a90ce1c9c0/thipster-0.13.6.tar.gz
+[2023-06-06 10:13:59] INFO root fetch - processPackages [human-protocol-sdk]: Downloading https://files.pythonhosted.org/packages/e2/99/7e6e06622afe7e5650d7ee749861e871c3857b5485bb2ee672f5092b1b8f/human-protocol-sdk-1.1.4.tar.gz
+[2023-06-06 10:13:59] INFO root fetch - processPackages [psbody-mesh]: Downloading https://files.pythonhosted.org/packages/f7/b8/c5a84716e04e2e8be05736050c9fdf29373f17a67e5c4f32d8c38ead71c8/psbody_mesh-0.0.1.tar.gz
+[2023-06-06 10:13:59] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Downloading https://files.pythonhosted.org/packages/9a/8f/2db1b2bdde94e808969548f4efcbf4a14d403b4fe6d49ff195e578bace21/tiledb_jupyter_bioimg-0.1.2a1.tar.gz
+[2023-06-06 10:13:59] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-06-06 10:13:59] INFO root fetch - processPackages [riotee-gateway]: Downloading https://files.pythonhosted.org/packages/fe/99/fa09c8d7d9b58e267466ab3aaedbdc4070f88bd814cebc7f5ab1eda78983/riotee_gateway-0.0.1.tar.gz
+[2023-06-06 10:13:59] INFO root fetch - processPackages [findmyorder]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-06 10:13:59] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/ca/f3/9f08c36adfb0cbbf52c339c94b39f7a01b27a2cba31b5d639b00e125eef9/findmyorder-1.3.8.tar.gz
+[2023-06-06 10:13:59] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-06-06 10:13:59] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230606/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 10:13:59] INFO root fetch - processPackages [blaster-server]: Downloading https://files.pythonhosted.org/packages/01/8c/a12bee3974d908b49a2afd642de0cef95c6b3a6388feb1f85e18842ee1e3/blaster-server-0.0.436.tar.gz
+[2023-06-06 10:13:59] INFO root fetch - processPackages [obs-cli]: Downloading https://files.pythonhosted.org/packages/97/af/b7c2d3130519889b4d9cb703dd558c59df441dc6c0dca4cfe9167d73d074/obs-cli-0.6.0.tar.gz
+[2023-06-06 10:13:59] INFO root fetch - processPackages [psbody-mesh]: Downloading https://files.pythonhosted.org/packages/a7/06/59f2e08ee08f2f6fbce4cf0eb01e7c8c2f3aebec8ab538e28d1bce90fcd3/psbody_mesh-0.3.tar.gz
+[2023-06-06 10:13:59] INFO root fetch - processPackages [thipster]: Downloading https://files.pythonhosted.org/packages/8f/bf/965eb1702129508af239cdcaec72182ad1fb157fd8e68c46b227822d0352/thipster-0.14.0.tar.gz
+[2023-06-06 10:13:59] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Downloading https://files.pythonhosted.org/packages/f5/95/8a899ba67ce100f0585faa8c6663a267b8075a6da57950ba2cf277d642f7/tiledb_jupyter_bioimg-0.1.2a2.tar.gz
+[2023-06-06 10:13:59] INFO root fetch - processPackages [riotee-gateway]: Downloading https://files.pythonhosted.org/packages/d6/e6/6a2f4e9badc0331383595b7577433130cf508dcdfd1b6994473ad4c4fd5b/riotee_gateway-0.0.2.tar.gz
+[2023-06-06 10:13:59] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/52/b2/27542c768cd467bba099bd3795a116a0f5925f906d812f5ba7335c21a9d3/findmyorder-1.3.9.tar.gz
+[2023-06-06 10:13:59] INFO root fetch - processPackages [human-protocol-sdk]: Downloading https://files.pythonhosted.org/packages/77/18/a61675919af2e7e29e9dd0d349e9698a896071b73c4e1a8f1d2445455200/human-protocol-sdk-1.1.5.tar.gz
+[2023-06-06 10:13:59] INFO root fetch - processPackages [xplain]: Downloading https://files.pythonhosted.org/packages/0e/46/7fa5bb0d0652af9f74ed9059933d7cb7278cd61c9c83b7b6df084c6a931a/xplain-0.0.9.tar.gz
+[2023-06-06 10:13:59] INFO root fetch - processPackages [psbody-mesh]: executing diffoscope
+[2023-06-06 10:13:59] INFO root fetch - processPackages [psbody-mesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psbody_mesh-0.0.1.tar.gz tmp/psbody_mesh-0.3.tar.gz --markdown 20230606/p/psbody-mesh/0.0.1-0.3/diff.md --exclude *.pyd
+[2023-06-06 10:13:59] INFO root fetch - processPackages [thipster]: executing diffoscope
+[2023-06-06 10:13:59] INFO root fetch - processPackages [thipster]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thipster-0.13.6.tar.gz tmp/thipster-0.14.0.tar.gz --markdown 20230606/t/thipster/0.13.6-0.14.0/diff.md --exclude *.pyd
+[2023-06-06 10:13:59] INFO root fetch - processPackages [riotee-gateway]: executing diffoscope
+[2023-06-06 10:13:59] INFO root fetch - processPackages [riotee-gateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riotee_gateway-0.0.1.tar.gz tmp/riotee_gateway-0.0.2.tar.gz --markdown 20230606/r/riotee-gateway/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-06 10:13:59] INFO root fetch - processPackages [obs-cli]: executing diffoscope
+[2023-06-06 10:13:59] INFO root fetch - processPackages [obs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obs-cli-0.5.3.tar.gz tmp/obs-cli-0.6.0.tar.gz --markdown 20230606/o/obs-cli/0.5.3-0.6.0/diff.md --exclude *.pyd
+[2023-06-06 10:13:59] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-06-06 10:13:59] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.3.8.tar.gz tmp/findmyorder-1.3.9.tar.gz --markdown 20230606/f/findmyorder/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-06 10:13:59] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: executing diffoscope
+[2023-06-06 10:13:59] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_jupyter_bioimg-0.1.2a1.tar.gz tmp/tiledb_jupyter_bioimg-0.1.2a2.tar.gz --markdown 20230606/t/tiledb-jupyter-bioimg/0.1.2a1-0.1.2a2/diff.md --exclude *.pyd
+[2023-06-06 10:13:59] INFO root fetch - processPackages [human-protocol-sdk]: executing diffoscope
+[2023-06-06 10:13:59] INFO root fetch - processPackages [human-protocol-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/human-protocol-sdk-1.1.4.tar.gz tmp/human-protocol-sdk-1.1.5.tar.gz --markdown 20230606/h/human-protocol-sdk/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-06 10:13:59] INFO root fetch - processPackages [xplain]: executing diffoscope
+[2023-06-06 10:13:59] INFO root fetch - processPackages [xplain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xplain-0.0.8.tar.gz tmp/xplain-0.0.9.tar.gz --markdown 20230606/x/xplain/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 10:13:59] INFO root fetch - processPackages [blaster-server]: executing diffoscope
+[2023-06-06 10:13:59] INFO root fetch - processPackages [blaster-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blaster-server-0.0.435b0.tar.gz tmp/blaster-server-0.0.436.tar.gz --markdown 20230606/b/blaster-server/0.0.435b0-0.0.436/diff.md --exclude *.pyd
+[2023-06-06 10:14:00] INFO root fetch - processPackages [psbody-mesh]: Remove: archive file [/home/abi/fetcher/tmp/psbody_mesh-0.0.1.tar.gz]
+[2023-06-06 10:14:00] INFO root fetch - processPackages [psbody-mesh]: Remove: archive file [/home/abi/fetcher/tmp/psbody_mesh-0.3.tar.gz]
+[2023-06-06 10:14:00] INFO root fetch - main [MainThread]: End processing [psbody-mesh]: success
+[2023-06-06 10:14:00] INFO root fetch - processPackages [riotee-gateway]: Remove: archive file [/home/abi/fetcher/tmp/riotee_gateway-0.0.1.tar.gz]
+[2023-06-06 10:14:00] INFO root fetch - processPackages [riotee-gateway]: Remove: archive file [/home/abi/fetcher/tmp/riotee_gateway-0.0.2.tar.gz]
+[2023-06-06 10:14:00] INFO root fetch - main [MainThread]: End processing [riotee-gateway]: success
+[2023-06-06 10:14:01] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.3.8.tar.gz]
+[2023-06-06 10:14:01] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.3.9.tar.gz]
+[2023-06-06 10:14:01] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-06-06 10:14:01] INFO root fetch - processPackages [xplain]: Remove: archive file [/home/abi/fetcher/tmp/xplain-0.0.8.tar.gz]
+[2023-06-06 10:14:01] INFO root fetch - processPackages [xplain]: Remove: archive file [/home/abi/fetcher/tmp/xplain-0.0.9.tar.gz]
+[2023-06-06 10:14:01] INFO root fetch - main [MainThread]: End processing [xplain]: success
+[2023-06-06 10:14:01] INFO root fetch - processPackages [human-protocol-sdk]: Remove: archive file [/home/abi/fetcher/tmp/human-protocol-sdk-1.1.4.tar.gz]
+[2023-06-06 10:14:01] INFO root fetch - processPackages [human-protocol-sdk]: Remove: archive file [/home/abi/fetcher/tmp/human-protocol-sdk-1.1.5.tar.gz]
+[2023-06-06 10:14:01] INFO root fetch - main [MainThread]: End processing [human-protocol-sdk]: success
+[2023-06-06 10:14:01] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-06-06 10:14:01] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-06-06 10:14:01] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-06-06 10:14:01] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.13.6.tar.gz]
+[2023-06-06 10:14:01] INFO root fetch - processPackages [thipster]: Remove: archive file [/home/abi/fetcher/tmp/thipster-0.14.0.tar.gz]
+[2023-06-06 10:14:01] INFO root fetch - main [MainThread]: End processing [thipster]: success
+[2023-06-06 10:14:01] INFO root fetch - processPackages [blaster-server]: Remove: archive file [/home/abi/fetcher/tmp/blaster-server-0.0.435b0.tar.gz]
+[2023-06-06 10:14:01] INFO root fetch - processPackages [blaster-server]: Remove: archive file [/home/abi/fetcher/tmp/blaster-server-0.0.436.tar.gz]
+[2023-06-06 10:14:01] INFO root fetch - main [MainThread]: End processing [blaster-server]: success
+[2023-06-06 10:14:01] INFO root fetch - processPackages [obs-cli]: Remove: archive file [/home/abi/fetcher/tmp/obs-cli-0.5.3.tar.gz]
+[2023-06-06 10:14:01] INFO root fetch - processPackages [obs-cli]: Remove: archive file [/home/abi/fetcher/tmp/obs-cli-0.6.0.tar.gz]
+[2023-06-06 10:14:01] INFO root fetch - main [MainThread]: End processing [obs-cli]: success
+[2023-06-06 10:14:15] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_jupyter_bioimg-0.1.2a1.tar.gz]
+[2023-06-06 10:14:15] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_jupyter_bioimg-0.1.2a2.tar.gz]
+[2023-06-06 10:14:15] INFO root fetch - main [MainThread]: End processing [tiledb-jupyter-bioimg]: success
+[2023-06-06 10:14:15] INFO root fetch - main [MainThread]: Store serial: [18388489]
