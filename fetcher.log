@@ -19148,3 +19148,120 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-06 11:45:12] INFO root fetch - processPackages [agera5tools]: Remove: archive file [/home/abi/fetcher/tmp/agera5tools-2.0.6-py3-none-any.whl.zip]
 [2023-06-06 11:45:12] INFO root fetch - main [MainThread]: End processing [agera5tools]: success
 [2023-06-06 11:45:12] INFO root fetch - main [MainThread]: Store serial: [18389570]
+[2023-06-06 11:50:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18389570]
+[2023-06-06 11:50:34] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-06 11:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: syneto-api
+[2023-06-06 11:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dls-normsql
+[2023-06-06 11:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: smunger
+[2023-06-06 11:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pywaclient
+[2023-06-06 11:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: prosper-nn
+[2023-06-06 11:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bitmovin-api-sdk
+[2023-06-06 11:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pylena
+[2023-06-06 11:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: devopstestor
+[2023-06-06 11:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: matrix-synapse
+[2023-06-06 11:50:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: netbox-cisco-maintenance
+[2023-06-06 11:50:34] INFO root fetch - processPackages [devopstestor]: New version: [1.7.2] Old Version: [1.7.1]
+[2023-06-06 11:50:34] INFO root fetch - processPackages [prosper-nn]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-06 11:50:34] INFO root fetch - processPackages [dls-normsql]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-06-06 11:50:34] INFO root fetch - processPackages [pylena]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-06 11:50:34] INFO root fetch - processPackages [syneto-api]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-06 11:50:34] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.90] Old Version: [0.0.9]
+[2023-06-06 11:50:34] INFO root fetch - processPackages [smunger]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 11:50:34] INFO root fetch - processPackages [pywaclient]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-06-06 11:50:34] INFO root fetch - processPackages [bitmovin-api-sdk]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-06-06 11:50:34] INFO root fetch - processPackages [devopstestor]: Downloading https://files.pythonhosted.org/packages/de/49/2635fda150de9c3706d7c28fa7371770e18d77e3fa8080a9ac776c55dbaa/devopstestor-1.7.1.tar.gz
+[2023-06-06 11:50:34] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/55/18/d82dc30b78e3d23b9f00dc5bd845df80e3c03826a83d082261fb6a38bb30/netbox-cisco-maintenance-0.0.9.tar.gz
+[2023-06-06 11:50:34] INFO root fetch - processPackages [matrix-synapse]: New version: [1.9.1] Old Version: [1.9.0rc1]
+[2023-06-06 11:50:34] INFO root fetch - processPackages [prosper-nn]: Downloading https://files.pythonhosted.org/packages/81/5b/233a69f16709b0e1d8a0a920871114d5ff8169555fb6794af4d82e5563b3/prosper_nn-0.2.2.tar.gz
+[2023-06-06 11:50:34] INFO root fetch - processPackages [syneto-api]: Downloading https://files.pythonhosted.org/packages/1c/19/06bd4b683f8e92860f1ad9ee3006afc60538679617a3a88b511fe71ce48f/syneto_api-0.2.8.tar.gz
+[2023-06-06 11:50:34] INFO root fetch - processPackages [pylena]: Downloading https://files.pythonhosted.org/packages/50/02/ad6305c87ce383c88f93053b5d4532041bd80af5caf4b69e6417a5567016/pylena-0.1.1.tar.gz
+[2023-06-06 11:50:34] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/47/ed/a27edfb098f371fda3203a085807e3c891315fe00c98e7a811b8593c300e/netbox-cisco-maintenance-0.0.90.tar.gz
+[2023-06-06 11:50:34] INFO root fetch - processPackages [bitmovin-api-sdk]: Downloading https://files.pythonhosted.org/packages/99/5f/f312c7ae4e19c02c92be74787a5b90e06fd5c451af1d3ae05598ba30e3b1/bitmovin-api-sdk-1.98.0.tar.gz
+[2023-06-06 11:50:34] INFO root fetch - processPackages [pywaclient]: Downloading https://files.pythonhosted.org/packages/a7/1a/9b0a41784e24bd0a46c4a8e16d2ab5894171fa985bd69dc9aaa44b0e3c67/pywaclient-1.3.4.tar.gz
+[2023-06-06 11:50:34] INFO root fetch - processPackages [dls-normsql]: Downloading https://files.pythonhosted.org/packages/15/43/c3c411733884ba6d31ecea41936288c9b7baa785979189dcce80f5885e60/dls-normsql-2.1.0.tar.gz
+[2023-06-06 11:50:34] INFO root fetch - processPackages [smunger]: Downloading https://files.pythonhosted.org/packages/2a/1e/4fca949c480ed56b8069c58b528e5e151d3a8c1bf848e88f0fa187fd047c/smunger-0.0.8.tar.gz
+[2023-06-06 11:50:34] INFO root fetch - processPackages [matrix-synapse]: Downloading https://files.pythonhosted.org/packages/38/92/fe537943f778c5448a77d841fc4b23f0aadfb189248bdaa757b3135d13ba/matrix-synapse-1.9.0rc1.tar.gz
+[2023-06-06 11:50:34] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-06 11:50:34] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.9.tar.gz tmp/netbox-cisco-maintenance-0.0.90.tar.gz --markdown 20230606/n/netbox-cisco-maintenance/0.0.9-0.0.90/diff.md --exclude *.pyd
+[2023-06-06 11:50:34] INFO root fetch - processPackages [devopstestor]: Downloading https://files.pythonhosted.org/packages/41/92/9cf517c85f41d3e04628f58bb71631fc014dfba945c2005a611425050729/devopstestor-1.7.2.tar.gz
+[2023-06-06 11:50:34] INFO root fetch - processPackages [prosper-nn]: Downloading https://files.pythonhosted.org/packages/74/34/6b0ca8b7f52d085d5d445885d9507f1c2bde9fad889c773f86e97c19b081/prosper_nn-0.2.3.tar.gz
+[2023-06-06 11:50:35] INFO root fetch - processPackages [dls-normsql]: Downloading https://files.pythonhosted.org/packages/8c/64/c91a8682be4d3851d85bea3c8a8092008c8701b4b2a617a7819ab65b1309/dls-normsql-2.2.0.tar.gz
+[2023-06-06 11:50:35] INFO root fetch - processPackages [pywaclient]: Downloading https://files.pythonhosted.org/packages/0a/0d/2b12b6287e154175e68cd208c6ca13abbb77bca5d88a73b0b282a257112b/pywaclient-1.3.5.tar.gz
+[2023-06-06 11:50:35] INFO root fetch - processPackages [bitmovin-api-sdk]: Downloading https://files.pythonhosted.org/packages/34/91/b3a6a32567ee1b2b10fdb861f77466abd3a7b2db538088f87351199da0bc/bitmovin-api-sdk-1.99.0.tar.gz
+[2023-06-06 11:50:35] INFO root fetch - processPackages [devopstestor]: executing diffoscope
+[2023-06-06 11:50:35] INFO root fetch - processPackages [devopstestor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devopstestor-1.7.1.tar.gz tmp/devopstestor-1.7.2.tar.gz --markdown 20230606/d/devopstestor/1.7.1-1.7.2/diff.md --exclude *.pyd
+[2023-06-06 11:50:35] INFO root fetch - processPackages [syneto-api]: Downloading https://files.pythonhosted.org/packages/c1/37/c2e3cad26eda82eb1d8ed0bb5d82f6730c5c42d7b34e3cf1579f56cffc7f/syneto_api-0.2.9.tar.gz
+[2023-06-06 11:50:35] INFO root fetch - processPackages [prosper-nn]: executing diffoscope
+[2023-06-06 11:50:35] INFO root fetch - processPackages [prosper-nn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prosper_nn-0.2.2.tar.gz tmp/prosper_nn-0.2.3.tar.gz --markdown 20230606/p/prosper-nn/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-06 11:50:35] INFO root fetch - processPackages [dls-normsql]: executing diffoscope
+[2023-06-06 11:50:35] INFO root fetch - processPackages [dls-normsql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dls-normsql-2.1.0.tar.gz tmp/dls-normsql-2.2.0.tar.gz --markdown 20230606/d/dls-normsql/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-06-06 11:50:35] INFO root fetch - processPackages [bitmovin-api-sdk]: executing diffoscope
+[2023-06-06 11:50:35] INFO root fetch - processPackages [bitmovin-api-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bitmovin-api-sdk-1.98.0.tar.gz tmp/bitmovin-api-sdk-1.99.0.tar.gz --markdown 20230606/b/bitmovin-api-sdk/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-06-06 11:50:35] INFO root fetch - processPackages [pylena]: Downloading https://files.pythonhosted.org/packages/4d/e5/b5ff9e398ca0d3bdde87773fb72deb99065588194aa00b729e1bd447132b/pylena-0.1.2.tar.gz
+[2023-06-06 11:50:35] INFO root fetch - processPackages [pywaclient]: executing diffoscope
+[2023-06-06 11:50:35] INFO root fetch - processPackages [pywaclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pywaclient-1.3.4.tar.gz tmp/pywaclient-1.3.5.tar.gz --markdown 20230606/p/pywaclient/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-06-06 11:50:35] INFO root fetch - processPackages [smunger]: Downloading https://files.pythonhosted.org/packages/e1/8e/22f8ef38b7edec93026e889d0e27fb68e67399dfa55d5ff123c6657d7c42/smunger-0.0.9.tar.gz
+[2023-06-06 11:50:35] INFO root fetch - processPackages [syneto-api]: executing diffoscope
+[2023-06-06 11:50:35] INFO root fetch - processPackages [syneto-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syneto_api-0.2.8.tar.gz tmp/syneto_api-0.2.9.tar.gz --markdown 20230606/s/syneto-api/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-06 11:50:35] INFO root fetch - processPackages [matrix-synapse]: Downloading https://files.pythonhosted.org/packages/ca/c7/4673bb5cb9ec9a2b850f118077e24c3f5fda08b973bbed512caf26dd9604/matrix-synapse-1.9.1.tar.gz
+[2023-06-06 11:50:35] INFO root fetch - processPackages [pylena]: executing diffoscope
+[2023-06-06 11:50:35] INFO root fetch - processPackages [pylena]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pylena-0.1.1.tar.gz tmp/pylena-0.1.2.tar.gz --markdown 20230606/p/pylena/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-06 11:50:35] INFO root fetch - processPackages [matrix-synapse]: executing diffoscope
+[2023-06-06 11:50:35] INFO root fetch - processPackages [matrix-synapse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/matrix-synapse-1.9.0rc1.tar.gz tmp/matrix-synapse-1.9.1.tar.gz --markdown 20230606/m/matrix-synapse/1.9.0rc1-1.9.1/diff.md --exclude *.pyd
+[2023-06-06 11:50:36] INFO root fetch - processPackages [smunger]: executing diffoscope
+[2023-06-06 11:50:36] INFO root fetch - processPackages [smunger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smunger-0.0.8.tar.gz tmp/smunger-0.0.9.tar.gz --markdown 20230606/s/smunger/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 11:50:36] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.9.tar.gz]
+[2023-06-06 11:50:36] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.90.tar.gz]
+[2023-06-06 11:50:36] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: archimedes-python-client
+[2023-06-06 11:50:36] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-06 11:50:36] INFO root fetch - processPackages [archimedes-python-client]: New version: [4.9.0] Old Version: [4.8.3]
+[2023-06-06 11:50:36] INFO root fetch - processPackages [prosper-nn]: Remove: archive file [/home/abi/fetcher/tmp/prosper_nn-0.2.2.tar.gz]
+[2023-06-06 11:50:36] INFO root fetch - processPackages [prosper-nn]: Remove: archive file [/home/abi/fetcher/tmp/prosper_nn-0.2.3.tar.gz]
+[2023-06-06 11:50:36] INFO root fetch - processPackages [prosper-nn]: Start processing: dtorch
+[2023-06-06 11:50:36] INFO root fetch - main [MainThread]: End processing [prosper-nn]: success
+[2023-06-06 11:50:36] INFO root fetch - processPackages [syneto-api]: Remove: archive file [/home/abi/fetcher/tmp/syneto_api-0.2.8.tar.gz]
+[2023-06-06 11:50:36] INFO root fetch - processPackages [syneto-api]: Remove: archive file [/home/abi/fetcher/tmp/syneto_api-0.2.9.tar.gz]
+[2023-06-06 11:50:36] INFO root fetch - processPackages [syneto-api]: Start processing: BasicLibrary.PY
+[2023-06-06 11:50:36] INFO root fetch - main [MainThread]: End processing [syneto-api]: success
+[2023-06-06 11:50:36] WARNING root fetch - processPackages [BasicLibrary.PY]: Skipping, unable to determine old version
+[2023-06-06 11:50:36] INFO root fetch - processPackages [BasicLibrary.PY]: Start processing: luminesce-sdk-preview
+[2023-06-06 11:50:36] INFO root fetch - main [MainThread]: End processing [BasicLibrary.PY] error
+[2023-06-06 11:50:36] WARNING root fetch - processPackages [dtorch]: Skipping, unable to determine old version
+[2023-06-06 11:50:36] INFO root fetch - main [MainThread]: End processing [dtorch] error
+[2023-06-06 11:50:36] INFO root fetch - processPackages [archimedes-python-client]: Downloading https://files.pythonhosted.org/packages/31/fb/2086e9e3fb37986436ca47dca9879d3d503780a91e0d2c045c319f825059/archimedes_python_client-4.8.3.tar.gz
+[2023-06-06 11:50:37] INFO root fetch - processPackages [pylena]: Remove: archive file [/home/abi/fetcher/tmp/pylena-0.1.1.tar.gz]
+[2023-06-06 11:50:37] INFO root fetch - processPackages [pylena]: Remove: archive file [/home/abi/fetcher/tmp/pylena-0.1.2.tar.gz]
+[2023-06-06 11:50:37] INFO root fetch - main [MainThread]: End processing [pylena]: success
+[2023-06-06 11:50:37] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-06-06 11:50:37] INFO root fetch - processPackages [pywaclient]: Remove: archive file [/home/abi/fetcher/tmp/pywaclient-1.3.4.tar.gz]
+[2023-06-06 11:50:37] INFO root fetch - processPackages [pywaclient]: Remove: archive file [/home/abi/fetcher/tmp/pywaclient-1.3.5.tar.gz]
+[2023-06-06 11:50:37] INFO root fetch - main [MainThread]: End processing [pywaclient]: success
+[2023-06-06 11:50:37] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-06-06 11:50:37] INFO root fetch - processPackages [archimedes-python-client]: Downloading https://files.pythonhosted.org/packages/d2/f1/7c35edeab7f2c8c504b9e00e68f6b64247857ede6f4f85b9f4953a55c15e/archimedes_python_client-4.9.0.tar.gz
+[2023-06-06 11:50:37] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-06-06 11:50:37] INFO root fetch - processPackages [archimedes-python-client]: executing diffoscope
+[2023-06-06 11:50:37] INFO root fetch - processPackages [archimedes-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/archimedes_python_client-4.8.3.tar.gz tmp/archimedes_python_client-4.9.0.tar.gz --markdown 20230606/a/archimedes-python-client/4.8.3-4.9.0/diff.md --exclude *.pyd
+[2023-06-06 11:50:37] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-06-06 11:50:37] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230606/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-06-06 11:50:37] INFO root fetch - processPackages [dls-normsql]: Remove: archive file [/home/abi/fetcher/tmp/dls-normsql-2.1.0.tar.gz]
+[2023-06-06 11:50:37] INFO root fetch - processPackages [dls-normsql]: Remove: archive file [/home/abi/fetcher/tmp/dls-normsql-2.2.0.tar.gz]
+[2023-06-06 11:50:37] INFO root fetch - main [MainThread]: End processing [dls-normsql]: success
+[2023-06-06 11:50:37] INFO root fetch - processPackages [devopstestor]: Remove: archive file [/home/abi/fetcher/tmp/devopstestor-1.7.1.tar.gz]
+[2023-06-06 11:50:37] INFO root fetch - processPackages [devopstestor]: Remove: archive file [/home/abi/fetcher/tmp/devopstestor-1.7.2.tar.gz]
+[2023-06-06 11:50:37] INFO root fetch - main [MainThread]: End processing [devopstestor]: success
+[2023-06-06 11:50:38] INFO root fetch - processPackages [archimedes-python-client]: Remove: archive file [/home/abi/fetcher/tmp/archimedes_python_client-4.8.3.tar.gz]
+[2023-06-06 11:50:38] INFO root fetch - processPackages [archimedes-python-client]: Remove: archive file [/home/abi/fetcher/tmp/archimedes_python_client-4.9.0.tar.gz]
+[2023-06-06 11:50:38] INFO root fetch - main [MainThread]: End processing [archimedes-python-client]: success
+[2023-06-06 11:50:39] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-06-06 11:50:39] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-06-06 11:50:39] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-06-06 11:50:39] INFO root fetch - processPackages [smunger]: Remove: archive file [/home/abi/fetcher/tmp/smunger-0.0.8.tar.gz]
+[2023-06-06 11:50:39] INFO root fetch - processPackages [smunger]: Remove: archive file [/home/abi/fetcher/tmp/smunger-0.0.9.tar.gz]
+[2023-06-06 11:50:39] INFO root fetch - main [MainThread]: End processing [smunger]: success
+[2023-06-06 11:50:50] INFO root fetch - processPackages [matrix-synapse]: Remove: archive file [/home/abi/fetcher/tmp/matrix-synapse-1.9.0rc1.tar.gz]
+[2023-06-06 11:50:50] INFO root fetch - processPackages [matrix-synapse]: Remove: archive file [/home/abi/fetcher/tmp/matrix-synapse-1.9.1.tar.gz]
+[2023-06-06 11:50:50] INFO root fetch - main [MainThread]: End processing [matrix-synapse]: success
+[2023-06-06 11:51:08] INFO root fetch - processPackages [bitmovin-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bitmovin-api-sdk-1.98.0.tar.gz]
+[2023-06-06 11:51:08] INFO root fetch - processPackages [bitmovin-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bitmovin-api-sdk-1.99.0.tar.gz]
+[2023-06-06 11:51:08] INFO root fetch - main [MainThread]: End processing [bitmovin-api-sdk]: success
+[2023-06-06 11:51:08] INFO root fetch - main [MainThread]: Store serial: [18389652]
