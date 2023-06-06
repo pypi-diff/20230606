@@ -13916,3 +13916,127 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 08:27:53] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-1.6.1.tar.gz]
 [2023-06-06 08:27:53] INFO root fetch - main [MainThread]: End processing [Nuitka]: success
 [2023-06-06 08:27:53] INFO root fetch - main [MainThread]: Store serial: [18387366]
+[2023-06-06 08:32:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18387366]
+[2023-06-06 08:33:02] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-06 08:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PlanaPY
+[2023-06-06 08:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: getdaft
+[2023-06-06 08:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: plutous-trade-crypto
+[2023-06-06 08:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easylsb
+[2023-06-06 08:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PlanaPY
+[2023-06-06 08:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: avwx-engine
+[2023-06-06 08:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: muffin-rest
+[2023-06-06 08:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: seavoice-sdk
+[2023-06-06 08:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sentry-telegram-py3
+[2023-06-06 08:33:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: kcli
+[2023-06-06 08:33:02] INFO root fetch - processPackages [PlanaPY]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-06 08:33:02] INFO root fetch - processPackages [PlanaPY]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-06 08:33:02] INFO root fetch - processPackages [plutous-trade-crypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 08:33:02] INFO root fetch - processPackages [sentry-telegram-py3]: New version: [0.6.1] Old Version: [0.5.0]
+[2023-06-06 08:33:02] INFO root fetch - processPackages [avwx-engine]: New version: [1.8.9] Old Version: [1.8.8]
+[2023-06-06 08:33:02] INFO root fetch - processPackages [easylsb]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-06 08:33:02] INFO root fetch - processPackages [seavoice-sdk]: New version: [0.2.9] Old Version: [0.2.8.post1]
+[2023-06-06 08:33:02] INFO root fetch - processPackages [muffin-rest]: New version: [5.1.0] Old Version: [5.0.2]
+[2023-06-06 08:33:02] INFO root fetch - processPackages [PlanaPY]: Downloading https://files.pythonhosted.org/packages/a6/07/983fa31360ad83402255e984fa85f54d49180f31bfc247d58e50f0dfc772/PlanaPY-0.1.9.tar.gz
+[2023-06-06 08:33:03] INFO root fetch - processPackages [kcli]: New version: [99.0.202306060631] Old Version: [99.0.202306052210]
+[2023-06-06 08:33:03] INFO root fetch - processPackages [PlanaPY]: Downloading https://files.pythonhosted.org/packages/a6/07/983fa31360ad83402255e984fa85f54d49180f31bfc247d58e50f0dfc772/PlanaPY-0.1.9.tar.gz
+[2023-06-06 08:33:03] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/e3/db/d32a1544d7f944ad8af411383551ea4aa42adfdd0f238ff44a5a3edaa00e/plutous_trade_crypto-0.0.8.tar.gz
+[2023-06-06 08:33:03] INFO root fetch - processPackages [muffin-rest]: Downloading https://files.pythonhosted.org/packages/e5/98/f92d11e460ef7f4b17c46aaa5262145cb5851564fb511f0696447ce38418/muffin_rest-5.0.2.tar.gz
+[2023-06-06 08:33:03] INFO root fetch - processPackages [getdaft]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-06 08:33:03] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/9e/c6/f551ee607a15ac33e1122724f441a8dece68e6662a4b518bcaec92d0640e/kcli-99.0.202306052210-py3-none-any.whl
+[2023-06-06 08:33:03] INFO root fetch - processPackages [sentry-telegram-py3]: Downloading https://files.pythonhosted.org/packages/ac/dc/486ac78ed906d88a846f055199db4349b8bd23e516ab85c61bd75b8d99ea/sentry_telegram_py3-0.5.0.tar.gz
+[2023-06-06 08:33:03] INFO root fetch - processPackages [easylsb]: Downloading https://files.pythonhosted.org/packages/73/64/f990891db017380e3dc380efaeeeec9d0f33999d27c98829a6bd608d26bd/easylsb-1.0.5.tar.gz
+[2023-06-06 08:33:03] INFO root fetch - processPackages [avwx-engine]: Downloading https://files.pythonhosted.org/packages/98/23/e0c4ffac5bbf77546fe213f9def26a8756392320c99510562fb0f41d2b9d/avwx_engine-1.8.8.tar.gz
+[2023-06-06 08:33:03] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/b4/a4/200ca398a36203e8bd51a034e50c51963506316cbf5e7a47866700accaee/plutous_trade_crypto-0.0.9.tar.gz
+[2023-06-06 08:33:03] INFO root fetch - processPackages [seavoice-sdk]: Downloading https://files.pythonhosted.org/packages/13/dd/c2738cddb65237c11f3a77ab9612e6f7f2a5d0a438166faf979195e31f6e/seavoice-sdk-0.2.8.post1.tar.gz
+[2023-06-06 08:33:03] INFO root fetch - processPackages [getdaft]: Downloading https://files.pythonhosted.org/packages/8f/7a/3f4caa67166b9593c72bd99040ddbe984f5dda9e186a63b4ef472f1d8333/getdaft-0.1.4.tar.gz
+[2023-06-06 08:33:03] INFO root fetch - processPackages [PlanaPY]: Downloading https://files.pythonhosted.org/packages/68/ef/93d06176e3588151f0c72aebfdda0eb6bb2588f55dc8dc4635b3993e9799/PlanaPY-0.2.0.tar.gz
+[2023-06-06 08:33:03] INFO root fetch - processPackages [PlanaPY]: Downloading https://files.pythonhosted.org/packages/68/ef/93d06176e3588151f0c72aebfdda0eb6bb2588f55dc8dc4635b3993e9799/PlanaPY-0.2.0.tar.gz
+[2023-06-06 08:33:03] INFO root fetch - processPackages [plutous-trade-crypto]: executing diffoscope
+[2023-06-06 08:33:03] INFO root fetch - processPackages [plutous-trade-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade_crypto-0.0.8.tar.gz tmp/plutous_trade_crypto-0.0.9.tar.gz --markdown 20230606/p/plutous-trade-crypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 08:33:03] INFO root fetch - processPackages [muffin-rest]: Downloading https://files.pythonhosted.org/packages/47/70/ae715b04666af8614722f30ff0a832e0b29def6dda3c74414cb31e0b14f3/muffin_rest-5.1.0.tar.gz
+[2023-06-06 08:33:03] INFO root fetch - processPackages [easylsb]: Downloading https://files.pythonhosted.org/packages/0a/47/07d877d8e5e2b7c24ae9b08b7ab62c9d41051417117421bd84ecec97a260/easylsb-1.0.6.tar.gz
+[2023-06-06 08:33:03] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/eb/a9/7c14c4ba0aad473fd4ff5acd3b58a835622c39f677b5aaa73645d4e7cf0a/kcli-99.0.202306060631-py3-none-any.whl
+[2023-06-06 08:33:03] INFO root fetch - processPackages [sentry-telegram-py3]: Downloading https://files.pythonhosted.org/packages/d0/c7/9be2bd233c9ffb68ecb078c424f605931b95d84a4ba170f2c8b7c74bb275/sentry_telegram_py3-0.6.1.tar.gz
+[2023-06-06 08:33:03] INFO root fetch - processPackages [PlanaPY]: executing diffoscope
+[2023-06-06 08:33:03] INFO root fetch - processPackages [PlanaPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlanaPY-0.1.9.tar.gz tmp/PlanaPY-0.2.0.tar.gz --markdown 20230606/P/PlanaPY/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-06 08:33:03] INFO root fetch - processPackages [PlanaPY]: executing diffoscope
+[2023-06-06 08:33:03] INFO root fetch - processPackages [PlanaPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlanaPY-0.1.9.tar.gz tmp/PlanaPY-0.2.0.tar.gz --markdown 20230606/P/PlanaPY/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-06 08:33:03] INFO root fetch - processPackages [easylsb]: executing diffoscope
+[2023-06-06 08:33:03] INFO root fetch - processPackages [easylsb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easylsb-1.0.5.tar.gz tmp/easylsb-1.0.6.tar.gz --markdown 20230606/e/easylsb/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-06 08:33:03] INFO root fetch - processPackages [avwx-engine]: Downloading https://files.pythonhosted.org/packages/8e/d6/c5f4f781c8bb9fc272a1192d9ec936ba95599b8f2699f89a629385fc9cff/avwx_engine-1.8.9.tar.gz
+[2023-06-06 08:33:03] INFO root fetch - processPackages [muffin-rest]: executing diffoscope
+[2023-06-06 08:33:03] INFO root fetch - processPackages [muffin-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin_rest-5.0.2.tar.gz tmp/muffin_rest-5.1.0.tar.gz --markdown 20230606/m/muffin-rest/5.0.2-5.1.0/diff.md --exclude *.pyd
+[2023-06-06 08:33:03] INFO root fetch - processPackages [sentry-telegram-py3]: executing diffoscope
+[2023-06-06 08:33:03] INFO root fetch - processPackages [sentry-telegram-py3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry_telegram_py3-0.5.0.tar.gz tmp/sentry_telegram_py3-0.6.1.tar.gz --markdown 20230606/s/sentry-telegram-py3/0.5.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-06 08:33:03] INFO root fetch - processPackages [getdaft]: Downloading https://files.pythonhosted.org/packages/90/ee/4f25e8f0a8ab46f491ad74854cf30d421a64759e0fe50438e227c08dd909/getdaft-0.1.5.tar.gz
+[2023-06-06 08:33:03] INFO root fetch - processPackages [avwx-engine]: executing diffoscope
+[2023-06-06 08:33:03] INFO root fetch - processPackages [avwx-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/avwx_engine-1.8.8.tar.gz tmp/avwx_engine-1.8.9.tar.gz --markdown 20230606/a/avwx-engine/1.8.8-1.8.9/diff.md --exclude *.pyd
+[2023-06-06 08:33:03] INFO root fetch - processPackages [getdaft]: executing diffoscope
+[2023-06-06 08:33:03] INFO root fetch - processPackages [getdaft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getdaft-0.1.4.tar.gz tmp/getdaft-0.1.5.tar.gz --markdown 20230606/g/getdaft/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-06 08:33:03] INFO root fetch - processPackages [seavoice-sdk]: Downloading https://files.pythonhosted.org/packages/76/83/644e23960d5837323156f0fc8dacc8b1df8fbffa20c178f7dd241a25998d/seavoice-sdk-0.2.9.tar.gz
+[2023-06-06 08:33:03] INFO root fetch - processPackages [seavoice-sdk]: executing diffoscope
+[2023-06-06 08:33:03] INFO root fetch - processPackages [seavoice-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seavoice-sdk-0.2.8.post1.tar.gz tmp/seavoice-sdk-0.2.9.tar.gz --markdown 20230606/s/seavoice-sdk/0.2.8.post1-0.2.9/diff.md --exclude *.pyd
+[2023-06-06 08:33:04] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-06 08:33:04] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306052210-py3-none-any.whl.zip tmp/kcli-99.0.202306060631-py3-none-any.whl.zip --markdown 20230606/k/kcli/99.0.202306052210-99.0.202306060631/diff.md --exclude *.pyd
+[2023-06-06 08:33:04] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.8.tar.gz]
+[2023-06-06 08:33:04] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.9.tar.gz]
+[2023-06-06 08:33:04] INFO root fetch - processPackages [plutous-trade-crypto]: Start processing: pyarmor.cli.core.alpine
+[2023-06-06 08:33:04] INFO root fetch - main [MainThread]: End processing [plutous-trade-crypto]: success
+[2023-06-06 08:33:04] WARNING root fetch - processPackages [pyarmor.cli.core.alpine]: Skipping, unable to determine old version
+[2023-06-06 08:33:04] INFO root fetch - processPackages [pyarmor.cli.core.alpine]: Start processing: pyspartn
+[2023-06-06 08:33:04] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.alpine] error
+[2023-06-06 08:33:05] INFO root fetch - processPackages [PlanaPY]: Remove: archive file [/home/abi/fetcher/tmp/PlanaPY-0.1.9.tar.gz]
+[2023-06-06 08:33:05] INFO root fetch - processPackages [PlanaPY]: Remove: archive file [/home/abi/fetcher/tmp/PlanaPY-0.2.0.tar.gz]
+[2023-06-06 08:33:05] INFO root fetch - processPackages [PlanaPY]: Start processing: pyarmor.cli.core.android
+[2023-06-06 08:33:05] INFO root fetch - main [MainThread]: End processing [PlanaPY]: success
+[2023-06-06 08:33:05] INFO root fetch - processPackages [pyspartn]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-06-06 08:33:05] WARNING root fetch - processPackages [pyarmor.cli.core.android]: Skipping, unable to determine old version
+[2023-06-06 08:33:05] INFO root fetch - processPackages [pyarmor.cli.core.android]: Start processing: PureCloudPlatformClientV2
+[2023-06-06 08:33:05] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.android] error
+[2023-06-06 08:33:05] INFO root fetch - processPackages [easylsb]: Remove: archive file [/home/abi/fetcher/tmp/easylsb-1.0.5.tar.gz]
+[2023-06-06 08:33:05] INFO root fetch - processPackages [easylsb]: Remove: archive file [/home/abi/fetcher/tmp/easylsb-1.0.6.tar.gz]
+[2023-06-06 08:33:05] INFO root fetch - processPackages [easylsb]: Start processing: abuscom-libs
+[2023-06-06 08:33:05] INFO root fetch - main [MainThread]: End processing [easylsb]: success
+[2023-06-06 08:33:05] INFO root fetch - processPackages [abuscom-libs]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 08:33:05] INFO root fetch - main [MainThread]: End processing [PlanaPY]: success
+[2023-06-06 08:33:05] INFO root fetch - processPackages [PureCloudPlatformClientV2]: New version: [99.0.0] Old Version: [98.0.0]
+[2023-06-06 08:33:05] INFO root fetch - processPackages [abuscom-libs]: Downloading https://files.pythonhosted.org/packages/c8/10/a8cb91d24fe5db748522fac82fb3d13771262b0f19535ed979cc154b73ab/abuscom-libs-0.1.8.tar.gz
+[2023-06-06 08:33:05] INFO root fetch - processPackages [pyspartn]: Downloading https://files.pythonhosted.org/packages/fd/85/56b12e59dfffeaa1ea56e141e2e3873695f39882866d02bd6395ba2195ea/pyspartn-0.1.6.tar.gz
+[2023-06-06 08:33:05] INFO root fetch - processPackages [sentry-telegram-py3]: Remove: archive file [/home/abi/fetcher/tmp/sentry_telegram_py3-0.5.0.tar.gz]
+[2023-06-06 08:33:05] INFO root fetch - processPackages [sentry-telegram-py3]: Remove: archive file [/home/abi/fetcher/tmp/sentry_telegram_py3-0.6.1.tar.gz]
+[2023-06-06 08:33:05] INFO root fetch - main [MainThread]: End processing [sentry-telegram-py3]: success
+[2023-06-06 08:33:05] INFO root fetch - processPackages [muffin-rest]: Remove: archive file [/home/abi/fetcher/tmp/muffin_rest-5.0.2.tar.gz]
+[2023-06-06 08:33:05] INFO root fetch - processPackages [muffin-rest]: Remove: archive file [/home/abi/fetcher/tmp/muffin_rest-5.1.0.tar.gz]
+[2023-06-06 08:33:05] INFO root fetch - main [MainThread]: End processing [muffin-rest]: success
+[2023-06-06 08:33:05] INFO root fetch - processPackages [abuscom-libs]: Downloading https://files.pythonhosted.org/packages/f8/f1/7a8ab24407ccbd6e0488666922210b9df0dcbccf162d4ebf6b4600f94a93/abuscom-libs-0.1.9.tar.gz
+[2023-06-06 08:33:05] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Downloading https://files.pythonhosted.org/packages/2c/c0/91800d23710423ae3701d533f2eb887685821d04a61d8ce88b3ef04e973d/PureCloudPlatformClientV2-98.0.0.tar.gz
+[2023-06-06 08:33:05] INFO root fetch - processPackages [abuscom-libs]: executing diffoscope
+[2023-06-06 08:33:05] INFO root fetch - processPackages [abuscom-libs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abuscom-libs-0.1.8.tar.gz tmp/abuscom-libs-0.1.9.tar.gz --markdown 20230606/a/abuscom-libs/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 08:33:05] INFO root fetch - processPackages [pyspartn]: Downloading https://files.pythonhosted.org/packages/c7/1b/1a676069f2c99cc1fbe0eccf6cf32b8160666cd0c18a0034478cb64b56f1/pyspartn-0.1.7.tar.gz
+[2023-06-06 08:33:05] INFO root fetch - processPackages [pyspartn]: executing diffoscope
+[2023-06-06 08:33:05] INFO root fetch - processPackages [pyspartn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyspartn-0.1.6.tar.gz tmp/pyspartn-0.1.7.tar.gz --markdown 20230606/p/pyspartn/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-06-06 08:33:05] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Downloading https://files.pythonhosted.org/packages/27/4a/c79d7db4d3031ed827ca4794d7791097c946dd8a6a0ae49a7fb27c9473d8/PureCloudPlatformClientV2-99.0.0.tar.gz
+[2023-06-06 08:33:05] INFO root fetch - processPackages [seavoice-sdk]: Remove: archive file [/home/abi/fetcher/tmp/seavoice-sdk-0.2.8.post1.tar.gz]
+[2023-06-06 08:33:05] INFO root fetch - processPackages [seavoice-sdk]: Remove: archive file [/home/abi/fetcher/tmp/seavoice-sdk-0.2.9.tar.gz]
+[2023-06-06 08:33:05] INFO root fetch - main [MainThread]: End processing [seavoice-sdk]: success
+[2023-06-06 08:33:05] INFO root fetch - processPackages [PureCloudPlatformClientV2]: executing diffoscope
+[2023-06-06 08:33:05] INFO root fetch - processPackages [PureCloudPlatformClientV2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PureCloudPlatformClientV2-98.0.0.tar.gz tmp/PureCloudPlatformClientV2-99.0.0.tar.gz --markdown 20230606/P/PureCloudPlatformClientV2/98.0.0-99.0.0/diff.md --exclude *.pyd
+[2023-06-06 08:33:06] INFO root fetch - processPackages [abuscom-libs]: Remove: archive file [/home/abi/fetcher/tmp/abuscom-libs-0.1.8.tar.gz]
+[2023-06-06 08:33:06] INFO root fetch - processPackages [abuscom-libs]: Remove: archive file [/home/abi/fetcher/tmp/abuscom-libs-0.1.9.tar.gz]
+[2023-06-06 08:33:06] INFO root fetch - main [MainThread]: End processing [abuscom-libs]: success
+[2023-06-06 08:33:07] INFO root fetch - processPackages [pyspartn]: Remove: archive file [/home/abi/fetcher/tmp/pyspartn-0.1.6.tar.gz]
+[2023-06-06 08:33:07] INFO root fetch - processPackages [pyspartn]: Remove: archive file [/home/abi/fetcher/tmp/pyspartn-0.1.7.tar.gz]
+[2023-06-06 08:33:07] INFO root fetch - main [MainThread]: End processing [pyspartn]: success
+[2023-06-06 08:33:11] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306052210-py3-none-any.whl.zip]
+[2023-06-06 08:33:11] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306060631-py3-none-any.whl.zip]
+[2023-06-06 08:33:11] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-06 08:33:12] INFO root fetch - processPackages [getdaft]: Remove: archive file [/home/abi/fetcher/tmp/getdaft-0.1.4.tar.gz]
+[2023-06-06 08:33:12] INFO root fetch - processPackages [getdaft]: Remove: archive file [/home/abi/fetcher/tmp/getdaft-0.1.5.tar.gz]
+[2023-06-06 08:33:12] INFO root fetch - main [MainThread]: End processing [getdaft]: success
+[2023-06-06 08:33:27] INFO root fetch - processPackages [avwx-engine]: Remove: archive file [/home/abi/fetcher/tmp/avwx_engine-1.8.8.tar.gz]
+[2023-06-06 08:33:27] INFO root fetch - processPackages [avwx-engine]: Remove: archive file [/home/abi/fetcher/tmp/avwx_engine-1.8.9.tar.gz]
+[2023-06-06 08:33:27] INFO root fetch - main [MainThread]: End processing [avwx-engine]: success
+[2023-06-06 08:33:54] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Remove: archive file [/home/abi/fetcher/tmp/PureCloudPlatformClientV2-98.0.0.tar.gz]
+[2023-06-06 08:33:54] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Remove: archive file [/home/abi/fetcher/tmp/PureCloudPlatformClientV2-99.0.0.tar.gz]
+[2023-06-06 08:33:54] INFO root fetch - main [MainThread]: End processing [PureCloudPlatformClientV2]: success
+[2023-06-06 08:33:54] INFO root fetch - main [MainThread]: Store serial: [18387455]
