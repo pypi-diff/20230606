@@ -18696,3 +18696,138 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-06 11:23:19] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
 [2023-06-06 11:23:19] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
 [2023-06-06 11:23:19] INFO root fetch - main [MainThread]: Store serial: [18389373]
+[2023-06-06 11:28:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18389373]
+[2023-06-06 11:28:28] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-06 11:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jhOMR
+[2023-06-06 11:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: max-num
+[2023-06-06 11:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: readwise-api
+[2023-06-06 11:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nwebclient
+[2023-06-06 11:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: huntflow-api-client
+[2023-06-06 11:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hojichar
+[2023-06-06 11:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: clickzetta-connector
+[2023-06-06 11:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: panda-client-light
+[2023-06-06 11:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: panda-client
+[2023-06-06 11:28:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pfizer-components
+[2023-06-06 11:28:28] INFO root fetch - processPackages [jhOMR]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-06 11:28:28] INFO root fetch - processPackages [huntflow-api-client]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 11:28:28] WARNING root fetch - processPackages [max-num]: Skipping, unable to determine old version
+[2023-06-06 11:28:28] INFO root fetch - processPackages [max-num]: Start processing: nicovideo-api-client
+[2023-06-06 11:28:28] INFO root fetch - main [MainThread]: End processing [max-num] error
+[2023-06-06 11:28:28] INFO root fetch - processPackages [nwebclient]: New version: [1.0.94] Old Version: [1.0.47]
+[2023-06-06 11:28:28] INFO root fetch - processPackages [readwise-api]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-06 11:28:28] INFO root fetch - processPackages [pfizer-components]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-06 11:28:28] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-06 11:28:28] INFO root fetch - processPackages [hojichar]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-06 11:28:28] INFO root fetch - processPackages [panda-client-light]: New version: [1.5.57] Old Version: [1.5.56]
+[2023-06-06 11:28:28] INFO root fetch - processPackages [nicovideo-api-client]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-06-06 11:28:28] INFO root fetch - processPackages [panda-client]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-06-06 11:28:28] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/72/d1/d65bb4b4077a404aa08b3a2615159873fac64bc9adabf42a5b45cb50f00b/clickzetta-connector-0.8.8.tar.gz
+[2023-06-06 11:28:28] INFO root fetch - processPackages [hojichar]: Downloading https://files.pythonhosted.org/packages/2a/dc/099d1f7de97eedbc7760cef356ebf6d30283268f29160755be146aba22b3/hojichar-0.5.1.tar.gz
+[2023-06-06 11:28:28] INFO root fetch - processPackages [jhOMR]: Downloading https://files.pythonhosted.org/packages/37/91/3be04412777c2602de2c596224596dd79fa5447f894996bb9797ddc50762/jhOMR-0.0.1.tar.gz
+[2023-06-06 11:28:28] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/f8/5a/617896767d6ed09371dcf4b5a8041793a603d156e939d0b03b5fba1552d8/nwebclient-1.0.47.tar.gz
+[2023-06-06 11:28:29] INFO root fetch - processPackages [huntflow-api-client]: Downloading https://files.pythonhosted.org/packages/20/ae/1d503f46af98d56f5fb74e3dd81613d2f05393d88b22d969e9cd60b52e13/huntflow_api_client-0.0.8.tar.gz
+[2023-06-06 11:28:29] INFO root fetch - processPackages [panda-client-light]: Downloading https://files.pythonhosted.org/packages/f8/80/f8cc19a2ba2e1298c1e9f028783e31f0bfbd08678ac7133d03a70ea843b0/panda_client_light-1.5.56-py2.py3-none-any.whl
+[2023-06-06 11:28:29] INFO root fetch - processPackages [nicovideo-api-client]: Downloading https://files.pythonhosted.org/packages/7c/0f/bd40d89314b1cd783d7d49fba594b57cccac0ad3d45e198ee6652777f488/nicovideo_api_client-2.0.5.tar.gz
+[2023-06-06 11:28:29] INFO root fetch - processPackages [panda-client]: Downloading https://files.pythonhosted.org/packages/42/68/efaacc907591b37293622e8015fd2f5b8cd84e52f4eebc31de3da9209541/panda-client-1.5.8.tar.gz
+[2023-06-06 11:28:29] INFO root fetch - processPackages [pfizer-components]: Downloading https://files.pythonhosted.org/packages/d1/0f/e2918e92f7768d88bb944859fb7d2e43bf14ebb3d1bbbc9a7ce43b22e820/pfizer_components-0.0.4-py3-none-any.whl
+[2023-06-06 11:28:29] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/81/41/2c55796964b0e67291955e1856242db62fc8e6f14e179a50bf1c6296f067/clickzetta-connector-0.8.9.tar.gz
+[2023-06-06 11:28:29] INFO root fetch - processPackages [hojichar]: Downloading https://files.pythonhosted.org/packages/dc/e0/ffdd514ad07c4f279716e13d6ca7929717809e2f32febebb04c43b8f2ea2/hojichar-0.5.2.tar.gz
+[2023-06-06 11:28:29] INFO root fetch - processPackages [jhOMR]: Downloading https://files.pythonhosted.org/packages/ad/e6/0cdb85ae46fed4dab1e98ce54bc2ea56e3186ba92371081450f7fb5287ae/jhOMR-0.0.2.tar.gz
+[2023-06-06 11:28:29] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2023-06-06 11:28:29] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.8.8.tar.gz tmp/clickzetta-connector-0.8.9.tar.gz --markdown 20230606/c/clickzetta-connector/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-06 11:28:29] INFO root fetch - processPackages [hojichar]: executing diffoscope
+[2023-06-06 11:28:29] INFO root fetch - processPackages [hojichar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hojichar-0.5.1.tar.gz tmp/hojichar-0.5.2.tar.gz --markdown 20230606/h/hojichar/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-06 11:28:29] INFO root fetch - processPackages [nwebclient]: Downloading https://files.pythonhosted.org/packages/12/6e/d067b316a4ac231633403551f2c003e4ea1de809ac114b82af80cd324ec1/nwebclient-1.0.94.tar.gz
+[2023-06-06 11:28:29] INFO root fetch - processPackages [nicovideo-api-client]: Downloading https://files.pythonhosted.org/packages/bf/cc/63750806acaf3f9bf0826ec757c5b1a749bfab40dc6c51dff2b9db886039/nicovideo_api_client-2.0.6.tar.gz
+[2023-06-06 11:28:29] INFO root fetch - processPackages [panda-client-light]: Downloading https://files.pythonhosted.org/packages/2b/d8/f8564c200d6d3b74d2d40059345faaeb8616024e0e872a5f3f21172b283c/panda_client_light-1.5.57-py2.py3-none-any.whl
+[2023-06-06 11:28:29] INFO root fetch - processPackages [pfizer-components]: Downloading https://files.pythonhosted.org/packages/8d/89/9b117ec962ab0b1b1c24c72a20b2de991faa7284df2d751c720e127f733e/pfizer_components-0.0.5-py3-none-any.whl
+[2023-06-06 11:28:29] INFO root fetch - processPackages [panda-client]: Downloading https://files.pythonhosted.org/packages/d8/3d/b204abdb970252a362db69aa6fbae64332235ba22a575e3aac779564c21c/panda-client-1.5.9.tar.gz
+[2023-06-06 11:28:29] INFO root fetch - processPackages [nicovideo-api-client]: executing diffoscope
+[2023-06-06 11:28:29] INFO root fetch - processPackages [jhOMR]: executing diffoscope
+[2023-06-06 11:28:29] INFO root fetch - processPackages [nicovideo-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nicovideo_api_client-2.0.5.tar.gz tmp/nicovideo_api_client-2.0.6.tar.gz --markdown 20230606/n/nicovideo-api-client/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-06-06 11:28:29] INFO root fetch - processPackages [jhOMR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jhOMR-0.0.1.tar.gz tmp/jhOMR-0.0.2.tar.gz --markdown 20230606/j/jhOMR/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-06 11:28:29] INFO root fetch - processPackages [panda-client-light]: executing diffoscope
+[2023-06-06 11:28:29] INFO root fetch - processPackages [panda-client-light]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda_client_light-1.5.56-py2.py3-none-any.whl.zip tmp/panda_client_light-1.5.57-py2.py3-none-any.whl.zip --markdown 20230606/p/panda-client-light/1.5.56-1.5.57/diff.md --exclude *.pyd
+[2023-06-06 11:28:29] INFO root fetch - processPackages [pfizer-components]: executing diffoscope
+[2023-06-06 11:28:29] INFO root fetch - processPackages [pfizer-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfizer_components-0.0.4-py3-none-any.whl.zip tmp/pfizer_components-0.0.5-py3-none-any.whl.zip --markdown 20230606/p/pfizer-components/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-06 11:28:29] INFO root fetch - processPackages [nwebclient]: executing diffoscope
+[2023-06-06 11:28:29] INFO root fetch - processPackages [nwebclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nwebclient-1.0.47.tar.gz tmp/nwebclient-1.0.94.tar.gz --markdown 20230606/n/nwebclient/1.0.47-1.0.94/diff.md --exclude *.pyd
+[2023-06-06 11:28:29] INFO root fetch - processPackages [huntflow-api-client]: Downloading https://files.pythonhosted.org/packages/9e/6f/642adabc7e91f1ab063d1e21cd5cb785aa60f97f8e7900923faad0bc4f45/huntflow_api_client-0.0.9.tar.gz
+[2023-06-06 11:28:29] INFO root fetch - processPackages [panda-client]: executing diffoscope
+[2023-06-06 11:28:29] INFO root fetch - processPackages [panda-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/panda-client-1.5.8.tar.gz tmp/panda-client-1.5.9.tar.gz --markdown 20230606/p/panda-client/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-06-06 11:28:29] INFO root fetch - processPackages [huntflow-api-client]: executing diffoscope
+[2023-06-06 11:28:29] INFO root fetch - processPackages [huntflow-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huntflow_api_client-0.0.8.tar.gz tmp/huntflow_api_client-0.0.9.tar.gz --markdown 20230606/h/huntflow-api-client/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 11:28:29] INFO root fetch - processPackages [readwise-api]: Downloading https://files.pythonhosted.org/packages/5b/ee/b68bee2367719e843242681f0710b9d8c2a9e4549c44fd5d805eac2fe694/readwise_api-0.1.0.tar.gz
+[2023-06-06 11:28:29] INFO root fetch - processPackages [readwise-api]: Downloading https://files.pythonhosted.org/packages/3f/7a/2f5b0d5bc564742ec02ac2cb276158e89e8f806a8dbe469431b43af03f18/readwise_api-0.2.0.tar.gz
+[2023-06-06 11:28:30] INFO root fetch - processPackages [readwise-api]: executing diffoscope
+[2023-06-06 11:28:30] INFO root fetch - processPackages [readwise-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/readwise_api-0.1.0.tar.gz tmp/readwise_api-0.2.0.tar.gz --markdown 20230606/r/readwise-api/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-06 11:28:30] INFO root fetch - processPackages [jhOMR]: Remove: archive file [/home/abi/fetcher/tmp/jhOMR-0.0.1.tar.gz]
+[2023-06-06 11:28:30] INFO root fetch - processPackages [jhOMR]: Remove: archive file [/home/abi/fetcher/tmp/jhOMR-0.0.2.tar.gz]
+[2023-06-06 11:28:30] INFO root fetch - processPackages [jhOMR]: Start processing: odoo-addon-mrp-production-serial-matrix
+[2023-06-06 11:28:30] INFO root fetch - main [MainThread]: End processing [jhOMR]: success
+[2023-06-06 11:28:30] WARNING root fetch - processPackages [odoo-addon-mrp-production-serial-matrix]: Skipping, unable to determine old version
+[2023-06-06 11:28:30] INFO root fetch - processPackages [odoo-addon-mrp-production-serial-matrix]: Start processing: clickzetta-sqlalchemy
+[2023-06-06 11:28:30] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-production-serial-matrix] error
+[2023-06-06 11:28:30] INFO root fetch - processPackages [clickzetta-sqlalchemy]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-06-06 11:28:30] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/df/a5/3944e28a4bac682658b668509b236e83e9eeffd36c9f3c2498aa71f6fc1b/clickzetta-sqlalchemy-0.8.7.tar.gz
+[2023-06-06 11:28:31] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.47.tar.gz]
+[2023-06-06 11:28:31] INFO root fetch - processPackages [nwebclient]: Remove: archive file [/home/abi/fetcher/tmp/nwebclient-1.0.94.tar.gz]
+[2023-06-06 11:28:31] INFO root fetch - processPackages [nwebclient]: Start processing: flamapy-fm-dist
+[2023-06-06 11:28:31] INFO root fetch - main [MainThread]: End processing [nwebclient]: success
+[2023-06-06 11:28:31] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/1e/c5/d4be8dcc2a67d1d955c84c09b0223b9977fd638ed0bf7d09cc2a752386cf/clickzetta-sqlalchemy-0.8.8.tar.gz
+[2023-06-06 11:28:31] INFO root fetch - processPackages [pfizer-components]: Remove: archive file [/home/abi/fetcher/tmp/pfizer_components-0.0.4-py3-none-any.whl.zip]
+[2023-06-06 11:28:31] INFO root fetch - processPackages [pfizer-components]: Remove: archive file [/home/abi/fetcher/tmp/pfizer_components-0.0.5-py3-none-any.whl.zip]
+[2023-06-06 11:28:31] INFO root fetch - processPackages [pfizer-components]: Start processing: EdgeGPT
+[2023-06-06 11:28:31] INFO root fetch - main [MainThread]: End processing [pfizer-components]: success
+[2023-06-06 11:28:31] INFO root fetch - processPackages [EdgeGPT]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-06 11:28:31] INFO root fetch - processPackages [flamapy-fm-dist]: New version: [1.5.0] Old Version: [1.0.0.dev5]
+[2023-06-06 11:28:31] INFO root fetch - processPackages [clickzetta-sqlalchemy]: executing diffoscope
+[2023-06-06 11:28:31] INFO root fetch - processPackages [clickzetta-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-sqlalchemy-0.8.7.tar.gz tmp/clickzetta-sqlalchemy-0.8.8.tar.gz --markdown 20230606/c/clickzetta-sqlalchemy/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-06-06 11:28:31] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/d7/29/f3e955f076747e360e385767e052138c8bbb1b5b8564bb0a8e3ac80aa517/EdgeGPT-0.9.1.tar.gz
+[2023-06-06 11:28:31] INFO root fetch - processPackages [flamapy-fm-dist]: Downloading https://files.pythonhosted.org/packages/1f/b6/4c8929d26634cd1ad5e87c2306bc517cf45d5ba50b6f1667e2cbb758767f/flamapy-fm-dist-1.0.0.dev5.tar.gz
+[2023-06-06 11:28:31] INFO root fetch - processPackages [nicovideo-api-client]: Remove: archive file [/home/abi/fetcher/tmp/nicovideo_api_client-2.0.5.tar.gz]
+[2023-06-06 11:28:31] INFO root fetch - processPackages [nicovideo-api-client]: Remove: archive file [/home/abi/fetcher/tmp/nicovideo_api_client-2.0.6.tar.gz]
+[2023-06-06 11:28:31] INFO root fetch - processPackages [nicovideo-api-client]: Start processing: webscapy
+[2023-06-06 11:28:31] INFO root fetch - main [MainThread]: End processing [nicovideo-api-client]: success
+[2023-06-06 11:28:31] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/cd/5b/21684fc9845465c26158f409058121cb077ae7db9cd74c4027491d8a2a42/EdgeGPT-0.9.2.tar.gz
+[2023-06-06 11:28:31] INFO root fetch - processPackages [webscapy]: New version: [1.5.5] Old Version: [1.4.5]
+[2023-06-06 11:28:31] INFO root fetch - processPackages [panda-client-light]: Remove: archive file [/home/abi/fetcher/tmp/panda_client_light-1.5.56-py2.py3-none-any.whl.zip]
+[2023-06-06 11:28:31] INFO root fetch - processPackages [panda-client-light]: Remove: archive file [/home/abi/fetcher/tmp/panda_client_light-1.5.57-py2.py3-none-any.whl.zip]
+[2023-06-06 11:28:31] INFO root fetch - main [MainThread]: End processing [panda-client-light]: success
+[2023-06-06 11:28:31] INFO root fetch - processPackages [readwise-api]: Remove: archive file [/home/abi/fetcher/tmp/readwise_api-0.1.0.tar.gz]
+[2023-06-06 11:28:31] INFO root fetch - processPackages [readwise-api]: Remove: archive file [/home/abi/fetcher/tmp/readwise_api-0.2.0.tar.gz]
+[2023-06-06 11:28:31] INFO root fetch - main [MainThread]: End processing [readwise-api]: success
+[2023-06-06 11:28:31] INFO root fetch - processPackages [EdgeGPT]: executing diffoscope
+[2023-06-06 11:28:31] INFO root fetch - processPackages [EdgeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EdgeGPT-0.9.1.tar.gz tmp/EdgeGPT-0.9.2.tar.gz --markdown 20230606/E/EdgeGPT/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-06 11:28:31] INFO root fetch - processPackages [flamapy-fm-dist]: Downloading https://files.pythonhosted.org/packages/8b/e6/b7a38ef818c904fe0abdc1cbbdd3588b34cc023e2db56c22511eb8d668ed/flamapy-fm-dist-1.5.0.tar.gz
+[2023-06-06 11:28:31] INFO root fetch - processPackages [hojichar]: Remove: archive file [/home/abi/fetcher/tmp/hojichar-0.5.1.tar.gz]
+[2023-06-06 11:28:31] INFO root fetch - processPackages [hojichar]: Remove: archive file [/home/abi/fetcher/tmp/hojichar-0.5.2.tar.gz]
+[2023-06-06 11:28:31] INFO root fetch - main [MainThread]: End processing [hojichar]: success
+[2023-06-06 11:28:31] INFO root fetch - processPackages [webscapy]: Downloading https://files.pythonhosted.org/packages/90/b6/77d56a7a3769190cb133cf7f419088b02dd3dc3586c7ddc11209bec5289b/webscapy-1.4.5.tar.gz
+[2023-06-06 11:28:31] INFO root fetch - processPackages [panda-client]: Remove: archive file [/home/abi/fetcher/tmp/panda-client-1.5.8.tar.gz]
+[2023-06-06 11:28:31] INFO root fetch - processPackages [panda-client]: Remove: archive file [/home/abi/fetcher/tmp/panda-client-1.5.9.tar.gz]
+[2023-06-06 11:28:31] INFO root fetch - main [MainThread]: End processing [panda-client]: success
+[2023-06-06 11:28:31] INFO root fetch - processPackages [flamapy-fm-dist]: executing diffoscope
+[2023-06-06 11:28:31] INFO root fetch - processPackages [flamapy-fm-dist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flamapy-fm-dist-1.0.0.dev5.tar.gz tmp/flamapy-fm-dist-1.5.0.tar.gz --markdown 20230606/f/flamapy-fm-dist/1.0.0.dev5-1.5.0/diff.md --exclude *.pyd
+[2023-06-06 11:28:31] INFO root fetch - processPackages [webscapy]: Downloading https://files.pythonhosted.org/packages/ff/03/adda8f081a68d91db984c5bac9536f4efd8c2a613e295c495feff99e7606/webscapy-1.5.5.tar.gz
+[2023-06-06 11:28:32] INFO root fetch - processPackages [webscapy]: executing diffoscope
+[2023-06-06 11:28:32] INFO root fetch - processPackages [webscapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscapy-1.4.5.tar.gz tmp/webscapy-1.5.5.tar.gz --markdown 20230606/w/webscapy/1.4.5-1.5.5/diff.md --exclude *.pyd
+[2023-06-06 11:28:32] INFO root fetch - processPackages [huntflow-api-client]: Remove: archive file [/home/abi/fetcher/tmp/huntflow_api_client-0.0.8.tar.gz]
+[2023-06-06 11:28:32] INFO root fetch - processPackages [huntflow-api-client]: Remove: archive file [/home/abi/fetcher/tmp/huntflow_api_client-0.0.9.tar.gz]
+[2023-06-06 11:28:32] INFO root fetch - main [MainThread]: End processing [huntflow-api-client]: success
+[2023-06-06 11:28:32] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.7.tar.gz]
+[2023-06-06 11:28:32] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.8.tar.gz]
+[2023-06-06 11:28:32] INFO root fetch - main [MainThread]: End processing [clickzetta-sqlalchemy]: success
+[2023-06-06 11:28:32] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.8.tar.gz]
+[2023-06-06 11:28:32] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.9.tar.gz]
+[2023-06-06 11:28:32] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2023-06-06 11:28:32] INFO root fetch - processPackages [flamapy-fm-dist]: Remove: archive file [/home/abi/fetcher/tmp/flamapy-fm-dist-1.0.0.dev5.tar.gz]
+[2023-06-06 11:28:32] INFO root fetch - processPackages [flamapy-fm-dist]: Remove: archive file [/home/abi/fetcher/tmp/flamapy-fm-dist-1.5.0.tar.gz]
+[2023-06-06 11:28:32] INFO root fetch - main [MainThread]: End processing [flamapy-fm-dist]: success
+[2023-06-06 11:28:33] INFO root fetch - processPackages [webscapy]: Remove: archive file [/home/abi/fetcher/tmp/webscapy-1.4.5.tar.gz]
+[2023-06-06 11:28:33] INFO root fetch - processPackages [webscapy]: Remove: archive file [/home/abi/fetcher/tmp/webscapy-1.5.5.tar.gz]
+[2023-06-06 11:28:33] INFO root fetch - main [MainThread]: End processing [webscapy]: success
+[2023-06-06 11:28:33] INFO root fetch - processPackages [EdgeGPT]: Remove: archive file [/home/abi/fetcher/tmp/EdgeGPT-0.9.1.tar.gz]
+[2023-06-06 11:28:33] INFO root fetch - processPackages [EdgeGPT]: Remove: archive file [/home/abi/fetcher/tmp/EdgeGPT-0.9.2.tar.gz]
+[2023-06-06 11:28:33] INFO root fetch - main [MainThread]: End processing [EdgeGPT]: success
+[2023-06-06 11:28:33] INFO root fetch - main [MainThread]: Store serial: [18389429]
