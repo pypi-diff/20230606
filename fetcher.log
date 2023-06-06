@@ -2811,3 +2811,171 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 02:28:33] INFO root fetch - processPackages [np-nwb-trials]: Remove: archive file [/home/abi/fetcher/tmp/np-nwb-trials-0.3.0.tar.gz]
 [2023-06-06 02:28:33] INFO root fetch - main [MainThread]: End processing [np-nwb-trials]: success
 [2023-06-06 02:28:33] INFO root fetch - main [MainThread]: Store serial: [18383135]
+[2023-06-06 02:33:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18383135]
+[2023-06-06 02:33:41] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-06 02:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-ecs-service-extensions
+[2023-06-06 02:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-certbot-dns-route53
+[2023-06-06 02:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: getmodelspec
+[2023-06-06 02:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-serverless-clamscan
+[2023-06-06 02:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-secret-manager-wrapper-layer
+[2023-06-06 02:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-certbot-dns-route53
+[2023-06-06 02:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sphinx-revealjs-slides
+[2023-06-06 02:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-workos
+[2023-06-06 02:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vollseg
+[2023-06-06 02:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: health-calc-pack-python
+[2023-06-06 02:33:41] INFO root fetch - processPackages [getmodelspec]: New version: [1.0.191] Old Version: [1.0.19]
+[2023-06-06 02:33:41] INFO root fetch - processPackages [health-calc-pack-python]: New version: [0.0.4] Old Version: [0.0.1]
+[2023-06-06 02:33:41] INFO root fetch - processPackages [django-workos]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-06 02:33:41] INFO root fetch - processPackages [sphinx-revealjs-slides]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-06 02:33:41] INFO root fetch - processPackages [cdk-ecs-service-extensions]: New version: [2.0.1a9] Old Version: [2.0.1a8]
+[2023-06-06 02:33:41] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-06 02:33:41] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-06 02:33:41] INFO root fetch - processPackages [cdk-serverless-clamscan]: New version: [2.4.99] Old Version: [2.4.98]
+[2023-06-06 02:33:41] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-06-06 02:33:41] INFO root fetch - processPackages [cdk-certbot-dns-route53]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-06-06 02:33:41] INFO root fetch - processPackages [sphinx-revealjs-slides]: Downloading https://files.pythonhosted.org/packages/d1/8b/063a47f0636865c106a89ada7470d91ccc64ffe8f8ba75c1ddbf177791e8/sphinx_revealjs_slides-0.2.4.tar.gz
+[2023-06-06 02:33:41] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-06 02:33:41] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/3a/17/b6246ecdc02e08f5a2a265eb410094bc1978a1c23a9ff1ef9625deee1c7c/cdk-certbot-dns-route53-2.1.98.tar.gz
+[2023-06-06 02:33:41] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/d2/30/bda10d30c79882d389b2b67f3039a88bbb082288fac8e61763a067928bbd/cdk-serverless-clamscan-2.4.98.tar.gz
+[2023-06-06 02:33:41] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/72/7f/05a5c2095fb33d9da5ad8d5d54bc772359e48c1c78aadeee131727003d8d/cdk-ecs-service-extensions-2.0.1a8.tar.gz
+[2023-06-06 02:33:41] INFO root fetch - processPackages [health-calc-pack-python]: Downloading https://files.pythonhosted.org/packages/aa/75/2dcc95e9b5de67047eeb76e886d0290a0cf97dad7c5c740bd315c8f9df9d/health-calc-pack-python-0.0.1.tar.gz
+[2023-06-06 02:33:41] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/00/91/545869a3cc999dbc9750aad345d775087610ebf834517c928a0d0e289c4e/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz
+[2023-06-06 02:33:41] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-06 02:33:41] INFO root fetch - processPackages [vollseg]: Start processing: cdk-gitlab-runner
+[2023-06-06 02:33:41] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-06 02:33:41] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/3a/17/b6246ecdc02e08f5a2a265eb410094bc1978a1c23a9ff1ef9625deee1c7c/cdk-certbot-dns-route53-2.1.98.tar.gz
+[2023-06-06 02:33:41] INFO root fetch - processPackages [getmodelspec]: Downloading https://files.pythonhosted.org/packages/de/cd/9d52f7f0c3911c23c9f1ecd5cca231ad5ed88f7469e2ab8d92e64231e4a4/getmodelspec-1.0.19.tar.gz
+[2023-06-06 02:33:41] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-06-06 02:33:41] INFO root fetch - processPackages [django-workos]: Downloading https://files.pythonhosted.org/packages/9e/67/105fb9564cca920a618692fb0aba8168dad87601e4dde5f0efc67dec5e6e/django-workos-0.5.3.tar.gz
+[2023-06-06 02:33:41] INFO root fetch - processPackages [sphinx-revealjs-slides]: Downloading https://files.pythonhosted.org/packages/00/9b/cb23406c9222bc01cdea9d26dde27adc060e66035c76866a2c372462d9dc/sphinx_revealjs_slides-0.2.5.tar.gz
+[2023-06-06 02:33:41] INFO root fetch - processPackages [cdk-serverless-clamscan]: Downloading https://files.pythonhosted.org/packages/c3/88/072c3034e29da4be52b0ab904d17b3173d2d1f9cbb956f5fc175f1953135/cdk-serverless-clamscan-2.4.99.tar.gz
+[2023-06-06 02:33:41] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/00/40/016cdb2fb9e28fe1b601ce7542603c38b93a78a9a0d77a0309e559d58a1c/cdk-gitlab-runner-2.1.98.tar.gz
+[2023-06-06 02:33:42] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Downloading https://files.pythonhosted.org/packages/c2/c5/a8a13bb72ea375e2ce99dd389e945478ce7d95d8628acf6db64f14f674f5/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz
+[2023-06-06 02:33:42] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Downloading https://files.pythonhosted.org/packages/4f/8d/abb31a165af680e8b0a59581ca2aee94485b1ad1db12d9445bbc9c0ddc3e/cdk-ecs-service-extensions-2.0.1a9.tar.gz
+[2023-06-06 02:33:42] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/cc/b6/654c84ec7d8620b5f17a064219a77d716eea46f886b19741e6e9cf3eff24/cdk-certbot-dns-route53-2.1.99.tar.gz
+[2023-06-06 02:33:42] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Downloading https://files.pythonhosted.org/packages/cc/b6/654c84ec7d8620b5f17a064219a77d716eea46f886b19741e6e9cf3eff24/cdk-certbot-dns-route53-2.1.99.tar.gz
+[2023-06-06 02:33:42] INFO root fetch - processPackages [health-calc-pack-python]: Downloading https://files.pythonhosted.org/packages/e3/7f/f52af1a77a98bdc30cb95a779e729e753ba4bd603c76749549f1ecf9cadf/health-calc-pack-python-0.0.4.tar.gz
+[2023-06-06 02:33:42] INFO root fetch - processPackages [getmodelspec]: Downloading https://files.pythonhosted.org/packages/1a/67/27417aa227c2a9a47ae93f47296565e2ad2c90d8d876ddb52eeaeca381a5/getmodelspec-1.0.191.tar.gz
+[2023-06-06 02:33:42] INFO root fetch - processPackages [cdk-serverless-clamscan]: executing diffoscope
+[2023-06-06 02:33:42] INFO root fetch - processPackages [cdk-serverless-clamscan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-serverless-clamscan-2.4.98.tar.gz tmp/cdk-serverless-clamscan-2.4.99.tar.gz --markdown 20230606/c/cdk-serverless-clamscan/2.4.98-2.4.99/diff.md --exclude *.pyd
+[2023-06-06 02:33:42] INFO root fetch - processPackages [cdk-ecs-service-extensions]: executing diffoscope
+[2023-06-06 02:33:42] INFO root fetch - processPackages [cdk-ecs-service-extensions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-ecs-service-extensions-2.0.1a8.tar.gz tmp/cdk-ecs-service-extensions-2.0.1a9.tar.gz --markdown 20230606/c/cdk-ecs-service-extensions/2.0.1a8-2.0.1a9/diff.md --exclude *.pyd
+[2023-06-06 02:33:42] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: executing diffoscope
+[2023-06-06 02:33:42] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz --markdown 20230606/c/cdk-secret-manager-wrapper-layer/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-06 02:33:42] INFO root fetch - processPackages [health-calc-pack-python]: executing diffoscope
+[2023-06-06 02:33:42] INFO root fetch - processPackages [health-calc-pack-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/health-calc-pack-python-0.0.1.tar.gz tmp/health-calc-pack-python-0.0.4.tar.gz --markdown 20230606/h/health-calc-pack-python/0.0.1-0.0.4/diff.md --exclude *.pyd
+[2023-06-06 02:33:42] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-06-06 02:33:42] INFO root fetch - processPackages [cdk-certbot-dns-route53]: executing diffoscope
+[2023-06-06 02:33:42] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230606/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-06-06 02:33:42] INFO root fetch - processPackages [cdk-certbot-dns-route53]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-certbot-dns-route53-2.1.98.tar.gz tmp/cdk-certbot-dns-route53-2.1.99.tar.gz --markdown 20230606/c/cdk-certbot-dns-route53/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-06-06 02:33:42] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/89/96/8e14acbbed72ce7cf16a2f829e722ff9189610a1fe440e7d52bb6185d401/cdk-gitlab-runner-2.1.99.tar.gz
+[2023-06-06 02:33:42] INFO root fetch - processPackages [django-workos]: Downloading https://files.pythonhosted.org/packages/57/93/3fbee50b4d8970e65c017d0ccbd9d1956d6f0e11be3c969f4fa84ec7f534/django-workos-0.5.4.tar.gz
+[2023-06-06 02:33:42] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2023-06-06 02:33:42] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.1.98.tar.gz tmp/cdk-gitlab-runner-2.1.99.tar.gz --markdown 20230606/c/cdk-gitlab-runner/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-06-06 02:33:42] INFO root fetch - processPackages [getmodelspec]: executing diffoscope
+[2023-06-06 02:33:42] INFO root fetch - processPackages [getmodelspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getmodelspec-1.0.19.tar.gz tmp/getmodelspec-1.0.191.tar.gz --markdown 20230606/g/getmodelspec/1.0.19-1.0.191/diff.md --exclude *.pyd
+[2023-06-06 02:33:42] INFO root fetch - processPackages [sphinx-revealjs-slides]: executing diffoscope
+[2023-06-06 02:33:42] INFO root fetch - processPackages [django-workos]: executing diffoscope
+[2023-06-06 02:33:42] INFO root fetch - processPackages [sphinx-revealjs-slides]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinx_revealjs_slides-0.2.4.tar.gz tmp/sphinx_revealjs_slides-0.2.5.tar.gz --markdown 20230606/s/sphinx-revealjs-slides/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-06 02:33:42] INFO root fetch - processPackages [django-workos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-workos-0.5.3.tar.gz tmp/django-workos-0.5.4.tar.gz --markdown 20230606/d/django-workos/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-06 02:33:43] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.98.tar.gz]
+[2023-06-06 02:33:43] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Remove: archive file [/home/abi/fetcher/tmp/cdk-secret-manager-wrapper-layer-2.0.99.tar.gz]
+[2023-06-06 02:33:43] INFO root fetch - processPackages [cdk-secret-manager-wrapper-layer]: Start processing: melnor-bluetooth
+[2023-06-06 02:33:43] INFO root fetch - main [MainThread]: End processing [cdk-secret-manager-wrapper-layer]: success
+[2023-06-06 02:33:43] INFO root fetch - processPackages [melnor-bluetooth]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 02:33:43] INFO root fetch - processPackages [health-calc-pack-python]: Remove: archive file [/home/abi/fetcher/tmp/health-calc-pack-python-0.0.1.tar.gz]
+[2023-06-06 02:33:43] INFO root fetch - processPackages [health-calc-pack-python]: Remove: archive file [/home/abi/fetcher/tmp/health-calc-pack-python-0.0.4.tar.gz]
+[2023-06-06 02:33:43] INFO root fetch - processPackages [health-calc-pack-python]: Start processing: checkthechain
+[2023-06-06 02:33:43] INFO root fetch - main [MainThread]: End processing [health-calc-pack-python]: success
+[2023-06-06 02:33:43] INFO root fetch - processPackages [melnor-bluetooth]: Downloading https://files.pythonhosted.org/packages/ae/1b/e370cededd784265fdbd6335ae11181f66a89b0bf7aba749457cb06e0590/melnor-bluetooth-0.0.8.tar.gz
+[2023-06-06 02:33:43] INFO root fetch - processPackages [checkthechain]: New version: [0.3.4] Old Version: [0.3.0]
+[2023-06-06 02:33:43] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.98.tar.gz]
+[2023-06-06 02:33:43] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.99.tar.gz]
+[2023-06-06 02:33:43] INFO root fetch - processPackages [cdk-gitlab-runner]: Start processing: cdk-aurora-globaldatabase
+[2023-06-06 02:33:43] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2023-06-06 02:33:43] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-06 02:33:43] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.1.98.tar.gz]
+[2023-06-06 02:33:43] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Remove: archive file [/home/abi/fetcher/tmp/cdk-certbot-dns-route53-2.1.99.tar.gz]
+[2023-06-06 02:33:43] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Start processing: cdktf-proxmox
+[2023-06-06 02:33:43] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-06-06 02:33:43] INFO root fetch - processPackages [checkthechain]: Downloading https://files.pythonhosted.org/packages/a7/f3/7d322b39e44120c5e52cd43194e5e5b6d224ff064ab249c934f876c61f7f/checkthechain-0.3.0.tar.gz
+[2023-06-06 02:33:43] INFO root fetch - processPackages [cdktf-proxmox]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-06 02:33:43] INFO root fetch - processPackages [getmodelspec]: Remove: archive file [/home/abi/fetcher/tmp/getmodelspec-1.0.19.tar.gz]
+[2023-06-06 02:33:43] INFO root fetch - processPackages [getmodelspec]: Remove: archive file [/home/abi/fetcher/tmp/getmodelspec-1.0.191.tar.gz]
+[2023-06-06 02:33:43] INFO root fetch - processPackages [getmodelspec]: Start processing: omnata-plugin-runtime
+[2023-06-06 02:33:43] INFO root fetch - main [MainThread]: End processing [getmodelspec]: success
+[2023-06-06 02:33:43] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 02:33:43] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2023-06-06 02:33:43] INFO root fetch - processPackages [melnor-bluetooth]: Downloading https://files.pythonhosted.org/packages/ad/d8/409e697ace8337020f01d25524cfb5b7e0f4a4222e44db8121b100b86af9/melnor-bluetooth-0.0.9.tar.gz
+[2023-06-06 02:33:43] INFO root fetch - processPackages [cdktf-proxmox]: Downloading https://files.pythonhosted.org/packages/d9/ee/7220413f67291e445284d014e3e51e97a33ce5125383f30b4756c598d8d8/cdktf-proxmox-0.0.98.tar.gz
+[2023-06-06 02:33:43] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-06-06 02:33:44] INFO root fetch - processPackages [cdk-certbot-dns-route53]: Start processing: pepperize.cdk-github
+[2023-06-06 02:33:44] INFO root fetch - main [MainThread]: End processing [cdk-certbot-dns-route53]: success
+[2023-06-06 02:33:44] INFO root fetch - processPackages [melnor-bluetooth]: executing diffoscope
+[2023-06-06 02:33:44] INFO root fetch - processPackages [melnor-bluetooth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melnor-bluetooth-0.0.8.tar.gz tmp/melnor-bluetooth-0.0.9.tar.gz --markdown 20230606/m/melnor-bluetooth/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 02:33:44] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-06 02:33:44] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2023-06-06 02:33:44] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-06-06 02:33:44] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-06-06 02:33:44] INFO root fetch - processPackages [cdktf-proxmox]: Downloading https://files.pythonhosted.org/packages/ae/43/6d62460a5f0e800acb4dffd0cf8c675fbd2916d3287669415148cb96adfe/cdktf-proxmox-0.0.99.tar.gz
+[2023-06-06 02:33:44] INFO root fetch - processPackages [checkthechain]: Downloading https://files.pythonhosted.org/packages/fe/f0/0d6b6f566876f2aa8a08dea8ce0bd131a644c9149f373a41c036e615d436/checkthechain-0.3.4.tar.gz
+[2023-06-06 02:33:44] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2023-06-06 02:33:44] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20230606/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-06 02:33:44] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-06-06 02:33:44] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230606/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 02:33:44] INFO root fetch - processPackages [sphinx-revealjs-slides]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_revealjs_slides-0.2.4.tar.gz]
+[2023-06-06 02:33:44] INFO root fetch - processPackages [sphinx-revealjs-slides]: Remove: archive file [/home/abi/fetcher/tmp/sphinx_revealjs_slides-0.2.5.tar.gz]
+[2023-06-06 02:33:44] INFO root fetch - processPackages [sphinx-revealjs-slides]: Start processing: cdktf-github-actions
+[2023-06-06 02:33:44] INFO root fetch - main [MainThread]: End processing [sphinx-revealjs-slides]: success
+[2023-06-06 02:33:44] INFO root fetch - processPackages [cdktf-github-actions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-06 02:33:44] INFO root fetch - processPackages [cdktf-proxmox]: executing diffoscope
+[2023-06-06 02:33:44] INFO root fetch - processPackages [cdktf-proxmox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-proxmox-0.0.98.tar.gz tmp/cdktf-proxmox-0.0.99.tar.gz --markdown 20230606/c/cdktf-proxmox/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-06 02:33:44] INFO root fetch - processPackages [checkthechain]: executing diffoscope
+[2023-06-06 02:33:44] INFO root fetch - processPackages [checkthechain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/checkthechain-0.3.0.tar.gz tmp/checkthechain-0.3.4.tar.gz --markdown 20230606/c/checkthechain/0.3.0-0.3.4/diff.md --exclude *.pyd
+[2023-06-06 02:33:44] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-06-06 02:33:44] INFO root fetch - processPackages [cdktf-github-actions]: Downloading https://files.pythonhosted.org/packages/07/58/fd956de115e00f327e93ad8957b6bb967e67537256fcee54171d65d2a849/cdktf-github-actions-0.0.98.tar.gz
+[2023-06-06 02:33:44] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-06-06 02:33:44] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230606/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-06 02:33:44] INFO root fetch - processPackages [cdktf-github-actions]: Downloading https://files.pythonhosted.org/packages/56/78/477ea020d063f38bdacf3f5681517318875ce9cbff389019b4934f6c8cf1/cdktf-github-actions-0.0.99.tar.gz
+[2023-06-06 02:33:44] INFO root fetch - processPackages [cdktf-github-actions]: executing diffoscope
+[2023-06-06 02:33:44] INFO root fetch - processPackages [cdktf-github-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-github-actions-0.0.98.tar.gz tmp/cdktf-github-actions-0.0.99.tar.gz --markdown 20230606/c/cdktf-github-actions/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-06 02:33:44] INFO root fetch - processPackages [django-workos]: Remove: archive file [/home/abi/fetcher/tmp/django-workos-0.5.3.tar.gz]
+[2023-06-06 02:33:44] INFO root fetch - processPackages [django-workos]: Remove: archive file [/home/abi/fetcher/tmp/django-workos-0.5.4.tar.gz]
+[2023-06-06 02:33:44] INFO root fetch - processPackages [django-workos]: Start processing: getmodelspec
+[2023-06-06 02:33:44] INFO root fetch - main [MainThread]: End processing [django-workos]: success
+[2023-06-06 02:33:44] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.4.98.tar.gz]
+[2023-06-06 02:33:44] INFO root fetch - processPackages [cdk-serverless-clamscan]: Remove: archive file [/home/abi/fetcher/tmp/cdk-serverless-clamscan-2.4.99.tar.gz]
+[2023-06-06 02:33:44] INFO root fetch - main [MainThread]: End processing [cdk-serverless-clamscan]: success
+[2023-06-06 02:33:44] INFO root fetch - processPackages [getmodelspec]: New version: [1.0.191] Old Version: [1.0.19]
+[2023-06-06 02:33:44] INFO root fetch - processPackages [getmodelspec]: Downloading https://files.pythonhosted.org/packages/de/cd/9d52f7f0c3911c23c9f1ecd5cca231ad5ed88f7469e2ab8d92e64231e4a4/getmodelspec-1.0.19.tar.gz
+[2023-06-06 02:33:44] INFO root fetch - processPackages [getmodelspec]: Downloading https://files.pythonhosted.org/packages/1a/67/27417aa227c2a9a47ae93f47296565e2ad2c90d8d876ddb52eeaeca381a5/getmodelspec-1.0.191.tar.gz
+[2023-06-06 02:33:45] INFO root fetch - processPackages [getmodelspec]: executing diffoscope
+[2023-06-06 02:33:45] INFO root fetch - processPackages [getmodelspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/getmodelspec-1.0.19.tar.gz tmp/getmodelspec-1.0.191.tar.gz --markdown 20230606/g/getmodelspec/1.0.19-1.0.191/diff.md --exclude *.pyd
+[2023-06-06 02:33:45] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a8.tar.gz]
+[2023-06-06 02:33:45] INFO root fetch - processPackages [cdk-ecs-service-extensions]: Remove: archive file [/home/abi/fetcher/tmp/cdk-ecs-service-extensions-2.0.1a9.tar.gz]
+[2023-06-06 02:33:45] INFO root fetch - main [MainThread]: End processing [cdk-ecs-service-extensions]: success
+[2023-06-06 02:33:45] INFO root fetch - processPackages [melnor-bluetooth]: Remove: archive file [/home/abi/fetcher/tmp/melnor-bluetooth-0.0.8.tar.gz]
+[2023-06-06 02:33:45] INFO root fetch - processPackages [melnor-bluetooth]: Remove: archive file [/home/abi/fetcher/tmp/melnor-bluetooth-0.0.9.tar.gz]
+[2023-06-06 02:33:45] INFO root fetch - main [MainThread]: End processing [melnor-bluetooth]: success
+[2023-06-06 02:33:45] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-06-06 02:33:45] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-06-06 02:33:45] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-06-06 02:33:45] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2023-06-06 02:33:45] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2023-06-06 02:33:45] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2023-06-06 02:33:45] INFO root fetch - processPackages [cdktf-proxmox]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-proxmox-0.0.98.tar.gz]
+[2023-06-06 02:33:45] INFO root fetch - processPackages [cdktf-proxmox]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-proxmox-0.0.99.tar.gz]
+[2023-06-06 02:33:45] INFO root fetch - main [MainThread]: End processing [cdktf-proxmox]: success
+[2023-06-06 02:33:46] INFO root fetch - processPackages [getmodelspec]: Remove: archive file [/home/abi/fetcher/tmp/getmodelspec-1.0.19.tar.gz]
+[2023-06-06 02:33:46] INFO root fetch - processPackages [getmodelspec]: Remove: archive file [/home/abi/fetcher/tmp/getmodelspec-1.0.191.tar.gz]
+[2023-06-06 02:33:46] INFO root fetch - main [MainThread]: End processing [getmodelspec]: success
+[2023-06-06 02:33:46] INFO root fetch - processPackages [cdktf-github-actions]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-github-actions-0.0.98.tar.gz]
+[2023-06-06 02:33:46] INFO root fetch - processPackages [cdktf-github-actions]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-github-actions-0.0.99.tar.gz]
+[2023-06-06 02:33:46] INFO root fetch - main [MainThread]: End processing [cdktf-github-actions]: success
+[2023-06-06 02:33:47] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-06-06 02:33:47] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-06-06 02:33:47] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-06-06 02:33:58] INFO root fetch - processPackages [checkthechain]: Remove: archive file [/home/abi/fetcher/tmp/checkthechain-0.3.0.tar.gz]
+[2023-06-06 02:33:58] INFO root fetch - processPackages [checkthechain]: Remove: archive file [/home/abi/fetcher/tmp/checkthechain-0.3.4.tar.gz]
+[2023-06-06 02:33:58] INFO root fetch - main [MainThread]: End processing [checkthechain]: success
+[2023-06-06 02:33:58] INFO root fetch - main [MainThread]: Store serial: [18383201]
