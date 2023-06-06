@@ -10717,3 +10717,51 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 05:05:36] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
 [2023-06-06 05:05:38] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
 [2023-06-06 05:05:38] INFO root fetch - main [MainThread]: Store serial: [18386074]
+[2023-06-06 05:10:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18386074]
+[2023-06-06 05:10:47] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-06 05:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mcap2timescale
+[2023-06-06 05:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tator
+[2023-06-06 05:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: macrometa-source-collection
+[2023-06-06 05:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-autoscaling-gitlab-runner
+[2023-06-06 05:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: foundation-cancer-image-biomarker
+[2023-06-06 05:10:47] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: New version: [0.0.1a1] Old Version: [0.0.1a0]
+[2023-06-06 05:10:47] INFO root fetch - processPackages [mcap2timescale]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-06 05:10:47] INFO root fetch - processPackages [macrometa-source-collection]: New version: [0.0.36] Old Version: [0.0.35]
+[2023-06-06 05:10:47] INFO root fetch - processPackages [tator]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-06 05:10:47] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: New version: [0.2.99] Old Version: [0.2.98]
+[2023-06-06 05:10:47] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Downloading https://files.pythonhosted.org/packages/09/3e/740e720e69c945eec0233b69bb8f9177896657d6a42ee9c221282e11f562/foundation_cancer_image_biomarker-0.0.1a0.tar.gz
+[2023-06-06 05:10:47] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/20/7a/1cf95cd827a5bc2353d4a04fac9ad2282341306d1871323109bc1fcdc1bf/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz
+[2023-06-06 05:10:47] INFO root fetch - processPackages [mcap2timescale]: Downloading https://files.pythonhosted.org/packages/09/a6/c1ba66984046f948c5a4a18ebd2883c94092d2a19bcc04c1412251050d37/mcap2timescale-0.1.1.tar.gz
+[2023-06-06 05:10:47] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/ee/3f/b17b40d126dca8badda06c3c01e8584f32066d3386caa8886fbb7690e33f/macrometa-source-collection-0.0.35.tar.gz
+[2023-06-06 05:10:47] INFO root fetch - processPackages [tator]: Downloading https://files.pythonhosted.org/packages/d4/40/d92c0f9e711a6a97e1180cbd89800a765d79c1389187cca366ecbf35011c/tator-1.0.3.tar.gz
+[2023-06-06 05:10:47] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Downloading https://files.pythonhosted.org/packages/14/6d/cf8be8029b99a5088b07118d0cd3f8f1021d4e63c29868f43bbfc5914ab5/foundation_cancer_image_biomarker-0.0.1a1.tar.gz
+[2023-06-06 05:10:47] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/a1/02/a44f26db0508904ac5d6e70c575bf20e4f99ab1df68dad57967a57b3a117/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz
+[2023-06-06 05:10:47] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: executing diffoscope
+[2023-06-06 05:10:47] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundation_cancer_image_biomarker-0.0.1a0.tar.gz tmp/foundation_cancer_image_biomarker-0.0.1a1.tar.gz --markdown 20230606/f/foundation-cancer-image-biomarker/0.0.1a0-0.0.1a1/diff.md --exclude *.pyd
+[2023-06-06 05:10:47] INFO root fetch - processPackages [mcap2timescale]: Downloading https://files.pythonhosted.org/packages/2f/dc/b50db5eedaad7314436e798e7006ecf8845555b790ccc8a246a3e416a8dd/mcap2timescale-0.1.2.tar.gz
+[2023-06-06 05:10:48] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/1e/c0/787483e014606f5092e45b7dc3e1784b773e7f4c233f762ffe2236c13d50/macrometa-source-collection-0.0.36.tar.gz
+[2023-06-06 05:10:48] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: executing diffoscope
+[2023-06-06 05:10:48] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz --markdown 20230606/p/pepperize.cdk-autoscaling-gitlab-runner/0.2.98-0.2.99/diff.md --exclude *.pyd
+[2023-06-06 05:10:48] INFO root fetch - processPackages [macrometa-source-collection]: executing diffoscope
+[2023-06-06 05:10:48] INFO root fetch - processPackages [macrometa-source-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-collection-0.0.35.tar.gz tmp/macrometa-source-collection-0.0.36.tar.gz --markdown 20230606/m/macrometa-source-collection/0.0.35-0.0.36/diff.md --exclude *.pyd
+[2023-06-06 05:10:48] INFO root fetch - processPackages [tator]: Downloading https://files.pythonhosted.org/packages/51/ae/f2e58e8b21d42aac70ee2b6d0261e4923c85b0acf59608ab967697aef5b9/tator-1.0.4.tar.gz
+[2023-06-06 05:10:48] INFO root fetch - processPackages [mcap2timescale]: executing diffoscope
+[2023-06-06 05:10:48] INFO root fetch - processPackages [mcap2timescale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcap2timescale-0.1.1.tar.gz tmp/mcap2timescale-0.1.2.tar.gz --markdown 20230606/m/mcap2timescale/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-06 05:10:48] INFO root fetch - processPackages [tator]: executing diffoscope
+[2023-06-06 05:10:48] INFO root fetch - processPackages [tator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tator-1.0.3.tar.gz tmp/tator-1.0.4.tar.gz --markdown 20230606/t/tator/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-06 05:10:49] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Remove: archive file [/home/abi/fetcher/tmp/foundation_cancer_image_biomarker-0.0.1a0.tar.gz]
+[2023-06-06 05:10:49] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Remove: archive file [/home/abi/fetcher/tmp/foundation_cancer_image_biomarker-0.0.1a1.tar.gz]
+[2023-06-06 05:10:49] INFO root fetch - main [MainThread]: End processing [foundation-cancer-image-biomarker]: success
+[2023-06-06 05:10:49] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.35.tar.gz]
+[2023-06-06 05:10:49] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.36.tar.gz]
+[2023-06-06 05:10:49] INFO root fetch - main [MainThread]: End processing [macrometa-source-collection]: success
+[2023-06-06 05:10:49] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.98.tar.gz]
+[2023-06-06 05:10:49] INFO root fetch - processPackages [pepperize.cdk-autoscaling-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-autoscaling-gitlab-runner-0.2.99.tar.gz]
+[2023-06-06 05:10:49] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-autoscaling-gitlab-runner]: success
+[2023-06-06 05:10:49] INFO root fetch - processPackages [mcap2timescale]: Remove: archive file [/home/abi/fetcher/tmp/mcap2timescale-0.1.1.tar.gz]
+[2023-06-06 05:10:49] INFO root fetch - processPackages [mcap2timescale]: Remove: archive file [/home/abi/fetcher/tmp/mcap2timescale-0.1.2.tar.gz]
+[2023-06-06 05:10:49] INFO root fetch - main [MainThread]: End processing [mcap2timescale]: success
+[2023-06-06 05:10:51] INFO root fetch - processPackages [tator]: Remove: archive file [/home/abi/fetcher/tmp/tator-1.0.3.tar.gz]
+[2023-06-06 05:10:51] INFO root fetch - processPackages [tator]: Remove: archive file [/home/abi/fetcher/tmp/tator-1.0.4.tar.gz]
+[2023-06-06 05:10:51] INFO root fetch - main [MainThread]: End processing [tator]: success
+[2023-06-06 05:10:51] INFO root fetch - main [MainThread]: Store serial: [18386091]
