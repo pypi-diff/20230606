@@ -10517,3 +10517,78 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 04:55:09] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230606.tar.gz]
 [2023-06-06 04:55:09] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-06-06 04:55:09] INFO root fetch - main [MainThread]: Store serial: [18386008]
+[2023-06-06 05:00:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18386008]
+[2023-06-06 05:00:18] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-06 05:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-community-data-files
+[2023-06-06 05:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-base-unece
+[2023-06-06 05:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-uom-unece
+[2023-06-06 05:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-account-tax-unece
+[2023-06-06 05:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-payment-unece
+[2023-06-06 05:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: easyai-sdwebui-api
+[2023-06-06 05:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pynocaptcha
+[2023-06-06 05:00:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mlplatformutils
+[2023-06-06 05:00:18] INFO root fetch - processPackages [odoo-addon-uom-unece]: New version: [16.0.1.1.0.2] Old Version: [16.0.1.1.0]
+[2023-06-06 05:00:18] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: New version: [16.0.1.1.0.2] Old Version: [16.0.1.1.0]
+[2023-06-06 05:00:18] INFO root fetch - processPackages [odoo-addon-base-unece]: New version: [16.0.1.0.0.8] Old Version: [16.0.1.0.0.6]
+[2023-06-06 05:00:18] INFO root fetch - processPackages [odoo-addons-oca-community-data-files]: New version: [16.0.20230515.0] Old Version: [16.0.20221223.0]
+[2023-06-06 05:00:18] INFO root fetch - processPackages [odoo-addon-account-payment-unece]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.3]
+[2023-06-06 05:00:18] INFO root fetch - processPackages [pynocaptcha]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-06-06 05:00:18] INFO root fetch - processPackages [easyai-sdwebui-api]: New version: [0.1.4rc1] Old Version: [0.1.3rc1]
+[2023-06-06 05:00:18] INFO root fetch - processPackages [mlplatformutils]: New version: [0.8.7] Old Version: [0.8.6]
+[2023-06-06 05:00:18] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/1d/14/08cf87272d6138850bca40b951f22f4961cd38ca267e0637b57311810178/mlplatformutils-0.8.6.tar.gz
+[2023-06-06 05:00:18] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: Downloading https://files.pythonhosted.org/packages/e1/fd/fde11369ba8949208775b27602784888942ee653852950f2eae70049f6d6/odoo_addon_account_tax_unece-16.0.1.1.0-py3-none-any.whl
+[2023-06-06 05:00:18] INFO root fetch - processPackages [odoo-addon-uom-unece]: Downloading https://files.pythonhosted.org/packages/cb/1e/a6939d04b9edec9625c646b59172b22476deffeb05466ce8a5cbe9e73277/odoo_addon_uom_unece-16.0.1.1.0-py3-none-any.whl
+[2023-06-06 05:00:18] INFO root fetch - processPackages [odoo-addon-base-unece]: Downloading https://files.pythonhosted.org/packages/94/b1/8ef2ba2abc17c3968e027375ac5991a81adbd007ff592c0b91245b8687ca/odoo_addon_base_unece-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-06 05:00:18] INFO root fetch - processPackages [odoo-addons-oca-community-data-files]: Downloading https://files.pythonhosted.org/packages/12/ae/ecbb8726455d3b64385f532fbd7be36230e7ee73660b1df7e8553e14cbe4/odoo_addons_oca_community_data_files-16.0.20221223.0-py3-none-any.whl
+[2023-06-06 05:00:18] INFO root fetch - processPackages [odoo-addon-account-payment-unece]: Downloading https://files.pythonhosted.org/packages/94/94/48b53e929a122fd94b05578909c9a87c5ea08d8cc77fbf947c7b0b86b24c/odoo_addon_account_payment_unece-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-06 05:00:18] INFO root fetch - processPackages [easyai-sdwebui-api]: Downloading https://files.pythonhosted.org/packages/3b/d3/da6369ff822cc3b9ad4d675fe6134817006118104aeb6b6c0545a34983ab/easyai-sdwebui-api-0.1.3rc1.tar.gz
+[2023-06-06 05:00:18] INFO root fetch - processPackages [pynocaptcha]: Downloading https://files.pythonhosted.org/packages/25/40/f20a2ffbc7021f1aa67f38d9996ef2f5badf270f5ede149d6f4a3beb08e0/pynocaptcha-1.5.0.tar.gz
+[2023-06-06 05:00:19] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/49/3e/3ff96658152ca800fdacfffedf8d7ac651e75d7291dc16cdb51956f23dd7/mlplatformutils-0.8.7.tar.gz
+[2023-06-06 05:00:19] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: Downloading https://files.pythonhosted.org/packages/99/5d/85a8c4273f7cc5d215222c5e8e2b6bd9c324be353dfcbc3e69cf5f8b389d/odoo_addon_account_tax_unece-16.0.1.1.0.2-py3-none-any.whl
+[2023-06-06 05:00:19] INFO root fetch - processPackages [odoo-addons-oca-community-data-files]: Downloading https://files.pythonhosted.org/packages/a6/0e/208fe1470c3b571034cd9a9d114743b8c804f6b2efc86c0be4810e891452/odoo_addons_oca_community_data_files-16.0.20230515.0-py3-none-any.whl
+[2023-06-06 05:00:19] INFO root fetch - processPackages [odoo-addon-account-payment-unece]: Downloading https://files.pythonhosted.org/packages/5d/87/97754c95abf0ddf71cb353b686d312b37d86a995a9a7da75eda091e9768c/odoo_addon_account_payment_unece-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-06 05:00:19] INFO root fetch - processPackages [odoo-addon-base-unece]: Downloading https://files.pythonhosted.org/packages/00/47/f3bcc4d49eef7f3bb27aa61de9b0e2ad1fcbdc1ba239f138d6bed5153c88/odoo_addon_base_unece-16.0.1.0.0.8-py3-none-any.whl
+[2023-06-06 05:00:19] INFO root fetch - processPackages [easyai-sdwebui-api]: Downloading https://files.pythonhosted.org/packages/b8/aa/83cc6f93073816e14c8aedf398ae635b111b01eb5f55f9e5eaab96ec781a/easyai-sdwebui-api-0.1.4rc1.tar.gz
+[2023-06-06 05:00:19] INFO root fetch - processPackages [odoo-addon-uom-unece]: Downloading https://files.pythonhosted.org/packages/81/5e/d2b679e5dd1fe584cef9622ab7d8c6e8e1d2a5fa479107592e9cc8b4a911/odoo_addon_uom_unece-16.0.1.1.0.2-py3-none-any.whl
+[2023-06-06 05:00:19] INFO root fetch - processPackages [mlplatformutils]: executing diffoscope
+[2023-06-06 05:00:19] INFO root fetch - processPackages [mlplatformutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlplatformutils-0.8.6.tar.gz tmp/mlplatformutils-0.8.7.tar.gz --markdown 20230606/m/mlplatformutils/0.8.6-0.8.7/diff.md --exclude *.pyd
+[2023-06-06 05:00:19] INFO root fetch - processPackages [pynocaptcha]: Downloading https://files.pythonhosted.org/packages/df/bd/ab051ac5b40fec6a6a0e7fc1a3ec408840a8da5642b22b01d9009e8a5e5f/pynocaptcha-1.5.1.tar.gz
+[2023-06-06 05:00:19] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: executing diffoscope
+[2023-06-06 05:00:19] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_tax_unece-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_account_tax_unece-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-account-tax-unece/16.0.1.1.0-16.0.1.1.0.2/diff.md --exclude *.pyd
+[2023-06-06 05:00:19] INFO root fetch - processPackages [odoo-addons-oca-community-data-files]: executing diffoscope
+[2023-06-06 05:00:19] INFO root fetch - processPackages [odoo-addons-oca-community-data-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_community_data_files-16.0.20221223.0-py3-none-any.whl.zip tmp/odoo_addons_oca_community_data_files-16.0.20230515.0-py3-none-any.whl.zip --markdown 20230606/o/odoo-addons-oca-community-data-files/16.0.20221223.0-16.0.20230515.0/diff.md --exclude *.pyd
+[2023-06-06 05:00:19] INFO root fetch - processPackages [odoo-addon-account-payment-unece]: executing diffoscope
+[2023-06-06 05:00:19] INFO root fetch - processPackages [odoo-addon-account-payment-unece]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_payment_unece-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_payment_unece-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-account-payment-unece/16.0.1.0.0.3-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-06-06 05:00:19] INFO root fetch - processPackages [odoo-addon-base-unece]: executing diffoscope
+[2023-06-06 05:00:19] INFO root fetch - processPackages [odoo-addon-base-unece]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_base_unece-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_base_unece-16.0.1.0.0.8-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-base-unece/16.0.1.0.0.6-16.0.1.0.0.8/diff.md --exclude *.pyd
+[2023-06-06 05:00:19] INFO root fetch - processPackages [easyai-sdwebui-api]: executing diffoscope
+[2023-06-06 05:00:19] INFO root fetch - processPackages [easyai-sdwebui-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyai-sdwebui-api-0.1.3rc1.tar.gz tmp/easyai-sdwebui-api-0.1.4rc1.tar.gz --markdown 20230606/e/easyai-sdwebui-api/0.1.3rc1-0.1.4rc1/diff.md --exclude *.pyd
+[2023-06-06 05:00:19] INFO root fetch - processPackages [odoo-addon-uom-unece]: executing diffoscope
+[2023-06-06 05:00:19] INFO root fetch - processPackages [pynocaptcha]: executing diffoscope
+[2023-06-06 05:00:19] INFO root fetch - processPackages [odoo-addon-uom-unece]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_uom_unece-16.0.1.1.0-py3-none-any.whl.zip tmp/odoo_addon_uom_unece-16.0.1.1.0.2-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-uom-unece/16.0.1.1.0-16.0.1.1.0.2/diff.md --exclude *.pyd
+[2023-06-06 05:00:19] INFO root fetch - processPackages [pynocaptcha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynocaptcha-1.5.0.tar.gz tmp/pynocaptcha-1.5.1.tar.gz --markdown 20230606/p/pynocaptcha/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-06-06 05:00:20] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.8.6.tar.gz]
+[2023-06-06 05:00:20] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.8.7.tar.gz]
+[2023-06-06 05:00:20] INFO root fetch - main [MainThread]: End processing [mlplatformutils]: success
+[2023-06-06 05:00:20] INFO root fetch - processPackages [odoo-addons-oca-community-data-files]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_community_data_files-16.0.20221223.0-py3-none-any.whl.zip]
+[2023-06-06 05:00:20] INFO root fetch - processPackages [odoo-addons-oca-community-data-files]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_community_data_files-16.0.20230515.0-py3-none-any.whl.zip]
+[2023-06-06 05:00:20] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-community-data-files]: success
+[2023-06-06 05:00:20] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_tax_unece-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-06 05:00:20] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_tax_unece-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-06-06 05:00:20] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-tax-unece]: success
+[2023-06-06 05:00:21] INFO root fetch - processPackages [odoo-addon-uom-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_uom_unece-16.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-06 05:00:21] INFO root fetch - processPackages [odoo-addon-uom-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_uom_unece-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-06-06 05:00:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-uom-unece]: success
+[2023-06-06 05:00:21] INFO root fetch - processPackages [odoo-addon-account-payment-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_unece-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-06 05:00:21] INFO root fetch - processPackages [odoo-addon-account-payment-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_payment_unece-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-06 05:00:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-payment-unece]: success
+[2023-06-06 05:00:21] INFO root fetch - processPackages [odoo-addon-base-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_unece-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-06 05:00:21] INFO root fetch - processPackages [odoo-addon-base-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_base_unece-16.0.1.0.0.8-py3-none-any.whl.zip]
+[2023-06-06 05:00:21] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-unece]: success
+[2023-06-06 05:00:21] INFO root fetch - processPackages [pynocaptcha]: Remove: archive file [/home/abi/fetcher/tmp/pynocaptcha-1.5.0.tar.gz]
+[2023-06-06 05:00:21] INFO root fetch - processPackages [pynocaptcha]: Remove: archive file [/home/abi/fetcher/tmp/pynocaptcha-1.5.1.tar.gz]
+[2023-06-06 05:00:21] INFO root fetch - main [MainThread]: End processing [pynocaptcha]: success
+[2023-06-06 05:00:21] INFO root fetch - processPackages [easyai-sdwebui-api]: Remove: archive file [/home/abi/fetcher/tmp/easyai-sdwebui-api-0.1.3rc1.tar.gz]
+[2023-06-06 05:00:21] INFO root fetch - processPackages [easyai-sdwebui-api]: Remove: archive file [/home/abi/fetcher/tmp/easyai-sdwebui-api-0.1.4rc1.tar.gz]
+[2023-06-06 05:00:21] INFO root fetch - main [MainThread]: End processing [easyai-sdwebui-api]: success
+[2023-06-06 05:00:21] INFO root fetch - main [MainThread]: Store serial: [18386026]
