@@ -15222,3 +15222,77 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 09:28:37] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
 [2023-06-06 09:28:37] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-06-06 09:28:37] INFO root fetch - main [MainThread]: Store serial: [18387977]
+[2023-06-06 09:33:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18387977]
+[2023-06-06 09:33:46] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-06 09:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: soft-nudge
+[2023-06-06 09:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-06 09:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lzstring-optimized
+[2023-06-06 09:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cloud-asset
+[2023-06-06 09:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stc-geck
+[2023-06-06 09:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eodc-faas-snap
+[2023-06-06 09:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-06 09:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mongomancy
+[2023-06-06 09:33:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: netbox-cisco-maintenance
+[2023-06-06 09:33:46] INFO root fetch - processPackages [soft-nudge]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-06-06 09:33:46] INFO root fetch - processPackages [mongomancy]: New version: [0.1.9] Old Version: [0.1.7]
+[2023-06-06 09:33:46] WARNING root fetch - processPackages [stc-geck]: Skipping, unable to determine old version
+[2023-06-06 09:33:46] INFO root fetch - main [MainThread]: End processing [stc-geck] error
+[2023-06-06 09:33:46] INFO root fetch - processPackages [lzstring-optimized]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-06 09:33:46] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.90] Old Version: [0.0.9]
+[2023-06-06 09:33:46] INFO root fetch - processPackages [cloud-asset]: New version: [0.0.4.4] Old Version: [0.0.4.3]
+[2023-06-06 09:33:46] INFO root fetch - processPackages [eodc-faas-snap]: New version: [2023.6.1] Old Version: [2023.6.0rc0]
+[2023-06-06 09:33:46] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-06 09:33:46] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-06 09:33:46] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/55/18/d82dc30b78e3d23b9f00dc5bd845df80e3c03826a83d082261fb6a38bb30/netbox-cisco-maintenance-0.0.9.tar.gz
+[2023-06-06 09:33:46] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-06 09:33:46] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-06 09:33:46] INFO root fetch - processPackages [cloud-asset]: Downloading https://files.pythonhosted.org/packages/9e/8f/6b3d3cbeec1e4072bc365908bed9ac193a8076a1d2d7d923269a9da3691d/cloud-asset-0.0.4.3.tar.gz
+[2023-06-06 09:33:46] INFO root fetch - processPackages [mongomancy]: Downloading https://files.pythonhosted.org/packages/34/52/238bb3a2afba2bd87bde8d219d2a30a14f123d6be6c28b66a4ed0e5c976b/mongomancy-0.1.7.tar.gz
+[2023-06-06 09:33:46] INFO root fetch - processPackages [soft-nudge]: Downloading https://files.pythonhosted.org/packages/9d/f5/f5b63edd04be08bd63e18a8e3a79cb133949b69a2e3d3841a1796e273e4f/soft_nudge-1.0.2.tar.gz
+[2023-06-06 09:33:46] INFO root fetch - processPackages [eodc-faas-snap]: Downloading https://files.pythonhosted.org/packages/9d/d0/f339a37171d9db458c161765b330fb0ce4f7620fcb4fff0a6578ae142e02/eodc_faas_snap-2023.6.0rc0.tar.gz
+[2023-06-06 09:33:46] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-06 09:33:46] WARNING root fetch - processPackages [soft-nudge]: Skipping package: exceeds size limit 16170349>=10485760
+[2023-06-06 09:33:46] INFO root fetch - main [MainThread]: End processing [soft-nudge] error
+[2023-06-06 09:33:46] INFO root fetch - processPackages [lzstring-optimized]: Downloading https://files.pythonhosted.org/packages/b4/5f/5ce40126fb38f9c10562e4d094b2114c4dd36a51f0e685353db2d898d6f3/lzstring_optimized-0.5.0.tar.gz
+[2023-06-06 09:33:46] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/47/ed/a27edfb098f371fda3203a085807e3c891315fe00c98e7a811b8593c300e/netbox-cisco-maintenance-0.0.90.tar.gz
+[2023-06-06 09:33:46] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-06 09:33:46] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230606/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-06 09:33:46] INFO root fetch - processPackages [eodc-faas-snap]: Downloading https://files.pythonhosted.org/packages/89/42/9882cbfafaa644229931871d2981d3a1740cb81cd3fcb20f17cd722b1470/eodc_faas_snap-2023.6.1.tar.gz
+[2023-06-06 09:33:46] INFO root fetch - processPackages [cloud-asset]: Downloading https://files.pythonhosted.org/packages/8d/cf/82600cb09404b5433a304d8254ee8f8233f3334fdba8308cb683cd74c0f9/cloud_asset-0.0.4.4-py3-none-any.whl
+[2023-06-06 09:33:46] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-06 09:33:46] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.9.tar.gz tmp/netbox-cisco-maintenance-0.0.90.tar.gz --markdown 20230606/n/netbox-cisco-maintenance/0.0.9-0.0.90/diff.md --exclude *.pyd
+[2023-06-06 09:33:47] INFO root fetch - processPackages [mongomancy]: Downloading https://files.pythonhosted.org/packages/ab/0f/12babca89c147b63e23f137085cdd0bef7a73738044a7ee1474e67e2f63e/mongomancy-0.1.9.tar.gz
+[2023-06-06 09:33:47] INFO root fetch - processPackages [cloud-asset]: executing diffoscope
+[2023-06-06 09:33:47] INFO root fetch - processPackages [cloud-asset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-asset-0.0.4.3.tar.gz tmp/cloud_asset-0.0.4.4-py3-none-any.whl.zip --markdown 20230606/c/cloud-asset/0.0.4.3-0.0.4.4/diff.md --exclude *.pyd
+[2023-06-06 09:33:47] INFO root fetch - processPackages [eodc-faas-snap]: executing diffoscope
+[2023-06-06 09:33:47] INFO root fetch - processPackages [eodc-faas-snap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_snap-2023.6.0rc0.tar.gz tmp/eodc_faas_snap-2023.6.1.tar.gz --markdown 20230606/e/eodc-faas-snap/2023.6.0rc0-2023.6.1/diff.md --exclude *.pyd
+[2023-06-06 09:33:47] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-06 09:33:47] INFO root fetch - processPackages [lzstring-optimized]: Downloading https://files.pythonhosted.org/packages/9d/89/b32fda2668699a1a1346964dbea866551149040ef624481dac1e77d33db5/lzstring_optimized-0.6.0.tar.gz
+[2023-06-06 09:33:47] INFO root fetch - processPackages [mongomancy]: executing diffoscope
+[2023-06-06 09:33:47] INFO root fetch - processPackages [mongomancy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mongomancy-0.1.7.tar.gz tmp/mongomancy-0.1.9.tar.gz --markdown 20230606/m/mongomancy/0.1.7-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 09:33:47] INFO root fetch - processPackages [lzstring-optimized]: executing diffoscope
+[2023-06-06 09:33:47] INFO root fetch - processPackages [lzstring-optimized]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lzstring_optimized-0.5.0.tar.gz tmp/lzstring_optimized-0.6.0.tar.gz --markdown 20230606/l/lzstring-optimized/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-06 09:33:47] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-06 09:33:47] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230606/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-06 09:33:48] INFO root fetch - processPackages [cloud-asset]: Remove: archive file [/home/abi/fetcher/tmp/cloud-asset-0.0.4.3.tar.gz]
+[2023-06-06 09:33:48] INFO root fetch - processPackages [cloud-asset]: Remove: archive file [/home/abi/fetcher/tmp/cloud_asset-0.0.4.4-py3-none-any.whl.zip]
+[2023-06-06 09:33:48] INFO root fetch - main [MainThread]: End processing [cloud-asset]: success
+[2023-06-06 09:33:48] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.9.tar.gz]
+[2023-06-06 09:33:48] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.90.tar.gz]
+[2023-06-06 09:33:48] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-06 09:33:48] INFO root fetch - processPackages [eodc-faas-snap]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_snap-2023.6.0rc0.tar.gz]
+[2023-06-06 09:33:48] INFO root fetch - processPackages [eodc-faas-snap]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_snap-2023.6.1.tar.gz]
+[2023-06-06 09:33:48] INFO root fetch - main [MainThread]: End processing [eodc-faas-snap]: success
+[2023-06-06 09:33:48] INFO root fetch - processPackages [lzstring-optimized]: Remove: archive file [/home/abi/fetcher/tmp/lzstring_optimized-0.5.0.tar.gz]
+[2023-06-06 09:33:48] INFO root fetch - processPackages [lzstring-optimized]: Remove: archive file [/home/abi/fetcher/tmp/lzstring_optimized-0.6.0.tar.gz]
+[2023-06-06 09:33:48] INFO root fetch - main [MainThread]: End processing [lzstring-optimized]: success
+[2023-06-06 09:33:48] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-06-06 09:33:48] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-06-06 09:33:48] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-06 09:33:48] INFO root fetch - processPackages [mongomancy]: Remove: archive file [/home/abi/fetcher/tmp/mongomancy-0.1.7.tar.gz]
+[2023-06-06 09:33:48] INFO root fetch - processPackages [mongomancy]: Remove: archive file [/home/abi/fetcher/tmp/mongomancy-0.1.9.tar.gz]
+[2023-06-06 09:33:48] INFO root fetch - main [MainThread]: End processing [mongomancy]: success
+[2023-06-06 09:33:49] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-06 09:33:49] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-06 09:33:49] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-06 09:33:49] INFO root fetch - main [MainThread]: Store serial: [18388035]
