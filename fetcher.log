@@ -19345,3 +19345,171 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-06 11:56:32] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
 [2023-06-06 11:56:32] INFO root fetch - main [MainThread]: End processing [spotPython]: success
 [2023-06-06 11:56:32] INFO root fetch - main [MainThread]: Store serial: [18389693]
+[2023-06-06 12:01:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18389693]
+[2023-06-06 12:01:41] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-06 12:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pixano
+[2023-06-06 12:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: liquisource
+[2023-06-06 12:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: trustero-api
+[2023-06-06 12:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pf-dev-tools
+[2023-06-06 12:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: indykite-sdk-python
+[2023-06-06 12:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aimmo
+[2023-06-06 12:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mltb2
+[2023-06-06 12:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mads-datasets
+[2023-06-06 12:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mosec
+[2023-06-06 12:01:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: OMGITSLACKO
+[2023-06-06 12:01:41] INFO root fetch - processPackages [mads-datasets]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-06 12:01:41] INFO root fetch - processPackages [mosec]: New version: [0.7.0] Old Version: [0.6.7]
+[2023-06-06 12:01:41] INFO root fetch - processPackages [mads-datasets]: Downloading https://files.pythonhosted.org/packages/85/ee/80501664da19844955eef55ab39774ba0b336e441059eb20082388b488b1/mads_datasets-0.1.2.tar.gz
+[2023-06-06 12:01:41] INFO root fetch - processPackages [mltb2]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-06 12:01:41] INFO root fetch - processPackages [pf-dev-tools]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-06 12:01:41] INFO root fetch - processPackages [pixano]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-06 12:01:41] INFO root fetch - processPackages [trustero-api]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-06 12:01:41] INFO root fetch - processPackages [liquisource]: New version: [1.2.0] Old Version: [1.1.9]
+[2023-06-06 12:01:41] INFO root fetch - processPackages [OMGITSLACKO]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-06 12:01:41] INFO root fetch - processPackages [indykite-sdk-python]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-06 12:01:41] INFO root fetch - processPackages [aimmo]: New version: [v0.1.1-alpha.post.dev9] Old Version: [v0.1.1-alpha.post.dev8]
+[2023-06-06 12:01:41] INFO root fetch - processPackages [mosec]: Downloading https://files.pythonhosted.org/packages/8b/01/72bc005eeb063e56cc95937d11776a9d397bcc68f7508abd289b04b4d4c4/mosec-0.6.7.tar.gz
+[2023-06-06 12:01:41] INFO root fetch - processPackages [mads-datasets]: Downloading https://files.pythonhosted.org/packages/c2/83/75978c6385e2ab5aa8a2e7292ac01664f7e6662b1c16054934a5d91dbde9/mads_datasets-0.1.3.tar.gz
+[2023-06-06 12:01:41] INFO root fetch - processPackages [pixano]: Downloading https://files.pythonhosted.org/packages/19/31/b3243cb2d64f815e50e39ee24c697b65a6bf111ccb999c8ab6b214a8ab20/pixano-0.2.0.tar.gz
+[2023-06-06 12:01:41] INFO root fetch - processPackages [pf-dev-tools]: Downloading https://files.pythonhosted.org/packages/8b/76/94fffeb24572e49a18a68697c3cfaac7bc8e772344fa01ab88a97c55c37d/pf_dev_tools-1.0.1.tar.gz
+[2023-06-06 12:01:41] INFO root fetch - processPackages [trustero-api]: Downloading https://files.pythonhosted.org/packages/84/aa/4b1117cf24331c1db7d1b4f44790e58c36680393ba4ff3624009aa702ea4/trustero_api-0.0.2.tar.gz
+[2023-06-06 12:01:42] INFO root fetch - processPackages [OMGITSLACKO]: Downloading https://files.pythonhosted.org/packages/1a/70/9a5110dafda3c08c5bdb1c27f4e9d8a5dc0485421b7be5df1486d89963cb/OMGITSLACKO-0.1.5.tar.gz
+[2023-06-06 12:01:42] INFO root fetch - processPackages [mads-datasets]: executing diffoscope
+[2023-06-06 12:01:42] INFO root fetch - processPackages [mads-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mads_datasets-0.1.2.tar.gz tmp/mads_datasets-0.1.3.tar.gz --markdown 20230606/m/mads-datasets/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-06 12:01:42] INFO root fetch - processPackages [mltb2]: Downloading https://files.pythonhosted.org/packages/ad/25/2feb08f469a0d48ccdda5840cebb5c4dcd8edf52feffb34b6228546957d7/mltb2-0.0.2.tar.gz
+[2023-06-06 12:01:42] INFO root fetch - processPackages [liquisource]: Downloading https://files.pythonhosted.org/packages/f5/3d/240a786b9892eed87bf6017503bef21973455a63cf412927f26d6bd8cee7/liquisource-1.1.9.tar.gz
+[2023-06-06 12:01:42] INFO root fetch - processPackages [indykite-sdk-python]: Downloading https://files.pythonhosted.org/packages/50/f3/0a2a0a7f8486f219a6a319ede3c2de5288cb2e115cd7139571b4cd724d82/indykite-sdk-python-1.8.0.tar.gz
+[2023-06-06 12:01:42] INFO root fetch - processPackages [aimmo]: Downloading https://files.pythonhosted.org/packages/ae/20/64f46e6e224facaa0a512efc2d1dddb4eb0b7c62c45d7cd7ad7c33874d10/aimmo-v0.1.1-alpha.post.dev8.tar.gz
+[2023-06-06 12:01:42] INFO root fetch - processPackages [mosec]: Downloading https://files.pythonhosted.org/packages/4d/44/e6db4a7df9d04d0143f941a9bd2d1e3e93cbb6b575e3998a9f2f13b46b5b/mosec-0.7.0.tar.gz
+[2023-06-06 12:01:42] INFO root fetch - processPackages [pixano]: Downloading https://files.pythonhosted.org/packages/bd/53/c66b6b92d094e0f5a749532953c6deaf06728a5c479c4d64f5ee8e3e02b9/pixano-0.2.1.tar.gz
+[2023-06-06 12:01:42] INFO root fetch - processPackages [trustero-api]: Downloading https://files.pythonhosted.org/packages/41/20/3a615b01cbbdb3ecbb40288f8e2a3f30fdfd23f2a19e431813aeaa53bfd1/trustero_api-0.0.3.tar.gz
+[2023-06-06 12:01:42] INFO root fetch - processPackages [pf-dev-tools]: Downloading https://files.pythonhosted.org/packages/be/be/18d54e4edf98ce5df9a1feb5edcb96632207b12096676b2bb74519cbabc9/pf_dev_tools-1.0.2.tar.gz
+[2023-06-06 12:01:42] INFO root fetch - processPackages [OMGITSLACKO]: Downloading https://files.pythonhosted.org/packages/a7/52/52a84da6c6cceffb00410274be3017ffb9c213b7f05880c8fe016bee8193/OMGITSLACKO-0.1.6.tar.gz
+[2023-06-06 12:01:42] INFO root fetch - processPackages [mltb2]: Downloading https://files.pythonhosted.org/packages/ba/70/74fc00ef920cd432ea3aecbb98bb7344e0629503038df00e5278d3e9b470/mltb2-0.0.3.tar.gz
+[2023-06-06 12:01:42] INFO root fetch - processPackages [liquisource]: Downloading https://files.pythonhosted.org/packages/cd/95/37eb18393bdf106bc9dcdab9eb0a4641a7be687764b3146179c83deb733c/liquisource-1.2.0.tar.gz
+[2023-06-06 12:01:42] INFO root fetch - processPackages [trustero-api]: executing diffoscope
+[2023-06-06 12:01:42] INFO root fetch - processPackages [trustero-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trustero_api-0.0.2.tar.gz tmp/trustero_api-0.0.3.tar.gz --markdown 20230606/t/trustero-api/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-06 12:01:42] INFO root fetch - processPackages [mosec]: executing diffoscope
+[2023-06-06 12:01:42] INFO root fetch - processPackages [mosec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosec-0.6.7.tar.gz tmp/mosec-0.7.0.tar.gz --markdown 20230606/m/mosec/0.6.7-0.7.0/diff.md --exclude *.pyd
+[2023-06-06 12:01:42] INFO root fetch - processPackages [pf-dev-tools]: executing diffoscope
+[2023-06-06 12:01:42] INFO root fetch - processPackages [pf-dev-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pf_dev_tools-1.0.1.tar.gz tmp/pf_dev_tools-1.0.2.tar.gz --markdown 20230606/p/pf-dev-tools/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-06 12:01:42] INFO root fetch - processPackages [pixano]: executing diffoscope
+[2023-06-06 12:01:42] INFO root fetch - processPackages [pixano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pixano-0.2.0.tar.gz tmp/pixano-0.2.1.tar.gz --markdown 20230606/p/pixano/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-06 12:01:42] INFO root fetch - processPackages [OMGITSLACKO]: executing diffoscope
+[2023-06-06 12:01:42] INFO root fetch - processPackages [OMGITSLACKO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OMGITSLACKO-0.1.5.tar.gz tmp/OMGITSLACKO-0.1.6.tar.gz --markdown 20230606/O/OMGITSLACKO/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-06 12:01:42] INFO root fetch - processPackages [mltb2]: executing diffoscope
+[2023-06-06 12:01:42] INFO root fetch - processPackages [mltb2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mltb2-0.0.2.tar.gz tmp/mltb2-0.0.3.tar.gz --markdown 20230606/m/mltb2/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-06 12:01:42] INFO root fetch - processPackages [indykite-sdk-python]: Downloading https://files.pythonhosted.org/packages/1d/24/d3c0f1913c780f3c300d6d0606ce03543a97b03f19a6fc0be3c53e1b8774/indykite-sdk-python-1.9.0.tar.gz
+[2023-06-06 12:01:42] INFO root fetch - processPackages [aimmo]: Downloading https://files.pythonhosted.org/packages/80/23/14dc12f78e542484cb6d32a416afedf1ee4ea53b87476f141cf6231e7355/aimmo-v0.1.1-alpha.post.dev9.tar.gz
+[2023-06-06 12:01:42] INFO root fetch - processPackages [liquisource]: executing diffoscope
+[2023-06-06 12:01:42] INFO root fetch - processPackages [liquisource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liquisource-1.1.9.tar.gz tmp/liquisource-1.2.0.tar.gz --markdown 20230606/l/liquisource/1.1.9-1.2.0/diff.md --exclude *.pyd
+[2023-06-06 12:01:42] INFO root fetch - processPackages [indykite-sdk-python]: executing diffoscope
+[2023-06-06 12:01:42] INFO root fetch - processPackages [indykite-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indykite-sdk-python-1.8.0.tar.gz tmp/indykite-sdk-python-1.9.0.tar.gz --markdown 20230606/i/indykite-sdk-python/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-06 12:01:42] INFO root fetch - processPackages [aimmo]: executing diffoscope
+[2023-06-06 12:01:42] INFO root fetch - processPackages [aimmo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aimmo-v0.1.1-alpha.post.dev8.tar.gz tmp/aimmo-v0.1.1-alpha.post.dev9.tar.gz --markdown 20230606/a/aimmo/v0.1.1-alpha.post.dev8-v0.1.1-alpha.post.dev9/diff.md --exclude *.pyd
+[2023-06-06 12:01:43] INFO root fetch - processPackages [mads-datasets]: Remove: archive file [/home/abi/fetcher/tmp/mads_datasets-0.1.2.tar.gz]
+[2023-06-06 12:01:43] INFO root fetch - processPackages [mads-datasets]: Remove: archive file [/home/abi/fetcher/tmp/mads_datasets-0.1.3.tar.gz]
+[2023-06-06 12:01:43] INFO root fetch - processPackages [mads-datasets]: Start processing: jhOMR
+[2023-06-06 12:01:43] INFO root fetch - main [MainThread]: End processing [mads-datasets]: success
+[2023-06-06 12:01:43] INFO root fetch - processPackages [jhOMR]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-06 12:01:43] INFO root fetch - processPackages [jhOMR]: Downloading https://files.pythonhosted.org/packages/37/91/3be04412777c2602de2c596224596dd79fa5447f894996bb9797ddc50762/jhOMR-0.0.1.tar.gz
+[2023-06-06 12:01:43] INFO root fetch - processPackages [jhOMR]: Downloading https://files.pythonhosted.org/packages/ad/e6/0cdb85ae46fed4dab1e98ce54bc2ea56e3186ba92371081450f7fb5287ae/jhOMR-0.0.2.tar.gz
+[2023-06-06 12:01:43] INFO root fetch - processPackages [jhOMR]: executing diffoscope
+[2023-06-06 12:01:43] INFO root fetch - processPackages [jhOMR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jhOMR-0.0.1.tar.gz tmp/jhOMR-0.0.2.tar.gz --markdown 20230606/j/jhOMR/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-06 12:01:44] INFO root fetch - processPackages [OMGITSLACKO]: Remove: archive file [/home/abi/fetcher/tmp/OMGITSLACKO-0.1.5.tar.gz]
+[2023-06-06 12:01:44] INFO root fetch - processPackages [OMGITSLACKO]: Remove: archive file [/home/abi/fetcher/tmp/OMGITSLACKO-0.1.6.tar.gz]
+[2023-06-06 12:01:44] INFO root fetch - processPackages [OMGITSLACKO]: Start processing: MeUtils
+[2023-06-06 12:01:44] INFO root fetch - main [MainThread]: End processing [OMGITSLACKO]: success
+[2023-06-06 12:01:44] INFO root fetch - processPackages [pf-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/pf_dev_tools-1.0.1.tar.gz]
+[2023-06-06 12:01:44] INFO root fetch - processPackages [pf-dev-tools]: Remove: archive file [/home/abi/fetcher/tmp/pf_dev_tools-1.0.2.tar.gz]
+[2023-06-06 12:01:44] INFO root fetch - processPackages [pf-dev-tools]: Start processing: ebank
+[2023-06-06 12:01:44] INFO root fetch - main [MainThread]: End processing [pf-dev-tools]: success
+[2023-06-06 12:01:44] INFO root fetch - processPackages [mltb2]: Remove: archive file [/home/abi/fetcher/tmp/mltb2-0.0.2.tar.gz]
+[2023-06-06 12:01:44] INFO root fetch - processPackages [mltb2]: Remove: archive file [/home/abi/fetcher/tmp/mltb2-0.0.3.tar.gz]
+[2023-06-06 12:01:44] INFO root fetch - processPackages [mltb2]: Start processing: udata-front
+[2023-06-06 12:01:44] INFO root fetch - main [MainThread]: End processing [mltb2]: success
+[2023-06-06 12:01:44] INFO root fetch - processPackages [MeUtils]: New version: [2023.6.6.17.59.6] Old Version: [2023.6.5.8.42.19]
+[2023-06-06 12:01:44] INFO root fetch - processPackages [liquisource]: Remove: archive file [/home/abi/fetcher/tmp/liquisource-1.1.9.tar.gz]
+[2023-06-06 12:01:44] INFO root fetch - processPackages [liquisource]: Remove: archive file [/home/abi/fetcher/tmp/liquisource-1.2.0.tar.gz]
+[2023-06-06 12:01:44] INFO root fetch - processPackages [liquisource]: Start processing: clickzetta-connector
+[2023-06-06 12:01:44] INFO root fetch - main [MainThread]: End processing [liquisource]: success
+[2023-06-06 12:01:44] WARNING root fetch - processPackages [ebank]: Skipping, unable to determine old version
+[2023-06-06 12:01:44] INFO root fetch - processPackages [ebank]: Start processing: clickzetta-sqlalchemy
+[2023-06-06 12:01:44] INFO root fetch - main [MainThread]: End processing [ebank] error
+[2023-06-06 12:01:44] INFO root fetch - processPackages [clickzetta-sqlalchemy]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-06 12:01:44] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/1e/c5/d4be8dcc2a67d1d955c84c09b0223b9977fd638ed0bf7d09cc2a752386cf/clickzetta-sqlalchemy-0.8.8.tar.gz
+[2023-06-06 12:01:44] INFO root fetch - processPackages [udata-front]: New version: [3.2.4.dev11033] Old Version: [3.2.4.dev10990]
+[2023-06-06 12:01:44] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-06 12:01:44] INFO root fetch - processPackages [aimmo]: Remove: archive file [/home/abi/fetcher/tmp/aimmo-v0.1.1-alpha.post.dev8.tar.gz]
+[2023-06-06 12:01:44] INFO root fetch - processPackages [aimmo]: Remove: archive file [/home/abi/fetcher/tmp/aimmo-v0.1.1-alpha.post.dev9.tar.gz]
+[2023-06-06 12:01:44] INFO root fetch - processPackages [aimmo]: Start processing: PwnModules
+[2023-06-06 12:01:44] INFO root fetch - main [MainThread]: End processing [aimmo]: success
+[2023-06-06 12:01:44] INFO root fetch - processPackages [trustero-api]: Remove: archive file [/home/abi/fetcher/tmp/trustero_api-0.0.2.tar.gz]
+[2023-06-06 12:01:44] INFO root fetch - processPackages [trustero-api]: Remove: archive file [/home/abi/fetcher/tmp/trustero_api-0.0.3.tar.gz]
+[2023-06-06 12:01:44] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/72/d1/d65bb4b4077a404aa08b3a2615159873fac64bc9adabf42a5b45cb50f00b/clickzetta-connector-0.8.8.tar.gz
+[2023-06-06 12:01:44] INFO root fetch - processPackages [trustero-api]: Start processing: shiboken6
+[2023-06-06 12:01:44] INFO root fetch - main [MainThread]: End processing [trustero-api]: success
+[2023-06-06 12:01:44] INFO root fetch - processPackages [shiboken6]: New version: [6.5.1] Old Version: [6.5.0]
+[2023-06-06 12:01:44] INFO root fetch - processPackages [PwnModules]: New version: [1.3] Old Version: [1.2]
+[2023-06-06 12:01:44] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/26/ac/e08bea6d2662c712610911feed4bcb33aa84623a70dbb6d6543f3afad8a5/udata_front-3.2.4.dev10990-py2.py3-none-any.whl
+[2023-06-06 12:01:44] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/81/41/2c55796964b0e67291955e1856242db62fc8e6f14e179a50bf1c6296f067/clickzetta-connector-0.8.9.tar.gz
+[2023-06-06 12:01:44] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/05/6f/f31876ff58c9201594d988fd4bbd8a182a97a305a16842de419109e35005/clickzetta-sqlalchemy-0.8.9.tar.gz
+[2023-06-06 12:01:44] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/c8/1c/7f632953d1000e63a1493afb8cf9c1cc0d1914a508fe75e104b4a0a75393/MeUtils-2023.6.5.8.42.19.tar.gz
+[2023-06-06 12:01:44] INFO root fetch - processPackages [shiboken6]: Downloading https://files.pythonhosted.org/packages/af/1e/b3d574560a5c71372afc74b5321fbbd6bd76f916cc697c8edbe7a92329a6/shiboken6-6.5.0-pp39-pypy39_pp73-win_amd64.whl
+[2023-06-06 12:01:44] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2023-06-06 12:01:44] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.8.8.tar.gz tmp/clickzetta-connector-0.8.9.tar.gz --markdown 20230606/c/clickzetta-connector/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-06 12:01:44] INFO root fetch - processPackages [PwnModules]: Downloading https://files.pythonhosted.org/packages/66/0c/5ab02b657df111b9d24002f46004120e2af7abfab0d61364769a4512c4aa/PwnModules-1.2.tar.gz
+[2023-06-06 12:01:44] INFO root fetch - processPackages [clickzetta-sqlalchemy]: executing diffoscope
+[2023-06-06 12:01:44] INFO root fetch - processPackages [clickzetta-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-sqlalchemy-0.8.8.tar.gz tmp/clickzetta-sqlalchemy-0.8.9.tar.gz --markdown 20230606/c/clickzetta-sqlalchemy/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-06 12:01:44] INFO root fetch - processPackages [mosec]: Remove: archive file [/home/abi/fetcher/tmp/mosec-0.6.7.tar.gz]
+[2023-06-06 12:01:44] INFO root fetch - processPackages [mosec]: Remove: archive file [/home/abi/fetcher/tmp/mosec-0.7.0.tar.gz]
+[2023-06-06 12:01:44] INFO root fetch - processPackages [mosec]: Start processing: PySide6
+[2023-06-06 12:01:44] INFO root fetch - main [MainThread]: End processing [mosec]: success
+[2023-06-06 12:01:44] INFO root fetch - processPackages [PySide6]: New version: [6.5.1] Old Version: [6.5.0]
+[2023-06-06 12:01:45] INFO root fetch - processPackages [udata-front]: Downloading https://files.pythonhosted.org/packages/0c/1f/dadd6325ae986122ffc81e92454857f1c42bedc8d0281e379b9923d73b4c/udata_front-3.2.4.dev11033-py2.py3-none-any.whl
+[2023-06-06 12:01:45] INFO root fetch - processPackages [PwnModules]: Downloading https://files.pythonhosted.org/packages/d6/bb/5bca0c9c4cf0b1bfb359216a2c337ac7beeeff08acc7e854b2cf19ce2c18/PwnModules-1.3.tar.gz
+[2023-06-06 12:01:45] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/7e/0a/7700ba136e3ab8e6afa260758380036f1d8a59941cfcf2dc0a30cf24f978/MeUtils-2023.6.6.17.59.6.tar.gz
+[2023-06-06 12:01:45] INFO root fetch - processPackages [PySide6]: Downloading https://files.pythonhosted.org/packages/d0/1f/604586186a0b3c4972969c5c6e4f977ad5ab4810140c3048921042dcae60/PySide6-6.5.0-pp39-pypy39_pp73-win_amd64.whl
+[2023-06-06 12:01:45] INFO root fetch - processPackages [jhOMR]: Remove: archive file [/home/abi/fetcher/tmp/jhOMR-0.0.1.tar.gz]
+[2023-06-06 12:01:45] INFO root fetch - processPackages [jhOMR]: Remove: archive file [/home/abi/fetcher/tmp/jhOMR-0.0.2.tar.gz]
+[2023-06-06 12:01:45] INFO root fetch - main [MainThread]: End processing [jhOMR]: success
+[2023-06-06 12:01:45] INFO root fetch - processPackages [udata-front]: executing diffoscope
+[2023-06-06 12:01:45] INFO root fetch - processPackages [udata-front]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/udata_front-3.2.4.dev10990-py2.py3-none-any.whl.zip tmp/udata_front-3.2.4.dev11033-py2.py3-none-any.whl.zip --markdown 20230606/u/udata-front/3.2.4.dev10990-3.2.4.dev11033/diff.md --exclude *.pyd
+[2023-06-06 12:01:45] INFO root fetch - processPackages [PwnModules]: executing diffoscope
+[2023-06-06 12:01:45] INFO root fetch - processPackages [PwnModules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PwnModules-1.2.tar.gz tmp/PwnModules-1.3.tar.gz --markdown 20230606/P/PwnModules/1.2-1.3/diff.md --exclude *.pyd
+[2023-06-06 12:01:45] INFO root fetch - processPackages [PySide6]: Downloading https://files.pythonhosted.org/packages/5b/24/e44b161f72f2e16729e8e8cd59057de5cf5b3091de32da501cbb5527c995/PySide6-6.5.1-pp39-pypy39_pp73-win_amd64.whl
+[2023-06-06 12:01:45] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-06-06 12:01:45] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.6.5.8.42.19.tar.gz tmp/MeUtils-2023.6.6.17.59.6.tar.gz --markdown 20230606/M/MeUtils/2023.6.5.8.42.19-2023.6.6.17.59.6/diff.md --exclude *.pyd
+[2023-06-06 12:01:45] INFO root fetch - processPackages [PySide6]: executing diffoscope
+[2023-06-06 12:01:45] INFO root fetch - processPackages [PySide6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide6-6.5.0-pp39-pypy39_pp73-win_amd64.whl.zip tmp/PySide6-6.5.1-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230606/P/PySide6/6.5.0-6.5.1/diff.md --exclude *.pyd
+[2023-06-06 12:01:45] INFO root fetch - processPackages [shiboken6]: Downloading https://files.pythonhosted.org/packages/56/46/0a36c8b83946ac8fa43d2669b32810562e788bb359b1951f4dc52036502a/shiboken6-6.5.1-pp39-pypy39_pp73-win_amd64.whl
+[2023-06-06 12:01:45] INFO root fetch - processPackages [shiboken6]: executing diffoscope
+[2023-06-06 12:01:45] INFO root fetch - processPackages [shiboken6]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shiboken6-6.5.0-pp39-pypy39_pp73-win_amd64.whl.zip tmp/shiboken6-6.5.1-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230606/s/shiboken6/6.5.0-6.5.1/diff.md --exclude *.pyd
+[2023-06-06 12:01:46] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.8.tar.gz]
+[2023-06-06 12:01:46] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.9.tar.gz]
+[2023-06-06 12:01:46] INFO root fetch - main [MainThread]: End processing [clickzetta-sqlalchemy]: success
+[2023-06-06 12:01:46] INFO root fetch - processPackages [PwnModules]: Remove: archive file [/home/abi/fetcher/tmp/PwnModules-1.2.tar.gz]
+[2023-06-06 12:01:46] INFO root fetch - processPackages [PwnModules]: Remove: archive file [/home/abi/fetcher/tmp/PwnModules-1.3.tar.gz]
+[2023-06-06 12:01:46] INFO root fetch - main [MainThread]: End processing [PwnModules]: success
+[2023-06-06 12:01:46] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.8.tar.gz]
+[2023-06-06 12:01:46] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.9.tar.gz]
+[2023-06-06 12:01:46] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2023-06-06 12:01:46] INFO root fetch - processPackages [PySide6]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-6.5.0-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-06-06 12:01:46] INFO root fetch - processPackages [PySide6]: Remove: archive file [/home/abi/fetcher/tmp/PySide6-6.5.1-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-06-06 12:01:46] INFO root fetch - main [MainThread]: End processing [PySide6]: success
+[2023-06-06 12:01:48] INFO root fetch - processPackages [indykite-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/indykite-sdk-python-1.8.0.tar.gz]
+[2023-06-06 12:01:48] INFO root fetch - processPackages [indykite-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/indykite-sdk-python-1.9.0.tar.gz]
+[2023-06-06 12:01:48] INFO root fetch - main [MainThread]: End processing [indykite-sdk-python]: success
+[2023-06-06 12:01:50] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.6.5.8.42.19.tar.gz]
+[2023-06-06 12:01:50] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.6.6.17.59.6.tar.gz]
+[2023-06-06 12:01:50] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-06-06 12:01:55] INFO root fetch - processPackages [pixano]: Remove: archive file [/home/abi/fetcher/tmp/pixano-0.2.0.tar.gz]
+[2023-06-06 12:01:55] INFO root fetch - processPackages [pixano]: Remove: archive file [/home/abi/fetcher/tmp/pixano-0.2.1.tar.gz]
+[2023-06-06 12:01:55] INFO root fetch - main [MainThread]: End processing [pixano]: success
+[2023-06-06 12:01:55] INFO root fetch - processPackages [shiboken6]: Remove: archive file [/home/abi/fetcher/tmp/shiboken6-6.5.0-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-06-06 12:01:55] INFO root fetch - processPackages [shiboken6]: Remove: archive file [/home/abi/fetcher/tmp/shiboken6-6.5.1-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-06-06 12:01:55] INFO root fetch - main [MainThread]: End processing [shiboken6]: success
+[2023-06-06 12:02:14] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.4.dev10990-py2.py3-none-any.whl.zip]
+[2023-06-06 12:02:14] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.4.dev11033-py2.py3-none-any.whl.zip]
+[2023-06-06 12:02:14] INFO root fetch - main [MainThread]: End processing [udata-front]: success
+[2023-06-06 12:02:14] INFO root fetch - main [MainThread]: Store serial: [18389779]
