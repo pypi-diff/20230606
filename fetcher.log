@@ -12876,3 +12876,138 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 07:24:36] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520-1.0.9.tar.gz]
 [2023-06-06 07:24:36] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520]: success
 [2023-06-06 07:24:36] INFO root fetch - main [MainThread]: Store serial: [18386895]
+[2023-06-06 07:29:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18386895]
+[2023-06-06 07:29:45] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-06 07:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cvxsimulator
+[2023-06-06 07:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pipeline-feature
+[2023-06-06 07:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nemo-library
+[2023-06-06 07:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: camply
+[2023-06-06 07:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-purchase-stock-picking-invoice-link
+[2023-06-06 07:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: molecule-qemu
+[2023-06-06 07:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-rrmngmnt
+[2023-06-06 07:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: whisper-ctranslate2
+[2023-06-06 07:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastdimr
+[2023-06-06 07:29:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nemo-library
+[2023-06-06 07:29:45] INFO root fetch - processPackages [odoo-addon-purchase-stock-picking-invoice-link]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.6]
+[2023-06-06 07:29:45] INFO root fetch - processPackages [pipeline-feature]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-06 07:29:45] INFO root fetch - processPackages [nemo-library]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-06 07:29:45] INFO root fetch - processPackages [python-rrmngmnt]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 07:29:45] INFO root fetch - processPackages [molecule-qemu]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-06-06 07:29:45] INFO root fetch - processPackages [camply]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-06 07:29:45] WARNING root fetch - processPackages [fastdimr]: Skipping, unable to determine old version
+[2023-06-06 07:29:45] INFO root fetch - processPackages [fastdimr]: Start processing: inhandtest
+[2023-06-06 07:29:45] INFO root fetch - main [MainThread]: End processing [fastdimr] error
+[2023-06-06 07:29:45] INFO root fetch - processPackages [nemo-library]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-06 07:29:45] INFO root fetch - processPackages [cvxsimulator]: New version: [0.5.0] Old Version: [0.4.1]
+[2023-06-06 07:29:45] INFO root fetch - processPackages [whisper-ctranslate2]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-06 07:29:45] INFO root fetch - processPackages [inhandtest]: New version: [0.0.52] Old Version: [0.0.51]
+[2023-06-06 07:29:45] INFO root fetch - processPackages [molecule-qemu]: Downloading https://files.pythonhosted.org/packages/5c/c5/1265f2ccb107d7ffb1b239f92b32b0c7cd35975c3c7005589d8f7453b879/molecule-qemu-0.4.4.tar.gz
+[2023-06-06 07:29:45] INFO root fetch - processPackages [nemo-library]: Downloading https://files.pythonhosted.org/packages/96/21/8535415cc9cc8917f162abf7b1da0fcb05f7bd27055ddb39595fec13e2ce/nemo_library-1.0.8.tar.gz
+[2023-06-06 07:29:45] INFO root fetch - processPackages [nemo-library]: Downloading https://files.pythonhosted.org/packages/96/21/8535415cc9cc8917f162abf7b1da0fcb05f7bd27055ddb39595fec13e2ce/nemo_library-1.0.8.tar.gz
+[2023-06-06 07:29:45] INFO root fetch - processPackages [camply]: Downloading https://files.pythonhosted.org/packages/b6/1e/0f4c1cd15a9dc716c825ce9473f46b8d514cdeef6ffa87576366bf2588f5/camply-0.9.2.tar.gz
+[2023-06-06 07:29:45] WARNING root fetch - processPackages [python-rrmngmnt]: fallback to get urls: [0.1.8]
+[2023-06-06 07:29:45] INFO root fetch - processPackages [odoo-addon-purchase-stock-picking-invoice-link]: Downloading https://files.pythonhosted.org/packages/c6/80/4b0f6e63f1a78dd1fa21a51c2c1c0737b5127820f867c16d1db85e8c5faa/odoo_addon_purchase_stock_picking_invoice_link-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-06 07:29:45] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/ba/76/1d2a76936cd6fbc3a8920bb12968e534be2a75af2e48bce843e0c61c334b/pipeline-feature-0.0.1.tar.gz
+[2023-06-06 07:29:45] INFO root fetch - processPackages [camply]: Downloading https://files.pythonhosted.org/packages/3e/d1/4f9e81a5f74b69b8f9c95b378d56780fcddfa4ab3f0f8226c1a7a7116867/camply-0.9.3.tar.gz
+[2023-06-06 07:29:45] WARNING root fetch - processPackages [python-rrmngmnt]: None
+[2023-06-06 07:29:45] INFO root fetch - processPackages [cvxsimulator]: Downloading https://files.pythonhosted.org/packages/84/9e/235ffcee5937495724332230ff4838dd9c85878e338883188fc58d6d438e/cvxsimulator-0.4.1.tar.gz
+[2023-06-06 07:29:45] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/13/2f/24565830cc950ea1fc4f1c9b20a3465a81d770aca89b077be4868d2c718d/inhandtest-0.0.51.tar.gz
+[2023-06-06 07:29:45] WARNING root fetch - processPackages [python-rrmngmnt]: None
+[2023-06-06 07:29:45] INFO root fetch - processPackages [whisper-ctranslate2]: Downloading https://files.pythonhosted.org/packages/4c/69/36b8ee33d83a8fbb3a326edfcffacb936100e6c7cd1e4691033112509899/whisper-ctranslate2-0.2.5.tar.gz
+[2023-06-06 07:29:45] INFO root fetch - processPackages [molecule-qemu]: Downloading https://files.pythonhosted.org/packages/03/71/4364d6e151c518b4b419e3816935d89391282c0e8a4b9ad9e29051119571/molecule-qemu-0.4.5.tar.gz
+[2023-06-06 07:29:45] INFO root fetch - processPackages [nemo-library]: Downloading https://files.pythonhosted.org/packages/1c/ac/14ae2f7f8a4d99ed894b1c19114aff87c84d1136565a92f2d179daa6499f/nemo_library-1.0.9.tar.gz
+[2023-06-06 07:29:45] WARNING root fetch - processPackages [python-rrmngmnt]: unable to get url for both version [0.1.8]
+[2023-06-06 07:29:45] INFO root fetch - processPackages [camply]: executing diffoscope
+[2023-06-06 07:29:45] INFO root fetch - processPackages [camply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camply-0.9.2.tar.gz tmp/camply-0.9.3.tar.gz --markdown 20230606/c/camply/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-06 07:29:45] INFO root fetch - processPackages [nemo-library]: Downloading https://files.pythonhosted.org/packages/1c/ac/14ae2f7f8a4d99ed894b1c19114aff87c84d1136565a92f2d179daa6499f/nemo_library-1.0.9.tar.gz
+[2023-06-06 07:29:45] WARNING root fetch - processPackages [python-rrmngmnt]: None
+[2023-06-06 07:29:45] INFO root fetch - processPackages [python-rrmngmnt]: Start processing: PlanaPY
+[2023-06-06 07:29:45] INFO root fetch - main [MainThread]: End processing [python-rrmngmnt] error
+[2023-06-06 07:29:45] INFO root fetch - processPackages [molecule-qemu]: executing diffoscope
+[2023-06-06 07:29:45] INFO root fetch - processPackages [molecule-qemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecule-qemu-0.4.4.tar.gz tmp/molecule-qemu-0.4.5.tar.gz --markdown 20230606/m/molecule-qemu/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-06-06 07:29:45] INFO root fetch - processPackages [nemo-library]: executing diffoscope
+[2023-06-06 07:29:45] INFO root fetch - processPackages [nemo-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemo_library-1.0.8.tar.gz tmp/nemo_library-1.0.9.tar.gz --markdown 20230606/n/nemo-library/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-06 07:29:45] WARNING root fetch - processPackages [PlanaPY]: Skipping, unable to determine old version
+[2023-06-06 07:29:45] INFO root fetch - processPackages [PlanaPY]: Start processing: odoo-addon-survey-sale-generation
+[2023-06-06 07:29:45] INFO root fetch - main [MainThread]: End processing [PlanaPY] error
+[2023-06-06 07:29:45] INFO root fetch - processPackages [nemo-library]: executing diffoscope
+[2023-06-06 07:29:45] INFO root fetch - processPackages [nemo-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemo_library-1.0.8.tar.gz tmp/nemo_library-1.0.9.tar.gz --markdown 20230606/n/nemo-library/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-06 07:29:45] INFO root fetch - processPackages [odoo-addon-survey-sale-generation]: New version: [15.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-06-06 07:29:45] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/a3/a8/8d81cd8cced599d23058de742efe2c540a1f6f6daa79f3e0e56c5720cb08/pipeline-feature-0.0.2.tar.gz
+[2023-06-06 07:29:45] INFO root fetch - processPackages [odoo-addon-purchase-stock-picking-invoice-link]: Downloading https://files.pythonhosted.org/packages/e2/0d/5ec868bc2ddbe985754a9a78dba38281e479708de785d3f76b778599eb19/odoo_addon_purchase_stock_picking_invoice_link-16.0.1.0.0.7-py3-none-any.whl
+[2023-06-06 07:29:45] INFO root fetch - processPackages [cvxsimulator]: Downloading https://files.pythonhosted.org/packages/34/da/b4cc895b398694d7bf600e5a97df5eae1bd907b2bae17a095bf1b29ae777/cvxsimulator-0.5.0.tar.gz
+[2023-06-06 07:29:45] INFO root fetch - processPackages [inhandtest]: Downloading https://files.pythonhosted.org/packages/fe/d0/486e0f93acfebed55f6cba454af1cb630881ee350dab230277399824c444/inhandtest-0.0.52.tar.gz
+[2023-06-06 07:29:45] INFO root fetch - processPackages [pipeline-feature]: executing diffoscope
+[2023-06-06 07:29:45] INFO root fetch - processPackages [pipeline-feature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline-feature-0.0.1.tar.gz tmp/pipeline-feature-0.0.2.tar.gz --markdown 20230606/p/pipeline-feature/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-06 07:29:45] INFO root fetch - processPackages [odoo-addon-purchase-stock-picking-invoice-link]: executing diffoscope
+[2023-06-06 07:29:45] INFO root fetch - processPackages [odoo-addon-purchase-stock-picking-invoice-link]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_stock_picking_invoice_link-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_purchase_stock_picking_invoice_link-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-purchase-stock-picking-invoice-link/16.0.1.0.0.6-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-06-06 07:29:45] INFO root fetch - processPackages [whisper-ctranslate2]: Downloading https://files.pythonhosted.org/packages/fa/73/8b45db67c5b737bb15aec90d507ef617db147f6c3fdc9b5e9d7b8eb635dd/whisper-ctranslate2-0.2.6.tar.gz
+[2023-06-06 07:29:45] INFO root fetch - processPackages [cvxsimulator]: executing diffoscope
+[2023-06-06 07:29:45] INFO root fetch - processPackages [cvxsimulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cvxsimulator-0.4.1.tar.gz tmp/cvxsimulator-0.5.0.tar.gz --markdown 20230606/c/cvxsimulator/0.4.1-0.5.0/diff.md --exclude *.pyd
+[2023-06-06 07:29:45] INFO root fetch - processPackages [inhandtest]: executing diffoscope
+[2023-06-06 07:29:45] INFO root fetch - processPackages [inhandtest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inhandtest-0.0.51.tar.gz tmp/inhandtest-0.0.52.tar.gz --markdown 20230606/i/inhandtest/0.0.51-0.0.52/diff.md --exclude *.pyd
+[2023-06-06 07:29:45] INFO root fetch - processPackages [whisper-ctranslate2]: executing diffoscope
+[2023-06-06 07:29:45] INFO root fetch - processPackages [whisper-ctranslate2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whisper-ctranslate2-0.2.5.tar.gz tmp/whisper-ctranslate2-0.2.6.tar.gz --markdown 20230606/w/whisper-ctranslate2/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-06 07:29:45] INFO root fetch - processPackages [odoo-addon-survey-sale-generation]: Downloading https://files.pythonhosted.org/packages/13/d6/ac29a801f119b9082e31cb555a3f652a8075c0c35c93cd3516a620153c64/odoo_addon_survey_sale_generation-15.0.1.0.0.2-py3-none-any.whl
+[2023-06-06 07:29:46] INFO root fetch - processPackages [odoo-addon-survey-sale-generation]: Downloading https://files.pythonhosted.org/packages/ba/ef/683eacd1f89cec738a1084991fff9fbb00aaeb16c8f1cc0172c798c01304/odoo_addon_survey_sale_generation-15.0.1.0.0.3-py3-none-any.whl
+[2023-06-06 07:29:46] INFO root fetch - processPackages [odoo-addon-survey-sale-generation]: executing diffoscope
+[2023-06-06 07:29:46] INFO root fetch - processPackages [odoo-addon-survey-sale-generation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_survey_sale_generation-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_survey_sale_generation-15.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-survey-sale-generation/15.0.1.0.0.2-15.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-06 07:29:47] INFO root fetch - processPackages [nemo-library]: Remove: archive file [/home/abi/fetcher/tmp/nemo_library-1.0.8.tar.gz]
+[2023-06-06 07:29:47] INFO root fetch - processPackages [nemo-library]: Remove: archive file [/home/abi/fetcher/tmp/nemo_library-1.0.9.tar.gz]
+[2023-06-06 07:29:47] INFO root fetch - processPackages [nemo-library]: Start processing: odoo-addons-oca-survey
+[2023-06-06 07:29:47] INFO root fetch - main [MainThread]: End processing [nemo-library]: success
+[2023-06-06 07:29:47] INFO root fetch - processPackages [odoo-addons-oca-survey]: New version: [15.0.20230605.0] Old Version: [15.0.20230601.0]
+[2023-06-06 07:29:47] INFO root fetch - processPackages [nemo-library]: Start processing: crazy-thursday
+[2023-06-06 07:29:47] INFO root fetch - main [MainThread]: End processing [nemo-library]: success
+[2023-06-06 07:29:47] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.6.6.1] Old Version: [2023.6.6.0]
+[2023-06-06 07:29:47] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.1.tar.gz]
+[2023-06-06 07:29:47] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.2.tar.gz]
+[2023-06-06 07:29:47] INFO root fetch - processPackages [pipeline-feature]: Start processing: FindJobsTW
+[2023-06-06 07:29:47] INFO root fetch - main [MainThread]: End processing [pipeline-feature]: success
+[2023-06-06 07:29:47] WARNING root fetch - processPackages [FindJobsTW]: Skipping, unable to determine old version
+[2023-06-06 07:29:47] INFO root fetch - processPackages [FindJobsTW]: Start processing: hisock
+[2023-06-06 07:29:47] INFO root fetch - main [MainThread]: End processing [FindJobsTW] error
+[2023-06-06 07:29:47] INFO root fetch - processPackages [odoo-addons-oca-survey]: Downloading https://files.pythonhosted.org/packages/52/44/ae019170642da1e814b95d269c88bf3895fa44c33f5de8447bce695b169f/odoo_addons_oca_survey-15.0.20230601.0-py3-none-any.whl
+[2023-06-06 07:29:47] INFO root fetch - processPackages [odoo-addon-purchase-stock-picking-invoice-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_stock_picking_invoice_link-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-06 07:29:47] INFO root fetch - processPackages [odoo-addon-purchase-stock-picking-invoice-link]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_stock_picking_invoice_link-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-06-06 07:29:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-stock-picking-invoice-link]: success
+[2023-06-06 07:29:47] INFO root fetch - processPackages [hisock]: New version: [2.0.2] Old Version: [2.0.1]
+[2023-06-06 07:29:47] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/ec/9e/874a6c4f6887effbaad523da8830a582d4654146fbabc3dc1a75785ff721/crazy-thursday-2023.6.6.0.tar.gz
+[2023-06-06 07:29:47] INFO root fetch - processPackages [cvxsimulator]: Remove: archive file [/home/abi/fetcher/tmp/cvxsimulator-0.4.1.tar.gz]
+[2023-06-06 07:29:47] INFO root fetch - processPackages [cvxsimulator]: Remove: archive file [/home/abi/fetcher/tmp/cvxsimulator-0.5.0.tar.gz]
+[2023-06-06 07:29:47] INFO root fetch - main [MainThread]: End processing [cvxsimulator]: success
+[2023-06-06 07:29:47] INFO root fetch - processPackages [molecule-qemu]: Remove: archive file [/home/abi/fetcher/tmp/molecule-qemu-0.4.4.tar.gz]
+[2023-06-06 07:29:47] INFO root fetch - processPackages [molecule-qemu]: Remove: archive file [/home/abi/fetcher/tmp/molecule-qemu-0.4.5.tar.gz]
+[2023-06-06 07:29:47] INFO root fetch - main [MainThread]: End processing [molecule-qemu]: success
+[2023-06-06 07:29:47] INFO root fetch - processPackages [odoo-addons-oca-survey]: Downloading https://files.pythonhosted.org/packages/35/19/a0250e68565b48ccde485bd756fcfe7f9c44d72ca780107400373df8baed/odoo_addons_oca_survey-15.0.20230605.0-py3-none-any.whl
+[2023-06-06 07:29:47] INFO root fetch - processPackages [hisock]: Downloading https://files.pythonhosted.org/packages/cd/3f/fbdc0f156acd618596e262a2b16d10a28dd128ff27beb8d046d726070a53/hisock-2.0.1.tar.gz
+[2023-06-06 07:29:47] INFO root fetch - processPackages [inhandtest]: Remove: archive file [/home/abi/fetcher/tmp/inhandtest-0.0.51.tar.gz]
+[2023-06-06 07:29:47] INFO root fetch - processPackages [inhandtest]: Remove: archive file [/home/abi/fetcher/tmp/inhandtest-0.0.52.tar.gz]
+[2023-06-06 07:29:47] INFO root fetch - main [MainThread]: End processing [inhandtest]: success
+[2023-06-06 07:29:47] INFO root fetch - processPackages [odoo-addons-oca-survey]: executing diffoscope
+[2023-06-06 07:29:47] INFO root fetch - processPackages [odoo-addons-oca-survey]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_survey-15.0.20230601.0-py3-none-any.whl.zip tmp/odoo_addons_oca_survey-15.0.20230605.0-py3-none-any.whl.zip --markdown 20230606/o/odoo-addons-oca-survey/15.0.20230601.0-15.0.20230605.0/diff.md --exclude *.pyd
+[2023-06-06 07:29:47] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/84/6e/0e2ac33dae3cb971fe101243ee90fb1cd274a7541a3260c222f54feef09e/crazy-thursday-2023.6.6.1.tar.gz
+[2023-06-06 07:29:47] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-06-06 07:29:47] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.6.6.0.tar.gz tmp/crazy-thursday-2023.6.6.1.tar.gz --markdown 20230606/c/crazy-thursday/2023.6.6.0-2023.6.6.1/diff.md --exclude *.pyd
+[2023-06-06 07:29:47] INFO root fetch - processPackages [whisper-ctranslate2]: Remove: archive file [/home/abi/fetcher/tmp/whisper-ctranslate2-0.2.5.tar.gz]
+[2023-06-06 07:29:47] INFO root fetch - processPackages [whisper-ctranslate2]: Remove: archive file [/home/abi/fetcher/tmp/whisper-ctranslate2-0.2.6.tar.gz]
+[2023-06-06 07:29:47] INFO root fetch - main [MainThread]: End processing [whisper-ctranslate2]: success
+[2023-06-06 07:29:47] INFO root fetch - processPackages [odoo-addon-survey-sale-generation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_survey_sale_generation-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-06 07:29:47] INFO root fetch - processPackages [odoo-addon-survey-sale-generation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_survey_sale_generation-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-06 07:29:47] INFO root fetch - main [MainThread]: End processing [odoo-addon-survey-sale-generation]: success
+[2023-06-06 07:29:47] INFO root fetch - processPackages [camply]: Remove: archive file [/home/abi/fetcher/tmp/camply-0.9.2.tar.gz]
+[2023-06-06 07:29:47] INFO root fetch - processPackages [camply]: Remove: archive file [/home/abi/fetcher/tmp/camply-0.9.3.tar.gz]
+[2023-06-06 07:29:47] INFO root fetch - main [MainThread]: End processing [camply]: success
+[2023-06-06 07:29:47] INFO root fetch - processPackages [hisock]: Downloading https://files.pythonhosted.org/packages/0e/c9/4d06c6e5dcb96c3946b93e56071e7d8ee82caac5f7aeaa35d7d6d99d74b6/hisock-2.0.2.tar.gz
+[2023-06-06 07:29:48] INFO root fetch - processPackages [hisock]: executing diffoscope
+[2023-06-06 07:29:48] INFO root fetch - processPackages [hisock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hisock-2.0.1.tar.gz tmp/hisock-2.0.2.tar.gz --markdown 20230606/h/hisock/2.0.1-2.0.2/diff.md --exclude *.pyd
+[2023-06-06 07:29:48] INFO root fetch - processPackages [odoo-addons-oca-survey]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_survey-15.0.20230601.0-py3-none-any.whl.zip]
+[2023-06-06 07:29:48] INFO root fetch - processPackages [odoo-addons-oca-survey]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_survey-15.0.20230605.0-py3-none-any.whl.zip]
+[2023-06-06 07:29:48] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-survey]: success
+[2023-06-06 07:29:48] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.6.0.tar.gz]
+[2023-06-06 07:29:48] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.6.6.1.tar.gz]
+[2023-06-06 07:29:48] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-06-06 07:29:49] INFO root fetch - processPackages [hisock]: Remove: archive file [/home/abi/fetcher/tmp/hisock-2.0.1.tar.gz]
+[2023-06-06 07:29:49] INFO root fetch - processPackages [hisock]: Remove: archive file [/home/abi/fetcher/tmp/hisock-2.0.2.tar.gz]
+[2023-06-06 07:29:49] INFO root fetch - main [MainThread]: End processing [hisock]: success
+[2023-06-06 07:29:49] INFO root fetch - main [MainThread]: Store serial: [18386951]
