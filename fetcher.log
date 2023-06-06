@@ -2022,3 +2022,105 @@
 [2023-06-06 02:04:56] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.8.0.9052023.post348.tar.gz]
 [2023-06-06 02:04:56] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
 [2023-06-06 02:04:56] INFO root fetch - main [MainThread]: Store serial: [18382829]
+[2023-06-06 02:10:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18382829]
+[2023-06-06 02:10:04] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-06 02:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jaxkern-nightly
+[2023-06-06 02:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: adam-sdk
+[2023-06-06 02:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly-intel
+[2023-06-06 02:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: always-updates
+[2023-06-06 02:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tomas
+[2023-06-06 02:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaxutils-nightly
+[2023-06-06 02:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchlayers-nightly
+[2023-06-06 02:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bigdl-dllib
+[2023-06-06 02:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: DAJIN2
+[2023-06-06 02:10:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigdl-orca
+[2023-06-06 02:10:04] WARNING root fetch - processPackages [adam-sdk]: Skipping, unable to determine old version
+[2023-06-06 02:10:04] INFO root fetch - processPackages [adam-sdk]: Start processing: bigdl-friesian
+[2023-06-06 02:10:04] INFO root fetch - main [MainThread]: End processing [adam-sdk] error
+[2023-06-06 02:10:04] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230605] Old Version: [0.0.8.dev20230604]
+[2023-06-06 02:10:04] INFO root fetch - processPackages [DAJIN2]: New version: [0.2.2.2] Old Version: [0.2.1]
+[2023-06-06 02:10:04] INFO root fetch - processPackages [tomas]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 02:10:04] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230605] Old Version: [2.4.0b20230603]
+[2023-06-06 02:10:04] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230605] Old Version: [2.4.0b20230603]
+[2023-06-06 02:10:04] INFO root fetch - processPackages [tomas]: Downloading https://files.pythonhosted.org/packages/6f/20/8c777b1b71c3f1cd8c07dd763b43d5eb5f97864f3f9c9edae0fbae4b74e1/tomas-0.1.8.tar.gz
+[2023-06-06 02:10:04] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1685923637] Old Version: [1685837295]
+[2023-06-06 02:10:05] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-06-06 02:10:05] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/24/c0/e90f49f4a2dbd6422541cc72637117323d6790708984b56750d469b1a81b/jaxutils-nightly-0.0.8.dev20230604.tar.gz
+[2023-06-06 02:10:05] INFO root fetch - processPackages [DAJIN2]: Downloading https://files.pythonhosted.org/packages/92/54/af56a3d82ace6b735dc8c62bf0afeef8796d4b128da96caa8d6cb69088b6/DAJIN2-0.2.1.tar.gz
+[2023-06-06 02:10:05] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-06-06 02:10:05] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230605] Old Version: [2.4.0b20230603]
+[2023-06-06 02:10:05] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/90/ef/c367dbebf95aa3fcd980199c6128461db4ce85731b06f53a3e0bba5750e7/torchlayers-nightly-1685837295.tar.gz
+[2023-06-06 02:10:05] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.14.0.dev20230605] Old Version: [2.14.0.dev20230604]
+[2023-06-06 02:10:05] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-06-06 02:10:05] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/e7/74/bf1bd6e7b7f2aa297daeecc9f72f4d2a9d23c7204f42e90410cad0642171/bigdl-dllib-2.4.0b20230603.tar.gz
+[2023-06-06 02:10:05] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-06-06 02:10:05] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/fc/12/8c264973b974e902fcb94f755eb667aca3fa52d5c63931798e5afafa1138/bigdl_orca-2.4.0b20230603-py3-none-manylinux1_x86_64.whl
+[2023-06-06 02:10:05] INFO root fetch - processPackages [DAJIN2]: Downloading https://files.pythonhosted.org/packages/75/33/54c448ac03c4d19a58f81cbfdb8a84560519d441b27ba87d7f706b3e327f/DAJIN2-0.2.2.2.tar.gz
+[2023-06-06 02:10:05] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-06-06 02:10:05] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230606/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-06-06 02:10:05] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53559862>=10485760
+[2023-06-06 02:10:05] INFO root fetch - processPackages [bigdl-dllib]: Start processing: adsorption-file-parser
+[2023-06-06 02:10:05] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-06-06 02:10:05] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-06-06 02:10:05] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/d1/5d/41c0952aa853169fb5ebaf17298c0939ee0911d94892060b4bcd30701c8c/bigdl_friesian-2.4.0b20230603-py3-none-manylinux1_x86_64.whl
+[2023-06-06 02:10:05] INFO root fetch - processPackages [tomas]: Downloading https://files.pythonhosted.org/packages/df/44/232dc95d63eec7ad37badd9124539513a9775ede9c38ca33e576dc10c147/tomas-0.1.9.tar.gz
+[2023-06-06 02:10:05] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/a7/b6/56335e11b7f4682eb8df19350df5e8f2802f32bb716c1079e7f88856a5e6/tf_nightly_intel-2.14.0.dev20230604-cp39-cp39-win_amd64.whl
+[2023-06-06 02:10:05] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/d5/51/1031d8e161449897d272ae395fa675e226c5eabda2c1550b86b900953f9e/jaxutils-nightly-0.0.8.dev20230605.tar.gz
+[2023-06-06 02:10:05] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20369341>=10485760
+[2023-06-06 02:10:05] INFO root fetch - processPackages [bigdl-orca]: Start processing: bigdl
+[2023-06-06 02:10:05] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-06-06 02:10:05] INFO root fetch - processPackages [DAJIN2]: executing diffoscope
+[2023-06-06 02:10:05] INFO root fetch - processPackages [DAJIN2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DAJIN2-0.2.1.tar.gz tmp/DAJIN2-0.2.2.2.tar.gz --markdown 20230606/D/DAJIN2/0.2.1-0.2.2.2/diff.md --exclude *.pyd
+[2023-06-06 02:10:05] INFO root fetch - processPackages [adsorption-file-parser]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-06 02:10:05] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 182921805>=10485760
+[2023-06-06 02:10:05] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-06-06 02:10:05] INFO root fetch - processPackages [tomas]: executing diffoscope
+[2023-06-06 02:10:05] INFO root fetch - processPackages [tomas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tomas-0.1.8.tar.gz tmp/tomas-0.1.9.tar.gz --markdown 20230606/t/tomas/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 02:10:05] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-06-06 02:10:05] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230604.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230605.tar.gz --markdown 20230606/j/jaxutils-nightly/0.0.8.dev20230604-0.0.8.dev20230605/diff.md --exclude *.pyd
+[2023-06-06 02:10:05] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/32/29/2092bd60e141eb52cf13ea7e3446e88760b4da9086700ed444c3b5af9b5c/torchlayers-nightly-1685923637.tar.gz
+[2023-06-06 02:10:05] INFO root fetch - processPackages [adsorption-file-parser]: Downloading https://files.pythonhosted.org/packages/50/9c/d5b95bb3fe45da9665fc9d65b5c5780540ea226162236212f3da185c723c/adsorption_file_parser-0.2.5.tar.gz
+[2023-06-06 02:10:05] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230605] Old Version: [2.4.0b20230603]
+[2023-06-06 02:10:05] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/72/bb/af9ee4c96d43fa57c687a16bde71f829187527abd2347c4d13f5c6999cb5/bigdl_friesian-2.4.0b20230605-py3-none-manylinux1_x86_64.whl
+[2023-06-06 02:10:05] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-06-06 02:10:05] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1685837295.tar.gz tmp/torchlayers-nightly-1685923637.tar.gz --markdown 20230606/t/torchlayers-nightly/1685837295-1685923637/diff.md --exclude *.pyd
+[2023-06-06 02:10:05] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-06-06 02:10:05] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-06-06 02:10:05] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230603-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230605-py3-none-manylinux1_x86_64.whl.zip --markdown 20230606/b/bigdl-friesian/2.4.0b20230603-2.4.0b20230605/diff.md --exclude *.pyd
+[2023-06-06 02:10:05] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-06-06 02:10:05] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230606/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-06-06 02:10:05] INFO root fetch - processPackages [adsorption-file-parser]: Downloading https://files.pythonhosted.org/packages/d1/99/5e6b888be039cad18a908090f46e79d2a2437ee2adc5cff919ff5b3739ca/adsorption_file_parser-0.2.6.tar.gz
+[2023-06-06 02:10:05] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/d7/df/2426f4397fe0f588ea467aa1acb4ca2767b3d26a8a9987303bc73ce53e61/bigdl-2.4.0b20230603-py3-none-manylinux1_x86_64.whl
+[2023-06-06 02:10:06] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/32/cf/539082ba44a46bfe8585f96cd95bf751ae8f20466631001a4cd36a9b8add/bigdl-2.4.0b20230605-py3-none-manylinux1_x86_64.whl
+[2023-06-06 02:10:06] INFO root fetch - processPackages [adsorption-file-parser]: executing diffoscope
+[2023-06-06 02:10:06] INFO root fetch - processPackages [adsorption-file-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adsorption_file_parser-0.2.5.tar.gz tmp/adsorption_file_parser-0.2.6.tar.gz --markdown 20230606/a/adsorption-file-parser/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-06 02:10:06] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-06-06 02:10:06] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230603-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230605-py3-none-manylinux1_x86_64.whl.zip --markdown 20230606/b/bigdl/2.4.0b20230603-2.4.0b20230605/diff.md --exclude *.pyd
+[2023-06-06 02:10:06] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-06-06 02:10:06] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-06-06 02:10:06] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-06-06 02:10:06] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230604.tar.gz]
+[2023-06-06 02:10:06] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230605.tar.gz]
+[2023-06-06 02:10:06] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-06-06 02:10:06] INFO root fetch - processPackages [DAJIN2]: Remove: archive file [/home/abi/fetcher/tmp/DAJIN2-0.2.1.tar.gz]
+[2023-06-06 02:10:06] INFO root fetch - processPackages [DAJIN2]: Remove: archive file [/home/abi/fetcher/tmp/DAJIN2-0.2.2.2.tar.gz]
+[2023-06-06 02:10:06] INFO root fetch - main [MainThread]: End processing [DAJIN2]: success
+[2023-06-06 02:10:07] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1685837295.tar.gz]
+[2023-06-06 02:10:07] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1685923637.tar.gz]
+[2023-06-06 02:10:07] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-06-06 02:10:07] INFO root fetch - processPackages [tomas]: Remove: archive file [/home/abi/fetcher/tmp/tomas-0.1.8.tar.gz]
+[2023-06-06 02:10:07] INFO root fetch - processPackages [tomas]: Remove: archive file [/home/abi/fetcher/tmp/tomas-0.1.9.tar.gz]
+[2023-06-06 02:10:07] INFO root fetch - main [MainThread]: End processing [tomas]: success
+[2023-06-06 02:10:07] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230603-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-06 02:10:07] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230605-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-06 02:10:07] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-06-06 02:10:07] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230603-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-06 02:10:07] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230605-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-06 02:10:07] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-06-06 02:10:08] INFO root fetch - processPackages [adsorption-file-parser]: Remove: archive file [/home/abi/fetcher/tmp/adsorption_file_parser-0.2.5.tar.gz]
+[2023-06-06 02:10:08] INFO root fetch - processPackages [adsorption-file-parser]: Remove: archive file [/home/abi/fetcher/tmp/adsorption_file_parser-0.2.6.tar.gz]
+[2023-06-06 02:10:08] INFO root fetch - main [MainThread]: End processing [adsorption-file-parser]: success
+[2023-06-06 02:10:59] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-06-06 02:10:59] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-06-06 02:10:59] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-06-06 02:10:59] INFO root fetch - main [MainThread]: Store serial: [18382871]
