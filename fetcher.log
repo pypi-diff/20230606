@@ -13279,3 +13279,131 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 07:52:49] INFO root fetch - processPackages [viser]: Remove: archive file [/home/abi/fetcher/tmp/viser-0.0.9.tar.gz]
 [2023-06-06 07:52:49] INFO root fetch - main [MainThread]: End processing [viser]: success
 [2023-06-06 07:52:49] INFO root fetch - main [MainThread]: Store serial: [18387101]
+[2023-06-06 07:57:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18387101]
+[2023-06-06 07:57:59] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-06 07:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: HomoglyphsCJK
+[2023-06-06 07:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: muffin-peewee-aio
+[2023-06-06 07:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ertk
+[2023-06-06 07:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: muffin-peewee-aio
+[2023-06-06 07:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Image-filtering
+[2023-06-06 07:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: appier-report
+[2023-06-06 07:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ukis-pysat
+[2023-06-06 07:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scdef
+[2023-06-06 07:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addon-web-timeline
+[2023-06-06 07:57:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: refaci
+[2023-06-06 07:57:59] INFO root fetch - processPackages [muffin-peewee-aio]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-06 07:57:59] INFO root fetch - processPackages [Image-filtering]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-06 07:57:59] INFO root fetch - processPackages [HomoglyphsCJK]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-06 07:57:59] INFO root fetch - processPackages [scdef]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 07:57:59] INFO root fetch - processPackages [ertk]: New version: [2023.6.0] Old Version: [2022.4.0]
+[2023-06-06 07:57:59] INFO root fetch - processPackages [muffin-peewee-aio]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-06 07:57:59] INFO root fetch - processPackages [odoo-addon-web-timeline]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.5]
+[2023-06-06 07:57:59] INFO root fetch - processPackages [ukis-pysat]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-06-06 07:57:59] INFO root fetch - processPackages [refaci]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-06 07:58:00] WARNING root fetch - processPackages [appier-report]: Skipping, unable to determine old version
+[2023-06-06 07:58:00] INFO root fetch - processPackages [appier-report]: Start processing: sciform
+[2023-06-06 07:58:00] INFO root fetch - main [MainThread]: End processing [appier-report] error
+[2023-06-06 07:58:00] INFO root fetch - processPackages [sciform]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-06 07:58:00] INFO root fetch - processPackages [HomoglyphsCJK]: Downloading https://files.pythonhosted.org/packages/fa/9f/16cc11465805869f9c43aacef51eba97520066f7ff90e7a251b52511cd8b/HomoglyphsCJK-0.1.3.tar.gz
+[2023-06-06 07:58:00] INFO root fetch - processPackages [refaci]: Downloading https://files.pythonhosted.org/packages/1e/5c/6b8587147e30088ceca46f7574697033d1bf94764d73acac9a9047a02894/refaci-0.5.0.tar.gz
+[2023-06-06 07:58:00] INFO root fetch - processPackages [Image-filtering]: Downloading https://files.pythonhosted.org/packages/02/a6/5bec837a563a430d3a3547db30cb77d7152c88c9fcedb67b9f31e70fd5bf/Image_filtering-0.0.1.tar.gz
+[2023-06-06 07:58:00] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/2f/58/34f63bab80258461bddd7195b72169a511cc08aab09ba14794e48b1238fd/sciform-0.6.1.tar.gz
+[2023-06-06 07:58:00] INFO root fetch - processPackages [odoo-addon-web-timeline]: Downloading https://files.pythonhosted.org/packages/5f/49/ffe33e86d27d71e434932ce2e283e5a67e85bc2e103cac833111ef811871/odoo_addon_web_timeline-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-06 07:58:00] INFO root fetch - processPackages [muffin-peewee-aio]: Downloading https://files.pythonhosted.org/packages/5b/d5/a636e8a8df10fc477e69a4d9d0bfb35ec2c82b689e08e2981018efdbc040/muffin-peewee-aio-0.9.5.tar.gz
+[2023-06-06 07:58:00] INFO root fetch - processPackages [scdef]: Downloading https://files.pythonhosted.org/packages/14/da/7a55cf6d002a3e3740fa74bdfd6bedb44daa7bdd349c50a0c8200503f718/scdef-0.0.8.tar.gz
+[2023-06-06 07:58:00] INFO root fetch - processPackages [muffin-peewee-aio]: Downloading https://files.pythonhosted.org/packages/5b/d5/a636e8a8df10fc477e69a4d9d0bfb35ec2c82b689e08e2981018efdbc040/muffin-peewee-aio-0.9.5.tar.gz
+[2023-06-06 07:58:00] INFO root fetch - processPackages [ertk]: Downloading https://files.pythonhosted.org/packages/4e/3a/9b2e3a7f17cb3146a79389e49f759b071697d5826f7502eff5c7d8c88fef/ertk-2022.4.0.tar.gz
+[2023-06-06 07:58:00] INFO root fetch - processPackages [ukis-pysat]: Downloading https://files.pythonhosted.org/packages/d5/1e/b6b7d04906f18ae3bd75129cb74f1789a4ded84f113ddab740c817ac0490/ukis-pysat-1.5.0.tar.gz
+[2023-06-06 07:58:00] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/24/7e/120e22e85b687992298aad67114fdb262d54a1f9509498625571504c28b4/sciform-0.7.0.tar.gz
+[2023-06-06 07:58:00] INFO root fetch - processPackages [HomoglyphsCJK]: Downloading https://files.pythonhosted.org/packages/3b/7e/c9f58666188abd32dfe26c5d7b3c27b7fc1db9c64ad57d5fede1ae2d679e/HomoglyphsCJK-0.1.4.tar.gz
+[2023-06-06 07:58:00] INFO root fetch - processPackages [Image-filtering]: Downloading https://files.pythonhosted.org/packages/f2/4b/576922fc7e9da8fd5434baee34fd6fac0ac2cf647bf49fb3546e499130ea/Image_filtering-0.0.2.tar.gz
+[2023-06-06 07:58:00] INFO root fetch - processPackages [scdef]: Downloading https://files.pythonhosted.org/packages/3f/ef/97867881ddc52b3b57d897ac54ededcdaff33e04bde2adcfc24302063849/scdef-0.0.9.tar.gz
+[2023-06-06 07:58:00] INFO root fetch - processPackages [sciform]: executing diffoscope
+[2023-06-06 07:58:00] INFO root fetch - processPackages [sciform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciform-0.6.1.tar.gz tmp/sciform-0.7.0.tar.gz --markdown 20230606/s/sciform/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-06 07:58:00] INFO root fetch - processPackages [odoo-addon-web-timeline]: Downloading https://files.pythonhosted.org/packages/a0/fa/1e0d731177bdd5f6f787d599356aab9fe71cb028dc6ed3736786b080b837/odoo_addon_web_timeline-16.0.1.0.1-py3-none-any.whl
+[2023-06-06 07:58:00] INFO root fetch - processPackages [refaci]: Downloading https://files.pythonhosted.org/packages/c0/b9/b875d94279c3096e54eee1b750c276490a619813d55d8b2e907fdcc40a07/refaci-0.6.0.tar.gz
+[2023-06-06 07:58:00] INFO root fetch - processPackages [HomoglyphsCJK]: executing diffoscope
+[2023-06-06 07:58:00] INFO root fetch - processPackages [ertk]: Downloading https://files.pythonhosted.org/packages/74/79/2be86ebfdb8cee3250dc64f34714d989803695ddbbbec22624a5c169ff44/ertk-2023.6.0.tar.gz
+[2023-06-06 07:58:00] INFO root fetch - processPackages [HomoglyphsCJK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HomoglyphsCJK-0.1.3.tar.gz tmp/HomoglyphsCJK-0.1.4.tar.gz --markdown 20230606/H/HomoglyphsCJK/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-06 07:58:00] INFO root fetch - processPackages [muffin-peewee-aio]: Downloading https://files.pythonhosted.org/packages/39/ad/8d3dd8e528325c72abcd5e16c902b2a6a2b3ec882e5710e06cdbbcbd1a4b/muffin-peewee-aio-0.9.6.tar.gz
+[2023-06-06 07:58:00] INFO root fetch - processPackages [muffin-peewee-aio]: Downloading https://files.pythonhosted.org/packages/39/ad/8d3dd8e528325c72abcd5e16c902b2a6a2b3ec882e5710e06cdbbcbd1a4b/muffin-peewee-aio-0.9.6.tar.gz
+[2023-06-06 07:58:00] INFO root fetch - processPackages [ukis-pysat]: Downloading https://files.pythonhosted.org/packages/04/05/24452608fa6603ca7820dc5d759884e8eb66dafcd6c232e4705012c14f25/ukis-pysat-1.5.1.tar.gz
+[2023-06-06 07:58:00] INFO root fetch - processPackages [odoo-addon-web-timeline]: executing diffoscope
+[2023-06-06 07:58:00] INFO root fetch - processPackages [odoo-addon-web-timeline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_web_timeline-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_web_timeline-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-web-timeline/16.0.1.0.0.5-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-06-06 07:58:00] INFO root fetch - processPackages [Image-filtering]: executing diffoscope
+[2023-06-06 07:58:00] INFO root fetch - processPackages [Image-filtering]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Image_filtering-0.0.1.tar.gz tmp/Image_filtering-0.0.2.tar.gz --markdown 20230606/I/Image-filtering/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-06 07:58:00] INFO root fetch - processPackages [ertk]: executing diffoscope
+[2023-06-06 07:58:00] INFO root fetch - processPackages [ertk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ertk-2022.4.0.tar.gz tmp/ertk-2023.6.0.tar.gz --markdown 20230606/e/ertk/2022.4.0-2023.6.0/diff.md --exclude *.pyd
+[2023-06-06 07:58:00] INFO root fetch - processPackages [scdef]: executing diffoscope
+[2023-06-06 07:58:00] INFO root fetch - processPackages [scdef]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scdef-0.0.8.tar.gz tmp/scdef-0.0.9.tar.gz --markdown 20230606/s/scdef/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 07:58:00] INFO root fetch - processPackages [ukis-pysat]: executing diffoscope
+[2023-06-06 07:58:00] INFO root fetch - processPackages [ukis-pysat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ukis-pysat-1.5.0.tar.gz tmp/ukis-pysat-1.5.1.tar.gz --markdown 20230606/u/ukis-pysat/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-06-06 07:58:00] INFO root fetch - processPackages [refaci]: executing diffoscope
+[2023-06-06 07:58:00] INFO root fetch - processPackages [refaci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refaci-0.5.0.tar.gz tmp/refaci-0.6.0.tar.gz --markdown 20230606/r/refaci/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-06 07:58:00] INFO root fetch - processPackages [muffin-peewee-aio]: executing diffoscope
+[2023-06-06 07:58:00] INFO root fetch - processPackages [muffin-peewee-aio]: executing diffoscope
+[2023-06-06 07:58:00] INFO root fetch - processPackages [muffin-peewee-aio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin-peewee-aio-0.9.5.tar.gz tmp/muffin-peewee-aio-0.9.6.tar.gz --markdown 20230606/m/muffin-peewee-aio/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-06 07:58:00] INFO root fetch - processPackages [muffin-peewee-aio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin-peewee-aio-0.9.5.tar.gz tmp/muffin-peewee-aio-0.9.6.tar.gz --markdown 20230606/m/muffin-peewee-aio/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-06 07:58:01] INFO root fetch - processPackages [HomoglyphsCJK]: Remove: archive file [/home/abi/fetcher/tmp/HomoglyphsCJK-0.1.3.tar.gz]
+[2023-06-06 07:58:01] INFO root fetch - processPackages [HomoglyphsCJK]: Remove: archive file [/home/abi/fetcher/tmp/HomoglyphsCJK-0.1.4.tar.gz]
+[2023-06-06 07:58:01] INFO root fetch - processPackages [HomoglyphsCJK]: Start processing: muffin-peewee-aio
+[2023-06-06 07:58:01] INFO root fetch - main [MainThread]: End processing [HomoglyphsCJK]: success
+[2023-06-06 07:58:01] INFO root fetch - processPackages [muffin-peewee-aio]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-06 07:58:02] INFO root fetch - processPackages [Image-filtering]: Remove: archive file [/home/abi/fetcher/tmp/Image_filtering-0.0.1.tar.gz]
+[2023-06-06 07:58:02] INFO root fetch - processPackages [Image-filtering]: Remove: archive file [/home/abi/fetcher/tmp/Image_filtering-0.0.2.tar.gz]
+[2023-06-06 07:58:02] INFO root fetch - processPackages [Image-filtering]: Start processing: refaci
+[2023-06-06 07:58:02] INFO root fetch - main [MainThread]: End processing [Image-filtering]: success
+[2023-06-06 07:58:02] INFO root fetch - processPackages [refaci]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-06 07:58:02] INFO root fetch - processPackages [muffin-peewee-aio]: executing diffoscope
+[2023-06-06 07:58:02] INFO root fetch - processPackages [muffin-peewee-aio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin-peewee-aio-0.9.5.tar.gz tmp/muffin-peewee-aio-0.9.6.tar.gz --markdown 20230606/m/muffin-peewee-aio/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-06 07:58:02] INFO root fetch - processPackages [refaci]: executing diffoscope
+[2023-06-06 07:58:02] INFO root fetch - processPackages [refaci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refaci-0.5.0.tar.gz tmp/refaci-0.6.0.tar.gz --markdown 20230606/r/refaci/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-06 07:58:02] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.6.1.tar.gz]
+[2023-06-06 07:58:02] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.7.0.tar.gz]
+[2023-06-06 07:58:02] INFO root fetch - processPackages [sciform]: Start processing: obs-cli
+[2023-06-06 07:58:02] INFO root fetch - main [MainThread]: End processing [sciform]: success
+[2023-06-06 07:58:02] INFO root fetch - processPackages [obs-cli]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-06 07:58:02] INFO root fetch - processPackages [obs-cli]: Downloading https://files.pythonhosted.org/packages/29/49/f5dddc539e5750b9fa0bd5991c62a19bc104ccf086c3f1734231bbe0fa61/obs-cli-0.5.2.tar.gz
+[2023-06-06 07:58:02] INFO root fetch - processPackages [muffin-peewee-aio]: Remove: archive file [/home/abi/fetcher/tmp/muffin-peewee-aio-0.9.5.tar.gz]
+[2023-06-06 07:58:02] INFO root fetch - processPackages [muffin-peewee-aio]: Remove: archive file [/home/abi/fetcher/tmp/muffin-peewee-aio-0.9.6.tar.gz]
+[2023-06-06 07:58:02] INFO root fetch - processPackages [muffin-peewee-aio]: Start processing: mock-data-generator
+[2023-06-06 07:58:02] INFO root fetch - main [MainThread]: End processing [muffin-peewee-aio]: success
+[2023-06-06 07:58:02] INFO root fetch - processPackages [mock-data-generator]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-06 07:58:02] INFO root fetch - main [MainThread]: End processing [muffin-peewee-aio]: success
+[2023-06-06 07:58:02] INFO root fetch - processPackages [refaci]: Remove: archive file [/home/abi/fetcher/tmp/refaci-0.5.0.tar.gz]
+[2023-06-06 07:58:02] INFO root fetch - processPackages [refaci]: Remove: archive file [/home/abi/fetcher/tmp/refaci-0.6.0.tar.gz]
+[2023-06-06 07:58:02] INFO root fetch - main [MainThread]: End processing [refaci]: success
+[2023-06-06 07:58:02] INFO root fetch - processPackages [mock-data-generator]: Downloading https://files.pythonhosted.org/packages/fc/07/6fef9ee9bdf9988349a8763514473e2a431c957a679a3c78011c5946a8cd/mock_data_generator-1.2.2.tar.gz
+[2023-06-06 07:58:02] INFO root fetch - processPackages [scdef]: Remove: archive file [/home/abi/fetcher/tmp/scdef-0.0.8.tar.gz]
+[2023-06-06 07:58:02] INFO root fetch - processPackages [scdef]: Remove: archive file [/home/abi/fetcher/tmp/scdef-0.0.9.tar.gz]
+[2023-06-06 07:58:02] INFO root fetch - main [MainThread]: End processing [scdef]: success
+[2023-06-06 07:58:02] INFO root fetch - processPackages [obs-cli]: Downloading https://files.pythonhosted.org/packages/9a/88/c333f5ab4c8c4125652854d047882591fe4598d56b8e8302c33c207ab655/obs-cli-0.5.3.tar.gz
+[2023-06-06 07:58:02] INFO root fetch - processPackages [mock-data-generator]: Downloading https://files.pythonhosted.org/packages/ef/b4/875afb68d16e8a54ef21d74b2971bd7be0f8621d70b11f29d939275aaae5/mock_data_generator-1.2.3.tar.gz
+[2023-06-06 07:58:02] INFO root fetch - processPackages [obs-cli]: executing diffoscope
+[2023-06-06 07:58:02] INFO root fetch - processPackages [obs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obs-cli-0.5.2.tar.gz tmp/obs-cli-0.5.3.tar.gz --markdown 20230606/o/obs-cli/0.5.2-0.5.3/diff.md --exclude *.pyd
+[2023-06-06 07:58:02] INFO root fetch - processPackages [odoo-addon-web-timeline]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_timeline-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-06 07:58:02] INFO root fetch - processPackages [odoo-addon-web-timeline]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_web_timeline-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-06 07:58:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-web-timeline]: success
+[2023-06-06 07:58:02] INFO root fetch - processPackages [mock-data-generator]: executing diffoscope
+[2023-06-06 07:58:02] INFO root fetch - processPackages [mock-data-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mock_data_generator-1.2.2.tar.gz tmp/mock_data_generator-1.2.3.tar.gz --markdown 20230606/m/mock-data-generator/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-06 07:58:02] INFO root fetch - processPackages [ukis-pysat]: Remove: archive file [/home/abi/fetcher/tmp/ukis-pysat-1.5.0.tar.gz]
+[2023-06-06 07:58:02] INFO root fetch - processPackages [ukis-pysat]: Remove: archive file [/home/abi/fetcher/tmp/ukis-pysat-1.5.1.tar.gz]
+[2023-06-06 07:58:02] INFO root fetch - main [MainThread]: End processing [ukis-pysat]: success
+[2023-06-06 07:58:02] ERROR root fetch - processPackages [muffin-peewee-aio]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/muffin-peewee-aio-0.9.5.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/muffin-peewee-aio-0.9.6.tar.gz: No such file or directory
+
+[2023-06-06 07:58:02] INFO root fetch - main [MainThread]: End processing [muffin-peewee-aio] error
+[2023-06-06 07:58:03] ERROR root fetch - processPackages [refaci]: Diffoscope failed: /srv/diffoscope/bin/diffoscope: tmp/refaci-0.5.0.tar.gz: No such file or directory
+/srv/diffoscope/bin/diffoscope: tmp/refaci-0.6.0.tar.gz: No such file or directory
+
+[2023-06-06 07:58:03] INFO root fetch - main [MainThread]: End processing [refaci] error
+[2023-06-06 07:58:03] INFO root fetch - processPackages [mock-data-generator]: Remove: archive file [/home/abi/fetcher/tmp/mock_data_generator-1.2.2.tar.gz]
+[2023-06-06 07:58:03] INFO root fetch - processPackages [mock-data-generator]: Remove: archive file [/home/abi/fetcher/tmp/mock_data_generator-1.2.3.tar.gz]
+[2023-06-06 07:58:03] INFO root fetch - main [MainThread]: End processing [mock-data-generator]: success
+[2023-06-06 07:58:03] INFO root fetch - processPackages [obs-cli]: Remove: archive file [/home/abi/fetcher/tmp/obs-cli-0.5.2.tar.gz]
+[2023-06-06 07:58:03] INFO root fetch - processPackages [obs-cli]: Remove: archive file [/home/abi/fetcher/tmp/obs-cli-0.5.3.tar.gz]
+[2023-06-06 07:58:03] INFO root fetch - main [MainThread]: End processing [obs-cli]: success
+[2023-06-06 07:58:04] INFO root fetch - processPackages [ertk]: Remove: archive file [/home/abi/fetcher/tmp/ertk-2022.4.0.tar.gz]
+[2023-06-06 07:58:04] INFO root fetch - processPackages [ertk]: Remove: archive file [/home/abi/fetcher/tmp/ertk-2023.6.0.tar.gz]
+[2023-06-06 07:58:04] INFO root fetch - main [MainThread]: End processing [ertk]: success
+[2023-06-06 07:58:04] INFO root fetch - main [MainThread]: Store serial: [18387150]
