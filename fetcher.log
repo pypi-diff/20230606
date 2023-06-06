@@ -12095,3 +12095,122 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 06:33:45] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2023.6.6.tar.gz]
 [2023-06-06 06:33:45] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
 [2023-06-06 06:33:45] INFO root fetch - main [MainThread]: Store serial: [18386610]
+[2023-06-06 06:38:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18386610]
+[2023-06-06 06:38:54] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-06 06:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-product-pack
+[2023-06-06 06:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-stock-product-pack
+[2023-06-06 06:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-sale-product-pack
+[2023-06-06 06:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-product-pack
+[2023-06-06 06:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: linkedin-messaging
+[2023-06-06 06:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: camply
+[2023-06-06 06:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PIX-engine
+[2023-06-06 06:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: macrometa-source-collection
+[2023-06-06 06:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ana-sdk
+[2023-06-06 06:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tf-nightly-macos
+[2023-06-06 06:38:54] INFO root fetch - processPackages [odoo-addon-product-pack]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2023-06-06 06:38:54] INFO root fetch - processPackages [odoo-addon-sale-product-pack]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.5]
+[2023-06-06 06:38:54] INFO root fetch - processPackages [PIX-engine]: New version: [0.2.0rc1] Old Version: [0.1.0]
+[2023-06-06 06:38:54] INFO root fetch - processPackages [odoo-addons-oca-product-pack]: New version: [16.0.20230605.1] Old Version: [16.0.20230228.0]
+[2023-06-06 06:38:54] INFO root fetch - processPackages [odoo-addon-stock-product-pack]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-06 06:38:54] INFO root fetch - processPackages [macrometa-source-collection]: New version: [0.0.37] Old Version: [0.0.36]
+[2023-06-06 06:38:54] INFO root fetch - processPackages [ana-sdk]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-06 06:38:54] INFO root fetch - processPackages [linkedin-messaging]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-06-06 06:38:54] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.14.0.dev20230604] Old Version: [2.14.0.dev20230603]
+[2023-06-06 06:38:54] INFO root fetch - processPackages [camply]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-06 06:38:54] INFO root fetch - processPackages [ana-sdk]: Downloading https://files.pythonhosted.org/packages/a7/25/f53465ae6229ac4131d1f591337441d7be3352df99e8b6e53b5b6991480d/ana_sdk-0.3.8.tar.gz
+[2023-06-06 06:38:54] INFO root fetch - processPackages [odoo-addon-sale-product-pack]: Downloading https://files.pythonhosted.org/packages/76/ac/91503d99384d2d574529a6fbadb140508a017e661445fe63fc552887f104/odoo_addon_sale_product_pack-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-06 06:38:54] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/1e/c0/787483e014606f5092e45b7dc3e1784b773e7f4c233f762ffe2236c13d50/macrometa-source-collection-0.0.36.tar.gz
+[2023-06-06 06:38:54] INFO root fetch - processPackages [odoo-addon-stock-product-pack]: Downloading https://files.pythonhosted.org/packages/1f/94/97316b4d9cb634ad0ec3c8582f20e660ebec9842a36d22722d9e2ca85322/odoo_addon_stock_product_pack-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-06 06:38:54] INFO root fetch - processPackages [ana-sdk]: Downloading https://files.pythonhosted.org/packages/00/1e/7882d95ed2838f0193893edb0c5dfc58f20b2b763d0d3ebceec3eca2b970/ana_sdk-0.3.9.tar.gz
+[2023-06-06 06:38:54] INFO root fetch - processPackages [PIX-engine]: Downloading https://files.pythonhosted.org/packages/5e/01/a345ceee06a9a69128a7cdb032843d695cb01dea2322c3f233ce263169e0/pix_engine-0.1.0.tar.gz
+[2023-06-06 06:38:54] INFO root fetch - processPackages [odoo-addon-product-pack]: Downloading https://files.pythonhosted.org/packages/ee/95/7fb45366dda590f9082f1756d4510ab79260e7f30fe364a6789144ee9dba/odoo_addon_product_pack-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-06 06:38:54] INFO root fetch - processPackages [odoo-addons-oca-product-pack]: Downloading https://files.pythonhosted.org/packages/b4/93/934e6c6abaaea35e1284b3b5fa862907c59f45ee2e16a7fcafc5dfb6d5a8/odoo_addons_oca_product_pack-16.0.20230228.0-py3-none-any.whl
+[2023-06-06 06:38:54] INFO root fetch - processPackages [ana-sdk]: executing diffoscope
+[2023-06-06 06:38:54] INFO root fetch - processPackages [ana-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ana_sdk-0.3.8.tar.gz tmp/ana_sdk-0.3.9.tar.gz --markdown 20230606/a/ana-sdk/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-06 06:38:54] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/5d/61/1e557418a7125cd3956dd7a4db5e099558e6a4fe5850b88fb81ad4d0dea7/tf_nightly_macos-2.14.0.dev20230603-cp39-cp39-macosx_12_0_arm64.whl
+[2023-06-06 06:38:54] INFO root fetch - processPackages [linkedin-messaging]: Downloading https://files.pythonhosted.org/packages/ef/de/4888fcfb3e84d3818b370ab0b179f5ad9ce3746b1fff19c27643610123a6/linkedin-messaging-0.5.5.tar.gz
+[2023-06-06 06:38:54] INFO root fetch - processPackages [camply]: Downloading https://files.pythonhosted.org/packages/b6/1e/0f4c1cd15a9dc716c825ce9473f46b8d514cdeef6ffa87576366bf2588f5/camply-0.9.2.tar.gz
+[2023-06-06 06:38:54] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/50/1c/7a02dad4deed4b1cc1f570298aa605c44e7c740d9f76dbd540db9f136833/macrometa-source-collection-0.0.37.tar.gz
+[2023-06-06 06:38:54] INFO root fetch - processPackages [odoo-addon-sale-product-pack]: Downloading https://files.pythonhosted.org/packages/28/b9/243fb06b3e7b7d50eb809985e7761fc963bd859de35f4c6ac9568a4b2364/odoo_addon_sale_product_pack-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-06 06:38:54] INFO root fetch - processPackages [macrometa-source-collection]: executing diffoscope
+[2023-06-06 06:38:54] INFO root fetch - processPackages [macrometa-source-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-collection-0.0.36.tar.gz tmp/macrometa-source-collection-0.0.37.tar.gz --markdown 20230606/m/macrometa-source-collection/0.0.36-0.0.37/diff.md --exclude *.pyd
+[2023-06-06 06:38:54] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 197055451>=10485760
+[2023-06-06 06:38:54] INFO root fetch - processPackages [tf-nightly-macos]: Start processing: hrin-msb
+[2023-06-06 06:38:54] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-06-06 06:38:54] INFO root fetch - processPackages [odoo-addon-stock-product-pack]: Downloading https://files.pythonhosted.org/packages/35/7b/7f38ce73adee665600bd10095f8620c5c6c522fd8de39acec69ba0c721aa/odoo_addon_stock_product_pack-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-06 06:38:54] INFO root fetch - processPackages [PIX-engine]: Downloading https://files.pythonhosted.org/packages/2b/73/03acc0c9f3930d7c7d3e3cf9797c27adbe1c51037ca5b2d906494e5d5f28/pix_engine-0.2.0rc1.tar.gz
+[2023-06-06 06:38:54] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-06 06:38:54] INFO root fetch - processPackages [odoo-addon-product-pack]: Downloading https://files.pythonhosted.org/packages/d1/b8/1d3cbba85bef91650cc598b11f4bd5cd4a707f3e54bf00f99924f44b2d47/odoo_addon_product_pack-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-06 06:38:54] INFO root fetch - processPackages [odoo-addon-sale-product-pack]: executing diffoscope
+[2023-06-06 06:38:54] INFO root fetch - processPackages [odoo-addon-sale-product-pack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_product_pack-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_sale_product_pack-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-sale-product-pack/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-06-06 06:38:54] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/01/68/1789fa953fb7468267c85f88fd2bd30966fc7095fa1019588962e2e45635/hrin_msb-0.2.8.tar.gz
+[2023-06-06 06:38:54] INFO root fetch - processPackages [odoo-addons-oca-product-pack]: Downloading https://files.pythonhosted.org/packages/d7/ce/df1929c43096b1f190eba1568346f1f5efb34137650d77f74c6a61d89fd1/odoo_addons_oca_product_pack-16.0.20230605.1-py3-none-any.whl
+[2023-06-06 06:38:54] INFO root fetch - processPackages [odoo-addon-stock-product-pack]: executing diffoscope
+[2023-06-06 06:38:54] INFO root fetch - processPackages [odoo-addon-stock-product-pack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_product_pack-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_stock_product_pack-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-stock-product-pack/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-06 06:38:54] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/f7/94/d59c8a5b3bee420117fc2d467d62317feecd19b8b1d838107abbbf1f5528/hrin_msb-0.2.9.tar.gz
+[2023-06-06 06:38:54] INFO root fetch - processPackages [odoo-addon-product-pack]: executing diffoscope
+[2023-06-06 06:38:54] INFO root fetch - processPackages [PIX-engine]: executing diffoscope
+[2023-06-06 06:38:54] INFO root fetch - processPackages [odoo-addon-product-pack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_pack-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_product_pack-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-product-pack/16.0.1.0.0.5-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-06-06 06:38:54] INFO root fetch - processPackages [PIX-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pix_engine-0.1.0.tar.gz tmp/pix_engine-0.2.0rc1.tar.gz --markdown 20230606/P/PIX-engine/0.1.0-0.2.0rc1/diff.md --exclude *.pyd
+[2023-06-06 06:38:54] INFO root fetch - processPackages [linkedin-messaging]: Downloading https://files.pythonhosted.org/packages/e8/d3/d66909cc38ba25f8194a155db5ef7167c30efe2ba7192f4136351e03b007/linkedin-messaging-0.5.6.tar.gz
+[2023-06-06 06:38:54] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2023-06-06 06:38:54] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.8.tar.gz tmp/hrin_msb-0.2.9.tar.gz --markdown 20230606/h/hrin-msb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-06 06:38:54] INFO root fetch - processPackages [odoo-addons-oca-product-pack]: executing diffoscope
+[2023-06-06 06:38:54] INFO root fetch - processPackages [odoo-addons-oca-product-pack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_product_pack-16.0.20230228.0-py3-none-any.whl.zip tmp/odoo_addons_oca_product_pack-16.0.20230605.1-py3-none-any.whl.zip --markdown 20230606/o/odoo-addons-oca-product-pack/16.0.20230228.0-16.0.20230605.1/diff.md --exclude *.pyd
+[2023-06-06 06:38:54] INFO root fetch - processPackages [linkedin-messaging]: executing diffoscope
+[2023-06-06 06:38:54] INFO root fetch - processPackages [linkedin-messaging]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linkedin-messaging-0.5.5.tar.gz tmp/linkedin-messaging-0.5.6.tar.gz --markdown 20230606/l/linkedin-messaging/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-06-06 06:38:54] INFO root fetch - processPackages [camply]: Downloading https://files.pythonhosted.org/packages/3e/d1/4f9e81a5f74b69b8f9c95b378d56780fcddfa4ab3f0f8226c1a7a7116867/camply-0.9.3.tar.gz
+[2023-06-06 06:38:55] INFO root fetch - processPackages [camply]: executing diffoscope
+[2023-06-06 06:38:55] INFO root fetch - processPackages [camply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camply-0.9.2.tar.gz tmp/camply-0.9.3.tar.gz --markdown 20230606/c/camply/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-06 06:38:55] INFO root fetch - processPackages [ana-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ana_sdk-0.3.8.tar.gz]
+[2023-06-06 06:38:55] INFO root fetch - processPackages [ana-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ana_sdk-0.3.9.tar.gz]
+[2023-06-06 06:38:55] INFO root fetch - processPackages [ana-sdk]: Start processing: MLPlus
+[2023-06-06 06:38:55] INFO root fetch - main [MainThread]: End processing [ana-sdk]: success
+[2023-06-06 06:38:55] WARNING root fetch - processPackages [MLPlus]: Skipping, unable to determine old version
+[2023-06-06 06:38:55] INFO root fetch - processPackages [MLPlus]: Start processing: ecape
+[2023-06-06 06:38:55] INFO root fetch - main [MainThread]: End processing [MLPlus] error
+[2023-06-06 06:38:55] INFO root fetch - processPackages [ecape]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-06 06:38:55] INFO root fetch - processPackages [ecape]: Downloading https://files.pythonhosted.org/packages/5d/5f/5901f9b9248796e84b87fbad4de3a997827a90dd50b1822bc7ef32d908b9/ecape-0.0.7.tar.gz
+[2023-06-06 06:38:55] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.36.tar.gz]
+[2023-06-06 06:38:55] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.37.tar.gz]
+[2023-06-06 06:38:55] INFO root fetch - processPackages [macrometa-source-collection]: Start processing: odoo-addons-oca-project
+[2023-06-06 06:38:55] INFO root fetch - main [MainThread]: End processing [macrometa-source-collection]: success
+[2023-06-06 06:38:56] INFO root fetch - processPackages [odoo-addons-oca-project]: New version: [16.0.20230605.0] Old Version: [16.0.20230525.0]
+[2023-06-06 06:38:56] INFO root fetch - processPackages [ecape]: Downloading https://files.pythonhosted.org/packages/62/4b/3735052007a263deef9573a157edc8ee3fe19b0b8de2b539b49d10a13092/ecape-0.0.8.tar.gz
+[2023-06-06 06:38:56] INFO root fetch - processPackages [odoo-addon-sale-product-pack]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_product_pack-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-06 06:38:56] INFO root fetch - processPackages [odoo-addon-sale-product-pack]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_product_pack-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-06 06:38:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-product-pack]: success
+[2023-06-06 06:38:56] INFO root fetch - processPackages [ecape]: executing diffoscope
+[2023-06-06 06:38:56] INFO root fetch - processPackages [ecape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecape-0.0.7.tar.gz tmp/ecape-0.0.8.tar.gz --markdown 20230606/e/ecape/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-06 06:38:56] INFO root fetch - processPackages [odoo-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/d8/a2/75c9aa593da9bb24731d54d36fb7d9f97299f735f152cff9b54dc3122d40/odoo_addons_oca_project-16.0.20230525.0-py3-none-any.whl
+[2023-06-06 06:38:56] INFO root fetch - processPackages [odoo-addon-stock-product-pack]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_product_pack-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-06 06:38:56] INFO root fetch - processPackages [odoo-addon-stock-product-pack]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_product_pack-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-06 06:38:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-product-pack]: success
+[2023-06-06 06:38:56] INFO root fetch - processPackages [odoo-addons-oca-project]: Downloading https://files.pythonhosted.org/packages/01/71/67687824aabfb570d91834d308b2b055762e0424710ae53a79d14ef11257/odoo_addons_oca_project-16.0.20230605.0-py3-none-any.whl
+[2023-06-06 06:38:56] INFO root fetch - processPackages [odoo-addon-product-pack]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_pack-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-06 06:38:56] INFO root fetch - processPackages [odoo-addon-product-pack]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_pack-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-06 06:38:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-pack]: success
+[2023-06-06 06:38:56] INFO root fetch - processPackages [PIX-engine]: Remove: archive file [/home/abi/fetcher/tmp/pix_engine-0.1.0.tar.gz]
+[2023-06-06 06:38:56] INFO root fetch - processPackages [PIX-engine]: Remove: archive file [/home/abi/fetcher/tmp/pix_engine-0.2.0rc1.tar.gz]
+[2023-06-06 06:38:56] INFO root fetch - main [MainThread]: End processing [PIX-engine]: success
+[2023-06-06 06:38:56] INFO root fetch - processPackages [odoo-addons-oca-product-pack]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_product_pack-16.0.20230228.0-py3-none-any.whl.zip]
+[2023-06-06 06:38:56] INFO root fetch - processPackages [odoo-addons-oca-product-pack]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_product_pack-16.0.20230605.1-py3-none-any.whl.zip]
+[2023-06-06 06:38:56] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-product-pack]: success
+[2023-06-06 06:38:56] INFO root fetch - processPackages [odoo-addons-oca-project]: executing diffoscope
+[2023-06-06 06:38:56] INFO root fetch - processPackages [odoo-addons-oca-project]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_project-16.0.20230525.0-py3-none-any.whl.zip tmp/odoo_addons_oca_project-16.0.20230605.0-py3-none-any.whl.zip --markdown 20230606/o/odoo-addons-oca-project/16.0.20230525.0-16.0.20230605.0/diff.md --exclude *.pyd
+[2023-06-06 06:38:57] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.8.tar.gz]
+[2023-06-06 06:38:57] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.9.tar.gz]
+[2023-06-06 06:38:57] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2023-06-06 06:38:57] INFO root fetch - processPackages [linkedin-messaging]: Remove: archive file [/home/abi/fetcher/tmp/linkedin-messaging-0.5.5.tar.gz]
+[2023-06-06 06:38:57] INFO root fetch - processPackages [linkedin-messaging]: Remove: archive file [/home/abi/fetcher/tmp/linkedin-messaging-0.5.6.tar.gz]
+[2023-06-06 06:38:57] INFO root fetch - main [MainThread]: End processing [linkedin-messaging]: success
+[2023-06-06 06:38:57] INFO root fetch - processPackages [ecape]: Remove: archive file [/home/abi/fetcher/tmp/ecape-0.0.7.tar.gz]
+[2023-06-06 06:38:57] INFO root fetch - processPackages [ecape]: Remove: archive file [/home/abi/fetcher/tmp/ecape-0.0.8.tar.gz]
+[2023-06-06 06:38:57] INFO root fetch - main [MainThread]: End processing [ecape]: success
+[2023-06-06 06:38:57] INFO root fetch - processPackages [odoo-addons-oca-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_project-16.0.20230525.0-py3-none-any.whl.zip]
+[2023-06-06 06:38:57] INFO root fetch - processPackages [odoo-addons-oca-project]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_project-16.0.20230605.0-py3-none-any.whl.zip]
+[2023-06-06 06:38:57] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-project]: success
+[2023-06-06 06:38:58] INFO root fetch - processPackages [camply]: Remove: archive file [/home/abi/fetcher/tmp/camply-0.9.2.tar.gz]
+[2023-06-06 06:38:58] INFO root fetch - processPackages [camply]: Remove: archive file [/home/abi/fetcher/tmp/camply-0.9.3.tar.gz]
+[2023-06-06 06:38:58] INFO root fetch - main [MainThread]: End processing [camply]: success
+[2023-06-06 06:38:58] INFO root fetch - main [MainThread]: Store serial: [18386650]
