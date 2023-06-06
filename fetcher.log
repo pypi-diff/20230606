@@ -16992,3 +16992,147 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-06 10:35:32] INFO root fetch - processPackages [gov-uk-dashboards]: Remove: archive file [/home/abi/fetcher/tmp/gov_uk_dashboards-9.6.0.tar.gz]
 [2023-06-06 10:35:32] INFO root fetch - main [MainThread]: End processing [gov-uk-dashboards]: success
 [2023-06-06 10:35:32] INFO root fetch - main [MainThread]: Store serial: [18388747]
+[2023-06-06 10:40:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18388747]
+[2023-06-06 10:40:41] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-06 10:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ebanktool
+[2023-06-06 10:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: big-O
+[2023-06-06 10:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-treehelp
+[2023-06-06 10:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pco
+[2023-06-06 10:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cloudlanguagetools
+[2023-06-06 10:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydoclint
+[2023-06-06 10:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: huhangkai
+[2023-06-06 10:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: usearch
+[2023-06-06 10:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mailwizz-python-sdk
+[2023-06-06 10:40:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: hojichar
+[2023-06-06 10:40:41] INFO root fetch - processPackages [ebanktool]: New version: [1.0.2] Old Version: [0.0.2]
+[2023-06-06 10:40:41] INFO root fetch - processPackages [big-O]: New version: [0.9] Old Version: [0.8.1]
+[2023-06-06 10:40:42] INFO root fetch - processPackages [nonebot-plugin-treehelp]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-06-06 10:40:42] INFO root fetch - processPackages [pydoclint]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-06 10:40:42] INFO root fetch - processPackages [hojichar]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-06 10:40:42] INFO root fetch - processPackages [mailwizz-python-sdk]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-06 10:40:42] INFO root fetch - processPackages [pco]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-06 10:40:42] INFO root fetch - processPackages [cloudlanguagetools]: New version: [5.6] Old Version: [5.5]
+[2023-06-06 10:40:42] INFO root fetch - processPackages [huhangkai]: New version: [1.2.2] Old Version: [1.2.0]
+[2023-06-06 10:40:42] INFO root fetch - processPackages [usearch]: New version: [0.9.7] Old Version: [0.5.1]
+[2023-06-06 10:40:42] INFO root fetch - processPackages [hojichar]: Downloading https://files.pythonhosted.org/packages/bc/d4/b28b8a3853ea8052d45ee6f7efe8ece4e9e03703026d1fd75a93d515b140/hojichar-0.5.0.tar.gz
+[2023-06-06 10:40:42] INFO root fetch - processPackages [ebanktool]: Downloading https://files.pythonhosted.org/packages/98/62/f82494b80a92b917cf59b5f47609affe790134ec0fe7e9451163bc4ff912/ebanktool-0.0.2.tar.gz
+[2023-06-06 10:40:42] INFO root fetch - processPackages [big-O]: Downloading https://files.pythonhosted.org/packages/55/c2/a28897f000af9e61de9ba29b90e5275e4cf99ac54c1a3360e06666ae9612/big_O-0.8.1.tar.gz
+[2023-06-06 10:40:42] INFO root fetch - processPackages [nonebot-plugin-treehelp]: Downloading https://files.pythonhosted.org/packages/ee/97/be185d3100f9d6bfa5288f9db082bc1b97ce457a16335c462064e2c0cc22/nonebot_plugin_treehelp-0.1.0.tar.gz
+[2023-06-06 10:40:42] INFO root fetch - processPackages [mailwizz-python-sdk]: Downloading https://files.pythonhosted.org/packages/65/1e/54439d6f6b4fc0448531616751efac99f32b1d8ca15aa77eda04c4c6ab4a/mailwizz-python-sdk-1.0.0.tar.gz
+[2023-06-06 10:40:42] INFO root fetch - processPackages [huhangkai]: Downloading https://files.pythonhosted.org/packages/97/67/f70391cecb5fae19ddd9492fd22da111e068e70f91689d6b81c564042e50/huhangkai-1.2.0.tar.gz
+[2023-06-06 10:40:42] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/dc/f7/7336476dab021225856e3701126da7c9e66a0ca65cdb57074dbd607c6129/pydoclint-0.0.7.tar.gz
+[2023-06-06 10:40:42] INFO root fetch - processPackages [pco]: Downloading https://files.pythonhosted.org/packages/d6/8b/b5cd343e0d616b261baabd4a72e4492da3a740712089c47e8a8b9365d41e/pco-2.0.0.tar.gz
+[2023-06-06 10:40:42] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/2a/c9/b25987d4526f4f83d81623c1986139f98f49d284351df0f377a33e5a1cd7/usearch-0.5.1-cp39-cp39-win_amd64.whl
+[2023-06-06 10:40:42] INFO root fetch - processPackages [cloudlanguagetools]: Downloading https://files.pythonhosted.org/packages/eb/d1/37a29a914a796696e286bf8288736b626a1b941ef953622809edac7beac7/cloudlanguagetools-5.5.tar.gz
+[2023-06-06 10:40:42] INFO root fetch - processPackages [hojichar]: Downloading https://files.pythonhosted.org/packages/2a/dc/099d1f7de97eedbc7760cef356ebf6d30283268f29160755be146aba22b3/hojichar-0.5.1.tar.gz
+[2023-06-06 10:40:42] INFO root fetch - processPackages [ebanktool]: Downloading https://files.pythonhosted.org/packages/b3/78/0f4c5d5736be6b13d9d0df52abb78ba89841dde187a1200e719f59bb37af/ebanktool-1.0.2.tar.gz
+[2023-06-06 10:40:42] INFO root fetch - processPackages [nonebot-plugin-treehelp]: Downloading https://files.pythonhosted.org/packages/aa/f8/0744d3a06ec7b00aa0680c2d27530f0bff067578e94d4ccb10424e8c2679/nonebot_plugin_treehelp-0.2.0.tar.gz
+[2023-06-06 10:40:42] INFO root fetch - processPackages [huhangkai]: Downloading https://files.pythonhosted.org/packages/c5/f6/bcf2edf616d546ea4f10467c19ee89bc9825176dd9bd5f6e25a021ce8d05/huhangkai-1.2.2.tar.gz
+[2023-06-06 10:40:42] INFO root fetch - processPackages [mailwizz-python-sdk]: Downloading https://files.pythonhosted.org/packages/7e/cf/dd941b10813bd1af1922830e7ced2f4586a815c09b8c6fad4bc0d6705b67/mailwizz-python-sdk-1.0.1.tar.gz
+[2023-06-06 10:40:42] INFO root fetch - processPackages [pydoclint]: Downloading https://files.pythonhosted.org/packages/88/64/f0f85cdb501e1d74fe72d7b3b306ad13f100598b427f8ff0e8568dc3a68f/pydoclint-0.0.8.tar.gz
+[2023-06-06 10:40:42] INFO root fetch - processPackages [big-O]: Downloading https://files.pythonhosted.org/packages/44/df/70f3ad0f78926467c8296a69c8eff6babbc24a855d50e3f1efddf7fbc18a/big_O-0.9.tar.gz
+[2023-06-06 10:40:42] INFO root fetch - processPackages [pco]: Downloading https://files.pythonhosted.org/packages/cf/62/b512275b6b4b56a254441ebaca60fd486192b5aee5199567b483f9705db9/pco-2.0.1.tar.gz
+[2023-06-06 10:40:42] INFO root fetch - processPackages [hojichar]: executing diffoscope
+[2023-06-06 10:40:42] INFO root fetch - processPackages [hojichar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hojichar-0.5.0.tar.gz tmp/hojichar-0.5.1.tar.gz --markdown 20230606/h/hojichar/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-06 10:40:42] INFO root fetch - processPackages [cloudlanguagetools]: Downloading https://files.pythonhosted.org/packages/81/ff/d2157fab06ca0b7c41e1a21c4b4bcfbb35d2a261945c2ec91edd1c702bfb/cloudlanguagetools-5.6.tar.gz
+[2023-06-06 10:40:42] INFO root fetch - processPackages [ebanktool]: executing diffoscope
+[2023-06-06 10:40:42] INFO root fetch - processPackages [ebanktool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebanktool-0.0.2.tar.gz tmp/ebanktool-1.0.2.tar.gz --markdown 20230606/e/ebanktool/0.0.2-1.0.2/diff.md --exclude *.pyd
+[2023-06-06 10:40:42] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/a2/8f/a3252b30a16eab11240405b70ca175d22e9e65286f0453a51404db91b23e/usearch-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl
+[2023-06-06 10:40:42] INFO root fetch - processPackages [nonebot-plugin-treehelp]: executing diffoscope
+[2023-06-06 10:40:42] INFO root fetch - processPackages [nonebot-plugin-treehelp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_treehelp-0.1.0.tar.gz tmp/nonebot_plugin_treehelp-0.2.0.tar.gz --markdown 20230606/n/nonebot-plugin-treehelp/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-06-06 10:40:42] INFO root fetch - processPackages [huhangkai]: executing diffoscope
+[2023-06-06 10:40:42] INFO root fetch - processPackages [huhangkai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huhangkai-1.2.0.tar.gz tmp/huhangkai-1.2.2.tar.gz --markdown 20230606/h/huhangkai/1.2.0-1.2.2/diff.md --exclude *.pyd
+[2023-06-06 10:40:42] INFO root fetch - processPackages [mailwizz-python-sdk]: executing diffoscope
+[2023-06-06 10:40:42] INFO root fetch - processPackages [mailwizz-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mailwizz-python-sdk-1.0.0.tar.gz tmp/mailwizz-python-sdk-1.0.1.tar.gz --markdown 20230606/m/mailwizz-python-sdk/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-06 10:40:42] INFO root fetch - processPackages [pydoclint]: executing diffoscope
+[2023-06-06 10:40:42] INFO root fetch - processPackages [pydoclint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydoclint-0.0.7.tar.gz tmp/pydoclint-0.0.8.tar.gz --markdown 20230606/p/pydoclint/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-06 10:40:42] INFO root fetch - processPackages [big-O]: executing diffoscope
+[2023-06-06 10:40:42] INFO root fetch - processPackages [big-O]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/big_O-0.8.1.tar.gz tmp/big_O-0.9.tar.gz --markdown 20230606/b/big-O/0.8.1-0.9/diff.md --exclude *.pyd
+[2023-06-06 10:40:42] INFO root fetch - processPackages [pco]: executing diffoscope
+[2023-06-06 10:40:42] INFO root fetch - processPackages [pco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pco-2.0.0.tar.gz tmp/pco-2.0.1.tar.gz --markdown 20230606/p/pco/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-06 10:40:42] INFO root fetch - processPackages [cloudlanguagetools]: executing diffoscope
+[2023-06-06 10:40:42] INFO root fetch - processPackages [cloudlanguagetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloudlanguagetools-5.5.tar.gz tmp/cloudlanguagetools-5.6.tar.gz --markdown 20230606/c/cloudlanguagetools/5.5-5.6/diff.md --exclude *.pyd
+[2023-06-06 10:40:42] INFO root fetch - processPackages [usearch]: executing diffoscope
+[2023-06-06 10:40:42] INFO root fetch - processPackages [usearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usearch-0.5.1-cp39-cp39-win_amd64.whl.zip tmp/usearch-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl.zip --markdown 20230606/u/usearch/0.5.1-0.9.7/diff.md --exclude *.pyd
+[2023-06-06 10:40:44] INFO root fetch - processPackages [ebanktool]: Remove: archive file [/home/abi/fetcher/tmp/ebanktool-0.0.2.tar.gz]
+[2023-06-06 10:40:44] INFO root fetch - processPackages [ebanktool]: Remove: archive file [/home/abi/fetcher/tmp/ebanktool-1.0.2.tar.gz]
+[2023-06-06 10:40:44] INFO root fetch - processPackages [ebanktool]: Start processing: seven-cloudapp-frame
+[2023-06-06 10:40:44] INFO root fetch - main [MainThread]: End processing [ebanktool]: success
+[2023-06-06 10:40:44] INFO root fetch - processPackages [seven-cloudapp-frame]: New version: [1.0.9.9] Old Version: [1.0.9.8]
+[2023-06-06 10:40:44] INFO root fetch - processPackages [huhangkai]: Remove: archive file [/home/abi/fetcher/tmp/huhangkai-1.2.0.tar.gz]
+[2023-06-06 10:40:44] INFO root fetch - processPackages [huhangkai]: Remove: archive file [/home/abi/fetcher/tmp/huhangkai-1.2.2.tar.gz]
+[2023-06-06 10:40:44] INFO root fetch - processPackages [huhangkai]: Start processing: diveplane-local-no-telemetry
+[2023-06-06 10:40:44] INFO root fetch - main [MainThread]: End processing [huhangkai]: success
+[2023-06-06 10:40:44] ERROR root fetch - processPackages [diveplane-local-no-telemetry]: Unable to get metadata: No such project 'diveplane-local-no-telemetry'
+[2023-06-06 10:40:44] INFO root fetch - processPackages [diveplane-local-no-telemetry]: Start processing: pyDFTutils
+[2023-06-06 10:40:44] INFO root fetch - main [MainThread]: End processing [diveplane-local-no-telemetry] error
+[2023-06-06 10:40:44] INFO root fetch - processPackages [pyDFTutils]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 10:40:44] INFO root fetch - processPackages [pyDFTutils]: Downloading https://files.pythonhosted.org/packages/f9/ba/55c7cdafce26342d792f20bafa0372c9a76eecb2e46fcd99447244ce3f7f/pyDFTutils-0.1.8.tar.gz
+[2023-06-06 10:40:44] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/35/2b/05b1b8a3faf3e0417c648bb54a3032af0de6b3d08180acd83e1eea5e3701/seven_cloudapp_frame-1.0.9.8.tar.gz
+[2023-06-06 10:40:44] INFO root fetch - processPackages [nonebot-plugin-treehelp]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_treehelp-0.1.0.tar.gz]
+[2023-06-06 10:40:44] INFO root fetch - processPackages [nonebot-plugin-treehelp]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_treehelp-0.2.0.tar.gz]
+[2023-06-06 10:40:44] INFO root fetch - processPackages [nonebot-plugin-treehelp]: Start processing: xj-flow
+[2023-06-06 10:40:44] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-treehelp]: success
+[2023-06-06 10:40:44] INFO root fetch - processPackages [xj-flow]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-06 10:40:44] INFO root fetch - processPackages [big-O]: Remove: archive file [/home/abi/fetcher/tmp/big_O-0.8.1.tar.gz]
+[2023-06-06 10:40:44] INFO root fetch - processPackages [big-O]: Remove: archive file [/home/abi/fetcher/tmp/big_O-0.9.tar.gz]
+[2023-06-06 10:40:44] INFO root fetch - processPackages [big-O]: Start processing: afex-audit-trail
+[2023-06-06 10:40:44] INFO root fetch - main [MainThread]: End processing [big-O]: success
+[2023-06-06 10:40:44] INFO root fetch - processPackages [pyDFTutils]: Downloading https://files.pythonhosted.org/packages/fa/49/7f2d834c0f0bbe1c7999b923414fc18ed112613137b8d85de6b933afc653/pyDFTutils-0.1.9.tar.gz
+[2023-06-06 10:40:44] INFO root fetch - processPackages [afex-audit-trail]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-06 10:40:44] INFO root fetch - processPackages [hojichar]: Remove: archive file [/home/abi/fetcher/tmp/hojichar-0.5.0.tar.gz]
+[2023-06-06 10:40:44] INFO root fetch - processPackages [hojichar]: Remove: archive file [/home/abi/fetcher/tmp/hojichar-0.5.1.tar.gz]
+[2023-06-06 10:40:44] INFO root fetch - processPackages [hojichar]: Start processing: functime-client
+[2023-06-06 10:40:44] INFO root fetch - main [MainThread]: End processing [hojichar]: success
+[2023-06-06 10:40:44] INFO root fetch - processPackages [mailwizz-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mailwizz-python-sdk-1.0.0.tar.gz]
+[2023-06-06 10:40:44] INFO root fetch - processPackages [mailwizz-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/mailwizz-python-sdk-1.0.1.tar.gz]
+[2023-06-06 10:40:44] INFO root fetch - processPackages [mailwizz-python-sdk]: Start processing: coreferee
+[2023-06-06 10:40:44] INFO root fetch - main [MainThread]: End processing [mailwizz-python-sdk]: success
+[2023-06-06 10:40:44] ERROR root fetch - processPackages [functime-client]: Unable to get metadata: No such project 'functime-client'
+[2023-06-06 10:40:44] INFO root fetch - main [MainThread]: End processing [functime-client] error
+[2023-06-06 10:40:44] INFO root fetch - processPackages [coreferee]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-06-06 10:40:44] INFO root fetch - processPackages [pyDFTutils]: executing diffoscope
+[2023-06-06 10:40:44] INFO root fetch - processPackages [pyDFTutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyDFTutils-0.1.8.tar.gz tmp/pyDFTutils-0.1.9.tar.gz --markdown 20230606/p/pyDFTutils/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 10:40:44] INFO root fetch - processPackages [cloudlanguagetools]: Remove: archive file [/home/abi/fetcher/tmp/cloudlanguagetools-5.5.tar.gz]
+[2023-06-06 10:40:44] INFO root fetch - processPackages [cloudlanguagetools]: Remove: archive file [/home/abi/fetcher/tmp/cloudlanguagetools-5.6.tar.gz]
+[2023-06-06 10:40:44] INFO root fetch - main [MainThread]: End processing [cloudlanguagetools]: success
+[2023-06-06 10:40:44] INFO root fetch - processPackages [afex-audit-trail]: Downloading https://files.pythonhosted.org/packages/08/09/7d6a249af833af16d3c550f29639661ae9137c37d6ec3df8ae53f76f90bd/afex-audit-trail-0.1.5.tar.gz
+[2023-06-06 10:40:44] INFO root fetch - processPackages [seven-cloudapp-frame]: Downloading https://files.pythonhosted.org/packages/74/d6/645286f46e81a7cbd30574c917b65af03679c974a979c0421012bd713cbd/seven_cloudapp_frame-1.0.9.9.tar.gz
+[2023-06-06 10:40:44] INFO root fetch - processPackages [pydoclint]: Remove: archive file [/home/abi/fetcher/tmp/pydoclint-0.0.7.tar.gz]
+[2023-06-06 10:40:44] INFO root fetch - processPackages [pydoclint]: Remove: archive file [/home/abi/fetcher/tmp/pydoclint-0.0.8.tar.gz]
+[2023-06-06 10:40:44] INFO root fetch - main [MainThread]: End processing [pydoclint]: success
+[2023-06-06 10:40:44] INFO root fetch - processPackages [coreferee]: Downloading https://files.pythonhosted.org/packages/d1/ae/491c51ea09a0ca2fd5ccbfc79616485b0a19e3be93c7da89caaf1c88140e/coreferee-1.4.0.tar.gz
+[2023-06-06 10:40:44] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-0.5.1-cp39-cp39-win_amd64.whl.zip]
+[2023-06-06 10:40:44] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2023-06-06 10:40:44] INFO root fetch - main [MainThread]: End processing [usearch]: success
+[2023-06-06 10:40:44] INFO root fetch - processPackages [xj-flow]: Downloading https://files.pythonhosted.org/packages/4b/98/1a3f618c2c4858fcf9b224f239f42c312217e8a3deb7f2ac59a023163a9f/xj_flow-1.0.8.tar.gz
+[2023-06-06 10:40:44] INFO root fetch - processPackages [seven-cloudapp-frame]: executing diffoscope
+[2023-06-06 10:40:44] INFO root fetch - processPackages [seven-cloudapp-frame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seven_cloudapp_frame-1.0.9.8.tar.gz tmp/seven_cloudapp_frame-1.0.9.9.tar.gz --markdown 20230606/s/seven-cloudapp-frame/1.0.9.8-1.0.9.9/diff.md --exclude *.pyd
+[2023-06-06 10:40:45] INFO root fetch - processPackages [afex-audit-trail]: Downloading https://files.pythonhosted.org/packages/c2/9c/6d3f2ed3c2ada109adfa8b3956f983c211967cbb21fd57a98699e124a5d3/afex-audit-trail-0.1.6.tar.gz
+[2023-06-06 10:40:45] INFO root fetch - processPackages [afex-audit-trail]: executing diffoscope
+[2023-06-06 10:40:45] INFO root fetch - processPackages [afex-audit-trail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afex-audit-trail-0.1.5.tar.gz tmp/afex-audit-trail-0.1.6.tar.gz --markdown 20230606/a/afex-audit-trail/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-06 10:40:45] INFO root fetch - processPackages [coreferee]: Downloading https://files.pythonhosted.org/packages/c9/0a/8ba90c327e2afd2454caab1868a7ffc0296f4e921c25bc9deec866e82463/coreferee-1.4.1.tar.gz
+[2023-06-06 10:40:45] INFO root fetch - processPackages [coreferee]: executing diffoscope
+[2023-06-06 10:40:45] INFO root fetch - processPackages [coreferee]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coreferee-1.4.0.tar.gz tmp/coreferee-1.4.1.tar.gz --markdown 20230606/c/coreferee/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-06-06 10:40:45] INFO root fetch - processPackages [xj-flow]: Downloading https://files.pythonhosted.org/packages/93/02/013abb0effbefa548538af1945ba2798a7c0ccbda7de2e19a099047da628/xj_flow-1.0.9.tar.gz
+[2023-06-06 10:40:45] INFO root fetch - processPackages [xj-flow]: executing diffoscope
+[2023-06-06 10:40:45] INFO root fetch - processPackages [xj-flow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_flow-1.0.8.tar.gz tmp/xj_flow-1.0.9.tar.gz --markdown 20230606/x/xj-flow/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-06 10:40:46] INFO root fetch - processPackages [pyDFTutils]: Remove: archive file [/home/abi/fetcher/tmp/pyDFTutils-0.1.8.tar.gz]
+[2023-06-06 10:40:46] INFO root fetch - processPackages [pyDFTutils]: Remove: archive file [/home/abi/fetcher/tmp/pyDFTutils-0.1.9.tar.gz]
+[2023-06-06 10:40:46] INFO root fetch - main [MainThread]: End processing [pyDFTutils]: success
+[2023-06-06 10:40:46] INFO root fetch - processPackages [afex-audit-trail]: Remove: archive file [/home/abi/fetcher/tmp/afex-audit-trail-0.1.5.tar.gz]
+[2023-06-06 10:40:46] INFO root fetch - processPackages [afex-audit-trail]: Remove: archive file [/home/abi/fetcher/tmp/afex-audit-trail-0.1.6.tar.gz]
+[2023-06-06 10:40:46] INFO root fetch - main [MainThread]: End processing [afex-audit-trail]: success
+[2023-06-06 10:40:46] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.8.tar.gz]
+[2023-06-06 10:40:46] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.9.tar.gz]
+[2023-06-06 10:40:46] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
+[2023-06-06 10:40:46] INFO root fetch - processPackages [coreferee]: Remove: archive file [/home/abi/fetcher/tmp/coreferee-1.4.0.tar.gz]
+[2023-06-06 10:40:46] INFO root fetch - processPackages [coreferee]: Remove: archive file [/home/abi/fetcher/tmp/coreferee-1.4.1.tar.gz]
+[2023-06-06 10:40:46] INFO root fetch - main [MainThread]: End processing [coreferee]: success
+[2023-06-06 10:40:46] INFO root fetch - processPackages [pco]: Remove: archive file [/home/abi/fetcher/tmp/pco-2.0.0.tar.gz]
+[2023-06-06 10:40:46] INFO root fetch - processPackages [pco]: Remove: archive file [/home/abi/fetcher/tmp/pco-2.0.1.tar.gz]
+[2023-06-06 10:40:46] INFO root fetch - main [MainThread]: End processing [pco]: success
+[2023-06-06 10:40:46] INFO root fetch - processPackages [xj-flow]: Remove: archive file [/home/abi/fetcher/tmp/xj_flow-1.0.8.tar.gz]
+[2023-06-06 10:40:46] INFO root fetch - processPackages [xj-flow]: Remove: archive file [/home/abi/fetcher/tmp/xj_flow-1.0.9.tar.gz]
+[2023-06-06 10:40:46] INFO root fetch - main [MainThread]: End processing [xj-flow]: success
+[2023-06-06 10:40:46] INFO root fetch - main [MainThread]: Store serial: [18388836]
