@@ -11817,3 +11817,83 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 06:17:46] INFO root fetch - processPackages [odoo-addon-account-invoice-margin]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_margin-16.0.1.0.0.5-py3-none-any.whl.zip]
 [2023-06-06 06:17:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-margin]: success
 [2023-06-06 06:17:46] INFO root fetch - main [MainThread]: Store serial: [18386486]
+[2023-06-06 06:22:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18386486]
+[2023-06-06 06:22:55] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-06 06:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-openupgrade-scripts
+[2023-06-06 06:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-openupgrade-scripts
+[2023-06-06 06:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bup
+[2023-06-06 06:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mosec
+[2023-06-06 06:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addons-oca-operating-unit
+[2023-06-06 06:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addons-oca-operating-unit
+[2023-06-06 06:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xGPR
+[2023-06-06 06:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bup
+[2023-06-06 06:22:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quickstart-vdk
+[2023-06-06 06:22:55] INFO root fetch - processPackages [xGPR]: New version: [0.1.1.0] Old Version: [0.1.0.6]
+[2023-06-06 06:22:55] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: New version: [14.0.1.0.2.dev99] Old Version: [14.0.1.0.2.dev95]
+[2023-06-06 06:22:55] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: New version: [16.0.20230605.0] Old Version: [16.0.20230412.0]
+[2023-06-06 06:22:55] INFO root fetch - processPackages [mosec]: New version: [0.7.0] Old Version: [0.6.7]
+[2023-06-06 06:22:55] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: New version: [16.0.20230605.0] Old Version: [16.0.20230412.0]
+[2023-06-06 06:22:55] INFO root fetch - processPackages [bup]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-06 06:22:55] INFO root fetch - processPackages [bup]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-06 06:22:55] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.6]
+[2023-06-06 06:22:56] INFO root fetch - processPackages [xGPR]: Downloading https://files.pythonhosted.org/packages/52/c5/4657279f93f0896f14294eb9df1d5fae50b7ef2f16067f1c6bf1a9431a21/xGPR-0.1.0.6.tar.gz
+[2023-06-06 06:22:56] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.890381373.dev11124] Old Version: [0.2.888678445.dev11087]
+[2023-06-06 06:22:56] INFO root fetch - processPackages [bup]: Downloading https://files.pythonhosted.org/packages/11/5d/88261f1aede1eac6518c79d505e0676eb6ae9545940c4d970efd1df57dfd/bup-0.4.0-py3-none-any.whl
+[2023-06-06 06:22:56] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/ec/50/ce82e83016d56e83f3ba41393c3470ef868ae1581c3f47640932504291c8/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl
+[2023-06-06 06:22:56] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/f4/b8/c4ded879ba5c4e996b787b0811f2047cd9955619a3e9cb7e2b844942fc14/odoo_addon_openupgrade_scripts-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-06 06:22:56] INFO root fetch - processPackages [mosec]: Downloading https://files.pythonhosted.org/packages/8b/01/72bc005eeb063e56cc95937d11776a9d397bcc68f7508abd289b04b4d4c4/mosec-0.6.7.tar.gz
+[2023-06-06 06:22:56] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: Downloading https://files.pythonhosted.org/packages/d4/75/4e6dc4e4229eaf1ceb3f94112e231d1c76033caea05029f5da522ce01af1/odoo_addons_oca_operating_unit-16.0.20230412.0-py3-none-any.whl
+[2023-06-06 06:22:56] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: Downloading https://files.pythonhosted.org/packages/d4/75/4e6dc4e4229eaf1ceb3f94112e231d1c76033caea05029f5da522ce01af1/odoo_addons_oca_operating_unit-16.0.20230412.0-py3-none-any.whl
+[2023-06-06 06:22:56] INFO root fetch - processPackages [bup]: Downloading https://files.pythonhosted.org/packages/11/5d/88261f1aede1eac6518c79d505e0676eb6ae9545940c4d970efd1df57dfd/bup-0.4.0-py3-none-any.whl
+[2023-06-06 06:22:56] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/dc/fd/4711fbb537aca65b387b7854b85c7234c3851ef629604b89b94434002963/quickstart-vdk-0.2.888678445.dev11087.tar.gz
+[2023-06-06 06:22:56] INFO root fetch - processPackages [xGPR]: Downloading https://files.pythonhosted.org/packages/63/7a/ee183f99d808b35118047120039a764b99496217cc161a6862063db17304/xGPR-0.1.1.0.tar.gz
+[2023-06-06 06:22:56] INFO root fetch - processPackages [mosec]: Downloading https://files.pythonhosted.org/packages/21/15/c7e995a1bc3121ec244c3871bbb090458d8673114c12e704736aa7d66983/mosec-0.7.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-06 06:22:56] INFO root fetch - processPackages [bup]: Downloading https://files.pythonhosted.org/packages/15/50/3799c896c40813ef83b5d26d5c7011e87aac035a8829758cd6a7da30ac90/bup-0.4.1-py3-none-any.whl
+[2023-06-06 06:22:56] INFO root fetch - processPackages [xGPR]: executing diffoscope
+[2023-06-06 06:22:56] INFO root fetch - processPackages [xGPR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xGPR-0.1.0.6.tar.gz tmp/xGPR-0.1.1.0.tar.gz --markdown 20230606/x/xGPR/0.1.0.6-0.1.1.0/diff.md --exclude *.pyd
+[2023-06-06 06:22:56] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: Downloading https://files.pythonhosted.org/packages/66/ec/53d7027c4000ae985cb73eb18e08a82bbdcf666cee81f732f9ccbe46f856/odoo_addons_oca_operating_unit-16.0.20230605.0-py3-none-any.whl
+[2023-06-06 06:22:56] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: Downloading https://files.pythonhosted.org/packages/66/ec/53d7027c4000ae985cb73eb18e08a82bbdcf666cee81f732f9ccbe46f856/odoo_addons_oca_operating_unit-16.0.20230605.0-py3-none-any.whl
+[2023-06-06 06:22:56] INFO root fetch - processPackages [bup]: Downloading https://files.pythonhosted.org/packages/15/50/3799c896c40813ef83b5d26d5c7011e87aac035a8829758cd6a7da30ac90/bup-0.4.1-py3-none-any.whl
+[2023-06-06 06:22:56] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/c4/6c/e3ea54d69174dd312820a1192e5025fe52b6fe45fa4737a372f7926586c6/quickstart-vdk-0.2.890381373.dev11124.tar.gz
+[2023-06-06 06:22:56] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: executing diffoscope
+[2023-06-06 06:22:56] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_operating_unit-16.0.20230412.0-py3-none-any.whl.zip tmp/odoo_addons_oca_operating_unit-16.0.20230605.0-py3-none-any.whl.zip --markdown 20230606/o/odoo-addons-oca-operating-unit/16.0.20230412.0-16.0.20230605.0/diff.md --exclude *.pyd
+[2023-06-06 06:22:56] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: executing diffoscope
+[2023-06-06 06:22:56] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_operating_unit-16.0.20230412.0-py3-none-any.whl.zip tmp/odoo_addons_oca_operating_unit-16.0.20230605.0-py3-none-any.whl.zip --markdown 20230606/o/odoo-addons-oca-operating-unit/16.0.20230412.0-16.0.20230605.0/diff.md --exclude *.pyd
+[2023-06-06 06:22:56] INFO root fetch - processPackages [bup]: executing diffoscope
+[2023-06-06 06:22:56] INFO root fetch - processPackages [bup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bup-0.4.0-py3-none-any.whl.zip tmp/bup-0.4.1-py3-none-any.whl.zip --markdown 20230606/b/bup/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-06 06:22:56] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/d0/8c/a24d16c65bf9fe5ae4605a1657606542a2bb75c0ac9281be45aa9cb0464d/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl
+[2023-06-06 06:22:56] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Downloading https://files.pythonhosted.org/packages/5c/a8/85ee714599c3fab831e0904acba84ae7b5c49175973d58d479f00a8d6d5b/odoo_addon_openupgrade_scripts-16.0.1.0.0.7-py3-none-any.whl
+[2023-06-06 06:22:56] INFO root fetch - processPackages [bup]: executing diffoscope
+[2023-06-06 06:22:56] INFO root fetch - processPackages [bup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bup-0.4.0-py3-none-any.whl.zip tmp/bup-0.4.1-py3-none-any.whl.zip --markdown 20230606/b/bup/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-06 06:22:56] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-06-06 06:22:56] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.888678445.dev11087.tar.gz tmp/quickstart-vdk-0.2.890381373.dev11124.tar.gz --markdown 20230606/q/quickstart-vdk/0.2.888678445.dev11087-0.2.890381373.dev11124/diff.md --exclude *.pyd
+[2023-06-06 06:22:56] INFO root fetch - processPackages [mosec]: executing diffoscope
+[2023-06-06 06:22:56] INFO root fetch - processPackages [mosec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosec-0.6.7.tar.gz tmp/mosec-0.7.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230606/m/mosec/0.6.7-0.7.0/diff.md --exclude *.pyd
+[2023-06-06 06:22:56] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: executing diffoscope
+[2023-06-06 06:22:56] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl.zip tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip --markdown 20230606/o/odoo14-addon-openupgrade-scripts/14.0.1.0.2.dev95-14.0.1.0.2.dev99/diff.md --exclude *.pyd
+[2023-06-06 06:22:56] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: executing diffoscope
+[2023-06-06 06:22:56] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_openupgrade_scripts-16.0.1.0.0.6-py3-none-any.whl.zip tmp/odoo_addon_openupgrade_scripts-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-openupgrade-scripts/16.0.1.0.0.6-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-06-06 06:22:57] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_operating_unit-16.0.20230412.0-py3-none-any.whl.zip]
+[2023-06-06 06:22:57] INFO root fetch - processPackages [odoo-addons-oca-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_operating_unit-16.0.20230605.0-py3-none-any.whl.zip]
+[2023-06-06 06:22:57] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-operating-unit]: success
+[2023-06-06 06:22:58] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-operating-unit]: success
+[2023-06-06 06:22:58] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.888678445.dev11087.tar.gz]
+[2023-06-06 06:22:58] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.890381373.dev11124.tar.gz]
+[2023-06-06 06:22:58] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-06-06 06:22:58] INFO root fetch - processPackages [bup]: Remove: archive file [/home/abi/fetcher/tmp/bup-0.4.0-py3-none-any.whl.zip]
+[2023-06-06 06:22:58] INFO root fetch - processPackages [bup]: Remove: archive file [/home/abi/fetcher/tmp/bup-0.4.1-py3-none-any.whl.zip]
+[2023-06-06 06:22:58] INFO root fetch - main [MainThread]: End processing [bup]: success
+[2023-06-06 06:22:58] INFO root fetch - main [MainThread]: End processing [bup]: success
+[2023-06-06 06:22:58] INFO root fetch - processPackages [mosec]: Remove: archive file [/home/abi/fetcher/tmp/mosec-0.6.7.tar.gz]
+[2023-06-06 06:22:58] INFO root fetch - processPackages [mosec]: Remove: archive file [/home/abi/fetcher/tmp/mosec-0.7.0-pp39-pypy39_pp73-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-06 06:22:58] INFO root fetch - main [MainThread]: End processing [mosec]: success
+[2023-06-06 06:22:58] INFO root fetch - processPackages [xGPR]: Remove: archive file [/home/abi/fetcher/tmp/xGPR-0.1.0.6.tar.gz]
+[2023-06-06 06:22:58] INFO root fetch - processPackages [xGPR]: Remove: archive file [/home/abi/fetcher/tmp/xGPR-0.1.1.0.tar.gz]
+[2023-06-06 06:22:58] INFO root fetch - main [MainThread]: End processing [xGPR]: success
+[2023-06-06 06:23:03] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-06 06:23:03] INFO root fetch - processPackages [odoo-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_openupgrade_scripts-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-06-06 06:23:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-openupgrade-scripts]: success
+[2023-06-06 06:23:04] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev95-py3-none-any.whl.zip]
+[2023-06-06 06:23:04] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip]
+[2023-06-06 06:23:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-openupgrade-scripts]: success
+[2023-06-06 06:23:04] INFO root fetch - main [MainThread]: Store serial: [18386524]
