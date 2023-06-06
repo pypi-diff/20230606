@@ -7619,3 +7619,59 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 04:08:12] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.6.0b5.tar.gz]
 [2023-06-06 04:08:12] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
 [2023-06-06 04:08:12] INFO root fetch - main [MainThread]: Store serial: [18385027]
+[2023-06-06 04:13:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18385027]
+[2023-06-06 04:13:21] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-06 04:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sqlmesh
+[2023-06-06 04:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sd-parsers
+[2023-06-06 04:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tccli
+[2023-06-06 04:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: feffery-maplibre
+[2023-06-06 04:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pythttp
+[2023-06-06 04:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cyber-signature
+[2023-06-06 04:13:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: arknights-mower
+[2023-06-06 04:13:21] INFO root fetch - processPackages [sqlmesh]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-06 04:13:21] INFO root fetch - processPackages [pythttp]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-06 04:13:21] WARNING root fetch - processPackages [feffery-maplibre]: Skipping, unable to determine old version
+[2023-06-06 04:13:21] INFO root fetch - main [MainThread]: End processing [feffery-maplibre] error
+[2023-06-06 04:13:21] INFO root fetch - processPackages [sd-parsers]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-06 04:13:21] INFO root fetch - processPackages [cyber-signature]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-06 04:13:21] INFO root fetch - processPackages [arknights-mower]: New version: [3.1.6] Old Version: [3.1.5]
+[2023-06-06 04:13:21] INFO root fetch - processPackages [tccli]: New version: [3.0.99.1] Old Version: [3.0.98.1]
+[2023-06-06 04:13:21] INFO root fetch - processPackages [cyber-signature]: Downloading https://files.pythonhosted.org/packages/b2/83/02d91e0d25839a537d33c2c9152740e187b83e0672e7e1910543fa7faf6b/cyber_signature-0.1.1.tar.gz
+[2023-06-06 04:13:21] INFO root fetch - processPackages [pythttp]: Downloading https://files.pythonhosted.org/packages/08/b6/2660df1076a5eec2f100c4ec566aacdb8fddd639021d6ea19e33f5ada36e/pythttp-0.1.2.tar.gz
+[2023-06-06 04:13:21] INFO root fetch - processPackages [arknights-mower]: Downloading https://files.pythonhosted.org/packages/65/bb/caf2cefea2fb5a9771e8051eb2676c498d2aa445c28bb2fe26e2c5d1e5dd/arknights_mower-3.1.5.tar.gz
+[2023-06-06 04:13:21] WARNING root fetch - processPackages [arknights-mower]: Skipping package: exceeds size limit 15847235>=10485760
+[2023-06-06 04:13:21] INFO root fetch - main [MainThread]: End processing [arknights-mower] error
+[2023-06-06 04:13:21] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/af/f6/0f9a52e680a6637f51cabdef2e898ff2ccf3866817901d8c170ba43142ed/sqlmesh-0.8.1.tar.gz
+[2023-06-06 04:13:21] INFO root fetch - processPackages [sd-parsers]: Downloading https://files.pythonhosted.org/packages/d5/59/65c95c6d3b71ea65d46df5605d39fb6b5f1350699389bd253afdd8f1c4c0/sd-parsers-0.2.2.tar.gz
+[2023-06-06 04:13:21] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/d5/c0/3ba1e7e48c25d80695e0216e1e772ed1492bdb76a0d81d9ddca3443d1353/tccli-3.0.98.1.tar.gz
+[2023-06-06 04:13:21] INFO root fetch - processPackages [pythttp]: Downloading https://files.pythonhosted.org/packages/80/cc/0f282c10d0b496f017788392d15dc894a98c76b7a9983ca8a4793bca4e5a/pythttp-0.1.3.tar.gz
+[2023-06-06 04:13:21] INFO root fetch - processPackages [cyber-signature]: Downloading https://files.pythonhosted.org/packages/f2/0c/3444337c07cf81199207f15c37d91552e227a86c97412ea22dd86ab5c000/cyber_signature-0.1.2.tar.gz
+[2023-06-06 04:13:21] INFO root fetch - processPackages [cyber-signature]: executing diffoscope
+[2023-06-06 04:13:21] INFO root fetch - processPackages [cyber-signature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyber_signature-0.1.1.tar.gz tmp/cyber_signature-0.1.2.tar.gz --markdown 20230606/c/cyber-signature/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-06 04:13:21] INFO root fetch - processPackages [sd-parsers]: Downloading https://files.pythonhosted.org/packages/6e/c0/e4daf2cd69030c25065b7b02e6bbc5a38e1b6de33a1c1aa9d503a023a9a2/sd-parsers-0.2.3.tar.gz
+[2023-06-06 04:13:21] INFO root fetch - processPackages [pythttp]: executing diffoscope
+[2023-06-06 04:13:21] INFO root fetch - processPackages [pythttp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pythttp-0.1.2.tar.gz tmp/pythttp-0.1.3.tar.gz --markdown 20230606/p/pythttp/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-06 04:13:22] INFO root fetch - processPackages [sd-parsers]: executing diffoscope
+[2023-06-06 04:13:22] INFO root fetch - processPackages [sd-parsers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sd-parsers-0.2.2.tar.gz tmp/sd-parsers-0.2.3.tar.gz --markdown 20230606/s/sd-parsers/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-06 04:13:22] INFO root fetch - processPackages [tccli]: Downloading https://files.pythonhosted.org/packages/f6/c1/6e489190b9983c2b5d4a0260a36bcfb8647ee614634e4992013766cbc5cc/tccli-3.0.99.1.tar.gz
+[2023-06-06 04:13:22] INFO root fetch - processPackages [tccli]: executing diffoscope
+[2023-06-06 04:13:22] INFO root fetch - processPackages [tccli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tccli-3.0.98.1.tar.gz tmp/tccli-3.0.99.1.tar.gz --markdown 20230606/t/tccli/3.0.98.1-3.0.99.1/diff.md --exclude *.pyd
+[2023-06-06 04:13:22] INFO root fetch - processPackages [cyber-signature]: Remove: archive file [/home/abi/fetcher/tmp/cyber_signature-0.1.1.tar.gz]
+[2023-06-06 04:13:22] INFO root fetch - processPackages [cyber-signature]: Remove: archive file [/home/abi/fetcher/tmp/cyber_signature-0.1.2.tar.gz]
+[2023-06-06 04:13:22] INFO root fetch - main [MainThread]: End processing [cyber-signature]: success
+[2023-06-06 04:13:23] INFO root fetch - processPackages [pythttp]: Remove: archive file [/home/abi/fetcher/tmp/pythttp-0.1.2.tar.gz]
+[2023-06-06 04:13:23] INFO root fetch - processPackages [pythttp]: Remove: archive file [/home/abi/fetcher/tmp/pythttp-0.1.3.tar.gz]
+[2023-06-06 04:13:23] INFO root fetch - main [MainThread]: End processing [pythttp]: success
+[2023-06-06 04:13:23] INFO root fetch - processPackages [sqlmesh]: Downloading https://files.pythonhosted.org/packages/3e/98/dd2b2de67b5258308e2ea0fc159ad112f97bdb21f9881120de68463c1781/sqlmesh-0.9.0.tar.gz
+[2023-06-06 04:13:23] INFO root fetch - processPackages [sd-parsers]: Remove: archive file [/home/abi/fetcher/tmp/sd-parsers-0.2.2.tar.gz]
+[2023-06-06 04:13:23] INFO root fetch - processPackages [sd-parsers]: Remove: archive file [/home/abi/fetcher/tmp/sd-parsers-0.2.3.tar.gz]
+[2023-06-06 04:13:23] INFO root fetch - main [MainThread]: End processing [sd-parsers]: success
+[2023-06-06 04:13:24] INFO root fetch - processPackages [sqlmesh]: executing diffoscope
+[2023-06-06 04:13:24] INFO root fetch - processPackages [sqlmesh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlmesh-0.8.1.tar.gz tmp/sqlmesh-0.9.0.tar.gz --markdown 20230606/s/sqlmesh/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-06 04:13:26] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.98.1.tar.gz]
+[2023-06-06 04:13:26] INFO root fetch - processPackages [tccli]: Remove: archive file [/home/abi/fetcher/tmp/tccli-3.0.99.1.tar.gz]
+[2023-06-06 04:13:26] INFO root fetch - main [MainThread]: End processing [tccli]: success
+[2023-06-06 04:14:01] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.8.1.tar.gz]
+[2023-06-06 04:14:01] INFO root fetch - processPackages [sqlmesh]: Remove: archive file [/home/abi/fetcher/tmp/sqlmesh-0.9.0.tar.gz]
+[2023-06-06 04:14:01] INFO root fetch - main [MainThread]: End processing [sqlmesh]: success
+[2023-06-06 04:14:01] INFO root fetch - main [MainThread]: Store serial: [18385052]
