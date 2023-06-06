@@ -17647,3 +17647,372 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-06 11:00:33] ERROR root fetch - processPackages [ansys-fluent-core]: Timeout during execution of pkgdiff
 [2023-06-06 11:00:33] INFO root fetch - main [MainThread]: End processing [ansys-fluent-core] error
 [2023-06-06 11:00:33] INFO root fetch - main [MainThread]: Store serial: [18389022]
+[2023-06-06 11:05:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18389022]
+[2023-06-06 11:05:42] INFO root fetch - main [MainThread]: Found 44 changed packages
+[2023-06-06 11:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: multiversx-sdk-network-providers
+[2023-06-06 11:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aalam-common
+[2023-06-06 11:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdklabs.cdk-validator-cfnguard
+[2023-06-06 11:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kcli
+[2023-06-06 11:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytest-embedded-arduino
+[2023-06-06 11:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pygmssl
+[2023-06-06 11:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: qontract-reconcile
+[2023-06-06 11:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytest-embedded-qemu
+[2023-06-06 11:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: otlmow-model
+[2023-06-06 11:05:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PyMoosh
+[2023-06-06 11:05:42] INFO root fetch - processPackages [aalam-common]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 11:05:42] INFO root fetch - processPackages [multiversx-sdk-network-providers]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-06 11:05:42] INFO root fetch - processPackages [pytest-embedded-qemu]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-06 11:05:42] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 11:05:42] INFO root fetch - processPackages [pygmssl]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-06 11:05:42] INFO root fetch - processPackages [pytest-embedded-arduino]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-06 11:05:42] INFO root fetch - processPackages [otlmow-model]: New version: [2.7.5] Old Version: [2.7.4]
+[2023-06-06 11:05:42] INFO root fetch - processPackages [PyMoosh]: New version: [2.62] Old Version: [2.61]
+[2023-06-06 11:05:42] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-06 11:05:42] INFO root fetch - processPackages [multiversx-sdk-network-providers]: Downloading https://files.pythonhosted.org/packages/27/f1/3cbbc62fb266ba87a09ce15850305f92b122e977a5466a36af5bf78c5567/multiversx_sdk_network_providers-0.8.0.tar.gz
+[2023-06-06 11:05:42] INFO root fetch - processPackages [kcli]: New version: [99.0.202306060857] Old Version: [99.0.202306060631]
+[2023-06-06 11:05:42] INFO root fetch - processPackages [aalam-common]: Downloading https://files.pythonhosted.org/packages/16/ee/8281aa25e49a7b41c1d8409d1da0a6ef9411eb412161a13752286cbe757a/aalam-common-0.1.8.tar.gz
+[2023-06-06 11:05:42] INFO root fetch - processPackages [pygmssl]: Downloading https://files.pythonhosted.org/packages/ce/a3/225843c655575024955ff6b4061fc0f708599dbdc407c8a65f8800ccbb0b/pygmssl-0.0.5.tar.gz
+[2023-06-06 11:05:42] INFO root fetch - processPackages [PyMoosh]: Downloading https://files.pythonhosted.org/packages/59/8a/d8614dec12c0078559b0f88ee9ba6177cd5eb172ab58d1ec1088dc868db4/PyMoosh-2.61.tar.gz
+[2023-06-06 11:05:42] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Downloading https://files.pythonhosted.org/packages/ca/bf/82d7858f5b89f9588b018ab4ea93c6508a4508ce23569695827cdc5c3992/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz
+[2023-06-06 11:05:42] INFO root fetch - processPackages [pytest-embedded-qemu]: Downloading https://files.pythonhosted.org/packages/dc/be/ec3dcb66eddc0a0357b109d7aa9daec548f3d69fec756f81ad37efb73a75/pytest-embedded-qemu-1.3.0.tar.gz
+[2023-06-06 11:05:42] INFO root fetch - processPackages [pytest-embedded-arduino]: Downloading https://files.pythonhosted.org/packages/7f/06/a35060bf160c3bc60e414eb8b112021fa74e86a99a0f7b6010d0bd8b6566/pytest-embedded-arduino-1.3.0.tar.gz
+[2023-06-06 11:05:42] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-06 11:05:42] INFO root fetch - processPackages [multiversx-sdk-network-providers]: Downloading https://files.pythonhosted.org/packages/16/99/4ef436295d8240dde7d8e77b0a87b94fd67041640ac5815cefbeacf91b2f/multiversx_sdk_network_providers-0.9.0.tar.gz
+[2023-06-06 11:05:42] INFO root fetch - processPackages [aalam-common]: Downloading https://files.pythonhosted.org/packages/4a/1b/4643ceb92ad9052d40ca33c98621f00956b046d0f395991401c764b57319/aalam-common-0.1.9.tar.gz
+[2023-06-06 11:05:42] INFO root fetch - processPackages [otlmow-model]: Downloading https://files.pythonhosted.org/packages/fb/22/259132b325d92731a6c71edb9155baae0da2775bad95448af5b738e525da/otlmow_model-2.7.4.tar.gz
+[2023-06-06 11:05:42] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/eb/a9/7c14c4ba0aad473fd4ff5acd3b58a835622c39f677b5aaa73645d4e7cf0a/kcli-99.0.202306060631-py3-none-any.whl
+[2023-06-06 11:05:42] INFO root fetch - processPackages [multiversx-sdk-network-providers]: executing diffoscope
+[2023-06-06 11:05:42] INFO root fetch - processPackages [multiversx-sdk-network-providers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiversx_sdk_network_providers-0.8.0.tar.gz tmp/multiversx_sdk_network_providers-0.9.0.tar.gz --markdown 20230606/m/multiversx-sdk-network-providers/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-06 11:05:42] INFO root fetch - processPackages [aalam-common]: executing diffoscope
+[2023-06-06 11:05:42] INFO root fetch - processPackages [aalam-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aalam-common-0.1.8.tar.gz tmp/aalam-common-0.1.9.tar.gz --markdown 20230606/a/aalam-common/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 11:05:42] INFO root fetch - processPackages [pygmssl]: Downloading https://files.pythonhosted.org/packages/2c/b5/58fb711a69247350160ccc69a745ec9746fc4828af5e7793b1bf1fab51cd/pygmssl-0.0.6.tar.gz
+[2023-06-06 11:05:42] INFO root fetch - processPackages [pytest-embedded-qemu]: Downloading https://files.pythonhosted.org/packages/2b/b4/fa81a29508d7c9d6179289a95902dee936572451d87567dfb0dcd29e34ab/pytest-embedded-qemu-1.3.1.tar.gz
+[2023-06-06 11:05:42] INFO root fetch - processPackages [pytest-embedded-arduino]: Downloading https://files.pythonhosted.org/packages/d8/5a/82cbb339c58f89d72343c27088ea64559be777302a699a4e8dec0020cca9/pytest-embedded-arduino-1.3.1.tar.gz
+[2023-06-06 11:05:42] INFO root fetch - processPackages [PyMoosh]: Downloading https://files.pythonhosted.org/packages/cd/a6/3c1adeafebcb121258a5b2e96a6c652f132ae3b59fba553b0376d7dafacb/PyMoosh-2.62.tar.gz
+[2023-06-06 11:05:42] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-06 11:05:42] INFO root fetch - processPackages [pygmssl]: executing diffoscope
+[2023-06-06 11:05:42] INFO root fetch - processPackages [pygmssl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygmssl-0.0.5.tar.gz tmp/pygmssl-0.0.6.tar.gz --markdown 20230606/p/pygmssl/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-06 11:05:42] INFO root fetch - processPackages [pytest-embedded-qemu]: executing diffoscope
+[2023-06-06 11:05:42] INFO root fetch - processPackages [pytest-embedded-qemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-embedded-qemu-1.3.0.tar.gz tmp/pytest-embedded-qemu-1.3.1.tar.gz --markdown 20230606/p/pytest-embedded-qemu/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-06 11:05:42] INFO root fetch - processPackages [kcli]: Downloading https://files.pythonhosted.org/packages/f6/9e/bb0a3e02def6e83dd30fc60f6e437f27d96eaca109470f2200d7dc85c557/kcli-99.0.202306060857-py3-none-any.whl
+[2023-06-06 11:05:42] INFO root fetch - processPackages [pytest-embedded-arduino]: executing diffoscope
+[2023-06-06 11:05:42] INFO root fetch - processPackages [pytest-embedded-arduino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-embedded-arduino-1.3.0.tar.gz tmp/pytest-embedded-arduino-1.3.1.tar.gz --markdown 20230606/p/pytest-embedded-arduino/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-06 11:05:42] INFO root fetch - processPackages [otlmow-model]: Downloading https://files.pythonhosted.org/packages/2c/77/38261bf0dd3f11254d4e7135680ba4e851dbbfa67f5f233e5c51b1062e28/otlmow_model-2.7.5.tar.gz
+[2023-06-06 11:05:42] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Downloading https://files.pythonhosted.org/packages/87/72/a3d8003ada4028ea6518698c5f3ee208044ed9363e979c066104afb06a6a/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz
+[2023-06-06 11:05:42] INFO root fetch - processPackages [PyMoosh]: executing diffoscope
+[2023-06-06 11:05:42] INFO root fetch - processPackages [PyMoosh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyMoosh-2.61.tar.gz tmp/PyMoosh-2.62.tar.gz --markdown 20230606/P/PyMoosh/2.61-2.62/diff.md --exclude *.pyd
+[2023-06-06 11:05:42] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-06 11:05:42] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230606/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-06 11:05:42] INFO root fetch - processPackages [kcli]: executing diffoscope
+[2023-06-06 11:05:42] INFO root fetch - processPackages [kcli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kcli-99.0.202306060631-py3-none-any.whl.zip tmp/kcli-99.0.202306060857-py3-none-any.whl.zip --markdown 20230606/k/kcli/99.0.202306060631-99.0.202306060857/diff.md --exclude *.pyd
+[2023-06-06 11:05:42] INFO root fetch - processPackages [otlmow-model]: executing diffoscope
+[2023-06-06 11:05:42] INFO root fetch - processPackages [otlmow-model]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otlmow_model-2.7.4.tar.gz tmp/otlmow_model-2.7.5.tar.gz --markdown 20230606/o/otlmow-model/2.7.4-2.7.5/diff.md --exclude *.pyd
+[2023-06-06 11:05:43] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: executing diffoscope
+[2023-06-06 11:05:43] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz tmp/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz --markdown 20230606/c/cdklabs.cdk-validator-cfnguard/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 11:05:44] INFO root fetch - processPackages [aalam-common]: Remove: archive file [/home/abi/fetcher/tmp/aalam-common-0.1.8.tar.gz]
+[2023-06-06 11:05:44] INFO root fetch - processPackages [aalam-common]: Remove: archive file [/home/abi/fetcher/tmp/aalam-common-0.1.9.tar.gz]
+[2023-06-06 11:05:44] INFO root fetch - processPackages [aalam-common]: Start processing: trustero-api
+[2023-06-06 11:05:44] INFO root fetch - main [MainThread]: End processing [aalam-common]: success
+[2023-06-06 11:05:44] INFO root fetch - processPackages [trustero-api]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-06-06 11:05:44] INFO root fetch - processPackages [multiversx-sdk-network-providers]: Remove: archive file [/home/abi/fetcher/tmp/multiversx_sdk_network_providers-0.8.0.tar.gz]
+[2023-06-06 11:05:44] INFO root fetch - processPackages [multiversx-sdk-network-providers]: Remove: archive file [/home/abi/fetcher/tmp/multiversx_sdk_network_providers-0.9.0.tar.gz]
+[2023-06-06 11:05:44] INFO root fetch - processPackages [multiversx-sdk-network-providers]: Start processing: kfish
+[2023-06-06 11:05:44] INFO root fetch - main [MainThread]: End processing [multiversx-sdk-network-providers]: success
+[2023-06-06 11:05:44] INFO root fetch - processPackages [kfish]: New version: [99.0.202306060859] Old Version: [99.0.202306060633]
+[2023-06-06 11:05:44] INFO root fetch - processPackages [trustero-api]: Downloading https://files.pythonhosted.org/packages/21/0e/26c04ff64c9120fd384ea223abca56893263403fee4bd446aca04056664e/trustero_api-0.0.0.tar.gz
+[2023-06-06 11:05:44] INFO root fetch - processPackages [pytest-embedded-arduino]: Remove: archive file [/home/abi/fetcher/tmp/pytest-embedded-arduino-1.3.0.tar.gz]
+[2023-06-06 11:05:44] INFO root fetch - processPackages [pytest-embedded-arduino]: Remove: archive file [/home/abi/fetcher/tmp/pytest-embedded-arduino-1.3.1.tar.gz]
+[2023-06-06 11:05:44] INFO root fetch - processPackages [pytest-embedded-arduino]: Start processing: m3u-parser
+[2023-06-06 11:05:44] INFO root fetch - main [MainThread]: End processing [pytest-embedded-arduino]: success
+[2023-06-06 11:05:44] INFO root fetch - processPackages [m3u-parser]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-06 11:05:44] INFO root fetch - processPackages [pygmssl]: Remove: archive file [/home/abi/fetcher/tmp/pygmssl-0.0.5.tar.gz]
+[2023-06-06 11:05:44] INFO root fetch - processPackages [pygmssl]: Remove: archive file [/home/abi/fetcher/tmp/pygmssl-0.0.6.tar.gz]
+[2023-06-06 11:05:44] INFO root fetch - processPackages [pygmssl]: Start processing: embiggen
+[2023-06-06 11:05:44] INFO root fetch - main [MainThread]: End processing [pygmssl]: success
+[2023-06-06 11:05:44] INFO root fetch - processPackages [embiggen]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-06 11:05:44] INFO root fetch - processPackages [pytest-embedded-qemu]: Remove: archive file [/home/abi/fetcher/tmp/pytest-embedded-qemu-1.3.0.tar.gz]
+[2023-06-06 11:05:44] INFO root fetch - processPackages [pytest-embedded-qemu]: Remove: archive file [/home/abi/fetcher/tmp/pytest-embedded-qemu-1.3.1.tar.gz]
+[2023-06-06 11:05:44] INFO root fetch - processPackages [pytest-embedded-qemu]: Start processing: docarray
+[2023-06-06 11:05:44] INFO root fetch - main [MainThread]: End processing [pytest-embedded-qemu]: success
+[2023-06-06 11:05:44] INFO root fetch - processPackages [docarray]: New version: [0.9.9.dev5] Old Version: [0.9.9.dev4]
+[2023-06-06 11:05:44] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/02/5b/3043ec9d8a0bb8a78993d637a39f2a8d386a52d563e0c2481803a1bca524/kfish-99.0.202306060633-py3-none-any.whl
+[2023-06-06 11:05:44] INFO root fetch - processPackages [m3u-parser]: Downloading https://files.pythonhosted.org/packages/28/88/24284c07c06599cad54c774f165c8340acf05a76fe573eaff253e247627a/m3u_parser-0.2.1.tar.gz
+[2023-06-06 11:05:44] INFO root fetch - processPackages [embiggen]: Downloading https://files.pythonhosted.org/packages/93/68/e13cdca050b32069a58f9e36d05835a384d261a5d1f299af468629e721e1/embiggen-0.9.2.tar.gz
+[2023-06-06 11:05:44] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/da/d0/4e039d9e7c4e19f30fbd831f0bd4670ae9aa6b5c8b29e21ed55f7886c9fe/docarray-0.9.9.dev4.tar.gz
+[2023-06-06 11:05:44] INFO root fetch - processPackages [trustero-api]: Downloading https://files.pythonhosted.org/packages/0e/fa/58feaf4001131dc05c256c0078586b8fae373b3da3b5ecdd746c110fb213/trustero_api-0.0.1.tar.gz
+[2023-06-06 11:05:44] INFO root fetch - processPackages [trustero-api]: executing diffoscope
+[2023-06-06 11:05:44] INFO root fetch - processPackages [trustero-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trustero_api-0.0.0.tar.gz tmp/trustero_api-0.0.1.tar.gz --markdown 20230606/t/trustero-api/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-06-06 11:05:44] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/e0/be/d5cb39d5c5aa17bf7407d0df776410bb2daedab06beaa0f02ec02fa5c6ec/kfish-99.0.202306060859-py3-none-any.whl
+[2023-06-06 11:05:44] INFO root fetch - processPackages [m3u-parser]: Downloading https://files.pythonhosted.org/packages/c3/14/a5ab15d302d19fe16cc31f2b56fba5556db56edb9fab33c579a0eefec78f/m3u_parser-0.3.0.tar.gz
+[2023-06-06 11:05:44] INFO root fetch - processPackages [embiggen]: Downloading https://files.pythonhosted.org/packages/4b/25/4e08b9a62e34917ef75c8ed47526252ca4bcd5d5e15961bc14dc9486ccf8/embiggen-0.9.3.tar.gz
+[2023-06-06 11:05:44] INFO root fetch - processPackages [PyMoosh]: Remove: archive file [/home/abi/fetcher/tmp/PyMoosh-2.61.tar.gz]
+[2023-06-06 11:05:44] INFO root fetch - processPackages [PyMoosh]: Remove: archive file [/home/abi/fetcher/tmp/PyMoosh-2.62.tar.gz]
+[2023-06-06 11:05:44] INFO root fetch - processPackages [PyMoosh]: Start processing: geopandas
+[2023-06-06 11:05:44] INFO root fetch - main [MainThread]: End processing [PyMoosh]: success
+[2023-06-06 11:05:44] INFO root fetch - processPackages [geopandas]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-06-06 11:05:44] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-06 11:05:44] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306060633-py3-none-any.whl.zip tmp/kfish-99.0.202306060859-py3-none-any.whl.zip --markdown 20230606/k/kfish/99.0.202306060633-99.0.202306060859/diff.md --exclude *.pyd
+[2023-06-06 11:05:44] INFO root fetch - processPackages [m3u-parser]: executing diffoscope
+[2023-06-06 11:05:44] INFO root fetch - processPackages [m3u-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m3u_parser-0.2.1.tar.gz tmp/m3u_parser-0.3.0.tar.gz --markdown 20230606/m/m3u-parser/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-06 11:05:44] INFO root fetch - processPackages [embiggen]: executing diffoscope
+[2023-06-06 11:05:44] INFO root fetch - processPackages [embiggen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/embiggen-0.9.2.tar.gz tmp/embiggen-0.9.3.tar.gz --markdown 20230606/e/embiggen/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-06 11:05:44] INFO root fetch - processPackages [docarray]: Downloading https://files.pythonhosted.org/packages/2b/4f/53a641fcaefc8774128d5f48cb2a7b2e692c8adfce1e2afaf8d9260d8b2a/docarray-0.9.9.dev5.tar.gz
+[2023-06-06 11:05:44] INFO root fetch - processPackages [geopandas]: Downloading https://files.pythonhosted.org/packages/e0/4d/13d8ad924f3353728ee621e89b1f4c54cd8bc22310253ab6991073e42a32/geopandas-0.8.2.tar.gz
+[2023-06-06 11:05:45] INFO root fetch - processPackages [docarray]: executing diffoscope
+[2023-06-06 11:05:45] INFO root fetch - processPackages [docarray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docarray-0.9.9.dev4.tar.gz tmp/docarray-0.9.9.dev5.tar.gz --markdown 20230606/d/docarray/0.9.9.dev4-0.9.9.dev5/diff.md --exclude *.pyd
+[2023-06-06 11:05:45] INFO root fetch - processPackages [geopandas]: Downloading https://files.pythonhosted.org/packages/9b/59/3b0907ae8128f81db5cd978d95e6cd6aa2b0ce19884833c37f65deaaca44/geopandas-0.9.0.tar.gz
+[2023-06-06 11:05:45] INFO root fetch - processPackages [geopandas]: executing diffoscope
+[2023-06-06 11:05:45] INFO root fetch - processPackages [geopandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geopandas-0.8.2.tar.gz tmp/geopandas-0.9.0.tar.gz --markdown 20230606/g/geopandas/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-06-06 11:05:46] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306060633-py3-none-any.whl.zip]
+[2023-06-06 11:05:46] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306060859-py3-none-any.whl.zip]
+[2023-06-06 11:05:46] INFO root fetch - processPackages [kfish]: Start processing: sageintacctsdk
+[2023-06-06 11:05:46] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-06 11:05:46] INFO root fetch - processPackages [sageintacctsdk]: New version: [1.9.6] Old Version: [1.9.5]
+[2023-06-06 11:05:46] INFO root fetch - processPackages [m3u-parser]: Remove: archive file [/home/abi/fetcher/tmp/m3u_parser-0.2.1.tar.gz]
+[2023-06-06 11:05:46] INFO root fetch - processPackages [m3u-parser]: Remove: archive file [/home/abi/fetcher/tmp/m3u_parser-0.3.0.tar.gz]
+[2023-06-06 11:05:46] INFO root fetch - processPackages [m3u-parser]: Start processing: tcflow-tmp
+[2023-06-06 11:05:46] INFO root fetch - main [MainThread]: End processing [m3u-parser]: success
+[2023-06-06 11:05:46] INFO root fetch - processPackages [sageintacctsdk]: Downloading https://files.pythonhosted.org/packages/01/4e/267ea24dd957a0411483147331cca87466764344d8e2b2cae5037f321ce3/sageintacctsdk-1.9.5.tar.gz
+[2023-06-06 11:05:46] WARNING root fetch - processPackages [tcflow-tmp]: Skipping, unable to determine old version
+[2023-06-06 11:05:46] INFO root fetch - processPackages [tcflow-tmp]: Start processing: libcnmc
+[2023-06-06 11:05:46] INFO root fetch - main [MainThread]: End processing [tcflow-tmp] error
+[2023-06-06 11:05:46] INFO root fetch - processPackages [libcnmc]: New version: [23.9.1] Old Version: [23.9.0]
+[2023-06-06 11:05:46] INFO root fetch - processPackages [trustero-api]: Remove: archive file [/home/abi/fetcher/tmp/trustero_api-0.0.0.tar.gz]
+[2023-06-06 11:05:46] INFO root fetch - processPackages [trustero-api]: Remove: archive file [/home/abi/fetcher/tmp/trustero_api-0.0.1.tar.gz]
+[2023-06-06 11:05:46] INFO root fetch - processPackages [trustero-api]: Start processing: openllm-api
+[2023-06-06 11:05:46] INFO root fetch - main [MainThread]: End processing [trustero-api]: success
+[2023-06-06 11:05:46] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/91/88/c28ff84568ef323398498b71d609a92ca287ddcdf8a851536ab656221bc4/libcnmc-23.9.0.tar.gz
+[2023-06-06 11:05:46] ERROR root fetch - processPackages [openllm-api]: Unable to get metadata: No such project 'openllm-api'
+[2023-06-06 11:05:46] INFO root fetch - processPackages [openllm-api]: Start processing: test-graphql-sdk
+[2023-06-06 11:05:46] INFO root fetch - main [MainThread]: End processing [openllm-api] error
+[2023-06-06 11:05:46] INFO root fetch - processPackages [test-graphql-sdk]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 11:05:46] INFO root fetch - processPackages [libcnmc]: Downloading https://files.pythonhosted.org/packages/fc/9f/639d42b63484a91cf9f1c60f9bb709f1ed853240f45c2e02047054beffa6/libcnmc-23.9.1.tar.gz
+[2023-06-06 11:05:46] INFO root fetch - processPackages [sageintacctsdk]: Downloading https://files.pythonhosted.org/packages/35/ff/573d6a77bb5debcc7d21e4ade0260e9eed23fda653497d686f8b60a44263/sageintacctsdk-1.9.6.tar.gz
+[2023-06-06 11:05:46] INFO root fetch - processPackages [test-graphql-sdk]: Downloading https://files.pythonhosted.org/packages/2b/47/6417a7e32e5e86e3400ea1298e1a44395fbffa3a18982f399ebfd88a471e/test_graphql_sdk-0.0.8.tar.gz
+[2023-06-06 11:05:46] INFO root fetch - processPackages [embiggen]: Remove: archive file [/home/abi/fetcher/tmp/embiggen-0.9.2.tar.gz]
+[2023-06-06 11:05:46] INFO root fetch - processPackages [embiggen]: Remove: archive file [/home/abi/fetcher/tmp/embiggen-0.9.3.tar.gz]
+[2023-06-06 11:05:46] INFO root fetch - processPackages [embiggen]: Start processing: mapchete
+[2023-06-06 11:05:46] INFO root fetch - main [MainThread]: End processing [embiggen]: success
+[2023-06-06 11:05:46] INFO root fetch - processPackages [mapchete]: New version: [2023.6.1] Old Version: [2023.6.0]
+[2023-06-06 11:05:46] INFO root fetch - processPackages [mapchete]: Downloading https://files.pythonhosted.org/packages/f5/a9/a7fd9bbf9c40c18646b054b66c33cd734da184aecf8be980af7bd8967250/mapchete-2023.6.0.tar.gz
+[2023-06-06 11:05:46] INFO root fetch - processPackages [test-graphql-sdk]: Downloading https://files.pythonhosted.org/packages/2e/df/61699b4c0d07c1febd2d3273e8367c47f94ce96f8389b65a0974301428a5/test_graphql_sdk-0.0.9.tar.gz
+[2023-06-06 11:05:46] INFO root fetch - processPackages [libcnmc]: executing diffoscope
+[2023-06-06 11:05:46] INFO root fetch - processPackages [libcnmc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libcnmc-23.9.0.tar.gz tmp/libcnmc-23.9.1.tar.gz --markdown 20230606/l/libcnmc/23.9.0-23.9.1/diff.md --exclude *.pyd
+[2023-06-06 11:05:46] INFO root fetch - processPackages [test-graphql-sdk]: executing diffoscope
+[2023-06-06 11:05:46] INFO root fetch - processPackages [test-graphql-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_graphql_sdk-0.0.8.tar.gz tmp/test_graphql_sdk-0.0.9.tar.gz --markdown 20230606/t/test-graphql-sdk/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 11:05:46] INFO root fetch - processPackages [mapchete]: Downloading https://files.pythonhosted.org/packages/d1/2f/f8eb51860249436bc382a3652ba036440bf440f1f872d8ab9e76f7bdaa03/mapchete-2023.6.1.tar.gz
+[2023-06-06 11:05:47] INFO root fetch - processPackages [mapchete]: executing diffoscope
+[2023-06-06 11:05:47] INFO root fetch - processPackages [mapchete]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mapchete-2023.6.0.tar.gz tmp/mapchete-2023.6.1.tar.gz --markdown 20230606/m/mapchete/2023.6.0-2023.6.1/diff.md --exclude *.pyd
+[2023-06-06 11:05:47] INFO root fetch - processPackages [sageintacctsdk]: executing diffoscope
+[2023-06-06 11:05:47] INFO root fetch - processPackages [sageintacctsdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sageintacctsdk-1.9.5.tar.gz tmp/sageintacctsdk-1.9.6.tar.gz --markdown 20230606/s/sageintacctsdk/1.9.5-1.9.6/diff.md --exclude *.pyd
+[2023-06-06 11:05:47] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz]
+[2023-06-06 11:05:47] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz]
+[2023-06-06 11:05:47] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Start processing: outlines
+[2023-06-06 11:05:47] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-validator-cfnguard]: success
+[2023-06-06 11:05:47] INFO root fetch - processPackages [outlines]: New version: [0.1.dev0] Old Version: [0.0.3]
+[2023-06-06 11:05:47] INFO root fetch - processPackages [outlines]: Downloading https://files.pythonhosted.org/packages/ca/4e/43e60ad0fdb245e64f0f542bad2e5b94c8d88a1fbfe8f3775f38d99dcfca/outlines-0.0.3.tar.gz
+[2023-06-06 11:05:48] INFO root fetch - processPackages [outlines]: Downloading https://files.pythonhosted.org/packages/3d/3e/193c40a8341100112fa91f6252f05e70b1cb0946ccad9863e64b17831234/outlines-0.1.dev0.tar.gz
+[2023-06-06 11:05:48] INFO root fetch - processPackages [outlines]: executing diffoscope
+[2023-06-06 11:05:48] INFO root fetch - processPackages [outlines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outlines-0.0.3.tar.gz tmp/outlines-0.1.dev0.tar.gz --markdown 20230606/o/outlines/0.0.3-0.1.dev0/diff.md --exclude *.pyd
+[2023-06-06 11:05:48] INFO root fetch - processPackages [test-graphql-sdk]: Remove: archive file [/home/abi/fetcher/tmp/test_graphql_sdk-0.0.8.tar.gz]
+[2023-06-06 11:05:48] INFO root fetch - processPackages [test-graphql-sdk]: Remove: archive file [/home/abi/fetcher/tmp/test_graphql_sdk-0.0.9.tar.gz]
+[2023-06-06 11:05:48] INFO root fetch - processPackages [test-graphql-sdk]: Start processing: DNASpiderWeb
+[2023-06-06 11:05:48] INFO root fetch - main [MainThread]: End processing [test-graphql-sdk]: success
+[2023-06-06 11:05:48] INFO root fetch - processPackages [DNASpiderWeb]: New version: [1.1] Old Version: [1.0]
+[2023-06-06 11:05:48] INFO root fetch - processPackages [DNASpiderWeb]: Downloading https://files.pythonhosted.org/packages/64/31/a3ed8ee2fc251b259e7f9b2fbe56c442416533dbcda9b83a379e107074ea/DNASpiderWeb-1.0-py3-none-any.whl
+[2023-06-06 11:05:48] INFO root fetch - processPackages [sageintacctsdk]: Remove: archive file [/home/abi/fetcher/tmp/sageintacctsdk-1.9.5.tar.gz]
+[2023-06-06 11:05:48] INFO root fetch - processPackages [sageintacctsdk]: Remove: archive file [/home/abi/fetcher/tmp/sageintacctsdk-1.9.6.tar.gz]
+[2023-06-06 11:05:48] INFO root fetch - processPackages [sageintacctsdk]: Start processing: jrwhypy
+[2023-06-06 11:05:48] INFO root fetch - main [MainThread]: End processing [sageintacctsdk]: success
+[2023-06-06 11:05:48] WARNING root fetch - processPackages [jrwhypy]: Skipping, unable to determine old version
+[2023-06-06 11:05:48] INFO root fetch - processPackages [jrwhypy]: Start processing: deeppavlov
+[2023-06-06 11:05:48] INFO root fetch - main [MainThread]: End processing [jrwhypy] error
+[2023-06-06 11:05:48] INFO root fetch - processPackages [deeppavlov]: New version: [1.2.0] Old Version: [1.1.1]
+[2023-06-06 11:05:48] INFO root fetch - processPackages [DNASpiderWeb]: Downloading https://files.pythonhosted.org/packages/1b/9e/41ea952837155047a068bd02b5576dd822c85bf62426d33944b290068877/DNASpiderWeb-1.1-py3-none-any.whl
+[2023-06-06 11:05:48] INFO root fetch - processPackages [mapchete]: Remove: archive file [/home/abi/fetcher/tmp/mapchete-2023.6.0.tar.gz]
+[2023-06-06 11:05:48] INFO root fetch - processPackages [mapchete]: Remove: archive file [/home/abi/fetcher/tmp/mapchete-2023.6.1.tar.gz]
+[2023-06-06 11:05:48] INFO root fetch - processPackages [mapchete]: Start processing: armonik
+[2023-06-06 11:05:48] INFO root fetch - main [MainThread]: End processing [mapchete]: success
+[2023-06-06 11:05:48] INFO root fetch - processPackages [armonik]: New version: [3.8.2.dev395] Old Version: [3.8.2.dev382]
+[2023-06-06 11:05:48] INFO root fetch - processPackages [deeppavlov]: Downloading https://files.pythonhosted.org/packages/63/ca/92187ea41f6a26200ba1bbdb46a4b894d088ba4cfc7ef22e716e5609e5ba/deeppavlov-1.1.1.tar.gz
+[2023-06-06 11:05:48] INFO root fetch - processPackages [DNASpiderWeb]: executing diffoscope
+[2023-06-06 11:05:48] INFO root fetch - processPackages [DNASpiderWeb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DNASpiderWeb-1.0-py3-none-any.whl.zip tmp/DNASpiderWeb-1.1-py3-none-any.whl.zip --markdown 20230606/D/DNASpiderWeb/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-06 11:05:48] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/af/cc/0019219f8fe7d14df4226e58377109cd44658d12e1df61ea4c68722d455d/armonik-3.8.2.dev382.tar.gz
+[2023-06-06 11:05:49] INFO root fetch - processPackages [deeppavlov]: Downloading https://files.pythonhosted.org/packages/d8/b5/8a4b35d433d9c816cd3d957676a9c410037648603918003d575a8ccf5d66/deeppavlov-1.2.0.tar.gz
+[2023-06-06 11:05:49] INFO root fetch - processPackages [armonik]: Downloading https://files.pythonhosted.org/packages/50/3a/de3e98d6a0244f24c136212eea170e71b99fbb0066c3c53a218f9b76aa35/armonik-3.8.2.dev395.tar.gz
+[2023-06-06 11:05:49] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-06 11:05:49] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-06 11:05:49] INFO root fetch - processPackages [qontract-reconcile]: Start processing: miniofs
+[2023-06-06 11:05:49] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-06 11:05:49] INFO root fetch - processPackages [armonik]: executing diffoscope
+[2023-06-06 11:05:49] INFO root fetch - processPackages [armonik]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/armonik-3.8.2.dev382.tar.gz tmp/armonik-3.8.2.dev395.tar.gz --markdown 20230606/a/armonik/3.8.2.dev382-3.8.2.dev395/diff.md --exclude *.pyd
+[2023-06-06 11:05:49] INFO root fetch - processPackages [miniofs]: New version: [0.0.4b1] Old Version: [0.0.4b0]
+[2023-06-06 11:05:49] INFO root fetch - processPackages [deeppavlov]: executing diffoscope
+[2023-06-06 11:05:49] INFO root fetch - processPackages [deeppavlov]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deeppavlov-1.1.1.tar.gz tmp/deeppavlov-1.2.0.tar.gz --markdown 20230606/d/deeppavlov/1.1.1-1.2.0/diff.md --exclude *.pyd
+[2023-06-06 11:05:49] INFO root fetch - processPackages [miniofs]: Downloading https://files.pythonhosted.org/packages/e9/37/9fb8d966fc04dd26294a2423acbd12ef3bb340ceb4c618d5cc7cba70a35c/miniofs-0.0.4b0-py3-none-any.whl
+[2023-06-06 11:05:49] INFO root fetch - processPackages [miniofs]: Downloading https://files.pythonhosted.org/packages/9d/0a/39fd732317defd36e03b800d8c9411a6ad71363419f44fb1585149f3633e/miniofs-0.0.4b1-py3-none-any.whl
+[2023-06-06 11:05:49] INFO root fetch - processPackages [miniofs]: executing diffoscope
+[2023-06-06 11:05:49] INFO root fetch - processPackages [miniofs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniofs-0.0.4b0-py3-none-any.whl.zip tmp/miniofs-0.0.4b1-py3-none-any.whl.zip --markdown 20230606/m/miniofs/0.0.4b0-0.0.4b1/diff.md --exclude *.pyd
+[2023-06-06 11:05:50] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev4.tar.gz]
+[2023-06-06 11:05:50] INFO root fetch - processPackages [docarray]: Remove: archive file [/home/abi/fetcher/tmp/docarray-0.9.9.dev5.tar.gz]
+[2023-06-06 11:05:50] INFO root fetch - processPackages [docarray]: Start processing: prometheus-dirsize-exporter
+[2023-06-06 11:05:50] INFO root fetch - main [MainThread]: End processing [docarray]: success
+[2023-06-06 11:05:50] WARNING root fetch - processPackages [prometheus-dirsize-exporter]: Skipping, unable to determine old version
+[2023-06-06 11:05:50] INFO root fetch - processPackages [prometheus-dirsize-exporter]: Start processing: autogluon.common
+[2023-06-06 11:05:50] INFO root fetch - main [MainThread]: End processing [prometheus-dirsize-exporter] error
+[2023-06-06 11:05:50] INFO root fetch - processPackages [autogluon.common]: New version: [0.7.1b20230606] Old Version: [0.7.1b20230605]
+[2023-06-06 11:05:50] INFO root fetch - processPackages [geopandas]: Remove: archive file [/home/abi/fetcher/tmp/geopandas-0.8.2.tar.gz]
+[2023-06-06 11:05:50] INFO root fetch - processPackages [geopandas]: Remove: archive file [/home/abi/fetcher/tmp/geopandas-0.9.0.tar.gz]
+[2023-06-06 11:05:50] INFO root fetch - processPackages [geopandas]: Start processing: autogluon.core
+[2023-06-06 11:05:50] INFO root fetch - main [MainThread]: End processing [geopandas]: success
+[2023-06-06 11:05:50] INFO root fetch - processPackages [autogluon.core]: New version: [0.7.1b20230606] Old Version: [0.7.1b20230605]
+[2023-06-06 11:05:50] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/78/e4/1b74071a71823485c35e455d9486b0bec99a57a90e1918ce2386d33547f3/autogluon.common-0.7.1b20230605.tar.gz
+[2023-06-06 11:05:50] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/e5/81/8fe881c4a66127f1dbb801e8eb716ae7845110db5abac9d405f9a7c2c447/autogluon.core-0.7.1b20230605.tar.gz
+[2023-06-06 11:05:50] INFO root fetch - processPackages [DNASpiderWeb]: Remove: archive file [/home/abi/fetcher/tmp/DNASpiderWeb-1.0-py3-none-any.whl.zip]
+[2023-06-06 11:05:50] INFO root fetch - processPackages [DNASpiderWeb]: Remove: archive file [/home/abi/fetcher/tmp/DNASpiderWeb-1.1-py3-none-any.whl.zip]
+[2023-06-06 11:05:50] INFO root fetch - processPackages [DNASpiderWeb]: Start processing: autogluon.features
+[2023-06-06 11:05:50] INFO root fetch - main [MainThread]: End processing [DNASpiderWeb]: success
+[2023-06-06 11:05:50] INFO root fetch - processPackages [autogluon.features]: New version: [0.7.1b20230606] Old Version: [0.7.1b20230605]
+[2023-06-06 11:05:50] INFO root fetch - processPackages [autogluon.common]: Downloading https://files.pythonhosted.org/packages/21/b5/c867c9b4d1cf20dee7cfd3d33c87f5613b27c941fff60799b7d5932ba5fc/autogluon.common-0.7.1b20230606.tar.gz
+[2023-06-06 11:05:50] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/25/34/7aebdab9b20be747a43592d8402e7a21405501d9d501685ff2526c94c1a3/autogluon.features-0.7.1b20230605.tar.gz
+[2023-06-06 11:05:50] INFO root fetch - processPackages [autogluon.core]: Downloading https://files.pythonhosted.org/packages/47/db/c64b7b7953354a10bc3953a63817266890067ade8ad1e4419c139d6b5171/autogluon.core-0.7.1b20230606.tar.gz
+[2023-06-06 11:05:50] INFO root fetch - processPackages [autogluon.common]: executing diffoscope
+[2023-06-06 11:05:50] INFO root fetch - processPackages [autogluon.common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.common-0.7.1b20230605.tar.gz tmp/autogluon.common-0.7.1b20230606.tar.gz --markdown 20230606/a/autogluon.common/0.7.1b20230605-0.7.1b20230606/diff.md --exclude *.pyd
+[2023-06-06 11:05:50] INFO root fetch - processPackages [autogluon.features]: Downloading https://files.pythonhosted.org/packages/aa/81/cdce6352b8f72813e19b4adef4f6124f2238244c18472b8c141d7286fac8/autogluon.features-0.7.1b20230606.tar.gz
+[2023-06-06 11:05:50] INFO root fetch - processPackages [autogluon.core]: executing diffoscope
+[2023-06-06 11:05:50] INFO root fetch - processPackages [autogluon.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.core-0.7.1b20230605.tar.gz tmp/autogluon.core-0.7.1b20230606.tar.gz --markdown 20230606/a/autogluon.core/0.7.1b20230605-0.7.1b20230606/diff.md --exclude *.pyd
+[2023-06-06 11:05:50] INFO root fetch - processPackages [outlines]: Remove: archive file [/home/abi/fetcher/tmp/outlines-0.0.3.tar.gz]
+[2023-06-06 11:05:50] INFO root fetch - processPackages [outlines]: Remove: archive file [/home/abi/fetcher/tmp/outlines-0.1.dev0.tar.gz]
+[2023-06-06 11:05:50] INFO root fetch - processPackages [outlines]: Start processing: autogluon.tabular
+[2023-06-06 11:05:50] INFO root fetch - main [MainThread]: End processing [outlines]: success
+[2023-06-06 11:05:50] INFO root fetch - processPackages [autogluon.tabular]: New version: [0.7.1b20230606] Old Version: [0.7.1b20230605]
+[2023-06-06 11:05:50] INFO root fetch - processPackages [autogluon.features]: executing diffoscope
+[2023-06-06 11:05:50] INFO root fetch - processPackages [autogluon.features]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.features-0.7.1b20230605.tar.gz tmp/autogluon.features-0.7.1b20230606.tar.gz --markdown 20230606/a/autogluon.features/0.7.1b20230605-0.7.1b20230606/diff.md --exclude *.pyd
+[2023-06-06 11:05:50] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/fe/09/53df252e541d40c9677cb307ef3665f3d7762ebc53fd4ae4467bf339b448/autogluon.tabular-0.7.1b20230605.tar.gz
+[2023-06-06 11:05:51] INFO root fetch - processPackages [miniofs]: Remove: archive file [/home/abi/fetcher/tmp/miniofs-0.0.4b0-py3-none-any.whl.zip]
+[2023-06-06 11:05:51] INFO root fetch - processPackages [miniofs]: Remove: archive file [/home/abi/fetcher/tmp/miniofs-0.0.4b1-py3-none-any.whl.zip]
+[2023-06-06 11:05:51] INFO root fetch - processPackages [miniofs]: Start processing: autogluon.multimodal
+[2023-06-06 11:05:51] INFO root fetch - main [MainThread]: End processing [miniofs]: success
+[2023-06-06 11:05:51] INFO root fetch - processPackages [autogluon.multimodal]: New version: [0.7.1b20230606] Old Version: [0.7.1b20230605]
+[2023-06-06 11:05:51] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/de/01/f09110c584c3e6fe1938f43bd1b77b80179e38d480072a57ebaf643e111c/autogluon.multimodal-0.7.1b20230605.tar.gz
+[2023-06-06 11:05:51] INFO root fetch - processPackages [autogluon.tabular]: Downloading https://files.pythonhosted.org/packages/0e/1c/6a1e1963e38fa54838642b2bfdcd407e1067adf7d182e5eab08643649b52/autogluon.tabular-0.7.1b20230606.tar.gz
+[2023-06-06 11:05:51] INFO root fetch - processPackages [autogluon.multimodal]: Downloading https://files.pythonhosted.org/packages/21/4a/79140542c8c16de976960153412b2366bfc89aeee35aba81eab28f41e167/autogluon.multimodal-0.7.1b20230606.tar.gz
+[2023-06-06 11:05:51] INFO root fetch - processPackages [autogluon.tabular]: executing diffoscope
+[2023-06-06 11:05:51] INFO root fetch - processPackages [autogluon.tabular]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.tabular-0.7.1b20230605.tar.gz tmp/autogluon.tabular-0.7.1b20230606.tar.gz --markdown 20230606/a/autogluon.tabular/0.7.1b20230605-0.7.1b20230606/diff.md --exclude *.pyd
+[2023-06-06 11:05:51] INFO root fetch - processPackages [autogluon.multimodal]: executing diffoscope
+[2023-06-06 11:05:51] INFO root fetch - processPackages [autogluon.multimodal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.multimodal-0.7.1b20230605.tar.gz tmp/autogluon.multimodal-0.7.1b20230606.tar.gz --markdown 20230606/a/autogluon.multimodal/0.7.1b20230605-0.7.1b20230606/diff.md --exclude *.pyd
+[2023-06-06 11:05:52] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-0.7.1b20230605.tar.gz]
+[2023-06-06 11:05:52] INFO root fetch - processPackages [autogluon.common]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.common-0.7.1b20230606.tar.gz]
+[2023-06-06 11:05:52] INFO root fetch - processPackages [autogluon.common]: Start processing: autogluon.timeseries
+[2023-06-06 11:05:52] INFO root fetch - main [MainThread]: End processing [autogluon.common]: success
+[2023-06-06 11:05:52] INFO root fetch - processPackages [autogluon.timeseries]: New version: [0.7.1b20230606] Old Version: [0.7.1b20230605]
+[2023-06-06 11:05:52] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.8.2.dev382.tar.gz]
+[2023-06-06 11:05:52] INFO root fetch - processPackages [armonik]: Remove: archive file [/home/abi/fetcher/tmp/armonik-3.8.2.dev395.tar.gz]
+[2023-06-06 11:05:52] INFO root fetch - processPackages [armonik]: Start processing: otlmow-converter
+[2023-06-06 11:05:52] INFO root fetch - main [MainThread]: End processing [armonik]: success
+[2023-06-06 11:05:52] INFO root fetch - processPackages [otlmow-converter]: New version: [0.9] Old Version: [0.8]
+[2023-06-06 11:05:52] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.0.tar.gz]
+[2023-06-06 11:05:52] INFO root fetch - processPackages [libcnmc]: Remove: archive file [/home/abi/fetcher/tmp/libcnmc-23.9.1.tar.gz]
+[2023-06-06 11:05:52] INFO root fetch - processPackages [libcnmc]: Start processing: autogluon
+[2023-06-06 11:05:52] INFO root fetch - main [MainThread]: End processing [libcnmc]: success
+[2023-06-06 11:05:52] INFO root fetch - processPackages [autogluon]: New version: [0.7.1b20230606] Old Version: [0.7.1b20230605]
+[2023-06-06 11:05:52] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/eb/9f/0ad6d258a345eb494047f3fa6a7c2b4c95648f65d4face5ab53471188c66/autogluon.timeseries-0.7.1b20230605.tar.gz
+[2023-06-06 11:05:52] INFO root fetch - processPackages [otlmow-converter]: Downloading https://files.pythonhosted.org/packages/d8/9b/c7bb2f438cff3f42c7b57717f8e8928f896a1e04ebcff851e5cc79bf3883/otlmow_converter-0.8.tar.gz
+[2023-06-06 11:05:52] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/5b/9f/ea1ca98f951c19025eae3bd1ee65f3b57cf798a2b7d078cd56e38c03dc71/autogluon-0.7.1b20230605.tar.gz
+[2023-06-06 11:05:52] INFO root fetch - processPackages [autogluon.timeseries]: Downloading https://files.pythonhosted.org/packages/ef/d2/67a319afc3b757db882ac450974d133dc65e0796f1fbba69ec7fa1921e0d/autogluon.timeseries-0.7.1b20230606.tar.gz
+[2023-06-06 11:05:52] INFO root fetch - processPackages [autogluon]: Downloading https://files.pythonhosted.org/packages/ae/98/8eeb3cb38bee1f7b0bbb388a1c09cfbb508d86963c9d45a9eb160a77aff7/autogluon-0.7.1b20230606.tar.gz
+[2023-06-06 11:05:52] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306060631-py3-none-any.whl.zip]
+[2023-06-06 11:05:52] INFO root fetch - processPackages [kcli]: Remove: archive file [/home/abi/fetcher/tmp/kcli-99.0.202306060857-py3-none-any.whl.zip]
+[2023-06-06 11:05:52] INFO root fetch - processPackages [kcli]: Start processing: autogluon.eda
+[2023-06-06 11:05:52] INFO root fetch - main [MainThread]: End processing [kcli]: success
+[2023-06-06 11:05:52] INFO root fetch - processPackages [autogluon.eda]: New version: [0.7.1b20230606] Old Version: [0.7.1b20230605]
+[2023-06-06 11:05:52] INFO root fetch - processPackages [otlmow-converter]: Downloading https://files.pythonhosted.org/packages/0d/10/0291fca193db6bde455c97caa90df2aad98730c3c257da351667da3a8116/otlmow_converter-0.9.tar.gz
+[2023-06-06 11:05:52] INFO root fetch - processPackages [autogluon.eda]: Downloading https://files.pythonhosted.org/packages/26/8a/d326e5fa57798f30a61b8e0bd0acc1295470de6775e6848b5167a12a58eb/autogluon.eda-0.7.1b20230605.tar.gz
+[2023-06-06 11:05:52] INFO root fetch - processPackages [otlmow-converter]: executing diffoscope
+[2023-06-06 11:05:52] INFO root fetch - processPackages [otlmow-converter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/otlmow_converter-0.8.tar.gz tmp/otlmow_converter-0.9.tar.gz --markdown 20230606/o/otlmow-converter/0.8-0.9/diff.md --exclude *.pyd
+[2023-06-06 11:05:52] INFO root fetch - processPackages [autogluon]: executing diffoscope
+[2023-06-06 11:05:52] INFO root fetch - processPackages [autogluon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon-0.7.1b20230605.tar.gz tmp/autogluon-0.7.1b20230606.tar.gz --markdown 20230606/a/autogluon/0.7.1b20230605-0.7.1b20230606/diff.md --exclude *.pyd
+[2023-06-06 11:05:52] INFO root fetch - processPackages [autogluon.timeseries]: executing diffoscope
+[2023-06-06 11:05:52] INFO root fetch - processPackages [autogluon.timeseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.timeseries-0.7.1b20230605.tar.gz tmp/autogluon.timeseries-0.7.1b20230606.tar.gz --markdown 20230606/a/autogluon.timeseries/0.7.1b20230605-0.7.1b20230606/diff.md --exclude *.pyd
+[2023-06-06 11:05:52] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-0.7.1b20230605.tar.gz]
+[2023-06-06 11:05:52] INFO root fetch - processPackages [autogluon.features]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.features-0.7.1b20230606.tar.gz]
+[2023-06-06 11:05:52] INFO root fetch - processPackages [autogluon.features]: Start processing: lecore
+[2023-06-06 11:05:52] INFO root fetch - main [MainThread]: End processing [autogluon.features]: success
+[2023-06-06 11:05:52] INFO root fetch - processPackages [lecore]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-06 11:05:53] INFO root fetch - processPackages [autogluon.eda]: Downloading https://files.pythonhosted.org/packages/e7/30/71d94288f77a5554bf84fd91a0f5f3f0f5ee93a1f2fd9ff638a2efd440f3/autogluon.eda-0.7.1b20230606.tar.gz
+[2023-06-06 11:05:53] INFO root fetch - processPackages [lecore]: Downloading https://files.pythonhosted.org/packages/81/87/9e548198efcfd018d72eac3f482346cf8ad94baa876971afdc54812c5399/lecore-0.1.3.tar.gz
+[2023-06-06 11:05:53] INFO root fetch - processPackages [autogluon.eda]: executing diffoscope
+[2023-06-06 11:05:53] INFO root fetch - processPackages [autogluon.eda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.eda-0.7.1b20230605.tar.gz tmp/autogluon.eda-0.7.1b20230606.tar.gz --markdown 20230606/a/autogluon.eda/0.7.1b20230605-0.7.1b20230606/diff.md --exclude *.pyd
+[2023-06-06 11:05:53] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-0.7.1b20230605.tar.gz]
+[2023-06-06 11:05:53] INFO root fetch - processPackages [autogluon.tabular]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.tabular-0.7.1b20230606.tar.gz]
+[2023-06-06 11:05:53] INFO root fetch - processPackages [autogluon.tabular]: Start processing: pwl-chat-python
+[2023-06-06 11:05:53] INFO root fetch - main [MainThread]: End processing [autogluon.tabular]: success
+[2023-06-06 11:05:53] INFO root fetch - processPackages [pwl-chat-python]: New version: [1.4.4] Old Version: [1.4.3]
+[2023-06-06 11:05:53] INFO root fetch - processPackages [lecore]: Downloading https://files.pythonhosted.org/packages/b0/fa/6e8a038f290ea823bdd34e826951e6191482befbd06dacdcd5a6a6b9145d/lecore-0.1.4.tar.gz
+[2023-06-06 11:05:53] INFO root fetch - processPackages [pwl-chat-python]: Downloading https://files.pythonhosted.org/packages/5a/cd/95ec7148b8359af3777ab38a0546449fc6c53364de7f17601fe097e479a9/pwl-chat-python-1.4.3.tar.gz
+[2023-06-06 11:05:53] INFO root fetch - processPackages [lecore]: executing diffoscope
+[2023-06-06 11:05:53] INFO root fetch - processPackages [lecore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lecore-0.1.3.tar.gz tmp/lecore-0.1.4.tar.gz --markdown 20230606/l/lecore/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-06 11:05:53] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-0.7.1b20230605.tar.gz]
+[2023-06-06 11:05:53] INFO root fetch - processPackages [autogluon.multimodal]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.multimodal-0.7.1b20230606.tar.gz]
+[2023-06-06 11:05:53] INFO root fetch - processPackages [autogluon.multimodal]: Start processing: autogluon.cloud
+[2023-06-06 11:05:53] INFO root fetch - main [MainThread]: End processing [autogluon.multimodal]: success
+[2023-06-06 11:05:53] INFO root fetch - processPackages [autogluon.cloud]: New version: [0.2.1b20230606] Old Version: [0.2.1b20230605]
+[2023-06-06 11:05:53] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/75/6b/f548d9331c0c035cdca5a4a05591d03753547bc60632706be8d744bb5a0e/autogluon.cloud-0.2.1b20230605.tar.gz
+[2023-06-06 11:05:53] INFO root fetch - processPackages [pwl-chat-python]: Downloading https://files.pythonhosted.org/packages/90/81/2e91b8b9d8de2792c117502a09822f508ddc759048fe6115317d5664ec24/pwl-chat-python-1.4.4.tar.gz
+[2023-06-06 11:05:54] INFO root fetch - processPackages [pwl-chat-python]: executing diffoscope
+[2023-06-06 11:05:54] INFO root fetch - processPackages [pwl-chat-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pwl-chat-python-1.4.3.tar.gz tmp/pwl-chat-python-1.4.4.tar.gz --markdown 20230606/p/pwl-chat-python/1.4.3-1.4.4/diff.md --exclude *.pyd
+[2023-06-06 11:05:54] INFO root fetch - processPackages [autogluon.cloud]: Downloading https://files.pythonhosted.org/packages/71/e4/705ef988f85fa65933ee5d36f2c4eb2a903275d20693843699eeddfcfa25/autogluon.cloud-0.2.1b20230606.tar.gz
+[2023-06-06 11:05:54] INFO root fetch - processPackages [autogluon.cloud]: executing diffoscope
+[2023-06-06 11:05:54] INFO root fetch - processPackages [autogluon.cloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autogluon.cloud-0.2.1b20230605.tar.gz tmp/autogluon.cloud-0.2.1b20230606.tar.gz --markdown 20230606/a/autogluon.cloud/0.2.1b20230605-0.2.1b20230606/diff.md --exclude *.pyd
+[2023-06-06 11:05:54] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-0.7.1b20230605.tar.gz]
+[2023-06-06 11:05:54] INFO root fetch - processPackages [autogluon]: Remove: archive file [/home/abi/fetcher/tmp/autogluon-0.7.1b20230606.tar.gz]
+[2023-06-06 11:05:54] INFO root fetch - processPackages [autogluon]: Start processing: aheadworks-deploy-manager
+[2023-06-06 11:05:54] INFO root fetch - main [MainThread]: End processing [autogluon]: success
+[2023-06-06 11:05:54] INFO root fetch - processPackages [aheadworks-deploy-manager]: New version: [1.4.9] Old Version: [1.4.8]
+[2023-06-06 11:05:54] INFO root fetch - processPackages [otlmow-converter]: Remove: archive file [/home/abi/fetcher/tmp/otlmow_converter-0.8.tar.gz]
+[2023-06-06 11:05:54] INFO root fetch - processPackages [otlmow-converter]: Remove: archive file [/home/abi/fetcher/tmp/otlmow_converter-0.9.tar.gz]
+[2023-06-06 11:05:54] INFO root fetch - processPackages [otlmow-converter]: Start processing: pydracula
+[2023-06-06 11:05:54] INFO root fetch - main [MainThread]: End processing [otlmow-converter]: success
+[2023-06-06 11:05:54] INFO root fetch - processPackages [pydracula]: New version: [0.2.0.post1] Old Version: [0.2.0]
+[2023-06-06 11:05:54] INFO root fetch - processPackages [aheadworks-deploy-manager]: Downloading https://files.pythonhosted.org/packages/a8/12/71f81e88013c286d993248a3e8753667bc491c5fb22fa884278b068c5303/aheadworks_deploy_manager-1.4.8.tar.gz
+[2023-06-06 11:05:54] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-0.7.1b20230605.tar.gz]
+[2023-06-06 11:05:54] INFO root fetch - processPackages [autogluon.timeseries]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.timeseries-0.7.1b20230606.tar.gz]
+[2023-06-06 11:05:54] INFO root fetch - processPackages [autogluon.timeseries]: Start processing: nexteraa-sedona
+[2023-06-06 11:05:54] INFO root fetch - main [MainThread]: End processing [autogluon.timeseries]: success
+[2023-06-06 11:05:54] WARNING root fetch - processPackages [nexteraa-sedona]: Skipping, unable to determine old version
+[2023-06-06 11:05:54] INFO root fetch - main [MainThread]: End processing [nexteraa-sedona] error
+[2023-06-06 11:05:54] INFO root fetch - processPackages [pydracula]: Downloading https://files.pythonhosted.org/packages/af/ee/7ed375b134339be35589fa81518e7f27c19a6da0597dd7c9044f5ba2e571/pydracula-0.2.0-cp37-abi3-musllinux_1_2_x86_64.whl
+[2023-06-06 11:05:54] INFO root fetch - processPackages [autogluon.eda]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.eda-0.7.1b20230605.tar.gz]
+[2023-06-06 11:05:54] INFO root fetch - processPackages [autogluon.eda]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.eda-0.7.1b20230606.tar.gz]
+[2023-06-06 11:05:54] INFO root fetch - main [MainThread]: End processing [autogluon.eda]: success
+[2023-06-06 11:05:55] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-0.7.1b20230605.tar.gz]
+[2023-06-06 11:05:55] INFO root fetch - processPackages [autogluon.core]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.core-0.7.1b20230606.tar.gz]
+[2023-06-06 11:05:55] INFO root fetch - main [MainThread]: End processing [autogluon.core]: success
+[2023-06-06 11:05:55] INFO root fetch - processPackages [aheadworks-deploy-manager]: Downloading https://files.pythonhosted.org/packages/b8/01/5da57b9f1dbd79a13b113866cf9afb24012c894a5971947bf7d29ae2ad18/aheadworks_deploy_manager-1.4.9.tar.gz
+[2023-06-06 11:05:55] INFO root fetch - processPackages [lecore]: Remove: archive file [/home/abi/fetcher/tmp/lecore-0.1.3.tar.gz]
+[2023-06-06 11:05:55] INFO root fetch - processPackages [lecore]: Remove: archive file [/home/abi/fetcher/tmp/lecore-0.1.4.tar.gz]
+[2023-06-06 11:05:55] INFO root fetch - main [MainThread]: End processing [lecore]: success
+[2023-06-06 11:05:55] INFO root fetch - processPackages [aheadworks-deploy-manager]: executing diffoscope
+[2023-06-06 11:05:55] INFO root fetch - processPackages [aheadworks-deploy-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aheadworks_deploy_manager-1.4.8.tar.gz tmp/aheadworks_deploy_manager-1.4.9.tar.gz --markdown 20230606/a/aheadworks-deploy-manager/1.4.8-1.4.9/diff.md --exclude *.pyd
+[2023-06-06 11:05:55] INFO root fetch - processPackages [pydracula]: Downloading https://files.pythonhosted.org/packages/3e/a2/b5c7464a3197632c63cc140d3dfb8c91650beb7ebbfc61cf3e059b30daff/pydracula-0.2.0.post1-cp37-abi3-musllinux_1_2_x86_64.whl
+[2023-06-06 11:05:55] INFO root fetch - processPackages [pwl-chat-python]: Remove: archive file [/home/abi/fetcher/tmp/pwl-chat-python-1.4.3.tar.gz]
+[2023-06-06 11:05:55] INFO root fetch - processPackages [pwl-chat-python]: Remove: archive file [/home/abi/fetcher/tmp/pwl-chat-python-1.4.4.tar.gz]
+[2023-06-06 11:05:55] INFO root fetch - main [MainThread]: End processing [pwl-chat-python]: success
+[2023-06-06 11:05:55] INFO root fetch - processPackages [deeppavlov]: Remove: archive file [/home/abi/fetcher/tmp/deeppavlov-1.1.1.tar.gz]
+[2023-06-06 11:05:55] INFO root fetch - processPackages [deeppavlov]: Remove: archive file [/home/abi/fetcher/tmp/deeppavlov-1.2.0.tar.gz]
+[2023-06-06 11:05:55] INFO root fetch - main [MainThread]: End processing [deeppavlov]: success
+[2023-06-06 11:05:55] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.2.1b20230605.tar.gz]
+[2023-06-06 11:05:55] INFO root fetch - processPackages [autogluon.cloud]: Remove: archive file [/home/abi/fetcher/tmp/autogluon.cloud-0.2.1b20230606.tar.gz]
+[2023-06-06 11:05:55] INFO root fetch - main [MainThread]: End processing [autogluon.cloud]: success
+[2023-06-06 11:05:56] INFO root fetch - processPackages [aheadworks-deploy-manager]: Remove: archive file [/home/abi/fetcher/tmp/aheadworks_deploy_manager-1.4.8.tar.gz]
+[2023-06-06 11:05:56] INFO root fetch - processPackages [aheadworks-deploy-manager]: Remove: archive file [/home/abi/fetcher/tmp/aheadworks_deploy_manager-1.4.9.tar.gz]
+[2023-06-06 11:05:56] INFO root fetch - main [MainThread]: End processing [aheadworks-deploy-manager]: success
+[2023-06-06 11:05:56] INFO root fetch - processPackages [pydracula]: executing diffoscope
+[2023-06-06 11:05:56] INFO root fetch - processPackages [pydracula]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydracula-0.2.0-cp37-abi3-musllinux_1_2_x86_64.whl.zip tmp/pydracula-0.2.0.post1-cp37-abi3-musllinux_1_2_x86_64.whl.zip --markdown 20230606/p/pydracula/0.2.0-0.2.0.post1/diff.md --exclude *.pyd
+[2023-06-06 11:06:13] INFO root fetch - processPackages [otlmow-model]: Remove: archive file [/home/abi/fetcher/tmp/otlmow_model-2.7.4.tar.gz]
+[2023-06-06 11:06:13] INFO root fetch - processPackages [otlmow-model]: Remove: archive file [/home/abi/fetcher/tmp/otlmow_model-2.7.5.tar.gz]
+[2023-06-06 11:06:13] INFO root fetch - main [MainThread]: End processing [otlmow-model]: success
+[2023-06-06 11:06:31] INFO root fetch - processPackages [pydracula]: Remove: archive file [/home/abi/fetcher/tmp/pydracula-0.2.0-cp37-abi3-musllinux_1_2_x86_64.whl.zip]
+[2023-06-06 11:06:31] INFO root fetch - processPackages [pydracula]: Remove: archive file [/home/abi/fetcher/tmp/pydracula-0.2.0.post1-cp37-abi3-musllinux_1_2_x86_64.whl.zip]
+[2023-06-06 11:06:31] INFO root fetch - main [MainThread]: End processing [pydracula]: success
+[2023-06-06 11:06:31] INFO root fetch - main [MainThread]: Store serial: [18389160]
