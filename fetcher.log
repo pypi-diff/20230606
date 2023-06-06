@@ -16309,3 +16309,134 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-06 10:03:35] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
 [2023-06-06 10:03:35] INFO root fetch - main [MainThread]: End processing [spotPython]: success
 [2023-06-06 10:03:35] INFO root fetch - main [MainThread]: Store serial: [18388394]
+[2023-06-06 10:08:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18388394]
+[2023-06-06 10:08:44] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-06 10:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdnmon
+[2023-06-06 10:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cubical
+[2023-06-06 10:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clickzetta-connector
+[2023-06-06 10:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyglove
+[2023-06-06 10:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyimagine
+[2023-06-06 10:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mysqlx
+[2023-06-06 10:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: clickzetta-sqlalchemy
+[2023-06-06 10:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-base-geoengine-demo
+[2023-06-06 10:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pytest-embedded
+[2023-06-06 10:08:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytest-embedded-serial
+[2023-06-06 10:08:44] WARNING root fetch - processPackages [pyimagine]: Skipping, unable to determine old version
+[2023-06-06 10:08:44] INFO root fetch - processPackages [pyimagine]: Start processing: pytest-embedded-serial-esp
+[2023-06-06 10:08:44] INFO root fetch - main [MainThread]: End processing [pyimagine] error
+[2023-06-06 10:08:44] INFO root fetch - processPackages [cubical]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-06-06 10:08:44] INFO root fetch - processPackages [cdnmon]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-06 10:08:44] INFO root fetch - processPackages [mysqlx]: New version: [1.1.5] Old Version: [1.1.4]
+[2023-06-06 10:08:44] WARNING root fetch - processPackages [odoo-addon-base-geoengine-demo]: Skipping, unable to determine old version
+[2023-06-06 10:08:44] INFO root fetch - processPackages [clickzetta-sqlalchemy]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-06-06 10:08:44] INFO root fetch - processPackages [odoo-addon-base-geoengine-demo]: Start processing: pytest-embedded-jtag
+[2023-06-06 10:08:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-geoengine-demo] error
+[2023-06-06 10:08:44] INFO root fetch - processPackages [pyglove]: New version: [0.3.1.dev20230606] Old Version: [0.3.1.dev20230605]
+[2023-06-06 10:08:44] INFO root fetch - processPackages [pytest-embedded]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-06 10:08:44] INFO root fetch - processPackages [pytest-embedded-serial]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-06 10:08:44] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-06-06 10:08:44] INFO root fetch - processPackages [pytest-embedded-serial-esp]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-06 10:08:44] INFO root fetch - processPackages [cdnmon]: Downloading https://files.pythonhosted.org/packages/36/79/e7af7f205a6466c30015435fb659361de46f1a5b7e7bb5f78ba9e9b7b9f0/cdnmon-0.2.4.tar.gz
+[2023-06-06 10:08:44] INFO root fetch - processPackages [pytest-embedded-jtag]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-06 10:08:45] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/24/23/291d59e2d1bcf7da1ecbbc5c9ddcd9e45a7f33e276d47ed7aced7b18a389/clickzetta-connector-0.8.7.tar.gz
+[2023-06-06 10:08:45] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/df/a5/3944e28a4bac682658b668509b236e83e9eeffd36c9f3c2498aa71f6fc1b/clickzetta-sqlalchemy-0.8.7.tar.gz
+[2023-06-06 10:08:45] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/a5/df/d9c016814036e3b0fcffb62d0b57813f79fc15f014e5e2803291943a2035/pyglove-0.3.1.dev20230605.tar.gz
+[2023-06-06 10:08:45] INFO root fetch - processPackages [cubical]: Downloading https://files.pythonhosted.org/packages/5b/86/63446df4e6be306f6162624336f02b1a2bd1c1568aeafc090624cd1a381f/cubical-1.6.3.tar.gz
+[2023-06-06 10:08:45] INFO root fetch - processPackages [pytest-embedded-serial]: Downloading https://files.pythonhosted.org/packages/37/41/214442d3b0ca2a799c0081d79b153ce8d8f008bf9987630d038e18ab751c/pytest-embedded-serial-1.3.0.tar.gz
+[2023-06-06 10:08:45] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/ec/2b/1c9e78659609b15a09b5415f34f8bf7f57451613215ce97ac9cd23893bcf/mysqlx-1.1.4.tar.gz
+[2023-06-06 10:08:45] INFO root fetch - processPackages [pytest-embedded]: Downloading https://files.pythonhosted.org/packages/68/20/08c9d054cc859656af052ff9de65db667892f770fa3eb70fea8623f7f1e6/pytest-embedded-1.3.0.tar.gz
+[2023-06-06 10:08:45] INFO root fetch - processPackages [pytest-embedded-jtag]: Downloading https://files.pythonhosted.org/packages/d1/4a/bf4e77a31877dbc467d73a4a018f9c832a376afe0c76cf40c93ed077816c/pytest-embedded-jtag-1.3.0.tar.gz
+[2023-06-06 10:08:45] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/72/d1/d65bb4b4077a404aa08b3a2615159873fac64bc9adabf42a5b45cb50f00b/clickzetta-connector-0.8.8.tar.gz
+[2023-06-06 10:08:45] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/1e/c5/d4be8dcc2a67d1d955c84c09b0223b9977fd638ed0bf7d09cc2a752386cf/clickzetta-sqlalchemy-0.8.8.tar.gz
+[2023-06-06 10:08:45] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Downloading https://files.pythonhosted.org/packages/8f/56/1dc9c6278bdf35baa404065269f10c377e7908329de31c32186a63e55df2/pytest-embedded-serial-esp-1.3.0.tar.gz
+[2023-06-06 10:08:45] INFO root fetch - processPackages [cdnmon]: Downloading https://files.pythonhosted.org/packages/e3/23/f6da47f1dcdc32daff2dfe3ddf0ab25b5bb353e3c71719369b56c2827b9e/cdnmon-0.2.5.tar.gz
+[2023-06-06 10:08:45] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2023-06-06 10:08:45] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.8.7.tar.gz tmp/clickzetta-connector-0.8.8.tar.gz --markdown 20230606/c/clickzetta-connector/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-06-06 10:08:45] INFO root fetch - processPackages [clickzetta-sqlalchemy]: executing diffoscope
+[2023-06-06 10:08:45] INFO root fetch - processPackages [clickzetta-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-sqlalchemy-0.8.7.tar.gz tmp/clickzetta-sqlalchemy-0.8.8.tar.gz --markdown 20230606/c/clickzetta-sqlalchemy/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-06-06 10:08:45] INFO root fetch - processPackages [cdnmon]: executing diffoscope
+[2023-06-06 10:08:45] INFO root fetch - processPackages [cdnmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdnmon-0.2.4.tar.gz tmp/cdnmon-0.2.5.tar.gz --markdown 20230606/c/cdnmon/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-06 10:08:45] INFO root fetch - processPackages [pyglove]: Downloading https://files.pythonhosted.org/packages/81/bb/cd60d74fe5646ce089a74b1f510743f5481233c98a2e5b46750ba897a058/pyglove-0.3.1.dev20230606.tar.gz
+[2023-06-06 10:08:45] INFO root fetch - processPackages [pytest-embedded]: Downloading https://files.pythonhosted.org/packages/60/6e/bcd534635f127307febd8d3761f6ad984b2937b56fe156877b72a910e10b/pytest-embedded-1.3.1.tar.gz
+[2023-06-06 10:08:45] INFO root fetch - processPackages [cubical]: Downloading https://files.pythonhosted.org/packages/de/2c/6f7a0984230ab0161707313ce2bb8ed18f14e622ea8f1a2c45223fe7e3d2/cubical-1.6.4.tar.gz
+[2023-06-06 10:08:45] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Downloading https://files.pythonhosted.org/packages/0b/9d/f5b6fcb94c3bce427a49c4fba91f9c94570f948b1e7b0f438475642988dd/pytest-embedded-serial-esp-1.3.1.tar.gz
+[2023-06-06 10:08:45] INFO root fetch - processPackages [pytest-embedded-serial]: Downloading https://files.pythonhosted.org/packages/47/ac/7ffb4268159089ee9ef6b1524c6e78d517288bbbde9859fd6baf1b9a75b1/pytest-embedded-serial-1.3.1.tar.gz
+[2023-06-06 10:08:45] INFO root fetch - processPackages [pytest-embedded-jtag]: Downloading https://files.pythonhosted.org/packages/8e/26/d8a6c85cdc3c8424c8f748ca23675f3a846bf5ea05ee3100c29d30d6cfd4/pytest-embedded-jtag-1.3.1.tar.gz
+[2023-06-06 10:08:45] INFO root fetch - processPackages [mysqlx]: Downloading https://files.pythonhosted.org/packages/7b/6b/62e6c4a3f60c06ea8a0557cd3d482fb921da36d85307c0bfd28df84e1df2/mysqlx-1.1.5.tar.gz
+[2023-06-06 10:08:45] INFO root fetch - processPackages [pytest-embedded]: executing diffoscope
+[2023-06-06 10:08:45] INFO root fetch - processPackages [pytest-embedded]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-embedded-1.3.0.tar.gz tmp/pytest-embedded-1.3.1.tar.gz --markdown 20230606/p/pytest-embedded/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-06 10:08:45] INFO root fetch - processPackages [pytest-embedded-serial-esp]: executing diffoscope
+[2023-06-06 10:08:45] INFO root fetch - processPackages [pytest-embedded-serial-esp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-embedded-serial-esp-1.3.0.tar.gz tmp/pytest-embedded-serial-esp-1.3.1.tar.gz --markdown 20230606/p/pytest-embedded-serial-esp/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-06 10:08:45] INFO root fetch - processPackages [pytest-embedded-jtag]: executing diffoscope
+[2023-06-06 10:08:45] INFO root fetch - processPackages [pytest-embedded-jtag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-embedded-jtag-1.3.0.tar.gz tmp/pytest-embedded-jtag-1.3.1.tar.gz --markdown 20230606/p/pytest-embedded-jtag/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-06 10:08:45] INFO root fetch - processPackages [pytest-embedded-serial]: executing diffoscope
+[2023-06-06 10:08:45] INFO root fetch - processPackages [pytest-embedded-serial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-embedded-serial-1.3.0.tar.gz tmp/pytest-embedded-serial-1.3.1.tar.gz --markdown 20230606/p/pytest-embedded-serial/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-06 10:08:45] INFO root fetch - processPackages [cubical]: executing diffoscope
+[2023-06-06 10:08:45] INFO root fetch - processPackages [mysqlx]: executing diffoscope
+[2023-06-06 10:08:45] INFO root fetch - processPackages [cubical]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cubical-1.6.3.tar.gz tmp/cubical-1.6.4.tar.gz --markdown 20230606/c/cubical/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-06-06 10:08:45] INFO root fetch - processPackages [mysqlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysqlx-1.1.4.tar.gz tmp/mysqlx-1.1.5.tar.gz --markdown 20230606/m/mysqlx/1.1.4-1.1.5/diff.md --exclude *.pyd
+[2023-06-06 10:08:45] INFO root fetch - processPackages [pyglove]: executing diffoscope
+[2023-06-06 10:08:45] INFO root fetch - processPackages [pyglove]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyglove-0.3.1.dev20230605.tar.gz tmp/pyglove-0.3.1.dev20230606.tar.gz --markdown 20230606/p/pyglove/0.3.1.dev20230605-0.3.1.dev20230606/diff.md --exclude *.pyd
+[2023-06-06 10:08:46] INFO root fetch - processPackages [cdnmon]: Remove: archive file [/home/abi/fetcher/tmp/cdnmon-0.2.4.tar.gz]
+[2023-06-06 10:08:46] INFO root fetch - processPackages [cdnmon]: Remove: archive file [/home/abi/fetcher/tmp/cdnmon-0.2.5.tar.gz]
+[2023-06-06 10:08:46] INFO root fetch - processPackages [cdnmon]: Start processing: zhousf-lib
+[2023-06-06 10:08:46] INFO root fetch - main [MainThread]: End processing [cdnmon]: success
+[2023-06-06 10:08:47] INFO root fetch - processPackages [zhousf-lib]: New version: [0.5.5] Old Version: [0.5.4]
+[2023-06-06 10:08:47] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.7.tar.gz]
+[2023-06-06 10:08:47] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.8.tar.gz]
+[2023-06-06 10:08:47] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Start processing: tcflow
+[2023-06-06 10:08:47] INFO root fetch - main [MainThread]: End processing [clickzetta-sqlalchemy]: success
+[2023-06-06 10:08:47] INFO root fetch - processPackages [tcflow]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-06 10:08:47] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/36/dc/d5b09e6d78dbfaf7b37cae11125a1727850aeb1035f904c2aed87ff8a422/zhousf-lib-0.5.4.tar.gz
+[2023-06-06 10:08:47] WARNING root fetch - processPackages [zhousf-lib]: Skipping package: exceeds size limit 14947907>=10485760
+[2023-06-06 10:08:47] INFO root fetch - processPackages [zhousf-lib]: Start processing: tex-fast-recompile
+[2023-06-06 10:08:47] INFO root fetch - main [MainThread]: End processing [zhousf-lib] error
+[2023-06-06 10:08:47] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Remove: archive file [/home/abi/fetcher/tmp/pytest-embedded-serial-esp-1.3.0.tar.gz]
+[2023-06-06 10:08:47] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Remove: archive file [/home/abi/fetcher/tmp/pytest-embedded-serial-esp-1.3.1.tar.gz]
+[2023-06-06 10:08:47] INFO root fetch - processPackages [pytest-embedded-serial-esp]: Start processing: pipeline-feature
+[2023-06-06 10:08:47] INFO root fetch - main [MainThread]: End processing [pytest-embedded-serial-esp]: success
+[2023-06-06 10:08:47] INFO root fetch - processPackages [pipeline-feature]: New version: [0.0.6] Old Version: [0.0.3]
+[2023-06-06 10:08:47] INFO root fetch - processPackages [pytest-embedded-serial]: Remove: archive file [/home/abi/fetcher/tmp/pytest-embedded-serial-1.3.0.tar.gz]
+[2023-06-06 10:08:47] INFO root fetch - processPackages [pytest-embedded-serial]: Remove: archive file [/home/abi/fetcher/tmp/pytest-embedded-serial-1.3.1.tar.gz]
+[2023-06-06 10:08:47] INFO root fetch - main [MainThread]: End processing [pytest-embedded-serial]: success
+[2023-06-06 10:08:47] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/55/8a/399450cf648b821f0b50cbda778e05476a632c5ad87329d6560b32a94c43/pipeline-feature-0.0.3.tar.gz
+[2023-06-06 10:08:47] INFO root fetch - processPackages [tex-fast-recompile]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-06 10:08:47] INFO root fetch - processPackages [tcflow]: Downloading https://files.pythonhosted.org/packages/39/ff/8e0da9c9da61e4705f0dc96d922443efd8b863b2c4be09580e169505ca27/tcflow-0.0.9.tar.gz
+[2023-06-06 10:08:47] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/b0/1e/ca4abc9a640475839a2bcabc687ac852bedf34df9a616702e511d6dfb606/pipeline-feature-0.0.6.tar.gz
+[2023-06-06 10:08:47] INFO root fetch - processPackages [pytest-embedded-jtag]: Remove: archive file [/home/abi/fetcher/tmp/pytest-embedded-jtag-1.3.0.tar.gz]
+[2023-06-06 10:08:47] INFO root fetch - processPackages [pytest-embedded-jtag]: Remove: archive file [/home/abi/fetcher/tmp/pytest-embedded-jtag-1.3.1.tar.gz]
+[2023-06-06 10:08:47] INFO root fetch - main [MainThread]: End processing [pytest-embedded-jtag]: success
+[2023-06-06 10:08:47] INFO root fetch - processPackages [tex-fast-recompile]: Downloading https://files.pythonhosted.org/packages/b7/80/3cb84928fda879158e1b6e633a89c0ec4f7e6507fe96cb72f2b1db8fede2/tex-fast-recompile-0.5.1.tar.gz
+[2023-06-06 10:08:47] INFO root fetch - processPackages [pipeline-feature]: executing diffoscope
+[2023-06-06 10:08:47] INFO root fetch - processPackages [pipeline-feature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline-feature-0.0.3.tar.gz tmp/pipeline-feature-0.0.6.tar.gz --markdown 20230606/p/pipeline-feature/0.0.3-0.0.6/diff.md --exclude *.pyd
+[2023-06-06 10:08:47] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.7.tar.gz]
+[2023-06-06 10:08:47] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.8.tar.gz]
+[2023-06-06 10:08:47] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2023-06-06 10:08:47] INFO root fetch - processPackages [pytest-embedded]: Remove: archive file [/home/abi/fetcher/tmp/pytest-embedded-1.3.0.tar.gz]
+[2023-06-06 10:08:47] INFO root fetch - processPackages [pytest-embedded]: Remove: archive file [/home/abi/fetcher/tmp/pytest-embedded-1.3.1.tar.gz]
+[2023-06-06 10:08:47] INFO root fetch - main [MainThread]: End processing [pytest-embedded]: success
+[2023-06-06 10:08:47] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.1.4.tar.gz]
+[2023-06-06 10:08:47] INFO root fetch - processPackages [mysqlx]: Remove: archive file [/home/abi/fetcher/tmp/mysqlx-1.1.5.tar.gz]
+[2023-06-06 10:08:47] INFO root fetch - main [MainThread]: End processing [mysqlx]: success
+[2023-06-06 10:08:47] INFO root fetch - processPackages [tex-fast-recompile]: Downloading https://files.pythonhosted.org/packages/91/b9/bb96d37c4a8d2be9fb1e6ddc6fe357d22ee6aa5036d5d17333b7038d3116/tex-fast-recompile-0.5.2.tar.gz
+[2023-06-06 10:08:47] INFO root fetch - processPackages [tcflow]: Downloading https://files.pythonhosted.org/packages/83/c9/9abb9792b72cf68a827bc020fea699c50867bc1cee10bdacd6a8b7eae5ef/tcflow-0.1.0.tar.gz
+[2023-06-06 10:08:47] INFO root fetch - processPackages [tcflow]: executing diffoscope
+[2023-06-06 10:08:47] INFO root fetch - processPackages [tcflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tcflow-0.0.9.tar.gz tmp/tcflow-0.1.0.tar.gz --markdown 20230606/t/tcflow/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-06 10:08:47] INFO root fetch - processPackages [tex-fast-recompile]: executing diffoscope
+[2023-06-06 10:08:47] INFO root fetch - processPackages [tex-fast-recompile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tex-fast-recompile-0.5.1.tar.gz tmp/tex-fast-recompile-0.5.2.tar.gz --markdown 20230606/t/tex-fast-recompile/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-06 10:08:47] INFO root fetch - processPackages [cubical]: Remove: archive file [/home/abi/fetcher/tmp/cubical-1.6.3.tar.gz]
+[2023-06-06 10:08:47] INFO root fetch - processPackages [cubical]: Remove: archive file [/home/abi/fetcher/tmp/cubical-1.6.4.tar.gz]
+[2023-06-06 10:08:48] INFO root fetch - main [MainThread]: End processing [cubical]: success
+[2023-06-06 10:08:48] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.3.tar.gz]
+[2023-06-06 10:08:48] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.6.tar.gz]
+[2023-06-06 10:08:48] INFO root fetch - main [MainThread]: End processing [pipeline-feature]: success
+[2023-06-06 10:08:48] INFO root fetch - processPackages [tex-fast-recompile]: Remove: archive file [/home/abi/fetcher/tmp/tex-fast-recompile-0.5.1.tar.gz]
+[2023-06-06 10:08:48] INFO root fetch - processPackages [tex-fast-recompile]: Remove: archive file [/home/abi/fetcher/tmp/tex-fast-recompile-0.5.2.tar.gz]
+[2023-06-06 10:08:48] INFO root fetch - main [MainThread]: End processing [tex-fast-recompile]: success
+[2023-06-06 10:08:49] INFO root fetch - processPackages [tcflow]: Remove: archive file [/home/abi/fetcher/tmp/tcflow-0.0.9.tar.gz]
+[2023-06-06 10:08:49] INFO root fetch - processPackages [tcflow]: Remove: archive file [/home/abi/fetcher/tmp/tcflow-0.1.0.tar.gz]
+[2023-06-06 10:08:49] INFO root fetch - main [MainThread]: End processing [tcflow]: success
+[2023-06-06 10:08:49] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230605.tar.gz]
+[2023-06-06 10:08:49] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.3.1.dev20230606.tar.gz]
+[2023-06-06 10:08:49] INFO root fetch - main [MainThread]: End processing [pyglove]: success
+[2023-06-06 10:08:49] INFO root fetch - main [MainThread]: Store serial: [18388444]
