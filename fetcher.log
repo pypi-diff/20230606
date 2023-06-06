@@ -16172,3 +16172,140 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-06 09:58:12] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
 [2023-06-06 09:58:12] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
 [2023-06-06 09:58:12] INFO root fetch - main [MainThread]: Store serial: [18388349]
+[2023-06-06 10:03:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18388349]
+[2023-06-06 10:03:21] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-06 10:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-company-sanitary-registry
+[2023-06-06 10:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: drops
+[2023-06-06 10:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spotPython
+[2023-06-06 10:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grai-source-bigquery
+[2023-06-06 10:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pygpsclient
+[2023-06-06 10:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pipeline-feature
+[2023-06-06 10:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdnmon
+[2023-06-06 10:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vnpy-xex
+[2023-06-06 10:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: easydags
+[2023-06-06 10:03:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xj-finance
+[2023-06-06 10:03:21] INFO root fetch - processPackages [odoo-addon-company-sanitary-registry]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.3]
+[2023-06-06 10:03:21] INFO root fetch - processPackages [pipeline-feature]: New version: [0.0.6] Old Version: [0.0.3]
+[2023-06-06 10:03:21] INFO root fetch - processPackages [spotPython]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-06 10:03:21] INFO root fetch - processPackages [grai-source-bigquery]: New version: [0.1.0a2] Old Version: [0.1.0a1]
+[2023-06-06 10:03:21] INFO root fetch - processPackages [vnpy-xex]: New version: [2023.6.6.2] Old Version: [2023.6.6.1]
+[2023-06-06 10:03:21] INFO root fetch - processPackages [cdnmon]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-06-06 10:03:21] INFO root fetch - processPackages [drops]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-06 10:03:21] INFO root fetch - processPackages [pygpsclient]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-06 10:03:21] INFO root fetch - processPackages [easydags]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-06 10:03:21] INFO root fetch - processPackages [xj-finance]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-06-06 10:03:21] INFO root fetch - processPackages [cdnmon]: Downloading https://files.pythonhosted.org/packages/2c/ea/d934c80cba9bfcac6b796c01c95b47b0d5894b10d106b70204fe704dcba4/cdnmon-0.2.3.tar.gz
+[2023-06-06 10:03:21] INFO root fetch - processPackages [vnpy-xex]: Downloading https://files.pythonhosted.org/packages/7a/dd/2de802b68b79c938abc7941cbd3eda4af8491d11713b31481f938687802e/vnpy_xex-2023.6.6.1.tar.gz
+[2023-06-06 10:03:21] INFO root fetch - processPackages [easydags]: Downloading https://files.pythonhosted.org/packages/74/cf/8c76132f3d8bd06e668183d5c2a482693882e3df6eda14c92bbdea52c931/easydags-0.0.2.tar.gz
+[2023-06-06 10:03:21] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/85/06/1e9c8076aa8e0629c14bb494a76121b916ff57c4793069cd4ef44db94916/xj_finance-1.1.7.tar.gz
+[2023-06-06 10:03:21] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/55/8a/399450cf648b821f0b50cbda778e05476a632c5ad87329d6560b32a94c43/pipeline-feature-0.0.3.tar.gz
+[2023-06-06 10:03:21] INFO root fetch - processPackages [grai-source-bigquery]: Downloading https://files.pythonhosted.org/packages/7e/b7/61aa4de2369f5548c2fe37eda581f104d2e650a429f12a9259856f1ecca0/grai_source_bigquery-0.1.0a1.tar.gz
+[2023-06-06 10:03:21] INFO root fetch - processPackages [odoo-addon-company-sanitary-registry]: Downloading https://files.pythonhosted.org/packages/92/e4/302629544f8680c499c1eae17b1ab54e47746249c30b2ca51c9d01ef2a7e/odoo_addon_company_sanitary_registry-15.0.1.0.0.3-py3-none-any.whl
+[2023-06-06 10:03:21] INFO root fetch - processPackages [pygpsclient]: Downloading https://files.pythonhosted.org/packages/dc/43/85dbc5084855024d469eb19f9e798a808deff2658423606454080545f672/PyGPSClient-1.3.8.tar.gz
+[2023-06-06 10:03:21] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/e0/e8/66abc5ef55725dff58c177d37db719ddbb6e37303ad19de0c22e9499aada/spotPython-0.2.7.tar.gz
+[2023-06-06 10:03:21] INFO root fetch - processPackages [drops]: Downloading https://files.pythonhosted.org/packages/f1/bb/0b44c201fa95b1bb0adfacaa70d31a2f5a834dd901184333d99465eebde7/drops-0.3.8.tar.gz
+[2023-06-06 10:03:21] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/05/17/1d8ed3acedb3e976333c002d75343346b672b1b0907099e9685be98f80ac/xj_finance-1.1.8.tar.gz
+[2023-06-06 10:03:21] INFO root fetch - processPackages [cdnmon]: Downloading https://files.pythonhosted.org/packages/36/79/e7af7f205a6466c30015435fb659361de46f1a5b7e7bb5f78ba9e9b7b9f0/cdnmon-0.2.4.tar.gz
+[2023-06-06 10:03:21] INFO root fetch - processPackages [vnpy-xex]: Downloading https://files.pythonhosted.org/packages/cd/d0/38bb315e05d91ad477d17cf117f3e7a8d2fbc8df27e5aa5e8ae4642094e7/vnpy_xex-2023.6.6.2.tar.gz
+[2023-06-06 10:03:22] INFO root fetch - processPackages [easydags]: Downloading https://files.pythonhosted.org/packages/f3/2e/1d8e5bcd6356f8e39d7b0b68b24b8d331b2873d54d7e038776dc9cfb7076/easydags-0.0.3.tar.gz
+[2023-06-06 10:03:22] INFO root fetch - processPackages [xj-finance]: executing diffoscope
+[2023-06-06 10:03:22] INFO root fetch - processPackages [xj-finance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_finance-1.1.7.tar.gz tmp/xj_finance-1.1.8.tar.gz --markdown 20230606/x/xj-finance/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-06-06 10:03:22] INFO root fetch - processPackages [vnpy-xex]: executing diffoscope
+[2023-06-06 10:03:22] INFO root fetch - processPackages [vnpy-xex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vnpy_xex-2023.6.6.1.tar.gz tmp/vnpy_xex-2023.6.6.2.tar.gz --markdown 20230606/v/vnpy-xex/2023.6.6.1-2023.6.6.2/diff.md --exclude *.pyd
+[2023-06-06 10:03:22] INFO root fetch - processPackages [grai-source-bigquery]: Downloading https://files.pythonhosted.org/packages/4d/92/f329beef995b490d7cb8d9c696dc56f51885ae6e0c138e50e20ac401abab/grai_source_bigquery-0.1.0a2.tar.gz
+[2023-06-06 10:03:22] INFO root fetch - processPackages [easydags]: executing diffoscope
+[2023-06-06 10:03:22] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/b0/1e/ca4abc9a640475839a2bcabc687ac852bedf34df9a616702e511d6dfb606/pipeline-feature-0.0.6.tar.gz
+[2023-06-06 10:03:22] INFO root fetch - processPackages [easydags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easydags-0.0.2.tar.gz tmp/easydags-0.0.3.tar.gz --markdown 20230606/e/easydags/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-06 10:03:22] INFO root fetch - processPackages [cdnmon]: executing diffoscope
+[2023-06-06 10:03:22] INFO root fetch - processPackages [cdnmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdnmon-0.2.3.tar.gz tmp/cdnmon-0.2.4.tar.gz --markdown 20230606/c/cdnmon/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-06-06 10:03:22] INFO root fetch - processPackages [odoo-addon-company-sanitary-registry]: Downloading https://files.pythonhosted.org/packages/38/88/cd4f1982a6aa7e40179c27c5cb38e2fb705096a8d7c0b084133f59ecc9cd/odoo_addon_company_sanitary_registry-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-06 10:03:22] INFO root fetch - processPackages [grai-source-bigquery]: executing diffoscope
+[2023-06-06 10:03:22] INFO root fetch - processPackages [grai-source-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_bigquery-0.1.0a1.tar.gz tmp/grai_source_bigquery-0.1.0a2.tar.gz --markdown 20230606/g/grai-source-bigquery/0.1.0a1-0.1.0a2/diff.md --exclude *.pyd
+[2023-06-06 10:03:22] INFO root fetch - processPackages [pipeline-feature]: executing diffoscope
+[2023-06-06 10:03:22] INFO root fetch - processPackages [pipeline-feature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline-feature-0.0.3.tar.gz tmp/pipeline-feature-0.0.6.tar.gz --markdown 20230606/p/pipeline-feature/0.0.3-0.0.6/diff.md --exclude *.pyd
+[2023-06-06 10:03:22] INFO root fetch - processPackages [odoo-addon-company-sanitary-registry]: executing diffoscope
+[2023-06-06 10:03:22] INFO root fetch - processPackages [odoo-addon-company-sanitary-registry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_company_sanitary_registry-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_company_sanitary_registry-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-company-sanitary-registry/15.0.1.0.0.3-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-06 10:03:22] INFO root fetch - processPackages [drops]: Downloading https://files.pythonhosted.org/packages/2b/8c/8da96f6a1bb3d3e36aae96ef235782c873b7d400e77a292e68b28131abc7/drops-0.3.9.tar.gz
+[2023-06-06 10:03:22] INFO root fetch - processPackages [pygpsclient]: Downloading https://files.pythonhosted.org/packages/e5/bd/8454c188f3af9cf23396bb9676d469014b1e5f12800e67c79cc7554b5208/PyGPSClient-1.3.9.tar.gz
+[2023-06-06 10:03:22] INFO root fetch - processPackages [drops]: executing diffoscope
+[2023-06-06 10:03:22] INFO root fetch - processPackages [drops]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drops-0.3.8.tar.gz tmp/drops-0.3.9.tar.gz --markdown 20230606/d/drops/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-06 10:03:22] INFO root fetch - processPackages [pygpsclient]: executing diffoscope
+[2023-06-06 10:03:22] INFO root fetch - processPackages [pygpsclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyGPSClient-1.3.8.tar.gz tmp/PyGPSClient-1.3.9.tar.gz --markdown 20230606/p/pygpsclient/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-06 10:03:22] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/69/84/9402cf387c9dac34b67ddeb1b709382852df04dd7b304e52275a288c4f8c/spotPython-0.2.9.tar.gz
+[2023-06-06 10:03:23] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-06-06 10:03:23] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.2.7.tar.gz tmp/spotPython-0.2.9.tar.gz --markdown 20230606/s/spotPython/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-06 10:03:23] INFO root fetch - processPackages [easydags]: Remove: archive file [/home/abi/fetcher/tmp/easydags-0.0.2.tar.gz]
+[2023-06-06 10:03:23] INFO root fetch - processPackages [easydags]: Remove: archive file [/home/abi/fetcher/tmp/easydags-0.0.3.tar.gz]
+[2023-06-06 10:03:23] INFO root fetch - processPackages [easydags]: Start processing: zhousf-lib
+[2023-06-06 10:03:23] INFO root fetch - main [MainThread]: End processing [easydags]: success
+[2023-06-06 10:03:23] INFO root fetch - processPackages [zhousf-lib]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-06 10:03:23] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/1f/93/2d799b2e73c8a2dd44c7357d23bb43a2031aad83ee6fbfeefbf4bc5971dc/zhousf-lib-0.5.3.tar.gz
+[2023-06-06 10:03:23] INFO root fetch - processPackages [cdnmon]: Remove: archive file [/home/abi/fetcher/tmp/cdnmon-0.2.3.tar.gz]
+[2023-06-06 10:03:23] INFO root fetch - processPackages [cdnmon]: Remove: archive file [/home/abi/fetcher/tmp/cdnmon-0.2.4.tar.gz]
+[2023-06-06 10:03:23] INFO root fetch - processPackages [cdnmon]: Start processing: algokit-utils
+[2023-06-06 10:03:23] INFO root fetch - main [MainThread]: End processing [cdnmon]: success
+[2023-06-06 10:03:23] WARNING root fetch - processPackages [zhousf-lib]: Skipping package: exceeds size limit 14947892>=10485760
+[2023-06-06 10:03:23] INFO root fetch - processPackages [zhousf-lib]: Start processing: PyMoosh
+[2023-06-06 10:03:23] INFO root fetch - main [MainThread]: End processing [zhousf-lib] error
+[2023-06-06 10:03:23] INFO root fetch - processPackages [algokit-utils]: New version: [1.2.0b9] Old Version: [1.2.0b8]
+[2023-06-06 10:03:23] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.3.tar.gz]
+[2023-06-06 10:03:23] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.6.tar.gz]
+[2023-06-06 10:03:23] INFO root fetch - processPackages [pipeline-feature]: Start processing: sai-mrp-qr-filtering
+[2023-06-06 10:03:23] INFO root fetch - main [MainThread]: End processing [pipeline-feature]: success
+[2023-06-06 10:03:23] INFO root fetch - processPackages [PyMoosh]: New version: [2.61] Old Version: [2.6]
+[2023-06-06 10:03:23] WARNING root fetch - processPackages [sai-mrp-qr-filtering]: Skipping, unable to determine old version
+[2023-06-06 10:03:23] INFO root fetch - processPackages [sai-mrp-qr-filtering]: Start processing: dbsamizdapper
+[2023-06-06 10:03:23] INFO root fetch - main [MainThread]: End processing [sai-mrp-qr-filtering] error
+[2023-06-06 10:03:23] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/95/5d/1b4e816f41359170344cec5dcc0f48979d443c6396d6c38366f34a649348/algokit_utils-1.2.0b8-py3-none-any.whl
+[2023-06-06 10:03:23] INFO root fetch - processPackages [vnpy-xex]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_xex-2023.6.6.1.tar.gz]
+[2023-06-06 10:03:23] INFO root fetch - processPackages [vnpy-xex]: Remove: archive file [/home/abi/fetcher/tmp/vnpy_xex-2023.6.6.2.tar.gz]
+[2023-06-06 10:03:23] INFO root fetch - processPackages [vnpy-xex]: Start processing: cloud-asset
+[2023-06-06 10:03:23] INFO root fetch - main [MainThread]: End processing [vnpy-xex]: success
+[2023-06-06 10:03:23] INFO root fetch - processPackages [dbsamizdapper]: New version: [0.0.3a1] Old Version: [0.0.3a0]
+[2023-06-06 10:03:23] INFO root fetch - processPackages [cloud-asset]: New version: [0.0.4.4] Old Version: [0.0.4.3]
+[2023-06-06 10:03:23] INFO root fetch - processPackages [dbsamizdapper]: Downloading https://files.pythonhosted.org/packages/ef/a1/e053e686dfc441c0a517aae3824fc1fc10783a9068c650d303861cf6ea41/dbsamizdapper-0.0.3a0.tar.gz
+[2023-06-06 10:03:23] INFO root fetch - processPackages [cloud-asset]: Downloading https://files.pythonhosted.org/packages/9e/8f/6b3d3cbeec1e4072bc365908bed9ac193a8076a1d2d7d923269a9da3691d/cloud-asset-0.0.4.3.tar.gz
+[2023-06-06 10:03:23] INFO root fetch - processPackages [odoo-addon-company-sanitary-registry]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_company_sanitary_registry-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-06 10:03:23] INFO root fetch - processPackages [odoo-addon-company-sanitary-registry]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_company_sanitary_registry-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-06 10:03:23] INFO root fetch - main [MainThread]: End processing [odoo-addon-company-sanitary-registry]: success
+[2023-06-06 10:03:23] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/97/c0/c716f84876cd98ca0fda6d6f650e5f45e5ecc2801f24aab3ffeba28b2db7/algokit_utils-1.2.0b9-py3-none-any.whl
+[2023-06-06 10:03:23] INFO root fetch - processPackages [PyMoosh]: Downloading https://files.pythonhosted.org/packages/3c/fe/2b7d8b7a0b0993560e6d3f804b170b217b0e9c36f79cd8a7a0e9cefbbdcd/PyMoosh-2.6.tar.gz
+[2023-06-06 10:03:23] INFO root fetch - processPackages [grai-source-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_bigquery-0.1.0a1.tar.gz]
+[2023-06-06 10:03:23] INFO root fetch - processPackages [grai-source-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_bigquery-0.1.0a2.tar.gz]
+[2023-06-06 10:03:23] INFO root fetch - main [MainThread]: End processing [grai-source-bigquery]: success
+[2023-06-06 10:03:23] INFO root fetch - processPackages [dbsamizdapper]: Downloading https://files.pythonhosted.org/packages/d3/d2/51117d86f1d97cb8cc8dbdf9bca9d5358e204cb6071459e9789152fc6a06/dbsamizdapper-0.0.3a1.tar.gz
+[2023-06-06 10:03:23] INFO root fetch - processPackages [cloud-asset]: Downloading https://files.pythonhosted.org/packages/8d/cf/82600cb09404b5433a304d8254ee8f8233f3334fdba8308cb683cd74c0f9/cloud_asset-0.0.4.4-py3-none-any.whl
+[2023-06-06 10:03:24] INFO root fetch - processPackages [algokit-utils]: executing diffoscope
+[2023-06-06 10:03:24] INFO root fetch - processPackages [algokit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_utils-1.2.0b8-py3-none-any.whl.zip tmp/algokit_utils-1.2.0b9-py3-none-any.whl.zip --markdown 20230606/a/algokit-utils/1.2.0b8-1.2.0b9/diff.md --exclude *.pyd
+[2023-06-06 10:03:24] INFO root fetch - processPackages [cloud-asset]: executing diffoscope
+[2023-06-06 10:03:24] INFO root fetch - processPackages [cloud-asset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cloud-asset-0.0.4.3.tar.gz tmp/cloud_asset-0.0.4.4-py3-none-any.whl.zip --markdown 20230606/c/cloud-asset/0.0.4.3-0.0.4.4/diff.md --exclude *.pyd
+[2023-06-06 10:03:24] INFO root fetch - processPackages [dbsamizdapper]: executing diffoscope
+[2023-06-06 10:03:24] INFO root fetch - processPackages [dbsamizdapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbsamizdapper-0.0.3a0.tar.gz tmp/dbsamizdapper-0.0.3a1.tar.gz --markdown 20230606/d/dbsamizdapper/0.0.3a0-0.0.3a1/diff.md --exclude *.pyd
+[2023-06-06 10:03:24] INFO root fetch - processPackages [PyMoosh]: Downloading https://files.pythonhosted.org/packages/59/8a/d8614dec12c0078559b0f88ee9ba6177cd5eb172ab58d1ec1088dc868db4/PyMoosh-2.61.tar.gz
+[2023-06-06 10:03:24] INFO root fetch - processPackages [PyMoosh]: executing diffoscope
+[2023-06-06 10:03:24] INFO root fetch - processPackages [PyMoosh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyMoosh-2.6.tar.gz tmp/PyMoosh-2.61.tar.gz --markdown 20230606/P/PyMoosh/2.6-2.61/diff.md --exclude *.pyd
+[2023-06-06 10:03:24] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.7.tar.gz]
+[2023-06-06 10:03:24] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.8.tar.gz]
+[2023-06-06 10:03:24] INFO root fetch - main [MainThread]: End processing [xj-finance]: success
+[2023-06-06 10:03:25] INFO root fetch - processPackages [algokit-utils]: Remove: archive file [/home/abi/fetcher/tmp/algokit_utils-1.2.0b8-py3-none-any.whl.zip]
+[2023-06-06 10:03:25] INFO root fetch - processPackages [algokit-utils]: Remove: archive file [/home/abi/fetcher/tmp/algokit_utils-1.2.0b9-py3-none-any.whl.zip]
+[2023-06-06 10:03:25] INFO root fetch - main [MainThread]: End processing [algokit-utils]: success
+[2023-06-06 10:03:25] INFO root fetch - processPackages [cloud-asset]: Remove: archive file [/home/abi/fetcher/tmp/cloud-asset-0.0.4.3.tar.gz]
+[2023-06-06 10:03:25] INFO root fetch - processPackages [cloud-asset]: Remove: archive file [/home/abi/fetcher/tmp/cloud_asset-0.0.4.4-py3-none-any.whl.zip]
+[2023-06-06 10:03:25] INFO root fetch - main [MainThread]: End processing [cloud-asset]: success
+[2023-06-06 10:03:25] INFO root fetch - processPackages [dbsamizdapper]: Remove: archive file [/home/abi/fetcher/tmp/dbsamizdapper-0.0.3a0.tar.gz]
+[2023-06-06 10:03:25] INFO root fetch - processPackages [dbsamizdapper]: Remove: archive file [/home/abi/fetcher/tmp/dbsamizdapper-0.0.3a1.tar.gz]
+[2023-06-06 10:03:25] INFO root fetch - main [MainThread]: End processing [dbsamizdapper]: success
+[2023-06-06 10:03:25] INFO root fetch - processPackages [PyMoosh]: Remove: archive file [/home/abi/fetcher/tmp/PyMoosh-2.6.tar.gz]
+[2023-06-06 10:03:25] INFO root fetch - processPackages [PyMoosh]: Remove: archive file [/home/abi/fetcher/tmp/PyMoosh-2.61.tar.gz]
+[2023-06-06 10:03:25] INFO root fetch - main [MainThread]: End processing [PyMoosh]: success
+[2023-06-06 10:03:25] INFO root fetch - processPackages [drops]: Remove: archive file [/home/abi/fetcher/tmp/drops-0.3.8.tar.gz]
+[2023-06-06 10:03:25] INFO root fetch - processPackages [drops]: Remove: archive file [/home/abi/fetcher/tmp/drops-0.3.9.tar.gz]
+[2023-06-06 10:03:25] INFO root fetch - main [MainThread]: End processing [drops]: success
+[2023-06-06 10:03:26] INFO root fetch - processPackages [pygpsclient]: Remove: archive file [/home/abi/fetcher/tmp/PyGPSClient-1.3.8.tar.gz]
+[2023-06-06 10:03:26] INFO root fetch - processPackages [pygpsclient]: Remove: archive file [/home/abi/fetcher/tmp/PyGPSClient-1.3.9.tar.gz]
+[2023-06-06 10:03:26] INFO root fetch - main [MainThread]: End processing [pygpsclient]: success
+[2023-06-06 10:03:35] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.7.tar.gz]
+[2023-06-06 10:03:35] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
+[2023-06-06 10:03:35] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-06-06 10:03:35] INFO root fetch - main [MainThread]: Store serial: [18388394]
