@@ -14040,3 +14040,228 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 08:33:54] INFO root fetch - processPackages [PureCloudPlatformClientV2]: Remove: archive file [/home/abi/fetcher/tmp/PureCloudPlatformClientV2-99.0.0.tar.gz]
 [2023-06-06 08:33:54] INFO root fetch - main [MainThread]: End processing [PureCloudPlatformClientV2]: success
 [2023-06-06 08:33:54] INFO root fetch - main [MainThread]: Store serial: [18387455]
+[2023-06-06 08:39:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18387455]
+[2023-06-06 08:39:20] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-06-06 08:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyipatcher
+[2023-06-06 08:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfish
+[2023-06-06 08:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyarmor.cli.core.darwin
+[2023-06-06 08:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: plaquette-graph
+[2023-06-06 08:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyDynamoDB
+[2023-06-06 08:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyarmor.cli.core.freebsd
+[2023-06-06 08:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: renku-aqs
+[2023-06-06 08:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nucliadb-contributor-assets
+[2023-06-06 08:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyarmor.cli.core.linux
+[2023-06-06 08:39:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nashbanksync
+[2023-06-06 08:39:20] INFO root fetch - processPackages [kfish]: New version: [99.0.202306060633] Old Version: [99.0.202306052213]
+[2023-06-06 08:39:20] WARNING root fetch - processPackages [plaquette-graph]: Skipping, unable to determine old version
+[2023-06-06 08:39:20] INFO root fetch - processPackages [plaquette-graph]: Start processing: Bigsansar
+[2023-06-06 08:39:20] INFO root fetch - main [MainThread]: End processing [plaquette-graph] error
+[2023-06-06 08:39:20] INFO root fetch - processPackages [pyipatcher]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-06 08:39:20] INFO root fetch - processPackages [renku-aqs]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-06 08:39:20] WARNING root fetch - processPackages [pyarmor.cli.core.darwin]: Skipping, unable to determine old version
+[2023-06-06 08:39:20] INFO root fetch - processPackages [pyarmor.cli.core.darwin]: Start processing: dwave-sona-core
+[2023-06-06 08:39:20] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.darwin] error
+[2023-06-06 08:39:20] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: New version: [3.2.4] Old Version: [3.2.3]
+[2023-06-06 08:39:20] INFO root fetch - processPackages [PyDynamoDB]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-06-06 08:39:20] WARNING root fetch - processPackages [pyarmor.cli.core.linux]: Skipping, unable to determine old version
+[2023-06-06 08:39:20] INFO root fetch - processPackages [dwave-sona-core]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-06 08:39:20] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post817] Old Version: [1.0.0.post814]
+[2023-06-06 08:39:20] INFO root fetch - processPackages [pyarmor.cli.core.linux]: Start processing: pyarmor.cli.core.themida
+[2023-06-06 08:39:20] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.linux] error
+[2023-06-06 08:39:20] INFO root fetch - processPackages [nashbanksync]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 08:39:20] INFO root fetch - processPackages [Bigsansar]: New version: [1.7.0] Old Version: [1.6.9]
+[2023-06-06 08:39:20] WARNING root fetch - processPackages [pyarmor.cli.core.themida]: Skipping, unable to determine old version
+[2023-06-06 08:39:20] INFO root fetch - processPackages [pyarmor.cli.core.themida]: Start processing: pyrtcm
+[2023-06-06 08:39:20] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.themida] error
+[2023-06-06 08:39:20] INFO root fetch - processPackages [pyrtcm]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-06 08:39:20] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/d1/74/905c0847e58afaf6a4de7856cc7e69b8863f1d5745e7d7e691ed2098255c/Bigsansar-1.6.9.tar.gz
+[2023-06-06 08:39:20] INFO root fetch - processPackages [pyipatcher]: Downloading https://files.pythonhosted.org/packages/14/6c/293b268d06a334652ec898777b7a1f4a4374a99692188808a8d11ee680db/pyipatcher-1.0.5.tar.gz
+[2023-06-06 08:39:20] INFO root fetch - processPackages [dwave-sona-core]: Downloading https://files.pythonhosted.org/packages/21/ef/ad3e78d65cde8dfb8850912ed2aa2b004b66d32b08f6fd440ad4ded93f06/dwave_sona_core-0.2.7.tar.gz
+[2023-06-06 08:39:20] INFO root fetch - processPackages [renku-aqs]: Downloading https://files.pythonhosted.org/packages/dd/d2/cd18949d1cde9affbff6eeb27e8d7caf57b0a2723396c2b8776784fac0fd/renku-aqs-1.0.4.tar.gz
+[2023-06-06 08:39:20] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/c4/ea/0cf325d4bd457f0b1bfb84c83bf5df10fdebe597cb1c5f4f298171a5f234/kfish-99.0.202306052213-py3-none-any.whl
+[2023-06-06 08:39:20] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Downloading https://files.pythonhosted.org/packages/39/0e/6b9f1022be9731ac9de561cce37022c0fd5a1207602f81459ed0e52fa73d/pyarmor.cli.core.freebsd-3.2.3-cp39-none-any.whl
+[2023-06-06 08:39:20] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/d5/95/2aaddd15d051b51b2b2e9354ec8a97bd2d0e86fbcf224aed18dd325296ef/nucliadb_contributor_assets-1.0.0.post814-py3-none-any.whl
+[2023-06-06 08:39:20] INFO root fetch - processPackages [PyDynamoDB]: Downloading https://files.pythonhosted.org/packages/c2/dc/1ca0fbf439eac685f492c0ae4ca20c4e77a819a211481b2375bd6d7ccb93/PyDynamoDB-0.4.7.tar.gz
+[2023-06-06 08:39:20] INFO root fetch - processPackages [nashbanksync]: Downloading https://files.pythonhosted.org/packages/11/dd/544d153563799222c6a9e315f2a0b249bc604c9eade4f0d9d3b73a5e08a4/nashbanksync-0.1.8.tar.gz
+[2023-06-06 08:39:20] INFO root fetch - processPackages [pyrtcm]: Downloading https://files.pythonhosted.org/packages/31/99/5670aa585fc8494bd7872b8886fcbc3efcc4facb36a7669d07029ee3068f/pyrtcm-1.0.8-py3-none-any.whl
+[2023-06-06 08:39:20] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/c6/27/769fe1e78ffaf86d1391a641f6efb3376b90b1d13b394be03f820950b4e9/Bigsansar-1.7.0.tar.gz
+[2023-06-06 08:39:20] INFO root fetch - processPackages [kfish]: Downloading https://files.pythonhosted.org/packages/02/5b/3043ec9d8a0bb8a78993d637a39f2a8d386a52d563e0c2481803a1bca524/kfish-99.0.202306060633-py3-none-any.whl
+[2023-06-06 08:39:20] INFO root fetch - processPackages [PyDynamoDB]: Downloading https://files.pythonhosted.org/packages/b6/96/419810b7090ba640e07d7c377ae0940d4d56508d3fa5dd0576d93a9e00ea/PyDynamoDB-0.4.8.tar.gz
+[2023-06-06 08:39:20] INFO root fetch - processPackages [pyipatcher]: Downloading https://files.pythonhosted.org/packages/bc/1e/8b368d1e3de835284cdd1222301eea650119ecb8a659530686d4021512f0/pyipatcher-1.0.6.tar.gz
+[2023-06-06 08:39:20] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Downloading https://files.pythonhosted.org/packages/67/e9/67976af3de23bbc5d9c3b9048e001a3184e9a1505268cd3fec94ff5f87a9/pyarmor.cli.core.freebsd-3.2.4-cp39-none-any.whl
+[2023-06-06 08:39:20] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/28/79/afb146227afc0f490cb335de7c17189a79e8bedaa39903ba8cdc5e7e37b8/nucliadb_contributor_assets-1.0.0.post817-py3-none-any.whl
+[2023-06-06 08:39:20] INFO root fetch - processPackages [pyrtcm]: Downloading https://files.pythonhosted.org/packages/75/a3/d3d2fccb0b3397f1b27d3035ccbde12211afd92137575a7ef063b6651593/pyrtcm-1.0.9.tar.gz
+[2023-06-06 08:39:20] INFO root fetch - processPackages [renku-aqs]: Downloading https://files.pythonhosted.org/packages/a6/fd/47f14649bc8bbeeff47d419e0b28637b5890dc85d89591026a3bc5d1a7d1/renku-aqs-1.0.5.tar.gz
+[2023-06-06 08:39:20] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-06-06 08:39:20] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.6.9.tar.gz tmp/Bigsansar-1.7.0.tar.gz --markdown 20230606/B/Bigsansar/1.6.9-1.7.0/diff.md --exclude *.pyd
+[2023-06-06 08:39:20] INFO root fetch - processPackages [dwave-sona-core]: Downloading https://files.pythonhosted.org/packages/0f/ca/0a067900a70fc8450825d74f358e83a4f20622b03233a0a3410b04abb4a5/dwave_sona_core-0.2.8.tar.gz
+[2023-06-06 08:39:20] INFO root fetch - processPackages [PyDynamoDB]: executing diffoscope
+[2023-06-06 08:39:20] INFO root fetch - processPackages [PyDynamoDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyDynamoDB-0.4.7.tar.gz tmp/PyDynamoDB-0.4.8.tar.gz --markdown 20230606/P/PyDynamoDB/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-06-06 08:39:20] INFO root fetch - processPackages [nashbanksync]: Downloading https://files.pythonhosted.org/packages/7a/e4/423e5b98b3a230f3bafa2fd0b9ff5e30d35f36c5a97b49ceea1e91392102/nashbanksync-0.1.9.tar.gz
+[2023-06-06 08:39:20] INFO root fetch - processPackages [kfish]: executing diffoscope
+[2023-06-06 08:39:20] INFO root fetch - processPackages [kfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfish-99.0.202306052213-py3-none-any.whl.zip tmp/kfish-99.0.202306060633-py3-none-any.whl.zip --markdown 20230606/k/kfish/99.0.202306052213-99.0.202306060633/diff.md --exclude *.pyd
+[2023-06-06 08:39:20] INFO root fetch - processPackages [pyipatcher]: executing diffoscope
+[2023-06-06 08:39:20] INFO root fetch - processPackages [pyipatcher]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyipatcher-1.0.5.tar.gz tmp/pyipatcher-1.0.6.tar.gz --markdown 20230606/p/pyipatcher/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-06 08:39:21] INFO root fetch - processPackages [pyrtcm]: executing diffoscope
+[2023-06-06 08:39:21] INFO root fetch - processPackages [pyrtcm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrtcm-1.0.8-py3-none-any.whl.zip tmp/pyrtcm-1.0.9.tar.gz --markdown 20230606/p/pyrtcm/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-06 08:39:21] INFO root fetch - processPackages [dwave-sona-core]: executing diffoscope
+[2023-06-06 08:39:21] INFO root fetch - processPackages [dwave-sona-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwave_sona_core-0.2.7.tar.gz tmp/dwave_sona_core-0.2.8.tar.gz --markdown 20230606/d/dwave-sona-core/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-06 08:39:21] INFO root fetch - processPackages [nashbanksync]: executing diffoscope
+[2023-06-06 08:39:21] INFO root fetch - processPackages [nashbanksync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nashbanksync-0.1.8.tar.gz tmp/nashbanksync-0.1.9.tar.gz --markdown 20230606/n/nashbanksync/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 08:39:21] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-06-06 08:39:21] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post814-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post817-py3-none-any.whl.zip --markdown 20230606/n/nucliadb-contributor-assets/1.0.0.post814-1.0.0.post817/diff.md --exclude *.pyd
+[2023-06-06 08:39:21] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: executing diffoscope
+[2023-06-06 08:39:21] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core.freebsd-3.2.3-cp39-none-any.whl.zip tmp/pyarmor.cli.core.freebsd-3.2.4-cp39-none-any.whl.zip --markdown 20230606/p/pyarmor.cli.core.freebsd/3.2.3-3.2.4/diff.md --exclude *.pyd
+[2023-06-06 08:39:21] INFO root fetch - processPackages [renku-aqs]: executing diffoscope
+[2023-06-06 08:39:21] INFO root fetch - processPackages [renku-aqs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/renku-aqs-1.0.4.tar.gz tmp/renku-aqs-1.0.5.tar.gz --markdown 20230606/r/renku-aqs/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-06 08:39:22] INFO root fetch - processPackages [pyipatcher]: Remove: archive file [/home/abi/fetcher/tmp/pyipatcher-1.0.5.tar.gz]
+[2023-06-06 08:39:22] INFO root fetch - processPackages [pyipatcher]: Remove: archive file [/home/abi/fetcher/tmp/pyipatcher-1.0.6.tar.gz]
+[2023-06-06 08:39:22] INFO root fetch - processPackages [pyipatcher]: Start processing: liquisource
+[2023-06-06 08:39:22] INFO root fetch - main [MainThread]: End processing [pyipatcher]: success
+[2023-06-06 08:39:22] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306052213-py3-none-any.whl.zip]
+[2023-06-06 08:39:22] INFO root fetch - processPackages [kfish]: Remove: archive file [/home/abi/fetcher/tmp/kfish-99.0.202306060633-py3-none-any.whl.zip]
+[2023-06-06 08:39:22] INFO root fetch - processPackages [kfish]: Start processing: pyarmor.cli.core.windows
+[2023-06-06 08:39:22] INFO root fetch - main [MainThread]: End processing [kfish]: success
+[2023-06-06 08:39:22] INFO root fetch - processPackages [liquisource]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-06 08:39:22] WARNING root fetch - processPackages [pyarmor.cli.core.windows]: Skipping, unable to determine old version
+[2023-06-06 08:39:22] INFO root fetch - processPackages [pyarmor.cli.core.windows]: Start processing: nonebot-plugin-bilichat
+[2023-06-06 08:39:22] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.windows] error
+[2023-06-06 08:39:22] INFO root fetch - processPackages [pyrtcm]: Remove: archive file [/home/abi/fetcher/tmp/pyrtcm-1.0.8-py3-none-any.whl.zip]
+[2023-06-06 08:39:22] INFO root fetch - processPackages [pyrtcm]: Remove: archive file [/home/abi/fetcher/tmp/pyrtcm-1.0.9.tar.gz]
+[2023-06-06 08:39:22] INFO root fetch - processPackages [pyrtcm]: Start processing: deep-training
+[2023-06-06 08:39:22] INFO root fetch - main [MainThread]: End processing [pyrtcm]: success
+[2023-06-06 08:39:22] INFO root fetch - processPackages [deep-training]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 08:39:22] INFO root fetch - processPackages [nonebot-plugin-bilichat]: New version: [2.4.0] Old Version: [2.3.2]
+[2023-06-06 08:39:22] INFO root fetch - processPackages [liquisource]: Downloading https://files.pythonhosted.org/packages/67/60/0b07c66dc69b1a6f4f63d3b3a45e7cffe9a482e912b5294b592436c99f1d/liquisource-1.1.3.tar.gz
+[2023-06-06 08:39:22] INFO root fetch - processPackages [dwave-sona-core]: Remove: archive file [/home/abi/fetcher/tmp/dwave_sona_core-0.2.7.tar.gz]
+[2023-06-06 08:39:22] INFO root fetch - processPackages [dwave-sona-core]: Remove: archive file [/home/abi/fetcher/tmp/dwave_sona_core-0.2.8.tar.gz]
+[2023-06-06 08:39:22] INFO root fetch - processPackages [dwave-sona-core]: Start processing: odoo-addon-l10n-ro-stock-report
+[2023-06-06 08:39:22] INFO root fetch - main [MainThread]: End processing [dwave-sona-core]: success
+[2023-06-06 08:39:22] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: New version: [15.0.6.8.0] Old Version: [15.0.6.7.0.1]
+[2023-06-06 08:39:22] INFO root fetch - processPackages [nashbanksync]: Remove: archive file [/home/abi/fetcher/tmp/nashbanksync-0.1.8.tar.gz]
+[2023-06-06 08:39:22] INFO root fetch - processPackages [nashbanksync]: Remove: archive file [/home/abi/fetcher/tmp/nashbanksync-0.1.9.tar.gz]
+[2023-06-06 08:39:22] INFO root fetch - processPackages [nashbanksync]: Start processing: omnata-plugin-runtime
+[2023-06-06 08:39:22] INFO root fetch - main [MainThread]: End processing [nashbanksync]: success
+[2023-06-06 08:39:22] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/87/b3/3c8fcf7b1e70c43e235098b71636333ed9cdfaf9b6c6fbc85f67531280e1/deep_training-0.1.8-py3-none-any.whl
+[2023-06-06 08:39:22] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/79/54/362933d494df9982ef4e2793c6941138048950d003a983de0b8e047116a6/nonebot_plugin_bilichat-2.3.2.tar.gz
+[2023-06-06 08:39:22] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 08:39:22] INFO root fetch - processPackages [liquisource]: Downloading https://files.pythonhosted.org/packages/76/85/2e9c54ea14e1e0e0a2648957a7eb201eb8124ddb2dc941b79edac02824ca/liquisource-1.1.4.tar.gz
+[2023-06-06 08:39:22] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-06-06 08:39:22] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.freebsd-3.2.3-cp39-none-any.whl.zip]
+[2023-06-06 08:39:22] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core.freebsd-3.2.4-cp39-none-any.whl.zip]
+[2023-06-06 08:39:22] INFO root fetch - processPackages [pyarmor.cli.core.freebsd]: Start processing: pyarmor
+[2023-06-06 08:39:22] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core.freebsd]: success
+[2023-06-06 08:39:22] INFO root fetch - processPackages [pyarmor]: New version: [8.2.dev2] Old Version: [8.2.dev1]
+[2023-06-06 08:39:22] INFO root fetch - processPackages [liquisource]: executing diffoscope
+[2023-06-06 08:39:22] INFO root fetch - processPackages [liquisource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liquisource-1.1.3.tar.gz tmp/liquisource-1.1.4.tar.gz --markdown 20230606/l/liquisource/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-06 08:39:23] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: Downloading https://files.pythonhosted.org/packages/b1/35/760482524b0093b859962065fd3002965c4aa75fb3b81a929110e473ecef/odoo_addon_l10n_ro_stock_report-15.0.6.7.0.1-py3-none-any.whl
+[2023-06-06 08:39:23] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-06-06 08:39:23] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Downloading https://files.pythonhosted.org/packages/5f/9f/9eb9e18d4cf72cd34bd0ec44f47630ea405f2bf707ebf696f44e27efed25/nonebot_plugin_bilichat-2.4.0.tar.gz
+[2023-06-06 08:39:23] INFO root fetch - processPackages [deep-training]: Downloading https://files.pythonhosted.org/packages/97/8f/30bf3a3b2b45dc48f23a82065cc1cff429cfa9ec38e2c8dfd40bc15ada07/deep_training-0.1.9-py3-none-any.whl
+[2023-06-06 08:39:23] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-06-06 08:39:23] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230606/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 08:39:23] INFO root fetch - processPackages [pyarmor]: Downloading https://files.pythonhosted.org/packages/96/1b/288b5edb2e942102823ed6f5d76b16985b19fc91a1bcb12b2269e6f87467/pyarmor-8.2.dev1.zip
+[2023-06-06 08:39:23] INFO root fetch - processPackages [nonebot-plugin-bilichat]: executing diffoscope
+[2023-06-06 08:39:23] INFO root fetch - processPackages [nonebot-plugin-bilichat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_bilichat-2.3.2.tar.gz tmp/nonebot_plugin_bilichat-2.4.0.tar.gz --markdown 20230606/n/nonebot-plugin-bilichat/2.3.2-2.4.0/diff.md --exclude *.pyd
+[2023-06-06 08:39:23] INFO root fetch - processPackages [deep-training]: executing diffoscope
+[2023-06-06 08:39:23] INFO root fetch - processPackages [deep-training]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deep_training-0.1.8-py3-none-any.whl.zip tmp/deep_training-0.1.9-py3-none-any.whl.zip --markdown 20230606/d/deep-training/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 08:39:23] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: Downloading https://files.pythonhosted.org/packages/82/89/cc7c98c655e3e6783cf6904559a8d7f9d378bd1a79437585ba6d37508556/odoo_addon_l10n_ro_stock_report-15.0.6.8.0-py3-none-any.whl
+[2023-06-06 08:39:23] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: executing diffoscope
+[2023-06-06 08:39:23] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_report-15.0.6.7.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_report-15.0.6.8.0-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-l10n-ro-stock-report/15.0.6.7.0.1-15.0.6.8.0/diff.md --exclude *.pyd
+[2023-06-06 08:39:23] INFO root fetch - processPackages [pyarmor]: Downloading https://files.pythonhosted.org/packages/32/cb/ab0b2546de84f234426daaf0c25fc6f42e8534f2b48f2a77db88903e3fd3/pyarmor-8.2.dev2.zip
+[2023-06-06 08:39:23] INFO root fetch - processPackages [pyarmor]: executing diffoscope
+[2023-06-06 08:39:23] INFO root fetch - processPackages [pyarmor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor-8.2.dev1.zip tmp/pyarmor-8.2.dev2.zip --markdown 20230606/p/pyarmor/8.2.dev1-8.2.dev2/diff.md --exclude *.pyd
+[2023-06-06 08:39:23] INFO root fetch - processPackages [Bigsansar]: Remove: archive file [/home/abi/fetcher/tmp/Bigsansar-1.6.9.tar.gz]
+[2023-06-06 08:39:23] INFO root fetch - processPackages [Bigsansar]: Remove: archive file [/home/abi/fetcher/tmp/Bigsansar-1.7.0.tar.gz]
+[2023-06-06 08:39:23] INFO root fetch - processPackages [Bigsansar]: Start processing: stem
+[2023-06-06 08:39:23] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-06-06 08:39:23] INFO root fetch - processPackages [stem]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-06-06 08:39:23] INFO root fetch - processPackages [PyDynamoDB]: Remove: archive file [/home/abi/fetcher/tmp/PyDynamoDB-0.4.7.tar.gz]
+[2023-06-06 08:39:23] INFO root fetch - processPackages [PyDynamoDB]: Remove: archive file [/home/abi/fetcher/tmp/PyDynamoDB-0.4.8.tar.gz]
+[2023-06-06 08:39:23] INFO root fetch - processPackages [PyDynamoDB]: Start processing: nonebot-plugin-game-collection
+[2023-06-06 08:39:23] INFO root fetch - main [MainThread]: End processing [PyDynamoDB]: success
+[2023-06-06 08:39:23] INFO root fetch - processPackages [nonebot-plugin-game-collection]: New version: [2.1.8] Old Version: [2.1.7]
+[2023-06-06 08:39:24] INFO root fetch - processPackages [stem]: Downloading https://files.pythonhosted.org/packages/b2/66/c5515de764bffae1347e671819711268da5c02bfab8406223526822fe5f6/stem-1.8.1.tar.gz
+[2023-06-06 08:39:24] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/54/87/6c1cf87de9bfb4e06a64e35be899e68b24a3ddc17cc3c38782bbff5c09a7/nonebot_plugin_game_collection-2.1.7.tar.gz
+[2023-06-06 08:39:24] INFO root fetch - processPackages [liquisource]: Remove: archive file [/home/abi/fetcher/tmp/liquisource-1.1.3.tar.gz]
+[2023-06-06 08:39:24] INFO root fetch - processPackages [liquisource]: Remove: archive file [/home/abi/fetcher/tmp/liquisource-1.1.4.tar.gz]
+[2023-06-06 08:39:24] INFO root fetch - processPackages [liquisource]: Start processing: ccdt
+[2023-06-06 08:39:24] INFO root fetch - main [MainThread]: End processing [liquisource]: success
+[2023-06-06 08:39:24] INFO root fetch - processPackages [ccdt]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-06 08:39:24] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/4b/74/4580a005cbe4f6dc4e16ce3a9feb5716c4cf901b4839d048dfff2001ee3d/ccdt-2.1.8.tar.gz
+[2023-06-06 08:39:24] INFO root fetch - processPackages [stem]: Downloading https://files.pythonhosted.org/packages/94/c6/b2258155546f966744e78b9862f62bd2b8671b422bb9951a1330e4c8fd73/stem-1.8.2.tar.gz
+[2023-06-06 08:39:24] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Downloading https://files.pythonhosted.org/packages/f4/58/8a15540c38334bcd6c5c1cc93891f5a1bcb6e02b5c4a4fd34725c03f121e/nonebot_plugin_game_collection-2.1.8.tar.gz
+[2023-06-06 08:39:24] INFO root fetch - processPackages [stem]: executing diffoscope
+[2023-06-06 08:39:24] INFO root fetch - processPackages [stem]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stem-1.8.1.tar.gz tmp/stem-1.8.2.tar.gz --markdown 20230606/s/stem/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-06-06 08:39:24] INFO root fetch - processPackages [nonebot-plugin-game-collection]: executing diffoscope
+[2023-06-06 08:39:24] INFO root fetch - processPackages [nonebot-plugin-game-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_game_collection-2.1.7.tar.gz tmp/nonebot_plugin_game_collection-2.1.8.tar.gz --markdown 20230606/n/nonebot-plugin-game-collection/2.1.7-2.1.8/diff.md --exclude *.pyd
+[2023-06-06 08:39:24] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/d5/f2/7926d58fa933cd6e8d4ce55e92df2097043f323dba456534345b8dd248c1/ccdt-2.1.9.tar.gz
+[2023-06-06 08:39:24] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-06-06 08:39:24] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.8.tar.gz tmp/ccdt-2.1.9.tar.gz --markdown 20230606/c/ccdt/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-06 08:39:24] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-06-06 08:39:24] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-06-06 08:39:24] INFO root fetch - processPackages [omnata-plugin-runtime]: Start processing: FindJobsTW
+[2023-06-06 08:39:24] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-06-06 08:39:24] INFO root fetch - processPackages [FindJobsTW]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-06 08:39:24] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_report-15.0.6.7.0.1-py3-none-any.whl.zip]
+[2023-06-06 08:39:24] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_report-15.0.6.8.0-py3-none-any.whl.zip]
+[2023-06-06 08:39:24] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-report]: Start processing: betfairutil
+[2023-06-06 08:39:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-report]: success
+[2023-06-06 08:39:24] INFO root fetch - processPackages [betfairutil]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-06 08:39:24] INFO root fetch - processPackages [FindJobsTW]: Downloading https://files.pythonhosted.org/packages/fd/cb/6cd028e91049f9ccb461365d2bbeeed6557594eb8d084bb0ff5ef4118b39/FindJobsTW-0.2.1.tar.gz
+[2023-06-06 08:39:25] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-2.3.2.tar.gz]
+[2023-06-06 08:39:25] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_bilichat-2.4.0.tar.gz]
+[2023-06-06 08:39:25] INFO root fetch - processPackages [nonebot-plugin-bilichat]: Start processing: dwave-sona-core
+[2023-06-06 08:39:25] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-bilichat]: success
+[2023-06-06 08:39:25] INFO root fetch - processPackages [dwave-sona-core]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-06 08:39:25] INFO root fetch - processPackages [dwave-sona-core]: Downloading https://files.pythonhosted.org/packages/21/ef/ad3e78d65cde8dfb8850912ed2aa2b004b66d32b08f6fd440ad4ded93f06/dwave_sona_core-0.2.7.tar.gz
+[2023-06-06 08:39:25] INFO root fetch - processPackages [betfairutil]: Downloading https://files.pythonhosted.org/packages/24/17/1b5b0ec25504d984440941215de45eb527ab50d262d010142dbffa6ae966/betfairutil-0.6.0.tar.gz
+[2023-06-06 08:39:25] INFO root fetch - processPackages [FindJobsTW]: Downloading https://files.pythonhosted.org/packages/4f/08/ba671135f3154e14fc8039a2500a3e1f106cc873b95e6001bb0362fcbc23/FindJobsTW-0.2.2.tar.gz
+[2023-06-06 08:39:25] INFO root fetch - processPackages [dwave-sona-core]: Downloading https://files.pythonhosted.org/packages/0f/ca/0a067900a70fc8450825d74f358e83a4f20622b03233a0a3410b04abb4a5/dwave_sona_core-0.2.8.tar.gz
+[2023-06-06 08:39:25] INFO root fetch - processPackages [dwave-sona-core]: executing diffoscope
+[2023-06-06 08:39:25] INFO root fetch - processPackages [dwave-sona-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dwave_sona_core-0.2.7.tar.gz tmp/dwave_sona_core-0.2.8.tar.gz --markdown 20230606/d/dwave-sona-core/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-06 08:39:25] INFO root fetch - processPackages [betfairutil]: Downloading https://files.pythonhosted.org/packages/c7/ce/6f438b1b1b6733300e0c743e614d971770845ea6bfdbb4f4e08417add3e6/betfairutil-0.6.1.tar.gz
+[2023-06-06 08:39:25] INFO root fetch - processPackages [FindJobsTW]: executing diffoscope
+[2023-06-06 08:39:25] INFO root fetch - processPackages [FindJobsTW]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FindJobsTW-0.2.1.tar.gz tmp/FindJobsTW-0.2.2.tar.gz --markdown 20230606/F/FindJobsTW/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-06 08:39:25] INFO root fetch - processPackages [betfairutil]: executing diffoscope
+[2023-06-06 08:39:25] INFO root fetch - processPackages [betfairutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/betfairutil-0.6.0.tar.gz tmp/betfairutil-0.6.1.tar.gz --markdown 20230606/b/betfairutil/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-06 08:39:26] INFO root fetch - processPackages [renku-aqs]: Remove: archive file [/home/abi/fetcher/tmp/renku-aqs-1.0.4.tar.gz]
+[2023-06-06 08:39:26] INFO root fetch - processPackages [renku-aqs]: Remove: archive file [/home/abi/fetcher/tmp/renku-aqs-1.0.5.tar.gz]
+[2023-06-06 08:39:26] INFO root fetch - processPackages [renku-aqs]: Start processing: dbsamizdapper
+[2023-06-06 08:39:26] INFO root fetch - main [MainThread]: End processing [renku-aqs]: success
+[2023-06-06 08:39:26] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.1.7.tar.gz]
+[2023-06-06 08:39:26] INFO root fetch - processPackages [nonebot-plugin-game-collection]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_game_collection-2.1.8.tar.gz]
+[2023-06-06 08:39:26] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-game-collection]: success
+[2023-06-06 08:39:26] INFO root fetch - processPackages [dbsamizdapper]: New version: [0.0.3a1] Old Version: [0.0.3a0]
+[2023-06-06 08:39:26] INFO root fetch - processPackages [dbsamizdapper]: Downloading https://files.pythonhosted.org/packages/ef/a1/e053e686dfc441c0a517aae3824fc1fc10783a9068c650d303861cf6ea41/dbsamizdapper-0.0.3a0.tar.gz
+[2023-06-06 08:39:26] INFO root fetch - processPackages [deep-training]: Remove: archive file [/home/abi/fetcher/tmp/deep_training-0.1.8-py3-none-any.whl.zip]
+[2023-06-06 08:39:26] INFO root fetch - processPackages [deep-training]: Remove: archive file [/home/abi/fetcher/tmp/deep_training-0.1.9-py3-none-any.whl.zip]
+[2023-06-06 08:39:26] INFO root fetch - main [MainThread]: End processing [deep-training]: success
+[2023-06-06 08:39:26] INFO root fetch - processPackages [pyarmor]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-8.2.dev1.zip]
+[2023-06-06 08:39:26] INFO root fetch - processPackages [pyarmor]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor-8.2.dev2.zip]
+[2023-06-06 08:39:26] INFO root fetch - main [MainThread]: End processing [pyarmor]: success
+[2023-06-06 08:39:26] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.8.tar.gz]
+[2023-06-06 08:39:26] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.9.tar.gz]
+[2023-06-06 08:39:26] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-06-06 08:39:26] INFO root fetch - processPackages [dbsamizdapper]: Downloading https://files.pythonhosted.org/packages/d3/d2/51117d86f1d97cb8cc8dbdf9bca9d5358e204cb6071459e9789152fc6a06/dbsamizdapper-0.0.3a1.tar.gz
+[2023-06-06 08:39:26] INFO root fetch - processPackages [dbsamizdapper]: executing diffoscope
+[2023-06-06 08:39:26] INFO root fetch - processPackages [dbsamizdapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbsamizdapper-0.0.3a0.tar.gz tmp/dbsamizdapper-0.0.3a1.tar.gz --markdown 20230606/d/dbsamizdapper/0.0.3a0-0.0.3a1/diff.md --exclude *.pyd
+[2023-06-06 08:39:26] INFO root fetch - processPackages [dwave-sona-core]: Remove: archive file [/home/abi/fetcher/tmp/dwave_sona_core-0.2.7.tar.gz]
+[2023-06-06 08:39:26] INFO root fetch - processPackages [dwave-sona-core]: Remove: archive file [/home/abi/fetcher/tmp/dwave_sona_core-0.2.8.tar.gz]
+[2023-06-06 08:39:26] INFO root fetch - main [MainThread]: End processing [dwave-sona-core]: success
+[2023-06-06 08:39:27] INFO root fetch - processPackages [betfairutil]: Remove: archive file [/home/abi/fetcher/tmp/betfairutil-0.6.0.tar.gz]
+[2023-06-06 08:39:27] INFO root fetch - processPackages [betfairutil]: Remove: archive file [/home/abi/fetcher/tmp/betfairutil-0.6.1.tar.gz]
+[2023-06-06 08:39:27] INFO root fetch - main [MainThread]: End processing [betfairutil]: success
+[2023-06-06 08:39:27] INFO root fetch - processPackages [dbsamizdapper]: Remove: archive file [/home/abi/fetcher/tmp/dbsamizdapper-0.0.3a0.tar.gz]
+[2023-06-06 08:39:27] INFO root fetch - processPackages [dbsamizdapper]: Remove: archive file [/home/abi/fetcher/tmp/dbsamizdapper-0.0.3a1.tar.gz]
+[2023-06-06 08:39:27] INFO root fetch - main [MainThread]: End processing [dbsamizdapper]: success
+[2023-06-06 08:39:30] INFO root fetch - processPackages [stem]: Remove: archive file [/home/abi/fetcher/tmp/stem-1.8.1.tar.gz]
+[2023-06-06 08:39:30] INFO root fetch - processPackages [stem]: Remove: archive file [/home/abi/fetcher/tmp/stem-1.8.2.tar.gz]
+[2023-06-06 08:39:30] INFO root fetch - main [MainThread]: End processing [stem]: success
+[2023-06-06 08:39:36] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post814-py3-none-any.whl.zip]
+[2023-06-06 08:39:36] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post817-py3-none-any.whl.zip]
+[2023-06-06 08:39:36] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-06-06 08:40:17] INFO root fetch - processPackages [FindJobsTW]: Remove: archive file [/home/abi/fetcher/tmp/FindJobsTW-0.2.1.tar.gz]
+[2023-06-06 08:40:17] INFO root fetch - processPackages [FindJobsTW]: Remove: archive file [/home/abi/fetcher/tmp/FindJobsTW-0.2.2.tar.gz]
+[2023-06-06 08:40:17] INFO root fetch - main [MainThread]: End processing [FindJobsTW]: success
+[2023-06-06 08:40:17] INFO root fetch - main [MainThread]: Store serial: [18387571]
