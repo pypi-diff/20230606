@@ -17345,3 +17345,172 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-06 10:46:58] INFO root fetch - processPackages [qtl-ctp-api]: Remove: archive file [/home/abi/fetcher/tmp/qtl-ctp-api-6.7.0.tar.gz]
 [2023-06-06 10:46:58] INFO root fetch - main [MainThread]: End processing [qtl-ctp-api]: success
 [2023-06-06 10:46:58] INFO root fetch - main [MainThread]: Store serial: [18388914]
+[2023-06-06 10:52:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18388914]
+[2023-06-06 10:52:13] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-06 10:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycloudlib
+[2023-06-06 10:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: t2iapi
+[2023-06-06 10:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dipex
+[2023-06-06 10:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ycm-cmake-modules
+[2023-06-06 10:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tf-nightly
+[2023-06-06 10:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: liquisource
+[2023-06-06 10:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grape
+[2023-06-06 10:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: asqlcell
+[2023-06-06 10:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: citrusdb
+[2023-06-06 10:52:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyotritonclient
+[2023-06-06 10:52:13] INFO root fetch - processPackages [t2iapi]: New version: [3.0.0.dev172] Old Version: [3.0.0.dev164]
+[2023-06-06 10:52:13] INFO root fetch - processPackages [pycloudlib]: New version: [18.8] Old Version: [18.7]
+[2023-06-06 10:52:13] INFO root fetch - processPackages [ycm-cmake-modules]: New version: [0.15.3.dev1] Old Version: [0.15.3]
+[2023-06-06 10:52:13] INFO root fetch - processPackages [liquisource]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-06 10:52:13] INFO root fetch - processPackages [citrusdb]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-06 10:52:13] INFO root fetch - processPackages [grape]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-06-06 10:52:13] INFO root fetch - processPackages [asqlcell]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-06 10:52:13] INFO root fetch - processPackages [pyotritonclient]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-06 10:52:13] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-06-06 10:52:13] INFO root fetch - processPackages [pycloudlib]: Downloading https://files.pythonhosted.org/packages/b4/b3/256ce90cc58f246bf143f0ea7feb695013cd5f55958af99b8d1b9ded19d5/pycloudlib-18.7.tar.gz
+[2023-06-06 10:52:13] INFO root fetch - processPackages [tf-nightly]: New version: [2.14.0.dev20230606] Old Version: [2.14.0.dev20230605]
+[2023-06-06 10:52:13] INFO root fetch - processPackages [ycm-cmake-modules]: Downloading https://files.pythonhosted.org/packages/99/90/c6297f4f41ed618a14e7be012fa3a3cd3624b7a1ebf25da42232f035c019/ycm_cmake_modules-0.15.3.tar.gz
+[2023-06-06 10:52:13] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/13/d3/8880ad81d24c8ce4537eebac3a446e5a8a77d9ccd6584c26cf3c42ee8e2b/t2iapi-3.0.0.dev164.tar.gz
+[2023-06-06 10:52:13] INFO root fetch - processPackages [liquisource]: Downloading https://files.pythonhosted.org/packages/3d/6d/5a13cc89e8165bdc160f3ad5cb487cf4f8db6037f18cda5d3e0b96183e40/liquisource-1.1.8.tar.gz
+[2023-06-06 10:52:13] INFO root fetch - processPackages [grape]: Downloading https://files.pythonhosted.org/packages/8f/b7/888839b80d396bed4ad9794f1f885a3fb058f93ed943e61ac4a411bf9938/grape-0.1.9.tar.gz
+[2023-06-06 10:52:13] INFO root fetch - processPackages [citrusdb]: Downloading https://files.pythonhosted.org/packages/dd/33/7d2f6c2e200443fa7f1be0b0aec5ec20cffb8f271f6e8ba4c1633d1f49da/citrusdb-0.3.2.tar.gz
+[2023-06-06 10:52:13] INFO root fetch - processPackages [pyotritonclient]: Downloading https://files.pythonhosted.org/packages/d7/08/e36fa0510c40f278bb068b3348f4d1ff0b3e0a2eedf081d1f33bd9e05220/pyotritonclient-0.2.5.tar.gz
+[2023-06-06 10:52:13] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/ca/fb/bcdbc34d4ffff4b37acd3e2fb76f42bcea1844762d4b998c319652fc6b38/dipex-4.9.1.tar.gz
+[2023-06-06 10:52:13] INFO root fetch - processPackages [tf-nightly]: Downloading https://files.pythonhosted.org/packages/19/2e/b6269b00a84cb6a820470d6cdaf895d4f8d05e02fb8b9fdd2f8303324aec/tf_nightly-2.14.0.dev20230605-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-06 10:52:13] INFO root fetch - processPackages [asqlcell]: Downloading https://files.pythonhosted.org/packages/22/1b/eeb8abb5d4c03148dc3ad849ff16be902f57f65ece672b93b08036acd080/asqlcell-0.1.7-py2.py3-none-any.whl
+[2023-06-06 10:52:14] WARNING root fetch - processPackages [tf-nightly]: Skipping package: exceeds size limit 488948771>=10485760
+[2023-06-06 10:52:14] WARNING root fetch - processPackages [asqlcell]: Skipping package: exceeds size limit 16213764>=10485760
+[2023-06-06 10:52:14] INFO root fetch - processPackages [tf-nightly]: Start processing: dask-cuda
+[2023-06-06 10:52:14] INFO root fetch - processPackages [ycm-cmake-modules]: Downloading https://files.pythonhosted.org/packages/a6/e0/e9673eba251ec739842efef04825aeb5ec00f72ecbd7eb497061feb9d525/ycm_cmake_modules-0.15.3.dev1.tar.gz
+[2023-06-06 10:52:14] INFO root fetch - main [MainThread]: End processing [tf-nightly] error
+[2023-06-06 10:52:14] INFO root fetch - processPackages [asqlcell]: Start processing: sai-mrp-price-change-prediction
+[2023-06-06 10:52:14] INFO root fetch - main [MainThread]: End processing [asqlcell] error
+[2023-06-06 10:52:14] INFO root fetch - processPackages [liquisource]: Downloading https://files.pythonhosted.org/packages/f5/3d/240a786b9892eed87bf6017503bef21973455a63cf412927f26d6bd8cee7/liquisource-1.1.9.tar.gz
+[2023-06-06 10:52:14] INFO root fetch - processPackages [t2iapi]: Downloading https://files.pythonhosted.org/packages/40/34/17c107a82d0ef865a8082a74d48d7905ecef5b1bd878861bd3d64c83700e/t2iapi-3.0.0.dev172.tar.gz
+[2023-06-06 10:52:14] WARNING root fetch - processPackages [sai-mrp-price-change-prediction]: Skipping, unable to determine old version
+[2023-06-06 10:52:14] INFO root fetch - processPackages [sai-mrp-price-change-prediction]: Start processing: consumableai
+[2023-06-06 10:52:14] INFO root fetch - main [MainThread]: End processing [sai-mrp-price-change-prediction] error
+[2023-06-06 10:52:14] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/d3/fa/fbf692999f299bb256217f34df9cc1e4ee2f9e1ae9e87e051b2b8b92aaa1/dipex-4.9.2.tar.gz
+[2023-06-06 10:52:14] INFO root fetch - processPackages [dask-cuda]: New version: [23.8.0a230606] Old Version: [23.8.0a230605]
+[2023-06-06 10:52:14] INFO root fetch - processPackages [consumableai]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-06 10:52:14] INFO root fetch - processPackages [liquisource]: executing diffoscope
+[2023-06-06 10:52:14] INFO root fetch - processPackages [liquisource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liquisource-1.1.8.tar.gz tmp/liquisource-1.1.9.tar.gz --markdown 20230606/l/liquisource/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-06 10:52:14] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-06-06 10:52:14] INFO root fetch - processPackages [pyotritonclient]: Downloading https://files.pythonhosted.org/packages/f1/17/70badc7a1b7f5c66d3712ca6c22c363978cab00aba70f9ccd272fd29ef6d/pyotritonclient-0.2.6.tar.gz
+[2023-06-06 10:52:14] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230606/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-06-06 10:52:14] INFO root fetch - processPackages [citrusdb]: Downloading https://files.pythonhosted.org/packages/e1/e1/fefe9ab781ce8b7fbbfbfbc5f351bc52dc3746a059f3b7db149e75b9de26/citrusdb-0.3.3.tar.gz
+[2023-06-06 10:52:14] INFO root fetch - processPackages [t2iapi]: executing diffoscope
+[2023-06-06 10:52:14] INFO root fetch - processPackages [t2iapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/t2iapi-3.0.0.dev164.tar.gz tmp/t2iapi-3.0.0.dev172.tar.gz --markdown 20230606/t/t2iapi/3.0.0.dev164-3.0.0.dev172/diff.md --exclude *.pyd
+[2023-06-06 10:52:14] INFO root fetch - processPackages [pycloudlib]: Downloading https://files.pythonhosted.org/packages/62/b0/59f3c2c5507d62557aff2e04e4aee94470596d1461bfe074b7248a6d10c6/pycloudlib-18.8.tar.gz
+[2023-06-06 10:52:14] INFO root fetch - processPackages [citrusdb]: executing diffoscope
+[2023-06-06 10:52:14] INFO root fetch - processPackages [citrusdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/citrusdb-0.3.2.tar.gz tmp/citrusdb-0.3.3.tar.gz --markdown 20230606/c/citrusdb/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-06 10:52:14] INFO root fetch - processPackages [pyotritonclient]: executing diffoscope
+[2023-06-06 10:52:14] INFO root fetch - processPackages [pyotritonclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyotritonclient-0.2.5.tar.gz tmp/pyotritonclient-0.2.6.tar.gz --markdown 20230606/p/pyotritonclient/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-06 10:52:14] INFO root fetch - processPackages [consumableai]: Downloading https://files.pythonhosted.org/packages/be/e6/d318e6a0f849eed1bef2d9c8842c5f2188f34538748dc4bdbeb1aa5d131c/consumableai-1.0.0-py3-none-any.whl
+[2023-06-06 10:52:14] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/b5/9f/8e78ef69cfd5ac4f8a6b99e34a95aeb3d27e56550ac6fd19c4858714ee3e/dask-cuda-23.8.0a230605.tar.gz
+[2023-06-06 10:52:14] INFO root fetch - processPackages [grape]: Downloading https://files.pythonhosted.org/packages/fe/13/dacee076b71b1f9539f91a422b086fe8fa6e50edcbfbbae9c0e534247c51/grape-0.2.0.tar.gz
+[2023-06-06 10:52:14] INFO root fetch - processPackages [ycm-cmake-modules]: executing diffoscope
+[2023-06-06 10:52:14] INFO root fetch - processPackages [ycm-cmake-modules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ycm_cmake_modules-0.15.3.tar.gz tmp/ycm_cmake_modules-0.15.3.dev1.tar.gz --markdown 20230606/y/ycm-cmake-modules/0.15.3-0.15.3.dev1/diff.md --exclude *.pyd
+[2023-06-06 10:52:14] INFO root fetch - processPackages [grape]: executing diffoscope
+[2023-06-06 10:52:14] INFO root fetch - processPackages [grape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grape-0.1.9.tar.gz tmp/grape-0.2.0.tar.gz --markdown 20230606/g/grape/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-06-06 10:52:14] INFO root fetch - processPackages [dask-cuda]: Downloading https://files.pythonhosted.org/packages/14/39/4a17ddee59344e4354ce932eacdba5f76da6e5e97bdb946c5be3a88bdece/dask-cuda-23.8.0a230606.tar.gz
+[2023-06-06 10:52:14] INFO root fetch - processPackages [dask-cuda]: executing diffoscope
+[2023-06-06 10:52:14] INFO root fetch - processPackages [dask-cuda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dask-cuda-23.8.0a230605.tar.gz tmp/dask-cuda-23.8.0a230606.tar.gz --markdown 20230606/d/dask-cuda/23.8.0a230605-23.8.0a230606/diff.md --exclude *.pyd
+[2023-06-06 10:52:14] INFO root fetch - processPackages [consumableai]: Downloading https://files.pythonhosted.org/packages/9b/90/60a79d0c72224708031bd5cb8a729411dc1f8b68c9d96220773bde901339/consumableai-1.0.1.tar.gz
+[2023-06-06 10:52:14] INFO root fetch - processPackages [pycloudlib]: executing diffoscope
+[2023-06-06 10:52:14] INFO root fetch - processPackages [pycloudlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycloudlib-18.7.tar.gz tmp/pycloudlib-18.8.tar.gz --markdown 20230606/p/pycloudlib/18.7-18.8/diff.md --exclude *.pyd
+[2023-06-06 10:52:14] INFO root fetch - processPackages [consumableai]: executing diffoscope
+[2023-06-06 10:52:14] INFO root fetch - processPackages [consumableai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consumableai-1.0.0-py3-none-any.whl.zip tmp/consumableai-1.0.1.tar.gz --markdown 20230606/c/consumableai/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-06 10:52:15] INFO root fetch - processPackages [liquisource]: Remove: archive file [/home/abi/fetcher/tmp/liquisource-1.1.8.tar.gz]
+[2023-06-06 10:52:15] INFO root fetch - processPackages [liquisource]: Remove: archive file [/home/abi/fetcher/tmp/liquisource-1.1.9.tar.gz]
+[2023-06-06 10:52:15] INFO root fetch - processPackages [liquisource]: Start processing: eodhd
+[2023-06-06 10:52:15] INFO root fetch - main [MainThread]: End processing [liquisource]: success
+[2023-06-06 10:52:15] INFO root fetch - processPackages [eodhd]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-06 10:52:15] INFO root fetch - processPackages [eodhd]: Downloading https://files.pythonhosted.org/packages/6b/a8/f815d6d0508c5f846e77a607973b290124b9418d56ce464af6fa6ef5e614/eodhd-1.0.8.tar.gz
+[2023-06-06 10:52:15] INFO root fetch - processPackages [citrusdb]: Remove: archive file [/home/abi/fetcher/tmp/citrusdb-0.3.2.tar.gz]
+[2023-06-06 10:52:15] INFO root fetch - processPackages [citrusdb]: Remove: archive file [/home/abi/fetcher/tmp/citrusdb-0.3.3.tar.gz]
+[2023-06-06 10:52:15] INFO root fetch - processPackages [citrusdb]: Start processing: qontract-reconcile
+[2023-06-06 10:52:15] INFO root fetch - main [MainThread]: End processing [citrusdb]: success
+[2023-06-06 10:52:15] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-06-06 10:52:16] INFO root fetch - processPackages [pyotritonclient]: Remove: archive file [/home/abi/fetcher/tmp/pyotritonclient-0.2.5.tar.gz]
+[2023-06-06 10:52:16] INFO root fetch - processPackages [pyotritonclient]: Remove: archive file [/home/abi/fetcher/tmp/pyotritonclient-0.2.6.tar.gz]
+[2023-06-06 10:52:16] INFO root fetch - processPackages [pyotritonclient]: Start processing: rtc-tools
+[2023-06-06 10:52:16] INFO root fetch - main [MainThread]: End processing [pyotritonclient]: success
+[2023-06-06 10:52:16] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-06-06 10:52:16] INFO root fetch - processPackages [rtc-tools]: New version: [2.5.2rc2] Old Version: [2.5.2a4]
+[2023-06-06 10:52:16] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-06-06 10:52:16] INFO root fetch - processPackages [eodhd]: Downloading https://files.pythonhosted.org/packages/74/15/a49024eba8d8741c93edcc8aff70b92effd14ab5c445a7bdbde0c59dcd89/eodhd-1.0.9.tar.gz
+[2023-06-06 10:52:16] INFO root fetch - processPackages [grape]: Remove: archive file [/home/abi/fetcher/tmp/grape-0.1.9.tar.gz]
+[2023-06-06 10:52:16] INFO root fetch - processPackages [grape]: Remove: archive file [/home/abi/fetcher/tmp/grape-0.2.0.tar.gz]
+[2023-06-06 10:52:16] INFO root fetch - processPackages [grape]: Start processing: pyw90
+[2023-06-06 10:52:16] INFO root fetch - main [MainThread]: End processing [grape]: success
+[2023-06-06 10:52:16] INFO root fetch - processPackages [pyw90]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-06-06 10:52:16] INFO root fetch - processPackages [rtc-tools]: Downloading https://files.pythonhosted.org/packages/26/ca/ea3307cbdaa728e8a8b998af36b8dab8c78ac865b8e1e889b79b01626000/rtc-tools-2.5.2a4.tar.gz
+[2023-06-06 10:52:16] INFO root fetch - processPackages [eodhd]: executing diffoscope
+[2023-06-06 10:52:16] INFO root fetch - processPackages [eodhd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodhd-1.0.8.tar.gz tmp/eodhd-1.0.9.tar.gz --markdown 20230606/e/eodhd/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-06 10:52:16] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-06-06 10:52:16] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230606/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-06-06 10:52:16] INFO root fetch - processPackages [consumableai]: Remove: archive file [/home/abi/fetcher/tmp/consumableai-1.0.0-py3-none-any.whl.zip]
+[2023-06-06 10:52:16] INFO root fetch - processPackages [consumableai]: Remove: archive file [/home/abi/fetcher/tmp/consumableai-1.0.1.tar.gz]
+[2023-06-06 10:52:16] INFO root fetch - processPackages [consumableai]: Start processing: pandasflow
+[2023-06-06 10:52:16] INFO root fetch - main [MainThread]: End processing [consumableai]: success
+[2023-06-06 10:52:16] INFO root fetch - processPackages [pandasflow]: New version: [0.6.0] Old Version: [0.5.7]
+[2023-06-06 10:52:16] INFO root fetch - processPackages [pyw90]: Downloading https://files.pythonhosted.org/packages/b1/ab/de0a6e7ed06ddce7c4f78d6d5f7d220ae09c096630de5a2ea33ae95a35c6/pyw90-1.0.6.tar.gz
+[2023-06-06 10:52:16] INFO root fetch - processPackages [rtc-tools]: Downloading https://files.pythonhosted.org/packages/13/4c/9ef727fde11e255ba200cec881f0f725638be5918884c9f7ff3d33d6001c/rtc-tools-2.5.2rc2.tar.gz
+[2023-06-06 10:52:16] INFO root fetch - processPackages [pandasflow]: Downloading https://files.pythonhosted.org/packages/95/2a/59311f21a9ee5c51210e1860f8559dab5d9843a001d00b5003359f2dfca6/pandasflow-0.5.7.tar.gz
+[2023-06-06 10:52:16] INFO root fetch - processPackages [rtc-tools]: executing diffoscope
+[2023-06-06 10:52:16] INFO root fetch - processPackages [rtc-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rtc-tools-2.5.2a4.tar.gz tmp/rtc-tools-2.5.2rc2.tar.gz --markdown 20230606/r/rtc-tools/2.5.2a4-2.5.2rc2/diff.md --exclude *.pyd
+[2023-06-06 10:52:16] INFO root fetch - processPackages [pycloudlib]: Remove: archive file [/home/abi/fetcher/tmp/pycloudlib-18.7.tar.gz]
+[2023-06-06 10:52:16] INFO root fetch - processPackages [pycloudlib]: Remove: archive file [/home/abi/fetcher/tmp/pycloudlib-18.8.tar.gz]
+[2023-06-06 10:52:16] INFO root fetch - processPackages [pycloudlib]: Start processing: hello2
+[2023-06-06 10:52:16] INFO root fetch - main [MainThread]: End processing [pycloudlib]: success
+[2023-06-06 10:52:16] INFO root fetch - processPackages [pyw90]: Downloading https://files.pythonhosted.org/packages/13/aa/12533817330a8a9b6ec3aa5cabf21f1d41b4eda6fd630c479da06ea699b9/pyw90-1.0.7.tar.gz
+[2023-06-06 10:52:16] INFO root fetch - processPackages [pyw90]: executing diffoscope
+[2023-06-06 10:52:16] INFO root fetch - processPackages [pyw90]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyw90-1.0.6.tar.gz tmp/pyw90-1.0.7.tar.gz --markdown 20230606/p/pyw90/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-06-06 10:52:16] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.1.tar.gz]
+[2023-06-06 10:52:16] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.2.tar.gz]
+[2023-06-06 10:52:16] INFO root fetch - processPackages [dipex]: Start processing: faKy
+[2023-06-06 10:52:16] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-06-06 10:52:16] INFO root fetch - processPackages [pandasflow]: Downloading https://files.pythonhosted.org/packages/5d/71/d46ccebd236c0591708e09fee00f93eed5608256934a7333e0cb5a0ec5a5/pandasflow-0.6.0.tar.gz
+[2023-06-06 10:52:16] WARNING root fetch - processPackages [faKy]: Skipping, unable to determine old version
+[2023-06-06 10:52:16] INFO root fetch - processPackages [faKy]: Start processing: custom-awscli
+[2023-06-06 10:52:16] INFO root fetch - main [MainThread]: End processing [faKy] error
+[2023-06-06 10:52:16] INFO root fetch - processPackages [hello2]: New version: [1.8.8] Old Version: [1.8.7]
+[2023-06-06 10:52:16] INFO root fetch - processPackages [pandasflow]: executing diffoscope
+[2023-06-06 10:52:16] INFO root fetch - processPackages [pandasflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasflow-0.5.7.tar.gz tmp/pandasflow-0.6.0.tar.gz --markdown 20230606/p/pandasflow/0.5.7-0.6.0/diff.md --exclude *.pyd
+[2023-06-06 10:52:16] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/ea/74/68f7f8b56eee13c96bd8354b5f357afe2224aee260bb86064b3847eece0f/hello2-1.8.7.tar.gz
+[2023-06-06 10:52:17] WARNING root fetch - processPackages [custom-awscli]: Skipping, unable to determine old version
+[2023-06-06 10:52:17] INFO root fetch - processPackages [custom-awscli]: Start processing: ahgregate
+[2023-06-06 10:52:17] INFO root fetch - main [MainThread]: End processing [custom-awscli] error
+[2023-06-06 10:52:17] WARNING root fetch - processPackages [ahgregate]: Skipping, unable to determine old version
+[2023-06-06 10:52:17] INFO root fetch - main [MainThread]: End processing [ahgregate] error
+[2023-06-06 10:52:17] INFO root fetch - processPackages [hello2]: Downloading https://files.pythonhosted.org/packages/1f/ee/05a8f20898b062f2e86416ee387c5d5d3948a686452b8e83f41710aa8c78/hello2-1.8.8.tar.gz
+[2023-06-06 10:52:17] INFO root fetch - processPackages [t2iapi]: Remove: archive file [/home/abi/fetcher/tmp/t2iapi-3.0.0.dev164.tar.gz]
+[2023-06-06 10:52:17] INFO root fetch - processPackages [t2iapi]: Remove: archive file [/home/abi/fetcher/tmp/t2iapi-3.0.0.dev172.tar.gz]
+[2023-06-06 10:52:17] INFO root fetch - main [MainThread]: End processing [t2iapi]: success
+[2023-06-06 10:52:17] INFO root fetch - processPackages [hello2]: executing diffoscope
+[2023-06-06 10:52:17] INFO root fetch - processPackages [hello2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hello2-1.8.7.tar.gz tmp/hello2-1.8.8.tar.gz --markdown 20230606/h/hello2/1.8.7-1.8.8/diff.md --exclude *.pyd
+[2023-06-06 10:52:17] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230605.tar.gz]
+[2023-06-06 10:52:17] INFO root fetch - processPackages [dask-cuda]: Remove: archive file [/home/abi/fetcher/tmp/dask-cuda-23.8.0a230606.tar.gz]
+[2023-06-06 10:52:17] INFO root fetch - main [MainThread]: End processing [dask-cuda]: success
+[2023-06-06 10:52:17] INFO root fetch - processPackages [eodhd]: Remove: archive file [/home/abi/fetcher/tmp/eodhd-1.0.8.tar.gz]
+[2023-06-06 10:52:17] INFO root fetch - processPackages [eodhd]: Remove: archive file [/home/abi/fetcher/tmp/eodhd-1.0.9.tar.gz]
+[2023-06-06 10:52:17] INFO root fetch - main [MainThread]: End processing [eodhd]: success
+[2023-06-06 10:52:18] INFO root fetch - processPackages [pyw90]: Remove: archive file [/home/abi/fetcher/tmp/pyw90-1.0.6.tar.gz]
+[2023-06-06 10:52:18] INFO root fetch - processPackages [pyw90]: Remove: archive file [/home/abi/fetcher/tmp/pyw90-1.0.7.tar.gz]
+[2023-06-06 10:52:18] INFO root fetch - main [MainThread]: End processing [pyw90]: success
+[2023-06-06 10:52:18] INFO root fetch - processPackages [pandasflow]: Remove: archive file [/home/abi/fetcher/tmp/pandasflow-0.5.7.tar.gz]
+[2023-06-06 10:52:18] INFO root fetch - processPackages [pandasflow]: Remove: archive file [/home/abi/fetcher/tmp/pandasflow-0.6.0.tar.gz]
+[2023-06-06 10:52:18] INFO root fetch - main [MainThread]: End processing [pandasflow]: success
+[2023-06-06 10:52:18] INFO root fetch - processPackages [ycm-cmake-modules]: Remove: archive file [/home/abi/fetcher/tmp/ycm_cmake_modules-0.15.3.tar.gz]
+[2023-06-06 10:52:18] INFO root fetch - processPackages [ycm-cmake-modules]: Remove: archive file [/home/abi/fetcher/tmp/ycm_cmake_modules-0.15.3.dev1.tar.gz]
+[2023-06-06 10:52:18] INFO root fetch - main [MainThread]: End processing [ycm-cmake-modules]: success
+[2023-06-06 10:52:19] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-1.8.7.tar.gz]
+[2023-06-06 10:52:19] INFO root fetch - processPackages [hello2]: Remove: archive file [/home/abi/fetcher/tmp/hello2-1.8.8.tar.gz]
+[2023-06-06 10:52:19] INFO root fetch - main [MainThread]: End processing [hello2]: success
+[2023-06-06 10:52:20] INFO root fetch - processPackages [rtc-tools]: Remove: archive file [/home/abi/fetcher/tmp/rtc-tools-2.5.2a4.tar.gz]
+[2023-06-06 10:52:20] INFO root fetch - processPackages [rtc-tools]: Remove: archive file [/home/abi/fetcher/tmp/rtc-tools-2.5.2rc2.tar.gz]
+[2023-06-06 10:52:20] INFO root fetch - main [MainThread]: End processing [rtc-tools]: success
+[2023-06-06 10:52:22] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-06-06 10:52:22] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-06-06 10:52:22] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-06-06 10:52:22] INFO root fetch - main [MainThread]: Store serial: [18388981]
