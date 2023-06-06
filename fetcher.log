@@ -20494,3 +20494,182 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-06 13:05:12] INFO root fetch - main [MainThread]: End processing [spotPython]: success
 [2023-06-06 13:05:16] INFO root fetch - main [MainThread]: End processing [spotPython]: success
 [2023-06-06 13:05:16] INFO root fetch - main [MainThread]: Store serial: [18390231]
+[2023-06-06 13:10:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18390231]
+[2023-06-06 13:10:25] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-06 13:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aqueduct-utility
+[2023-06-06 13:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: akshare
+[2023-06-06 13:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mcpl
+[2023-06-06 13:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ncbi-datasets-pylib
+[2023-06-06 13:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: omnata-plugin-devkit
+[2023-06-06 13:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: calculator_dp
+[2023-06-06 13:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dbt-clickzetta
+[2023-06-06 13:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-06-06 13:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: python-pdfbox-v2
+[2023-06-06 13:10:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: mybar
+[2023-06-06 13:10:25] INFO root fetch - processPackages [calculator_dp]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-06 13:10:25] INFO root fetch - processPackages [aqueduct-utility]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-06 13:10:25] INFO root fetch - processPackages [dbt-clickzetta]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-06 13:10:25] INFO root fetch - processPackages [mcpl]: New version: [1.6.2] Old Version: [1.3.2]
+[2023-06-06 13:10:25] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-06 13:10:25] INFO root fetch - processPackages [python-pdfbox-v2]: New version: [2.0.28.3] Old Version: [2.0.28.2]
+[2023-06-06 13:10:25] INFO root fetch - processPackages [mybar]: New version: [0.7] Old Version: [0.6]
+[2023-06-06 13:10:25] INFO root fetch - processPackages [ncbi-datasets-pylib]: New version: [9.1.0] Old Version: [9.0.0]
+[2023-06-06 13:10:25] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-06 13:10:25] INFO root fetch - processPackages [akshare]: New version: [1.9.99] Old Version: [1.9.98]
+[2023-06-06 13:10:25] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/09/f0/5a413293e92b4ca0d7431450a7218700efac779c0ce2a94f2b8d575440f2/dbt-clickzetta-0.2.8.tar.gz
+[2023-06-06 13:10:25] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/42/ee2568b0c893cfd728abe6b9e4826ba8145e405b4332bbbb5b0019942e62/omnata_plugin_devkit-0.1.4.tar.gz
+[2023-06-06 13:10:25] INFO root fetch - processPackages [python-pdfbox-v2]: Downloading https://files.pythonhosted.org/packages/e5/e2/88c12bc693352f6b0b9018d6a63b1bcf86078787d23fc369ec2d45d3a8a9/python-pdfbox-v2-2.0.28.2.tar.gz
+[2023-06-06 13:10:25] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-06-06 13:10:26] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/ec/a4/f1c21d8fbb349e15f0bf76d32a496003bcff9b66215f81b940337a510e36/akshare-1.9.98.tar.gz
+[2023-06-06 13:10:26] INFO root fetch - processPackages [aqueduct-utility]: Downloading https://files.pythonhosted.org/packages/35/32/ea3c9d8df807bd542a3a43aa2ff5993eb3bf2abf00c8a8f86c5d3384ffed/aqueduct-utility-0.9.3.tar.gz
+[2023-06-06 13:10:26] INFO root fetch - processPackages [calculator_dp]: Downloading https://files.pythonhosted.org/packages/27/18/a229b0508204232b520dc7789a5103f286a0c9ba41ad1dd01ab9e5cd96ce/calculator_dp-0.1.2.tar.gz
+[2023-06-06 13:10:26] INFO root fetch - processPackages [mcpl]: Downloading https://files.pythonhosted.org/packages/1f/6e/652aa007f99bad852b113556571aaedac22a9040e8b7a8887b1a8f803ffc/mcpl-1.3.2-py2.py3-none-any.whl
+[2023-06-06 13:10:26] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/c1/14/85271f2139ff454c5ff9bcefec81d708e59f4ed0230702dafe1a5b557869/dbt-clickzetta-0.2.9.tar.gz
+[2023-06-06 13:10:26] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-06-06 13:10:26] INFO root fetch - processPackages [ncbi-datasets-pylib]: Downloading https://files.pythonhosted.org/packages/ff/d0/5c7c45e275e2c71c22acb9f315a1cbcd706e71659505e30a22bec4a2632b/ncbi-datasets-pylib-9.0.0.tar.gz
+[2023-06-06 13:10:26] INFO root fetch - processPackages [mybar]: Downloading https://files.pythonhosted.org/packages/b9/fb/950f949ad1ffbae65ead47a314b3a6fffdef42ea434b9705c3c4aedcad2a/mybar-0.6.tar.gz
+[2023-06-06 13:10:26] INFO root fetch - processPackages [dbt-clickzetta]: executing diffoscope
+[2023-06-06 13:10:26] INFO root fetch - processPackages [dbt-clickzetta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-clickzetta-0.2.8.tar.gz tmp/dbt-clickzetta-0.2.9.tar.gz --markdown 20230606/d/dbt-clickzetta/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-06 13:10:26] INFO root fetch - processPackages [akshare]: Downloading https://files.pythonhosted.org/packages/53/e8/f58e96016752567ca09f3f67abdc7e935d0afa919aded528d50590ed9170/akshare-1.9.99.tar.gz
+[2023-06-06 13:10:26] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/f3/0d/25543e4b35b613c73c4eed0c4aeb5e2bd1781404e56e6839b97bc0839bb1/omnata_plugin_devkit-0.1.5.tar.gz
+[2023-06-06 13:10:26] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-06-06 13:10:26] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230606/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-06 13:10:26] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-06-06 13:10:26] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.4.tar.gz tmp/omnata_plugin_devkit-0.1.5.tar.gz --markdown 20230606/o/omnata-plugin-devkit/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-06 13:10:26] INFO root fetch - processPackages [akshare]: executing diffoscope
+[2023-06-06 13:10:26] INFO root fetch - processPackages [akshare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/akshare-1.9.98.tar.gz tmp/akshare-1.9.99.tar.gz --markdown 20230606/a/akshare/1.9.98-1.9.99/diff.md --exclude *.pyd
+[2023-06-06 13:10:26] INFO root fetch - processPackages [calculator_dp]: Downloading https://files.pythonhosted.org/packages/49/50/23e4d419631df195e01f4569a87b37464f500515af447f566150009bcca5/calculator_dp-0.1.3.tar.gz
+[2023-06-06 13:10:26] INFO root fetch - processPackages [calculator_dp]: executing diffoscope
+[2023-06-06 13:10:26] INFO root fetch - processPackages [calculator_dp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calculator_dp-0.1.2.tar.gz tmp/calculator_dp-0.1.3.tar.gz --markdown 20230606/c/calculator_dp/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-06 13:10:26] INFO root fetch - processPackages [python-pdfbox-v2]: Downloading https://files.pythonhosted.org/packages/1f/40/7ce22a00fc8de988b34643605ad7db32f5f754c00e3f161757ff40aea608/python-pdfbox-v2-2.0.28.3.tar.gz
+[2023-06-06 13:10:26] INFO root fetch - processPackages [mcpl]: Downloading https://files.pythonhosted.org/packages/75/76/22be6003d7a6e27da18fb0a48efab220dcc40692817c2f46aec0d26d2fc9/mcpl-1.6.2-py2.py3-none-any.whl
+[2023-06-06 13:10:26] INFO root fetch - processPackages [mybar]: Downloading https://files.pythonhosted.org/packages/85/35/fb8a2a3d0ba32d8db3610ae7bd7edf845cd8d40831b26f5a2d50385f7a8d/mybar-0.7.tar.gz
+[2023-06-06 13:10:26] INFO root fetch - processPackages [aqueduct-utility]: Downloading https://files.pythonhosted.org/packages/97/78/03e711e1a03889192ba931be1e93fbb57366a36ab009469f9d24787c29b8/aqueduct-utility-0.9.4.tar.gz
+[2023-06-06 13:10:26] INFO root fetch - processPackages [mcpl]: executing diffoscope
+[2023-06-06 13:10:26] INFO root fetch - processPackages [mcpl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcpl-1.3.2-py2.py3-none-any.whl.zip tmp/mcpl-1.6.2-py2.py3-none-any.whl.zip --markdown 20230606/m/mcpl/1.3.2-1.6.2/diff.md --exclude *.pyd
+[2023-06-06 13:10:26] INFO root fetch - processPackages [ncbi-datasets-pylib]: Downloading https://files.pythonhosted.org/packages/77/91/854e74c2b35a5a11892b0eae72690c8d49d04f38f57cbc2a7868200881dd/ncbi-datasets-pylib-9.1.0.tar.gz
+[2023-06-06 13:10:26] INFO root fetch - processPackages [mybar]: executing diffoscope
+[2023-06-06 13:10:26] INFO root fetch - processPackages [mybar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mybar-0.6.tar.gz tmp/mybar-0.7.tar.gz --markdown 20230606/m/mybar/0.6-0.7/diff.md --exclude *.pyd
+[2023-06-06 13:10:26] INFO root fetch - processPackages [aqueduct-utility]: executing diffoscope
+[2023-06-06 13:10:26] INFO root fetch - processPackages [aqueduct-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aqueduct-utility-0.9.3.tar.gz tmp/aqueduct-utility-0.9.4.tar.gz --markdown 20230606/a/aqueduct-utility/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-06 13:10:26] INFO root fetch - processPackages [ncbi-datasets-pylib]: executing diffoscope
+[2023-06-06 13:10:26] INFO root fetch - processPackages [ncbi-datasets-pylib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ncbi-datasets-pylib-9.0.0.tar.gz tmp/ncbi-datasets-pylib-9.1.0.tar.gz --markdown 20230606/n/ncbi-datasets-pylib/9.0.0-9.1.0/diff.md --exclude *.pyd
+[2023-06-06 13:10:27] INFO root fetch - processPackages [calculator_dp]: Remove: archive file [/home/abi/fetcher/tmp/calculator_dp-0.1.2.tar.gz]
+[2023-06-06 13:10:27] INFO root fetch - processPackages [calculator_dp]: Remove: archive file [/home/abi/fetcher/tmp/calculator_dp-0.1.3.tar.gz]
+[2023-06-06 13:10:27] INFO root fetch - processPackages [calculator_dp]: Start processing: error-parity
+[2023-06-06 13:10:27] INFO root fetch - main [MainThread]: End processing [calculator_dp]: success
+[2023-06-06 13:10:27] INFO root fetch - processPackages [error-parity]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-06 13:10:27] INFO root fetch - processPackages [python-pdfbox-v2]: executing diffoscope
+[2023-06-06 13:10:27] INFO root fetch - processPackages [python-pdfbox-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-pdfbox-v2-2.0.28.2.tar.gz tmp/python-pdfbox-v2-2.0.28.3.tar.gz --markdown 20230606/p/python-pdfbox-v2/2.0.28.2-2.0.28.3/diff.md --exclude *.pyd
+[2023-06-06 13:10:27] INFO root fetch - processPackages [mcpl]: Remove: archive file [/home/abi/fetcher/tmp/mcpl-1.3.2-py2.py3-none-any.whl.zip]
+[2023-06-06 13:10:27] INFO root fetch - processPackages [mcpl]: Remove: archive file [/home/abi/fetcher/tmp/mcpl-1.6.2-py2.py3-none-any.whl.zip]
+[2023-06-06 13:10:27] INFO root fetch - processPackages [mcpl]: Start processing: python-petpptx
+[2023-06-06 13:10:27] INFO root fetch - main [MainThread]: End processing [mcpl]: success
+[2023-06-06 13:10:27] INFO root fetch - processPackages [python-petpptx]: New version: [1.0.0] Old Version: [0.6.21]
+[2023-06-06 13:10:27] INFO root fetch - processPackages [error-parity]: Downloading https://files.pythonhosted.org/packages/af/27/d372c228365fe9a48fa993c461e96bee44bd55a9be1c1d44e1c82a78f70c/error-parity-0.1.0.tar.gz
+[2023-06-06 13:10:28] INFO root fetch - processPackages [python-petpptx]: Downloading https://files.pythonhosted.org/packages/59/db/de8ce249c1fe6cb1b6dbb00aee9158da7c943af7ba018c880b149658350a/python-petpptx-0.6.21.tar.gz
+[2023-06-06 13:10:28] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz]
+[2023-06-06 13:10:28] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz]
+[2023-06-06 13:10:28] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Start processing: case-attribute-discovery
+[2023-06-06 13:10:28] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-06-06 13:10:28] INFO root fetch - processPackages [case-attribute-discovery]: New version: [0.1.5] Old Version: [0.1.2]
+[2023-06-06 13:10:28] INFO root fetch - processPackages [error-parity]: Downloading https://files.pythonhosted.org/packages/24/2e/9d0d4c53f7a060022a1879033efbaad504fc5377fba1f8e46c591a7c4aa6/error-parity-0.1.1.tar.gz
+[2023-06-06 13:10:28] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.4.tar.gz]
+[2023-06-06 13:10:28] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.5.tar.gz]
+[2023-06-06 13:10:28] INFO root fetch - processPackages [omnata-plugin-devkit]: Start processing: adi-study-watch
+[2023-06-06 13:10:28] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-06-06 13:10:28] INFO root fetch - processPackages [adi-study-watch]: New version: [5.20.0] Old Version: [5.19.0]
+[2023-06-06 13:10:28] INFO root fetch - processPackages [aqueduct-utility]: Remove: archive file [/home/abi/fetcher/tmp/aqueduct-utility-0.9.3.tar.gz]
+[2023-06-06 13:10:28] INFO root fetch - processPackages [aqueduct-utility]: Remove: archive file [/home/abi/fetcher/tmp/aqueduct-utility-0.9.4.tar.gz]
+[2023-06-06 13:10:28] INFO root fetch - processPackages [aqueduct-utility]: Start processing: FedArtML
+[2023-06-06 13:10:28] INFO root fetch - main [MainThread]: End processing [aqueduct-utility]: success
+[2023-06-06 13:10:28] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.8.tar.gz]
+[2023-06-06 13:10:28] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.9.tar.gz]
+[2023-06-06 13:10:28] INFO root fetch - processPackages [dbt-clickzetta]: Start processing: holmes-extractor
+[2023-06-06 13:10:28] INFO root fetch - main [MainThread]: End processing [dbt-clickzetta]: success
+[2023-06-06 13:10:28] INFO root fetch - processPackages [FedArtML]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 13:10:28] INFO root fetch - processPackages [holmes-extractor]: New version: [4.2.1] Old Version: [4.2.0]
+[2023-06-06 13:10:28] INFO root fetch - processPackages [error-parity]: executing diffoscope
+[2023-06-06 13:10:28] INFO root fetch - processPackages [error-parity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/error-parity-0.1.0.tar.gz tmp/error-parity-0.1.1.tar.gz --markdown 20230606/e/error-parity/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-06 13:10:28] INFO root fetch - processPackages [case-attribute-discovery]: Downloading https://files.pythonhosted.org/packages/d6/3a/ed3758740f685e9965a7c5896ae1fba0433cf1ee4c582db2d8e3a19a2fa7/case_attribute_discovery-0.1.2.tar.gz
+[2023-06-06 13:10:28] INFO root fetch - processPackages [adi-study-watch]: Downloading https://files.pythonhosted.org/packages/e0/1e/1d6614bf932672dc8deab9d69a7e8814abaeab13381504a69bf4574a3334/adi_study_watch-5.19.0.tar.gz
+[2023-06-06 13:10:28] INFO root fetch - processPackages [FedArtML]: Downloading https://files.pythonhosted.org/packages/f2/e0/c2df23cf55a2dc762d772ef2cb885e353d6a7a6311f9377fbc3601775946/FedArtML-0.1.8.tar.gz
+[2023-06-06 13:10:28] INFO root fetch - processPackages [mybar]: Remove: archive file [/home/abi/fetcher/tmp/mybar-0.6.tar.gz]
+[2023-06-06 13:10:28] INFO root fetch - processPackages [mybar]: Remove: archive file [/home/abi/fetcher/tmp/mybar-0.7.tar.gz]
+[2023-06-06 13:10:28] INFO root fetch - processPackages [mybar]: Start processing: pepperize.cdk-private-bucket
+[2023-06-06 13:10:28] INFO root fetch - main [MainThread]: End processing [mybar]: success
+[2023-06-06 13:10:28] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-06 13:10:28] INFO root fetch - processPackages [holmes-extractor]: Downloading https://files.pythonhosted.org/packages/64/b2/4fcbdc106e14db2005286431b7e23d323cf19cfdd9dbb43c6c3f7050ff4f/holmes-extractor-4.2.0.tar.gz
+[2023-06-06 13:10:28] INFO root fetch - processPackages [case-attribute-discovery]: Downloading https://files.pythonhosted.org/packages/63/95/bcaf5ee4096247d4066b5c5735bd06db998330f3a10b3a6f21c94d3ca86a/case_attribute_discovery-0.1.5.tar.gz
+[2023-06-06 13:10:28] INFO root fetch - processPackages [adi-study-watch]: Downloading https://files.pythonhosted.org/packages/e3/94/ae404d0c75d12c915f09b810681f516828210699b566ebc24d1efec85497/adi_study_watch-5.20.0.tar.gz
+[2023-06-06 13:10:28] INFO root fetch - processPackages [FedArtML]: Downloading https://files.pythonhosted.org/packages/3b/c0/e904e477eb20a05047137d0945a73ab54386b2b74bfc5ca073cbf80c33fb/FedArtML-0.1.9.tar.gz
+[2023-06-06 13:10:28] INFO root fetch - processPackages [case-attribute-discovery]: executing diffoscope
+[2023-06-06 13:10:28] INFO root fetch - processPackages [case-attribute-discovery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/case_attribute_discovery-0.1.2.tar.gz tmp/case_attribute_discovery-0.1.5.tar.gz --markdown 20230606/c/case-attribute-discovery/0.1.2-0.1.5/diff.md --exclude *.pyd
+[2023-06-06 13:10:28] INFO root fetch - processPackages [adi-study-watch]: executing diffoscope
+[2023-06-06 13:10:28] INFO root fetch - processPackages [adi-study-watch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adi_study_watch-5.19.0.tar.gz tmp/adi_study_watch-5.20.0.tar.gz --markdown 20230606/a/adi-study-watch/5.19.0-5.20.0/diff.md --exclude *.pyd
+[2023-06-06 13:10:28] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e7/b6/4073de848e06d760b3ef30686b0684410fc4bb899faf50e7ef4a0b2fac85/pepperize.cdk-private-bucket-0.0.98.tar.gz
+[2023-06-06 13:10:28] INFO root fetch - processPackages [holmes-extractor]: Downloading https://files.pythonhosted.org/packages/8d/46/ebb98468fb7516be94e08e7f7e8d21beec04fc6b0e153aa5d3e40e374c5c/holmes-extractor-4.2.1.tar.gz
+[2023-06-06 13:10:28] INFO root fetch - processPackages [holmes-extractor]: executing diffoscope
+[2023-06-06 13:10:28] INFO root fetch - processPackages [holmes-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/holmes-extractor-4.2.0.tar.gz tmp/holmes-extractor-4.2.1.tar.gz --markdown 20230606/h/holmes-extractor/4.2.0-4.2.1/diff.md --exclude *.pyd
+[2023-06-06 13:10:28] INFO root fetch - processPackages [FedArtML]: executing diffoscope
+[2023-06-06 13:10:28] INFO root fetch - processPackages [FedArtML]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FedArtML-0.1.8.tar.gz tmp/FedArtML-0.1.9.tar.gz --markdown 20230606/F/FedArtML/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 13:10:29] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e3/22/68d054109f3033e215b3e2bb124cce096ee16c91911cef45f98e5a69d1ca/pepperize.cdk-private-bucket-0.0.99.tar.gz
+[2023-06-06 13:10:29] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-06-06 13:10:29] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230606/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-06 13:10:29] INFO root fetch - processPackages [error-parity]: Remove: archive file [/home/abi/fetcher/tmp/error-parity-0.1.0.tar.gz]
+[2023-06-06 13:10:29] INFO root fetch - processPackages [error-parity]: Remove: archive file [/home/abi/fetcher/tmp/error-parity-0.1.1.tar.gz]
+[2023-06-06 13:10:29] INFO root fetch - processPackages [error-parity]: Start processing: drf-user-activity-tracker-mongodb
+[2023-06-06 13:10:29] INFO root fetch - main [MainThread]: End processing [error-parity]: success
+[2023-06-06 13:10:29] INFO root fetch - processPackages [drf-user-activity-tracker-mongodb]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-06-06 13:10:29] INFO root fetch - processPackages [python-pdfbox-v2]: Remove: archive file [/home/abi/fetcher/tmp/python-pdfbox-v2-2.0.28.2.tar.gz]
+[2023-06-06 13:10:29] INFO root fetch - processPackages [python-pdfbox-v2]: Remove: archive file [/home/abi/fetcher/tmp/python-pdfbox-v2-2.0.28.3.tar.gz]
+[2023-06-06 13:10:29] INFO root fetch - processPackages [python-pdfbox-v2]: Start processing: odoo-addon-mrp-account-analytic
+[2023-06-06 13:10:29] INFO root fetch - main [MainThread]: End processing [python-pdfbox-v2]: success
+[2023-06-06 13:10:29] INFO root fetch - processPackages [drf-user-activity-tracker-mongodb]: Downloading https://files.pythonhosted.org/packages/ca/a4/e81bf1b2f8c0f5134dd65009991775ca6bcec23fcda50584f282ed87d7dd/drf-user-activity-tracker-mongodb-1.3.5.tar.gz
+[2023-06-06 13:10:29] WARNING root fetch - processPackages [odoo-addon-mrp-account-analytic]: Skipping, unable to determine old version
+[2023-06-06 13:10:29] INFO root fetch - processPackages [odoo-addon-mrp-account-analytic]: Start processing: tdscha
+[2023-06-06 13:10:29] INFO root fetch - main [MainThread]: End processing [odoo-addon-mrp-account-analytic] error
+[2023-06-06 13:10:29] WARNING root fetch - processPackages [tdscha]: Skipping, unable to determine old version
+[2023-06-06 13:10:29] INFO root fetch - processPackages [tdscha]: Start processing: rising-plugin
+[2023-06-06 13:10:29] INFO root fetch - main [MainThread]: End processing [tdscha] error
+[2023-06-06 13:10:29] INFO root fetch - processPackages [rising-plugin]: New version: [0.222.100] Old Version: [0.1.2]
+[2023-06-06 13:10:29] INFO root fetch - processPackages [case-attribute-discovery]: Remove: archive file [/home/abi/fetcher/tmp/case_attribute_discovery-0.1.2.tar.gz]
+[2023-06-06 13:10:29] INFO root fetch - processPackages [case-attribute-discovery]: Remove: archive file [/home/abi/fetcher/tmp/case_attribute_discovery-0.1.5.tar.gz]
+[2023-06-06 13:10:29] INFO root fetch - main [MainThread]: End processing [case-attribute-discovery]: success
+[2023-06-06 13:10:30] INFO root fetch - processPackages [rising-plugin]: Downloading https://files.pythonhosted.org/packages/3b/9f/4f8732434edb2f37c83591ea78c2be035962dacbac60eda63dc440d77324/rising_plugin-0.222.100-py3-none-any.whl
+[2023-06-06 13:10:30] INFO root fetch - processPackages [rising-plugin]: executing diffoscope
+[2023-06-06 13:10:30] INFO root fetch - processPackages [rising-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rising_plugin-0.1.2.tar.gz tmp/rising_plugin-0.222.100-py3-none-any.whl.zip --markdown 20230606/r/rising-plugin/0.1.2-0.222.100/diff.md --exclude *.pyd
+[2023-06-06 13:10:30] INFO root fetch - processPackages [FedArtML]: Remove: archive file [/home/abi/fetcher/tmp/FedArtML-0.1.8.tar.gz]
+[2023-06-06 13:10:30] INFO root fetch - processPackages [FedArtML]: Remove: archive file [/home/abi/fetcher/tmp/FedArtML-0.1.9.tar.gz]
+[2023-06-06 13:10:30] INFO root fetch - main [MainThread]: End processing [FedArtML]: success
+[2023-06-06 13:10:30] INFO root fetch - processPackages [python-petpptx]: Downloading https://files.pythonhosted.org/packages/6b/d5/1252ca753660c028f80d286d691c822b4be2e6beecdabaf932559ac46342/python-petpptx-1.0.0.tar.gz
+[2023-06-06 13:10:30] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz]
+[2023-06-06 13:10:30] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz]
+[2023-06-06 13:10:30] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-06-06 13:10:30] INFO root fetch - processPackages [drf-user-activity-tracker-mongodb]: Downloading https://files.pythonhosted.org/packages/f1/33/fdf78784ee38cc35adb876a8153ede9a4145e32e8e8967cf4832f7bf487c/drf-user-activity-tracker-mongodb-1.3.6.tar.gz
+[2023-06-06 13:10:30] INFO root fetch - processPackages [drf-user-activity-tracker-mongodb]: executing diffoscope
+[2023-06-06 13:10:30] INFO root fetch - processPackages [drf-user-activity-tracker-mongodb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/drf-user-activity-tracker-mongodb-1.3.5.tar.gz tmp/drf-user-activity-tracker-mongodb-1.3.6.tar.gz --markdown 20230606/d/drf-user-activity-tracker-mongodb/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-06-06 13:10:30] INFO root fetch - processPackages [ncbi-datasets-pylib]: Remove: archive file [/home/abi/fetcher/tmp/ncbi-datasets-pylib-9.0.0.tar.gz]
+[2023-06-06 13:10:30] INFO root fetch - processPackages [ncbi-datasets-pylib]: Remove: archive file [/home/abi/fetcher/tmp/ncbi-datasets-pylib-9.1.0.tar.gz]
+[2023-06-06 13:10:30] INFO root fetch - main [MainThread]: End processing [ncbi-datasets-pylib]: success
+[2023-06-06 13:10:31] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.98.tar.gz]
+[2023-06-06 13:10:31] INFO root fetch - processPackages [akshare]: Remove: archive file [/home/abi/fetcher/tmp/akshare-1.9.99.tar.gz]
+[2023-06-06 13:10:31] INFO root fetch - main [MainThread]: End processing [akshare]: success
+[2023-06-06 13:10:31] INFO root fetch - processPackages [python-petpptx]: executing diffoscope
+[2023-06-06 13:10:31] INFO root fetch - processPackages [python-petpptx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-petpptx-0.6.21.tar.gz tmp/python-petpptx-1.0.0.tar.gz --markdown 20230606/p/python-petpptx/0.6.21-1.0.0/diff.md --exclude *.pyd
+[2023-06-06 13:10:31] INFO root fetch - processPackages [rising-plugin]: Remove: archive file [/home/abi/fetcher/tmp/rising_plugin-0.1.2.tar.gz]
+[2023-06-06 13:10:31] INFO root fetch - processPackages [rising-plugin]: Remove: archive file [/home/abi/fetcher/tmp/rising_plugin-0.222.100-py3-none-any.whl.zip]
+[2023-06-06 13:10:31] INFO root fetch - main [MainThread]: End processing [rising-plugin]: success
+[2023-06-06 13:10:32] INFO root fetch - processPackages [adi-study-watch]: Remove: archive file [/home/abi/fetcher/tmp/adi_study_watch-5.19.0.tar.gz]
+[2023-06-06 13:10:32] INFO root fetch - processPackages [adi-study-watch]: Remove: archive file [/home/abi/fetcher/tmp/adi_study_watch-5.20.0.tar.gz]
+[2023-06-06 13:10:32] INFO root fetch - main [MainThread]: End processing [adi-study-watch]: success
+[2023-06-06 13:10:32] INFO root fetch - processPackages [drf-user-activity-tracker-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/drf-user-activity-tracker-mongodb-1.3.5.tar.gz]
+[2023-06-06 13:10:32] INFO root fetch - processPackages [drf-user-activity-tracker-mongodb]: Remove: archive file [/home/abi/fetcher/tmp/drf-user-activity-tracker-mongodb-1.3.6.tar.gz]
+[2023-06-06 13:10:32] INFO root fetch - main [MainThread]: End processing [drf-user-activity-tracker-mongodb]: success
+[2023-06-06 13:10:32] INFO root fetch - processPackages [holmes-extractor]: Remove: archive file [/home/abi/fetcher/tmp/holmes-extractor-4.2.0.tar.gz]
+[2023-06-06 13:10:32] INFO root fetch - processPackages [holmes-extractor]: Remove: archive file [/home/abi/fetcher/tmp/holmes-extractor-4.2.1.tar.gz]
+[2023-06-06 13:10:32] INFO root fetch - main [MainThread]: End processing [holmes-extractor]: success
+[2023-06-06 13:10:37] INFO root fetch - processPackages [python-petpptx]: Remove: archive file [/home/abi/fetcher/tmp/python-petpptx-0.6.21.tar.gz]
+[2023-06-06 13:10:37] INFO root fetch - processPackages [python-petpptx]: Remove: archive file [/home/abi/fetcher/tmp/python-petpptx-1.0.0.tar.gz]
+[2023-06-06 13:10:37] INFO root fetch - main [MainThread]: End processing [python-petpptx]: success
+[2023-06-06 13:10:37] INFO root fetch - main [MainThread]: Store serial: [18390296]
