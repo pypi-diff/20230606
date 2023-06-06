@@ -18016,3 +18016,232 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-06 11:06:31] INFO root fetch - processPackages [pydracula]: Remove: archive file [/home/abi/fetcher/tmp/pydracula-0.2.0.post1-cp37-abi3-musllinux_1_2_x86_64.whl.zip]
 [2023-06-06 11:06:31] INFO root fetch - main [MainThread]: End processing [pydracula]: success
 [2023-06-06 11:06:31] INFO root fetch - main [MainThread]: Store serial: [18389160]
+[2023-06-06 11:11:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18389160]
+[2023-06-06 11:11:48] INFO root fetch - main [MainThread]: Found 24 changed packages
+[2023-06-06 11:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.projen-awscdk-construct
+[2023-06-06 11:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nhp-utils
+[2023-06-06 11:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyuart
+[2023-06-06 11:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pipiyiTools
+[2023-06-06 11:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: FindJobsTW
+[2023-06-06 11:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: diveplane-geminai-data-services
+[2023-06-06 11:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: godto
+[2023-06-06 11:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hcai-nova-server-nightly
+[2023-06-06 11:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jhOMR
+[2023-06-06 11:11:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eodc-faas-sen2like
+[2023-06-06 11:11:48] INFO root fetch - processPackages [pyuart]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-06-06 11:11:48] ERROR root fetch - processPackages [nhp-utils]: Unable to get metadata: No such project 'nhp-utils'
+[2023-06-06 11:11:48] INFO root fetch - processPackages [nhp-utils]: Start processing: hcai-nova-server
+[2023-06-06 11:11:48] INFO root fetch - main [MainThread]: End processing [nhp-utils] error
+[2023-06-06 11:11:48] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-06 11:11:48] WARNING root fetch - processPackages [diveplane-geminai-data-services]: Skipping, unable to determine old version
+[2023-06-06 11:11:48] INFO root fetch - processPackages [diveplane-geminai-data-services]: Start processing: pandasflow
+[2023-06-06 11:11:48] INFO root fetch - main [MainThread]: End processing [diveplane-geminai-data-services] error
+[2023-06-06 11:11:48] INFO root fetch - processPackages [pipiyiTools]: New version: [0.0.3] Old Version: [0.0.1]
+[2023-06-06 11:11:48] INFO root fetch - processPackages [eodc-faas-sen2like]: New version: [2023.5.0rc9] Old Version: [2023.5.0rc8]
+[2023-06-06 11:11:48] INFO root fetch - processPackages [godto]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-06 11:11:48] WARNING root fetch - processPackages [jhOMR]: Skipping, unable to determine old version
+[2023-06-06 11:11:48] INFO root fetch - processPackages [jhOMR]: Start processing: hcai-nova-server-nightly
+[2023-06-06 11:11:48] INFO root fetch - main [MainThread]: End processing [jhOMR] error
+[2023-06-06 11:11:48] INFO root fetch - processPackages [FindJobsTW]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-06 11:11:48] INFO root fetch - processPackages [hcai-nova-server]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 11:11:48] INFO root fetch - processPackages [pandasflow]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-06 11:11:48] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.9.dev202306051512] Old Version: [0.1.9.dev202306050655]
+[2023-06-06 11:11:48] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.9.dev202306051512] Old Version: [0.1.9.dev202306050655]
+[2023-06-06 11:11:48] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/6f/79/bae87beb530e78e07f51b8276ba5b8f6ac56ab41a37cceb885e96a64b264/eodc_faas_sen2like-2023.5.0rc8.tar.gz
+[2023-06-06 11:11:48] INFO root fetch - processPackages [pandasflow]: Downloading https://files.pythonhosted.org/packages/5d/71/d46ccebd236c0591708e09fee00f93eed5608256934a7333e0cb5a0ec5a5/pandasflow-0.6.0.tar.gz
+[2023-06-06 11:11:48] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/0e/a6/cda431e1e137fe3116dd1b99874174218a901b361d58cbbc0eb04cdfca6a/hcai-nova-server-nightly-0.1.9.dev202306050655.tar.gz
+[2023-06-06 11:11:48] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/0e/a6/cda431e1e137fe3116dd1b99874174218a901b361d58cbbc0eb04cdfca6a/hcai-nova-server-nightly-0.1.9.dev202306050655.tar.gz
+[2023-06-06 11:11:49] INFO root fetch - processPackages [FindJobsTW]: Downloading https://files.pythonhosted.org/packages/5f/78/8923b73e0e3af91f3187394026d06cb82025c0ddad15ded86adabb5e60c0/FindJobsTW-0.2.5.tar.gz
+[2023-06-06 11:11:49] INFO root fetch - processPackages [pyuart]: Downloading https://files.pythonhosted.org/packages/d9/5c/10d924dde1a604fd8caa4aaed27ee990f9e6b71666be0605789cdf613241/pyuart-0.0.5-py3-none-any.whl
+[2023-06-06 11:11:49] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/73/65/dda73a01dc2ff283b57f83a0bbc3f1c935027e6ee30e4e6bc15797d67da0/pepperize.projen-awscdk-construct-0.0.98.tar.gz
+[2023-06-06 11:11:49] INFO root fetch - processPackages [godto]: Downloading https://files.pythonhosted.org/packages/fa/a9/4d16c392c73fbf0a5f4bbea9443590fd25937439a34d92bf4681f3a2a286/godto-0.0.4.tar.gz
+[2023-06-06 11:11:49] INFO root fetch - processPackages [hcai-nova-server]: Downloading https://files.pythonhosted.org/packages/41/e7/88c9ee328c9b7058af2bccb07742ff63eb94c157f8aa8043f8e77de83d19/hcai-nova-server-0.1.8.tar.gz
+[2023-06-06 11:11:49] INFO root fetch - processPackages [pipiyiTools]: Downloading https://files.pythonhosted.org/packages/36/08/32556f278f4878073475bb82252fde23bdd93e26d8f696f4e6a61519a779/pipiyiTools-0.0.1.tar.gz
+[2023-06-06 11:11:49] INFO root fetch - processPackages [pandasflow]: Downloading https://files.pythonhosted.org/packages/92/21/f0228e9077eeb44dfae415ff3fdf195111cec9e08b418c51ae526f81c2e3/pandasflow-0.6.1.tar.gz
+[2023-06-06 11:11:49] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/c8/b6/6c4840a096d42c0bb6a21eeb711f7f34d7a41ed6a998032a17efe3e0570a/eodc_faas_sen2like-2023.5.0rc9.tar.gz
+[2023-06-06 11:11:49] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/87/a7/6a453a13323cd23d58747ac82b2a78d39a008bc35fb4950e4ba9b79d8f28/hcai-nova-server-nightly-0.1.9.dev202306051512.tar.gz
+[2023-06-06 11:11:49] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/87/a7/6a453a13323cd23d58747ac82b2a78d39a008bc35fb4950e4ba9b79d8f28/hcai-nova-server-nightly-0.1.9.dev202306051512.tar.gz
+[2023-06-06 11:11:49] INFO root fetch - processPackages [pandasflow]: executing diffoscope
+[2023-06-06 11:11:49] INFO root fetch - processPackages [pandasflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasflow-0.6.0.tar.gz tmp/pandasflow-0.6.1.tar.gz --markdown 20230606/p/pandasflow/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-06 11:11:49] INFO root fetch - processPackages [godto]: Downloading https://files.pythonhosted.org/packages/49/7f/10cfd31573fe510033eb8067a5ef43a3faaeae72b601a74ace8b0fc47edb/godto-0.0.5.tar.gz
+[2023-06-06 11:11:49] INFO root fetch - processPackages [FindJobsTW]: Downloading https://files.pythonhosted.org/packages/6a/49/17e753f07072aaf5ab59257298429f169ead54d8c0461456726a329acd2f/FindJobsTW-0.2.6.tar.gz
+[2023-06-06 11:11:49] INFO root fetch - processPackages [eodc-faas-sen2like]: executing diffoscope
+[2023-06-06 11:11:49] INFO root fetch - processPackages [eodc-faas-sen2like]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_sen2like-2023.5.0rc8.tar.gz tmp/eodc_faas_sen2like-2023.5.0rc9.tar.gz --markdown 20230606/e/eodc-faas-sen2like/2023.5.0rc8-2023.5.0rc9/diff.md --exclude *.pyd
+[2023-06-06 11:11:49] INFO root fetch - processPackages [hcai-nova-server]: Downloading https://files.pythonhosted.org/packages/f2/15/6f1137a2294b11c9cac9e2f1c5e80c38876f24591c7f0323ec9c49543613/hcai-nova-server-0.1.9.tar.gz
+[2023-06-06 11:11:49] INFO root fetch - processPackages [godto]: executing diffoscope
+[2023-06-06 11:11:49] INFO root fetch - processPackages [godto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/godto-0.0.4.tar.gz tmp/godto-0.0.5.tar.gz --markdown 20230606/g/godto/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-06 11:11:49] INFO root fetch - processPackages [FindJobsTW]: executing diffoscope
+[2023-06-06 11:11:49] INFO root fetch - processPackages [FindJobsTW]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FindJobsTW-0.2.5.tar.gz tmp/FindJobsTW-0.2.6.tar.gz --markdown 20230606/F/FindJobsTW/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-06 11:11:49] INFO root fetch - processPackages [pyuart]: Downloading https://files.pythonhosted.org/packages/ac/51/697f4b46be68e930191724f5e0eaffe87d8fa5da65d60361c44e945da976/pyuart-0.1.0-py3-none-any.whl
+[2023-06-06 11:11:49] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-06-06 11:11:49] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-06-06 11:11:49] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.9.dev202306050655.tar.gz tmp/hcai-nova-server-nightly-0.1.9.dev202306051512.tar.gz --markdown 20230606/h/hcai-nova-server-nightly/0.1.9.dev202306050655-0.1.9.dev202306051512/diff.md --exclude *.pyd
+[2023-06-06 11:11:49] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.9.dev202306050655.tar.gz tmp/hcai-nova-server-nightly-0.1.9.dev202306051512.tar.gz --markdown 20230606/h/hcai-nova-server-nightly/0.1.9.dev202306050655-0.1.9.dev202306051512/diff.md --exclude *.pyd
+[2023-06-06 11:11:49] INFO root fetch - processPackages [hcai-nova-server]: executing diffoscope
+[2023-06-06 11:11:49] INFO root fetch - processPackages [hcai-nova-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-0.1.8.tar.gz tmp/hcai-nova-server-0.1.9.tar.gz --markdown 20230606/h/hcai-nova-server/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 11:11:49] INFO root fetch - processPackages [pipiyiTools]: Downloading https://files.pythonhosted.org/packages/c1/f5/6de637e5ebbce8c95627b1d50fc111fadb0d3212ac565e579b919c9aa0d0/pipiyiTools-0.0.3.tar.gz
+[2023-06-06 11:11:49] INFO root fetch - processPackages [pyuart]: executing diffoscope
+[2023-06-06 11:11:49] INFO root fetch - processPackages [pyuart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyuart-0.0.5-py3-none-any.whl.zip tmp/pyuart-0.1.0-py3-none-any.whl.zip --markdown 20230606/p/pyuart/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-06-06 11:11:49] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/f5/d1/e1f4c78f27c0f4fcdd4024b42cd0ac56deada431e5cac3ce9363aec5c5dd/pepperize.projen-awscdk-construct-0.0.99.tar.gz
+[2023-06-06 11:11:49] INFO root fetch - processPackages [pipiyiTools]: executing diffoscope
+[2023-06-06 11:11:49] INFO root fetch - processPackages [pipiyiTools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipiyiTools-0.0.1.tar.gz tmp/pipiyiTools-0.0.3.tar.gz --markdown 20230606/p/pipiyiTools/0.0.1-0.0.3/diff.md --exclude *.pyd
+[2023-06-06 11:11:49] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-06-06 11:11:49] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230606/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-06 11:11:50] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2023.5.0rc8.tar.gz]
+[2023-06-06 11:11:50] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2023.5.0rc9.tar.gz]
+[2023-06-06 11:11:50] INFO root fetch - processPackages [eodc-faas-sen2like]: Start processing: grai-source-bigquery
+[2023-06-06 11:11:50] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
+[2023-06-06 11:11:50] INFO root fetch - processPackages [grai-source-bigquery]: New version: [0.1.0a5] Old Version: [0.1.0a4]
+[2023-06-06 11:11:50] INFO root fetch - processPackages [grai-source-bigquery]: Downloading https://files.pythonhosted.org/packages/a3/ab/3730962031ace95d3c01c3160fa8d896afe0448b2ae18ae205829f348574/grai_source_bigquery-0.1.0a4-py3-none-any.whl
+[2023-06-06 11:11:51] INFO root fetch - processPackages [FindJobsTW]: Remove: archive file [/home/abi/fetcher/tmp/FindJobsTW-0.2.5.tar.gz]
+[2023-06-06 11:11:51] INFO root fetch - processPackages [FindJobsTW]: Remove: archive file [/home/abi/fetcher/tmp/FindJobsTW-0.2.6.tar.gz]
+[2023-06-06 11:11:51] INFO root fetch - processPackages [FindJobsTW]: Start processing: yahalloLib
+[2023-06-06 11:11:51] INFO root fetch - main [MainThread]: End processing [FindJobsTW]: success
+[2023-06-06 11:11:51] WARNING root fetch - processPackages [yahalloLib]: Skipping, unable to determine old version
+[2023-06-06 11:11:51] INFO root fetch - processPackages [yahalloLib]: Start processing: trustero-api
+[2023-06-06 11:11:51] INFO root fetch - main [MainThread]: End processing [yahalloLib] error
+[2023-06-06 11:11:51] INFO root fetch - processPackages [grai-source-bigquery]: Downloading https://files.pythonhosted.org/packages/f5/9d/3e14136beadd738ef2ca90a4a2508eb1b108b78757e2bca4efc43962d5ae/grai_source_bigquery-0.1.0a5.tar.gz
+[2023-06-06 11:11:51] INFO root fetch - processPackages [pandasflow]: Remove: archive file [/home/abi/fetcher/tmp/pandasflow-0.6.0.tar.gz]
+[2023-06-06 11:11:51] INFO root fetch - processPackages [pandasflow]: Remove: archive file [/home/abi/fetcher/tmp/pandasflow-0.6.1.tar.gz]
+[2023-06-06 11:11:51] INFO root fetch - processPackages [pandasflow]: Start processing: lecore
+[2023-06-06 11:11:51] INFO root fetch - main [MainThread]: End processing [pandasflow]: success
+[2023-06-06 11:11:51] INFO root fetch - processPackages [trustero-api]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-06 11:11:51] INFO root fetch - processPackages [lecore]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-06 11:11:51] INFO root fetch - processPackages [trustero-api]: Downloading https://files.pythonhosted.org/packages/0e/fa/58feaf4001131dc05c256c0078586b8fae373b3da3b5ecdd746c110fb213/trustero_api-0.0.1.tar.gz
+[2023-06-06 11:11:51] INFO root fetch - processPackages [lecore]: Downloading https://files.pythonhosted.org/packages/b0/fa/6e8a038f290ea823bdd34e826951e6191482befbd06dacdcd5a6a6b9145d/lecore-0.1.4.tar.gz
+[2023-06-06 11:11:51] INFO root fetch - processPackages [grai-source-bigquery]: executing diffoscope
+[2023-06-06 11:11:51] INFO root fetch - processPackages [grai-source-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_bigquery-0.1.0a4-py3-none-any.whl.zip tmp/grai_source_bigquery-0.1.0a5.tar.gz --markdown 20230606/g/grai-source-bigquery/0.1.0a4-0.1.0a5/diff.md --exclude *.pyd
+[2023-06-06 11:11:51] INFO root fetch - processPackages [pyuart]: Remove: archive file [/home/abi/fetcher/tmp/pyuart-0.0.5-py3-none-any.whl.zip]
+[2023-06-06 11:11:51] INFO root fetch - processPackages [pyuart]: Remove: archive file [/home/abi/fetcher/tmp/pyuart-0.1.0-py3-none-any.whl.zip]
+[2023-06-06 11:11:51] INFO root fetch - processPackages [pyuart]: Start processing: FindJobsTW
+[2023-06-06 11:11:51] INFO root fetch - main [MainThread]: End processing [pyuart]: success
+[2023-06-06 11:11:51] INFO root fetch - processPackages [FindJobsTW]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-06-06 11:11:51] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz]
+[2023-06-06 11:11:51] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz]
+[2023-06-06 11:11:51] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Start processing: baysalt-christmas
+[2023-06-06 11:11:51] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct]: success
+[2023-06-06 11:11:51] INFO root fetch - processPackages [trustero-api]: Downloading https://files.pythonhosted.org/packages/84/aa/4b1117cf24331c1db7d1b4f44790e58c36680393ba4ff3624009aa702ea4/trustero_api-0.0.2.tar.gz
+[2023-06-06 11:11:51] INFO root fetch - processPackages [baysalt-christmas]: New version: [0.1.7.5] Old Version: [0.1.7.4]
+[2023-06-06 11:11:51] INFO root fetch - processPackages [FindJobsTW]: Downloading https://files.pythonhosted.org/packages/5f/78/8923b73e0e3af91f3187394026d06cb82025c0ddad15ded86adabb5e60c0/FindJobsTW-0.2.5.tar.gz
+[2023-06-06 11:11:51] INFO root fetch - processPackages [lecore]: Downloading https://files.pythonhosted.org/packages/eb/f4/69b3dcb9e2d2c5f9fcfca791cf6ba9523a63289bd6bc54a02545444e5175/lecore-0.1.5.tar.gz
+[2023-06-06 11:11:51] INFO root fetch - processPackages [hcai-nova-server-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-server-nightly-0.1.9.dev202306050655.tar.gz]
+[2023-06-06 11:11:51] INFO root fetch - processPackages [hcai-nova-server-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-server-nightly-0.1.9.dev202306051512.tar.gz]
+[2023-06-06 11:11:51] INFO root fetch - processPackages [hcai-nova-server-nightly]: Start processing: kinghellopkg
+[2023-06-06 11:11:51] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-06-06 11:11:51] INFO root fetch - processPackages [trustero-api]: executing diffoscope
+[2023-06-06 11:11:51] INFO root fetch - processPackages [trustero-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trustero_api-0.0.1.tar.gz tmp/trustero_api-0.0.2.tar.gz --markdown 20230606/t/trustero-api/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-06 11:11:51] WARNING root fetch - processPackages [kinghellopkg]: Skipping, unable to determine old version
+[2023-06-06 11:11:51] INFO root fetch - processPackages [kinghellopkg]: Start processing: calrissian
+[2023-06-06 11:11:51] INFO root fetch - main [MainThread]: End processing [kinghellopkg] error
+[2023-06-06 11:11:51] INFO root fetch - processPackages [hcai-nova-server]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-server-0.1.8.tar.gz]
+[2023-06-06 11:11:51] INFO root fetch - processPackages [hcai-nova-server]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-server-0.1.9.tar.gz]
+[2023-06-06 11:11:51] INFO root fetch - processPackages [hcai-nova-server]: Start processing: blond
+[2023-06-06 11:11:51] INFO root fetch - main [MainThread]: End processing [hcai-nova-server]: success
+[2023-06-06 11:11:51] INFO root fetch - processPackages [lecore]: executing diffoscope
+[2023-06-06 11:11:51] INFO root fetch - processPackages [lecore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lecore-0.1.4.tar.gz tmp/lecore-0.1.5.tar.gz --markdown 20230606/l/lecore/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-06 11:11:51] INFO root fetch - processPackages [godto]: Remove: archive file [/home/abi/fetcher/tmp/godto-0.0.4.tar.gz]
+[2023-06-06 11:11:51] INFO root fetch - processPackages [godto]: Remove: archive file [/home/abi/fetcher/tmp/godto-0.0.5.tar.gz]
+[2023-06-06 11:11:51] INFO root fetch - processPackages [godto]: Start processing: pepperize.projen-awscdk-construct
+[2023-06-06 11:11:51] INFO root fetch - main [MainThread]: End processing [godto]: success
+[2023-06-06 11:11:51] INFO root fetch - processPackages [blond]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-06-06 11:11:51] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-06 11:11:51] INFO root fetch - processPackages [FindJobsTW]: Downloading https://files.pythonhosted.org/packages/6a/49/17e753f07072aaf5ab59257298429f169ead54d8c0461456726a329acd2f/FindJobsTW-0.2.6.tar.gz
+[2023-06-06 11:11:51] INFO root fetch - processPackages [blond]: Downloading https://files.pythonhosted.org/packages/71/6f/94a4a5deca276b2def7c654f9d74593d3bb4c957c716b0346f985704dfad/blond-2.1.3.tar.gz
+[2023-06-06 11:11:51] INFO root fetch - processPackages [calrissian]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-06 11:11:51] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/73/65/dda73a01dc2ff283b57f83a0bbc3f1c935027e6ee30e4e6bc15797d67da0/pepperize.projen-awscdk-construct-0.0.98.tar.gz
+[2023-06-06 11:11:51] INFO root fetch - processPackages [FindJobsTW]: executing diffoscope
+[2023-06-06 11:11:51] INFO root fetch - processPackages [FindJobsTW]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FindJobsTW-0.2.5.tar.gz tmp/FindJobsTW-0.2.6.tar.gz --markdown 20230606/F/FindJobsTW/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-06-06 11:11:51] INFO root fetch - processPackages [baysalt-christmas]: Downloading https://files.pythonhosted.org/packages/62/7b/2d629f143568cb09d383df7026edf852f35b6f15ab2e534be22ff77d5cde/baysalt_christmas-0.1.7.4.tar.gz
+[2023-06-06 11:11:51] INFO root fetch - processPackages [pipiyiTools]: Remove: archive file [/home/abi/fetcher/tmp/pipiyiTools-0.0.1.tar.gz]
+[2023-06-06 11:11:51] INFO root fetch - processPackages [pipiyiTools]: Remove: archive file [/home/abi/fetcher/tmp/pipiyiTools-0.0.3.tar.gz]
+[2023-06-06 11:11:51] INFO root fetch - processPackages [pipiyiTools]: Start processing: th2-data-services-lwdp
+[2023-06-06 11:11:51] INFO root fetch - main [MainThread]: End processing [pipiyiTools]: success
+[2023-06-06 11:11:51] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.1.0.0.dev5186456328] Old Version: [2.1.0.0.dev5186272090]
+[2023-06-06 11:11:51] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Downloading https://files.pythonhosted.org/packages/f5/d1/e1f4c78f27c0f4fcdd4024b42cd0ac56deada431e5cac3ce9363aec5c5dd/pepperize.projen-awscdk-construct-0.0.99.tar.gz
+[2023-06-06 11:11:51] INFO root fetch - processPackages [calrissian]: Downloading https://files.pythonhosted.org/packages/67/9b/f4f98a5f87d802321cc948b1fc8f22f98dd694ab0caa0f46f2985d8661e2/calrissian-0.8.0-py3.7.egg
+[2023-06-06 11:11:51] INFO root fetch - processPackages [blond]: Downloading https://files.pythonhosted.org/packages/f7/65/52291f8c29f2d3279f51376dc7a356982a0333e7ddca60b44f54e21762cf/blond-2.1.4.tar.gz
+[2023-06-06 11:11:51] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: executing diffoscope
+[2023-06-06 11:11:51] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz --markdown 20230606/p/pepperize.projen-awscdk-construct/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-06 11:11:51] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/c3/38/4fadbdd038fab7c4ee77caf24627d72590b4223e010c19542a0651b8f24c/th2_data_services_lwdp-2.1.0.0.dev5186272090.tar.gz
+[2023-06-06 11:11:51] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-06-06 11:11:51] INFO root fetch - processPackages [baysalt-christmas]: Downloading https://files.pythonhosted.org/packages/a9/71/1ba3f177541aee0961c67504bef7d8edd85b7be185c16a4cc21090d7ea07/baysalt_christmas-0.1.7.5.tar.gz
+[2023-06-06 11:11:51] INFO root fetch - processPackages [baysalt-christmas]: executing diffoscope
+[2023-06-06 11:11:51] INFO root fetch - processPackages [baysalt-christmas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/baysalt_christmas-0.1.7.4.tar.gz tmp/baysalt_christmas-0.1.7.5.tar.gz --markdown 20230606/b/baysalt-christmas/0.1.7.4-0.1.7.5/diff.md --exclude *.pyd
+[2023-06-06 11:11:52] INFO root fetch - processPackages [blond]: executing diffoscope
+[2023-06-06 11:11:52] INFO root fetch - processPackages [blond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blond-2.1.3.tar.gz tmp/blond-2.1.4.tar.gz --markdown 20230606/b/blond/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-06-06 11:11:52] INFO root fetch - processPackages [calrissian]: Downloading https://files.pythonhosted.org/packages/63/7c/7ba855592d50f88029fc026c08fbec2411e018a8c6cb012dd5f3672a4ea9/calrissian-0.9.0-py3.7.egg
+[2023-06-06 11:11:52] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/3b/6b/60970acad0aafaa21becea60751c1ace5b39aedf127023eae422278794d3/th2_data_services_lwdp-2.1.0.0.dev5186456328.tar.gz
+[2023-06-06 11:11:52] INFO root fetch - processPackages [calrissian]: executing diffoscope
+[2023-06-06 11:11:52] INFO root fetch - processPackages [calrissian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calrissian-0.8.0-py3.7.egg tmp/calrissian-0.9.0-py3.7.egg --markdown 20230606/c/calrissian/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-06 11:11:52] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-06-06 11:11:52] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.1.0.0.dev5186272090.tar.gz tmp/th2_data_services_lwdp-2.1.0.0.dev5186456328.tar.gz --markdown 20230606/t/th2-data-services-lwdp/2.1.0.0.dev5186272090-2.1.0.0.dev5186456328/diff.md --exclude *.pyd
+[2023-06-06 11:11:52] INFO root fetch - processPackages [grai-source-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_bigquery-0.1.0a4-py3-none-any.whl.zip]
+[2023-06-06 11:11:52] INFO root fetch - processPackages [grai-source-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_bigquery-0.1.0a5.tar.gz]
+[2023-06-06 11:11:52] INFO root fetch - main [MainThread]: End processing [grai-source-bigquery]: success
+[2023-06-06 11:11:52] INFO root fetch - processPackages [trustero-api]: Remove: archive file [/home/abi/fetcher/tmp/trustero_api-0.0.1.tar.gz]
+[2023-06-06 11:11:52] INFO root fetch - processPackages [trustero-api]: Remove: archive file [/home/abi/fetcher/tmp/trustero_api-0.0.2.tar.gz]
+[2023-06-06 11:11:52] INFO root fetch - main [MainThread]: End processing [trustero-api]: success
+[2023-06-06 11:11:53] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.98.tar.gz]
+[2023-06-06 11:11:53] INFO root fetch - processPackages [pepperize.projen-awscdk-construct]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-construct-0.0.99.tar.gz]
+[2023-06-06 11:11:53] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-construct]: success
+[2023-06-06 11:11:53] INFO root fetch - processPackages [FindJobsTW]: Remove: archive file [/home/abi/fetcher/tmp/FindJobsTW-0.2.5.tar.gz]
+[2023-06-06 11:11:53] INFO root fetch - processPackages [FindJobsTW]: Remove: archive file [/home/abi/fetcher/tmp/FindJobsTW-0.2.6.tar.gz]
+[2023-06-06 11:11:53] INFO root fetch - main [MainThread]: End processing [FindJobsTW]: success
+[2023-06-06 11:11:53] INFO root fetch - processPackages [baysalt-christmas]: Remove: archive file [/home/abi/fetcher/tmp/baysalt_christmas-0.1.7.4.tar.gz]
+[2023-06-06 11:11:53] INFO root fetch - processPackages [baysalt-christmas]: Remove: archive file [/home/abi/fetcher/tmp/baysalt_christmas-0.1.7.5.tar.gz]
+[2023-06-06 11:11:53] INFO root fetch - main [MainThread]: End processing [baysalt-christmas]: success
+[2023-06-06 11:11:53] INFO root fetch - processPackages [lecore]: Remove: archive file [/home/abi/fetcher/tmp/lecore-0.1.4.tar.gz]
+[2023-06-06 11:11:53] INFO root fetch - processPackages [lecore]: Remove: archive file [/home/abi/fetcher/tmp/lecore-0.1.5.tar.gz]
+[2023-06-06 11:11:53] INFO root fetch - main [MainThread]: End processing [lecore]: success
+[2023-06-06 11:11:53] ERROR root fetch - processPackages [calrissian]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 51, in compare_details
+    describe_pyc(self.path),
+    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 65, in describe_pyc
+    return "\n".join(parse_pyc(f))
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/python.py", line 81, in parse_pyc
+    code = marshal.load(f)
+           ^^^^^^^^^^^^^^^
+EOFError: EOF read where object expected
+
+[2023-06-06 11:11:53] INFO root fetch - main [MainThread]: End processing [calrissian] error
+[2023-06-06 11:11:54] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5186272090.tar.gz]
+[2023-06-06 11:11:54] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5186456328.tar.gz]
+[2023-06-06 11:11:54] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-06-06 11:11:56] INFO root fetch - processPackages [blond]: Remove: archive file [/home/abi/fetcher/tmp/blond-2.1.3.tar.gz]
+[2023-06-06 11:11:56] INFO root fetch - processPackages [blond]: Remove: archive file [/home/abi/fetcher/tmp/blond-2.1.4.tar.gz]
+[2023-06-06 11:11:56] INFO root fetch - main [MainThread]: End processing [blond]: success
+[2023-06-06 11:11:56] INFO root fetch - main [MainThread]: Store serial: [18389239]
