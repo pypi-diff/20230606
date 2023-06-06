@@ -11537,3 +11537,87 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 05:53:36] INFO root fetch - processPackages [neon-skill-fallback-unknown]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_fallback_unknown-0.2.2a1-py3-none-any.whl.zip]
 [2023-06-06 05:53:36] INFO root fetch - main [MainThread]: End processing [neon-skill-fallback-unknown]: success
 [2023-06-06 05:53:36] INFO root fetch - main [MainThread]: Store serial: [18386355]
+[2023-06-06 05:58:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18386355]
+[2023-06-06 05:58:45] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-06 05:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: accelbyte-py-sdk
+[2023-06-06 05:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: defog
+[2023-06-06 05:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: langchain
+[2023-06-06 05:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ana-sdk
+[2023-06-06 05:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: api-secrets-mu
+[2023-06-06 05:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bertagent
+[2023-06-06 05:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pdm
+[2023-06-06 05:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pynecone
+[2023-06-06 05:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ConsolePrint
+[2023-06-06 05:58:45] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: defog
+[2023-06-06 05:58:45] INFO root fetch - processPackages [ana-sdk]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-06 05:58:45] ERROR root fetch - processPackages [api-secrets-mu]: Unable to get metadata: No such project 'api-secrets-mu'
+[2023-06-06 05:58:45] INFO root fetch - main [MainThread]: End processing [api-secrets-mu] error
+[2023-06-06 05:58:45] INFO root fetch - processPackages [ConsolePrint]: New version: [1.2.4] Old Version: [1.2.2]
+[2023-06-06 05:58:45] INFO root fetch - processPackages [pdm]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-06-06 05:58:45] INFO root fetch - processPackages [defog]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-06 05:58:45] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-06-06 05:58:45] INFO root fetch - processPackages [pynecone]: New version: [0.1.33a1] Old Version: [0.1.33a0]
+[2023-06-06 05:58:45] INFO root fetch - processPackages [defog]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-06 05:58:45] INFO root fetch - processPackages [bertagent]: New version: [0.1.1] Old Version: [0.0.8]
+[2023-06-06 05:58:45] INFO root fetch - processPackages [ana-sdk]: Downloading https://files.pythonhosted.org/packages/a7/25/f53465ae6229ac4131d1f591337441d7be3352df99e8b6e53b5b6991480d/ana_sdk-0.3.8.tar.gz
+[2023-06-06 05:58:45] INFO root fetch - processPackages [ConsolePrint]: Downloading https://files.pythonhosted.org/packages/8a/51/d55c9cfc666a90c6449210c39d5dc8947875ede10b8656f2f85df1b5a8f2/consoleprint-1.2.2.tar.gz
+[2023-06-06 05:58:45] INFO root fetch - processPackages [defog]: Downloading https://files.pythonhosted.org/packages/87/e8/5a15d483ae5d3383ccd70078fae7b28d2522217766e59237dbf84b7b20b8/defog-0.9.1.tar.gz
+[2023-06-06 05:58:45] INFO root fetch - processPackages [accelbyte-py-sdk]: New version: [0.42.0] Old Version: [0.41.0]
+[2023-06-06 05:58:45] INFO root fetch - processPackages [pynecone]: Downloading https://files.pythonhosted.org/packages/e8/33/149f4865780ec2880223dc7ee257551489c0df82c91f18317c496dca4067/pynecone-0.1.33a0.tar.gz
+[2023-06-06 05:58:45] INFO root fetch - processPackages [defog]: Downloading https://files.pythonhosted.org/packages/87/e8/5a15d483ae5d3383ccd70078fae7b28d2522217766e59237dbf84b7b20b8/defog-0.9.1.tar.gz
+[2023-06-06 05:58:45] INFO root fetch - processPackages [ConsolePrint]: Downloading https://files.pythonhosted.org/packages/c1/43/5ec315ebe30f367982422e1e1d93213c6aabe075493466b0bf1f947eabe5/consoleprint-1.2.4.tar.gz
+[2023-06-06 05:58:45] INFO root fetch - processPackages [ana-sdk]: Downloading https://files.pythonhosted.org/packages/00/1e/7882d95ed2838f0193893edb0c5dfc58f20b2b763d0d3ebceec3eca2b970/ana_sdk-0.3.9.tar.gz
+[2023-06-06 05:58:45] INFO root fetch - processPackages [defog]: Downloading https://files.pythonhosted.org/packages/a7/30/76e85c431f8a525f9d7ea55f0f7acc629a6284f97ce86075abfb2019d42c/defog-0.9.2.tar.gz
+[2023-06-06 05:58:45] INFO root fetch - processPackages [ConsolePrint]: executing diffoscope
+[2023-06-06 05:58:45] INFO root fetch - processPackages [ConsolePrint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/consoleprint-1.2.2.tar.gz tmp/consoleprint-1.2.4.tar.gz --markdown 20230606/C/ConsolePrint/1.2.2-1.2.4/diff.md --exclude *.pyd
+[2023-06-06 05:58:45] INFO root fetch - processPackages [defog]: Downloading https://files.pythonhosted.org/packages/a7/30/76e85c431f8a525f9d7ea55f0f7acc629a6284f97ce86075abfb2019d42c/defog-0.9.2.tar.gz
+[2023-06-06 05:58:45] INFO root fetch - processPackages [ana-sdk]: executing diffoscope
+[2023-06-06 05:58:45] INFO root fetch - processPackages [ana-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ana_sdk-0.3.8.tar.gz tmp/ana_sdk-0.3.9.tar.gz --markdown 20230606/a/ana-sdk/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-06 05:58:45] INFO root fetch - processPackages [defog]: executing diffoscope
+[2023-06-06 05:58:45] INFO root fetch - processPackages [defog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defog-0.9.1.tar.gz tmp/defog-0.9.2.tar.gz --markdown 20230606/d/defog/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-06 05:58:45] INFO root fetch - processPackages [pdm]: Downloading https://files.pythonhosted.org/packages/66/c2/fdbf899e84cfdf8068d022296426ce9e02d58e280e93902c6e2027aeb4a4/pdm-2.7.0.tar.gz
+[2023-06-06 05:58:45] INFO root fetch - processPackages [bertagent]: Downloading https://files.pythonhosted.org/packages/f1/a9/f53037c9926f04e7b2a8105f871d85bdc62f32526f54852473904942c50f/bertagent-0.0.8-py3-none-any.whl
+[2023-06-06 05:58:45] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-06-06 05:58:45] INFO root fetch - processPackages [defog]: executing diffoscope
+[2023-06-06 05:58:45] INFO root fetch - processPackages [defog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defog-0.9.1.tar.gz tmp/defog-0.9.2.tar.gz --markdown 20230606/d/defog/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-06 05:58:45] INFO root fetch - processPackages [accelbyte-py-sdk]: Downloading https://files.pythonhosted.org/packages/2a/e2/772d5d108cc6a3fea533b5d9f62bd7eb7e0ab7fe6b8728f4c5fd97dbfb40/accelbyte_py_sdk-0.41.0.tar.gz
+[2023-06-06 05:58:45] INFO root fetch - processPackages [pynecone]: Downloading https://files.pythonhosted.org/packages/37/0c/be7bfb6797c238eb3dd6d51a36bda187676c77c5e420a3b5da108056cc6c/pynecone-0.1.33a1.tar.gz
+[2023-06-06 05:58:45] INFO root fetch - processPackages [pynecone]: executing diffoscope
+[2023-06-06 05:58:45] INFO root fetch - processPackages [pynecone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynecone-0.1.33a0.tar.gz tmp/pynecone-0.1.33a1.tar.gz --markdown 20230606/p/pynecone/0.1.33a0-0.1.33a1/diff.md --exclude *.pyd
+[2023-06-06 05:58:45] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-06-06 05:58:45] INFO root fetch - processPackages [accelbyte-py-sdk]: Downloading https://files.pythonhosted.org/packages/f9/93/7310bfbf370124e863d23b737300b432ea99b9356015a63003a8f66279dd/accelbyte_py_sdk-0.42.0.tar.gz
+[2023-06-06 05:58:45] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-06-06 05:58:45] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230606/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-06-06 05:58:45] INFO root fetch - processPackages [pdm]: Downloading https://files.pythonhosted.org/packages/40/6b/eadb814acf1f0ad3c5444f4248b613bc6c9565b7b929c0e3e0ca2535d50e/pdm-2.7.1.tar.gz
+[2023-06-06 05:58:45] INFO root fetch - processPackages [accelbyte-py-sdk]: executing diffoscope
+[2023-06-06 05:58:45] INFO root fetch - processPackages [accelbyte-py-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/accelbyte_py_sdk-0.41.0.tar.gz tmp/accelbyte_py_sdk-0.42.0.tar.gz --markdown 20230606/a/accelbyte-py-sdk/0.41.0-0.42.0/diff.md --exclude *.pyd
+[2023-06-06 05:58:46] INFO root fetch - processPackages [pdm]: executing diffoscope
+[2023-06-06 05:58:46] INFO root fetch - processPackages [pdm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pdm-2.7.0.tar.gz tmp/pdm-2.7.1.tar.gz --markdown 20230606/p/pdm/2.7.0-2.7.1/diff.md --exclude *.pyd
+[2023-06-06 05:58:46] INFO root fetch - processPackages [bertagent]: Downloading https://files.pythonhosted.org/packages/c0/7b/f2b57d5ddbb0a0df6f53bbe240b46b168508438ef3419211c9d606e8b767/bertagent-0.1.1.tar.gz
+[2023-06-06 05:58:46] INFO root fetch - processPackages [bertagent]: executing diffoscope
+[2023-06-06 05:58:46] INFO root fetch - processPackages [bertagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bertagent-0.0.8-py3-none-any.whl.zip tmp/bertagent-0.1.1.tar.gz --markdown 20230606/b/bertagent/0.0.8-0.1.1/diff.md --exclude *.pyd
+[2023-06-06 05:58:46] INFO root fetch - processPackages [ConsolePrint]: Remove: archive file [/home/abi/fetcher/tmp/consoleprint-1.2.2.tar.gz]
+[2023-06-06 05:58:46] INFO root fetch - processPackages [ConsolePrint]: Remove: archive file [/home/abi/fetcher/tmp/consoleprint-1.2.4.tar.gz]
+[2023-06-06 05:58:46] INFO root fetch - main [MainThread]: End processing [ConsolePrint]: success
+[2023-06-06 05:58:46] INFO root fetch - processPackages [defog]: Remove: archive file [/home/abi/fetcher/tmp/defog-0.9.1.tar.gz]
+[2023-06-06 05:58:46] INFO root fetch - processPackages [defog]: Remove: archive file [/home/abi/fetcher/tmp/defog-0.9.2.tar.gz]
+[2023-06-06 05:58:46] INFO root fetch - main [MainThread]: End processing [defog]: success
+[2023-06-06 05:58:46] INFO root fetch - main [MainThread]: End processing [defog]: success
+[2023-06-06 05:58:47] INFO root fetch - processPackages [ana-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ana_sdk-0.3.8.tar.gz]
+[2023-06-06 05:58:47] INFO root fetch - processPackages [ana-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ana_sdk-0.3.9.tar.gz]
+[2023-06-06 05:58:47] INFO root fetch - main [MainThread]: End processing [ana-sdk]: success
+[2023-06-06 05:58:47] INFO root fetch - processPackages [bertagent]: Remove: archive file [/home/abi/fetcher/tmp/bertagent-0.0.8-py3-none-any.whl.zip]
+[2023-06-06 05:58:47] INFO root fetch - processPackages [bertagent]: Remove: archive file [/home/abi/fetcher/tmp/bertagent-0.1.1.tar.gz]
+[2023-06-06 05:58:47] INFO root fetch - main [MainThread]: End processing [bertagent]: success
+[2023-06-06 05:58:47] INFO root fetch - processPackages [pynecone]: Remove: archive file [/home/abi/fetcher/tmp/pynecone-0.1.33a0.tar.gz]
+[2023-06-06 05:58:47] INFO root fetch - processPackages [pynecone]: Remove: archive file [/home/abi/fetcher/tmp/pynecone-0.1.33a1.tar.gz]
+[2023-06-06 05:58:47] INFO root fetch - main [MainThread]: End processing [pynecone]: success
+[2023-06-06 05:58:48] INFO root fetch - processPackages [pdm]: Remove: archive file [/home/abi/fetcher/tmp/pdm-2.7.0.tar.gz]
+[2023-06-06 05:58:48] INFO root fetch - processPackages [pdm]: Remove: archive file [/home/abi/fetcher/tmp/pdm-2.7.1.tar.gz]
+[2023-06-06 05:58:48] INFO root fetch - main [MainThread]: End processing [pdm]: success
+[2023-06-06 05:58:50] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99.tar.gz]
+[2023-06-06 05:58:50] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
+[2023-06-06 05:58:50] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-06-06 06:01:46] ERROR root fetch - processPackages [accelbyte-py-sdk]: Timeout during execution of pkgdiff
+[2023-06-06 06:01:46] INFO root fetch - main [MainThread]: End processing [accelbyte-py-sdk] error
+[2023-06-06 06:01:46] INFO root fetch - main [MainThread]: Store serial: [18386385]
