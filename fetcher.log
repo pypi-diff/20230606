@@ -12214,3 +12214,54 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 06:38:58] INFO root fetch - processPackages [camply]: Remove: archive file [/home/abi/fetcher/tmp/camply-0.9.3.tar.gz]
 [2023-06-06 06:38:58] INFO root fetch - main [MainThread]: End processing [camply]: success
 [2023-06-06 06:38:58] INFO root fetch - main [MainThread]: Store serial: [18386650]
+[2023-06-06 06:44:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18386650]
+[2023-06-06 06:44:07] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-06 06:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mkdocs-bibtex
+[2023-06-06 06:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bdating-common
+[2023-06-06 06:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gesture-control-api
+[2023-06-06 06:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-mptt-admin
+[2023-06-06 06:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-purchase-last-price-info
+[2023-06-06 06:44:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-purchase-order-type-dashboard
+[2023-06-06 06:44:08] INFO root fetch - processPackages [mkdocs-bibtex]: New version: [2.9.0] Old Version: [2.8.9]
+[2023-06-06 06:44:08] INFO root fetch - processPackages [odoo-addon-purchase-last-price-info]: New version: [16.0.1.0.0.4] Old Version: [16.0.1.0.0.3]
+[2023-06-06 06:44:08] WARNING root fetch - processPackages [gesture-control-api]: Skipping, unable to determine old version
+[2023-06-06 06:44:08] INFO root fetch - main [MainThread]: End processing [gesture-control-api] error
+[2023-06-06 06:44:08] INFO root fetch - processPackages [bdating-common]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-06 06:44:08] INFO root fetch - processPackages [django-mptt-admin]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-06-06 06:44:08] INFO root fetch - processPackages [odoo-addon-purchase-last-price-info]: Downloading https://files.pythonhosted.org/packages/f3/05/e86cb4889480b41deeac13449e938f2e4d6f1c9dc850c4d43a00607faeab/odoo_addon_purchase_last_price_info-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-06 06:44:08] INFO root fetch - processPackages [odoo-addon-purchase-order-type-dashboard]: New version: [15.0.1.0.0.3] Old Version: [15.0.1.0.0.2]
+[2023-06-06 06:44:08] INFO root fetch - processPackages [mkdocs-bibtex]: Downloading https://files.pythonhosted.org/packages/89/38/add60c2ab123f43e47511fab2b1c62ff400bc057f4022e8ee09b1d2b04d3/mkdocs-bibtex-2.8.9.tar.gz
+[2023-06-06 06:44:08] INFO root fetch - processPackages [bdating-common]: Downloading https://files.pythonhosted.org/packages/b6/e8/182164ed551405a938d125b986db596ae2ec4c2e63f64a36150e891ba74b/bdating-common-0.9.8.tar.gz
+[2023-06-06 06:44:08] INFO root fetch - processPackages [django-mptt-admin]: Downloading https://files.pythonhosted.org/packages/ca/9b/038b87bcd3a35c5d4007bb642200600ca1c2ef89939032619841eaa58a2a/django-mptt-admin-2.5.0.tar.gz
+[2023-06-06 06:44:08] INFO root fetch - processPackages [odoo-addon-purchase-last-price-info]: Downloading https://files.pythonhosted.org/packages/ad/80/3c60bcd2ddde88559077f809353f59b3c99ac6b764c67321eb4f32a25220/odoo_addon_purchase_last_price_info-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-06 06:44:08] INFO root fetch - processPackages [odoo-addon-purchase-order-type-dashboard]: Downloading https://files.pythonhosted.org/packages/31/bb/1d55e816866d9e95157181c7efc3c37b560395756ed3415712d4531790f2/odoo_addon_purchase_order_type_dashboard-15.0.1.0.0.2-py3-none-any.whl
+[2023-06-06 06:44:08] INFO root fetch - processPackages [odoo-addon-purchase-last-price-info]: executing diffoscope
+[2023-06-06 06:44:08] INFO root fetch - processPackages [odoo-addon-purchase-last-price-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_last_price_info-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_purchase_last_price_info-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-purchase-last-price-info/16.0.1.0.0.3-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-06 06:44:08] INFO root fetch - processPackages [mkdocs-bibtex]: Downloading https://files.pythonhosted.org/packages/45/ce/ced07dc0831f7673c1b875eab10064ac756bd5f216b9ef03690dd0fa2466/mkdocs-bibtex-2.9.0.tar.gz
+[2023-06-06 06:44:08] INFO root fetch - processPackages [django-mptt-admin]: Downloading https://files.pythonhosted.org/packages/e2/65/7725b976e1025b52ac03ca944d13a9dab52bf7481e618e9a13e52fea9cff/django-mptt-admin-2.5.1.tar.gz
+[2023-06-06 06:44:08] INFO root fetch - processPackages [mkdocs-bibtex]: executing diffoscope
+[2023-06-06 06:44:08] INFO root fetch - processPackages [mkdocs-bibtex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-bibtex-2.8.9.tar.gz tmp/mkdocs-bibtex-2.9.0.tar.gz --markdown 20230606/m/mkdocs-bibtex/2.8.9-2.9.0/diff.md --exclude *.pyd
+[2023-06-06 06:44:08] INFO root fetch - processPackages [odoo-addon-purchase-order-type-dashboard]: Downloading https://files.pythonhosted.org/packages/13/35/638b0a50b340af3fceacab24976b3fad40ac613b441cccf0d193155e287b/odoo_addon_purchase_order_type_dashboard-15.0.1.0.0.3-py3-none-any.whl
+[2023-06-06 06:44:08] INFO root fetch - processPackages [bdating-common]: Downloading https://files.pythonhosted.org/packages/5e/03/279ccb140de56fd96b4d934616aca37e5a50bff8f0684be248f712f24d5a/bdating-common-0.9.9.tar.gz
+[2023-06-06 06:44:08] INFO root fetch - processPackages [bdating-common]: executing diffoscope
+[2023-06-06 06:44:08] INFO root fetch - processPackages [bdating-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdating-common-0.9.8.tar.gz tmp/bdating-common-0.9.9.tar.gz --markdown 20230606/b/bdating-common/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-06 06:44:08] INFO root fetch - processPackages [django-mptt-admin]: executing diffoscope
+[2023-06-06 06:44:08] INFO root fetch - processPackages [django-mptt-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-mptt-admin-2.5.0.tar.gz tmp/django-mptt-admin-2.5.1.tar.gz --markdown 20230606/d/django-mptt-admin/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2023-06-06 06:44:08] INFO root fetch - processPackages [odoo-addon-purchase-order-type-dashboard]: executing diffoscope
+[2023-06-06 06:44:08] INFO root fetch - processPackages [odoo-addon-purchase-order-type-dashboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_purchase_order_type_dashboard-15.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_purchase_order_type_dashboard-15.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-purchase-order-type-dashboard/15.0.1.0.0.2-15.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-06 06:44:09] INFO root fetch - processPackages [odoo-addon-purchase-last-price-info]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_last_price_info-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-06 06:44:09] INFO root fetch - processPackages [odoo-addon-purchase-last-price-info]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_last_price_info-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-06 06:44:09] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-last-price-info]: success
+[2023-06-06 06:44:09] INFO root fetch - processPackages [mkdocs-bibtex]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-bibtex-2.8.9.tar.gz]
+[2023-06-06 06:44:09] INFO root fetch - processPackages [mkdocs-bibtex]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-bibtex-2.9.0.tar.gz]
+[2023-06-06 06:44:09] INFO root fetch - main [MainThread]: End processing [mkdocs-bibtex]: success
+[2023-06-06 06:44:10] INFO root fetch - processPackages [odoo-addon-purchase-order-type-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_order_type_dashboard-15.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-06 06:44:10] INFO root fetch - processPackages [odoo-addon-purchase-order-type-dashboard]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_purchase_order_type_dashboard-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-06 06:44:10] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-order-type-dashboard]: success
+[2023-06-06 06:44:10] INFO root fetch - processPackages [bdating-common]: Remove: archive file [/home/abi/fetcher/tmp/bdating-common-0.9.8.tar.gz]
+[2023-06-06 06:44:10] INFO root fetch - processPackages [bdating-common]: Remove: archive file [/home/abi/fetcher/tmp/bdating-common-0.9.9.tar.gz]
+[2023-06-06 06:44:10] INFO root fetch - main [MainThread]: End processing [bdating-common]: success
+[2023-06-06 06:44:12] INFO root fetch - processPackages [django-mptt-admin]: Remove: archive file [/home/abi/fetcher/tmp/django-mptt-admin-2.5.0.tar.gz]
+[2023-06-06 06:44:12] INFO root fetch - processPackages [django-mptt-admin]: Remove: archive file [/home/abi/fetcher/tmp/django-mptt-admin-2.5.1.tar.gz]
+[2023-06-06 06:44:12] INFO root fetch - main [MainThread]: End processing [django-mptt-admin]: success
+[2023-06-06 06:44:12] INFO root fetch - main [MainThread]: Store serial: [18386671]
