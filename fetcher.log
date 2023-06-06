@@ -13107,3 +13107,88 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 07:40:12] INFO root fetch - processPackages [bigraph-schema]: Remove: archive file [/home/abi/fetcher/tmp/bigraph-schema-0.0.9.tar.gz]
 [2023-06-06 07:40:12] INFO root fetch - main [MainThread]: End processing [bigraph-schema]: success
 [2023-06-06 07:40:12] INFO root fetch - main [MainThread]: Store serial: [18386998]
+[2023-06-06 07:45:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18386998]
+[2023-06-06 07:45:21] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-06 07:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ml-plugins
+[2023-06-06 07:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: malihtorovich-serializer
+[2023-06-06 07:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: diffusivity
+[2023-06-06 07:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: test-lib-39485735
+[2023-06-06 07:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: LANDMarkClassifier
+[2023-06-06 07:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: metacountregressor
+[2023-06-06 07:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdnmon
+[2023-06-06 07:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sonicparanoid
+[2023-06-06 07:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: GraphCASE
+[2023-06-06 07:45:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Bigsansar
+[2023-06-06 07:45:21] INFO root fetch - processPackages [LANDMarkClassifier]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-06-06 07:45:21] INFO root fetch - processPackages [test-lib-39485735]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-06 07:45:21] WARNING root fetch - processPackages [malihtorovich-serializer]: Skipping, unable to determine old version
+[2023-06-06 07:45:21] INFO root fetch - processPackages [malihtorovich-serializer]: Start processing: odoo14-addon-shopfloor
+[2023-06-06 07:45:21] WARNING root fetch - processPackages [diffusivity]: Skipping, unable to determine old version
+[2023-06-06 07:45:21] INFO root fetch - main [MainThread]: End processing [malihtorovich-serializer] error
+[2023-06-06 07:45:21] INFO root fetch - processPackages [diffusivity]: Start processing: antchain-ak-b2fa5792ded1452da5b0670a022d18a0
+[2023-06-06 07:45:21] INFO root fetch - processPackages [ml-plugins]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 07:45:21] INFO root fetch - main [MainThread]: End processing [diffusivity] error
+[2023-06-06 07:45:21] INFO root fetch - processPackages [metacountregressor]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-06 07:45:21] INFO root fetch - processPackages [GraphCASE]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-06 07:45:21] INFO root fetch - processPackages [cdnmon]: New version: [0.2.0] Old Version: [0.0.1]
+[2023-06-06 07:45:21] INFO root fetch - processPackages [sonicparanoid]: New version: [2.0.3] Old Version: [2.0.2]
+[2023-06-06 07:45:21] INFO root fetch - processPackages [Bigsansar]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-06-06 07:45:21] INFO root fetch - processPackages [odoo14-addon-shopfloor]: New version: [14.0.2.9.3.dev1] Old Version: [14.0.2.9.2]
+[2023-06-06 07:45:21] WARNING root fetch - processPackages [antchain-ak-b2fa5792ded1452da5b0670a022d18a0]: Skipping, unable to determine old version
+[2023-06-06 07:45:21] INFO root fetch - main [MainThread]: End processing [antchain-ak-b2fa5792ded1452da5b0670a022d18a0] error
+[2023-06-06 07:45:21] INFO root fetch - processPackages [GraphCASE]: Downloading https://files.pythonhosted.org/packages/23/03/178dc87fbec788a4700be91be390bbf1eb4218f811068f5fc334ba7cd39a/GraphCASE-0.0.6.tar.gz
+[2023-06-06 07:45:21] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Downloading https://files.pythonhosted.org/packages/36/9e/f385eb12e904ee5747453d03077fc0eb59112ba7f9218ed56bd0942118aa/odoo14_addon_shopfloor-14.0.2.9.2-py3-none-any.whl
+[2023-06-06 07:45:21] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/38/88/4bb605d8a24642fe329e041c0d2db29caf44d5c6d3a3fab64c4612954fcf/Bigsansar-1.6.8.tar.gz
+[2023-06-06 07:45:21] INFO root fetch - processPackages [test-lib-39485735]: Downloading https://files.pythonhosted.org/packages/25/b5/63e945c318aad7fee5d1c7300512c752cb01e08dc552912c8e863acbd963/test_lib_39485735-0.3.0.tar.gz
+[2023-06-06 07:45:21] INFO root fetch - processPackages [LANDMarkClassifier]: Downloading https://files.pythonhosted.org/packages/2f/61/7fed65851d47eb8d03e87962a469ccea81981b7652875ced0559eb027458/landmarkclassifier-2.0.6.tar.gz
+[2023-06-06 07:45:21] INFO root fetch - processPackages [metacountregressor]: Downloading https://files.pythonhosted.org/packages/56/fa/d602dd3b9325cda37388101ed307a1c66ea6f92fcaa9c619b0cf20281ff8/metacountregressor-0.1.1-py3-none-any.whl
+[2023-06-06 07:45:21] INFO root fetch - processPackages [ml-plugins]: Downloading https://files.pythonhosted.org/packages/8d/5c/d1b7c6f5a1a6cd777dac70d07efd117a8849579da78c5ed441b61f9f993f/ml_plugins-0.0.8.tar.gz
+[2023-06-06 07:45:21] INFO root fetch - processPackages [sonicparanoid]: Downloading https://files.pythonhosted.org/packages/0a/0b/d29f7d1f054070b423f24f87146b230fc10377e46846254479b05faa43a8/sonicparanoid-2.0.2.tar.gz
+[2023-06-06 07:45:21] INFO root fetch - processPackages [cdnmon]: Downloading https://files.pythonhosted.org/packages/31/bc/34fe4cb7a26444620cc059156c755ff4ca8ba58d5bcbcea63fb31c97e56d/cdnmon-0.0.1-py3-none-any.whl
+[2023-06-06 07:45:21] INFO root fetch - processPackages [Bigsansar]: Downloading https://files.pythonhosted.org/packages/d1/74/905c0847e58afaf6a4de7856cc7e69b8863f1d5745e7d7e691ed2098255c/Bigsansar-1.6.9.tar.gz
+[2023-06-06 07:45:21] WARNING root fetch - processPackages [metacountregressor]: Skipping package: exceeds size limit 13868985>=10485760
+[2023-06-06 07:45:21] INFO root fetch - main [MainThread]: End processing [metacountregressor] error
+[2023-06-06 07:45:21] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Downloading https://files.pythonhosted.org/packages/40/e8/4b7f6115bba0ea96ebfecb1bb6d71600dd4ce22684bab44f67536bec77c9/odoo14_addon_shopfloor-14.0.2.9.3.dev1-py3-none-any.whl
+[2023-06-06 07:45:21] INFO root fetch - processPackages [Bigsansar]: executing diffoscope
+[2023-06-06 07:45:21] INFO root fetch - processPackages [Bigsansar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Bigsansar-1.6.8.tar.gz tmp/Bigsansar-1.6.9.tar.gz --markdown 20230606/B/Bigsansar/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-06-06 07:45:22] INFO root fetch - processPackages [GraphCASE]: Downloading https://files.pythonhosted.org/packages/7a/15/ca32a80b4759c931810bfa3683f100989aadcf7edf27a6b89c7a6ba9a218/GraphCASE-0.0.7.tar.gz
+[2023-06-06 07:45:22] INFO root fetch - processPackages [test-lib-39485735]: Downloading https://files.pythonhosted.org/packages/68/b2/927dc5b144c22e3e9ebc7509ac59cdeb92c095ac665f914a4bb647a647eb/test_lib_39485735-0.3.1.tar.gz
+[2023-06-06 07:45:22] INFO root fetch - processPackages [test-lib-39485735]: executing diffoscope
+[2023-06-06 07:45:22] INFO root fetch - processPackages [test-lib-39485735]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_lib_39485735-0.3.0.tar.gz tmp/test_lib_39485735-0.3.1.tar.gz --markdown 20230606/t/test-lib-39485735/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-06 07:45:22] INFO root fetch - processPackages [LANDMarkClassifier]: Downloading https://files.pythonhosted.org/packages/e7/e9/f8707d8c96c333d868531eebd7032c7ba01da004c1bc3e3cbdfc0534de8d/landmarkclassifier-2.0.7.tar.gz
+[2023-06-06 07:45:22] INFO root fetch - processPackages [GraphCASE]: executing diffoscope
+[2023-06-06 07:45:22] INFO root fetch - processPackages [GraphCASE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GraphCASE-0.0.6.tar.gz tmp/GraphCASE-0.0.7.tar.gz --markdown 20230606/G/GraphCASE/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-06 07:45:22] INFO root fetch - processPackages [LANDMarkClassifier]: executing diffoscope
+[2023-06-06 07:45:22] INFO root fetch - processPackages [LANDMarkClassifier]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landmarkclassifier-2.0.6.tar.gz tmp/landmarkclassifier-2.0.7.tar.gz --markdown 20230606/L/LANDMarkClassifier/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-06-06 07:45:22] INFO root fetch - processPackages [ml-plugins]: Downloading https://files.pythonhosted.org/packages/e7/7d/b6e0fbc63a7fba7e7f13092dbd6e0e235405c3a610a161dab84beb57f63e/ml_plugins-0.0.9.tar.gz
+[2023-06-06 07:45:22] WARNING root fetch - processPackages [sonicparanoid]: Skipping package: exceeds size limit 89282928>=10485760
+[2023-06-06 07:45:22] INFO root fetch - main [MainThread]: End processing [sonicparanoid] error
+[2023-06-06 07:45:22] INFO root fetch - processPackages [ml-plugins]: executing diffoscope
+[2023-06-06 07:45:22] INFO root fetch - processPackages [ml-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml_plugins-0.0.8.tar.gz tmp/ml_plugins-0.0.9.tar.gz --markdown 20230606/m/ml-plugins/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 07:45:22] INFO root fetch - processPackages [cdnmon]: Downloading https://files.pythonhosted.org/packages/56/68/8b39d8956e4ba3f097a0fdad4a58f8f0847149740ff40f7025991c0fc5a6/cdnmon-0.2.0.tar.gz
+[2023-06-06 07:45:22] INFO root fetch - processPackages [odoo14-addon-shopfloor]: executing diffoscope
+[2023-06-06 07:45:22] INFO root fetch - processPackages [odoo14-addon-shopfloor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_shopfloor-14.0.2.9.2-py3-none-any.whl.zip tmp/odoo14_addon_shopfloor-14.0.2.9.3.dev1-py3-none-any.whl.zip --markdown 20230606/o/odoo14-addon-shopfloor/14.0.2.9.2-14.0.2.9.3.dev1/diff.md --exclude *.pyd
+[2023-06-06 07:45:22] INFO root fetch - processPackages [cdnmon]: executing diffoscope
+[2023-06-06 07:45:22] INFO root fetch - processPackages [cdnmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdnmon-0.0.1-py3-none-any.whl.zip tmp/cdnmon-0.2.0.tar.gz --markdown 20230606/c/cdnmon/0.0.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-06 07:45:23] INFO root fetch - processPackages [test-lib-39485735]: Remove: archive file [/home/abi/fetcher/tmp/test_lib_39485735-0.3.0.tar.gz]
+[2023-06-06 07:45:23] INFO root fetch - processPackages [test-lib-39485735]: Remove: archive file [/home/abi/fetcher/tmp/test_lib_39485735-0.3.1.tar.gz]
+[2023-06-06 07:45:23] INFO root fetch - main [MainThread]: End processing [test-lib-39485735]: success
+[2023-06-06 07:45:23] INFO root fetch - processPackages [LANDMarkClassifier]: Remove: archive file [/home/abi/fetcher/tmp/landmarkclassifier-2.0.6.tar.gz]
+[2023-06-06 07:45:23] INFO root fetch - processPackages [LANDMarkClassifier]: Remove: archive file [/home/abi/fetcher/tmp/landmarkclassifier-2.0.7.tar.gz]
+[2023-06-06 07:45:23] INFO root fetch - main [MainThread]: End processing [LANDMarkClassifier]: success
+[2023-06-06 07:45:23] INFO root fetch - processPackages [cdnmon]: Remove: archive file [/home/abi/fetcher/tmp/cdnmon-0.0.1-py3-none-any.whl.zip]
+[2023-06-06 07:45:23] INFO root fetch - processPackages [cdnmon]: Remove: archive file [/home/abi/fetcher/tmp/cdnmon-0.2.0.tar.gz]
+[2023-06-06 07:45:23] INFO root fetch - main [MainThread]: End processing [cdnmon]: success
+[2023-06-06 07:45:23] INFO root fetch - processPackages [ml-plugins]: Remove: archive file [/home/abi/fetcher/tmp/ml_plugins-0.0.8.tar.gz]
+[2023-06-06 07:45:23] INFO root fetch - processPackages [ml-plugins]: Remove: archive file [/home/abi/fetcher/tmp/ml_plugins-0.0.9.tar.gz]
+[2023-06-06 07:45:23] INFO root fetch - main [MainThread]: End processing [ml-plugins]: success
+[2023-06-06 07:45:23] INFO root fetch - processPackages [GraphCASE]: Remove: archive file [/home/abi/fetcher/tmp/GraphCASE-0.0.6.tar.gz]
+[2023-06-06 07:45:23] INFO root fetch - processPackages [GraphCASE]: Remove: archive file [/home/abi/fetcher/tmp/GraphCASE-0.0.7.tar.gz]
+[2023-06-06 07:45:23] INFO root fetch - main [MainThread]: End processing [GraphCASE]: success
+[2023-06-06 07:45:24] INFO root fetch - processPackages [Bigsansar]: Remove: archive file [/home/abi/fetcher/tmp/Bigsansar-1.6.8.tar.gz]
+[2023-06-06 07:45:24] INFO root fetch - processPackages [Bigsansar]: Remove: archive file [/home/abi/fetcher/tmp/Bigsansar-1.6.9.tar.gz]
+[2023-06-06 07:45:24] INFO root fetch - main [MainThread]: End processing [Bigsansar]: success
+[2023-06-06 07:45:24] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor-14.0.2.9.2-py3-none-any.whl.zip]
+[2023-06-06 07:45:24] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor-14.0.2.9.3.dev1-py3-none-any.whl.zip]
+[2023-06-06 07:45:24] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor]: success
+[2023-06-06 07:45:24] INFO root fetch - main [MainThread]: Store serial: [18387039]
