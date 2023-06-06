@@ -19265,3 +19265,83 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-06 11:51:08] INFO root fetch - processPackages [bitmovin-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/bitmovin-api-sdk-1.99.0.tar.gz]
 [2023-06-06 11:51:08] INFO root fetch - main [MainThread]: End processing [bitmovin-api-sdk]: success
 [2023-06-06 11:51:08] INFO root fetch - main [MainThread]: Store serial: [18389652]
+[2023-06-06 11:56:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18389652]
+[2023-06-06 11:56:17] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-06 11:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: league-shop-base
+[2023-06-06 11:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-petpptx
+[2023-06-06 11:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jalali-calendar-cli
+[2023-06-06 11:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: xj-user
+[2023-06-06 11:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PySide6-Essentials
+[2023-06-06 11:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: leanit-mweb
+[2023-06-06 11:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: hsfs
+[2023-06-06 11:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lazysdk
+[2023-06-06 11:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spotPython
+[2023-06-06 11:56:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pymatreader
+[2023-06-06 11:56:17] INFO root fetch - processPackages [PySide6-Essentials]: New version: [6.5.1.1] Old Version: [6.5.1]
+[2023-06-06 11:56:17] INFO root fetch - processPackages [jalali-calendar-cli]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-06 11:56:17] WARNING root fetch - processPackages [python-petpptx]: Skipping, unable to determine old version
+[2023-06-06 11:56:17] INFO root fetch - processPackages [league-shop-base]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-06 11:56:17] INFO root fetch - main [MainThread]: End processing [python-petpptx] error
+[2023-06-06 11:56:18] INFO root fetch - processPackages [leanit-mweb]: New version: [23.6.1] Old Version: [23.5.9]
+[2023-06-06 11:56:18] INFO root fetch - processPackages [spotPython]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-06 11:56:18] INFO root fetch - processPackages [hsfs]: New version: [3.2.0rc4] Old Version: [3.2.0rc3]
+[2023-06-06 11:56:18] INFO root fetch - processPackages [lazysdk]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-06 11:56:18] INFO root fetch - processPackages [pymatreader]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 11:56:18] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-06-06 11:56:18] INFO root fetch - processPackages [jalali-calendar-cli]: Downloading https://files.pythonhosted.org/packages/78/c2/b3305d868863a2f2f76c746df5d3c5c442e2453bc214fb71ef89535778a4/jalali_calendar_cli-0.1.4.tar.gz
+[2023-06-06 11:56:18] INFO root fetch - processPackages [hsfs]: Downloading https://files.pythonhosted.org/packages/ca/1e/cfe82140d5d23756acfed673498be6e0754135f2223dd5a828ab953a7386/hsfs-3.2.0rc3.tar.gz
+[2023-06-06 11:56:18] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/e0/e8/66abc5ef55725dff58c177d37db719ddbb6e37303ad19de0c22e9499aada/spotPython-0.2.7.tar.gz
+[2023-06-06 11:56:18] INFO root fetch - processPackages [league-shop-base]: Downloading https://files.pythonhosted.org/packages/9a/36/856f05ff8f20b041ffd8a46c1c83f9f8b227d1764d27b5882c86fee7084a/league-shop-base-1.0.8.tar.gz
+[2023-06-06 11:56:18] INFO root fetch - processPackages [PySide6-Essentials]: Downloading https://files.pythonhosted.org/packages/1a/f8/01d2d96757d06c35899dc13e4d68d267d331294b791a4e5fd11eb9acba61/PySide6_Essentials-6.5.1-pp39-pypy39_pp73-win_amd64.whl
+[2023-06-06 11:56:18] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-06-06 11:56:18] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/47/7c/0ed7f2c8cda4e0d71dc1c3f67b032cc9bb937d88e26eca6217574b67a3b9/lazysdk-0.1.1.tar.gz
+[2023-06-06 11:56:18] INFO root fetch - processPackages [pymatreader]: Downloading https://files.pythonhosted.org/packages/9a/7f/b9c8201c20a8ce40c7efca5479922385a4d6cb5f50ae46af8d50f482a165/pymatreader-0.0.8.tar.gz
+[2023-06-06 11:56:18] INFO root fetch - processPackages [leanit-mweb]: Downloading https://files.pythonhosted.org/packages/cb/c6/a5bb1c5a00d9a73e92ee6e0ebf72f93285b9d9a4b6d97cc1b73021b230a0/leanit-mweb-23.5.9.tar.gz
+[2023-06-06 11:56:18] INFO root fetch - processPackages [jalali-calendar-cli]: Downloading https://files.pythonhosted.org/packages/2e/1f/483be8abf8dee6be569f9e8c413617deeb32529020649700a24ac39f4f86/jalali_calendar_cli-0.1.5.tar.gz
+[2023-06-06 11:56:18] WARNING root fetch - processPackages [PySide6-Essentials]: Skipping package: exceeds size limit 72682250>=10485760
+[2023-06-06 11:56:18] INFO root fetch - main [MainThread]: End processing [PySide6-Essentials] error
+[2023-06-06 11:56:18] INFO root fetch - processPackages [league-shop-base]: Downloading https://files.pythonhosted.org/packages/e2/26/1a7ca28a471c3705930fb862d3f11522557e5f6c0d324560bcea93b51906/league-shop-base-1.0.9.tar.gz
+[2023-06-06 11:56:18] INFO root fetch - processPackages [league-shop-base]: executing diffoscope
+[2023-06-06 11:56:18] INFO root fetch - processPackages [league-shop-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/league-shop-base-1.0.8.tar.gz tmp/league-shop-base-1.0.9.tar.gz --markdown 20230606/l/league-shop-base/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-06 11:56:18] INFO root fetch - processPackages [jalali-calendar-cli]: executing diffoscope
+[2023-06-06 11:56:18] INFO root fetch - processPackages [jalali-calendar-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jalali_calendar_cli-0.1.4.tar.gz tmp/jalali_calendar_cli-0.1.5.tar.gz --markdown 20230606/j/jalali-calendar-cli/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-06 11:56:18] INFO root fetch - processPackages [leanit-mweb]: Downloading https://files.pythonhosted.org/packages/25/fb/a2b76e9fb46219e79571c79ee232bd40a5789337b9f9cb342a5ec534a96d/leanit-mweb-23.6.1.tar.gz
+[2023-06-06 11:56:18] INFO root fetch - processPackages [hsfs]: Downloading https://files.pythonhosted.org/packages/13/d1/fcd75efcaa011917a4ddf8779dd947f1da406cbda2c7c535a389ccb0b393/hsfs-3.2.0rc4.tar.gz
+[2023-06-06 11:56:18] INFO root fetch - processPackages [pymatreader]: Downloading https://files.pythonhosted.org/packages/da/bf/3033b235fe298cba1c7e0cc82e1ff33c52bf5cb33b60c0a66ff38cc5d2fa/pymatreader-0.0.9.tar.gz
+[2023-06-06 11:56:18] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-06-06 11:56:18] INFO root fetch - processPackages [leanit-mweb]: executing diffoscope
+[2023-06-06 11:56:18] INFO root fetch - processPackages [leanit-mweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leanit-mweb-23.5.9.tar.gz tmp/leanit-mweb-23.6.1.tar.gz --markdown 20230606/l/leanit-mweb/23.5.9-23.6.1/diff.md --exclude *.pyd
+[2023-06-06 11:56:18] INFO root fetch - processPackages [hsfs]: executing diffoscope
+[2023-06-06 11:56:18] INFO root fetch - processPackages [hsfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsfs-3.2.0rc3.tar.gz tmp/hsfs-3.2.0rc4.tar.gz --markdown 20230606/h/hsfs/3.2.0rc3-3.2.0rc4/diff.md --exclude *.pyd
+[2023-06-06 11:56:18] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-06-06 11:56:18] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230606/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-06-06 11:56:18] WARNING root fetch - processPackages [pymatreader]: Skipping package: exceeds size limit 32613398>=10485760
+[2023-06-06 11:56:18] INFO root fetch - main [MainThread]: End processing [pymatreader] error
+[2023-06-06 11:56:18] INFO root fetch - processPackages [lazysdk]: Downloading https://files.pythonhosted.org/packages/86/93/31d5cf547b25dbe42094c890a6464045b5f4ca0ca0e7f1e6577640e3a626/lazysdk-0.1.2.tar.gz
+[2023-06-06 11:56:19] INFO root fetch - processPackages [lazysdk]: executing diffoscope
+[2023-06-06 11:56:19] INFO root fetch - processPackages [lazysdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazysdk-0.1.1.tar.gz tmp/lazysdk-0.1.2.tar.gz --markdown 20230606/l/lazysdk/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-06 11:56:19] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/69/84/9402cf387c9dac34b67ddeb1b709382852df04dd7b304e52275a288c4f8c/spotPython-0.2.9.tar.gz
+[2023-06-06 11:56:19] INFO root fetch - processPackages [league-shop-base]: Remove: archive file [/home/abi/fetcher/tmp/league-shop-base-1.0.8.tar.gz]
+[2023-06-06 11:56:19] INFO root fetch - processPackages [league-shop-base]: Remove: archive file [/home/abi/fetcher/tmp/league-shop-base-1.0.9.tar.gz]
+[2023-06-06 11:56:19] INFO root fetch - main [MainThread]: End processing [league-shop-base]: success
+[2023-06-06 11:56:19] INFO root fetch - processPackages [jalali-calendar-cli]: Remove: archive file [/home/abi/fetcher/tmp/jalali_calendar_cli-0.1.4.tar.gz]
+[2023-06-06 11:56:19] INFO root fetch - processPackages [jalali-calendar-cli]: Remove: archive file [/home/abi/fetcher/tmp/jalali_calendar_cli-0.1.5.tar.gz]
+[2023-06-06 11:56:19] INFO root fetch - main [MainThread]: End processing [jalali-calendar-cli]: success
+[2023-06-06 11:56:19] INFO root fetch - processPackages [leanit-mweb]: Remove: archive file [/home/abi/fetcher/tmp/leanit-mweb-23.5.9.tar.gz]
+[2023-06-06 11:56:19] INFO root fetch - processPackages [leanit-mweb]: Remove: archive file [/home/abi/fetcher/tmp/leanit-mweb-23.6.1.tar.gz]
+[2023-06-06 11:56:19] INFO root fetch - main [MainThread]: End processing [leanit-mweb]: success
+[2023-06-06 11:56:20] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.98.tar.gz]
+[2023-06-06 11:56:20] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
+[2023-06-06 11:56:20] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-06-06 11:56:20] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-06-06 11:56:20] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.2.7.tar.gz tmp/spotPython-0.2.9.tar.gz --markdown 20230606/s/spotPython/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-06 11:56:20] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.1.tar.gz]
+[2023-06-06 11:56:20] INFO root fetch - processPackages [lazysdk]: Remove: archive file [/home/abi/fetcher/tmp/lazysdk-0.1.2.tar.gz]
+[2023-06-06 11:56:20] INFO root fetch - main [MainThread]: End processing [lazysdk]: success
+[2023-06-06 11:56:22] INFO root fetch - processPackages [hsfs]: Remove: archive file [/home/abi/fetcher/tmp/hsfs-3.2.0rc3.tar.gz]
+[2023-06-06 11:56:22] INFO root fetch - processPackages [hsfs]: Remove: archive file [/home/abi/fetcher/tmp/hsfs-3.2.0rc4.tar.gz]
+[2023-06-06 11:56:22] INFO root fetch - main [MainThread]: End processing [hsfs]: success
+[2023-06-06 11:56:32] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.7.tar.gz]
+[2023-06-06 11:56:32] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
+[2023-06-06 11:56:32] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-06-06 11:56:32] INFO root fetch - main [MainThread]: Store serial: [18389693]
