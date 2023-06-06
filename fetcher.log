@@ -18245,3 +18245,183 @@ EOFError: EOF read where object expected
 [2023-06-06 11:11:56] INFO root fetch - processPackages [blond]: Remove: archive file [/home/abi/fetcher/tmp/blond-2.1.4.tar.gz]
 [2023-06-06 11:11:56] INFO root fetch - main [MainThread]: End processing [blond]: success
 [2023-06-06 11:11:56] INFO root fetch - main [MainThread]: Store serial: [18389239]
+[2023-06-06 11:17:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18389239]
+[2023-06-06 11:17:05] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-06 11:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addon-account-operating-unit
+[2023-06-06 11:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mage-ai
+[2023-06-06 11:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytest-django-ifactory
+[2023-06-06 11:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: depcheck
+[2023-06-06 11:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ms-salesforce-api
+[2023-06-06 11:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: etcd-sdk-python
+[2023-06-06 11:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqlalchemy-nested-mutable
+[2023-06-06 11:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: siat
+[2023-06-06 11:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyuart
+[2023-06-06 11:17:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: LinSATNet
+[2023-06-06 11:17:06] INFO root fetch - processPackages [odoo-addon-account-operating-unit]: New version: [15.0.1.1.2] Old Version: [15.0.1.1.1]
+[2023-06-06 11:17:06] INFO root fetch - processPackages [sqlalchemy-nested-mutable]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-06-06 11:17:06] INFO root fetch - processPackages [depcheck]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-06 11:17:06] INFO root fetch - processPackages [pyuart]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-06 11:17:06] INFO root fetch - processPackages [etcd-sdk-python]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-06 11:17:06] INFO root fetch - processPackages [pytest-django-ifactory]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-06 11:17:06] INFO root fetch - processPackages [ms-salesforce-api]: New version: [0.0.42] Old Version: [0.0.41]
+[2023-06-06 11:17:06] INFO root fetch - processPackages [LinSATNet]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-06 11:17:06] INFO root fetch - processPackages [siat]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-06-06 11:17:06] INFO root fetch - processPackages [mage-ai]: New version: [0.8.90] Old Version: [0.8.9]
+[2023-06-06 11:17:06] INFO root fetch - processPackages [depcheck]: Downloading https://files.pythonhosted.org/packages/21/19/948971b5b7fd0d274fbac2fa97e81e238f92a2567cf87c47d4f029df3a17/depcheck-0.3.1.tar.gz
+[2023-06-06 11:17:06] INFO root fetch - processPackages [pyuart]: Downloading https://files.pythonhosted.org/packages/ac/51/697f4b46be68e930191724f5e0eaffe87d8fa5da65d60361c44e945da976/pyuart-0.1.0-py3-none-any.whl
+[2023-06-06 11:17:06] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/f1/bf/5e71d1543ad1234a1582922984a675c027cf52a76502290ffb60d59849be/ms_salesforce_api-0.0.41.tar.gz
+[2023-06-06 11:17:06] INFO root fetch - processPackages [LinSATNet]: Downloading https://files.pythonhosted.org/packages/48/f1/596a046b3bb06a914f0c92b0ec00722da6caad7e4b3b211a37ac39d197f2/LinSATNet-0.0.4.tar.gz
+[2023-06-06 11:17:06] INFO root fetch - processPackages [odoo-addon-account-operating-unit]: Downloading https://files.pythonhosted.org/packages/01/85/a783abc4fd9882ae16f1087e05cdc6fca77f0840023351ed7f9dc3e60272/odoo_addon_account_operating_unit-15.0.1.1.1-py3-none-any.whl
+[2023-06-06 11:17:06] INFO root fetch - processPackages [sqlalchemy-nested-mutable]: Downloading https://files.pythonhosted.org/packages/57/c4/83fae200f48ec3c2e221e5fa6aa76cd598b037ce30a6850ee56ad33a3d89/sqlalchemy_nested_mutable-0.0.1.tar.gz
+[2023-06-06 11:17:06] INFO root fetch - processPackages [pytest-django-ifactory]: Downloading https://files.pythonhosted.org/packages/0c/4c/e43eb39d725c1b7261c5849685c738f196a84c7f35da49bcd944ac966e65/pytest-django-ifactory-1.0.0.tar.gz
+[2023-06-06 11:17:06] INFO root fetch - processPackages [etcd-sdk-python]: Downloading https://files.pythonhosted.org/packages/2b/e1/11db06f29f418da60052f3bbbcfbfce83baf8e891e2ce14f43f4d8e98fb3/etcd-sdk-python-0.0.1.tar.gz
+[2023-06-06 11:17:06] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/06/f6/be279fc31b208e72e7713e531c2bc96e96806b33b4dd1fbecf044a4b2472/siat-2.0.8-py3-none-any.whl
+[2023-06-06 11:17:06] INFO root fetch - processPackages [depcheck]: Downloading https://files.pythonhosted.org/packages/78/65/f69b2de2fb1a90630766e2aa0305e58794ea751fbae145b3457bbe2d895d/depcheck-0.3.2.tar.gz
+[2023-06-06 11:17:06] INFO root fetch - processPackages [ms-salesforce-api]: Downloading https://files.pythonhosted.org/packages/ae/68/ad5f54328e11720b5b7cd9d5eb337430a5ae3943d3040de6facaef46fbb3/ms_salesforce_api-0.0.42.tar.gz
+[2023-06-06 11:17:06] INFO root fetch - processPackages [mage-ai]: Downloading https://files.pythonhosted.org/packages/8b/c6/2ffc10c42d453735347d31b5d865f060c7ea95dad9c502d809dcd7867e95/mage-ai-0.8.9.tar.gz
+[2023-06-06 11:17:06] INFO root fetch - processPackages [LinSATNet]: Downloading https://files.pythonhosted.org/packages/97/d5/751032112f63d817bd40786a8b6b429a7e6ac88c9ade984ea2b52047f17b/LinSATNet-0.0.5.tar.gz
+[2023-06-06 11:17:06] INFO root fetch - processPackages [pyuart]: Downloading https://files.pythonhosted.org/packages/d3/5b/26e87c619c36ba0d95227025edcf2f819e3ca93b56839467cdddf905ec9c/pyuart-0.1.1-py3-none-any.whl
+[2023-06-06 11:17:06] INFO root fetch - processPackages [depcheck]: executing diffoscope
+[2023-06-06 11:17:06] INFO root fetch - processPackages [depcheck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/depcheck-0.3.1.tar.gz tmp/depcheck-0.3.2.tar.gz --markdown 20230606/d/depcheck/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-06 11:17:06] INFO root fetch - processPackages [ms-salesforce-api]: executing diffoscope
+[2023-06-06 11:17:06] INFO root fetch - processPackages [ms-salesforce-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ms_salesforce_api-0.0.41.tar.gz tmp/ms_salesforce_api-0.0.42.tar.gz --markdown 20230606/m/ms-salesforce-api/0.0.41-0.0.42/diff.md --exclude *.pyd
+[2023-06-06 11:17:06] INFO root fetch - processPackages [LinSATNet]: executing diffoscope
+[2023-06-06 11:17:06] INFO root fetch - processPackages [LinSATNet]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LinSATNet-0.0.4.tar.gz tmp/LinSATNet-0.0.5.tar.gz --markdown 20230606/L/LinSATNet/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-06 11:17:06] INFO root fetch - processPackages [sqlalchemy-nested-mutable]: Downloading https://files.pythonhosted.org/packages/a6/32/2640bff3cdedf612681d805c19dad2d47d0de6558390c63569d77ba204f8/sqlalchemy_nested_mutable-0.1.0.tar.gz
+[2023-06-06 11:17:06] INFO root fetch - processPackages [odoo-addon-account-operating-unit]: Downloading https://files.pythonhosted.org/packages/50/ec/49bb3acc6a6cf6545201e04cda9f879c3b43c6cf51c97bc71746d1c1d695/odoo_addon_account_operating_unit-15.0.1.1.2-py3-none-any.whl
+[2023-06-06 11:17:06] INFO root fetch - processPackages [etcd-sdk-python]: Downloading https://files.pythonhosted.org/packages/90/d0/d7fa871308faa719f3df0a1e54ba17c561ef2d429c3aeca5f5af6302ed71/etcd-sdk-python-0.0.2.tar.gz
+[2023-06-06 11:17:06] INFO root fetch - processPackages [sqlalchemy-nested-mutable]: executing diffoscope
+[2023-06-06 11:17:06] INFO root fetch - processPackages [sqlalchemy-nested-mutable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlalchemy_nested_mutable-0.0.1.tar.gz tmp/sqlalchemy_nested_mutable-0.1.0.tar.gz --markdown 20230606/s/sqlalchemy-nested-mutable/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-06-06 11:17:06] INFO root fetch - processPackages [pytest-django-ifactory]: Downloading https://files.pythonhosted.org/packages/72/b4/14ceecc5dc213b1057a254649970fc73b3dad7ca300b6215e26a1f432964/pytest-django-ifactory-1.1.0.tar.gz
+[2023-06-06 11:17:06] INFO root fetch - processPackages [odoo-addon-account-operating-unit]: executing diffoscope
+[2023-06-06 11:17:06] INFO root fetch - processPackages [odoo-addon-account-operating-unit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_operating_unit-15.0.1.1.1-py3-none-any.whl.zip tmp/odoo_addon_account_operating_unit-15.0.1.1.2-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-account-operating-unit/15.0.1.1.1-15.0.1.1.2/diff.md --exclude *.pyd
+[2023-06-06 11:17:06] INFO root fetch - processPackages [pyuart]: executing diffoscope
+[2023-06-06 11:17:06] INFO root fetch - processPackages [pyuart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyuart-0.1.0-py3-none-any.whl.zip tmp/pyuart-0.1.1-py3-none-any.whl.zip --markdown 20230606/p/pyuart/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-06 11:17:06] INFO root fetch - processPackages [etcd-sdk-python]: executing diffoscope
+[2023-06-06 11:17:06] INFO root fetch - processPackages [etcd-sdk-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etcd-sdk-python-0.0.1.tar.gz tmp/etcd-sdk-python-0.0.2.tar.gz --markdown 20230606/e/etcd-sdk-python/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-06 11:17:06] INFO root fetch - processPackages [siat]: Downloading https://files.pythonhosted.org/packages/8e/68/ec2c91e1d78b09cff73dba05aa33af579bdafc5cc3fa7a6b02540943cb0a/siat-2.0.9-py3-none-any.whl
+[2023-06-06 11:17:06] INFO root fetch - processPackages [pytest-django-ifactory]: executing diffoscope
+[2023-06-06 11:17:06] INFO root fetch - processPackages [pytest-django-ifactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-django-ifactory-1.0.0.tar.gz tmp/pytest-django-ifactory-1.1.0.tar.gz --markdown 20230606/p/pytest-django-ifactory/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-06 11:17:06] INFO root fetch - processPackages [mage-ai]: Downloading https://files.pythonhosted.org/packages/6b/8b/12146ad0100acc3469d1ebaff9b6679dbe45c8a2bdba344f74807eadafe5/mage-ai-0.8.90.tar.gz
+[2023-06-06 11:17:07] INFO root fetch - processPackages [mage-ai]: executing diffoscope
+[2023-06-06 11:17:07] INFO root fetch - processPackages [mage-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mage-ai-0.8.9.tar.gz tmp/mage-ai-0.8.90.tar.gz --markdown 20230606/m/mage-ai/0.8.9-0.8.90/diff.md --exclude *.pyd
+[2023-06-06 11:17:07] INFO root fetch - processPackages [siat]: executing diffoscope
+[2023-06-06 11:17:07] INFO root fetch - processPackages [siat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/siat-2.0.8-py3-none-any.whl.zip tmp/siat-2.0.9-py3-none-any.whl.zip --markdown 20230606/s/siat/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-06-06 11:17:07] INFO root fetch - processPackages [depcheck]: Remove: archive file [/home/abi/fetcher/tmp/depcheck-0.3.1.tar.gz]
+[2023-06-06 11:17:07] INFO root fetch - processPackages [depcheck]: Remove: archive file [/home/abi/fetcher/tmp/depcheck-0.3.2.tar.gz]
+[2023-06-06 11:17:07] INFO root fetch - processPackages [depcheck]: Start processing: nvfuser-cu121
+[2023-06-06 11:17:07] INFO root fetch - main [MainThread]: End processing [depcheck]: success
+[2023-06-06 11:17:07] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-06-06 11:17:08] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-0.0.41.tar.gz]
+[2023-06-06 11:17:08] INFO root fetch - processPackages [ms-salesforce-api]: Remove: archive file [/home/abi/fetcher/tmp/ms_salesforce_api-0.0.42.tar.gz]
+[2023-06-06 11:17:08] INFO root fetch - processPackages [ms-salesforce-api]: Start processing: YMS
+[2023-06-06 11:17:08] INFO root fetch - main [MainThread]: End processing [ms-salesforce-api]: success
+[2023-06-06 11:17:08] INFO root fetch - processPackages [YMS]: New version: [1.0.0] Old Version: [0.99]
+[2023-06-06 11:17:08] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/b3/bf/667bd4aad6c776a5e62ad2f63da6dd5bb51f013f1ff3284d04efbf109991/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-06 11:17:08] INFO root fetch - processPackages [sqlalchemy-nested-mutable]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_nested_mutable-0.0.1.tar.gz]
+[2023-06-06 11:17:08] INFO root fetch - processPackages [sqlalchemy-nested-mutable]: Remove: archive file [/home/abi/fetcher/tmp/sqlalchemy_nested_mutable-0.1.0.tar.gz]
+[2023-06-06 11:17:08] INFO root fetch - processPackages [sqlalchemy-nested-mutable]: Start processing: makerpack
+[2023-06-06 11:17:08] INFO root fetch - main [MainThread]: End processing [sqlalchemy-nested-mutable]: success
+[2023-06-06 11:17:08] WARNING root fetch - processPackages [makerpack]: Skipping, unable to determine old version
+[2023-06-06 11:17:08] INFO root fetch - processPackages [makerpack]: Start processing: nvfuser-cu118
+[2023-06-06 11:17:08] INFO root fetch - main [MainThread]: End processing [makerpack] error
+[2023-06-06 11:17:08] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-06-06 11:17:08] INFO root fetch - processPackages [YMS]: Downloading https://files.pythonhosted.org/packages/4a/ca/b44a27d2a33152e26cf0c71d9370e77fd922331a80dbe4f992cececb3933/YMS-0.99.tar.gz
+[2023-06-06 11:17:08] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/4b/cd/4c428ce97d9be97932eb85eb49ce89f8833a6daf4081080607d7a4dd07d9/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-06 11:17:08] INFO root fetch - processPackages [LinSATNet]: Remove: archive file [/home/abi/fetcher/tmp/LinSATNet-0.0.4.tar.gz]
+[2023-06-06 11:17:08] INFO root fetch - processPackages [LinSATNet]: Remove: archive file [/home/abi/fetcher/tmp/LinSATNet-0.0.5.tar.gz]
+[2023-06-06 11:17:08] INFO root fetch - processPackages [LinSATNet]: Start processing: mudata
+[2023-06-06 11:17:08] INFO root fetch - main [MainThread]: End processing [LinSATNet]: success
+[2023-06-06 11:17:08] INFO root fetch - processPackages [mudata]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-06 11:17:08] INFO root fetch - processPackages [pyuart]: Remove: archive file [/home/abi/fetcher/tmp/pyuart-0.1.0-py3-none-any.whl.zip]
+[2023-06-06 11:17:08] INFO root fetch - processPackages [pyuart]: Remove: archive file [/home/abi/fetcher/tmp/pyuart-0.1.1-py3-none-any.whl.zip]
+[2023-06-06 11:17:08] INFO root fetch - processPackages [pyuart]: Start processing: hyperfast-python-template
+[2023-06-06 11:17:08] INFO root fetch - main [MainThread]: End processing [pyuart]: success
+[2023-06-06 11:17:08] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-06-06 11:17:08] INFO root fetch - processPackages [odoo-addon-account-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_operating_unit-15.0.1.1.1-py3-none-any.whl.zip]
+[2023-06-06 11:17:08] INFO root fetch - processPackages [odoo-addon-account-operating-unit]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_operating_unit-15.0.1.1.2-py3-none-any.whl.zip]
+[2023-06-06 11:17:08] INFO root fetch - processPackages [odoo-addon-account-operating-unit]: Start processing: micropython-makerpack
+[2023-06-06 11:17:08] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-operating-unit]: success
+[2023-06-06 11:17:08] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/14/d5/910fbaf0cabb20dc9e3747c297a79da33478ef905f488ccdc724ff6c7c76/hyperfast_python_template-0.8.1.tar.gz
+[2023-06-06 11:17:08] WARNING root fetch - processPackages [micropython-makerpack]: Skipping, unable to determine old version
+[2023-06-06 11:17:08] INFO root fetch - processPackages [micropython-makerpack]: Start processing: nvfuser-cu117
+[2023-06-06 11:17:08] INFO root fetch - main [MainThread]: End processing [micropython-makerpack] error
+[2023-06-06 11:17:08] INFO root fetch - processPackages [nvfuser-cu117]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-06-06 11:17:08] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/97/5f/a04da4d60f1816efafaa93531502bc7956df43f23ed210d62d175d8ae006/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-06 11:17:08] INFO root fetch - processPackages [YMS]: Downloading https://files.pythonhosted.org/packages/4d/1d/5935f803638e0a0defc8ba4ee23cc80e772b7bc8dbb066e319a297801aae/YMS-1.0.0.tar.gz
+[2023-06-06 11:17:08] INFO root fetch - processPackages [mudata]: Downloading https://files.pythonhosted.org/packages/ad/90/888067f0d2e9639052ad274426a1b54aa74ba781aa06b0be1526e77a5de6/mudata-0.2.2.tar.gz
+[2023-06-06 11:17:08] INFO root fetch - processPackages [YMS]: executing diffoscope
+[2023-06-06 11:17:08] INFO root fetch - processPackages [YMS]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YMS-0.99.tar.gz tmp/YMS-1.0.0.tar.gz --markdown 20230606/Y/YMS/0.99-1.0.0/diff.md --exclude *.pyd
+[2023-06-06 11:17:08] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/25/50/122c6aa5a503548c0ad67efed47aa6faf81110cba222d9ac25afb6cbf10e/hyperfast_python_template-0.8.2.tar.gz
+[2023-06-06 11:17:08] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/74/50/be3d462491ae9f70d80293010b36c2a163fbf4cce3cab00d4fd749c345ce/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-06 11:17:08] INFO root fetch - processPackages [mudata]: Downloading https://files.pythonhosted.org/packages/e8/ab/19d978698d43a4336b6e6aa017ef6e839f06b3d4a1a348cb37e6a4a5c822/mudata-0.2.3.tar.gz
+[2023-06-06 11:17:08] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-06-06 11:17:08] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.8.1.tar.gz tmp/hyperfast_python_template-0.8.2.tar.gz --markdown 20230606/h/hyperfast-python-template/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-06-06 11:17:08] INFO root fetch - processPackages [nvfuser-cu117]: executing diffoscope
+[2023-06-06 11:17:08] INFO root fetch - processPackages [nvfuser-cu117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230606/n/nvfuser-cu117/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-06-06 11:17:08] INFO root fetch - processPackages [mudata]: executing diffoscope
+[2023-06-06 11:17:08] INFO root fetch - processPackages [mudata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mudata-0.2.2.tar.gz tmp/mudata-0.2.3.tar.gz --markdown 20230606/m/mudata/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-06 11:17:09] INFO root fetch - processPackages [pytest-django-ifactory]: Remove: archive file [/home/abi/fetcher/tmp/pytest-django-ifactory-1.0.0.tar.gz]
+[2023-06-06 11:17:09] INFO root fetch - processPackages [pytest-django-ifactory]: Remove: archive file [/home/abi/fetcher/tmp/pytest-django-ifactory-1.1.0.tar.gz]
+[2023-06-06 11:17:09] INFO root fetch - processPackages [pytest-django-ifactory]: Start processing: eqdata-generator
+[2023-06-06 11:17:09] INFO root fetch - main [MainThread]: End processing [pytest-django-ifactory]: success
+[2023-06-06 11:17:09] INFO root fetch - processPackages [eqdata-generator]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-06 11:17:09] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/05/3d/6c84b5f07a9f69349df1b20f64065b4cbd84158521710f47bb31051a8ee9/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-06 11:17:09] INFO root fetch - processPackages [eqdata-generator]: Downloading https://files.pythonhosted.org/packages/8b/93/285461cbbc023a81e676457afd952cbab01fc2d5861d446a8626a203d323/eqdata-generator-0.0.2.tar.gz
+[2023-06-06 11:17:09] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2023-06-06 11:17:09] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230606/n/nvfuser-cu121/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-06-06 11:17:09] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/b4/43/b31a00b4452d0b5904b6a1613a4dc7aa7a262ccdc4d4f61614f466008980/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-06-06 11:17:09] INFO root fetch - processPackages [eqdata-generator]: Downloading https://files.pythonhosted.org/packages/79/7e/5c26a17af4ef6425ed02bb7347afcc37b896a407c27d6ba54b55cd728fec/eqdata-generator-0.0.3.tar.gz
+[2023-06-06 11:17:09] INFO root fetch - processPackages [eqdata-generator]: executing diffoscope
+[2023-06-06 11:17:09] INFO root fetch - processPackages [eqdata-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eqdata-generator-0.0.2.tar.gz tmp/eqdata-generator-0.0.3.tar.gz --markdown 20230606/e/eqdata-generator/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-06 11:17:09] INFO root fetch - processPackages [siat]: Remove: archive file [/home/abi/fetcher/tmp/siat-2.0.8-py3-none-any.whl.zip]
+[2023-06-06 11:17:09] INFO root fetch - processPackages [siat]: Remove: archive file [/home/abi/fetcher/tmp/siat-2.0.9-py3-none-any.whl.zip]
+[2023-06-06 11:17:09] INFO root fetch - processPackages [siat]: Start processing: giskard-client
+[2023-06-06 11:17:09] INFO root fetch - main [MainThread]: End processing [siat]: success
+[2023-06-06 11:17:09] INFO root fetch - processPackages [giskard-client]: New version: [0.1.0b1] Old Version: [0.0.1]
+[2023-06-06 11:17:09] INFO root fetch - processPackages [YMS]: Remove: archive file [/home/abi/fetcher/tmp/YMS-0.99.tar.gz]
+[2023-06-06 11:17:09] INFO root fetch - processPackages [YMS]: Remove: archive file [/home/abi/fetcher/tmp/YMS-1.0.0.tar.gz]
+[2023-06-06 11:17:09] INFO root fetch - processPackages [YMS]: Start processing: omnata-plugin-runtime
+[2023-06-06 11:17:09] INFO root fetch - main [MainThread]: End processing [YMS]: success
+[2023-06-06 11:17:09] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2023-06-06 11:17:09] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230606/n/nvfuser-cu118/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-06-06 11:17:09] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 11:17:09] INFO root fetch - processPackages [giskard-client]: Downloading https://files.pythonhosted.org/packages/96/77/021ccec5f88ac41da58f71f252720f3f649bf6a7c0cf679b95dc6c05b35a/giskard-client-0.0.1.tar.gz
+[2023-06-06 11:17:09] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-06-06 11:17:10] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-06-06 11:17:10] INFO root fetch - processPackages [hyperfast-python-template]: Remove: archive file [/home/abi/fetcher/tmp/hyperfast_python_template-0.8.1.tar.gz]
+[2023-06-06 11:17:10] INFO root fetch - processPackages [hyperfast-python-template]: Remove: archive file [/home/abi/fetcher/tmp/hyperfast_python_template-0.8.2.tar.gz]
+[2023-06-06 11:17:10] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-06-06 11:17:10] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-06-06 11:17:10] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230606/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 11:17:10] INFO root fetch - processPackages [giskard-client]: Downloading https://files.pythonhosted.org/packages/8e/0f/a16401fbe2885f4235075b6d8bb5ab626c8af458e7bec6bab52c0edf67e0/giskard_client-0.1.0b1.tar.gz
+[2023-06-06 11:17:10] INFO root fetch - processPackages [giskard-client]: executing diffoscope
+[2023-06-06 11:17:10] INFO root fetch - processPackages [giskard-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giskard-client-0.0.1.tar.gz tmp/giskard_client-0.1.0b1.tar.gz --markdown 20230606/g/giskard-client/0.0.1-0.1.0b1/diff.md --exclude *.pyd
+[2023-06-06 11:17:10] INFO root fetch - processPackages [etcd-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/etcd-sdk-python-0.0.1.tar.gz]
+[2023-06-06 11:17:10] INFO root fetch - processPackages [etcd-sdk-python]: Remove: archive file [/home/abi/fetcher/tmp/etcd-sdk-python-0.0.2.tar.gz]
+[2023-06-06 11:17:10] INFO root fetch - main [MainThread]: End processing [etcd-sdk-python]: success
+[2023-06-06 11:17:10] INFO root fetch - processPackages [mudata]: Remove: archive file [/home/abi/fetcher/tmp/mudata-0.2.2.tar.gz]
+[2023-06-06 11:17:10] INFO root fetch - processPackages [mudata]: Remove: archive file [/home/abi/fetcher/tmp/mudata-0.2.3.tar.gz]
+[2023-06-06 11:17:10] INFO root fetch - main [MainThread]: End processing [mudata]: success
+[2023-06-06 11:17:10] INFO root fetch - processPackages [eqdata-generator]: Remove: archive file [/home/abi/fetcher/tmp/eqdata-generator-0.0.2.tar.gz]
+[2023-06-06 11:17:10] INFO root fetch - processPackages [eqdata-generator]: Remove: archive file [/home/abi/fetcher/tmp/eqdata-generator-0.0.3.tar.gz]
+[2023-06-06 11:17:10] INFO root fetch - main [MainThread]: End processing [eqdata-generator]: success
+[2023-06-06 11:17:11] INFO root fetch - processPackages [giskard-client]: Remove: archive file [/home/abi/fetcher/tmp/giskard-client-0.0.1.tar.gz]
+[2023-06-06 11:17:11] INFO root fetch - processPackages [giskard-client]: Remove: archive file [/home/abi/fetcher/tmp/giskard_client-0.1.0b1.tar.gz]
+[2023-06-06 11:17:11] INFO root fetch - main [MainThread]: End processing [giskard-client]: success
+[2023-06-06 11:17:11] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-06-06 11:17:11] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-06-06 11:17:11] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-06-06 11:17:12] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-06 11:17:12] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-06 11:17:12] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2023-06-06 11:17:12] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-06 11:17:12] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-06 11:17:12] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
+[2023-06-06 11:17:13] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-06 11:17:13] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-06-06 11:17:13] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2023-06-06 11:18:01] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.8.9.tar.gz]
+[2023-06-06 11:18:01] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.8.90.tar.gz]
+[2023-06-06 11:18:01] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
+[2023-06-06 11:18:01] INFO root fetch - main [MainThread]: Store serial: [18389311]
