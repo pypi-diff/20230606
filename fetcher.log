@@ -16544,3 +16544,109 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-06 10:14:15] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_jupyter_bioimg-0.1.2a2.tar.gz]
 [2023-06-06 10:14:15] INFO root fetch - main [MainThread]: End processing [tiledb-jupyter-bioimg]: success
 [2023-06-06 10:14:15] INFO root fetch - main [MainThread]: Store serial: [18388489]
+[2023-06-06 10:19:19] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18388489]
+[2023-06-06 10:19:24] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-06 10:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyocs
+[2023-06-06 10:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2023-06-06 10:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zhousf-lib
+[2023-06-06 10:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nlptest
+[2023-06-06 10:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo-addon-account-tax-unece
+[2023-06-06 10:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zhousf-lib
+[2023-06-06 10:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gdn-python-common
+[2023-06-06 10:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-l10n-es-aeat-mod347
+[2023-06-06 10:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: obs-cli
+[2023-06-06 10:19:24] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: certora-cli-alpha-master
+[2023-06-06 10:19:24] INFO root fetch - processPackages [pyocs]: New version: [4.4.4] Old Version: [4.4.2]
+[2023-06-06 10:19:24] INFO root fetch - processPackages [nlptest]: New version: [1.4.0rc3] Old Version: [1.4.0rc2]
+[2023-06-06 10:19:24] INFO root fetch - processPackages [gdn-python-common]: New version: [0.9.2] Old Version: [0.9.0]
+[2023-06-06 10:19:24] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: New version: [16.0.1.2.0] Old Version: [16.0.1.1.0.2]
+[2023-06-06 10:19:24] INFO root fetch - processPackages [zhousf-lib]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-06-06 10:19:24] INFO root fetch - processPackages [zhousf-lib]: New version: [0.5.8] Old Version: [0.5.7]
+[2023-06-06 10:19:24] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230606.8.17.503420] Old Version: [20230605.8.1.375473]
+[2023-06-06 10:19:24] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230606081421] Old Version: [2.1.1.dev20230605204047]
+[2023-06-06 10:19:24] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: New version: [16.0.1.4.0] Old Version: [16.0.1.3.0.3]
+[2023-06-06 10:19:24] INFO root fetch - processPackages [obs-cli]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-06 10:19:24] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: Downloading https://files.pythonhosted.org/packages/99/5d/85a8c4273f7cc5d215222c5e8e2b6bd9c324be353dfcbc3e69cf5f8b389d/odoo_addon_account_tax_unece-16.0.1.1.0.2-py3-none-any.whl
+[2023-06-06 10:19:24] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/67/83/f948cffd0b31b58bd81b53701f65e9f2236d27c01fc458b3b5cf68e78aaa/localstack-core-2.1.1.dev20230605204047.tar.gz
+[2023-06-06 10:19:24] INFO root fetch - processPackages [obs-cli]: Downloading https://files.pythonhosted.org/packages/97/af/b7c2d3130519889b4d9cb703dd558c59df441dc6c0dca4cfe9167d73d074/obs-cli-0.6.0.tar.gz
+[2023-06-06 10:19:24] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/07/9b/c003ad16c33cbcb721c2eb8c6231c9e17c8667d0a3cecb5766968362a0c9/zhousf-lib-0.5.7.tar.gz
+[2023-06-06 10:19:24] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/07/9b/c003ad16c33cbcb721c2eb8c6231c9e17c8667d0a3cecb5766968362a0c9/zhousf-lib-0.5.7.tar.gz
+[2023-06-06 10:19:24] INFO root fetch - processPackages [pyocs]: Downloading https://files.pythonhosted.org/packages/a7/4a/fd0fcde45f9135475abd9bb00cfceaadf1ff9cfeaae8bca581b74f86ee79/pyocs-4.4.2-py2.py3-none-any.whl
+[2023-06-06 10:19:24] INFO root fetch - processPackages [gdn-python-common]: Downloading https://files.pythonhosted.org/packages/ee/91/b2543ccb28a849df94e56fb029141bb3b08e85230e0a735a3710b7b5232d/gdn-python-common-0.9.0.tar.gz
+[2023-06-06 10:19:24] INFO root fetch - processPackages [nlptest]: Downloading https://files.pythonhosted.org/packages/b9/5f/0cca8144262a0dbac7b80d041f53fbe7cb76d09db6d820eb5c196b97362a/nlptest-1.4.0rc2.tar.gz
+[2023-06-06 10:19:24] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/70/43/b75e2c6c31000f0d7d56c6f1263513052dd4ca92d2750458206af531e8f4/certora-cli-alpha-master-20230605.8.1.375473.tar.gz
+[2023-06-06 10:19:25] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 39177837>=10485760
+[2023-06-06 10:19:25] INFO root fetch - processPackages [certora-cli-alpha-master]: Start processing: utils-flask-sqlalchemy
+[2023-06-06 10:19:25] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-06-06 10:19:25] WARNING root fetch - processPackages [nlptest]: Skipping package: exceeds size limit 59645771>=10485760
+[2023-06-06 10:19:25] INFO root fetch - processPackages [nlptest]: Start processing: django-anonymous
+[2023-06-06 10:19:25] INFO root fetch - main [MainThread]: End processing [nlptest] error
+[2023-06-06 10:19:25] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Downloading https://files.pythonhosted.org/packages/f9/94/5dd0c74d16e56ab993c47f4dfe868a4c243aae1567c062a7cfaf9e925d93/odoo_addon_l10n_es_aeat_mod347-16.0.1.3.0.3-py3-none-any.whl
+[2023-06-06 10:19:25] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: Downloading https://files.pythonhosted.org/packages/b7/29/292d6a8acf6dbac115c938f6ee7d58c80e4e90973bb9bb00704fbe68bed0/odoo_addon_account_tax_unece-16.0.1.2.0-py3-none-any.whl
+[2023-06-06 10:19:25] INFO root fetch - processPackages [django-anonymous]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-06 10:19:25] INFO root fetch - processPackages [obs-cli]: Downloading https://files.pythonhosted.org/packages/fa/8f/dad058dfabee5550e7722084017445d36ff5606bf3c90703fb89123f6803/obs-cli-0.6.1.tar.gz
+[2023-06-06 10:19:25] INFO root fetch - processPackages [utils-flask-sqlalchemy]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-06 10:19:25] INFO root fetch - processPackages [django-anonymous]: Downloading https://files.pythonhosted.org/packages/d2/56/e71654663d4fc00ad0da803772b5e55eab3a79d535add086cbdb525d7adb/django-anonymous-0.2.0.tar.gz
+[2023-06-06 10:19:25] INFO root fetch - processPackages [gdn-python-common]: Downloading https://files.pythonhosted.org/packages/3b/c1/07ccb59e0fd13d63e35f522b5dbd8025b2e4a4ac112b44447c0210ec4fc5/gdn-python-common-0.9.2.tar.gz
+[2023-06-06 10:19:25] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: executing diffoscope
+[2023-06-06 10:19:25] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_tax_unece-16.0.1.1.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_tax_unece-16.0.1.2.0-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-account-tax-unece/16.0.1.1.0.2-16.0.1.2.0/diff.md --exclude *.pyd
+[2023-06-06 10:19:25] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/a5/c9/eb8a1122aa4d45c3a845b5a165b577ae2c91b7498fbe619b59de5038e60b/zhousf-lib-0.5.8.tar.gz
+[2023-06-06 10:19:25] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/a5/c9/eb8a1122aa4d45c3a845b5a165b577ae2c91b7498fbe619b59de5038e60b/zhousf-lib-0.5.8.tar.gz
+[2023-06-06 10:19:25] INFO root fetch - processPackages [obs-cli]: executing diffoscope
+[2023-06-06 10:19:25] INFO root fetch - processPackages [pyocs]: Downloading https://files.pythonhosted.org/packages/f3/7a/ce724d998ed5d668ea9b9ffe14a50279242ca5fd215b9de8f4ae10cf1171/pyocs-4.4.4-py2.py3-none-any.whl
+[2023-06-06 10:19:25] INFO root fetch - processPackages [obs-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/obs-cli-0.6.0.tar.gz tmp/obs-cli-0.6.1.tar.gz --markdown 20230606/o/obs-cli/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-06 10:19:25] INFO root fetch - processPackages [gdn-python-common]: executing diffoscope
+[2023-06-06 10:19:25] INFO root fetch - processPackages [gdn-python-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdn-python-common-0.9.0.tar.gz tmp/gdn-python-common-0.9.2.tar.gz --markdown 20230606/g/gdn-python-common/0.9.0-0.9.2/diff.md --exclude *.pyd
+[2023-06-06 10:19:25] WARNING root fetch - processPackages [zhousf-lib]: Skipping package: exceeds size limit 14947111>=10485760
+[2023-06-06 10:19:25] INFO root fetch - processPackages [zhousf-lib]: Start processing: pipeline-feature
+[2023-06-06 10:19:25] INFO root fetch - main [MainThread]: End processing [zhousf-lib] error
+[2023-06-06 10:19:25] WARNING root fetch - processPackages [zhousf-lib]: Skipping package: exceeds size limit 14947111>=10485760
+[2023-06-06 10:19:25] INFO root fetch - main [MainThread]: End processing [zhousf-lib] error
+[2023-06-06 10:19:25] INFO root fetch - processPackages [utils-flask-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/ce/ca/2071f374b32f5e5869f94607ce4ceff5d91709e2e6623a40ce7096c92cf4/utils-flask-sqlalchemy-0.3.3.tar.gz
+[2023-06-06 10:19:25] INFO root fetch - processPackages [pipeline-feature]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-06 10:19:25] INFO root fetch - processPackages [django-anonymous]: Downloading https://files.pythonhosted.org/packages/dc/4e/a0ce4d7ae8de289db984a33dbf73d293cf810c105057e27f82ee7234bea8/django-anonymous-0.3.0.tar.gz
+[2023-06-06 10:19:25] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/b0/1e/ca4abc9a640475839a2bcabc687ac852bedf34df9a616702e511d6dfb606/pipeline-feature-0.0.6.tar.gz
+[2023-06-06 10:19:25] INFO root fetch - processPackages [pyocs]: executing diffoscope
+[2023-06-06 10:19:25] INFO root fetch - processPackages [pyocs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyocs-4.4.2-py2.py3-none-any.whl.zip tmp/pyocs-4.4.4-py2.py3-none-any.whl.zip --markdown 20230606/p/pyocs/4.4.2-4.4.4/diff.md --exclude *.pyd
+[2023-06-06 10:19:25] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Downloading https://files.pythonhosted.org/packages/25/84/79a350e723c103da0a69aceee56db48d2dadf9da988e2674f605176ccea9/odoo_addon_l10n_es_aeat_mod347-16.0.1.4.0-py3-none-any.whl
+[2023-06-06 10:19:25] INFO root fetch - processPackages [django-anonymous]: executing diffoscope
+[2023-06-06 10:19:25] INFO root fetch - processPackages [django-anonymous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-anonymous-0.2.0.tar.gz tmp/django-anonymous-0.3.0.tar.gz --markdown 20230606/d/django-anonymous/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-06 10:19:25] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: executing diffoscope
+[2023-06-06 10:19:25] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod347-16.0.1.3.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod347-16.0.1.4.0-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-l10n-es-aeat-mod347/16.0.1.3.0.3-16.0.1.4.0/diff.md --exclude *.pyd
+[2023-06-06 10:19:25] INFO root fetch - processPackages [utils-flask-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/b4/82/d584c7cdad546a67f2335eaa13c188326ee4223d5d235a29c3bed1156926/utils-flask-sqlalchemy-0.3.4.tar.gz
+[2023-06-06 10:19:25] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/91/54/eb1e61f09460ce7a46ade377a293f717881d546c6e07bb2adaa2e2425a24/localstack-core-2.1.1.dev20230606081421.tar.gz
+[2023-06-06 10:19:25] INFO root fetch - processPackages [utils-flask-sqlalchemy]: executing diffoscope
+[2023-06-06 10:19:25] INFO root fetch - processPackages [utils-flask-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utils-flask-sqlalchemy-0.3.3.tar.gz tmp/utils-flask-sqlalchemy-0.3.4.tar.gz --markdown 20230606/u/utils-flask-sqlalchemy/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-06 10:19:25] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/87/6e/cd05318ca5c5f299d61ec112d0a6e3110f405d521326a89f43d184d116c3/pipeline-feature-0.0.7.tar.gz
+[2023-06-06 10:19:25] INFO root fetch - processPackages [pipeline-feature]: executing diffoscope
+[2023-06-06 10:19:25] INFO root fetch - processPackages [pipeline-feature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline-feature-0.0.6.tar.gz tmp/pipeline-feature-0.0.7.tar.gz --markdown 20230606/p/pipeline-feature/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-06 10:19:26] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-06 10:19:26] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230605204047.tar.gz tmp/localstack-core-2.1.1.dev20230606081421.tar.gz --markdown 20230606/l/localstack-core/2.1.1.dev20230605204047-2.1.1.dev20230606081421/diff.md --exclude *.pyd
+[2023-06-06 10:19:26] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_tax_unece-16.0.1.1.0.2-py3-none-any.whl.zip]
+[2023-06-06 10:19:26] INFO root fetch - processPackages [odoo-addon-account-tax-unece]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_tax_unece-16.0.1.2.0-py3-none-any.whl.zip]
+[2023-06-06 10:19:26] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-tax-unece]: success
+[2023-06-06 10:19:26] INFO root fetch - processPackages [gdn-python-common]: Remove: archive file [/home/abi/fetcher/tmp/gdn-python-common-0.9.0.tar.gz]
+[2023-06-06 10:19:26] INFO root fetch - processPackages [gdn-python-common]: Remove: archive file [/home/abi/fetcher/tmp/gdn-python-common-0.9.2.tar.gz]
+[2023-06-06 10:19:26] INFO root fetch - main [MainThread]: End processing [gdn-python-common]: success
+[2023-06-06 10:19:26] INFO root fetch - processPackages [obs-cli]: Remove: archive file [/home/abi/fetcher/tmp/obs-cli-0.6.0.tar.gz]
+[2023-06-06 10:19:26] INFO root fetch - processPackages [obs-cli]: Remove: archive file [/home/abi/fetcher/tmp/obs-cli-0.6.1.tar.gz]
+[2023-06-06 10:19:26] INFO root fetch - main [MainThread]: End processing [obs-cli]: success
+[2023-06-06 10:19:27] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.6.tar.gz]
+[2023-06-06 10:19:27] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.7.tar.gz]
+[2023-06-06 10:19:27] INFO root fetch - main [MainThread]: End processing [pipeline-feature]: success
+[2023-06-06 10:19:27] INFO root fetch - processPackages [django-anonymous]: Remove: archive file [/home/abi/fetcher/tmp/django-anonymous-0.2.0.tar.gz]
+[2023-06-06 10:19:27] INFO root fetch - processPackages [django-anonymous]: Remove: archive file [/home/abi/fetcher/tmp/django-anonymous-0.3.0.tar.gz]
+[2023-06-06 10:19:27] INFO root fetch - main [MainThread]: End processing [django-anonymous]: success
+[2023-06-06 10:19:27] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod347-16.0.1.3.0.3-py3-none-any.whl.zip]
+[2023-06-06 10:19:27] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod347-16.0.1.4.0-py3-none-any.whl.zip]
+[2023-06-06 10:19:27] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod347]: success
+[2023-06-06 10:19:27] INFO root fetch - processPackages [utils-flask-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/utils-flask-sqlalchemy-0.3.3.tar.gz]
+[2023-06-06 10:19:27] INFO root fetch - processPackages [utils-flask-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/utils-flask-sqlalchemy-0.3.4.tar.gz]
+[2023-06-06 10:19:27] INFO root fetch - main [MainThread]: End processing [utils-flask-sqlalchemy]: success
+[2023-06-06 10:19:30] INFO root fetch - processPackages [pyocs]: Remove: archive file [/home/abi/fetcher/tmp/pyocs-4.4.2-py2.py3-none-any.whl.zip]
+[2023-06-06 10:19:30] INFO root fetch - processPackages [pyocs]: Remove: archive file [/home/abi/fetcher/tmp/pyocs-4.4.4-py2.py3-none-any.whl.zip]
+[2023-06-06 10:19:30] INFO root fetch - main [MainThread]: End processing [pyocs]: success
+[2023-06-06 10:19:32] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230605204047.tar.gz]
+[2023-06-06 10:19:32] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230606081421.tar.gz]
+[2023-06-06 10:19:32] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-06 10:19:32] INFO root fetch - main [MainThread]: Store serial: [18388527]
