@@ -21353,3 +21353,155 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-06 13:37:51] INFO root fetch - processPackages [seven-cloudapp-frame]: Remove: archive file [/home/abi/fetcher/tmp/seven_cloudapp_frame-1.0.9.9.tar.gz]
 [2023-06-06 13:37:51] INFO root fetch - main [MainThread]: End processing [seven-cloudapp-frame]: success
 [2023-06-06 13:37:51] INFO root fetch - main [MainThread]: Store serial: [18390540]
+[2023-06-06 13:42:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18390540]
+[2023-06-06 13:43:00] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-06 13:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: c2cwsgiutils
+[2023-06-06 13:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-sale-order-product-recommendation
+[2023-06-06 13:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-sale-invoice-policy
+[2023-06-06 13:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: beets-alternatives
+[2023-06-06 13:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ampltools
+[2023-06-06 13:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-sentry
+[2023-06-06 13:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: m2w
+[2023-06-06 13:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nlptest
+[2023-06-06 13:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: dlt
+[2023-06-06 13:43:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: qwak-inference
+[2023-06-06 13:43:00] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation]: New version: [16.0.1.0.0.4] Old Version: [15.0.1.1.0.1]
+[2023-06-06 13:43:00] INFO root fetch - processPackages [odoo-addon-sale-invoice-policy]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-06 13:43:00] INFO root fetch - processPackages [m2w]: New version: [2.5.6] Old Version: [2.2.11]
+[2023-06-06 13:43:00] INFO root fetch - processPackages [beets-alternatives]: New version: [0.9.0] Old Version: [0.11.0]
+[2023-06-06 13:43:00] INFO root fetch - processPackages [qwak-inference]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-06 13:43:00] INFO root fetch - processPackages [c2cwsgiutils]: New version: [5.2.2] Old Version: [5.2.1]
+[2023-06-06 13:43:00] INFO root fetch - processPackages [odoo-addon-sentry]: New version: [16.0.2.0.0] Old Version: [16.0.1.0.0.2]
+[2023-06-06 13:43:00] INFO root fetch - processPackages [dlt]: New version: [0.2.9a0] Old Version: [0.2.9]
+[2023-06-06 13:43:00] INFO root fetch - processPackages [ampltools]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-06-06 13:43:00] INFO root fetch - processPackages [nlptest]: New version: [1.4.0rc4] Old Version: [1.4.0rc3]
+[2023-06-06 13:43:00] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/00/0c/5aed31bbbef2c017b7316cffb0dada856962d2356c49fc8948209f5adb84/c2cwsgiutils-5.2.1.tar.gz
+[2023-06-06 13:43:00] INFO root fetch - processPackages [ampltools]: Downloading https://files.pythonhosted.org/packages/c9/b7/22e939d3be62277cf200ce7541a65c3b1047ee5f02526b0d8cb4b7597482/ampltools-0.5.5.tar.gz
+[2023-06-06 13:43:00] INFO root fetch - processPackages [nlptest]: Downloading https://files.pythonhosted.org/packages/0d/a5/5e3de1a982fdc9ecde691c722f1935e5b7104846ffd1bca33652c541af45/nlptest-1.4.0rc3.tar.gz
+[2023-06-06 13:43:00] WARNING root fetch - processPackages [nlptest]: Skipping package: exceeds size limit 59661543>=10485760
+[2023-06-06 13:43:00] INFO root fetch - processPackages [nlptest]: Start processing: algokit-client-generator
+[2023-06-06 13:43:00] INFO root fetch - main [MainThread]: End processing [nlptest] error
+[2023-06-06 13:43:00] INFO root fetch - processPackages [beets-alternatives]: Downloading https://files.pythonhosted.org/packages/3a/56/27a4fda2e959414879a7c418f5b392a14c2dcd7b0b83aa66b7316cccf7c5/beets_alternatives-0.11.0.tar.gz
+[2023-06-06 13:43:00] INFO root fetch - processPackages [odoo-addon-sale-invoice-policy]: Downloading https://files.pythonhosted.org/packages/86/b7/f67c37c1efdbb785d6cce10d5e40947bed96ce280c4f5281013b3c40c8ca/odoo_addon_sale_invoice_policy-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-06 13:43:00] INFO root fetch - processPackages [algokit-client-generator]: New version: [0.1.0b8] Old Version: [0.1.0b7]
+[2023-06-06 13:43:00] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation]: Downloading https://files.pythonhosted.org/packages/00/51/21a9a4458c52a5e3cbc1630a9d0c9b634ec783ffb26f14a1633655b6b56c/odoo_addon_sale_order_product_recommendation-15.0.1.1.0.1-py3-none-any.whl
+[2023-06-06 13:43:00] INFO root fetch - processPackages [m2w]: Downloading https://files.pythonhosted.org/packages/23/a2/c2afaa6a38744b759c3e67565be75c6d19cd0ee00652cf90f7fb68fcdaf5/m2w-2.2.11.tar.gz
+[2023-06-06 13:43:00] INFO root fetch - processPackages [odoo-addon-sentry]: Downloading https://files.pythonhosted.org/packages/f5/59/983161e62f47ec170bf6c4a917f1adf78d789b5252a75974872cf0d6f77c/odoo_addon_sentry-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-06 13:43:00] INFO root fetch - processPackages [qwak-inference]: Downloading https://files.pythonhosted.org/packages/e4/97/4a9891d1aabbfa45d938f6743bb4a2a867c104df3efba7108acc2a6e7143/qwak_inference-0.1.3.tar.gz
+[2023-06-06 13:43:00] INFO root fetch - processPackages [algokit-client-generator]: Downloading https://files.pythonhosted.org/packages/05/16/352bd2ae6f9f2158b150ff1142b5d5768280d5332e6ed5c02217e71ed8b8/algokit_client_generator-0.1.0b7-py3-none-any.whl
+[2023-06-06 13:43:00] INFO root fetch - processPackages [c2cwsgiutils]: Downloading https://files.pythonhosted.org/packages/55/93/2e4f992a13695d7fbb2850755523ce47803febe908b690ecebf49fe4ab9c/c2cwsgiutils-5.2.2.tar.gz
+[2023-06-06 13:43:00] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/54/96/32dc9cea2adb9f769f39f10731431bf86d8e9b7ede7ccf5bbfc2872caec4/dlt-0.2.9.tar.gz
+[2023-06-06 13:43:00] INFO root fetch - processPackages [ampltools]: Downloading https://files.pythonhosted.org/packages/7c/ba/13577798a198e54ad2bf9f9d18b57ad357fc120854be18094d8493c90169/ampltools-0.5.6.tar.gz
+[2023-06-06 13:43:00] INFO root fetch - processPackages [c2cwsgiutils]: executing diffoscope
+[2023-06-06 13:43:00] INFO root fetch - processPackages [c2cwsgiutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cwsgiutils-5.2.1.tar.gz tmp/c2cwsgiutils-5.2.2.tar.gz --markdown 20230606/c/c2cwsgiutils/5.2.1-5.2.2/diff.md --exclude *.pyd
+[2023-06-06 13:43:00] INFO root fetch - processPackages [algokit-client-generator]: Downloading https://files.pythonhosted.org/packages/66/95/8f4503f7306a8c5c56901b8403c8f039d70a5fcadb8bffe41f307b35451e/algokit_client_generator-0.1.0b8-py3-none-any.whl
+[2023-06-06 13:43:00] INFO root fetch - processPackages [odoo-addon-sale-invoice-policy]: Downloading https://files.pythonhosted.org/packages/7a/4a/8e2c23b00c68f41fe7ca29e692d772bc8f38f34645e6b6e52faa1b982edc/odoo_addon_sale_invoice_policy-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-06 13:43:00] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation]: Downloading https://files.pythonhosted.org/packages/37/99/d13a07da7592277b1c3e2902af147bf557ce4341a632a4d07a5c9c96af59/odoo_addon_sale_order_product_recommendation-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-06 13:43:00] INFO root fetch - processPackages [ampltools]: executing diffoscope
+[2023-06-06 13:43:00] INFO root fetch - processPackages [ampltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ampltools-0.5.5.tar.gz tmp/ampltools-0.5.6.tar.gz --markdown 20230606/a/ampltools/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-06-06 13:43:00] INFO root fetch - processPackages [m2w]: Downloading https://files.pythonhosted.org/packages/b8/b9/c76e04a5639d4fba03c47ecb772ade94e191f0ecf2c580f39022a9f19935/m2w-2.5.6.tar.gz
+[2023-06-06 13:43:00] INFO root fetch - processPackages [beets-alternatives]: Downloading https://files.pythonhosted.org/packages/79/42/78a5a24ea5792364412c901f973899c4a0f258113957ce0e4fbafa9ab8d7/beets-alternatives-0.9.0.tar.gz
+[2023-06-06 13:43:00] INFO root fetch - processPackages [algokit-client-generator]: executing diffoscope
+[2023-06-06 13:43:00] INFO root fetch - processPackages [algokit-client-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_client_generator-0.1.0b7-py3-none-any.whl.zip tmp/algokit_client_generator-0.1.0b8-py3-none-any.whl.zip --markdown 20230606/a/algokit-client-generator/0.1.0b7-0.1.0b8/diff.md --exclude *.pyd
+[2023-06-06 13:43:00] INFO root fetch - processPackages [qwak-inference]: Downloading https://files.pythonhosted.org/packages/e8/97/8d9ea7c831cfbe64c6f37e90d183a116133f8904f8424affe882e9903719/qwak_inference-0.1.4.tar.gz
+[2023-06-06 13:43:00] INFO root fetch - processPackages [odoo-addon-sale-invoice-policy]: executing diffoscope
+[2023-06-06 13:43:00] INFO root fetch - processPackages [odoo-addon-sale-invoice-policy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_invoice_policy-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_invoice_policy-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-sale-invoice-policy/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-06 13:43:00] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation]: executing diffoscope
+[2023-06-06 13:43:00] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_product_recommendation-15.0.1.1.0.1-py3-none-any.whl.zip tmp/odoo_addon_sale_order_product_recommendation-16.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-sale-order-product-recommendation/15.0.1.1.0.1-16.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-06-06 13:43:00] INFO root fetch - processPackages [beets-alternatives]: executing diffoscope
+[2023-06-06 13:43:00] INFO root fetch - processPackages [beets-alternatives]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beets_alternatives-0.11.0.tar.gz tmp/beets-alternatives-0.9.0.tar.gz --markdown 20230606/b/beets-alternatives/0.11.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-06 13:43:01] INFO root fetch - processPackages [qwak-inference]: executing diffoscope
+[2023-06-06 13:43:01] INFO root fetch - processPackages [qwak-inference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_inference-0.1.3.tar.gz tmp/qwak_inference-0.1.4.tar.gz --markdown 20230606/q/qwak-inference/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-06 13:43:01] INFO root fetch - processPackages [m2w]: executing diffoscope
+[2023-06-06 13:43:01] INFO root fetch - processPackages [m2w]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m2w-2.2.11.tar.gz tmp/m2w-2.5.6.tar.gz --markdown 20230606/m/m2w/2.2.11-2.5.6/diff.md --exclude *.pyd
+[2023-06-06 13:43:01] INFO root fetch - processPackages [odoo-addon-sentry]: Downloading https://files.pythonhosted.org/packages/5d/32/a12d756e0782b7e537339f9ad442e78effaf8f81197350c45b9eee3ddfd0/odoo_addon_sentry-16.0.2.0.0-py3-none-any.whl
+[2023-06-06 13:43:01] INFO root fetch - processPackages [dlt]: Downloading https://files.pythonhosted.org/packages/bc/11/576f16633925285145590e6115d389e48e6a57630148ab22593aeb2f0a67/dlt-0.2.9a0.tar.gz
+[2023-06-06 13:43:01] INFO root fetch - processPackages [dlt]: executing diffoscope
+[2023-06-06 13:43:01] INFO root fetch - processPackages [dlt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dlt-0.2.9.tar.gz tmp/dlt-0.2.9a0.tar.gz --markdown 20230606/d/dlt/0.2.9-0.2.9a0/diff.md --exclude *.pyd
+[2023-06-06 13:43:01] INFO root fetch - processPackages [odoo-addon-sentry]: executing diffoscope
+[2023-06-06 13:43:01] INFO root fetch - processPackages [odoo-addon-sentry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sentry-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sentry-16.0.2.0.0-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-sentry/16.0.1.0.0.2-16.0.2.0.0/diff.md --exclude *.pyd
+[2023-06-06 13:43:02] INFO root fetch - processPackages [ampltools]: Remove: archive file [/home/abi/fetcher/tmp/ampltools-0.5.5.tar.gz]
+[2023-06-06 13:43:02] INFO root fetch - processPackages [ampltools]: Remove: archive file [/home/abi/fetcher/tmp/ampltools-0.5.6.tar.gz]
+[2023-06-06 13:43:02] INFO root fetch - processPackages [ampltools]: Start processing: alibabacloud-ice20201109-py2
+[2023-06-06 13:43:02] INFO root fetch - main [MainThread]: End processing [ampltools]: success
+[2023-06-06 13:43:02] INFO root fetch - processPackages [alibabacloud-ice20201109-py2]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-06 13:43:02] INFO root fetch - processPackages [odoo-addon-sale-invoice-policy]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_invoice_policy-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-06 13:43:02] INFO root fetch - processPackages [odoo-addon-sale-invoice-policy]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_invoice_policy-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-06 13:43:02] INFO root fetch - processPackages [odoo-addon-sale-invoice-policy]: Start processing: liquisource
+[2023-06-06 13:43:02] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-invoice-policy]: success
+[2023-06-06 13:43:02] INFO root fetch - processPackages [liquisource]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-06 13:43:02] INFO root fetch - processPackages [algokit-client-generator]: Remove: archive file [/home/abi/fetcher/tmp/algokit_client_generator-0.1.0b7-py3-none-any.whl.zip]
+[2023-06-06 13:43:02] INFO root fetch - processPackages [algokit-client-generator]: Remove: archive file [/home/abi/fetcher/tmp/algokit_client_generator-0.1.0b8-py3-none-any.whl.zip]
+[2023-06-06 13:43:02] INFO root fetch - processPackages [algokit-client-generator]: Start processing: optimos
+[2023-06-06 13:43:02] INFO root fetch - main [MainThread]: End processing [algokit-client-generator]: success
+[2023-06-06 13:43:02] INFO root fetch - processPackages [alibabacloud-ice20201109-py2]: Downloading https://files.pythonhosted.org/packages/7e/56/e0551d4da849b863a5e69d3f6c47e8042ca7deaf1c3223a1c6493a5c86d6/alibabacloud_ice20201109_py2-1.3.8.tar.gz
+[2023-06-06 13:43:02] INFO root fetch - processPackages [liquisource]: Downloading https://files.pythonhosted.org/packages/cd/95/37eb18393bdf106bc9dcdab9eb0a4641a7be687764b3146179c83deb733c/liquisource-1.2.0.tar.gz
+[2023-06-06 13:43:02] INFO root fetch - processPackages [optimos]: New version: [0.9.6] Old Version: [0.9.3]
+[2023-06-06 13:43:03] INFO root fetch - processPackages [beets-alternatives]: Remove: archive file [/home/abi/fetcher/tmp/beets_alternatives-0.11.0.tar.gz]
+[2023-06-06 13:43:03] INFO root fetch - processPackages [beets-alternatives]: Remove: archive file [/home/abi/fetcher/tmp/beets-alternatives-0.9.0.tar.gz]
+[2023-06-06 13:43:03] INFO root fetch - processPackages [beets-alternatives]: Start processing: alibabacloud-ice20201109
+[2023-06-06 13:43:03] INFO root fetch - main [MainThread]: End processing [beets-alternatives]: success
+[2023-06-06 13:43:03] INFO root fetch - processPackages [alibabacloud-ice20201109]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-06-06 13:43:03] INFO root fetch - processPackages [optimos]: Downloading https://files.pythonhosted.org/packages/0c/51/7a24451ca90d3ba25f3baf3155008d235290fafcbe8127838ce12a5ae736/optimos-0.9.3.tar.gz
+[2023-06-06 13:43:03] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-5.2.1.tar.gz]
+[2023-06-06 13:43:03] INFO root fetch - processPackages [c2cwsgiutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cwsgiutils-5.2.2.tar.gz]
+[2023-06-06 13:43:03] INFO root fetch - processPackages [c2cwsgiutils]: Start processing: logaut
+[2023-06-06 13:43:03] INFO root fetch - main [MainThread]: End processing [c2cwsgiutils]: success
+[2023-06-06 13:43:03] INFO root fetch - processPackages [logaut]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-06 13:43:03] INFO root fetch - processPackages [liquisource]: Downloading https://files.pythonhosted.org/packages/59/a7/992cfdcd6bc115fa41810183996a17d9d3bb1d7bb9f6381a40d42279e858/liquisource-1.2.1.tar.gz
+[2023-06-06 13:43:03] INFO root fetch - processPackages [alibabacloud-ice20201109-py2]: Downloading https://files.pythonhosted.org/packages/4b/91/16df90d66b5648cdce1d7b52f59f560360cfc416ef572662755f80380b7f/alibabacloud_ice20201109_py2-1.3.9.tar.gz
+[2023-06-06 13:43:03] INFO root fetch - processPackages [m2w]: Remove: archive file [/home/abi/fetcher/tmp/m2w-2.2.11.tar.gz]
+[2023-06-06 13:43:03] INFO root fetch - processPackages [m2w]: Remove: archive file [/home/abi/fetcher/tmp/m2w-2.5.6.tar.gz]
+[2023-06-06 13:43:03] INFO root fetch - processPackages [m2w]: Start processing: inventory-monitor
+[2023-06-06 13:43:03] INFO root fetch - main [MainThread]: End processing [m2w]: success
+[2023-06-06 13:43:03] INFO root fetch - processPackages [inventory-monitor]: New version: [6.0.0] Old Version: [5.0.0]
+[2023-06-06 13:43:03] INFO root fetch - processPackages [liquisource]: executing diffoscope
+[2023-06-06 13:43:03] INFO root fetch - processPackages [liquisource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liquisource-1.2.0.tar.gz tmp/liquisource-1.2.1.tar.gz --markdown 20230606/l/liquisource/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-06 13:43:03] INFO root fetch - processPackages [qwak-inference]: Remove: archive file [/home/abi/fetcher/tmp/qwak_inference-0.1.3.tar.gz]
+[2023-06-06 13:43:03] INFO root fetch - processPackages [alibabacloud-ice20201109-py2]: executing diffoscope
+[2023-06-06 13:43:03] INFO root fetch - processPackages [alibabacloud-ice20201109]: Downloading https://files.pythonhosted.org/packages/9f/39/19ea00d9a6889c9d0d3344217bb0d0e77c09654ead4131d8de9640ff44b3/alibabacloud_ice20201109-1.3.8.tar.gz
+[2023-06-06 13:43:03] INFO root fetch - processPackages [alibabacloud-ice20201109-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ice20201109_py2-1.3.8.tar.gz tmp/alibabacloud_ice20201109_py2-1.3.9.tar.gz --markdown 20230606/a/alibabacloud-ice20201109-py2/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-06 13:43:03] INFO root fetch - processPackages [qwak-inference]: Remove: archive file [/home/abi/fetcher/tmp/qwak_inference-0.1.4.tar.gz]
+[2023-06-06 13:43:03] INFO root fetch - main [MainThread]: End processing [qwak-inference]: success
+[2023-06-06 13:43:03] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_product_recommendation-15.0.1.1.0.1-py3-none-any.whl.zip]
+[2023-06-06 13:43:03] INFO root fetch - processPackages [odoo-addon-sale-order-product-recommendation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_product_recommendation-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-06 13:43:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-product-recommendation]: success
+[2023-06-06 13:43:03] INFO root fetch - processPackages [logaut]: Downloading https://files.pythonhosted.org/packages/82/77/bb5da98de55d09fad5eccf5161cf7b95e03cd0349e28346a5386b124ee80/logaut-0.1.1.tar.gz
+[2023-06-06 13:43:03] INFO root fetch - processPackages [optimos]: Downloading https://files.pythonhosted.org/packages/73/7c/eb004bca84dcb85aeb82b095539f9fca6ff9b3d4e63ce650ab62bcdc03e1/optimos-0.9.6.tar.gz
+[2023-06-06 13:43:03] INFO root fetch - processPackages [odoo-addon-sentry]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sentry-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-06 13:43:03] INFO root fetch - processPackages [odoo-addon-sentry]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sentry-16.0.2.0.0-py3-none-any.whl.zip]
+[2023-06-06 13:43:03] INFO root fetch - main [MainThread]: End processing [odoo-addon-sentry]: success
+[2023-06-06 13:43:03] INFO root fetch - processPackages [inventory-monitor]: Downloading https://files.pythonhosted.org/packages/88/a8/a44ba5a39a502c336e37fef7431ff274eafe75cdaf03042c586b67fb5da1/inventory-monitor-5.0.0.tar.gz
+[2023-06-06 13:43:03] INFO root fetch - processPackages [optimos]: executing diffoscope
+[2023-06-06 13:43:03] INFO root fetch - processPackages [optimos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimos-0.9.3.tar.gz tmp/optimos-0.9.6.tar.gz --markdown 20230606/o/optimos/0.9.3-0.9.6/diff.md --exclude *.pyd
+[2023-06-06 13:43:03] INFO root fetch - processPackages [logaut]: Downloading https://files.pythonhosted.org/packages/75/b9/03d0cf21bfcdec1d4981e6e89547410a6a115ec9d0d54e150ef158348d51/logaut-0.2.0.tar.gz
+[2023-06-06 13:43:03] INFO root fetch - processPackages [alibabacloud-ice20201109]: Downloading https://files.pythonhosted.org/packages/0c/b7/9623586c558a98598f2faeb6da1fb125c39f3dbeafc74dc710549923acb0/alibabacloud_ice20201109-1.3.9.tar.gz
+[2023-06-06 13:43:03] INFO root fetch - processPackages [inventory-monitor]: Downloading https://files.pythonhosted.org/packages/d5/32/b44324b9612117cf91e57e27394e45998593d3b5312a0c42fa7377de0a13/inventory-monitor-6.0.0.tar.gz
+[2023-06-06 13:43:03] INFO root fetch - processPackages [logaut]: executing diffoscope
+[2023-06-06 13:43:03] INFO root fetch - processPackages [logaut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logaut-0.1.1.tar.gz tmp/logaut-0.2.0.tar.gz --markdown 20230606/l/logaut/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-06 13:43:03] INFO root fetch - processPackages [alibabacloud-ice20201109]: executing diffoscope
+[2023-06-06 13:43:03] INFO root fetch - processPackages [alibabacloud-ice20201109]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ice20201109-1.3.8.tar.gz tmp/alibabacloud_ice20201109-1.3.9.tar.gz --markdown 20230606/a/alibabacloud-ice20201109/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-06-06 13:43:03] INFO root fetch - processPackages [inventory-monitor]: executing diffoscope
+[2023-06-06 13:43:03] INFO root fetch - processPackages [inventory-monitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inventory-monitor-5.0.0.tar.gz tmp/inventory-monitor-6.0.0.tar.gz --markdown 20230606/i/inventory-monitor/5.0.0-6.0.0/diff.md --exclude *.pyd
+[2023-06-06 13:43:04] INFO root fetch - processPackages [liquisource]: Remove: archive file [/home/abi/fetcher/tmp/liquisource-1.2.0.tar.gz]
+[2023-06-06 13:43:04] INFO root fetch - processPackages [liquisource]: Remove: archive file [/home/abi/fetcher/tmp/liquisource-1.2.1.tar.gz]
+[2023-06-06 13:43:04] INFO root fetch - main [MainThread]: End processing [liquisource]: success
+[2023-06-06 13:43:04] INFO root fetch - processPackages [optimos]: Remove: archive file [/home/abi/fetcher/tmp/optimos-0.9.3.tar.gz]
+[2023-06-06 13:43:04] INFO root fetch - processPackages [optimos]: Remove: archive file [/home/abi/fetcher/tmp/optimos-0.9.6.tar.gz]
+[2023-06-06 13:43:04] INFO root fetch - main [MainThread]: End processing [optimos]: success
+[2023-06-06 13:43:05] INFO root fetch - processPackages [logaut]: Remove: archive file [/home/abi/fetcher/tmp/logaut-0.1.1.tar.gz]
+[2023-06-06 13:43:05] INFO root fetch - processPackages [logaut]: Remove: archive file [/home/abi/fetcher/tmp/logaut-0.2.0.tar.gz]
+[2023-06-06 13:43:05] INFO root fetch - main [MainThread]: End processing [logaut]: success
+[2023-06-06 13:43:05] INFO root fetch - processPackages [inventory-monitor]: Remove: archive file [/home/abi/fetcher/tmp/inventory-monitor-5.0.0.tar.gz]
+[2023-06-06 13:43:05] INFO root fetch - processPackages [inventory-monitor]: Remove: archive file [/home/abi/fetcher/tmp/inventory-monitor-6.0.0.tar.gz]
+[2023-06-06 13:43:05] INFO root fetch - main [MainThread]: End processing [inventory-monitor]: success
+[2023-06-06 13:43:05] INFO root fetch - processPackages [alibabacloud-ice20201109-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ice20201109_py2-1.3.8.tar.gz]
+[2023-06-06 13:43:05] INFO root fetch - processPackages [alibabacloud-ice20201109-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ice20201109_py2-1.3.9.tar.gz]
+[2023-06-06 13:43:05] INFO root fetch - main [MainThread]: End processing [alibabacloud-ice20201109-py2]: success
+[2023-06-06 13:43:06] INFO root fetch - processPackages [alibabacloud-ice20201109]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ice20201109-1.3.8.tar.gz]
+[2023-06-06 13:43:06] INFO root fetch - processPackages [alibabacloud-ice20201109]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ice20201109-1.3.9.tar.gz]
+[2023-06-06 13:43:06] INFO root fetch - main [MainThread]: End processing [alibabacloud-ice20201109]: success
+[2023-06-06 13:43:07] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.2.9.tar.gz]
+[2023-06-06 13:43:07] INFO root fetch - processPackages [dlt]: Remove: archive file [/home/abi/fetcher/tmp/dlt-0.2.9a0.tar.gz]
+[2023-06-06 13:43:07] INFO root fetch - main [MainThread]: End processing [dlt]: success
+[2023-06-06 13:43:07] INFO root fetch - main [MainThread]: Store serial: [18390593]
