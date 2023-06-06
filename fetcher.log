@@ -22496,3 +22496,99 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-06 14:05:26] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_jupyter_bioimg-0.1.2a3.tar.gz]
 [2023-06-06 14:05:26] INFO root fetch - main [MainThread]: End processing [tiledb-jupyter-bioimg]: success
 [2023-06-06 14:05:26] INFO root fetch - main [MainThread]: Store serial: [18390923]
+[2023-06-06 14:10:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18390923]
+[2023-06-06 14:10:35] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-06 14:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: th2-data-services-lwdp
+[2023-06-06 14:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: algokit-client-generator
+[2023-06-06 14:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xcs-rc
+[2023-06-06 14:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: queryandprocessdatautility
+[2023-06-06 14:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Flask-SimplePay
+[2023-06-06 14:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blackboxopt
+[2023-06-06 14:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: taxonomy-connector
+[2023-06-06 14:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: inet-nm
+[2023-06-06 14:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: frequenz-api-microgrid
+[2023-06-06 14:10:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: m3u8-XZ
+[2023-06-06 14:10:35] WARNING root fetch - processPackages [xcs-rc]: Skipping, unable to determine old version
+[2023-06-06 14:10:35] INFO root fetch - processPackages [xcs-rc]: Start processing: songram
+[2023-06-06 14:10:35] INFO root fetch - main [MainThread]: End processing [xcs-rc] error
+[2023-06-06 14:10:35] INFO root fetch - processPackages [queryandprocessdatautility]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 14:10:35] INFO root fetch - processPackages [Flask-SimplePay]: New version: [1.1] Old Version: [1.0]
+[2023-06-06 14:10:35] INFO root fetch - processPackages [algokit-client-generator]: New version: [0.1.1b1] Old Version: [0.1.0b8]
+[2023-06-06 14:10:35] INFO root fetch - processPackages [frequenz-api-microgrid]: New version: [0.15.0] Old Version: [0.14.0]
+[2023-06-06 14:10:35] INFO root fetch - processPackages [m3u8-XZ]: New version: [0.0.5] Old Version: [0.0.2]
+[2023-06-06 14:10:35] INFO root fetch - processPackages [blackboxopt]: New version: [5.0.0] Old Version: [4.9.1]
+[2023-06-06 14:10:35] WARNING root fetch - processPackages [songram]: Skipping, unable to determine old version
+[2023-06-06 14:10:35] INFO root fetch - processPackages [songram]: Start processing: odoo-addon-purchase-fully-received
+[2023-06-06 14:10:35] INFO root fetch - main [MainThread]: End processing [songram] error
+[2023-06-06 14:10:35] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.1.0.0.dev5188264897] Old Version: [2.1.0.0.dev5188112916]
+[2023-06-06 14:10:35] INFO root fetch - processPackages [taxonomy-connector]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-06 14:10:35] WARNING root fetch - processPackages [odoo-addon-purchase-fully-received]: Skipping, unable to determine old version
+[2023-06-06 14:10:35] INFO root fetch - processPackages [odoo-addon-purchase-fully-received]: Start processing: django-cloudwatch-metrics
+[2023-06-06 14:10:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-purchase-fully-received] error
+[2023-06-06 14:10:35] INFO root fetch - processPackages [django-cloudwatch-metrics]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-06 14:10:35] WARNING root fetch - processPackages [inet-nm]: Skipping, unable to determine old version
+[2023-06-06 14:10:35] INFO root fetch - main [MainThread]: End processing [inet-nm] error
+[2023-06-06 14:10:35] INFO root fetch - processPackages [django-cloudwatch-metrics]: Downloading https://files.pythonhosted.org/packages/b8/c7/dcd642107478c04570de20879bba476ec13f7b18ea75847e32b672d56183/django_cloudwatch_metrics-0.0.7.tar.gz
+[2023-06-06 14:10:35] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/e5/18/ab2dd9cc1f7178820c2f15a2587d89212f36475e8a62df5f390d5d5e6795/queryandprocessdatautility-0.0.8-py3-none-any.whl
+[2023-06-06 14:10:35] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/48/5f/6de1751366ea25038159491333dad11ed007c20cee4751fbb2823f40eb1c/th2_data_services_lwdp-2.1.0.0.dev5188112916.tar.gz
+[2023-06-06 14:10:36] INFO root fetch - processPackages [m3u8-XZ]: Downloading https://files.pythonhosted.org/packages/fb/b7/7564d2e62fe6f79a627d51c1dbc800a1f1206f5fe169fc107b29d9afcc75/m3u8_XZ-0.0.2.tar.gz
+[2023-06-06 14:10:36] INFO root fetch - processPackages [blackboxopt]: Downloading https://files.pythonhosted.org/packages/49/10/8778a9fdf199408eac6823ba263f2add1d3b75175f56b5a76ea1922b4872/blackboxopt-4.9.1.tar.gz
+[2023-06-06 14:10:36] INFO root fetch - processPackages [algokit-client-generator]: Downloading https://files.pythonhosted.org/packages/66/95/8f4503f7306a8c5c56901b8403c8f039d70a5fcadb8bffe41f307b35451e/algokit_client_generator-0.1.0b8-py3-none-any.whl
+[2023-06-06 14:10:36] INFO root fetch - processPackages [Flask-SimplePay]: Downloading https://files.pythonhosted.org/packages/a9/7f/212fbad46f6f546f961cb6eb8e01cb1b57ff1cd78e88a7b2897273ae68ea/Flask-SimplePay-1.0.tar.gz
+[2023-06-06 14:10:36] INFO root fetch - processPackages [frequenz-api-microgrid]: Downloading https://files.pythonhosted.org/packages/2b/2f/fbbbd9d6e31887fe070c2d648e59690ad76269c4ea592d4c97556311697c/frequenz-api-microgrid-0.14.0.tar.gz
+[2023-06-06 14:10:36] INFO root fetch - processPackages [taxonomy-connector]: Downloading https://files.pythonhosted.org/packages/86/d4/cc43cca65b5c3a1ffb7ae8e713f7aa52c9f9dbb7b0c7e2655457762c6d7b/taxonomy-connector-1.8.0.tar.gz
+[2023-06-06 14:10:36] INFO root fetch - processPackages [django-cloudwatch-metrics]: Downloading https://files.pythonhosted.org/packages/fc/a6/e71661db192eece9f6cbc69b37384eaaeeeb5b2132e45e11afe8d5e56f59/django_cloudwatch_metrics-0.0.8.tar.gz
+[2023-06-06 14:10:36] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/0d/99/58be946d0e57a0944a3f580e26c20e1513261c5faac0b4f61958791ba8f8/th2_data_services_lwdp-2.1.0.0.dev5188264897.tar.gz
+[2023-06-06 14:10:36] INFO root fetch - processPackages [m3u8-XZ]: Downloading https://files.pythonhosted.org/packages/1c/b0/1492bb9c8d4fb5a69a07b08aef751681e5b96125e8bfc4de308b85375713/m3u8_XZ-0.0.5.tar.gz
+[2023-06-06 14:10:36] INFO root fetch - processPackages [Flask-SimplePay]: Downloading https://files.pythonhosted.org/packages/03/65/6f38db1b336599a6cec4f835c78510928dceeb0e2d574fdb83d3b6233a20/Flask-SimplePay-1.1.tar.gz
+[2023-06-06 14:10:36] INFO root fetch - processPackages [blackboxopt]: Downloading https://files.pythonhosted.org/packages/fb/08/309102e1517d31acf68e69163e255250f21857535f4a2f65d0f15de0d438/blackboxopt-5.0.0.tar.gz
+[2023-06-06 14:10:36] INFO root fetch - processPackages [algokit-client-generator]: Downloading https://files.pythonhosted.org/packages/a0/8d/3973ec8ea53e614ab7429d1466449e55bc042e9cacd01c605d1e85f6d326/algokit_client_generator-0.1.1b1-py3-none-any.whl
+[2023-06-06 14:10:36] INFO root fetch - processPackages [django-cloudwatch-metrics]: executing diffoscope
+[2023-06-06 14:10:36] INFO root fetch - processPackages [django-cloudwatch-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cloudwatch_metrics-0.0.7.tar.gz tmp/django_cloudwatch_metrics-0.0.8.tar.gz --markdown 20230606/d/django-cloudwatch-metrics/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-06 14:10:36] INFO root fetch - processPackages [m3u8-XZ]: executing diffoscope
+[2023-06-06 14:10:36] INFO root fetch - processPackages [m3u8-XZ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m3u8_XZ-0.0.2.tar.gz tmp/m3u8_XZ-0.0.5.tar.gz --markdown 20230606/m/m3u8-XZ/0.0.2-0.0.5/diff.md --exclude *.pyd
+[2023-06-06 14:10:36] INFO root fetch - processPackages [frequenz-api-microgrid]: Downloading https://files.pythonhosted.org/packages/7d/25/73048cb580e84538a37db74fec832021f480a6c675cf50d5f85292cee4a7/frequenz-api-microgrid-0.15.0.tar.gz
+[2023-06-06 14:10:36] INFO root fetch - processPackages [queryandprocessdatautility]: Downloading https://files.pythonhosted.org/packages/dc/18/de6ee5fff1b47eae3227bc53bfc0e1cbd8796730d2c45800dd46e1c9d264/queryandprocessdatautility-0.0.9-py3-none-any.whl
+[2023-06-06 14:10:36] INFO root fetch - processPackages [blackboxopt]: executing diffoscope
+[2023-06-06 14:10:36] INFO root fetch - processPackages [blackboxopt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blackboxopt-4.9.1.tar.gz tmp/blackboxopt-5.0.0.tar.gz --markdown 20230606/b/blackboxopt/4.9.1-5.0.0/diff.md --exclude *.pyd
+[2023-06-06 14:10:36] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-06-06 14:10:36] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.1.0.0.dev5188112916.tar.gz tmp/th2_data_services_lwdp-2.1.0.0.dev5188264897.tar.gz --markdown 20230606/t/th2-data-services-lwdp/2.1.0.0.dev5188112916-2.1.0.0.dev5188264897/diff.md --exclude *.pyd
+[2023-06-06 14:10:36] INFO root fetch - processPackages [Flask-SimplePay]: executing diffoscope
+[2023-06-06 14:10:36] INFO root fetch - processPackages [Flask-SimplePay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-SimplePay-1.0.tar.gz tmp/Flask-SimplePay-1.1.tar.gz --markdown 20230606/F/Flask-SimplePay/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-06 14:10:36] INFO root fetch - processPackages [algokit-client-generator]: executing diffoscope
+[2023-06-06 14:10:36] INFO root fetch - processPackages [algokit-client-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_client_generator-0.1.0b8-py3-none-any.whl.zip tmp/algokit_client_generator-0.1.1b1-py3-none-any.whl.zip --markdown 20230606/a/algokit-client-generator/0.1.0b8-0.1.1b1/diff.md --exclude *.pyd
+[2023-06-06 14:10:36] INFO root fetch - processPackages [frequenz-api-microgrid]: executing diffoscope
+[2023-06-06 14:10:36] INFO root fetch - processPackages [frequenz-api-microgrid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequenz-api-microgrid-0.14.0.tar.gz tmp/frequenz-api-microgrid-0.15.0.tar.gz --markdown 20230606/f/frequenz-api-microgrid/0.14.0-0.15.0/diff.md --exclude *.pyd
+[2023-06-06 14:10:36] INFO root fetch - processPackages [queryandprocessdatautility]: executing diffoscope
+[2023-06-06 14:10:36] INFO root fetch - processPackages [queryandprocessdatautility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/queryandprocessdatautility-0.0.8-py3-none-any.whl.zip tmp/queryandprocessdatautility-0.0.9-py3-none-any.whl.zip --markdown 20230606/q/queryandprocessdatautility/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 14:10:36] INFO root fetch - processPackages [taxonomy-connector]: Downloading https://files.pythonhosted.org/packages/60/82/6933c49b21a0da5d910b384c5a3e2d4e588fb3ed4771a25beb40febc3ed4/taxonomy-connector-1.9.0.tar.gz
+[2023-06-06 14:10:36] INFO root fetch - processPackages [taxonomy-connector]: executing diffoscope
+[2023-06-06 14:10:36] INFO root fetch - processPackages [taxonomy-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/taxonomy-connector-1.8.0.tar.gz tmp/taxonomy-connector-1.9.0.tar.gz --markdown 20230606/t/taxonomy-connector/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-06 14:10:37] INFO root fetch - processPackages [m3u8-XZ]: Remove: archive file [/home/abi/fetcher/tmp/m3u8_XZ-0.0.2.tar.gz]
+[2023-06-06 14:10:37] INFO root fetch - processPackages [m3u8-XZ]: Remove: archive file [/home/abi/fetcher/tmp/m3u8_XZ-0.0.5.tar.gz]
+[2023-06-06 14:10:37] INFO root fetch - main [MainThread]: End processing [m3u8-XZ]: success
+[2023-06-06 14:10:38] INFO root fetch - processPackages [django-cloudwatch-metrics]: Remove: archive file [/home/abi/fetcher/tmp/django_cloudwatch_metrics-0.0.7.tar.gz]
+[2023-06-06 14:10:38] INFO root fetch - processPackages [django-cloudwatch-metrics]: Remove: archive file [/home/abi/fetcher/tmp/django_cloudwatch_metrics-0.0.8.tar.gz]
+[2023-06-06 14:10:38] INFO root fetch - main [MainThread]: End processing [django-cloudwatch-metrics]: success
+[2023-06-06 14:10:38] INFO root fetch - processPackages [algokit-client-generator]: Remove: archive file [/home/abi/fetcher/tmp/algokit_client_generator-0.1.0b8-py3-none-any.whl.zip]
+[2023-06-06 14:10:38] INFO root fetch - processPackages [algokit-client-generator]: Remove: archive file [/home/abi/fetcher/tmp/algokit_client_generator-0.1.1b1-py3-none-any.whl.zip]
+[2023-06-06 14:10:38] INFO root fetch - main [MainThread]: End processing [algokit-client-generator]: success
+[2023-06-06 14:10:38] INFO root fetch - processPackages [queryandprocessdatautility]: Remove: archive file [/home/abi/fetcher/tmp/queryandprocessdatautility-0.0.8-py3-none-any.whl.zip]
+[2023-06-06 14:10:38] INFO root fetch - processPackages [queryandprocessdatautility]: Remove: archive file [/home/abi/fetcher/tmp/queryandprocessdatautility-0.0.9-py3-none-any.whl.zip]
+[2023-06-06 14:10:38] INFO root fetch - main [MainThread]: End processing [queryandprocessdatautility]: success
+[2023-06-06 14:10:38] INFO root fetch - processPackages [Flask-SimplePay]: Remove: archive file [/home/abi/fetcher/tmp/Flask-SimplePay-1.0.tar.gz]
+[2023-06-06 14:10:38] INFO root fetch - processPackages [Flask-SimplePay]: Remove: archive file [/home/abi/fetcher/tmp/Flask-SimplePay-1.1.tar.gz]
+[2023-06-06 14:10:38] INFO root fetch - main [MainThread]: End processing [Flask-SimplePay]: success
+[2023-06-06 14:10:38] INFO root fetch - processPackages [taxonomy-connector]: Remove: archive file [/home/abi/fetcher/tmp/taxonomy-connector-1.8.0.tar.gz]
+[2023-06-06 14:10:38] INFO root fetch - processPackages [taxonomy-connector]: Remove: archive file [/home/abi/fetcher/tmp/taxonomy-connector-1.9.0.tar.gz]
+[2023-06-06 14:10:38] INFO root fetch - main [MainThread]: End processing [taxonomy-connector]: success
+[2023-06-06 14:10:38] INFO root fetch - processPackages [blackboxopt]: Remove: archive file [/home/abi/fetcher/tmp/blackboxopt-4.9.1.tar.gz]
+[2023-06-06 14:10:38] INFO root fetch - processPackages [blackboxopt]: Remove: archive file [/home/abi/fetcher/tmp/blackboxopt-5.0.0.tar.gz]
+[2023-06-06 14:10:38] INFO root fetch - main [MainThread]: End processing [blackboxopt]: success
+[2023-06-06 14:10:38] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5188112916.tar.gz]
+[2023-06-06 14:10:38] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5188264897.tar.gz]
+[2023-06-06 14:10:38] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-06-06 14:10:41] INFO root fetch - processPackages [frequenz-api-microgrid]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-api-microgrid-0.14.0.tar.gz]
+[2023-06-06 14:10:41] INFO root fetch - processPackages [frequenz-api-microgrid]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-api-microgrid-0.15.0.tar.gz]
+[2023-06-06 14:10:41] INFO root fetch - main [MainThread]: End processing [frequenz-api-microgrid]: success
+[2023-06-06 14:10:41] INFO root fetch - main [MainThread]: Store serial: [18390974]
