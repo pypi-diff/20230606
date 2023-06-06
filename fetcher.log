@@ -15086,3 +15086,139 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 09:23:20] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
 [2023-06-06 09:23:20] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
 [2023-06-06 09:23:20] INFO root fetch - main [MainThread]: Store serial: [18387891]
+[2023-06-06 09:28:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18387891]
+[2023-06-06 09:28:29] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-06 09:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ecl2df
+[2023-06-06 09:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: qpd
+[2023-06-06 09:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: openqr
+[2023-06-06 09:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pepperize.cdk-terraform-state-backend
+[2023-06-06 09:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mercury-engine-data-structures
+[2023-06-06 09:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: microviewer
+[2023-06-06 09:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: shaggy
+[2023-06-06 09:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hexlet-code-frisson-version-0-0-2
+[2023-06-06 09:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-06 09:28:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: superpowered-sdk
+[2023-06-06 09:28:29] INFO root fetch - processPackages [qpd]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-06 09:28:29] INFO root fetch - processPackages [mercury-engine-data-structures]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-06-06 09:28:29] WARNING root fetch - processPackages [hexlet-code-frisson-version-0-0-2]: Skipping, unable to determine old version
+[2023-06-06 09:28:29] INFO root fetch - processPackages [ecl2df]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-06 09:28:29] INFO root fetch - processPackages [hexlet-code-frisson-version-0-0-2]: Start processing: color-palette-extract
+[2023-06-06 09:28:29] INFO root fetch - main [MainThread]: End processing [hexlet-code-frisson-version-0-0-2] error
+[2023-06-06 09:28:29] WARNING root fetch - processPackages [microviewer]: Skipping, unable to determine old version
+[2023-06-06 09:28:29] INFO root fetch - processPackages [microviewer]: Start processing: qwak-core
+[2023-06-06 09:28:29] WARNING root fetch - processPackages [openqr]: Skipping, unable to determine old version
+[2023-06-06 09:28:29] INFO root fetch - main [MainThread]: End processing [microviewer] error
+[2023-06-06 09:28:29] INFO root fetch - processPackages [shaggy]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-06 09:28:29] INFO root fetch - processPackages [superpowered-sdk]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-06 09:28:29] INFO root fetch - processPackages [openqr]: Start processing: zhousf-lib
+[2023-06-06 09:28:29] INFO root fetch - main [MainThread]: End processing [openqr] error
+[2023-06-06 09:28:29] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-06 09:28:29] INFO root fetch - processPackages [zhousf-lib]: New version: [0.5.3] Old Version: [0.5.2]
+[2023-06-06 09:28:29] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-06 09:28:29] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-06 09:28:29] INFO root fetch - processPackages [color-palette-extract]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-06 09:28:29] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/67/44/1dba32653c7525f0fbd8908ad6d202d1043a5fcb6cf364972a4c23bffeac/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz
+[2023-06-06 09:28:29] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-06-06 09:28:29] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-06 09:28:29] INFO root fetch - processPackages [shaggy]: Downloading https://files.pythonhosted.org/packages/e2/97/0c0fc7648bf791c55e4b740cbc83317be6cf9dd4c0dd765c74d045f5713e/shaggy-1.0.7.tar.gz
+[2023-06-06 09:28:29] INFO root fetch - processPackages [mercury-engine-data-structures]: Downloading https://files.pythonhosted.org/packages/39/e0/fc744921b150b00c8ddb23acc3afb33cffac60d0ba7554589364c746e51a/mercury-engine-data-structures-0.9.5.tar.gz
+[2023-06-06 09:28:29] INFO root fetch - processPackages [qpd]: Downloading https://files.pythonhosted.org/packages/40/df/9476d41c38587f41fb963e6ea5accd263a10734c881447d8ee8bcf2cc90d/qpd-0.4.1.tar.gz
+[2023-06-06 09:28:29] INFO root fetch - processPackages [superpowered-sdk]: Downloading https://files.pythonhosted.org/packages/12/d1/34431f361e9c9433b3e4ef20bad9ed4e0568ae6d06a2ce4bb0b35bc3d3fa/superpowered-sdk-0.1.5.tar.gz
+[2023-06-06 09:28:29] INFO root fetch - processPackages [color-palette-extract]: Downloading https://files.pythonhosted.org/packages/a3/fb/bc5c830ab9fe70cb2f24ac037902534a188d6f1baa5ac9580372f2426f4c/color_palette_extract-0.4.0.tar.gz
+[2023-06-06 09:28:29] INFO root fetch - processPackages [ecl2df]: Downloading https://files.pythonhosted.org/packages/80/0f/aa87178812793792f3312ce035d2ab930c59b917032308e951023484ab2d/ecl2df-0.9.0.tar.gz
+[2023-06-06 09:28:29] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/00/c8/bebc47e1dabf5b7d0683f5bb3a012e5c0e1e0f624606ff2cc1cf64c2f984/zhousf-lib-0.5.2.tar.gz
+[2023-06-06 09:28:30] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-06-06 09:28:30] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Downloading https://files.pythonhosted.org/packages/49/e5/a2d418e8a59e46c739ecaa72adebcb65d676b8149513d576b8cd05d6324e/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz
+[2023-06-06 09:28:30] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-06 09:28:30] WARNING root fetch - processPackages [ecl2df]: Skipping package: exceeds size limit 11778127>=10485760
+[2023-06-06 09:28:30] INFO root fetch - processPackages [ecl2df]: Start processing: datagen-protocol-core
+[2023-06-06 09:28:30] INFO root fetch - main [MainThread]: End processing [ecl2df] error
+[2023-06-06 09:28:30] INFO root fetch - processPackages [datagen-protocol-core]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-06 09:28:30] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-06-06 09:28:30] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230606/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-06 09:28:30] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: executing diffoscope
+[2023-06-06 09:28:30] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz --markdown 20230606/p/pepperize.cdk-terraform-state-backend/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-06 09:28:30] INFO root fetch - processPackages [shaggy]: Downloading https://files.pythonhosted.org/packages/6d/c7/49e675e2d1afffa00785e6eb34af260b6e8bff57cdb5a6fcdaff7147b6ea/shaggy-1.0.8.tar.gz
+[2023-06-06 09:28:30] INFO root fetch - processPackages [color-palette-extract]: Downloading https://files.pythonhosted.org/packages/dc/26/05777fc4ff610a097c510f149016c903c9bb3e5e318c6b5390b37504fca1/color_palette_extract-0.5.0.tar.gz
+[2023-06-06 09:28:30] INFO root fetch - processPackages [superpowered-sdk]: Downloading https://files.pythonhosted.org/packages/db/4c/a26b19350f1c20ee24575dcc5eaddc98631b078563878a02c1e93c868d91/superpowered-sdk-0.1.6.tar.gz
+[2023-06-06 09:28:30] INFO root fetch - processPackages [qpd]: Downloading https://files.pythonhosted.org/packages/63/c8/93fdcc3e17155bc7ee65204feb65da6920e29858a22046e6d5e6c6368f5b/qpd-0.4.2.tar.gz
+[2023-06-06 09:28:30] INFO root fetch - processPackages [mercury-engine-data-structures]: Downloading https://files.pythonhosted.org/packages/ea/9a/111001b9a671be0e6b9e31841e0e275f2d5098f85da2d1421181c36e046a/mercury-engine-data-structures-0.9.6.tar.gz
+[2023-06-06 09:28:30] WARNING root fetch - processPackages [zhousf-lib]: Skipping package: exceeds size limit 14947333>=10485760
+[2023-06-06 09:28:30] INFO root fetch - processPackages [zhousf-lib]: Start processing: datagen-protocol-functional
+[2023-06-06 09:28:30] INFO root fetch - main [MainThread]: End processing [zhousf-lib] error
+[2023-06-06 09:28:30] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-06 09:28:30] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230606/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-06 09:28:30] INFO root fetch - processPackages [shaggy]: executing diffoscope
+[2023-06-06 09:28:30] INFO root fetch - processPackages [shaggy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shaggy-1.0.7.tar.gz tmp/shaggy-1.0.8.tar.gz --markdown 20230606/s/shaggy/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-06 09:28:30] INFO root fetch - processPackages [datagen-protocol-functional]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-06 09:28:30] INFO root fetch - processPackages [superpowered-sdk]: executing diffoscope
+[2023-06-06 09:28:30] INFO root fetch - processPackages [superpowered-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superpowered-sdk-0.1.5.tar.gz tmp/superpowered-sdk-0.1.6.tar.gz --markdown 20230606/s/superpowered-sdk/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-06 09:28:30] INFO root fetch - processPackages [qpd]: executing diffoscope
+[2023-06-06 09:28:30] INFO root fetch - processPackages [qpd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qpd-0.4.1.tar.gz tmp/qpd-0.4.2.tar.gz --markdown 20230606/q/qpd/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-06 09:28:30] INFO root fetch - processPackages [color-palette-extract]: executing diffoscope
+[2023-06-06 09:28:30] INFO root fetch - processPackages [color-palette-extract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/color_palette_extract-0.4.0.tar.gz tmp/color_palette_extract-0.5.0.tar.gz --markdown 20230606/c/color-palette-extract/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-06 09:28:30] INFO root fetch - processPackages [datagen-protocol-core]: Downloading https://files.pythonhosted.org/packages/57/59/4ebf774c106dcbc6271c9a2652fbee9da94442550053ee65c293393490a5/datagen_protocol_core-0.8.3.tar.gz
+[2023-06-06 09:28:30] INFO root fetch - processPackages [mercury-engine-data-structures]: executing diffoscope
+[2023-06-06 09:28:30] INFO root fetch - processPackages [mercury-engine-data-structures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-engine-data-structures-0.9.5.tar.gz tmp/mercury-engine-data-structures-0.9.6.tar.gz --markdown 20230606/m/mercury-engine-data-structures/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-06-06 09:28:30] INFO root fetch - processPackages [datagen-protocol-functional]: Downloading https://files.pythonhosted.org/packages/73/cf/d72a66b042acdd5ce2d20ac72a57d6124200bdf5b8e1b6b0585cde8d7aa7/datagen_protocol_functional-0.8.3.tar.gz
+[2023-06-06 09:28:30] INFO root fetch - processPackages [datagen-protocol-core]: Downloading https://files.pythonhosted.org/packages/39/74/f7713c45abf230a8f0db23c6c02f5d5d0b5203573afa931ed6d67228a510/datagen_protocol_core-0.9.0.tar.gz
+[2023-06-06 09:28:30] INFO root fetch - processPackages [datagen-protocol-core]: executing diffoscope
+[2023-06-06 09:28:30] INFO root fetch - processPackages [datagen-protocol-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagen_protocol_core-0.8.3.tar.gz tmp/datagen_protocol_core-0.9.0.tar.gz --markdown 20230606/d/datagen-protocol-core/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-06 09:28:30] INFO root fetch - processPackages [datagen-protocol-functional]: Downloading https://files.pythonhosted.org/packages/3e/52/fdba1e8d2d19879e3ab38685476d5b3a3dfca41ba6b919505acc733cfe8c/datagen_protocol_functional-0.9.0.tar.gz
+[2023-06-06 09:28:30] INFO root fetch - processPackages [datagen-protocol-functional]: executing diffoscope
+[2023-06-06 09:28:30] INFO root fetch - processPackages [datagen-protocol-functional]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagen_protocol_functional-0.8.3.tar.gz tmp/datagen_protocol_functional-0.9.0.tar.gz --markdown 20230606/d/datagen-protocol-functional/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-06 09:28:31] INFO root fetch - processPackages [shaggy]: Remove: archive file [/home/abi/fetcher/tmp/shaggy-1.0.7.tar.gz]
+[2023-06-06 09:28:31] INFO root fetch - processPackages [shaggy]: Remove: archive file [/home/abi/fetcher/tmp/shaggy-1.0.8.tar.gz]
+[2023-06-06 09:28:31] INFO root fetch - processPackages [shaggy]: Start processing: datagen-validation-protocol
+[2023-06-06 09:28:31] INFO root fetch - main [MainThread]: End processing [shaggy]: success
+[2023-06-06 09:28:31] INFO root fetch - processPackages [datagen-validation-protocol]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-06-06 09:28:31] INFO root fetch - processPackages [datagen-validation-protocol]: Downloading https://files.pythonhosted.org/packages/73/e7/1ffbff7f1f243699f2a7cd2ace260907e7e5c1149d4c4f05639125d4887c/datagen_validation_protocol-0.8.3.tar.gz
+[2023-06-06 09:28:32] INFO root fetch - processPackages [superpowered-sdk]: Remove: archive file [/home/abi/fetcher/tmp/superpowered-sdk-0.1.5.tar.gz]
+[2023-06-06 09:28:32] INFO root fetch - processPackages [superpowered-sdk]: Remove: archive file [/home/abi/fetcher/tmp/superpowered-sdk-0.1.6.tar.gz]
+[2023-06-06 09:28:32] INFO root fetch - processPackages [superpowered-sdk]: Start processing: plantpathoppi-ml
+[2023-06-06 09:28:32] INFO root fetch - main [MainThread]: End processing [superpowered-sdk]: success
+[2023-06-06 09:28:32] WARNING root fetch - processPackages [plantpathoppi-ml]: Skipping, unable to determine old version
+[2023-06-06 09:28:32] INFO root fetch - processPackages [color-palette-extract]: Remove: archive file [/home/abi/fetcher/tmp/color_palette_extract-0.4.0.tar.gz]
+[2023-06-06 09:28:32] INFO root fetch - processPackages [plantpathoppi-ml]: Start processing: human-name-parser
+[2023-06-06 09:28:32] INFO root fetch - main [MainThread]: End processing [plantpathoppi-ml] error
+[2023-06-06 09:28:32] INFO root fetch - processPackages [color-palette-extract]: Remove: archive file [/home/abi/fetcher/tmp/color_palette_extract-0.5.0.tar.gz]
+[2023-06-06 09:28:32] INFO root fetch - processPackages [color-palette-extract]: Start processing: mads-datasets
+[2023-06-06 09:28:32] INFO root fetch - main [MainThread]: End processing [color-palette-extract]: success
+[2023-06-06 09:28:32] INFO root fetch - processPackages [qpd]: Remove: archive file [/home/abi/fetcher/tmp/qpd-0.4.1.tar.gz]
+[2023-06-06 09:28:32] INFO root fetch - processPackages [qpd]: Remove: archive file [/home/abi/fetcher/tmp/qpd-0.4.2.tar.gz]
+[2023-06-06 09:28:32] INFO root fetch - main [MainThread]: End processing [qpd]: success
+[2023-06-06 09:28:32] WARNING root fetch - processPackages [mads-datasets]: Skipping, unable to determine old version
+[2023-06-06 09:28:32] INFO root fetch - processPackages [human-name-parser]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-06 09:28:32] INFO root fetch - main [MainThread]: End processing [mads-datasets] error
+[2023-06-06 09:28:32] INFO root fetch - processPackages [datagen-validation-protocol]: Downloading https://files.pythonhosted.org/packages/43/94/0d069cac7f9b7e0f430c6f1ddd8e7af9e56e43aa6cab0054e71e9b067dc8/datagen_validation_protocol-0.9.0.tar.gz
+[2023-06-06 09:28:32] INFO root fetch - processPackages [datagen-validation-protocol]: executing diffoscope
+[2023-06-06 09:28:32] INFO root fetch - processPackages [datagen-validation-protocol]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datagen_validation_protocol-0.8.3.tar.gz tmp/datagen_validation_protocol-0.9.0.tar.gz --markdown 20230606/d/datagen-validation-protocol/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-06-06 09:28:32] INFO root fetch - processPackages [datagen-protocol-core]: Remove: archive file [/home/abi/fetcher/tmp/datagen_protocol_core-0.8.3.tar.gz]
+[2023-06-06 09:28:32] INFO root fetch - processPackages [datagen-protocol-core]: Remove: archive file [/home/abi/fetcher/tmp/datagen_protocol_core-0.9.0.tar.gz]
+[2023-06-06 09:28:32] INFO root fetch - main [MainThread]: End processing [datagen-protocol-core]: success
+[2023-06-06 09:28:32] INFO root fetch - processPackages [human-name-parser]: Downloading https://files.pythonhosted.org/packages/db/f9/6abfaff9bdaaa187ff228576ea947f9f44a06558ce36232d796e4e6e2419/human_name_parser-0.3.0.tar.gz
+[2023-06-06 09:28:32] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.98.tar.gz]
+[2023-06-06 09:28:32] INFO root fetch - processPackages [pepperize.cdk-terraform-state-backend]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-terraform-state-backend-0.1.99.tar.gz]
+[2023-06-06 09:28:32] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-terraform-state-backend]: success
+[2023-06-06 09:28:32] INFO root fetch - processPackages [datagen-protocol-functional]: Remove: archive file [/home/abi/fetcher/tmp/datagen_protocol_functional-0.8.3.tar.gz]
+[2023-06-06 09:28:32] INFO root fetch - processPackages [datagen-protocol-functional]: Remove: archive file [/home/abi/fetcher/tmp/datagen_protocol_functional-0.9.0.tar.gz]
+[2023-06-06 09:28:32] INFO root fetch - main [MainThread]: End processing [datagen-protocol-functional]: success
+[2023-06-06 09:28:32] INFO root fetch - processPackages [human-name-parser]: Downloading https://files.pythonhosted.org/packages/91/34/3fe329521f75d9a854c97aa24cb9c2593630e77e0cec68b46a445f6a1fa4/human_name_parser-0.4.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-06-06 09:28:32] INFO root fetch - processPackages [mercury-engine-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/mercury-engine-data-structures-0.9.5.tar.gz]
+[2023-06-06 09:28:32] INFO root fetch - processPackages [mercury-engine-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/mercury-engine-data-structures-0.9.6.tar.gz]
+[2023-06-06 09:28:32] INFO root fetch - main [MainThread]: End processing [mercury-engine-data-structures]: success
+[2023-06-06 09:28:33] INFO root fetch - processPackages [human-name-parser]: executing diffoscope
+[2023-06-06 09:28:33] INFO root fetch - processPackages [human-name-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/human_name_parser-0.3.0.tar.gz tmp/human_name_parser-0.4.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20230606/h/human-name-parser/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-06 09:28:33] INFO root fetch - processPackages [datagen-validation-protocol]: Remove: archive file [/home/abi/fetcher/tmp/datagen_validation_protocol-0.8.3.tar.gz]
+[2023-06-06 09:28:33] INFO root fetch - processPackages [datagen-validation-protocol]: Remove: archive file [/home/abi/fetcher/tmp/datagen_validation_protocol-0.9.0.tar.gz]
+[2023-06-06 09:28:33] INFO root fetch - main [MainThread]: End processing [datagen-validation-protocol]: success
+[2023-06-06 09:28:34] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-06 09:28:34] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-06 09:28:34] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-06 09:28:34] INFO root fetch - processPackages [human-name-parser]: Remove: archive file [/home/abi/fetcher/tmp/human_name_parser-0.3.0.tar.gz]
+[2023-06-06 09:28:34] INFO root fetch - processPackages [human-name-parser]: Remove: archive file [/home/abi/fetcher/tmp/human_name_parser-0.4.0-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2023-06-06 09:28:34] INFO root fetch - main [MainThread]: End processing [human-name-parser]: success
+[2023-06-06 09:28:37] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-06-06 09:28:37] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-06-06 09:28:37] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-06-06 09:28:37] INFO root fetch - main [MainThread]: Store serial: [18387977]
