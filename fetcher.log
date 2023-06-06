@@ -16650,3 +16650,163 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-06 10:19:32] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230606081421.tar.gz]
 [2023-06-06 10:19:32] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-06-06 10:19:32] INFO root fetch - main [MainThread]: Store serial: [18388527]
+[2023-06-06 10:24:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18388527]
+[2023-06-06 10:24:41] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-06-06 10:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gaiaFramework
+[2023-06-06 10:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ifd-python
+[2023-06-06 10:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eventail
+[2023-06-06 10:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libzac
+[2023-06-06 10:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: libzac
+[2023-06-06 10:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: eqdata-generator
+[2023-06-06 10:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: jalali-calendar-cli
+[2023-06-06 10:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: antgo
+[2023-06-06 10:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: typst-sympy-calculator
+[2023-06-06 10:24:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ccdt
+[2023-06-06 10:24:41] INFO root fetch - processPackages [ifd-python]: New version: [10.1.9] Old Version: [10.1.8]
+[2023-06-06 10:24:41] INFO root fetch - processPackages [eventail]: New version: [2.2.5] Old Version: [2.2.4]
+[2023-06-06 10:24:41] INFO root fetch - processPackages [libzac]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-06 10:24:41] INFO root fetch - processPackages [typst-sympy-calculator]: New version: [0.4.8] Old Version: [0.4.7]
+[2023-06-06 10:24:41] INFO root fetch - processPackages [libzac]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-06 10:24:41] INFO root fetch - processPackages [eqdata-generator]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-06 10:24:41] INFO root fetch - processPackages [gaiaFramework]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-06 10:24:41] INFO root fetch - processPackages [jalali-calendar-cli]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-06 10:24:41] INFO root fetch - processPackages [ccdt]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-06-06 10:24:41] INFO root fetch - processPackages [antgo]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 10:24:41] INFO root fetch - processPackages [jalali-calendar-cli]: Downloading https://files.pythonhosted.org/packages/ba/78/30b5883a50d750fe21982a5efcb3d79b2fc87651d9b2011bc89482c9b552/jalali_calendar_cli-0.1.2.tar.gz
+[2023-06-06 10:24:41] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/4b/74/4580a005cbe4f6dc4e16ce3a9feb5716c4cf901b4839d048dfff2001ee3d/ccdt-2.1.8.tar.gz
+[2023-06-06 10:24:41] INFO root fetch - processPackages [antgo]: Downloading https://files.pythonhosted.org/packages/d4/02/7dd0f15cfae2daf6c2c1f9f3209dc76bca34c8189cfef43c75596ecbb8a1/antgo-0.1.8.tar.gz
+[2023-06-06 10:24:41] INFO root fetch - processPackages [ifd-python]: Downloading https://files.pythonhosted.org/packages/46/22/d5d63cc2de3ec7fdba02b2da8390211c1c144b370607ef7fbdef4992fc50/ifd_python-10.1.8.tar.gz
+[2023-06-06 10:24:42] INFO root fetch - processPackages [libzac]: Downloading https://files.pythonhosted.org/packages/70/03/238803477bd95e940fa6fd27b221ed18790032ec472b72c980d0152200e3/libzac-0.0.6-py3-none-any.whl
+[2023-06-06 10:24:42] INFO root fetch - processPackages [libzac]: Downloading https://files.pythonhosted.org/packages/70/03/238803477bd95e940fa6fd27b221ed18790032ec472b72c980d0152200e3/libzac-0.0.6-py3-none-any.whl
+[2023-06-06 10:24:42] INFO root fetch - processPackages [eventail]: Downloading https://files.pythonhosted.org/packages/93/e2/691f7d93c1027be6770d61cdeb5c02e6d95a284521a8be90c6f54374a9d1/eventail-2.2.4.tar.gz
+[2023-06-06 10:24:42] INFO root fetch - processPackages [eqdata-generator]: Downloading https://files.pythonhosted.org/packages/d8/21/f89d849204c2bd5f3c76a0773f7528cab0c02388cd5d1d75b17f59dfff39/eqdata-generator-0.0.1.tar.gz
+[2023-06-06 10:24:42] INFO root fetch - processPackages [gaiaFramework]: Downloading https://files.pythonhosted.org/packages/7d/31/d623b9c56c81d19a4de121c99750fbb5e7c9904c9f5bcee4b87e39922ece/gaiaFramework-1.0.8.tar.gz
+[2023-06-06 10:24:42] INFO root fetch - processPackages [ccdt]: Downloading https://files.pythonhosted.org/packages/d5/f2/7926d58fa933cd6e8d4ce55e92df2097043f323dba456534345b8dd248c1/ccdt-2.1.9.tar.gz
+[2023-06-06 10:24:42] INFO root fetch - processPackages [typst-sympy-calculator]: Downloading https://files.pythonhosted.org/packages/da/0b/92a6e67ba07509310acb96f908d2efeb57f94c8882d55036ca1848205d82/typst_sympy_calculator-0.4.7-py3-none-any.whl
+[2023-06-06 10:24:42] INFO root fetch - processPackages [ccdt]: executing diffoscope
+[2023-06-06 10:24:42] INFO root fetch - processPackages [ccdt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ccdt-2.1.8.tar.gz tmp/ccdt-2.1.9.tar.gz --markdown 20230606/c/ccdt/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-06-06 10:24:42] INFO root fetch - processPackages [ifd-python]: Downloading https://files.pythonhosted.org/packages/d5/2f/63e7b5ecff0b1ff2d13c4a7301c45fe91ff57e14308f699d2a8df4254c99/ifd_python-10.1.9.tar.gz
+[2023-06-06 10:24:42] INFO root fetch - processPackages [jalali-calendar-cli]: Downloading https://files.pythonhosted.org/packages/48/a5/da800b18cc7cc0ecb554f2818278d976ad940afd18dfd79523b4ebb1f203/jalali_calendar_cli-0.1.3.tar.gz
+[2023-06-06 10:24:42] INFO root fetch - processPackages [libzac]: Downloading https://files.pythonhosted.org/packages/96/09/3f240500cd4b99b9a191e9af59f38f18e4af307cee5efcc2f56e8cd86dc6/libzac-0.0.7-py3-none-any.whl
+[2023-06-06 10:24:42] INFO root fetch - processPackages [libzac]: Downloading https://files.pythonhosted.org/packages/96/09/3f240500cd4b99b9a191e9af59f38f18e4af307cee5efcc2f56e8cd86dc6/libzac-0.0.7-py3-none-any.whl
+[2023-06-06 10:24:42] INFO root fetch - processPackages [antgo]: Downloading https://files.pythonhosted.org/packages/38/2f/ef193c860f0d6f7d47317818323685ddea7f9bcff16e96382a4b5724db8d/antgo-0.1.9.tar.gz
+[2023-06-06 10:24:42] INFO root fetch - processPackages [eventail]: Downloading https://files.pythonhosted.org/packages/3d/51/63a92fe2ac84f2d3f1a8c38a6731451a47c3771ec20f0e3a43bec23b152e/eventail-2.2.5.tar.gz
+[2023-06-06 10:24:42] INFO root fetch - processPackages [eqdata-generator]: Downloading https://files.pythonhosted.org/packages/8b/93/285461cbbc023a81e676457afd952cbab01fc2d5861d446a8626a203d323/eqdata-generator-0.0.2.tar.gz
+[2023-06-06 10:24:42] INFO root fetch - processPackages [ifd-python]: executing diffoscope
+[2023-06-06 10:24:42] INFO root fetch - processPackages [ifd-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ifd_python-10.1.8.tar.gz tmp/ifd_python-10.1.9.tar.gz --markdown 20230606/i/ifd-python/10.1.8-10.1.9/diff.md --exclude *.pyd
+[2023-06-06 10:24:42] INFO root fetch - processPackages [jalali-calendar-cli]: executing diffoscope
+[2023-06-06 10:24:42] INFO root fetch - processPackages [jalali-calendar-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jalali_calendar_cli-0.1.2.tar.gz tmp/jalali_calendar_cli-0.1.3.tar.gz --markdown 20230606/j/jalali-calendar-cli/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-06 10:24:42] INFO root fetch - processPackages [eventail]: executing diffoscope
+[2023-06-06 10:24:42] INFO root fetch - processPackages [eventail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eventail-2.2.4.tar.gz tmp/eventail-2.2.5.tar.gz --markdown 20230606/e/eventail/2.2.4-2.2.5/diff.md --exclude *.pyd
+[2023-06-06 10:24:42] INFO root fetch - processPackages [eqdata-generator]: executing diffoscope
+[2023-06-06 10:24:42] INFO root fetch - processPackages [eqdata-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eqdata-generator-0.0.1.tar.gz tmp/eqdata-generator-0.0.2.tar.gz --markdown 20230606/e/eqdata-generator/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-06 10:24:42] INFO root fetch - processPackages [gaiaFramework]: Downloading https://files.pythonhosted.org/packages/8a/6a/7e1b5292c38185a28ac09beb052442740b1217ef8bbc97a594fc4cbb0bb3/gaiaFramework-1.0.9.tar.gz
+[2023-06-06 10:24:42] INFO root fetch - processPackages [libzac]: executing diffoscope
+[2023-06-06 10:24:42] INFO root fetch - processPackages [libzac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libzac-0.0.6-py3-none-any.whl.zip tmp/libzac-0.0.7-py3-none-any.whl.zip --markdown 20230606/l/libzac/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-06 10:24:42] INFO root fetch - processPackages [libzac]: executing diffoscope
+[2023-06-06 10:24:42] INFO root fetch - processPackages [libzac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libzac-0.0.6-py3-none-any.whl.zip tmp/libzac-0.0.7-py3-none-any.whl.zip --markdown 20230606/l/libzac/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-06 10:24:42] INFO root fetch - processPackages [typst-sympy-calculator]: Downloading https://files.pythonhosted.org/packages/bf/1c/17273d32230b09f4a3e9ecbd6fdbd0e31b34c596dfda184993db66fe10db/typst_sympy_calculator-0.4.8-py3-none-any.whl
+[2023-06-06 10:24:42] INFO root fetch - processPackages [antgo]: executing diffoscope
+[2023-06-06 10:24:42] INFO root fetch - processPackages [antgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antgo-0.1.8.tar.gz tmp/antgo-0.1.9.tar.gz --markdown 20230606/a/antgo/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 10:24:42] INFO root fetch - processPackages [gaiaFramework]: executing diffoscope
+[2023-06-06 10:24:42] INFO root fetch - processPackages [gaiaFramework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaiaFramework-1.0.8.tar.gz tmp/gaiaFramework-1.0.9.tar.gz --markdown 20230606/g/gaiaFramework/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-06 10:24:42] INFO root fetch - processPackages [typst-sympy-calculator]: executing diffoscope
+[2023-06-06 10:24:42] INFO root fetch - processPackages [typst-sympy-calculator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typst_sympy_calculator-0.4.7-py3-none-any.whl.zip tmp/typst_sympy_calculator-0.4.8-py3-none-any.whl.zip --markdown 20230606/t/typst-sympy-calculator/0.4.7-0.4.8/diff.md --exclude *.pyd
+[2023-06-06 10:24:43] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.8.tar.gz]
+[2023-06-06 10:24:43] INFO root fetch - processPackages [ccdt]: Remove: archive file [/home/abi/fetcher/tmp/ccdt-2.1.9.tar.gz]
+[2023-06-06 10:24:43] INFO root fetch - processPackages [ccdt]: Start processing: diveplane-local
+[2023-06-06 10:24:43] INFO root fetch - main [MainThread]: End processing [ccdt]: success
+[2023-06-06 10:24:43] WARNING root fetch - processPackages [diveplane-local]: Skipping, unable to determine old version
+[2023-06-06 10:24:43] INFO root fetch - processPackages [diveplane-local]: Start processing: aiotieba
+[2023-06-06 10:24:43] INFO root fetch - main [MainThread]: End processing [diveplane-local] error
+[2023-06-06 10:24:43] INFO root fetch - processPackages [aiotieba]: New version: [3.4.3] Old Version: [3.4.2]
+[2023-06-06 10:24:43] INFO root fetch - processPackages [eqdata-generator]: Remove: archive file [/home/abi/fetcher/tmp/eqdata-generator-0.0.1.tar.gz]
+[2023-06-06 10:24:43] INFO root fetch - processPackages [eqdata-generator]: Remove: archive file [/home/abi/fetcher/tmp/eqdata-generator-0.0.2.tar.gz]
+[2023-06-06 10:24:43] INFO root fetch - processPackages [eqdata-generator]: Start processing: hsfs
+[2023-06-06 10:24:43] INFO root fetch - main [MainThread]: End processing [eqdata-generator]: success
+[2023-06-06 10:24:44] INFO root fetch - processPackages [hsfs]: New version: [3.2.0rc3] Old Version: [3.2.0rc2]
+[2023-06-06 10:24:44] INFO root fetch - processPackages [aiotieba]: Downloading https://files.pythonhosted.org/packages/b7/ee/be7575c4315ff0c8f4de319507e418c4dcb070c7d12cb1ba9153f7540a50/aiotieba-3.4.2-pp39-pypy39_pp73-win_amd64.whl
+[2023-06-06 10:24:44] INFO root fetch - processPackages [jalali-calendar-cli]: Remove: archive file [/home/abi/fetcher/tmp/jalali_calendar_cli-0.1.2.tar.gz]
+[2023-06-06 10:24:44] INFO root fetch - processPackages [jalali-calendar-cli]: Remove: archive file [/home/abi/fetcher/tmp/jalali_calendar_cli-0.1.3.tar.gz]
+[2023-06-06 10:24:44] INFO root fetch - processPackages [jalali-calendar-cli]: Start processing: dipex
+[2023-06-06 10:24:44] INFO root fetch - main [MainThread]: End processing [jalali-calendar-cli]: success
+[2023-06-06 10:24:44] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-06-06 10:24:44] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/ca/fb/bcdbc34d4ffff4b37acd3e2fb76f42bcea1844762d4b998c319652fc6b38/dipex-4.9.1.tar.gz
+[2023-06-06 10:24:44] INFO root fetch - processPackages [hsfs]: Downloading https://files.pythonhosted.org/packages/58/b8/7d0c0f64bbbfb947bd8c3283854e847ac138700e53c91dcf8072abe1ab25/hsfs-3.2.0rc2.tar.gz
+[2023-06-06 10:24:44] INFO root fetch - processPackages [libzac]: Remove: archive file [/home/abi/fetcher/tmp/libzac-0.0.6-py3-none-any.whl.zip]
+[2023-06-06 10:24:44] INFO root fetch - processPackages [libzac]: Remove: archive file [/home/abi/fetcher/tmp/libzac-0.0.7-py3-none-any.whl.zip]
+[2023-06-06 10:24:44] INFO root fetch - processPackages [libzac]: Start processing: modelz-llm
+[2023-06-06 10:24:44] INFO root fetch - main [MainThread]: End processing [libzac]: success
+[2023-06-06 10:24:44] INFO root fetch - processPackages [ifd-python]: Remove: archive file [/home/abi/fetcher/tmp/ifd_python-10.1.8.tar.gz]
+[2023-06-06 10:24:44] INFO root fetch - processPackages [ifd-python]: Remove: archive file [/home/abi/fetcher/tmp/ifd_python-10.1.9.tar.gz]
+[2023-06-06 10:24:44] INFO root fetch - processPackages [ifd-python]: Start processing: mlflow-skinny
+[2023-06-06 10:24:44] INFO root fetch - main [MainThread]: End processing [ifd-python]: success
+[2023-06-06 10:24:44] INFO root fetch - processPackages [aiotieba]: Downloading https://files.pythonhosted.org/packages/1f/93/7d3b0eb66c376ac693ccc7e22baf5356982682493f655f80830b137548e0/aiotieba-3.4.3-pp39-pypy39_pp73-win_amd64.whl
+[2023-06-06 10:24:44] INFO root fetch - processPackages [modelz-llm]: New version: [23.6.7] Old Version: [23.6.6]
+[2023-06-06 10:24:44] INFO root fetch - processPackages [typst-sympy-calculator]: Remove: archive file [/home/abi/fetcher/tmp/typst_sympy_calculator-0.4.7-py3-none-any.whl.zip]
+[2023-06-06 10:24:44] INFO root fetch - processPackages [typst-sympy-calculator]: Remove: archive file [/home/abi/fetcher/tmp/typst_sympy_calculator-0.4.8-py3-none-any.whl.zip]
+[2023-06-06 10:24:44] INFO root fetch - processPackages [typst-sympy-calculator]: Start processing: th2-data-services-lwdp
+[2023-06-06 10:24:44] INFO root fetch - main [MainThread]: End processing [typst-sympy-calculator]: success
+[2023-06-06 10:24:44] INFO root fetch - processPackages [mlflow-skinny]: New version: [2.4.0] Old Version: [2.3.2]
+[2023-06-06 10:24:44] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.1.0.0.dev5178216018] Old Version: [2.1.0.0.dev5178040819]
+[2023-06-06 10:24:44] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/d3/fa/fbf692999f299bb256217f34df9cc1e4ee2f9e1ae9e87e051b2b8b92aaa1/dipex-4.9.2.tar.gz
+[2023-06-06 10:24:44] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/ad/e8/734fd99aa1627572514bd649eab063873786472eb8eb0153018991887c8f/th2_data_services_lwdp-2.1.0.0.dev5178040819.tar.gz
+[2023-06-06 10:24:44] INFO root fetch - processPackages [libzac]: Start processing: simplegoogleapi
+[2023-06-06 10:24:44] INFO root fetch - main [MainThread]: End processing [libzac]: success
+[2023-06-06 10:24:44] INFO root fetch - processPackages [hsfs]: Downloading https://files.pythonhosted.org/packages/ca/1e/cfe82140d5d23756acfed673498be6e0754135f2223dd5a828ab953a7386/hsfs-3.2.0rc3.tar.gz
+[2023-06-06 10:24:44] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/c4/bd/a68bd70c532aed237937a865269503ad222cb9dba02590baf3af1d01b90a/th2_data_services_lwdp-2.1.0.0.dev5178216018.tar.gz
+[2023-06-06 10:24:44] WARNING root fetch - processPackages [simplegoogleapi]: Skipping, unable to determine old version
+[2023-06-06 10:24:44] INFO root fetch - processPackages [simplegoogleapi]: Start processing: odoo-addon-l10n-es-aeat-mod347
+[2023-06-06 10:24:44] INFO root fetch - main [MainThread]: End processing [simplegoogleapi] error
+[2023-06-06 10:24:44] INFO root fetch - processPackages [mlflow-skinny]: Downloading https://files.pythonhosted.org/packages/d1/9a/8e7671e81df38a9dcc824eb9bbff9caf221e8df870843774edc46a9a2bad/mlflow-skinny-2.3.2.tar.gz
+[2023-06-06 10:24:44] INFO root fetch - processPackages [modelz-llm]: Downloading https://files.pythonhosted.org/packages/03/fa/1ff309453d9e2268378684325ea386facf0d267e71809175cc1c67db26dc/modelz-llm-23.6.6.tar.gz
+[2023-06-06 10:24:44] INFO root fetch - processPackages [hsfs]: executing diffoscope
+[2023-06-06 10:24:44] INFO root fetch - processPackages [hsfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hsfs-3.2.0rc2.tar.gz tmp/hsfs-3.2.0rc3.tar.gz --markdown 20230606/h/hsfs/3.2.0rc2-3.2.0rc3/diff.md --exclude *.pyd
+[2023-06-06 10:24:44] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: New version: [16.0.1.4.0] Old Version: [16.0.1.3.0.3]
+[2023-06-06 10:24:44] INFO root fetch - processPackages [aiotieba]: executing diffoscope
+[2023-06-06 10:24:44] INFO root fetch - processPackages [aiotieba]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotieba-3.4.2-pp39-pypy39_pp73-win_amd64.whl.zip tmp/aiotieba-3.4.3-pp39-pypy39_pp73-win_amd64.whl.zip --markdown 20230606/a/aiotieba/3.4.2-3.4.3/diff.md --exclude *.pyd
+[2023-06-06 10:24:44] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-06-06 10:24:44] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230606/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-06-06 10:24:44] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Downloading https://files.pythonhosted.org/packages/f9/94/5dd0c74d16e56ab993c47f4dfe868a4c243aae1567c062a7cfaf9e925d93/odoo_addon_l10n_es_aeat_mod347-16.0.1.3.0.3-py3-none-any.whl
+[2023-06-06 10:24:44] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-06-06 10:24:44] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.1.0.0.dev5178040819.tar.gz tmp/th2_data_services_lwdp-2.1.0.0.dev5178216018.tar.gz --markdown 20230606/t/th2-data-services-lwdp/2.1.0.0.dev5178040819-2.1.0.0.dev5178216018/diff.md --exclude *.pyd
+[2023-06-06 10:24:44] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Downloading https://files.pythonhosted.org/packages/25/84/79a350e723c103da0a69aceee56db48d2dadf9da988e2674f605176ccea9/odoo_addon_l10n_es_aeat_mod347-16.0.1.4.0-py3-none-any.whl
+[2023-06-06 10:24:44] INFO root fetch - processPackages [modelz-llm]: Downloading https://files.pythonhosted.org/packages/1c/10/4538aefc4fb88c27cabaf0822b3454717a35a475d48330a19017d86a3ad4/modelz-llm-23.6.7.tar.gz
+[2023-06-06 10:24:44] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: executing diffoscope
+[2023-06-06 10:24:44] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_aeat_mod347-16.0.1.3.0.3-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_aeat_mod347-16.0.1.4.0-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-l10n-es-aeat-mod347/16.0.1.3.0.3-16.0.1.4.0/diff.md --exclude *.pyd
+[2023-06-06 10:24:45] INFO root fetch - processPackages [mlflow-skinny]: Downloading https://files.pythonhosted.org/packages/7d/4d/ed8a32f091e4e1ef77cee5d35ff50650d242d4c3f1489ab322e0f5472f42/mlflow-skinny-2.4.0.tar.gz
+[2023-06-06 10:24:45] INFO root fetch - processPackages [modelz-llm]: executing diffoscope
+[2023-06-06 10:24:45] INFO root fetch - processPackages [modelz-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelz-llm-23.6.6.tar.gz tmp/modelz-llm-23.6.7.tar.gz --markdown 20230606/m/modelz-llm/23.6.6-23.6.7/diff.md --exclude *.pyd
+[2023-06-06 10:24:45] INFO root fetch - processPackages [eventail]: Remove: archive file [/home/abi/fetcher/tmp/eventail-2.2.4.tar.gz]
+[2023-06-06 10:24:45] INFO root fetch - processPackages [eventail]: Remove: archive file [/home/abi/fetcher/tmp/eventail-2.2.5.tar.gz]
+[2023-06-06 10:24:45] INFO root fetch - main [MainThread]: End processing [eventail]: success
+[2023-06-06 10:24:45] INFO root fetch - processPackages [mlflow-skinny]: executing diffoscope
+[2023-06-06 10:24:45] INFO root fetch - processPackages [mlflow-skinny]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlflow-skinny-2.3.2.tar.gz tmp/mlflow-skinny-2.4.0.tar.gz --markdown 20230606/m/mlflow-skinny/2.3.2-2.4.0/diff.md --exclude *.pyd
+[2023-06-06 10:24:45] INFO root fetch - processPackages [gaiaFramework]: Remove: archive file [/home/abi/fetcher/tmp/gaiaFramework-1.0.8.tar.gz]
+[2023-06-06 10:24:45] INFO root fetch - processPackages [gaiaFramework]: Remove: archive file [/home/abi/fetcher/tmp/gaiaFramework-1.0.9.tar.gz]
+[2023-06-06 10:24:45] INFO root fetch - main [MainThread]: End processing [gaiaFramework]: success
+[2023-06-06 10:24:46] INFO root fetch - processPackages [modelz-llm]: Remove: archive file [/home/abi/fetcher/tmp/modelz-llm-23.6.6.tar.gz]
+[2023-06-06 10:24:46] INFO root fetch - processPackages [modelz-llm]: Remove: archive file [/home/abi/fetcher/tmp/modelz-llm-23.6.7.tar.gz]
+[2023-06-06 10:24:46] INFO root fetch - main [MainThread]: End processing [modelz-llm]: success
+[2023-06-06 10:24:46] INFO root fetch - processPackages [hsfs]: Remove: archive file [/home/abi/fetcher/tmp/hsfs-3.2.0rc2.tar.gz]
+[2023-06-06 10:24:46] INFO root fetch - processPackages [hsfs]: Remove: archive file [/home/abi/fetcher/tmp/hsfs-3.2.0rc3.tar.gz]
+[2023-06-06 10:24:46] INFO root fetch - main [MainThread]: End processing [hsfs]: success
+[2023-06-06 10:24:46] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod347-16.0.1.3.0.3-py3-none-any.whl.zip]
+[2023-06-06 10:24:46] INFO root fetch - processPackages [odoo-addon-l10n-es-aeat-mod347]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_aeat_mod347-16.0.1.4.0-py3-none-any.whl.zip]
+[2023-06-06 10:24:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-aeat-mod347]: success
+[2023-06-06 10:24:47] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5178040819.tar.gz]
+[2023-06-06 10:24:47] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5178216018.tar.gz]
+[2023-06-06 10:24:47] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-06-06 10:24:47] INFO root fetch - processPackages [aiotieba]: Remove: archive file [/home/abi/fetcher/tmp/aiotieba-3.4.2-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-06-06 10:24:47] INFO root fetch - processPackages [aiotieba]: Remove: archive file [/home/abi/fetcher/tmp/aiotieba-3.4.3-pp39-pypy39_pp73-win_amd64.whl.zip]
+[2023-06-06 10:24:47] INFO root fetch - main [MainThread]: End processing [aiotieba]: success
+[2023-06-06 10:24:49] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.1.tar.gz]
+[2023-06-06 10:24:49] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.2.tar.gz]
+[2023-06-06 10:24:49] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-06-06 10:24:54] INFO root fetch - processPackages [antgo]: Remove: archive file [/home/abi/fetcher/tmp/antgo-0.1.8.tar.gz]
+[2023-06-06 10:24:54] INFO root fetch - processPackages [antgo]: Remove: archive file [/home/abi/fetcher/tmp/antgo-0.1.9.tar.gz]
+[2023-06-06 10:24:54] INFO root fetch - main [MainThread]: End processing [antgo]: success
+[2023-06-06 10:24:57] INFO root fetch - processPackages [mlflow-skinny]: Remove: archive file [/home/abi/fetcher/tmp/mlflow-skinny-2.3.2.tar.gz]
+[2023-06-06 10:24:57] INFO root fetch - processPackages [mlflow-skinny]: Remove: archive file [/home/abi/fetcher/tmp/mlflow-skinny-2.4.0.tar.gz]
+[2023-06-06 10:24:57] INFO root fetch - main [MainThread]: End processing [mlflow-skinny]: success
+[2023-06-06 10:24:57] INFO root fetch - main [MainThread]: Store serial: [18388608]
