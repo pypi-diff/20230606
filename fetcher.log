@@ -14601,3 +14601,71 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 08:56:36] INFO root fetch - processPackages [nbox]: Remove: archive file [/home/abi/fetcher/tmp/nbox-0.9.9rc0.tar.gz]
 [2023-06-06 08:56:37] INFO root fetch - main [MainThread]: End processing [nbox]: success
 [2023-06-06 08:56:37] INFO root fetch - main [MainThread]: Store serial: [18387692]
+[2023-06-06 09:01:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18387692]
+[2023-06-06 09:01:46] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-06 09:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auto-screener
+[2023-06-06 09:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: logfire-python
+[2023-06-06 09:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zhousf-lib
+[2023-06-06 09:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: antgo
+[2023-06-06 09:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bentoml
+[2023-06-06 09:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: winwin
+[2023-06-06 09:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nographs
+[2023-06-06 09:01:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: bridgecrew
+[2023-06-06 09:01:46] INFO root fetch - processPackages [auto-screener]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 09:01:46] INFO root fetch - processPackages [nographs]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-06-06 09:01:46] INFO root fetch - processPackages [bentoml]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-06 09:01:46] INFO root fetch - processPackages [antgo]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 09:01:46] INFO root fetch - processPackages [zhousf-lib]: New version: [0.5.1] Old Version: [0.5]
+[2023-06-06 09:01:46] INFO root fetch - processPackages [logfire-python]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-06 09:01:46] INFO root fetch - processPackages [winwin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 09:01:46] INFO root fetch - processPackages [bridgecrew]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-06-06 09:01:46] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/f4/a3/38ea49c3dfcd560151995b3f8788f7300bd6091d6883613e88dde0b7d9bc/zhousf-lib-0.5.tar.gz
+[2023-06-06 09:01:46] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/c1/70/3267f94d196f9213b2b44a429d64b71cb1f9f3d812687dd74ff8a983a588/bridgecrew-2.3.98.tar.gz
+[2023-06-06 09:01:46] INFO root fetch - processPackages [nographs]: Downloading https://files.pythonhosted.org/packages/fa/16/881aff2b0de3c0a4f3a27e0a23bd568312e543d8303619aabdc265ad41c1/nographs-3.1.0.tar.gz
+[2023-06-06 09:01:46] INFO root fetch - processPackages [auto-screener]: Downloading https://files.pythonhosted.org/packages/95/23/4dbcfba64c876f7bcecd12377e084d5142ab1da8b4ebeb3d3a127852b847/auto-screener-0.0.8.tar.gz
+[2023-06-06 09:01:46] INFO root fetch - processPackages [antgo]: Downloading https://files.pythonhosted.org/packages/d4/02/7dd0f15cfae2daf6c2c1f9f3209dc76bca34c8189cfef43c75596ecbb8a1/antgo-0.1.8.tar.gz
+[2023-06-06 09:01:46] INFO root fetch - processPackages [bentoml]: Downloading https://files.pythonhosted.org/packages/03/dd/fcdee2ea476e419e1baa92d9614d8de2d843cd53fc82c4ccb1b5a86d7b46/bentoml-1.0.8.tar.gz
+[2023-06-06 09:01:46] INFO root fetch - processPackages [bridgecrew]: Downloading https://files.pythonhosted.org/packages/9e/6b/ea9cdf20d73a8621ab1f56b3ee95c8fe6b3e23cb8cd7a0f75ec041c3f16f/bridgecrew-2.3.99.tar.gz
+[2023-06-06 09:01:46] INFO root fetch - processPackages [winwin]: Downloading https://files.pythonhosted.org/packages/b4/c5/8cb8d299bae029bb5342ace265ce1a7a86261f33b58cb993ac7abd1f07b2/winwin-0.0.8.tar.gz
+[2023-06-06 09:01:47] INFO root fetch - processPackages [logfire-python]: Downloading https://files.pythonhosted.org/packages/d2/fd/82a3eb0960436be3dc93d1e2800bc463c89c19554814102fd2280961c48a/logfire-python-0.0.2.tar.gz
+[2023-06-06 09:01:47] INFO root fetch - processPackages [bridgecrew]: executing diffoscope
+[2023-06-06 09:01:47] INFO root fetch - processPackages [bridgecrew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bridgecrew-2.3.98.tar.gz tmp/bridgecrew-2.3.99.tar.gz --markdown 20230606/b/bridgecrew/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-06-06 09:01:47] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/fd/e2/30b18d04f4c725ac1a997fd9535ae58673ac7c227d4abb29090020e610f0/zhousf-lib-0.5.1.tar.gz
+[2023-06-06 09:01:47] WARNING root fetch - processPackages [zhousf-lib]: Skipping package: exceeds size limit 14947210>=10485760
+[2023-06-06 09:01:47] INFO root fetch - main [MainThread]: End processing [zhousf-lib] error
+[2023-06-06 09:01:47] INFO root fetch - processPackages [nographs]: Downloading https://files.pythonhosted.org/packages/0b/90/a20cc3ed5f95323f975af7dbe1f60b9b720a2a94baf02980eb023a209178/nographs-3.2.0.tar.gz
+[2023-06-06 09:01:47] INFO root fetch - processPackages [auto-screener]: Downloading https://files.pythonhosted.org/packages/17/81/2cce88151208fb3d0d0ee59ce98a996260f0578227453f7753134f315aaa/auto-screener-0.0.9.tar.gz
+[2023-06-06 09:01:47] INFO root fetch - processPackages [logfire-python]: Downloading https://files.pythonhosted.org/packages/fa/4f/fc37dd24846a939226e8b889bad966a86c787170719734b0c71e3974e974/logfire-python-0.0.3.tar.gz
+[2023-06-06 09:01:47] INFO root fetch - processPackages [nographs]: executing diffoscope
+[2023-06-06 09:01:47] INFO root fetch - processPackages [nographs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nographs-3.1.0.tar.gz tmp/nographs-3.2.0.tar.gz --markdown 20230606/n/nographs/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-06-06 09:01:47] INFO root fetch - processPackages [logfire-python]: executing diffoscope
+[2023-06-06 09:01:47] INFO root fetch - processPackages [logfire-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logfire-python-0.0.2.tar.gz tmp/logfire-python-0.0.3.tar.gz --markdown 20230606/l/logfire-python/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-06 09:01:47] WARNING root fetch - processPackages [bentoml]: Skipping package: exceeds size limit 14352845>=10485760
+[2023-06-06 09:01:47] INFO root fetch - main [MainThread]: End processing [bentoml] error
+[2023-06-06 09:01:47] INFO root fetch - processPackages [auto-screener]: executing diffoscope
+[2023-06-06 09:01:47] INFO root fetch - processPackages [auto-screener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-screener-0.0.8.tar.gz tmp/auto-screener-0.0.9.tar.gz --markdown 20230606/a/auto-screener/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 09:01:47] INFO root fetch - processPackages [antgo]: Downloading https://files.pythonhosted.org/packages/38/2f/ef193c860f0d6f7d47317818323685ddea7f9bcff16e96382a4b5724db8d/antgo-0.1.9.tar.gz
+[2023-06-06 09:01:47] INFO root fetch - processPackages [antgo]: executing diffoscope
+[2023-06-06 09:01:47] INFO root fetch - processPackages [antgo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antgo-0.1.8.tar.gz tmp/antgo-0.1.9.tar.gz --markdown 20230606/a/antgo/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 09:01:47] INFO root fetch - processPackages [winwin]: Downloading https://files.pythonhosted.org/packages/da/47/bbe293778015f3a259a0e99a91efd6e5032b0456dce5e7582b515d851e8b/winwin-0.0.9.tar.gz
+[2023-06-06 09:01:48] INFO root fetch - processPackages [winwin]: executing diffoscope
+[2023-06-06 09:01:48] INFO root fetch - processPackages [winwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winwin-0.0.8.tar.gz tmp/winwin-0.0.9.tar.gz --markdown 20230606/w/winwin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 09:01:48] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.98.tar.gz]
+[2023-06-06 09:01:48] INFO root fetch - processPackages [bridgecrew]: Remove: archive file [/home/abi/fetcher/tmp/bridgecrew-2.3.99.tar.gz]
+[2023-06-06 09:01:48] INFO root fetch - main [MainThread]: End processing [bridgecrew]: success
+[2023-06-06 09:01:48] INFO root fetch - processPackages [logfire-python]: Remove: archive file [/home/abi/fetcher/tmp/logfire-python-0.0.2.tar.gz]
+[2023-06-06 09:01:48] INFO root fetch - processPackages [logfire-python]: Remove: archive file [/home/abi/fetcher/tmp/logfire-python-0.0.3.tar.gz]
+[2023-06-06 09:01:48] INFO root fetch - main [MainThread]: End processing [logfire-python]: success
+[2023-06-06 09:01:48] INFO root fetch - processPackages [nographs]: Remove: archive file [/home/abi/fetcher/tmp/nographs-3.1.0.tar.gz]
+[2023-06-06 09:01:48] INFO root fetch - processPackages [nographs]: Remove: archive file [/home/abi/fetcher/tmp/nographs-3.2.0.tar.gz]
+[2023-06-06 09:01:48] INFO root fetch - main [MainThread]: End processing [nographs]: success
+[2023-06-06 09:01:48] INFO root fetch - processPackages [auto-screener]: Remove: archive file [/home/abi/fetcher/tmp/auto-screener-0.0.8.tar.gz]
+[2023-06-06 09:01:48] INFO root fetch - processPackages [auto-screener]: Remove: archive file [/home/abi/fetcher/tmp/auto-screener-0.0.9.tar.gz]
+[2023-06-06 09:01:48] INFO root fetch - main [MainThread]: End processing [auto-screener]: success
+[2023-06-06 09:01:49] INFO root fetch - processPackages [winwin]: Remove: archive file [/home/abi/fetcher/tmp/winwin-0.0.8.tar.gz]
+[2023-06-06 09:01:49] INFO root fetch - processPackages [winwin]: Remove: archive file [/home/abi/fetcher/tmp/winwin-0.0.9.tar.gz]
+[2023-06-06 09:01:49] INFO root fetch - main [MainThread]: End processing [winwin]: success
+[2023-06-06 09:01:55] INFO root fetch - processPackages [antgo]: Remove: archive file [/home/abi/fetcher/tmp/antgo-0.1.8.tar.gz]
+[2023-06-06 09:01:55] INFO root fetch - processPackages [antgo]: Remove: archive file [/home/abi/fetcher/tmp/antgo-0.1.9.tar.gz]
+[2023-06-06 09:01:55] INFO root fetch - main [MainThread]: End processing [antgo]: success
+[2023-06-06 09:01:55] INFO root fetch - main [MainThread]: Store serial: [18387715]
