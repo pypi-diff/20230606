@@ -13066,3 +13066,44 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 07:35:01] INFO root fetch - processPackages [write-the]: Remove: archive file [/home/abi/fetcher/tmp/write_the-0.9.1.tar.gz]
 [2023-06-06 07:35:01] INFO root fetch - main [MainThread]: End processing [write-the]: success
 [2023-06-06 07:35:01] INFO root fetch - main [MainThread]: Store serial: [18386980]
+[2023-06-06 07:40:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18386980]
+[2023-06-06 07:40:10] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-06 07:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mynacode
+[2023-06-06 07:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ajb
+[2023-06-06 07:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigraph-schema
+[2023-06-06 07:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wavebreaking
+[2023-06-06 07:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: get-coupa-token
+[2023-06-06 07:40:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: np-session
+[2023-06-06 07:40:10] WARNING root fetch - processPackages [get-coupa-token]: Skipping, unable to determine old version
+[2023-06-06 07:40:10] INFO root fetch - main [MainThread]: End processing [get-coupa-token] error
+[2023-06-06 07:40:10] INFO root fetch - processPackages [bigraph-schema]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 07:40:10] INFO root fetch - processPackages [np-session]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-06 07:40:10] WARNING root fetch - processPackages [ajb]: Skipping, unable to determine old version
+[2023-06-06 07:40:10] INFO root fetch - main [MainThread]: End processing [ajb] error
+[2023-06-06 07:40:10] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-06 07:40:10] INFO root fetch - processPackages [wavebreaking]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-06 07:40:10] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-06-06 07:40:11] INFO root fetch - processPackages [bigraph-schema]: Downloading https://files.pythonhosted.org/packages/df/8e/61432e7e2966e9e03a0109b78f810b877d0a4243c7fc3e9379a460c0dbc4/bigraph-schema-0.0.8.tar.gz
+[2023-06-06 07:40:11] INFO root fetch - processPackages [np-session]: Downloading https://files.pythonhosted.org/packages/43/68/330d5cce9aff32fc503db123c3b4ae709157b5476cceef2063e44664e645/np-session-0.6.8.tar.gz
+[2023-06-06 07:40:11] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-06-06 07:40:11] INFO root fetch - processPackages [wavebreaking]: Downloading https://files.pythonhosted.org/packages/a5/b0/2daec90971db47036c08179f4e3122da2b0c2c2cc13a906509d372f6fab0/wavebreaking-0.3.3.tar.gz
+[2023-06-06 07:40:11] WARNING root fetch - processPackages [wavebreaking]: Skipping package: exceeds size limit 11109440>=10485760
+[2023-06-06 07:40:11] INFO root fetch - main [MainThread]: End processing [wavebreaking] error
+[2023-06-06 07:40:11] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-06-06 07:40:11] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230606/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-06 07:40:11] INFO root fetch - processPackages [np-session]: Downloading https://files.pythonhosted.org/packages/04/e1/a1de4b97de93b5b4309f7132b40b9235c59bd1856514346fa16e52dacf0a/np-session-0.6.9.tar.gz
+[2023-06-06 07:40:11] INFO root fetch - processPackages [bigraph-schema]: Downloading https://files.pythonhosted.org/packages/18/e5/fff625d433358f1bf734149e805b1d565b616ead4a146f56f4807198801e/bigraph-schema-0.0.9.tar.gz
+[2023-06-06 07:40:11] INFO root fetch - processPackages [np-session]: executing diffoscope
+[2023-06-06 07:40:11] INFO root fetch - processPackages [np-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np-session-0.6.8.tar.gz tmp/np-session-0.6.9.tar.gz --markdown 20230606/n/np-session/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-06 07:40:11] INFO root fetch - processPackages [bigraph-schema]: executing diffoscope
+[2023-06-06 07:40:11] INFO root fetch - processPackages [bigraph-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigraph-schema-0.0.8.tar.gz tmp/bigraph-schema-0.0.9.tar.gz --markdown 20230606/b/bigraph-schema/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 07:40:12] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-06-06 07:40:12] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-06-06 07:40:12] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-06-06 07:40:12] INFO root fetch - processPackages [np-session]: Remove: archive file [/home/abi/fetcher/tmp/np-session-0.6.8.tar.gz]
+[2023-06-06 07:40:12] INFO root fetch - processPackages [np-session]: Remove: archive file [/home/abi/fetcher/tmp/np-session-0.6.9.tar.gz]
+[2023-06-06 07:40:12] INFO root fetch - main [MainThread]: End processing [np-session]: success
+[2023-06-06 07:40:12] INFO root fetch - processPackages [bigraph-schema]: Remove: archive file [/home/abi/fetcher/tmp/bigraph-schema-0.0.8.tar.gz]
+[2023-06-06 07:40:12] INFO root fetch - processPackages [bigraph-schema]: Remove: archive file [/home/abi/fetcher/tmp/bigraph-schema-0.0.9.tar.gz]
+[2023-06-06 07:40:12] INFO root fetch - main [MainThread]: End processing [bigraph-schema]: success
+[2023-06-06 07:40:12] INFO root fetch - main [MainThread]: Store serial: [18386998]
