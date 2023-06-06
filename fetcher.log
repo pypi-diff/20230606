@@ -17514,3 +17514,136 @@ UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid
 [2023-06-06 10:52:22] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-06-06 10:52:22] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-06-06 10:52:22] INFO root fetch - main [MainThread]: Store serial: [18388981]
+[2023-06-06 10:57:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18388981]
+[2023-06-06 10:57:32] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-06 10:57:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aiontutil
+[2023-06-06 10:57:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cushy-storage
+[2023-06-06 10:57:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mads-datasets
+[2023-06-06 10:57:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: grai-source-bigquery
+[2023-06-06 10:57:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mercury-monitoring
+[2023-06-06 10:57:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ansys-fluent-core
+[2023-06-06 10:57:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: functime-client
+[2023-06-06 10:57:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modelz-llm
+[2023-06-06 10:57:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sealights-python-agent
+[2023-06-06 10:57:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: eoshep
+[2023-06-06 10:57:32] INFO root fetch - processPackages [aiontutil]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-06 10:57:32] INFO root fetch - processPackages [cushy-storage]: New version: [1.1.0] Old Version: [1.0.4]
+[2023-06-06 10:57:32] INFO root fetch - processPackages [functime-client]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-06 10:57:32] INFO root fetch - processPackages [mads-datasets]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-06 10:57:32] INFO root fetch - processPackages [mercury-monitoring]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-06 10:57:32] INFO root fetch - processPackages [ansys-fluent-core]: New version: [0.15.dev1] Old Version: [0.14.dev2]
+[2023-06-06 10:57:32] INFO root fetch - processPackages [grai-source-bigquery]: New version: [0.1.0a4] Old Version: [0.1.0a3]
+[2023-06-06 10:57:32] INFO root fetch - processPackages [eoshep]: New version: [1.0.9.dev1262] Old Version: [1.0.9.dev1254]
+[2023-06-06 10:57:32] INFO root fetch - processPackages [modelz-llm]: New version: [23.6.9] Old Version: [23.6.8]
+[2023-06-06 10:57:32] INFO root fetch - processPackages [sealights-python-agent]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-06 10:57:32] INFO root fetch - processPackages [grai-source-bigquery]: Downloading https://files.pythonhosted.org/packages/3e/1c/65487742d0d61fde0398a593ec599d85c980dd065710f1fb94a4781e08be/grai_source_bigquery-0.1.0a3.tar.gz
+[2023-06-06 10:57:32] INFO root fetch - processPackages [aiontutil]: Downloading https://files.pythonhosted.org/packages/53/7e/8d527f20fee7ab5f07333754545ac39ace951f2105f66dd5917f678500c7/aiontutil-0.0.7.tar.gz
+[2023-06-06 10:57:32] INFO root fetch - processPackages [cushy-storage]: Downloading https://files.pythonhosted.org/packages/d4/1c/d969e4c5d7effcf2159be3748f72400e0053891687951b563cfe90495e88/cushy-storage-1.0.4.tar.gz
+[2023-06-06 10:57:32] INFO root fetch - processPackages [mads-datasets]: Downloading https://files.pythonhosted.org/packages/85/ee/80501664da19844955eef55ab39774ba0b336e441059eb20082388b488b1/mads_datasets-0.1.2.tar.gz
+[2023-06-06 10:57:32] INFO root fetch - processPackages [mercury-monitoring]: Downloading https://files.pythonhosted.org/packages/9e/c1/1d3a754433301dd0d5dcd82dc96ae610f1566a1d7d922eaef5bbf9dfc9ac/mercury-monitoring-0.0.1.tar.gz
+[2023-06-06 10:57:32] INFO root fetch - processPackages [functime-client]: Downloading https://files.pythonhosted.org/packages/a8/13/1fadac5bb7af646d55967a0d96313bfb436575fad78883b8e8d59240adc6/functime_client-0.1.0-py3-none-any.whl
+[2023-06-06 10:57:32] INFO root fetch - processPackages [ansys-fluent-core]: Downloading https://files.pythonhosted.org/packages/7b/a1/15c17a50480c57dda4896f676f8b18e23868fbdbb5cf5d6c100d535422d6/ansys-fluent-core-0.14.dev2.tar.gz
+[2023-06-06 10:57:32] INFO root fetch - processPackages [eoshep]: Downloading https://files.pythonhosted.org/packages/d6/91/c2eb16832a03068629f99b18de40773f5a66cc17c814864da16f832c8de7/eoshep-1.0.9.dev1254-cp39-cp39-manylinux2014_x86_64.whl
+[2023-06-06 10:57:32] INFO root fetch - processPackages [sealights-python-agent]: Downloading https://files.pythonhosted.org/packages/25/c4/647deb66379b0238199145cd4a21b49931b6f1ee6dc4b29e567d021c6ab3/sealights-python-agent-1.1.1.tar.gz
+[2023-06-06 10:57:32] INFO root fetch - processPackages [modelz-llm]: Downloading https://files.pythonhosted.org/packages/f0/7f/aacc5708a48b3f480b9400e712426d4d4118d37b8d63d46fd3491c61c067/modelz-llm-23.6.8.tar.gz
+[2023-06-06 10:57:32] WARNING root fetch - processPackages [eoshep]: Skipping package: exceeds size limit 78897772>=10485760
+[2023-06-06 10:57:32] INFO root fetch - processPackages [eoshep]: Start processing: lazyearth
+[2023-06-06 10:57:32] INFO root fetch - main [MainThread]: End processing [eoshep] error
+[2023-06-06 10:57:32] INFO root fetch - processPackages [grai-source-bigquery]: Downloading https://files.pythonhosted.org/packages/a3/ab/3730962031ace95d3c01c3160fa8d896afe0448b2ae18ae205829f348574/grai_source_bigquery-0.1.0a4-py3-none-any.whl
+[2023-06-06 10:57:32] INFO root fetch - processPackages [lazyearth]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-06 10:57:32] INFO root fetch - processPackages [aiontutil]: Downloading https://files.pythonhosted.org/packages/8e/83/6dd74d74992f7166255208bec7beb5e7c9a8f3c995a39a3a7e5ede14b31a/aiontutil-0.0.8.tar.gz
+[2023-06-06 10:57:32] INFO root fetch - processPackages [mads-datasets]: Downloading https://files.pythonhosted.org/packages/c2/83/75978c6385e2ab5aa8a2e7292ac01664f7e6662b1c16054934a5d91dbde9/mads_datasets-0.1.3.tar.gz
+[2023-06-06 10:57:32] INFO root fetch - processPackages [cushy-storage]: Downloading https://files.pythonhosted.org/packages/c3/e8/388696736e4f1d00bc531cf4188f48b6dc90bdfe1ee4a6b4e2f333b79d2a/cushy-storage-1.1.0.tar.gz
+[2023-06-06 10:57:32] INFO root fetch - processPackages [mercury-monitoring]: Downloading https://files.pythonhosted.org/packages/f4/45/c09d9457508ba405278a876258b38df9810483ce90a82e336e8417657556/mercury-monitoring-0.0.2.tar.gz
+[2023-06-06 10:57:32] INFO root fetch - processPackages [functime-client]: Downloading https://files.pythonhosted.org/packages/c7/7c/844941f6df7226b6657b9c7a64e1c4a794326787ec5bcbb1e9c9f039f5dc/functime_client-0.1.1-py3-none-any.whl
+[2023-06-06 10:57:32] INFO root fetch - processPackages [grai-source-bigquery]: executing diffoscope
+[2023-06-06 10:57:32] INFO root fetch - processPackages [grai-source-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_bigquery-0.1.0a3.tar.gz tmp/grai_source_bigquery-0.1.0a4-py3-none-any.whl.zip --markdown 20230606/g/grai-source-bigquery/0.1.0a3-0.1.0a4/diff.md --exclude *.pyd
+[2023-06-06 10:57:32] INFO root fetch - processPackages [aiontutil]: executing diffoscope
+[2023-06-06 10:57:32] INFO root fetch - processPackages [aiontutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiontutil-0.0.7.tar.gz tmp/aiontutil-0.0.8.tar.gz --markdown 20230606/a/aiontutil/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-06 10:57:32] INFO root fetch - processPackages [modelz-llm]: Downloading https://files.pythonhosted.org/packages/66/a2/65210af0e41ae8501bc41dcfa062682db900c54c57b983cb51f37368ad01/modelz-llm-23.6.9.tar.gz
+[2023-06-06 10:57:32] INFO root fetch - processPackages [sealights-python-agent]: Downloading https://files.pythonhosted.org/packages/f6/3c/dc372f391944dcbd13c60498d3c711c671c2c3f428408eaee828a0e6234c/sealights-python-agent-1.1.2.tar.gz
+[2023-06-06 10:57:32] INFO root fetch - processPackages [cushy-storage]: executing diffoscope
+[2023-06-06 10:57:32] INFO root fetch - processPackages [cushy-storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cushy-storage-1.0.4.tar.gz tmp/cushy-storage-1.1.0.tar.gz --markdown 20230606/c/cushy-storage/1.0.4-1.1.0/diff.md --exclude *.pyd
+[2023-06-06 10:57:32] INFO root fetch - processPackages [mercury-monitoring]: executing diffoscope
+[2023-06-06 10:57:32] INFO root fetch - processPackages [mercury-monitoring]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-monitoring-0.0.1.tar.gz tmp/mercury-monitoring-0.0.2.tar.gz --markdown 20230606/m/mercury-monitoring/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-06 10:57:32] INFO root fetch - processPackages [mads-datasets]: executing diffoscope
+[2023-06-06 10:57:32] INFO root fetch - processPackages [mads-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mads_datasets-0.1.2.tar.gz tmp/mads_datasets-0.1.3.tar.gz --markdown 20230606/m/mads-datasets/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-06 10:57:32] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/d9/c7/af1d2c78694d1c93c56f540f2905e5ba84ce2e701c057e6ed55b4a5924bd/lazyearth-1.0.7.tar.gz
+[2023-06-06 10:57:32] INFO root fetch - processPackages [functime-client]: executing diffoscope
+[2023-06-06 10:57:32] INFO root fetch - processPackages [functime-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/functime_client-0.1.0-py3-none-any.whl.zip tmp/functime_client-0.1.1-py3-none-any.whl.zip --markdown 20230606/f/functime-client/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-06 10:57:32] INFO root fetch - processPackages [sealights-python-agent]: executing diffoscope
+[2023-06-06 10:57:32] INFO root fetch - processPackages [sealights-python-agent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sealights-python-agent-1.1.1.tar.gz tmp/sealights-python-agent-1.1.2.tar.gz --markdown 20230606/s/sealights-python-agent/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-06 10:57:32] INFO root fetch - processPackages [ansys-fluent-core]: Downloading https://files.pythonhosted.org/packages/13/57/d1e2890a8ca9007c53e378c86d3e1862058a8f87ba7f348d0fa589a1c897/ansys-fluent-core-0.15.dev1.tar.gz
+[2023-06-06 10:57:32] INFO root fetch - processPackages [modelz-llm]: executing diffoscope
+[2023-06-06 10:57:32] INFO root fetch - processPackages [modelz-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelz-llm-23.6.8.tar.gz tmp/modelz-llm-23.6.9.tar.gz --markdown 20230606/m/modelz-llm/23.6.8-23.6.9/diff.md --exclude *.pyd
+[2023-06-06 10:57:33] INFO root fetch - processPackages [ansys-fluent-core]: executing diffoscope
+[2023-06-06 10:57:33] INFO root fetch - processPackages [ansys-fluent-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ansys-fluent-core-0.14.dev2.tar.gz tmp/ansys-fluent-core-0.15.dev1.tar.gz --markdown 20230606/a/ansys-fluent-core/0.14.dev2-0.15.dev1/diff.md --exclude *.pyd
+[2023-06-06 10:57:33] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/57/a4/1f336b2de35597565a2417d8be51639317ff136edaf8e169f5f0828f24fc/lazyearth-1.0.8.tar.gz
+[2023-06-06 10:57:33] INFO root fetch - processPackages [lazyearth]: executing diffoscope
+[2023-06-06 10:57:33] INFO root fetch - processPackages [lazyearth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyearth-1.0.7.tar.gz tmp/lazyearth-1.0.8.tar.gz --markdown 20230606/l/lazyearth/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-06 10:57:34] INFO root fetch - processPackages [grai-source-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_bigquery-0.1.0a3.tar.gz]
+[2023-06-06 10:57:34] INFO root fetch - processPackages [grai-source-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_bigquery-0.1.0a4-py3-none-any.whl.zip]
+[2023-06-06 10:57:34] INFO root fetch - processPackages [grai-source-bigquery]: Start processing: mfrc522-python
+[2023-06-06 10:57:34] INFO root fetch - main [MainThread]: End processing [grai-source-bigquery]: success
+[2023-06-06 10:57:34] INFO root fetch - processPackages [mfrc522-python]: New version: [0.0.5.dev4] Old Version: [0.0.5.dev3]
+[2023-06-06 10:57:34] INFO root fetch - processPackages [aiontutil]: Remove: archive file [/home/abi/fetcher/tmp/aiontutil-0.0.7.tar.gz]
+[2023-06-06 10:57:34] INFO root fetch - processPackages [aiontutil]: Remove: archive file [/home/abi/fetcher/tmp/aiontutil-0.0.8.tar.gz]
+[2023-06-06 10:57:34] INFO root fetch - processPackages [aiontutil]: Start processing: pytest-embedded-idf
+[2023-06-06 10:57:34] INFO root fetch - main [MainThread]: End processing [aiontutil]: success
+[2023-06-06 10:57:34] INFO root fetch - processPackages [mfrc522-python]: Downloading https://files.pythonhosted.org/packages/74/dd/f0684a31905120353eb24599a332a1c97ba4d2b9408884a5041edc15d5cc/mfrc522-python-0.0.5.dev3.tar.gz
+[2023-06-06 10:57:34] INFO root fetch - processPackages [cushy-storage]: Remove: archive file [/home/abi/fetcher/tmp/cushy-storage-1.0.4.tar.gz]
+[2023-06-06 10:57:34] INFO root fetch - processPackages [cushy-storage]: Remove: archive file [/home/abi/fetcher/tmp/cushy-storage-1.1.0.tar.gz]
+[2023-06-06 10:57:34] INFO root fetch - processPackages [cushy-storage]: Start processing: multiversx-sdk-network-providers
+[2023-06-06 10:57:34] INFO root fetch - main [MainThread]: End processing [cushy-storage]: success
+[2023-06-06 10:57:34] INFO root fetch - processPackages [pytest-embedded-idf]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-06-06 10:57:34] INFO root fetch - processPackages [functime-client]: Remove: archive file [/home/abi/fetcher/tmp/functime_client-0.1.0-py3-none-any.whl.zip]
+[2023-06-06 10:57:34] INFO root fetch - processPackages [functime-client]: Remove: archive file [/home/abi/fetcher/tmp/functime_client-0.1.1-py3-none-any.whl.zip]
+[2023-06-06 10:57:34] INFO root fetch - processPackages [functime-client]: Start processing: aalam-common
+[2023-06-06 10:57:34] INFO root fetch - main [MainThread]: End processing [functime-client]: success
+[2023-06-06 10:57:34] INFO root fetch - processPackages [multiversx-sdk-network-providers]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-06 10:57:34] INFO root fetch - processPackages [mads-datasets]: Remove: archive file [/home/abi/fetcher/tmp/mads_datasets-0.1.2.tar.gz]
+[2023-06-06 10:57:34] INFO root fetch - processPackages [mads-datasets]: Remove: archive file [/home/abi/fetcher/tmp/mads_datasets-0.1.3.tar.gz]
+[2023-06-06 10:57:34] INFO root fetch - main [MainThread]: End processing [mads-datasets]: success
+[2023-06-06 10:57:34] INFO root fetch - processPackages [pytest-embedded-idf]: Downloading https://files.pythonhosted.org/packages/76/e8/a4dfc170369af07c81a473ada0a43d5566727a7223b720832c555c1744f6/pytest-embedded-idf-1.3.0.tar.gz
+[2023-06-06 10:57:34] INFO root fetch - processPackages [mfrc522-python]: Downloading https://files.pythonhosted.org/packages/0c/de/0239ed94b5bad0b26d4aca84bbb1e6c31fd367f8cb385df7fc78511e7dc8/mfrc522-python-0.0.5.dev4.tar.gz
+[2023-06-06 10:57:34] INFO root fetch - processPackages [aalam-common]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 10:57:34] INFO root fetch - processPackages [mercury-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/mercury-monitoring-0.0.1.tar.gz]
+[2023-06-06 10:57:34] INFO root fetch - processPackages [mercury-monitoring]: Remove: archive file [/home/abi/fetcher/tmp/mercury-monitoring-0.0.2.tar.gz]
+[2023-06-06 10:57:34] INFO root fetch - main [MainThread]: End processing [mercury-monitoring]: success
+[2023-06-06 10:57:34] INFO root fetch - processPackages [modelz-llm]: Remove: archive file [/home/abi/fetcher/tmp/modelz-llm-23.6.8.tar.gz]
+[2023-06-06 10:57:34] INFO root fetch - processPackages [modelz-llm]: Remove: archive file [/home/abi/fetcher/tmp/modelz-llm-23.6.9.tar.gz]
+[2023-06-06 10:57:34] INFO root fetch - main [MainThread]: End processing [modelz-llm]: success
+[2023-06-06 10:57:34] INFO root fetch - processPackages [multiversx-sdk-network-providers]: Downloading https://files.pythonhosted.org/packages/27/f1/3cbbc62fb266ba87a09ce15850305f92b122e977a5466a36af5bf78c5567/multiversx_sdk_network_providers-0.8.0.tar.gz
+[2023-06-06 10:57:34] INFO root fetch - processPackages [mfrc522-python]: executing diffoscope
+[2023-06-06 10:57:34] INFO root fetch - processPackages [mfrc522-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mfrc522-python-0.0.5.dev3.tar.gz tmp/mfrc522-python-0.0.5.dev4.tar.gz --markdown 20230606/m/mfrc522-python/0.0.5.dev3-0.0.5.dev4/diff.md --exclude *.pyd
+[2023-06-06 10:57:34] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.7.tar.gz]
+[2023-06-06 10:57:34] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.8.tar.gz]
+[2023-06-06 10:57:34] INFO root fetch - main [MainThread]: End processing [lazyearth]: success
+[2023-06-06 10:57:34] INFO root fetch - processPackages [pytest-embedded-idf]: Downloading https://files.pythonhosted.org/packages/c8/da/3b895d73d4db58b22c250aed2afb3615ed651adeae4068725b8617bb056a/pytest-embedded-idf-1.3.1.tar.gz
+[2023-06-06 10:57:34] INFO root fetch - processPackages [aalam-common]: Downloading https://files.pythonhosted.org/packages/16/ee/8281aa25e49a7b41c1d8409d1da0a6ef9411eb412161a13752286cbe757a/aalam-common-0.1.8.tar.gz
+[2023-06-06 10:57:35] INFO root fetch - processPackages [pytest-embedded-idf]: executing diffoscope
+[2023-06-06 10:57:35] INFO root fetch - processPackages [pytest-embedded-idf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-embedded-idf-1.3.0.tar.gz tmp/pytest-embedded-idf-1.3.1.tar.gz --markdown 20230606/p/pytest-embedded-idf/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-06-06 10:57:35] INFO root fetch - processPackages [multiversx-sdk-network-providers]: Downloading https://files.pythonhosted.org/packages/16/99/4ef436295d8240dde7d8e77b0a87b94fd67041640ac5815cefbeacf91b2f/multiversx_sdk_network_providers-0.9.0.tar.gz
+[2023-06-06 10:57:35] INFO root fetch - processPackages [aalam-common]: Downloading https://files.pythonhosted.org/packages/4a/1b/4643ceb92ad9052d40ca33c98621f00956b046d0f395991401c764b57319/aalam-common-0.1.9.tar.gz
+[2023-06-06 10:57:35] INFO root fetch - processPackages [aalam-common]: executing diffoscope
+[2023-06-06 10:57:35] INFO root fetch - processPackages [aalam-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aalam-common-0.1.8.tar.gz tmp/aalam-common-0.1.9.tar.gz --markdown 20230606/a/aalam-common/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 10:57:35] INFO root fetch - processPackages [multiversx-sdk-network-providers]: executing diffoscope
+[2023-06-06 10:57:35] INFO root fetch - processPackages [multiversx-sdk-network-providers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multiversx_sdk_network_providers-0.8.0.tar.gz tmp/multiversx_sdk_network_providers-0.9.0.tar.gz --markdown 20230606/m/multiversx-sdk-network-providers/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-06 10:57:35] INFO root fetch - processPackages [mfrc522-python]: Remove: archive file [/home/abi/fetcher/tmp/mfrc522-python-0.0.5.dev3.tar.gz]
+[2023-06-06 10:57:35] INFO root fetch - processPackages [mfrc522-python]: Remove: archive file [/home/abi/fetcher/tmp/mfrc522-python-0.0.5.dev4.tar.gz]
+[2023-06-06 10:57:35] INFO root fetch - main [MainThread]: End processing [mfrc522-python]: success
+[2023-06-06 10:57:36] INFO root fetch - processPackages [pytest-embedded-idf]: Remove: archive file [/home/abi/fetcher/tmp/pytest-embedded-idf-1.3.0.tar.gz]
+[2023-06-06 10:57:36] INFO root fetch - processPackages [pytest-embedded-idf]: Remove: archive file [/home/abi/fetcher/tmp/pytest-embedded-idf-1.3.1.tar.gz]
+[2023-06-06 10:57:36] INFO root fetch - main [MainThread]: End processing [pytest-embedded-idf]: success
+[2023-06-06 10:57:36] INFO root fetch - processPackages [aalam-common]: Remove: archive file [/home/abi/fetcher/tmp/aalam-common-0.1.8.tar.gz]
+[2023-06-06 10:57:36] INFO root fetch - processPackages [aalam-common]: Remove: archive file [/home/abi/fetcher/tmp/aalam-common-0.1.9.tar.gz]
+[2023-06-06 10:57:36] INFO root fetch - main [MainThread]: End processing [aalam-common]: success
+[2023-06-06 10:57:36] INFO root fetch - processPackages [multiversx-sdk-network-providers]: Remove: archive file [/home/abi/fetcher/tmp/multiversx_sdk_network_providers-0.8.0.tar.gz]
+[2023-06-06 10:57:36] INFO root fetch - processPackages [multiversx-sdk-network-providers]: Remove: archive file [/home/abi/fetcher/tmp/multiversx_sdk_network_providers-0.9.0.tar.gz]
+[2023-06-06 10:57:36] INFO root fetch - main [MainThread]: End processing [multiversx-sdk-network-providers]: success
+[2023-06-06 10:57:37] INFO root fetch - processPackages [sealights-python-agent]: Remove: archive file [/home/abi/fetcher/tmp/sealights-python-agent-1.1.1.tar.gz]
+[2023-06-06 10:57:37] INFO root fetch - processPackages [sealights-python-agent]: Remove: archive file [/home/abi/fetcher/tmp/sealights-python-agent-1.1.2.tar.gz]
+[2023-06-06 10:57:37] INFO root fetch - main [MainThread]: End processing [sealights-python-agent]: success
+[2023-06-06 11:00:33] ERROR root fetch - processPackages [ansys-fluent-core]: Timeout during execution of pkgdiff
+[2023-06-06 11:00:33] INFO root fetch - main [MainThread]: End processing [ansys-fluent-core] error
+[2023-06-06 11:00:33] INFO root fetch - main [MainThread]: Store serial: [18389022]
