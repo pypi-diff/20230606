@@ -13744,3 +13744,175 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 08:22:13] ERROR root fetch - processPackages [oci-cli]: Timeout during execution of pkgdiff
 [2023-06-06 08:22:13] INFO root fetch - main [MainThread]: End processing [oci-cli] error
 [2023-06-06 08:22:13] INFO root fetch - main [MainThread]: Store serial: [18387291]
+[2023-06-06 08:27:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18387291]
+[2023-06-06 08:27:22] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-06 08:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: muffin
+[2023-06-06 08:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PlanaPY
+[2023-06-06 08:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: simplegeomap
+[2023-06-06 08:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: openqr
+[2023-06-06 08:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchqtm
+[2023-06-06 08:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: get-coupa-token
+[2023-06-06 08:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sleepeeg
+[2023-06-06 08:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PlanaPY
+[2023-06-06 08:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: aiontutil
+[2023-06-06 08:27:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyarmor.cli.runtime
+[2023-06-06 08:27:22] INFO root fetch - processPackages [PlanaPY]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-06 08:27:22] INFO root fetch - processPackages [simplegeomap]: New version: [0.0.28] Old Version: [0.0.27]
+[2023-06-06 08:27:22] INFO root fetch - processPackages [aiontutil]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-06 08:27:22] INFO root fetch - processPackages [muffin]: New version: [0.98.6] Old Version: [0.98.5]
+[2023-06-06 08:27:22] INFO root fetch - processPackages [pyarmor.cli.runtime]: New version: [3.2.dev2] Old Version: [3.2.dev1]
+[2023-06-06 08:27:22] INFO root fetch - processPackages [openqr]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-06 08:27:22] INFO root fetch - processPackages [get-coupa-token]: New version: [1.2] Old Version: [1.0]
+[2023-06-06 08:27:22] INFO root fetch - processPackages [sleepeeg]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-06 08:27:22] WARNING root fetch - processPackages [torchqtm]: Skipping, unable to determine old version
+[2023-06-06 08:27:22] INFO root fetch - processPackages [torchqtm]: Start processing: liquisource
+[2023-06-06 08:27:22] INFO root fetch - main [MainThread]: End processing [torchqtm] error
+[2023-06-06 08:27:22] INFO root fetch - processPackages [PlanaPY]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-06 08:27:22] INFO root fetch - processPackages [liquisource]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-06-06 08:27:22] INFO root fetch - processPackages [liquisource]: Downloading https://files.pythonhosted.org/packages/ce/11/b653d5c1c7798b8135ceeb12bf0e11a0c107800d64495051269b76972047/liquisource-1.1.2.tar.gz
+[2023-06-06 08:27:22] INFO root fetch - processPackages [aiontutil]: Downloading https://files.pythonhosted.org/packages/3c/50/96aebe0c69d9f47803c62b0354f8faa48542e11bbfc711f30661faa789f1/aiontutil-0.0.6.tar.gz
+[2023-06-06 08:27:22] INFO root fetch - processPackages [openqr]: Downloading https://files.pythonhosted.org/packages/2e/df/846528d476c61b6da0669276fe31f26f160284100ad5adb56bf019a7b1f1/openqr-0.0.1.tar.gz
+[2023-06-06 08:27:22] INFO root fetch - processPackages [sleepeeg]: Downloading https://files.pythonhosted.org/packages/a5/fe/bee9c7ba1bd4f1642f56fb4bc5c4e73c687403d4e548ce7054645040561f/sleepeeg-0.1.1.tar.gz
+[2023-06-06 08:27:22] INFO root fetch - processPackages [simplegeomap]: Downloading https://files.pythonhosted.org/packages/6c/c1/9578547a108dbb049b142d8ec33c8cffbd15fdd31b10c377c3cf0041c862/simplegeomap-0.0.27.tar.gz
+[2023-06-06 08:27:22] INFO root fetch - processPackages [PlanaPY]: Downloading https://files.pythonhosted.org/packages/c5/c6/8676e55628852e3f008c6859daa847e2e0651d5a85cc7ceccca1ebbb3c3f/PlanaPY-0.1.7.tar.gz
+[2023-06-06 08:27:22] INFO root fetch - processPackages [muffin]: Downloading https://files.pythonhosted.org/packages/79/e7/d2d74d95450deadf7577724892c844cbc4c274b101d412a3e3099d6087e6/muffin-0.98.5.tar.gz
+[2023-06-06 08:27:22] INFO root fetch - processPackages [PlanaPY]: Downloading https://files.pythonhosted.org/packages/c5/c6/8676e55628852e3f008c6859daa847e2e0651d5a85cc7ceccca1ebbb3c3f/PlanaPY-0.1.7.tar.gz
+[2023-06-06 08:27:22] INFO root fetch - processPackages [get-coupa-token]: Downloading https://files.pythonhosted.org/packages/09/df/7380d6b1c7b6bff729ca5dfaba400dfea3e2f80e8b25653c8565c1841bef/get_coupa_token-1.0.tar.gz
+[2023-06-06 08:27:23] INFO root fetch - processPackages [liquisource]: Downloading https://files.pythonhosted.org/packages/67/60/0b07c66dc69b1a6f4f63d3b3a45e7cffe9a482e912b5294b592436c99f1d/liquisource-1.1.3.tar.gz
+[2023-06-06 08:27:23] INFO root fetch - processPackages [aiontutil]: Downloading https://files.pythonhosted.org/packages/53/7e/8d527f20fee7ab5f07333754545ac39ace951f2105f66dd5917f678500c7/aiontutil-0.0.7.tar.gz
+[2023-06-06 08:27:23] INFO root fetch - processPackages [openqr]: Downloading https://files.pythonhosted.org/packages/73/3b/e462b5f9ab9fa231edf59d235aff8f11a88076091733a097461d107ffad4/openqr-0.0.2.tar.gz
+[2023-06-06 08:27:23] INFO root fetch - processPackages [sleepeeg]: Downloading https://files.pythonhosted.org/packages/cf/5e/4bb8e0d965b458b1cbfe789cb3691f2c26088ea36d2787beadcc18992cf9/sleepeeg-0.2.0.tar.gz
+[2023-06-06 08:27:23] INFO root fetch - processPackages [aiontutil]: executing diffoscope
+[2023-06-06 08:27:23] INFO root fetch - processPackages [aiontutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiontutil-0.0.6.tar.gz tmp/aiontutil-0.0.7.tar.gz --markdown 20230606/a/aiontutil/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-06 08:27:23] INFO root fetch - processPackages [liquisource]: executing diffoscope
+[2023-06-06 08:27:23] INFO root fetch - processPackages [liquisource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liquisource-1.1.2.tar.gz tmp/liquisource-1.1.3.tar.gz --markdown 20230606/l/liquisource/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-06-06 08:27:23] INFO root fetch - processPackages [muffin]: Downloading https://files.pythonhosted.org/packages/bf/72/07d4b562c887c1dead1aae64c72bc4ebd4cffefae8f73a40f2b666d7dc12/muffin-0.98.6.tar.gz
+[2023-06-06 08:27:23] INFO root fetch - processPackages [openqr]: executing diffoscope
+[2023-06-06 08:27:23] INFO root fetch - processPackages [openqr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openqr-0.0.1.tar.gz tmp/openqr-0.0.2.tar.gz --markdown 20230606/o/openqr/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-06 08:27:23] INFO root fetch - processPackages [pyarmor.cli.runtime]: Downloading https://files.pythonhosted.org/packages/d0/9e/9bcfd437e921196f6d12017284db5ca1999e6c5902b08cff86bb1cc8e67a/pyarmor.cli.runtime-3.2.dev1-cp39-none-any.whl
+[2023-06-06 08:27:23] INFO root fetch - processPackages [simplegeomap]: Downloading https://files.pythonhosted.org/packages/a1/00/1a306471377790265373ee519593784a61501690537e5f57b2fc14caf599/simplegeomap-0.0.28.tar.gz
+[2023-06-06 08:27:23] INFO root fetch - processPackages [get-coupa-token]: Downloading https://files.pythonhosted.org/packages/35/95/fd4eaf7bbd4663aa41366a5c5ba57e288893325e5d6aa152560c5d93437d/get_coupa_token-1.2.tar.gz
+[2023-06-06 08:27:23] INFO root fetch - processPackages [sleepeeg]: executing diffoscope
+[2023-06-06 08:27:23] INFO root fetch - processPackages [sleepeeg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sleepeeg-0.1.1.tar.gz tmp/sleepeeg-0.2.0.tar.gz --markdown 20230606/s/sleepeeg/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-06 08:27:23] INFO root fetch - processPackages [muffin]: executing diffoscope
+[2023-06-06 08:27:23] INFO root fetch - processPackages [muffin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin-0.98.5.tar.gz tmp/muffin-0.98.6.tar.gz --markdown 20230606/m/muffin/0.98.5-0.98.6/diff.md --exclude *.pyd
+[2023-06-06 08:27:23] INFO root fetch - processPackages [PlanaPY]: Downloading https://files.pythonhosted.org/packages/b2/03/4a782105a85e467e2161af0526a83d30e2e9f3841c921f0cc1e69b1fe1d0/PlanaPY-0.1.8.tar.gz
+[2023-06-06 08:27:23] INFO root fetch - processPackages [PlanaPY]: Downloading https://files.pythonhosted.org/packages/b2/03/4a782105a85e467e2161af0526a83d30e2e9f3841c921f0cc1e69b1fe1d0/PlanaPY-0.1.8.tar.gz
+[2023-06-06 08:27:23] INFO root fetch - processPackages [simplegeomap]: executing diffoscope
+[2023-06-06 08:27:23] INFO root fetch - processPackages [simplegeomap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplegeomap-0.0.27.tar.gz tmp/simplegeomap-0.0.28.tar.gz --markdown 20230606/s/simplegeomap/0.0.27-0.0.28/diff.md --exclude *.pyd
+[2023-06-06 08:27:23] INFO root fetch - processPackages [get-coupa-token]: executing diffoscope
+[2023-06-06 08:27:23] INFO root fetch - processPackages [get-coupa-token]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/get_coupa_token-1.0.tar.gz tmp/get_coupa_token-1.2.tar.gz --markdown 20230606/g/get-coupa-token/1.0-1.2/diff.md --exclude *.pyd
+[2023-06-06 08:27:23] INFO root fetch - processPackages [PlanaPY]: executing diffoscope
+[2023-06-06 08:27:23] INFO root fetch - processPackages [PlanaPY]: executing diffoscope
+[2023-06-06 08:27:23] INFO root fetch - processPackages [PlanaPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlanaPY-0.1.7.tar.gz tmp/PlanaPY-0.1.8.tar.gz --markdown 20230606/P/PlanaPY/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-06 08:27:23] INFO root fetch - processPackages [PlanaPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlanaPY-0.1.7.tar.gz tmp/PlanaPY-0.1.8.tar.gz --markdown 20230606/P/PlanaPY/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-06 08:27:23] INFO root fetch - processPackages [pyarmor.cli.runtime]: Downloading https://files.pythonhosted.org/packages/64/6b/2faea895b456da4f408b1ef4672beb2434ef0d96f377ead169004b1f76bd/pyarmor.cli.runtime-3.2.dev2-cp39-none-any.whl
+[2023-06-06 08:27:23] INFO root fetch - processPackages [pyarmor.cli.runtime]: executing diffoscope
+[2023-06-06 08:27:23] INFO root fetch - processPackages [pyarmor.cli.runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.runtime-3.2.dev1-cp39-none-any.whl.zip tmp/pyarmor.cli.runtime-3.2.dev2-cp39-none-any.whl.zip --markdown 20230606/p/pyarmor.cli.runtime/3.2.dev1-3.2.dev2/diff.md --exclude *.pyd
+[2023-06-06 08:27:24] INFO root fetch - processPackages [aiontutil]: Remove: archive file [/home/abi/fetcher/tmp/aiontutil-0.0.6.tar.gz]
+[2023-06-06 08:27:24] INFO root fetch - processPackages [aiontutil]: Remove: archive file [/home/abi/fetcher/tmp/aiontutil-0.0.7.tar.gz]
+[2023-06-06 08:27:24] INFO root fetch - processPackages [aiontutil]: Start processing: camply
+[2023-06-06 08:27:24] INFO root fetch - main [MainThread]: End processing [aiontutil]: success
+[2023-06-06 08:27:24] INFO root fetch - processPackages [camply]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-06-06 08:27:24] INFO root fetch - processPackages [camply]: Downloading https://files.pythonhosted.org/packages/b6/1e/0f4c1cd15a9dc716c825ce9473f46b8d514cdeef6ffa87576366bf2588f5/camply-0.9.2.tar.gz
+[2023-06-06 08:27:24] INFO root fetch - processPackages [openqr]: Remove: archive file [/home/abi/fetcher/tmp/openqr-0.0.1.tar.gz]
+[2023-06-06 08:27:24] INFO root fetch - processPackages [openqr]: Remove: archive file [/home/abi/fetcher/tmp/openqr-0.0.2.tar.gz]
+[2023-06-06 08:27:24] INFO root fetch - processPackages [openqr]: Start processing: odoo-addon-base-geoengine
+[2023-06-06 08:27:24] INFO root fetch - main [MainThread]: End processing [openqr]: success
+[2023-06-06 08:27:24] WARNING root fetch - processPackages [odoo-addon-base-geoengine]: Skipping, unable to determine old version
+[2023-06-06 08:27:24] INFO root fetch - processPackages [odoo-addon-base-geoengine]: Start processing: libknot
+[2023-06-06 08:27:24] INFO root fetch - main [MainThread]: End processing [odoo-addon-base-geoengine] error
+[2023-06-06 08:27:24] INFO root fetch - processPackages [sleepeeg]: Remove: archive file [/home/abi/fetcher/tmp/sleepeeg-0.1.1.tar.gz]
+[2023-06-06 08:27:24] INFO root fetch - processPackages [sleepeeg]: Remove: archive file [/home/abi/fetcher/tmp/sleepeeg-0.2.0.tar.gz]
+[2023-06-06 08:27:24] INFO root fetch - processPackages [sleepeeg]: Start processing: EdgeGPT
+[2023-06-06 08:27:24] INFO root fetch - main [MainThread]: End processing [sleepeeg]: success
+[2023-06-06 08:27:24] INFO root fetch - processPackages [libknot]: New version: [3.2.7] Old Version: [3.2.6]
+[2023-06-06 08:27:24] INFO root fetch - processPackages [EdgeGPT]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-06 08:27:24] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/d7/29/f3e955f076747e360e385767e052138c8bbb1b5b8564bb0a8e3ac80aa517/EdgeGPT-0.9.1.tar.gz
+[2023-06-06 08:27:24] INFO root fetch - processPackages [liquisource]: Remove: archive file [/home/abi/fetcher/tmp/liquisource-1.1.2.tar.gz]
+[2023-06-06 08:27:24] INFO root fetch - processPackages [camply]: Downloading https://files.pythonhosted.org/packages/3e/d1/4f9e81a5f74b69b8f9c95b378d56780fcddfa4ab3f0f8226c1a7a7116867/camply-0.9.3.tar.gz
+[2023-06-06 08:27:24] INFO root fetch - processPackages [liquisource]: Remove: archive file [/home/abi/fetcher/tmp/liquisource-1.1.3.tar.gz]
+[2023-06-06 08:27:24] INFO root fetch - processPackages [liquisource]: Start processing: Nuitka
+[2023-06-06 08:27:24] INFO root fetch - main [MainThread]: End processing [liquisource]: success
+[2023-06-06 08:27:24] INFO root fetch - processPackages [Nuitka]: New version: [1.6.1] Old Version: [1.6]
+[2023-06-06 08:27:24] INFO root fetch - processPackages [libknot]: Downloading https://files.pythonhosted.org/packages/07/53/37adf4f1eb84aa5e3bc832ca1eccd716fbdf8ef63514f92d676b03abfd01/libknot-3.2.6.tar.gz
+[2023-06-06 08:27:25] INFO root fetch - processPackages [camply]: executing diffoscope
+[2023-06-06 08:27:25] INFO root fetch - processPackages [PlanaPY]: Remove: archive file [/home/abi/fetcher/tmp/PlanaPY-0.1.7.tar.gz]
+[2023-06-06 08:27:25] INFO root fetch - processPackages [camply]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/camply-0.9.2.tar.gz tmp/camply-0.9.3.tar.gz --markdown 20230606/c/camply/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-06-06 08:27:25] INFO root fetch - processPackages [PlanaPY]: Remove: archive file [/home/abi/fetcher/tmp/PlanaPY-0.1.8.tar.gz]
+[2023-06-06 08:27:25] INFO root fetch - processPackages [PlanaPY]: Start processing: pyarmor.cli.core
+[2023-06-06 08:27:25] INFO root fetch - main [MainThread]: End processing [PlanaPY]: success
+[2023-06-06 08:27:25] INFO root fetch - processPackages [muffin]: Remove: archive file [/home/abi/fetcher/tmp/muffin-0.98.5.tar.gz]
+[2023-06-06 08:27:25] INFO root fetch - processPackages [muffin]: Remove: archive file [/home/abi/fetcher/tmp/muffin-0.98.6.tar.gz]
+[2023-06-06 08:27:25] INFO root fetch - processPackages [muffin]: Start processing: torchqtm
+[2023-06-06 08:27:25] INFO root fetch - main [MainThread]: End processing [muffin]: success
+[2023-06-06 08:27:25] INFO root fetch - processPackages [pyarmor.cli.core]: New version: [3.2.dev2] Old Version: [3.2.dev1]
+[2023-06-06 08:27:25] INFO root fetch - processPackages [get-coupa-token]: Remove: archive file [/home/abi/fetcher/tmp/get_coupa_token-1.0.tar.gz]
+[2023-06-06 08:27:25] INFO root fetch - processPackages [get-coupa-token]: Remove: archive file [/home/abi/fetcher/tmp/get_coupa_token-1.2.tar.gz]
+[2023-06-06 08:27:25] INFO root fetch - processPackages [get-coupa-token]: Start processing: scrapgpt
+[2023-06-06 08:27:25] INFO root fetch - main [MainThread]: End processing [get-coupa-token]: success
+[2023-06-06 08:27:25] INFO root fetch - processPackages [torchqtm]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-06 08:27:25] INFO root fetch - processPackages [Nuitka]: Downloading https://files.pythonhosted.org/packages/fe/6a/2db36d986f5cc9f5611c56e68708f7b6a5fe23ab87261a53a09ab91f9cce/Nuitka-1.6.tar.gz
+[2023-06-06 08:27:25] INFO root fetch - processPackages [simplegeomap]: Remove: archive file [/home/abi/fetcher/tmp/simplegeomap-0.0.27.tar.gz]
+[2023-06-06 08:27:25] INFO root fetch - processPackages [simplegeomap]: Remove: archive file [/home/abi/fetcher/tmp/simplegeomap-0.0.28.tar.gz]
+[2023-06-06 08:27:25] INFO root fetch - processPackages [simplegeomap]: Start processing: easylsb
+[2023-06-06 08:27:25] INFO root fetch - main [MainThread]: End processing [simplegeomap]: success
+[2023-06-06 08:27:25] INFO root fetch - processPackages [easylsb]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-06 08:27:25] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/cd/5b/21684fc9845465c26158f409058121cb077ae7db9cd74c4027491d8a2a42/EdgeGPT-0.9.2.tar.gz
+[2023-06-06 08:27:25] INFO root fetch - processPackages [PlanaPY]: Start processing: PlanaPY
+[2023-06-06 08:27:25] INFO root fetch - main [MainThread]: End processing [PlanaPY]: success
+[2023-06-06 08:27:25] INFO root fetch - processPackages [libknot]: Downloading https://files.pythonhosted.org/packages/34/7c/5b8bdc8179757e6da160a51e56a3e06a847a4691462b8696e120ed9f47df/libknot-3.2.7.tar.gz
+[2023-06-06 08:27:25] INFO root fetch - processPackages [PlanaPY]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 08:27:25] WARNING root fetch - processPackages [scrapgpt]: Skipping, unable to determine old version
+[2023-06-06 08:27:25] INFO root fetch - main [MainThread]: End processing [scrapgpt] error
+[2023-06-06 08:27:25] INFO root fetch - processPackages [PlanaPY]: Downloading https://files.pythonhosted.org/packages/b2/03/4a782105a85e467e2161af0526a83d30e2e9f3841c921f0cc1e69b1fe1d0/PlanaPY-0.1.8.tar.gz
+[2023-06-06 08:27:25] INFO root fetch - processPackages [libknot]: executing diffoscope
+[2023-06-06 08:27:25] INFO root fetch - processPackages [libknot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libknot-3.2.6.tar.gz tmp/libknot-3.2.7.tar.gz --markdown 20230606/l/libknot/3.2.6-3.2.7/diff.md --exclude *.pyd
+[2023-06-06 08:27:25] INFO root fetch - processPackages [pyarmor.cli.core]: Downloading https://files.pythonhosted.org/packages/48/21/f309e3e6a66c267acb350a388359fa9cf280f6e75c917b4f765a9b99881e/pyarmor.cli.core-3.2.dev1-cp39-none-win_amd64.whl
+[2023-06-06 08:27:25] INFO root fetch - processPackages [torchqtm]: Downloading https://files.pythonhosted.org/packages/38/45/8a471ab4b6f968330f43449cd8f8ba5edb6ae0e6c6fd4734fbf1e1e19557/torchqtm-0.0.2.tar.gz
+[2023-06-06 08:27:25] INFO root fetch - processPackages [EdgeGPT]: executing diffoscope
+[2023-06-06 08:27:25] INFO root fetch - processPackages [EdgeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EdgeGPT-0.9.1.tar.gz tmp/EdgeGPT-0.9.2.tar.gz --markdown 20230606/E/EdgeGPT/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-06 08:27:25] INFO root fetch - processPackages [easylsb]: Downloading https://files.pythonhosted.org/packages/bb/22/66a1a4f655a3abdc8744c53333bd7b0afe15a5789297ca5e12d3de13629b/easylsb-1.0.3.tar.gz
+[2023-06-06 08:27:25] INFO root fetch - processPackages [Nuitka]: Downloading https://files.pythonhosted.org/packages/d7/79/3f53f035ca1e64f2bba30da177cf99759cc8d6f4da337e1a27efdd2ea0d0/Nuitka-1.6.1.tar.gz
+[2023-06-06 08:27:25] INFO root fetch - processPackages [PlanaPY]: Downloading https://files.pythonhosted.org/packages/a6/07/983fa31360ad83402255e984fa85f54d49180f31bfc247d58e50f0dfc772/PlanaPY-0.1.9.tar.gz
+[2023-06-06 08:27:25] INFO root fetch - processPackages [torchqtm]: Downloading https://files.pythonhosted.org/packages/4f/d2/339c8d1673a16ca050021d96c8e70b287be0b66812c48dc39eae668b6794/torchqtm-0.0.3.tar.gz
+[2023-06-06 08:27:25] INFO root fetch - processPackages [pyarmor.cli.core]: Downloading https://files.pythonhosted.org/packages/fd/1a/f6bf6d3f325ce7a27ea433aee7c098a8d878b83307538ce49c7ef9c1c891/pyarmor.cli.core-3.2.dev2-cp39-none-win_amd64.whl
+[2023-06-06 08:27:25] INFO root fetch - processPackages [Nuitka]: executing diffoscope
+[2023-06-06 08:27:25] INFO root fetch - processPackages [Nuitka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Nuitka-1.6.tar.gz tmp/Nuitka-1.6.1.tar.gz --markdown 20230606/N/Nuitka/1.6-1.6.1/diff.md --exclude *.pyd
+[2023-06-06 08:27:25] INFO root fetch - processPackages [easylsb]: Downloading https://files.pythonhosted.org/packages/3f/d2/3afc48fe3c5172a9a5dadac51fb0e7f1663f2359afb4272fc935770bb86f/easylsb-1.0.4.tar.gz
+[2023-06-06 08:27:25] INFO root fetch - processPackages [PlanaPY]: executing diffoscope
+[2023-06-06 08:27:25] INFO root fetch - processPackages [PlanaPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlanaPY-0.1.8.tar.gz tmp/PlanaPY-0.1.9.tar.gz --markdown 20230606/P/PlanaPY/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 08:27:25] INFO root fetch - processPackages [torchqtm]: executing diffoscope
+[2023-06-06 08:27:25] INFO root fetch - processPackages [torchqtm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchqtm-0.0.2.tar.gz tmp/torchqtm-0.0.3.tar.gz --markdown 20230606/t/torchqtm/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-06 08:27:25] INFO root fetch - processPackages [easylsb]: executing diffoscope
+[2023-06-06 08:27:25] INFO root fetch - processPackages [easylsb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easylsb-1.0.3.tar.gz tmp/easylsb-1.0.4.tar.gz --markdown 20230606/e/easylsb/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-06 08:27:25] INFO root fetch - processPackages [pyarmor.cli.core]: executing diffoscope
+[2023-06-06 08:27:25] INFO root fetch - processPackages [pyarmor.cli.core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.core-3.2.dev1-cp39-none-win_amd64.whl.zip tmp/pyarmor.cli.core-3.2.dev2-cp39-none-win_amd64.whl.zip --markdown 20230606/p/pyarmor.cli.core/3.2.dev1-3.2.dev2/diff.md --exclude *.pyd
+[2023-06-06 08:27:26] INFO root fetch - processPackages [camply]: Remove: archive file [/home/abi/fetcher/tmp/camply-0.9.2.tar.gz]
+[2023-06-06 08:27:26] INFO root fetch - processPackages [camply]: Remove: archive file [/home/abi/fetcher/tmp/camply-0.9.3.tar.gz]
+[2023-06-06 08:27:26] INFO root fetch - main [MainThread]: End processing [camply]: success
+[2023-06-06 08:27:26] INFO root fetch - processPackages [libknot]: Remove: archive file [/home/abi/fetcher/tmp/libknot-3.2.6.tar.gz]
+[2023-06-06 08:27:26] INFO root fetch - processPackages [libknot]: Remove: archive file [/home/abi/fetcher/tmp/libknot-3.2.7.tar.gz]
+[2023-06-06 08:27:26] INFO root fetch - main [MainThread]: End processing [libknot]: success
+[2023-06-06 08:27:26] INFO root fetch - processPackages [EdgeGPT]: Remove: archive file [/home/abi/fetcher/tmp/EdgeGPT-0.9.1.tar.gz]
+[2023-06-06 08:27:26] INFO root fetch - processPackages [EdgeGPT]: Remove: archive file [/home/abi/fetcher/tmp/EdgeGPT-0.9.2.tar.gz]
+[2023-06-06 08:27:26] INFO root fetch - main [MainThread]: End processing [EdgeGPT]: success
+[2023-06-06 08:27:27] INFO root fetch - processPackages [PlanaPY]: Remove: archive file [/home/abi/fetcher/tmp/PlanaPY-0.1.8.tar.gz]
+[2023-06-06 08:27:27] INFO root fetch - processPackages [PlanaPY]: Remove: archive file [/home/abi/fetcher/tmp/PlanaPY-0.1.9.tar.gz]
+[2023-06-06 08:27:27] INFO root fetch - main [MainThread]: End processing [PlanaPY]: success
+[2023-06-06 08:27:27] INFO root fetch - processPackages [pyarmor.cli.core]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core-3.2.dev1-cp39-none-win_amd64.whl.zip]
+[2023-06-06 08:27:27] INFO root fetch - processPackages [pyarmor.cli.core]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.core-3.2.dev2-cp39-none-win_amd64.whl.zip]
+[2023-06-06 08:27:27] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.core]: success
+[2023-06-06 08:27:27] INFO root fetch - processPackages [easylsb]: Remove: archive file [/home/abi/fetcher/tmp/easylsb-1.0.3.tar.gz]
+[2023-06-06 08:27:27] INFO root fetch - processPackages [easylsb]: Remove: archive file [/home/abi/fetcher/tmp/easylsb-1.0.4.tar.gz]
+[2023-06-06 08:27:27] INFO root fetch - main [MainThread]: End processing [easylsb]: success
+[2023-06-06 08:27:29] INFO root fetch - processPackages [torchqtm]: Remove: archive file [/home/abi/fetcher/tmp/torchqtm-0.0.2.tar.gz]
+[2023-06-06 08:27:29] INFO root fetch - processPackages [torchqtm]: Remove: archive file [/home/abi/fetcher/tmp/torchqtm-0.0.3.tar.gz]
+[2023-06-06 08:27:29] INFO root fetch - main [MainThread]: End processing [torchqtm]: success
+[2023-06-06 08:27:45] INFO root fetch - processPackages [pyarmor.cli.runtime]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.runtime-3.2.dev1-cp39-none-any.whl.zip]
+[2023-06-06 08:27:45] INFO root fetch - processPackages [pyarmor.cli.runtime]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.runtime-3.2.dev2-cp39-none-any.whl.zip]
+[2023-06-06 08:27:45] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.runtime]: success
+[2023-06-06 08:27:53] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-1.6.tar.gz]
+[2023-06-06 08:27:53] INFO root fetch - processPackages [Nuitka]: Remove: archive file [/home/abi/fetcher/tmp/Nuitka-1.6.1.tar.gz]
+[2023-06-06 08:27:53] INFO root fetch - main [MainThread]: End processing [Nuitka]: success
+[2023-06-06 08:27:53] INFO root fetch - main [MainThread]: Store serial: [18387366]
