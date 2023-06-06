@@ -22219,3 +22219,280 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-06 13:59:57] INFO root fetch - processPackages [pyDFTutils]: Remove: archive file [/home/abi/fetcher/tmp/pyDFTutils-0.1.9.tar.gz]
 [2023-06-06 13:59:57] INFO root fetch - main [MainThread]: End processing [pyDFTutils]: success
 [2023-06-06 13:59:57] INFO root fetch - main [MainThread]: Store serial: [18390815]
+[2023-06-06 14:05:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18390815]
+[2023-06-06 14:05:06] INFO root fetch - main [MainThread]: Found 34 changed packages
+[2023-06-06 14:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: EdgeGPT
+[2023-06-06 14:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: c2cciutils
+[2023-06-06 14:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crillab-autograph
+[2023-06-06 14:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bigdl-dllib
+[2023-06-06 14:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ga4-data-import
+[2023-06-06 14:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bigdl-orca
+[2023-06-06 14:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bigdl-friesian
+[2023-06-06 14:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: error-parity
+[2023-06-06 14:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bigdl
+[2023-06-06 14:05:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: tvv
+[2023-06-06 14:05:07] INFO root fetch - processPackages [c2cciutils]: New version: [1.6.0.dev99] Old Version: [1.6.0.dev98]
+[2023-06-06 14:05:07] INFO root fetch - processPackages [tvv]: New version: [0.2] Old Version: [0.1]
+[2023-06-06 14:05:07] INFO root fetch - processPackages [ga4-data-import]: New version: [0.1.5] Old Version: [0.1.2]
+[2023-06-06 14:05:07] INFO root fetch - processPackages [bigdl-orca]: New version: [2.4.0b20230606] Old Version: [2.4.0b20230605]
+[2023-06-06 14:05:07] INFO root fetch - processPackages [bigdl-dllib]: New version: [2.4.0b20230606] Old Version: [2.4.0b20230605]
+[2023-06-06 14:05:07] INFO root fetch - processPackages [crillab-autograph]: New version: [0.1.0rc9] Old Version: [0.1.0rc8]
+[2023-06-06 14:05:07] INFO root fetch - processPackages [EdgeGPT]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-06 14:05:07] INFO root fetch - processPackages [error-parity]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-06 14:05:07] INFO root fetch - processPackages [bigdl]: New version: [2.4.0b20230606] Old Version: [2.4.0b20230605]
+[2023-06-06 14:05:07] INFO root fetch - processPackages [bigdl-friesian]: New version: [2.4.0b20230606] Old Version: [2.4.0b20230605]
+[2023-06-06 14:05:07] INFO root fetch - processPackages [tvv]: Downloading https://files.pythonhosted.org/packages/5a/26/d10ccf2908899250587fb958ec295298e7111a38b5b331d292144b141213/tvv-0.1.tar.gz
+[2023-06-06 14:05:07] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/d7/29/f3e955f076747e360e385767e052138c8bbb1b5b8564bb0a8e3ac80aa517/EdgeGPT-0.9.1.tar.gz
+[2023-06-06 14:05:07] INFO root fetch - processPackages [error-parity]: Downloading https://files.pythonhosted.org/packages/24/2e/9d0d4c53f7a060022a1879033efbaad504fc5377fba1f8e46c591a7c4aa6/error-parity-0.1.1.tar.gz
+[2023-06-06 14:05:07] INFO root fetch - processPackages [bigdl-dllib]: Downloading https://files.pythonhosted.org/packages/77/2e/747ce9eaf41767c07fc259e8735320d4b173ca2d8db746fecca3bebe67d8/bigdl-dllib-2.4.0b20230605.tar.gz
+[2023-06-06 14:05:07] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/32/cf/539082ba44a46bfe8585f96cd95bf751ae8f20466631001a4cd36a9b8add/bigdl-2.4.0b20230605-py3-none-manylinux1_x86_64.whl
+[2023-06-06 14:05:07] INFO root fetch - processPackages [bigdl-orca]: Downloading https://files.pythonhosted.org/packages/ad/1c/d582685eb01359472e5dcc480cb1144ba5c1f6cea3fc5e4f05f1b5c958ac/bigdl_orca-2.4.0b20230605-py3-none-manylinux1_x86_64.whl
+[2023-06-06 14:05:07] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/72/bb/af9ee4c96d43fa57c687a16bde71f829187527abd2347c4d13f5c6999cb5/bigdl_friesian-2.4.0b20230605-py3-none-manylinux1_x86_64.whl
+[2023-06-06 14:05:07] INFO root fetch - processPackages [crillab-autograph]: Downloading https://files.pythonhosted.org/packages/cc/2c/b938c73bcf8959b3c91ff4c4901fa3f42871e8084705cfda8f43917cf124/crillab-autograph-0.1.0rc8.tar.gz
+[2023-06-06 14:05:07] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/a1/2b/1d6a9f2a49b1cf5d42f9fe6f8498218d1aa03ad4f83547e435c82985bf79/c2cciutils-1.6.0.dev98.tar.gz
+[2023-06-06 14:05:07] INFO root fetch - processPackages [ga4-data-import]: Downloading https://files.pythonhosted.org/packages/eb/c4/527edbdedae34ac3bb42ad98e8b645fa40e33547615c24cc9d5dd5fb8b81/ga4_data_import-0.1.2-py3-none-any.whl
+[2023-06-06 14:05:07] WARNING root fetch - processPackages [bigdl-orca]: Skipping package: exceeds size limit 20369525>=10485760
+[2023-06-06 14:05:07] WARNING root fetch - processPackages [bigdl-dllib]: Skipping package: exceeds size limit 53559890>=10485760
+[2023-06-06 14:05:07] INFO root fetch - processPackages [bigdl-orca]: Start processing: bigdl-dllib-spark2
+[2023-06-06 14:05:07] INFO root fetch - processPackages [bigdl-dllib]: Start processing: magicpy
+[2023-06-06 14:05:07] INFO root fetch - main [MainThread]: End processing [bigdl-orca] error
+[2023-06-06 14:05:07] INFO root fetch - main [MainThread]: End processing [bigdl-dllib] error
+[2023-06-06 14:05:07] INFO root fetch - processPackages [EdgeGPT]: Downloading https://files.pythonhosted.org/packages/cd/5b/21684fc9845465c26158f409058121cb077ae7db9cd74c4027491d8a2a42/EdgeGPT-0.9.2.tar.gz
+[2023-06-06 14:05:07] INFO root fetch - processPackages [magicpy]: New version: [0.1.4] Old Version: [0.1.3.1]
+[2023-06-06 14:05:07] INFO root fetch - processPackages [bigdl-dllib-spark2]: New version: [2.4.0b20230606] Old Version: [2.4.0b20230605]
+[2023-06-06 14:05:07] INFO root fetch - processPackages [error-parity]: Downloading https://files.pythonhosted.org/packages/36/19/60068b69d4b49dc59d5db99d6b99c299fe1c8f59f3282d8e4adb226ea4bd/error-parity-0.1.2.tar.gz
+[2023-06-06 14:05:07] INFO root fetch - processPackages [tvv]: Downloading https://files.pythonhosted.org/packages/61/db/98df18854f91bdd8f8dde8067e4b8cd19bd1fd4605f1f7e4d9ae31c5b58a/tvv-0.2.tar.gz
+[2023-06-06 14:05:07] INFO root fetch - processPackages [EdgeGPT]: executing diffoscope
+[2023-06-06 14:05:07] INFO root fetch - processPackages [EdgeGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EdgeGPT-0.9.1.tar.gz tmp/EdgeGPT-0.9.2.tar.gz --markdown 20230606/E/EdgeGPT/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-06 14:05:07] INFO root fetch - processPackages [bigdl-dllib-spark2]: Downloading https://files.pythonhosted.org/packages/1c/06/d27173ff830d6440feed1db4069392ac339912936206c3cecb1a25113230/bigdl-dllib-spark2-2.4.0b20230605.tar.gz
+[2023-06-06 14:05:07] INFO root fetch - processPackages [bigdl]: Downloading https://files.pythonhosted.org/packages/62/ef/570462c23a733a0007b30e2e3fe5786763eb92af857d152304cd913fac85/bigdl-2.4.0b20230606-py3-none-manylinux1_x86_64.whl
+[2023-06-06 14:05:07] INFO root fetch - processPackages [error-parity]: executing diffoscope
+[2023-06-06 14:05:07] INFO root fetch - processPackages [error-parity]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/error-parity-0.1.1.tar.gz tmp/error-parity-0.1.2.tar.gz --markdown 20230606/e/error-parity/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-06 14:05:07] INFO root fetch - processPackages [tvv]: executing diffoscope
+[2023-06-06 14:05:07] INFO root fetch - processPackages [tvv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tvv-0.1.tar.gz tmp/tvv-0.2.tar.gz --markdown 20230606/t/tvv/0.1-0.2/diff.md --exclude *.pyd
+[2023-06-06 14:05:07] INFO root fetch - processPackages [magicpy]: Downloading https://files.pythonhosted.org/packages/e3/ef/dec1a0aa5b5a209864fe58990e0a28a385034ba5215387065d003964993f/magicpy-0.1.3.1.tar.gz
+[2023-06-06 14:05:07] INFO root fetch - processPackages [bigdl-friesian]: Downloading https://files.pythonhosted.org/packages/eb/5d/a56599f8ae2109ee04b413cf8784481e4ceeeea06e1686e73e5c9d5f8f90/bigdl_friesian-2.4.0b20230606-py3-none-manylinux1_x86_64.whl
+[2023-06-06 14:05:07] WARNING root fetch - processPackages [bigdl-dllib-spark2]: Skipping package: exceeds size limit 53559970>=10485760
+[2023-06-06 14:05:07] INFO root fetch - processPackages [bigdl-dllib-spark2]: Start processing: dfktools
+[2023-06-06 14:05:07] INFO root fetch - main [MainThread]: End processing [bigdl-dllib-spark2] error
+[2023-06-06 14:05:07] INFO root fetch - processPackages [dfktools]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-06-06 14:05:07] INFO root fetch - processPackages [ga4-data-import]: Downloading https://files.pythonhosted.org/packages/25/18/edfdc7c16c5f54f377624d2136cef5983bd99e87a5a09e74ba364240daa7/ga4_data_import-0.1.5-py3-none-any.whl
+[2023-06-06 14:05:07] INFO root fetch - processPackages [bigdl]: executing diffoscope
+[2023-06-06 14:05:07] INFO root fetch - processPackages [bigdl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl-2.4.0b20230605-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl-2.4.0b20230606-py3-none-manylinux1_x86_64.whl.zip --markdown 20230606/b/bigdl/2.4.0b20230605-2.4.0b20230606/diff.md --exclude *.pyd
+[2023-06-06 14:05:07] INFO root fetch - processPackages [crillab-autograph]: Downloading https://files.pythonhosted.org/packages/5e/3f/9277e0af30656e2ec5d9959f18ad6a77b2a0ac62d2b720e2f7bc67f25dce/crillab-autograph-0.1.0rc9.tar.gz
+[2023-06-06 14:05:07] INFO root fetch - processPackages [bigdl-friesian]: executing diffoscope
+[2023-06-06 14:05:07] INFO root fetch - processPackages [bigdl-friesian]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian-2.4.0b20230605-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian-2.4.0b20230606-py3-none-manylinux1_x86_64.whl.zip --markdown 20230606/b/bigdl-friesian/2.4.0b20230605-2.4.0b20230606/diff.md --exclude *.pyd
+[2023-06-06 14:05:07] INFO root fetch - processPackages [crillab-autograph]: executing diffoscope
+[2023-06-06 14:05:07] INFO root fetch - processPackages [crillab-autograph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crillab-autograph-0.1.0rc8.tar.gz tmp/crillab-autograph-0.1.0rc9.tar.gz --markdown 20230606/c/crillab-autograph/0.1.0rc8-0.1.0rc9/diff.md --exclude *.pyd
+[2023-06-06 14:05:07] INFO root fetch - processPackages [ga4-data-import]: executing diffoscope
+[2023-06-06 14:05:07] INFO root fetch - processPackages [ga4-data-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ga4_data_import-0.1.2-py3-none-any.whl.zip tmp/ga4_data_import-0.1.5-py3-none-any.whl.zip --markdown 20230606/g/ga4-data-import/0.1.2-0.1.5/diff.md --exclude *.pyd
+[2023-06-06 14:05:07] INFO root fetch - processPackages [dfktools]: Downloading https://files.pythonhosted.org/packages/2f/a5/32244e266081f9e57076e9c57827a40e28ccd1f39c53fe72cc34304ac2a7/dfktools-0.3.1.tar.gz
+[2023-06-06 14:05:07] INFO root fetch - processPackages [magicpy]: Downloading https://files.pythonhosted.org/packages/e2/31/b96497e3c4932cc606f19af62666e2caa6b34d7b30a2552b921b5d38809d/magicpy-0.1.4.tar.gz
+[2023-06-06 14:05:07] INFO root fetch - processPackages [magicpy]: executing diffoscope
+[2023-06-06 14:05:07] INFO root fetch - processPackages [magicpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magicpy-0.1.3.1.tar.gz tmp/magicpy-0.1.4.tar.gz --markdown 20230606/m/magicpy/0.1.3.1-0.1.4/diff.md --exclude *.pyd
+[2023-06-06 14:05:08] INFO root fetch - processPackages [dfktools]: Downloading https://files.pythonhosted.org/packages/9b/1a/26a1bcbbd1f74d31609bfb5e1d85c339f7a0f6e9d2d423cb88c5d0d684b2/dfktools-0.3.2.tar.gz
+[2023-06-06 14:05:08] INFO root fetch - processPackages [dfktools]: executing diffoscope
+[2023-06-06 14:05:08] INFO root fetch - processPackages [dfktools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfktools-0.3.1.tar.gz tmp/dfktools-0.3.2.tar.gz --markdown 20230606/d/dfktools/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-06-06 14:05:08] INFO root fetch - processPackages [c2cciutils]: Downloading https://files.pythonhosted.org/packages/60/cb/aa51be69fbd8a1ba783878ebc042a12a61ad083b26d90280d1164ab692f5/c2cciutils-1.6.0.dev99.tar.gz
+[2023-06-06 14:05:08] INFO root fetch - processPackages [c2cciutils]: executing diffoscope
+[2023-06-06 14:05:08] INFO root fetch - processPackages [c2cciutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2cciutils-1.6.0.dev98.tar.gz tmp/c2cciutils-1.6.0.dev99.tar.gz --markdown 20230606/c/c2cciutils/1.6.0.dev98-1.6.0.dev99/diff.md --exclude *.pyd
+[2023-06-06 14:05:08] INFO root fetch - processPackages [tvv]: Remove: archive file [/home/abi/fetcher/tmp/tvv-0.1.tar.gz]
+[2023-06-06 14:05:08] INFO root fetch - processPackages [tvv]: Remove: archive file [/home/abi/fetcher/tmp/tvv-0.2.tar.gz]
+[2023-06-06 14:05:08] INFO root fetch - processPackages [tvv]: Start processing: bigdl-orca-spark2
+[2023-06-06 14:05:08] INFO root fetch - main [MainThread]: End processing [tvv]: success
+[2023-06-06 14:05:08] INFO root fetch - processPackages [bigdl-orca-spark2]: New version: [2.4.0b20230606] Old Version: [2.4.0b20230605]
+[2023-06-06 14:05:09] INFO root fetch - processPackages [EdgeGPT]: Remove: archive file [/home/abi/fetcher/tmp/EdgeGPT-0.9.1.tar.gz]
+[2023-06-06 14:05:09] INFO root fetch - processPackages [EdgeGPT]: Remove: archive file [/home/abi/fetcher/tmp/EdgeGPT-0.9.2.tar.gz]
+[2023-06-06 14:05:09] INFO root fetch - processPackages [EdgeGPT]: Start processing: bigdl-friesian-spark2
+[2023-06-06 14:05:09] INFO root fetch - main [MainThread]: End processing [EdgeGPT]: success
+[2023-06-06 14:05:09] INFO root fetch - processPackages [bigdl-friesian-spark2]: New version: [2.4.0b20230606] Old Version: [2.4.0b20230605]
+[2023-06-06 14:05:09] INFO root fetch - processPackages [bigdl-orca-spark2]: Downloading https://files.pythonhosted.org/packages/f7/35/3760c3e6ce2e005128328e70772f78497dacd3e1336b0da014a576a562f8/bigdl_orca_spark2-2.4.0b20230605-py3-none-manylinux1_x86_64.whl
+[2023-06-06 14:05:09] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230605-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-06 14:05:09] INFO root fetch - processPackages [bigdl]: Remove: archive file [/home/abi/fetcher/tmp/bigdl-2.4.0b20230606-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-06 14:05:09] INFO root fetch - processPackages [bigdl]: Start processing: bigdl-chronos-spark2
+[2023-06-06 14:05:09] INFO root fetch - main [MainThread]: End processing [bigdl]: success
+[2023-06-06 14:05:09] WARNING root fetch - processPackages [bigdl-orca-spark2]: Skipping package: exceeds size limit 20369604>=10485760
+[2023-06-06 14:05:09] INFO root fetch - processPackages [bigdl-orca-spark2]: Start processing: bigdl-spark2
+[2023-06-06 14:05:09] INFO root fetch - main [MainThread]: End processing [bigdl-orca-spark2] error
+[2023-06-06 14:05:09] INFO root fetch - processPackages [bigdl-chronos-spark2]: New version: [2.4.0b20230606] Old Version: [2.4.0b20230605]
+[2023-06-06 14:05:09] INFO root fetch - processPackages [bigdl-spark2]: New version: [2.4.0b20230606] Old Version: [2.4.0b20230605]
+[2023-06-06 14:05:09] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/5d/3d/9beb8d2962f6c5ba77ef34039bb9368535c97a37dc124b39d1a6749329e9/bigdl_friesian_spark2-2.4.0b20230605-py3-none-manylinux1_x86_64.whl
+[2023-06-06 14:05:09] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/46/b1/3e1aef04f7bec1fb09787393ab2c512e0ee1e8f2bc28f313d7bd3f320382/bigdl_chronos_spark2-2.4.0b20230605-py3-none-manylinux1_x86_64.whl
+[2023-06-06 14:05:09] INFO root fetch - processPackages [ga4-data-import]: Remove: archive file [/home/abi/fetcher/tmp/ga4_data_import-0.1.2-py3-none-any.whl.zip]
+[2023-06-06 14:05:09] INFO root fetch - processPackages [ga4-data-import]: Remove: archive file [/home/abi/fetcher/tmp/ga4_data_import-0.1.5-py3-none-any.whl.zip]
+[2023-06-06 14:05:09] INFO root fetch - processPackages [ga4-data-import]: Start processing: django-cloudwatch-metrics
+[2023-06-06 14:05:09] INFO root fetch - main [MainThread]: End processing [ga4-data-import]: success
+[2023-06-06 14:05:09] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/1d/50/1daaebab43d31c2c54cadfcc2f0ee75f3dd43a9df014b0b42184bb785bb0/bigdl_spark2-2.4.0b20230605-py3-none-manylinux1_x86_64.whl
+[2023-06-06 14:05:09] INFO root fetch - processPackages [django-cloudwatch-metrics]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-06 14:05:09] INFO root fetch - processPackages [error-parity]: Remove: archive file [/home/abi/fetcher/tmp/error-parity-0.1.1.tar.gz]
+[2023-06-06 14:05:09] INFO root fetch - processPackages [error-parity]: Remove: archive file [/home/abi/fetcher/tmp/error-parity-0.1.2.tar.gz]
+[2023-06-06 14:05:09] INFO root fetch - processPackages [error-parity]: Start processing: tf-agents-nightly
+[2023-06-06 14:05:09] INFO root fetch - main [MainThread]: End processing [error-parity]: success
+[2023-06-06 14:05:09] INFO root fetch - processPackages [tf-agents-nightly]: New version: [0.9.0.dev20210812] Old Version: [0.9.0.dev20210811]
+[2023-06-06 14:05:09] INFO root fetch - processPackages [crillab-autograph]: Remove: archive file [/home/abi/fetcher/tmp/crillab-autograph-0.1.0rc8.tar.gz]
+[2023-06-06 14:05:09] INFO root fetch - processPackages [crillab-autograph]: Remove: archive file [/home/abi/fetcher/tmp/crillab-autograph-0.1.0rc9.tar.gz]
+[2023-06-06 14:05:09] INFO root fetch - processPackages [crillab-autograph]: Start processing: python-petpptx
+[2023-06-06 14:05:09] INFO root fetch - main [MainThread]: End processing [crillab-autograph]: success
+[2023-06-06 14:05:09] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/2f/8e/5b1259fdcefcc564c90842a0c1206b58d6abfbb7914bcbd38710ba780d40/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl
+[2023-06-06 14:05:09] INFO root fetch - processPackages [bigdl-friesian-spark2]: Downloading https://files.pythonhosted.org/packages/84/bd/a17bdfd7447e1b1c03450fc040989107ca9aca12324307682c38e62aeefe/bigdl_friesian_spark2-2.4.0b20230606-py3-none-manylinux1_x86_64.whl
+[2023-06-06 14:05:09] INFO root fetch - processPackages [python-petpptx]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-06 14:05:09] INFO root fetch - processPackages [django-cloudwatch-metrics]: Downloading https://files.pythonhosted.org/packages/0a/8b/e4e3a67871add14c57111084c6c2dc0c90bd36f6e6fbeef027d875fbd724/django_cloudwatch_metrics-0.0.6.tar.gz
+[2023-06-06 14:05:09] INFO root fetch - processPackages [python-petpptx]: Downloading https://files.pythonhosted.org/packages/6b/d5/1252ca753660c028f80d286d691c822b4be2e6beecdabaf932559ac46342/python-petpptx-1.0.0.tar.gz
+[2023-06-06 14:05:09] INFO root fetch - processPackages [bigdl-spark2]: Downloading https://files.pythonhosted.org/packages/4e/70/50355c239008d4c22c7c894421b7de2e2411f1c3fb83a44d237df77b764f/bigdl_spark2-2.4.0b20230606-py3-none-manylinux1_x86_64.whl
+[2023-06-06 14:05:09] INFO root fetch - processPackages [bigdl-chronos-spark2]: Downloading https://files.pythonhosted.org/packages/54/3e/88079783931986d6793bd03f1c83d0e7fe8ff4aa561d5e5b4e29f4301c24/bigdl_chronos_spark2-2.4.0b20230606-py3-none-manylinux1_x86_64.whl
+[2023-06-06 14:05:09] INFO root fetch - processPackages [bigdl-spark2]: executing diffoscope
+[2023-06-06 14:05:09] INFO root fetch - processPackages [bigdl-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_spark2-2.4.0b20230605-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_spark2-2.4.0b20230606-py3-none-manylinux1_x86_64.whl.zip --markdown 20230606/b/bigdl-spark2/2.4.0b20230605-2.4.0b20230606/diff.md --exclude *.pyd
+[2023-06-06 14:05:09] INFO root fetch - processPackages [bigdl-friesian-spark2]: executing diffoscope
+[2023-06-06 14:05:09] INFO root fetch - processPackages [bigdl-friesian-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_friesian_spark2-2.4.0b20230605-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_friesian_spark2-2.4.0b20230606-py3-none-manylinux1_x86_64.whl.zip --markdown 20230606/b/bigdl-friesian-spark2/2.4.0b20230605-2.4.0b20230606/diff.md --exclude *.pyd
+[2023-06-06 14:05:09] INFO root fetch - processPackages [bigdl-chronos-spark2]: executing diffoscope
+[2023-06-06 14:05:09] INFO root fetch - processPackages [bigdl-chronos-spark2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos_spark2-2.4.0b20230605-py3-none-manylinux1_x86_64.whl.zip tmp/bigdl_chronos_spark2-2.4.0b20230606-py3-none-manylinux1_x86_64.whl.zip --markdown 20230606/b/bigdl-chronos-spark2/2.4.0b20230605-2.4.0b20230606/diff.md --exclude *.pyd
+[2023-06-06 14:05:09] INFO root fetch - processPackages [django-cloudwatch-metrics]: Downloading https://files.pythonhosted.org/packages/b8/c7/dcd642107478c04570de20879bba476ec13f7b18ea75847e32b672d56183/django_cloudwatch_metrics-0.0.7.tar.gz
+[2023-06-06 14:05:09] INFO root fetch - processPackages [django-cloudwatch-metrics]: executing diffoscope
+[2023-06-06 14:05:09] INFO root fetch - processPackages [django-cloudwatch-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_cloudwatch_metrics-0.0.6.tar.gz tmp/django_cloudwatch_metrics-0.0.7.tar.gz --markdown 20230606/d/django-cloudwatch-metrics/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-06 14:05:10] INFO root fetch - processPackages [python-petpptx]: Downloading https://files.pythonhosted.org/packages/da/a9/7047f0ca6c7603e1a24238ff48126bba9d70b2d559af9fe2e87c071faf12/python-petpptx-1.0.1.tar.gz
+[2023-06-06 14:05:10] INFO root fetch - processPackages [magicpy]: Remove: archive file [/home/abi/fetcher/tmp/magicpy-0.1.3.1.tar.gz]
+[2023-06-06 14:05:10] INFO root fetch - processPackages [magicpy]: Remove: archive file [/home/abi/fetcher/tmp/magicpy-0.1.4.tar.gz]
+[2023-06-06 14:05:10] INFO root fetch - processPackages [magicpy]: Start processing: deez-py
+[2023-06-06 14:05:10] INFO root fetch - main [MainThread]: End processing [magicpy]: success
+[2023-06-06 14:05:10] INFO root fetch - processPackages [tf-agents-nightly]: Downloading https://files.pythonhosted.org/packages/ae/8c/d1e1b7b8f7b6ceee69bbf569ab3bd6f79ffd9963ff66079303942550d03d/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl
+[2023-06-06 14:05:10] INFO root fetch - processPackages [deez-py]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-06 14:05:10] INFO root fetch - processPackages [deez-py]: Downloading https://files.pythonhosted.org/packages/20/65/f6601f3ff8cdbf52d3b30139e8f551e64efce315f0570e8580a1b1553a09/deez_py-0.1.4.tar.gz
+[2023-06-06 14:05:10] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230605-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-06 14:05:10] INFO root fetch - processPackages [bigdl-friesian]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian-2.4.0b20230606-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-06 14:05:10] INFO root fetch - processPackages [bigdl-friesian]: Start processing: spepper
+[2023-06-06 14:05:10] INFO root fetch - main [MainThread]: End processing [bigdl-friesian]: success
+[2023-06-06 14:05:10] WARNING root fetch - processPackages [spepper]: Skipping, unable to determine old version
+[2023-06-06 14:05:10] INFO root fetch - processPackages [spepper]: Start processing: utnamtte
+[2023-06-06 14:05:10] INFO root fetch - main [MainThread]: End processing [spepper] error
+[2023-06-06 14:05:10] WARNING root fetch - processPackages [utnamtte]: Skipping, unable to determine old version
+[2023-06-06 14:05:10] INFO root fetch - processPackages [utnamtte]: Start processing: coretex
+[2023-06-06 14:05:10] INFO root fetch - main [MainThread]: End processing [utnamtte] error
+[2023-06-06 14:05:10] INFO root fetch - processPackages [deez-py]: Downloading https://files.pythonhosted.org/packages/43/25/c287945f46c3d30e55ede7945cea92fa399173b233c97893770602e6cbd4/deez_py-0.1.5.tar.gz
+[2023-06-06 14:05:10] INFO root fetch - processPackages [coretex]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-06-06 14:05:10] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/e8/6b/1d94898fbcd0fcbcbefbf0f3ade5bd907f9f878151fd9e6b4acef1f1af6d/coretex-1.0.3.tar.gz
+[2023-06-06 14:05:10] INFO root fetch - processPackages [deez-py]: executing diffoscope
+[2023-06-06 14:05:10] INFO root fetch - processPackages [deez-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deez_py-0.1.4.tar.gz tmp/deez_py-0.1.5.tar.gz --markdown 20230606/d/deez-py/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-06 14:05:10] INFO root fetch - processPackages [coretex]: Downloading https://files.pythonhosted.org/packages/65/24/13cd0a2152a997c8ba8001cc4c0386a16976ba8ff2f0d0dd7928916e3e8c/coretex-1.0.4.tar.gz
+[2023-06-06 14:05:10] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230605-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-06 14:05:10] INFO root fetch - processPackages [bigdl-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_spark2-2.4.0b20230606-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-06 14:05:10] INFO root fetch - processPackages [bigdl-spark2]: Start processing: commodplot
+[2023-06-06 14:05:10] INFO root fetch - main [MainThread]: End processing [bigdl-spark2]: success
+[2023-06-06 14:05:11] INFO root fetch - processPackages [coretex]: executing diffoscope
+[2023-06-06 14:05:11] INFO root fetch - processPackages [coretex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coretex-1.0.3.tar.gz tmp/coretex-1.0.4.tar.gz --markdown 20230606/c/coretex/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-06-06 14:05:11] INFO root fetch - processPackages [commodplot]: New version: [1.6.3] Old Version: [1.6.2]
+[2023-06-06 14:05:11] INFO root fetch - processPackages [tf-agents-nightly]: executing diffoscope
+[2023-06-06 14:05:11] INFO root fetch - processPackages [tf-agents-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip --markdown 20230606/t/tf-agents-nightly/0.9.0.dev20210811-0.9.0.dev20210812/diff.md --exclude *.pyd
+[2023-06-06 14:05:11] INFO root fetch - processPackages [commodplot]: Downloading https://files.pythonhosted.org/packages/6e/16/a3affc63df06b277bb6d96496b69408d0a0d7f1f3c3b9edf92145892a6c6/commodplot-1.6.2.tar.gz
+[2023-06-06 14:05:11] INFO root fetch - processPackages [python-petpptx]: executing diffoscope
+[2023-06-06 14:05:11] INFO root fetch - processPackages [python-petpptx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-petpptx-1.0.0.tar.gz tmp/python-petpptx-1.0.1.tar.gz --markdown 20230606/p/python-petpptx/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-06 14:05:11] INFO root fetch - processPackages [django-cloudwatch-metrics]: Remove: archive file [/home/abi/fetcher/tmp/django_cloudwatch_metrics-0.0.6.tar.gz]
+[2023-06-06 14:05:11] INFO root fetch - processPackages [django-cloudwatch-metrics]: Remove: archive file [/home/abi/fetcher/tmp/django_cloudwatch_metrics-0.0.7.tar.gz]
+[2023-06-06 14:05:11] INFO root fetch - processPackages [django-cloudwatch-metrics]: Start processing: tiledb-jupyter-bioimg
+[2023-06-06 14:05:11] INFO root fetch - main [MainThread]: End processing [django-cloudwatch-metrics]: success
+[2023-06-06 14:05:11] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: New version: [0.1.2a3] Old Version: [0.1.2a2]
+[2023-06-06 14:05:11] INFO root fetch - processPackages [commodplot]: Downloading https://files.pythonhosted.org/packages/0e/a6/ecd08cd01a5c9e8208235ff985c27cff6d844795ca65558d0f2c0ea9a56d/commodplot-1.6.3.tar.gz
+[2023-06-06 14:05:11] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Downloading https://files.pythonhosted.org/packages/f5/95/8a899ba67ce100f0585faa8c6663a267b8075a6da57950ba2cf277d642f7/tiledb_jupyter_bioimg-0.1.2a2.tar.gz
+[2023-06-06 14:05:11] INFO root fetch - processPackages [commodplot]: executing diffoscope
+[2023-06-06 14:05:11] INFO root fetch - processPackages [commodplot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/commodplot-1.6.2.tar.gz tmp/commodplot-1.6.3.tar.gz --markdown 20230606/c/commodplot/1.6.2-1.6.3/diff.md --exclude *.pyd
+[2023-06-06 14:05:11] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Downloading https://files.pythonhosted.org/packages/a6/2b/6e7a71ea8fdbaafd50dfba56ce496fb99488f5492f40705cc175c443bfa0/tiledb_jupyter_bioimg-0.1.2a3.tar.gz
+[2023-06-06 14:05:12] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: executing diffoscope
+[2023-06-06 14:05:12] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiledb_jupyter_bioimg-0.1.2a2.tar.gz tmp/tiledb_jupyter_bioimg-0.1.2a3.tar.gz --markdown 20230606/t/tiledb-jupyter-bioimg/0.1.2a2-0.1.2a3/diff.md --exclude *.pyd
+[2023-06-06 14:05:12] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230605-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-06 14:05:12] INFO root fetch - processPackages [bigdl-friesian-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_friesian_spark2-2.4.0b20230606-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-06 14:05:12] INFO root fetch - processPackages [bigdl-friesian-spark2]: Start processing: cmaps
+[2023-06-06 14:05:12] INFO root fetch - main [MainThread]: End processing [bigdl-friesian-spark2]: success
+[2023-06-06 14:05:12] INFO root fetch - processPackages [cmaps]: New version: [2.0.0] Old Version: [1.0.5]
+[2023-06-06 14:05:12] INFO root fetch - processPackages [dfktools]: Remove: archive file [/home/abi/fetcher/tmp/dfktools-0.3.1.tar.gz]
+[2023-06-06 14:05:12] INFO root fetch - processPackages [dfktools]: Remove: archive file [/home/abi/fetcher/tmp/dfktools-0.3.2.tar.gz]
+[2023-06-06 14:05:12] INFO root fetch - processPackages [dfktools]: Start processing: openmodule-commands
+[2023-06-06 14:05:12] INFO root fetch - main [MainThread]: End processing [dfktools]: success
+[2023-06-06 14:05:12] INFO root fetch - processPackages [deez-py]: Remove: archive file [/home/abi/fetcher/tmp/deez_py-0.1.4.tar.gz]
+[2023-06-06 14:05:12] INFO root fetch - processPackages [deez-py]: Remove: archive file [/home/abi/fetcher/tmp/deez_py-0.1.5.tar.gz]
+[2023-06-06 14:05:12] INFO root fetch - processPackages [deez-py]: Start processing: openmodule-test
+[2023-06-06 14:05:12] INFO root fetch - main [MainThread]: End processing [deez-py]: success
+[2023-06-06 14:05:12] INFO root fetch - processPackages [openmodule-commands]: New version: [11.1.0rc3] Old Version: [11.1.0rc2]
+[2023-06-06 14:05:12] INFO root fetch - processPackages [openmodule-test]: New version: [9.1.0] Old Version: [9.0.0rc9]
+[2023-06-06 14:05:12] INFO root fetch - processPackages [openmodule-commands]: Downloading https://files.pythonhosted.org/packages/c2/65/0c9fe86085b2acedbe9db7157d72287db81f8e2ba67cee723e5568d1b068/openmodule_commands-11.1.0rc2.tar.gz
+[2023-06-06 14:05:12] INFO root fetch - processPackages [openmodule-test]: Downloading https://files.pythonhosted.org/packages/98/2f/98fb439a0bb34c0be8268557d0c25ccf1102d6a23607c74e2376f8471efd/openmodule_test-9.0.0rc9.tar.gz
+[2023-06-06 14:05:12] INFO root fetch - processPackages [cmaps]: Downloading https://files.pythonhosted.org/packages/bc/18/9694f458281cc0f4990ad91e318f604ad8b86159accd84a9380dcbb6f10f/cmaps-1.0.5.tar.gz
+[2023-06-06 14:05:12] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230605-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-06 14:05:12] INFO root fetch - processPackages [bigdl-chronos-spark2]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos_spark2-2.4.0b20230606-py3-none-manylinux1_x86_64.whl.zip]
+[2023-06-06 14:05:12] INFO root fetch - processPackages [bigdl-chronos-spark2]: Start processing: openmodule
+[2023-06-06 14:05:12] INFO root fetch - main [MainThread]: End processing [bigdl-chronos-spark2]: success
+[2023-06-06 14:05:12] INFO root fetch - processPackages [openmodule-test]: Downloading https://files.pythonhosted.org/packages/39/cc/7362aa9f98216bb93757efcda7a44a06d4f86bc1d828b0f6775240dae0d3/openmodule_test-9.1.0.tar.gz
+[2023-06-06 14:05:12] INFO root fetch - processPackages [openmodule]: New version: [9.1.0] Old Version: [9.0.0rc9]
+[2023-06-06 14:05:13] INFO root fetch - processPackages [openmodule]: Downloading https://files.pythonhosted.org/packages/e3/bb/f041c5d77c5d10fd7137b23ff92757f6931cf24143d6794c63caaa775755/openmodule-9.0.0rc9.tar.gz
+[2023-06-06 14:05:13] INFO root fetch - processPackages [openmodule-commands]: Downloading https://files.pythonhosted.org/packages/f7/dc/fcfb58cfcf4d09664d1d93916931c0cfc1921b474035ab711ac30df0443d/openmodule_commands-11.1.0rc3.tar.gz
+[2023-06-06 14:05:13] INFO root fetch - processPackages [openmodule-test]: executing diffoscope
+[2023-06-06 14:05:13] INFO root fetch - processPackages [openmodule-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule_test-9.0.0rc9.tar.gz tmp/openmodule_test-9.1.0.tar.gz --markdown 20230606/o/openmodule-test/9.0.0rc9-9.1.0/diff.md --exclude *.pyd
+[2023-06-06 14:05:13] INFO root fetch - processPackages [cmaps]: Downloading https://files.pythonhosted.org/packages/57/a8/a7c56fe258e1e6b868e246c6c981ef32e253987dd1f9544f5dc9fa882689/cmaps-2.0.0.tar.gz
+[2023-06-06 14:05:13] INFO root fetch - processPackages [openmodule]: Downloading https://files.pythonhosted.org/packages/a6/3c/48ccf044ba1edc8806c136901666ecc29542b5bf8b40ee6194dbc2abd0fe/openmodule-9.1.0.tar.gz
+[2023-06-06 14:05:13] INFO root fetch - processPackages [openmodule-commands]: executing diffoscope
+[2023-06-06 14:05:13] INFO root fetch - processPackages [openmodule-commands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule_commands-11.1.0rc2.tar.gz tmp/openmodule_commands-11.1.0rc3.tar.gz --markdown 20230606/o/openmodule-commands/11.1.0rc2-11.1.0rc3/diff.md --exclude *.pyd
+[2023-06-06 14:05:13] INFO root fetch - processPackages [cmaps]: executing diffoscope
+[2023-06-06 14:05:13] INFO root fetch - processPackages [cmaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmaps-1.0.5.tar.gz tmp/cmaps-2.0.0.tar.gz --markdown 20230606/c/cmaps/1.0.5-2.0.0/diff.md --exclude *.pyd
+[2023-06-06 14:05:13] INFO root fetch - processPackages [openmodule]: executing diffoscope
+[2023-06-06 14:05:13] INFO root fetch - processPackages [openmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule-9.0.0rc9.tar.gz tmp/openmodule-9.1.0.tar.gz --markdown 20230606/o/openmodule/9.0.0rc9-9.1.0/diff.md --exclude *.pyd
+[2023-06-06 14:05:13] INFO root fetch - processPackages [commodplot]: Remove: archive file [/home/abi/fetcher/tmp/commodplot-1.6.2.tar.gz]
+[2023-06-06 14:05:13] INFO root fetch - processPackages [commodplot]: Remove: archive file [/home/abi/fetcher/tmp/commodplot-1.6.3.tar.gz]
+[2023-06-06 14:05:13] INFO root fetch - processPackages [commodplot]: Start processing: plotgen
+[2023-06-06 14:05:13] INFO root fetch - main [MainThread]: End processing [commodplot]: success
+[2023-06-06 14:05:13] INFO root fetch - processPackages [plotgen]: New version: [0.7.9] Old Version: [0.7.8]
+[2023-06-06 14:05:13] INFO root fetch - processPackages [plotgen]: Downloading https://files.pythonhosted.org/packages/4c/c4/fb5bdc04b969003fedaefe52d15e208e5d2407bae330e82a9032c634f153/plotgen-0.7.8-py3-none-any.whl
+[2023-06-06 14:05:14] INFO root fetch - processPackages [plotgen]: Downloading https://files.pythonhosted.org/packages/42/d3/78eb95701ab8df9403a40f8a5ae33247ac4e872ca786b0ddb86e840b69b4/plotgen-0.7.9-py3-none-any.whl
+[2023-06-06 14:05:14] INFO root fetch - processPackages [plotgen]: executing diffoscope
+[2023-06-06 14:05:14] INFO root fetch - processPackages [plotgen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plotgen-0.7.8-py3-none-any.whl.zip tmp/plotgen-0.7.9-py3-none-any.whl.zip --markdown 20230606/p/plotgen/0.7.8-0.7.9/diff.md --exclude *.pyd
+[2023-06-06 14:05:14] INFO root fetch - processPackages [openmodule-commands]: Remove: archive file [/home/abi/fetcher/tmp/openmodule_commands-11.1.0rc2.tar.gz]
+[2023-06-06 14:05:14] INFO root fetch - processPackages [openmodule-commands]: Remove: archive file [/home/abi/fetcher/tmp/openmodule_commands-11.1.0rc3.tar.gz]
+[2023-06-06 14:05:14] INFO root fetch - processPackages [openmodule-commands]: Start processing: OpenGeode-core
+[2023-06-06 14:05:14] INFO root fetch - main [MainThread]: End processing [openmodule-commands]: success
+[2023-06-06 14:05:15] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.2.0rc1]
+[2023-06-06 14:05:15] INFO root fetch - processPackages [openmodule-test]: Remove: archive file [/home/abi/fetcher/tmp/openmodule_test-9.0.0rc9.tar.gz]
+[2023-06-06 14:05:15] INFO root fetch - processPackages [openmodule-test]: Remove: archive file [/home/abi/fetcher/tmp/openmodule_test-9.1.0.tar.gz]
+[2023-06-06 14:05:15] INFO root fetch - processPackages [openmodule-test]: Start processing: samna
+[2023-06-06 14:05:15] INFO root fetch - main [MainThread]: End processing [openmodule-test]: success
+[2023-06-06 14:05:15] INFO root fetch - processPackages [samna]: New version: [0.9.39.0] Old Version: [0.9.38.0]
+[2023-06-06 14:05:15] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/8e/37/0ca7bb92b2df78968cbf36a018093e522855a09ba576f5e4d3c19c59fb90/OpenGeode_core-14.2.0rc1-cp38-cp38-manylinux2014_x86_64.whl
+[2023-06-06 14:05:15] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.3.tar.gz]
+[2023-06-06 14:05:15] INFO root fetch - processPackages [coretex]: Remove: archive file [/home/abi/fetcher/tmp/coretex-1.0.4.tar.gz]
+[2023-06-06 14:05:15] INFO root fetch - processPackages [coretex]: Start processing: DSE-Software-Connection-Tester
+[2023-06-06 14:05:15] INFO root fetch - main [MainThread]: End processing [coretex]: success
+[2023-06-06 14:05:15] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/ac/49/8e22575b9ef0f797dd5332cff83b9f2288c02887aeff0cb8048a960a2edb/samna-0.9.38.0-py3-none-any.whl
+[2023-06-06 14:05:15] INFO root fetch - processPackages [DSE-Software-Connection-Tester]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-06 14:05:15] INFO root fetch - processPackages [DSE-Software-Connection-Tester]: Downloading https://files.pythonhosted.org/packages/db/a2/53375b63004120bac3db79bfcd7c1d09a78f591141b05ea2df0c0f3b7c2c/DSE%20Software%20Connection%20Tester-0.0.1.tar.gz
+[2023-06-06 14:05:15] INFO root fetch - processPackages [samna]: Downloading https://files.pythonhosted.org/packages/00/d4/3de54a6c91f47d5c29700e274166c999cadaf0ba26c263d4a4b8a40342e2/samna-0.9.39.0-py3-none-any.whl
+[2023-06-06 14:05:15] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 14032077>=10485760
+[2023-06-06 14:05:15] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2023-06-06 14:05:15] INFO root fetch - processPackages [samna]: executing diffoscope
+[2023-06-06 14:05:15] INFO root fetch - processPackages [samna]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/samna-0.9.38.0-py3-none-any.whl.zip tmp/samna-0.9.39.0-py3-none-any.whl.zip --markdown 20230606/s/samna/0.9.38.0-0.9.39.0/diff.md --exclude *.pyd
+[2023-06-06 14:05:15] INFO root fetch - processPackages [DSE-Software-Connection-Tester]: Downloading https://files.pythonhosted.org/packages/69/1f/566d82361793119a2c03bb3fedca20080ed18238d239556b7e57198acfb3/DSE%20Software%20Connection%20Tester-0.0.2.tar.gz
+[2023-06-06 14:05:16] INFO root fetch - processPackages [plotgen]: Remove: archive file [/home/abi/fetcher/tmp/plotgen-0.7.8-py3-none-any.whl.zip]
+[2023-06-06 14:05:16] INFO root fetch - processPackages [plotgen]: Remove: archive file [/home/abi/fetcher/tmp/plotgen-0.7.9-py3-none-any.whl.zip]
+[2023-06-06 14:05:16] INFO root fetch - main [MainThread]: End processing [plotgen]: success
+[2023-06-06 14:05:16] INFO root fetch - processPackages [DSE-Software-Connection-Tester]: executing diffoscope
+[2023-06-06 14:05:16] INFO root fetch - processPackages [DSE-Software-Connection-Tester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DSE Software Connection Tester-0.0.1.tar.gz tmp/DSE Software Connection Tester-0.0.2.tar.gz --markdown 20230606/D/DSE-Software-Connection-Tester/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-06 14:05:17] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.38.0-py3-none-any.whl.zip]
+[2023-06-06 14:05:17] INFO root fetch - processPackages [samna]: Remove: archive file [/home/abi/fetcher/tmp/samna-0.9.39.0-py3-none-any.whl.zip]
+[2023-06-06 14:05:17] INFO root fetch - main [MainThread]: End processing [samna]: success
+[2023-06-06 14:05:17] INFO root fetch - processPackages [DSE-Software-Connection-Tester]: Remove: archive file [/home/abi/fetcher/tmp/DSE Software Connection Tester-0.0.1.tar.gz]
+[2023-06-06 14:05:17] INFO root fetch - processPackages [DSE-Software-Connection-Tester]: Remove: archive file [/home/abi/fetcher/tmp/DSE Software Connection Tester-0.0.2.tar.gz]
+[2023-06-06 14:05:17] INFO root fetch - main [MainThread]: End processing [DSE-Software-Connection-Tester]: success
+[2023-06-06 14:05:17] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev98.tar.gz]
+[2023-06-06 14:05:17] INFO root fetch - processPackages [c2cciutils]: Remove: archive file [/home/abi/fetcher/tmp/c2cciutils-1.6.0.dev99.tar.gz]
+[2023-06-06 14:05:17] INFO root fetch - main [MainThread]: End processing [c2cciutils]: success
+[2023-06-06 14:05:17] INFO root fetch - processPackages [openmodule]: Remove: archive file [/home/abi/fetcher/tmp/openmodule-9.0.0rc9.tar.gz]
+[2023-06-06 14:05:17] INFO root fetch - processPackages [openmodule]: Remove: archive file [/home/abi/fetcher/tmp/openmodule-9.1.0.tar.gz]
+[2023-06-06 14:05:17] INFO root fetch - main [MainThread]: End processing [openmodule]: success
+[2023-06-06 14:05:18] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210811-py3-none-any.whl.zip]
+[2023-06-06 14:05:18] INFO root fetch - processPackages [tf-agents-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_agents_nightly-0.9.0.dev20210812-py3-none-any.whl.zip]
+[2023-06-06 14:05:18] INFO root fetch - main [MainThread]: End processing [tf-agents-nightly]: success
+[2023-06-06 14:05:19] INFO root fetch - processPackages [cmaps]: Remove: archive file [/home/abi/fetcher/tmp/cmaps-1.0.5.tar.gz]
+[2023-06-06 14:05:19] INFO root fetch - processPackages [cmaps]: Remove: archive file [/home/abi/fetcher/tmp/cmaps-2.0.0.tar.gz]
+[2023-06-06 14:05:19] INFO root fetch - main [MainThread]: End processing [cmaps]: success
+[2023-06-06 14:05:20] INFO root fetch - processPackages [python-petpptx]: Remove: archive file [/home/abi/fetcher/tmp/python-petpptx-1.0.0.tar.gz]
+[2023-06-06 14:05:20] INFO root fetch - processPackages [python-petpptx]: Remove: archive file [/home/abi/fetcher/tmp/python-petpptx-1.0.1.tar.gz]
+[2023-06-06 14:05:20] INFO root fetch - main [MainThread]: End processing [python-petpptx]: success
+[2023-06-06 14:05:26] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_jupyter_bioimg-0.1.2a2.tar.gz]
+[2023-06-06 14:05:26] INFO root fetch - processPackages [tiledb-jupyter-bioimg]: Remove: archive file [/home/abi/fetcher/tmp/tiledb_jupyter_bioimg-0.1.2a3.tar.gz]
+[2023-06-06 14:05:26] INFO root fetch - main [MainThread]: End processing [tiledb-jupyter-bioimg]: success
+[2023-06-06 14:05:26] INFO root fetch - main [MainThread]: Store serial: [18390923]
