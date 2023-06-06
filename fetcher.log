@@ -12503,3 +12503,48 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 06:59:53] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip]
 [2023-06-06 06:59:53] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
 [2023-06-06 06:59:53] INFO root fetch - main [MainThread]: Store serial: [18386741]
+[2023-06-06 07:04:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18386741]
+[2023-06-06 07:05:02] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-06 07:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: validar-modelos
+[2023-06-06 07:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: slack-to-discord
+[2023-06-06 07:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: barney-log
+[2023-06-06 07:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: zipline-norgatedata
+[2023-06-06 07:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: refaci
+[2023-06-06 07:05:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cryoet-data-portal
+[2023-06-06 07:05:02] INFO root fetch - processPackages [refaci]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-06 07:05:02] WARNING root fetch - processPackages [cryoet-data-portal]: Skipping, unable to determine old version
+[2023-06-06 07:05:02] INFO root fetch - processPackages [validar-modelos]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-06 07:05:02] INFO root fetch - main [MainThread]: End processing [cryoet-data-portal] error
+[2023-06-06 07:05:02] INFO root fetch - processPackages [zipline-norgatedata]: New version: [2.4.3] Old Version: [2.4.2]
+[2023-06-06 07:05:02] INFO root fetch - processPackages [slack-to-discord]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-06-06 07:05:02] WARNING root fetch - processPackages [barney-log]: Skipping, unable to determine old version
+[2023-06-06 07:05:02] INFO root fetch - main [MainThread]: End processing [barney-log] error
+[2023-06-06 07:05:02] INFO root fetch - processPackages [validar-modelos]: Downloading https://files.pythonhosted.org/packages/5b/cf/e63212b957bc4f1b0bc128572530c7ab47438447d54c9ab5633b7cb4aba2/validar_modelos-0.0.2.tar.gz
+[2023-06-06 07:05:02] INFO root fetch - processPackages [refaci]: Downloading https://files.pythonhosted.org/packages/24/56/53275ff85709d3d8fcf0157f76ba796db54ca591221b816b013725f335d6/refaci-0.2.0.tar.gz
+[2023-06-06 07:05:02] INFO root fetch - processPackages [zipline-norgatedata]: Downloading https://files.pythonhosted.org/packages/2a/7f/62e96ef98b176383225fed21fc3eccdba5391480b878d1544c9e89c87ce2/zipline_norgatedata-2.4.2-py3-none-any.whl
+[2023-06-06 07:05:02] INFO root fetch - processPackages [slack-to-discord]: Downloading https://files.pythonhosted.org/packages/96/4c/0aaf63c0f02d950688a113c4a9fd81b99621d50818b2f0784cd7d400838c/slack-to-discord-1.1.3.tar.gz
+[2023-06-06 07:05:02] INFO root fetch - processPackages [validar-modelos]: Downloading https://files.pythonhosted.org/packages/0e/50/889574c9866e2298090850aa61b7c00bd718a177fa713b32b040169750a6/validar_modelos-0.0.3.tar.gz
+[2023-06-06 07:05:02] INFO root fetch - processPackages [refaci]: Downloading https://files.pythonhosted.org/packages/7c/ee/6a2b2fb77dd91e71f612bb4e02c60688b99cc256fee747cf02a31b9d9445/refaci-0.3.0.tar.gz
+[2023-06-06 07:05:03] INFO root fetch - processPackages [zipline-norgatedata]: Downloading https://files.pythonhosted.org/packages/b5/4a/563ada8b2597d8ef00a0929e80e2467f6c08933e3f449aa571653bf08202/zipline_norgatedata-2.4.3-py3-none-any.whl
+[2023-06-06 07:05:03] INFO root fetch - processPackages [refaci]: executing diffoscope
+[2023-06-06 07:05:03] INFO root fetch - processPackages [refaci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refaci-0.2.0.tar.gz tmp/refaci-0.3.0.tar.gz --markdown 20230606/r/refaci/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-06 07:05:03] INFO root fetch - processPackages [validar-modelos]: executing diffoscope
+[2023-06-06 07:05:03] INFO root fetch - processPackages [validar-modelos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validar_modelos-0.0.2.tar.gz tmp/validar_modelos-0.0.3.tar.gz --markdown 20230606/v/validar-modelos/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-06 07:05:03] INFO root fetch - processPackages [slack-to-discord]: Downloading https://files.pythonhosted.org/packages/06/3c/a4a18da7dad6ac76860e41d78b5a040c7be5a0bd97511b71408c7f65d177/slack-to-discord-1.1.4.tar.gz
+[2023-06-06 07:05:03] INFO root fetch - processPackages [zipline-norgatedata]: executing diffoscope
+[2023-06-06 07:05:03] INFO root fetch - processPackages [zipline-norgatedata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zipline_norgatedata-2.4.2-py3-none-any.whl.zip tmp/zipline_norgatedata-2.4.3-py3-none-any.whl.zip --markdown 20230606/z/zipline-norgatedata/2.4.2-2.4.3/diff.md --exclude *.pyd
+[2023-06-06 07:05:03] INFO root fetch - processPackages [slack-to-discord]: executing diffoscope
+[2023-06-06 07:05:03] INFO root fetch - processPackages [slack-to-discord]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slack-to-discord-1.1.3.tar.gz tmp/slack-to-discord-1.1.4.tar.gz --markdown 20230606/s/slack-to-discord/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-06-06 07:05:04] INFO root fetch - processPackages [refaci]: Remove: archive file [/home/abi/fetcher/tmp/refaci-0.2.0.tar.gz]
+[2023-06-06 07:05:04] INFO root fetch - processPackages [refaci]: Remove: archive file [/home/abi/fetcher/tmp/refaci-0.3.0.tar.gz]
+[2023-06-06 07:05:04] INFO root fetch - main [MainThread]: End processing [refaci]: success
+[2023-06-06 07:05:04] INFO root fetch - processPackages [validar-modelos]: Remove: archive file [/home/abi/fetcher/tmp/validar_modelos-0.0.2.tar.gz]
+[2023-06-06 07:05:04] INFO root fetch - processPackages [validar-modelos]: Remove: archive file [/home/abi/fetcher/tmp/validar_modelos-0.0.3.tar.gz]
+[2023-06-06 07:05:04] INFO root fetch - main [MainThread]: End processing [validar-modelos]: success
+[2023-06-06 07:05:04] INFO root fetch - processPackages [slack-to-discord]: Remove: archive file [/home/abi/fetcher/tmp/slack-to-discord-1.1.3.tar.gz]
+[2023-06-06 07:05:04] INFO root fetch - processPackages [slack-to-discord]: Remove: archive file [/home/abi/fetcher/tmp/slack-to-discord-1.1.4.tar.gz]
+[2023-06-06 07:05:04] INFO root fetch - main [MainThread]: End processing [slack-to-discord]: success
+[2023-06-06 07:05:57] INFO root fetch - processPackages [zipline-norgatedata]: Remove: archive file [/home/abi/fetcher/tmp/zipline_norgatedata-2.4.2-py3-none-any.whl.zip]
+[2023-06-06 07:05:57] INFO root fetch - processPackages [zipline-norgatedata]: Remove: archive file [/home/abi/fetcher/tmp/zipline_norgatedata-2.4.3-py3-none-any.whl.zip]
+[2023-06-06 07:05:57] INFO root fetch - main [MainThread]: End processing [zipline-norgatedata]: success
+[2023-06-06 07:05:57] INFO root fetch - main [MainThread]: Store serial: [18386762]
