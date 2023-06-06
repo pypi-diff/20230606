@@ -11711,3 +11711,45 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 06:06:58] INFO root fetch - processPackages [angola]: Remove: archive file [/home/abi/fetcher/tmp/angola-0.11.2.tar.gz]
 [2023-06-06 06:06:58] INFO root fetch - main [MainThread]: End processing [angola]: success
 [2023-06-06 06:06:58] INFO root fetch - main [MainThread]: Store serial: [18386442]
+[2023-06-06 06:12:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18386442]
+[2023-06-06 06:12:07] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-06 06:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rhino_health
+[2023-06-06 06:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ana-sdk
+[2023-06-06 06:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jax-metal
+[2023-06-06 06:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chalkpy
+[2023-06-06 06:12:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: featureform
+[2023-06-06 06:12:07] INFO root fetch - processPackages [rhino_health]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-06 06:12:07] INFO root fetch - processPackages [ana-sdk]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-06 06:12:07] INFO root fetch - processPackages [featureform]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-06 06:12:07] INFO root fetch - processPackages [chalkpy]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-06-06 06:12:08] INFO root fetch - processPackages [rhino_health]: Downloading https://files.pythonhosted.org/packages/3b/4e/deac60572a2c9d5683d9ff8d87e1894f1adac800769181cac538a33dcb32/rhino_health-0.2.7.tar.gz
+[2023-06-06 06:12:08] INFO root fetch - processPackages [ana-sdk]: Downloading https://files.pythonhosted.org/packages/a7/25/f53465ae6229ac4131d1f591337441d7be3352df99e8b6e53b5b6991480d/ana_sdk-0.3.8.tar.gz
+[2023-06-06 06:12:08] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/33/0c/74753c511769b5b2137eab19f76ff50c5b6cc626b1bcfe08fe23cb043724/chalkpy-2.6.0.tar.gz
+[2023-06-06 06:12:08] WARNING root fetch - processPackages [jax-metal]: Skipping, unable to determine old version
+[2023-06-06 06:12:08] INFO root fetch - main [MainThread]: End processing [jax-metal] error
+[2023-06-06 06:12:08] INFO root fetch - processPackages [rhino_health]: Downloading https://files.pythonhosted.org/packages/47/46/cb507140ac97b8c33f708ed57538175e53fc11f9c5f2451d2be9c399bf41/rhino_health-0.2.8.tar.gz
+[2023-06-06 06:12:08] INFO root fetch - processPackages [ana-sdk]: Downloading https://files.pythonhosted.org/packages/00/1e/7882d95ed2838f0193893edb0c5dfc58f20b2b763d0d3ebceec3eca2b970/ana_sdk-0.3.9.tar.gz
+[2023-06-06 06:12:08] INFO root fetch - processPackages [featureform]: Downloading https://files.pythonhosted.org/packages/ed/7e/d8d832f980b344516244f6d781ec2a04b684ff4b2f96c1f65a48c5d517ae/featureform-1.8.1.tar.gz
+[2023-06-06 06:12:08] INFO root fetch - processPackages [ana-sdk]: executing diffoscope
+[2023-06-06 06:12:08] INFO root fetch - processPackages [ana-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ana_sdk-0.3.8.tar.gz tmp/ana_sdk-0.3.9.tar.gz --markdown 20230606/a/ana-sdk/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-06 06:12:08] INFO root fetch - processPackages [rhino_health]: executing diffoscope
+[2023-06-06 06:12:08] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/f6/30/d8c891c9f10626bb778ef8e1cd27297f33eee6f067e6a0dd23779d61e2d7/chalkpy-2.6.1.tar.gz
+[2023-06-06 06:12:08] INFO root fetch - processPackages [rhino_health]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rhino_health-0.2.7.tar.gz tmp/rhino_health-0.2.8.tar.gz --markdown 20230606/r/rhino_health/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-06 06:12:08] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-06-06 06:12:08] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.6.0.tar.gz tmp/chalkpy-2.6.1.tar.gz --markdown 20230606/c/chalkpy/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-06-06 06:12:08] INFO root fetch - processPackages [featureform]: Downloading https://files.pythonhosted.org/packages/47/c3/937255d5e2172fba40b29b778067f208efea8df06610db3a5564f0bee82f/featureform-1.9.0.tar.gz
+[2023-06-06 06:12:08] INFO root fetch - processPackages [featureform]: executing diffoscope
+[2023-06-06 06:12:08] INFO root fetch - processPackages [featureform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featureform-1.8.1.tar.gz tmp/featureform-1.9.0.tar.gz --markdown 20230606/f/featureform/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-06 06:12:09] INFO root fetch - processPackages [ana-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ana_sdk-0.3.8.tar.gz]
+[2023-06-06 06:12:09] INFO root fetch - processPackages [ana-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ana_sdk-0.3.9.tar.gz]
+[2023-06-06 06:12:09] INFO root fetch - main [MainThread]: End processing [ana-sdk]: success
+[2023-06-06 06:12:09] INFO root fetch - processPackages [rhino_health]: Remove: archive file [/home/abi/fetcher/tmp/rhino_health-0.2.7.tar.gz]
+[2023-06-06 06:12:09] INFO root fetch - processPackages [rhino_health]: Remove: archive file [/home/abi/fetcher/tmp/rhino_health-0.2.8.tar.gz]
+[2023-06-06 06:12:09] INFO root fetch - main [MainThread]: End processing [rhino_health]: success
+[2023-06-06 06:12:13] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.6.0.tar.gz]
+[2023-06-06 06:12:13] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.6.1.tar.gz]
+[2023-06-06 06:12:13] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-06-06 06:12:35] INFO root fetch - processPackages [featureform]: Remove: archive file [/home/abi/fetcher/tmp/featureform-1.8.1.tar.gz]
+[2023-06-06 06:12:35] INFO root fetch - processPackages [featureform]: Remove: archive file [/home/abi/fetcher/tmp/featureform-1.9.0.tar.gz]
+[2023-06-06 06:12:35] INFO root fetch - main [MainThread]: End processing [featureform]: success
+[2023-06-06 06:12:35] INFO root fetch - main [MainThread]: Store serial: [18386457]
