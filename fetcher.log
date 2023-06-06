@@ -10592,3 +10592,128 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 05:00:21] INFO root fetch - processPackages [easyai-sdwebui-api]: Remove: archive file [/home/abi/fetcher/tmp/easyai-sdwebui-api-0.1.4rc1.tar.gz]
 [2023-06-06 05:00:21] INFO root fetch - main [MainThread]: End processing [easyai-sdwebui-api]: success
 [2023-06-06 05:00:21] INFO root fetch - main [MainThread]: Store serial: [18386026]
+[2023-06-06 05:05:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18386026]
+[2023-06-06 05:05:30] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-06 05:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aind-segmentation-evaluation
+[2023-06-06 05:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mcap2timescale
+[2023-06-06 05:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlplatformutils
+[2023-06-06 05:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aind-segmentation-evaluation
+[2023-06-06 05:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo12-addon-contract
+[2023-06-06 05:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pp-project-pkg
+[2023-06-06 05:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-contract-sale-generation
+[2023-06-06 05:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addons-oca-contract
+[2023-06-06 05:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mcap2timescale
+[2023-06-06 05:05:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: funasr
+[2023-06-06 05:05:30] INFO root fetch - processPackages [aind-segmentation-evaluation]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 05:05:30] INFO root fetch - processPackages [mlplatformutils]: New version: [0.8.8] Old Version: [0.8.7]
+[2023-06-06 05:05:30] INFO root fetch - processPackages [mcap2timescale]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-06 05:05:30] INFO root fetch - processPackages [mcap2timescale]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-06 05:05:30] INFO root fetch - processPackages [odoo-addon-contract-sale-generation]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-06 05:05:30] INFO root fetch - processPackages [funasr]: New version: [0.5.8] Old Version: [0.5.6]
+[2023-06-06 05:05:30] INFO root fetch - processPackages [pp-project-pkg]: New version: [1.0.202306060300] Old Version: [1.0.202306032242]
+[2023-06-06 05:05:30] INFO root fetch - processPackages [odoo-addons-oca-contract]: New version: [16.0.20230605.0] Old Version: [16.0.20230526.0]
+[2023-06-06 05:05:30] INFO root fetch - processPackages [aind-segmentation-evaluation]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 05:05:30] INFO root fetch - processPackages [odoo12-addon-contract]: New version: [12.0.8.6.1.99.dev9] Old Version: [12.0.8.6.1.99.dev8]
+[2023-06-06 05:05:30] INFO root fetch - processPackages [odoo-addon-contract-sale-generation]: Downloading https://files.pythonhosted.org/packages/10/fa/1439cca724166e424ea7e60fdb2c1f7c55023cd1e62aa47c8024d4ca61f8/odoo_addon_contract_sale_generation-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-06 05:05:30] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/49/3e/3ff96658152ca800fdacfffedf8d7ac651e75d7291dc16cdb51956f23dd7/mlplatformutils-0.8.7.tar.gz
+[2023-06-06 05:05:30] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/71/74/cafbe9c399c5b53d07035ef63cc4ec26da1605bc00ef9eecc572031d6d4b/pp_project_pkg-1.0.202306032242-py3-none-any.whl
+[2023-06-06 05:05:30] INFO root fetch - processPackages [aind-segmentation-evaluation]: Downloading https://files.pythonhosted.org/packages/0f/55/d339e4a1a627d9f16bde01dbd1b77907dc371973ebb8c5814c98b0246d07/aind_segmentation_evaluation-0.1.8.tar.gz
+[2023-06-06 05:05:30] INFO root fetch - processPackages [mcap2timescale]: Downloading https://files.pythonhosted.org/packages/31/e4/79204cc8b1266dea0b8d3f836ff3cfba2ac8529f4042ace036e58638c331/mcap2timescale-0.1.0.tar.gz
+[2023-06-06 05:05:30] INFO root fetch - processPackages [aind-segmentation-evaluation]: Downloading https://files.pythonhosted.org/packages/0f/55/d339e4a1a627d9f16bde01dbd1b77907dc371973ebb8c5814c98b0246d07/aind_segmentation_evaluation-0.1.8.tar.gz
+[2023-06-06 05:05:31] INFO root fetch - processPackages [mcap2timescale]: Downloading https://files.pythonhosted.org/packages/31/e4/79204cc8b1266dea0b8d3f836ff3cfba2ac8529f4042ace036e58638c331/mcap2timescale-0.1.0.tar.gz
+[2023-06-06 05:05:31] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/0d/c5/ba4981bd5977fef3f4657d00aa1388e0c15c2521c9885d9353f32af01dc0/funasr-0.5.6.tar.gz
+[2023-06-06 05:05:31] INFO root fetch - processPackages [odoo-addons-oca-contract]: Downloading https://files.pythonhosted.org/packages/2c/e8/d5500b60a080c654ca5e0d4318243fb09e30026c86536ca14c54d33eff40/odoo_addons_oca_contract-16.0.20230526.0-py3-none-any.whl
+[2023-06-06 05:05:31] INFO root fetch - processPackages [odoo12-addon-contract]: Downloading https://files.pythonhosted.org/packages/fa/58/899a3b748d3564a355c920d1e353d671770daeb7687a5d7fee74e0e819ea/odoo12_addon_contract-12.0.8.6.1.99.dev8-py3-none-any.whl
+[2023-06-06 05:05:31] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/34/49/5d67f277e0d6d83dc4b661fe3155ab47d289e07d383510e5757a218577c1/mlplatformutils-0.8.8.tar.gz
+[2023-06-06 05:05:31] INFO root fetch - processPackages [odoo-addon-contract-sale-generation]: Downloading https://files.pythonhosted.org/packages/1e/14/910b28d52522f0fe3ca839a85d6c98314b2c04f981a64a0c1ed788eaa93b/odoo_addon_contract_sale_generation-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-06 05:05:31] INFO root fetch - processPackages [pp-project-pkg]: Downloading https://files.pythonhosted.org/packages/dc/5d/10ed447119eb8d4246ce4396a4710351a2ef46b214c49cd94ef93e3c5f2b/pp_project_pkg-1.0.202306060300-py3-none-any.whl
+[2023-06-06 05:05:31] INFO root fetch - processPackages [mlplatformutils]: executing diffoscope
+[2023-06-06 05:05:31] INFO root fetch - processPackages [mlplatformutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlplatformutils-0.8.7.tar.gz tmp/mlplatformutils-0.8.8.tar.gz --markdown 20230606/m/mlplatformutils/0.8.7-0.8.8/diff.md --exclude *.pyd
+[2023-06-06 05:05:31] INFO root fetch - processPackages [mcap2timescale]: Downloading https://files.pythonhosted.org/packages/09/a6/c1ba66984046f948c5a4a18ebd2883c94092d2a19bcc04c1412251050d37/mcap2timescale-0.1.1.tar.gz
+[2023-06-06 05:05:31] INFO root fetch - processPackages [mcap2timescale]: Downloading https://files.pythonhosted.org/packages/09/a6/c1ba66984046f948c5a4a18ebd2883c94092d2a19bcc04c1412251050d37/mcap2timescale-0.1.1.tar.gz
+[2023-06-06 05:05:31] INFO root fetch - processPackages [odoo-addons-oca-contract]: Downloading https://files.pythonhosted.org/packages/57/d0/e9ecd0d413fde6c0f3a76e7c8785761d69976c2dc26231bc9409262e40e4/odoo_addons_oca_contract-16.0.20230605.0-py3-none-any.whl
+[2023-06-06 05:05:31] INFO root fetch - processPackages [funasr]: Downloading https://files.pythonhosted.org/packages/4d/39/c781c800e438916398e84a281ce7f392fd24a535fba145178bef8324fb43/funasr-0.5.8.tar.gz
+[2023-06-06 05:05:31] INFO root fetch - processPackages [odoo-addon-contract-sale-generation]: executing diffoscope
+[2023-06-06 05:05:31] INFO root fetch - processPackages [odoo-addon-contract-sale-generation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_contract_sale_generation-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_contract_sale_generation-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-contract-sale-generation/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-06 05:05:31] INFO root fetch - processPackages [odoo12-addon-contract]: Downloading https://files.pythonhosted.org/packages/b7/f3/94910c7dc991bfe989dec8cecd323b39184341670d16900d9fb3763f9840/odoo12_addon_contract-12.0.8.6.1.99.dev9-py3-none-any.whl
+[2023-06-06 05:05:31] INFO root fetch - processPackages [pp-project-pkg]: executing diffoscope
+[2023-06-06 05:05:31] INFO root fetch - processPackages [pp-project-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pp_project_pkg-1.0.202306032242-py3-none-any.whl.zip tmp/pp_project_pkg-1.0.202306060300-py3-none-any.whl.zip --markdown 20230606/p/pp-project-pkg/1.0.202306032242-1.0.202306060300/diff.md --exclude *.pyd
+[2023-06-06 05:05:31] INFO root fetch - processPackages [aind-segmentation-evaluation]: Downloading https://files.pythonhosted.org/packages/bc/ac/83eb7dc1edd6ef85ed0b49968b144fc4008c7bc0bc75dd809f2a24cb2aa7/aind_segmentation_evaluation-0.1.9.tar.gz
+[2023-06-06 05:05:31] INFO root fetch - processPackages [aind-segmentation-evaluation]: Downloading https://files.pythonhosted.org/packages/bc/ac/83eb7dc1edd6ef85ed0b49968b144fc4008c7bc0bc75dd809f2a24cb2aa7/aind_segmentation_evaluation-0.1.9.tar.gz
+[2023-06-06 05:05:31] INFO root fetch - processPackages [odoo-addons-oca-contract]: executing diffoscope
+[2023-06-06 05:05:31] INFO root fetch - processPackages [odoo-addons-oca-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_contract-16.0.20230526.0-py3-none-any.whl.zip tmp/odoo_addons_oca_contract-16.0.20230605.0-py3-none-any.whl.zip --markdown 20230606/o/odoo-addons-oca-contract/16.0.20230526.0-16.0.20230605.0/diff.md --exclude *.pyd
+[2023-06-06 05:05:31] INFO root fetch - processPackages [funasr]: executing diffoscope
+[2023-06-06 05:05:31] INFO root fetch - processPackages [funasr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funasr-0.5.6.tar.gz tmp/funasr-0.5.8.tar.gz --markdown 20230606/f/funasr/0.5.6-0.5.8/diff.md --exclude *.pyd
+[2023-06-06 05:05:31] INFO root fetch - processPackages [odoo12-addon-contract]: executing diffoscope
+[2023-06-06 05:05:31] INFO root fetch - processPackages [odoo12-addon-contract]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_contract-12.0.8.6.1.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_contract-12.0.8.6.1.99.dev9-py3-none-any.whl.zip --markdown 20230606/o/odoo12-addon-contract/12.0.8.6.1.99.dev8-12.0.8.6.1.99.dev9/diff.md --exclude *.pyd
+[2023-06-06 05:05:31] INFO root fetch - processPackages [mcap2timescale]: executing diffoscope
+[2023-06-06 05:05:31] INFO root fetch - processPackages [mcap2timescale]: executing diffoscope
+[2023-06-06 05:05:31] INFO root fetch - processPackages [mcap2timescale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcap2timescale-0.1.0.tar.gz tmp/mcap2timescale-0.1.1.tar.gz --markdown 20230606/m/mcap2timescale/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-06 05:05:31] INFO root fetch - processPackages [mcap2timescale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcap2timescale-0.1.0.tar.gz tmp/mcap2timescale-0.1.1.tar.gz --markdown 20230606/m/mcap2timescale/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-06 05:05:31] INFO root fetch - processPackages [aind-segmentation-evaluation]: executing diffoscope
+[2023-06-06 05:05:31] INFO root fetch - processPackages [aind-segmentation-evaluation]: executing diffoscope
+[2023-06-06 05:05:31] INFO root fetch - processPackages [aind-segmentation-evaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_segmentation_evaluation-0.1.8.tar.gz tmp/aind_segmentation_evaluation-0.1.9.tar.gz --markdown 20230606/a/aind-segmentation-evaluation/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 05:05:31] INFO root fetch - processPackages [aind-segmentation-evaluation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind_segmentation_evaluation-0.1.8.tar.gz tmp/aind_segmentation_evaluation-0.1.9.tar.gz --markdown 20230606/a/aind-segmentation-evaluation/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 05:05:32] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306032242-py3-none-any.whl.zip]
+[2023-06-06 05:05:32] INFO root fetch - processPackages [pp-project-pkg]: Remove: archive file [/home/abi/fetcher/tmp/pp_project_pkg-1.0.202306060300-py3-none-any.whl.zip]
+[2023-06-06 05:05:32] INFO root fetch - processPackages [pp-project-pkg]: Start processing: revChatGPT
+[2023-06-06 05:05:32] INFO root fetch - main [MainThread]: End processing [pp-project-pkg]: success
+[2023-06-06 05:05:32] INFO root fetch - processPackages [revChatGPT]: New version: [6.0.3] Old Version: [6.0.2]
+[2023-06-06 05:05:33] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.8.7.tar.gz]
+[2023-06-06 05:05:33] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.8.8.tar.gz]
+[2023-06-06 05:05:33] INFO root fetch - processPackages [mlplatformutils]: Start processing: tradchat
+[2023-06-06 05:05:33] INFO root fetch - main [MainThread]: End processing [mlplatformutils]: success
+[2023-06-06 05:05:33] WARNING root fetch - processPackages [tradchat]: Skipping, unable to determine old version
+[2023-06-06 05:05:33] INFO root fetch - processPackages [tradchat]: Start processing: gaohn-common-utils
+[2023-06-06 05:05:33] INFO root fetch - main [MainThread]: End processing [tradchat] error
+[2023-06-06 05:05:33] WARNING root fetch - processPackages [gaohn-common-utils]: Skipping, unable to determine old version
+[2023-06-06 05:05:33] INFO root fetch - processPackages [gaohn-common-utils]: Start processing: dmodel
+[2023-06-06 05:05:33] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils] error
+[2023-06-06 05:05:33] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/bf/dd/50ade954ab3779e86353f7cddba21cc865141feb177a206b8ee41a64ed44/revChatGPT-6.0.2.tar.gz
+[2023-06-06 05:05:33] INFO root fetch - processPackages [dmodel]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-06 05:05:33] INFO root fetch - processPackages [odoo-addons-oca-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_contract-16.0.20230526.0-py3-none-any.whl.zip]
+[2023-06-06 05:05:33] INFO root fetch - processPackages [odoo-addons-oca-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_contract-16.0.20230605.0-py3-none-any.whl.zip]
+[2023-06-06 05:05:33] INFO root fetch - processPackages [odoo-addons-oca-contract]: Start processing: lc-checkpoint
+[2023-06-06 05:05:33] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-contract]: success
+[2023-06-06 05:05:33] INFO root fetch - processPackages [dmodel]: Downloading https://files.pythonhosted.org/packages/fc/1a/cfea8dd72ff3cb65b5d724b21ffc8c8c468bfcb0951c7b3662436346aa98/dmodel-0.0.4.tar.gz
+[2023-06-06 05:05:33] INFO root fetch - processPackages [mcap2timescale]: Remove: archive file [/home/abi/fetcher/tmp/mcap2timescale-0.1.0.tar.gz]
+[2023-06-06 05:05:33] INFO root fetch - processPackages [mcap2timescale]: Remove: archive file [/home/abi/fetcher/tmp/mcap2timescale-0.1.1.tar.gz]
+[2023-06-06 05:05:33] INFO root fetch - processPackages [mcap2timescale]: Start processing: pyvaulty
+[2023-06-06 05:05:33] INFO root fetch - main [MainThread]: End processing [mcap2timescale]: success
+[2023-06-06 05:05:33] WARNING root fetch - processPackages [lc-checkpoint]: Skipping, unable to determine old version
+[2023-06-06 05:05:33] INFO root fetch - main [MainThread]: End processing [lc-checkpoint] error
+[2023-06-06 05:05:33] INFO root fetch - main [MainThread]: End processing [mcap2timescale]: success
+[2023-06-06 05:05:33] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/d9/ee/ad1a8ecc226debe380ce67e3e0b4b1248b182b86e179a03117f04001ac44/revChatGPT-6.0.3.tar.gz
+[2023-06-06 05:05:33] INFO root fetch - processPackages [pyvaulty]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-06-06 05:05:33] INFO root fetch - processPackages [odoo-addon-contract-sale-generation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract_sale_generation-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-06 05:05:33] INFO root fetch - processPackages [odoo-addon-contract-sale-generation]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_contract_sale_generation-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-06 05:05:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-contract-sale-generation]: success
+[2023-06-06 05:05:33] INFO root fetch - processPackages [revChatGPT]: executing diffoscope
+[2023-06-06 05:05:33] INFO root fetch - processPackages [revChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revChatGPT-6.0.2.tar.gz tmp/revChatGPT-6.0.3.tar.gz --markdown 20230606/r/revChatGPT/6.0.2-6.0.3/diff.md --exclude *.pyd
+[2023-06-06 05:05:33] INFO root fetch - processPackages [dmodel]: Downloading https://files.pythonhosted.org/packages/f0/7a/ddf4d537ace29336599531d6b8b816fb40f0e5974eb0c23b3a90f933083a/dmodel-0.0.5.tar.gz
+[2023-06-06 05:05:33] INFO root fetch - processPackages [pyvaulty]: Downloading https://files.pythonhosted.org/packages/e6/f4/5e30535efc32288f0a7f60880b9c1d2f68458003dbeddb505a77b29f2455/pyvaulty-1.3.5.tar.gz
+[2023-06-06 05:05:33] INFO root fetch - processPackages [dmodel]: executing diffoscope
+[2023-06-06 05:05:33] INFO root fetch - processPackages [dmodel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmodel-0.0.4.tar.gz tmp/dmodel-0.0.5.tar.gz --markdown 20230606/d/dmodel/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-06 05:05:33] INFO root fetch - processPackages [pyvaulty]: Downloading https://files.pythonhosted.org/packages/99/cf/1b0bcd68b5d5ab33a601e82445c971d80dccaaa97041249c7e0f507f3598/pyvaulty-1.3.6.tar.gz
+[2023-06-06 05:05:33] INFO root fetch - processPackages [pyvaulty]: executing diffoscope
+[2023-06-06 05:05:33] INFO root fetch - processPackages [pyvaulty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvaulty-1.3.5.tar.gz tmp/pyvaulty-1.3.6.tar.gz --markdown 20230606/p/pyvaulty/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-06-06 05:05:34] INFO root fetch - processPackages [odoo12-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_contract-12.0.8.6.1.99.dev8-py3-none-any.whl.zip]
+[2023-06-06 05:05:34] INFO root fetch - processPackages [odoo12-addon-contract]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_contract-12.0.8.6.1.99.dev9-py3-none-any.whl.zip]
+[2023-06-06 05:05:34] INFO root fetch - main [MainThread]: End processing [odoo12-addon-contract]: success
+[2023-06-06 05:05:34] INFO root fetch - processPackages [dmodel]: Remove: archive file [/home/abi/fetcher/tmp/dmodel-0.0.4.tar.gz]
+[2023-06-06 05:05:34] INFO root fetch - processPackages [dmodel]: Remove: archive file [/home/abi/fetcher/tmp/dmodel-0.0.5.tar.gz]
+[2023-06-06 05:05:34] INFO root fetch - main [MainThread]: End processing [dmodel]: success
+[2023-06-06 05:05:34] INFO root fetch - processPackages [pyvaulty]: Remove: archive file [/home/abi/fetcher/tmp/pyvaulty-1.3.5.tar.gz]
+[2023-06-06 05:05:34] INFO root fetch - processPackages [pyvaulty]: Remove: archive file [/home/abi/fetcher/tmp/pyvaulty-1.3.6.tar.gz]
+[2023-06-06 05:05:34] INFO root fetch - main [MainThread]: End processing [pyvaulty]: success
+[2023-06-06 05:05:35] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.0.2.tar.gz]
+[2023-06-06 05:05:35] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.0.3.tar.gz]
+[2023-06-06 05:05:35] INFO root fetch - main [MainThread]: End processing [revChatGPT]: success
+[2023-06-06 05:05:35] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-0.5.6.tar.gz]
+[2023-06-06 05:05:35] INFO root fetch - processPackages [funasr]: Remove: archive file [/home/abi/fetcher/tmp/funasr-0.5.8.tar.gz]
+[2023-06-06 05:05:35] INFO root fetch - main [MainThread]: End processing [funasr]: success
+[2023-06-06 05:05:36] INFO root fetch - processPackages [aind-segmentation-evaluation]: Remove: archive file [/home/abi/fetcher/tmp/aind_segmentation_evaluation-0.1.8.tar.gz]
+[2023-06-06 05:05:36] INFO root fetch - processPackages [aind-segmentation-evaluation]: Remove: archive file [/home/abi/fetcher/tmp/aind_segmentation_evaluation-0.1.9.tar.gz]
+[2023-06-06 05:05:36] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
+[2023-06-06 05:05:38] INFO root fetch - main [MainThread]: End processing [aind-segmentation-evaluation]: success
+[2023-06-06 05:05:38] INFO root fetch - main [MainThread]: Store serial: [18386074]
