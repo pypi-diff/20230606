@@ -13470,3 +13470,127 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 08:03:23] INFO root fetch - processPackages [chronogram]: Remove: archive file [/home/abi/fetcher/tmp/chronogram-0.2.0.tar.gz]
 [2023-06-06 08:03:23] INFO root fetch - main [MainThread]: End processing [chronogram]: success
 [2023-06-06 08:03:23] INFO root fetch - main [MainThread]: Store serial: [18387172]
+[2023-06-06 08:08:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18387172]
+[2023-06-06 08:08:32] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-06 08:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: celery
+[2023-06-06 08:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: easydags
+[2023-06-06 08:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spatialdata
+[2023-06-06 08:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PlanaPY
+[2023-06-06 08:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-twitter
+[2023-06-06 08:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyg-nightly
+[2023-06-06 08:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: np-tools
+[2023-06-06 08:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ANBUtils
+[2023-06-06 08:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: muffin-rest
+[2023-06-06 08:08:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zhousf-lib
+[2023-06-06 08:08:33] INFO root fetch - processPackages [spatialdata]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 08:08:33] INFO root fetch - processPackages [nonebot-plugin-twitter]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-06 08:08:33] INFO root fetch - processPackages [PlanaPY]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-06 08:08:33] INFO root fetch - processPackages [np-tools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 08:08:33] INFO root fetch - processPackages [ANBUtils]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-06-06 08:08:33] INFO root fetch - processPackages [muffin-rest]: New version: [5.0.2] Old Version: [5.0.1]
+[2023-06-06 08:08:33] INFO root fetch - processPackages [zhousf-lib]: New version: [0.4] Old Version: [0.3]
+[2023-06-06 08:08:33] WARNING root fetch - processPackages [easydags]: Skipping, unable to determine old version
+[2023-06-06 08:08:33] INFO root fetch - processPackages [easydags]: Start processing: openqr
+[2023-06-06 08:08:33] INFO root fetch - main [MainThread]: End processing [easydags] error
+[2023-06-06 08:08:33] INFO root fetch - processPackages [celery]: New version: [5.3.0rc2] Old Version: [5.3.0rc1]
+[2023-06-06 08:08:33] WARNING root fetch - processPackages [openqr]: Skipping, unable to determine old version
+[2023-06-06 08:08:33] INFO root fetch - processPackages [openqr]: Start processing: PlanaPY
+[2023-06-06 08:08:33] INFO root fetch - main [MainThread]: End processing [openqr] error
+[2023-06-06 08:08:33] INFO root fetch - processPackages [nonebot-plugin-twitter]: Downloading https://files.pythonhosted.org/packages/d6/bf/1c959ad1fcb8fee3ba3b3d094c50d9599bacb87d45012ac0e41fba417524/nonebot-plugin-twitter-0.0.6.tar.gz
+[2023-06-06 08:08:33] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/1d/85/9e81eeddf4dc8a4dec15110fddf7737873f56737f701ed153f7912d87188/zhousf-lib-0.3.tar.gz
+[2023-06-06 08:08:33] INFO root fetch - processPackages [np-tools]: Downloading https://files.pythonhosted.org/packages/7d/00/4ffdf7879b57a53675c0a072a6994ee222cef3f6c1623e7c822a02d2d8be/np_tools-0.1.8.tar.gz
+[2023-06-06 08:08:33] INFO root fetch - processPackages [PlanaPY]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-06 08:08:33] INFO root fetch - processPackages [ANBUtils]: Downloading https://files.pythonhosted.org/packages/1d/23/b8f98b86be5c027c048af879f474e3c89d7c94d9e7e348f8a3d6c702c555/ANBUtils-1.5.2.tar.gz
+[2023-06-06 08:08:33] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230606] Old Version: [2.4.0.dev20230605]
+[2023-06-06 08:08:33] INFO root fetch - processPackages [muffin-rest]: Downloading https://files.pythonhosted.org/packages/32/31/a0872a65c3994a57b877ffebe7c3499b2740e4e4f8eb227e49d0a7b18664/muffin_rest-5.0.1.tar.gz
+[2023-06-06 08:08:33] INFO root fetch - processPackages [PlanaPY]: Downloading https://files.pythonhosted.org/packages/b9/f8/5f4396c46d41f0cfd131c1c4bd93fabec26493a812c328e67591b4024729/PlanaPY-0.1.3.tar.gz
+[2023-06-06 08:08:33] INFO root fetch - processPackages [PlanaPY]: Downloading https://files.pythonhosted.org/packages/b9/f8/5f4396c46d41f0cfd131c1c4bd93fabec26493a812c328e67591b4024729/PlanaPY-0.1.3.tar.gz
+[2023-06-06 08:08:33] INFO root fetch - processPackages [spatialdata]: Downloading https://files.pythonhosted.org/packages/6d/b4/bf769254ba7e0a962a9e496fc43c771403b164c790ed22f7c50f9cc0d6d1/spatialdata-0.0.8.tar.gz
+[2023-06-06 08:08:33] INFO root fetch - processPackages [celery]: Downloading https://files.pythonhosted.org/packages/25/4c/952ff9cbff60238fdc0ba42d58385a733cca4e9023047dd327890d854084/celery-5.3.0rc1.tar.gz
+[2023-06-06 08:08:33] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/fd/04/f8b765799beca7e996831b21ff63440bd8eaa5854f424a747532c503947c/zhousf-lib-0.4.tar.gz
+[2023-06-06 08:08:33] INFO root fetch - processPackages [ANBUtils]: Downloading https://files.pythonhosted.org/packages/b1/0a/520ed20372ad1649a158f72200a90718aa7bec10c38169b037385a27d0da/ANBUtils-1.5.3.tar.gz
+[2023-06-06 08:08:33] INFO root fetch - processPackages [nonebot-plugin-twitter]: Downloading https://files.pythonhosted.org/packages/dc/68/fcbdaf6171399bbe1b083e8a9bc3b695139161638a40ec8d120e993a75e2/nonebot-plugin-twitter-0.0.7.tar.gz
+[2023-06-06 08:08:33] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/27/d8/c1100db41fd11df4494ab4f13fa71e65b55d12eeb17b9382f294f470dfb6/pyg_nightly-2.4.0.dev20230605.tar.gz
+[2023-06-06 08:08:33] INFO root fetch - processPackages [np-tools]: Downloading https://files.pythonhosted.org/packages/63/fb/c0aa437bbfc78ecde48c8fd50dc43e54d68497a94d2f9416445f466a76b6/np_tools-0.1.9.tar.gz
+[2023-06-06 08:08:33] INFO root fetch - processPackages [ANBUtils]: executing diffoscope
+[2023-06-06 08:08:33] INFO root fetch - processPackages [ANBUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ANBUtils-1.5.2.tar.gz tmp/ANBUtils-1.5.3.tar.gz --markdown 20230606/A/ANBUtils/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-06-06 08:08:33] INFO root fetch - processPackages [muffin-rest]: Downloading https://files.pythonhosted.org/packages/e5/98/f92d11e460ef7f4b17c46aaa5262145cb5851564fb511f0696447ce38418/muffin_rest-5.0.2.tar.gz
+[2023-06-06 08:08:33] INFO root fetch - processPackages [np-tools]: executing diffoscope
+[2023-06-06 08:08:33] INFO root fetch - processPackages [np-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np_tools-0.1.8.tar.gz tmp/np_tools-0.1.9.tar.gz --markdown 20230606/n/np-tools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 08:08:33] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2023-06-06 08:08:33] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf-lib-0.3.tar.gz tmp/zhousf-lib-0.4.tar.gz --markdown 20230606/z/zhousf-lib/0.3-0.4/diff.md --exclude *.pyd
+[2023-06-06 08:08:33] INFO root fetch - processPackages [nonebot-plugin-twitter]: executing diffoscope
+[2023-06-06 08:08:33] INFO root fetch - processPackages [nonebot-plugin-twitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-twitter-0.0.6.tar.gz tmp/nonebot-plugin-twitter-0.0.7.tar.gz --markdown 20230606/n/nonebot-plugin-twitter/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-06 08:08:33] INFO root fetch - processPackages [muffin-rest]: executing diffoscope
+[2023-06-06 08:08:33] INFO root fetch - processPackages [muffin-rest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin_rest-5.0.1.tar.gz tmp/muffin_rest-5.0.2.tar.gz --markdown 20230606/m/muffin-rest/5.0.1-5.0.2/diff.md --exclude *.pyd
+[2023-06-06 08:08:33] INFO root fetch - processPackages [PlanaPY]: Downloading https://files.pythonhosted.org/packages/6b/06/dc27f4b9a9973ed6e339022ba6498d2de545a732d9f9e2318a3314bd0529/PlanaPY-0.1.4.tar.gz
+[2023-06-06 08:08:33] INFO root fetch - processPackages [PlanaPY]: Downloading https://files.pythonhosted.org/packages/6b/06/dc27f4b9a9973ed6e339022ba6498d2de545a732d9f9e2318a3314bd0529/PlanaPY-0.1.4.tar.gz
+[2023-06-06 08:08:33] INFO root fetch - processPackages [celery]: Downloading https://files.pythonhosted.org/packages/22/1f/82510c8f7cf899be38ac2726f163ff852cd09d17cae067ed65f5fab36f34/celery-5.3.0rc2.tar.gz
+[2023-06-06 08:08:33] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/03/30/9a2d0655f97eaeac7039d2e1040cbb30fcaf55658ac14e2c2ba6606dc87d/pyg_nightly-2.4.0.dev20230606.tar.gz
+[2023-06-06 08:08:33] INFO root fetch - processPackages [PlanaPY]: executing diffoscope
+[2023-06-06 08:08:33] INFO root fetch - processPackages [PlanaPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlanaPY-0.1.3.tar.gz tmp/PlanaPY-0.1.4.tar.gz --markdown 20230606/P/PlanaPY/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-06 08:08:33] INFO root fetch - processPackages [PlanaPY]: executing diffoscope
+[2023-06-06 08:08:33] INFO root fetch - processPackages [PlanaPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PlanaPY-0.1.3.tar.gz tmp/PlanaPY-0.1.4.tar.gz --markdown 20230606/P/PlanaPY/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-06 08:08:33] INFO root fetch - processPackages [celery]: executing diffoscope
+[2023-06-06 08:08:33] INFO root fetch - processPackages [celery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celery-5.3.0rc1.tar.gz tmp/celery-5.3.0rc2.tar.gz --markdown 20230606/c/celery/5.3.0rc1-5.3.0rc2/diff.md --exclude *.pyd
+[2023-06-06 08:08:33] INFO root fetch - processPackages [spatialdata]: Downloading https://files.pythonhosted.org/packages/f6/91/79759fb7bbacba8d4508c3f5beed37718ac3ece8bd5edf33c7d915bc7e3d/spatialdata-0.0.9.tar.gz
+[2023-06-06 08:08:33] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-06-06 08:08:33] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230605.tar.gz tmp/pyg_nightly-2.4.0.dev20230606.tar.gz --markdown 20230606/p/pyg-nightly/2.4.0.dev20230605-2.4.0.dev20230606/diff.md --exclude *.pyd
+[2023-06-06 08:08:33] INFO root fetch - processPackages [spatialdata]: executing diffoscope
+[2023-06-06 08:08:33] INFO root fetch - processPackages [spatialdata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spatialdata-0.0.8.tar.gz tmp/spatialdata-0.0.9.tar.gz --markdown 20230606/s/spatialdata/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 08:08:34] INFO root fetch - processPackages [ANBUtils]: Remove: archive file [/home/abi/fetcher/tmp/ANBUtils-1.5.2.tar.gz]
+[2023-06-06 08:08:34] INFO root fetch - processPackages [ANBUtils]: Remove: archive file [/home/abi/fetcher/tmp/ANBUtils-1.5.3.tar.gz]
+[2023-06-06 08:08:34] INFO root fetch - processPackages [ANBUtils]: Start processing: pysmali
+[2023-06-06 08:08:34] INFO root fetch - main [MainThread]: End processing [ANBUtils]: success
+[2023-06-06 08:08:34] INFO root fetch - processPackages [pysmali]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-06-06 08:08:35] INFO root fetch - processPackages [np-tools]: Remove: archive file [/home/abi/fetcher/tmp/np_tools-0.1.8.tar.gz]
+[2023-06-06 08:08:35] INFO root fetch - processPackages [np-tools]: Remove: archive file [/home/abi/fetcher/tmp/np_tools-0.1.9.tar.gz]
+[2023-06-06 08:08:35] INFO root fetch - processPackages [np-tools]: Start processing: liquisource
+[2023-06-06 08:08:35] INFO root fetch - main [MainThread]: End processing [np-tools]: success
+[2023-06-06 08:08:35] INFO root fetch - processPackages [nonebot-plugin-twitter]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-twitter-0.0.6.tar.gz]
+[2023-06-06 08:08:35] INFO root fetch - processPackages [nonebot-plugin-twitter]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-twitter-0.0.7.tar.gz]
+[2023-06-06 08:08:35] INFO root fetch - processPackages [nonebot-plugin-twitter]: Start processing: odoo-addon-l10n-ro-partner-create-by-vat
+[2023-06-06 08:08:35] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-twitter]: success
+[2023-06-06 08:08:35] INFO root fetch - processPackages [liquisource]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-06-06 08:08:35] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: New version: [16.0.1.3.0] Old Version: [16.0.1.2.0]
+[2023-06-06 08:08:35] INFO root fetch - processPackages [liquisource]: Downloading https://files.pythonhosted.org/packages/4b/e1/7fc6b078df5d9a6cb1adafbf92535e2f0428789e4f14974fe599ec7856d9/liquisource-1.1.1.tar.gz
+[2023-06-06 08:08:35] INFO root fetch - processPackages [pysmali]: Downloading https://files.pythonhosted.org/packages/f4/0d/69d13b253943b924cd7b51b1bfc15e5d4eb76a8e7382cffa223dbfad3db5/pysmali-0.1.3.tar.gz
+[2023-06-06 08:08:35] INFO root fetch - processPackages [PlanaPY]: Remove: archive file [/home/abi/fetcher/tmp/PlanaPY-0.1.3.tar.gz]
+[2023-06-06 08:08:35] INFO root fetch - processPackages [PlanaPY]: Remove: archive file [/home/abi/fetcher/tmp/PlanaPY-0.1.4.tar.gz]
+[2023-06-06 08:08:35] INFO root fetch - main [MainThread]: End processing [PlanaPY]: success
+[2023-06-06 08:08:35] INFO root fetch - main [MainThread]: End processing [PlanaPY]: success
+[2023-06-06 08:08:35] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: Downloading https://files.pythonhosted.org/packages/20/6d/760753f555ed7b763740f360509c7ed4450477a8d2aeca52291776252c1a/odoo_addon_l10n_ro_partner_create_by_vat-16.0.1.2.0-py3-none-any.whl
+[2023-06-06 08:08:35] INFO root fetch - processPackages [liquisource]: Downloading https://files.pythonhosted.org/packages/ce/11/b653d5c1c7798b8135ceeb12bf0e11a0c107800d64495051269b76972047/liquisource-1.1.2.tar.gz
+[2023-06-06 08:08:35] INFO root fetch - processPackages [pysmali]: Downloading https://files.pythonhosted.org/packages/10/6c/40b891312f19f8f99a27bdc9e4b51d461c7e5761970facc8a91ae2b02f7c/pysmali-0.2.0.tar.gz
+[2023-06-06 08:08:35] INFO root fetch - processPackages [pysmali]: executing diffoscope
+[2023-06-06 08:08:35] INFO root fetch - processPackages [pysmali]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysmali-0.1.3.tar.gz tmp/pysmali-0.2.0.tar.gz --markdown 20230606/p/pysmali/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-06-06 08:08:35] INFO root fetch - processPackages [liquisource]: executing diffoscope
+[2023-06-06 08:08:35] INFO root fetch - processPackages [liquisource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liquisource-1.1.1.tar.gz tmp/liquisource-1.1.2.tar.gz --markdown 20230606/l/liquisource/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-06-06 08:08:35] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.3.tar.gz]
+[2023-06-06 08:08:35] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.4.tar.gz]
+[2023-06-06 08:08:35] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2023-06-06 08:08:35] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: Downloading https://files.pythonhosted.org/packages/ed/b8/ed13b137745c40b2b22846242504d803a8c624a555e36f801fabd837f613/odoo_addon_l10n_ro_partner_create_by_vat-16.0.1.3.0-py3-none-any.whl
+[2023-06-06 08:08:35] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: executing diffoscope
+[2023-06-06 08:08:35] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_partner_create_by_vat-16.0.1.2.0-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_partner_create_by_vat-16.0.1.3.0-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-l10n-ro-partner-create-by-vat/16.0.1.2.0-16.0.1.3.0/diff.md --exclude *.pyd
+[2023-06-06 08:08:35] INFO root fetch - processPackages [muffin-rest]: Remove: archive file [/home/abi/fetcher/tmp/muffin_rest-5.0.1.tar.gz]
+[2023-06-06 08:08:35] INFO root fetch - processPackages [muffin-rest]: Remove: archive file [/home/abi/fetcher/tmp/muffin_rest-5.0.2.tar.gz]
+[2023-06-06 08:08:35] INFO root fetch - main [MainThread]: End processing [muffin-rest]: success
+[2023-06-06 08:08:35] INFO root fetch - processPackages [spatialdata]: Remove: archive file [/home/abi/fetcher/tmp/spatialdata-0.0.8.tar.gz]
+[2023-06-06 08:08:35] INFO root fetch - processPackages [spatialdata]: Remove: archive file [/home/abi/fetcher/tmp/spatialdata-0.0.9.tar.gz]
+[2023-06-06 08:08:35] INFO root fetch - main [MainThread]: End processing [spatialdata]: success
+[2023-06-06 08:08:36] INFO root fetch - processPackages [liquisource]: Remove: archive file [/home/abi/fetcher/tmp/liquisource-1.1.1.tar.gz]
+[2023-06-06 08:08:36] INFO root fetch - processPackages [liquisource]: Remove: archive file [/home/abi/fetcher/tmp/liquisource-1.1.2.tar.gz]
+[2023-06-06 08:08:36] INFO root fetch - main [MainThread]: End processing [liquisource]: success
+[2023-06-06 08:08:36] INFO root fetch - processPackages [pysmali]: Remove: archive file [/home/abi/fetcher/tmp/pysmali-0.1.3.tar.gz]
+[2023-06-06 08:08:36] INFO root fetch - processPackages [pysmali]: Remove: archive file [/home/abi/fetcher/tmp/pysmali-0.2.0.tar.gz]
+[2023-06-06 08:08:36] INFO root fetch - main [MainThread]: End processing [pysmali]: success
+[2023-06-06 08:08:36] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_partner_create_by_vat-16.0.1.2.0-py3-none-any.whl.zip]
+[2023-06-06 08:08:36] INFO root fetch - processPackages [odoo-addon-l10n-ro-partner-create-by-vat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_partner_create_by_vat-16.0.1.3.0-py3-none-any.whl.zip]
+[2023-06-06 08:08:36] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-partner-create-by-vat]: success
+[2023-06-06 08:08:41] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230605.tar.gz]
+[2023-06-06 08:08:41] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230606.tar.gz]
+[2023-06-06 08:08:41] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-06-06 08:08:42] INFO root fetch - processPackages [celery]: Remove: archive file [/home/abi/fetcher/tmp/celery-5.3.0rc1.tar.gz]
+[2023-06-06 08:08:42] INFO root fetch - processPackages [celery]: Remove: archive file [/home/abi/fetcher/tmp/celery-5.3.0rc2.tar.gz]
+[2023-06-06 08:08:42] INFO root fetch - main [MainThread]: End processing [celery]: success
+[2023-06-06 08:08:42] INFO root fetch - main [MainThread]: Store serial: [18387232]
