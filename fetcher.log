@@ -13011,3 +13011,58 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 07:29:49] INFO root fetch - processPackages [hisock]: Remove: archive file [/home/abi/fetcher/tmp/hisock-2.0.2.tar.gz]
 [2023-06-06 07:29:49] INFO root fetch - main [MainThread]: End processing [hisock]: success
 [2023-06-06 07:29:49] INFO root fetch - main [MainThread]: Store serial: [18386951]
+[2023-06-06 07:34:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18386951]
+[2023-06-06 07:34:58] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-06 07:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: alltime-athletics-python
+[2023-06-06 07:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PlanaPY
+[2023-06-06 07:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wctrl
+[2023-06-06 07:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alltime-athletics-python
+[2023-06-06 07:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mynacode
+[2023-06-06 07:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: write-the
+[2023-06-06 07:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: validar-modelos
+[2023-06-06 07:34:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: zhousf-lib
+[2023-06-06 07:34:58] INFO root fetch - processPackages [alltime-athletics-python]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-06 07:34:58] WARNING root fetch - processPackages [PlanaPY]: Skipping, unable to determine old version
+[2023-06-06 07:34:58] INFO root fetch - main [MainThread]: End processing [PlanaPY] error
+[2023-06-06 07:34:58] INFO root fetch - processPackages [validar-modelos]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-06 07:34:58] INFO root fetch - processPackages [write-the]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-06 07:34:58] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-06 07:34:58] INFO root fetch - processPackages [alltime-athletics-python]: New version: [0.8.0] Old Version: [0.7.0]
+[2023-06-06 07:34:58] WARNING root fetch - processPackages [wctrl]: Skipping, unable to determine old version
+[2023-06-06 07:34:58] INFO root fetch - main [MainThread]: End processing [wctrl] error
+[2023-06-06 07:34:58] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-06-06 07:34:58] WARNING root fetch - processPackages [zhousf-lib]: Skipping, unable to determine old version
+[2023-06-06 07:34:58] INFO root fetch - main [MainThread]: End processing [zhousf-lib] error
+[2023-06-06 07:34:58] INFO root fetch - processPackages [alltime-athletics-python]: Downloading https://files.pythonhosted.org/packages/e4/8f/151d2f916df3a32087f72e7e38a96b4af91a7e955c3404412df316b6a9ed/alltime_athletics_python-0.7.0.tar.gz
+[2023-06-06 07:34:58] INFO root fetch - processPackages [alltime-athletics-python]: Downloading https://files.pythonhosted.org/packages/e4/8f/151d2f916df3a32087f72e7e38a96b4af91a7e955c3404412df316b6a9ed/alltime_athletics_python-0.7.0.tar.gz
+[2023-06-06 07:34:58] INFO root fetch - processPackages [validar-modelos]: Downloading https://files.pythonhosted.org/packages/e2/16/c4027bddf3e3c3d8df1e79512b377637c34fc53bdeb0f4910566d6bbe358/validar_modelos-0.0.5.tar.gz
+[2023-06-06 07:34:58] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-06-06 07:34:58] INFO root fetch - processPackages [write-the]: Downloading https://files.pythonhosted.org/packages/71/87/949d22a4fc5de3d9101ad163183681c8c814d04e5cc065331def2119f322/write_the-0.9.0.tar.gz
+[2023-06-06 07:34:58] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-06-06 07:34:58] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230606/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-06 07:34:58] INFO root fetch - processPackages [validar-modelos]: Downloading https://files.pythonhosted.org/packages/6c/45/9aa03a573eb575ed34d0202553d7379664d52b1c51cf4ba858abdd2ae5fe/validar_modelos-0.0.6.tar.gz
+[2023-06-06 07:34:58] INFO root fetch - processPackages [alltime-athletics-python]: Downloading https://files.pythonhosted.org/packages/19/3a/27015a02fe285deaea532b07d26c5a2818d47772d17dba56a841d687b76a/alltime_athletics_python-0.8.0.tar.gz
+[2023-06-06 07:34:58] INFO root fetch - processPackages [alltime-athletics-python]: Downloading https://files.pythonhosted.org/packages/19/3a/27015a02fe285deaea532b07d26c5a2818d47772d17dba56a841d687b76a/alltime_athletics_python-0.8.0.tar.gz
+[2023-06-06 07:34:58] INFO root fetch - processPackages [alltime-athletics-python]: executing diffoscope
+[2023-06-06 07:34:58] INFO root fetch - processPackages [alltime-athletics-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alltime_athletics_python-0.7.0.tar.gz tmp/alltime_athletics_python-0.8.0.tar.gz --markdown 20230606/a/alltime-athletics-python/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-06 07:34:58] INFO root fetch - processPackages [alltime-athletics-python]: executing diffoscope
+[2023-06-06 07:34:58] INFO root fetch - processPackages [alltime-athletics-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alltime_athletics_python-0.7.0.tar.gz tmp/alltime_athletics_python-0.8.0.tar.gz --markdown 20230606/a/alltime-athletics-python/0.7.0-0.8.0/diff.md --exclude *.pyd
+[2023-06-06 07:34:59] INFO root fetch - processPackages [validar-modelos]: executing diffoscope
+[2023-06-06 07:34:59] INFO root fetch - processPackages [validar-modelos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validar_modelos-0.0.5.tar.gz tmp/validar_modelos-0.0.6.tar.gz --markdown 20230606/v/validar-modelos/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-06 07:34:59] INFO root fetch - processPackages [write-the]: Downloading https://files.pythonhosted.org/packages/11/c7/767c39d6f76b858de0728c096719334b809269d52c06b0779931f6e2ded2/write_the-0.9.1.tar.gz
+[2023-06-06 07:34:59] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-06-06 07:34:59] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-06-06 07:34:59] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-06-06 07:34:59] INFO root fetch - processPackages [write-the]: executing diffoscope
+[2023-06-06 07:34:59] INFO root fetch - processPackages [write-the]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/write_the-0.9.0.tar.gz tmp/write_the-0.9.1.tar.gz --markdown 20230606/w/write-the/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-06-06 07:35:00] INFO root fetch - processPackages [alltime-athletics-python]: Remove: archive file [/home/abi/fetcher/tmp/alltime_athletics_python-0.7.0.tar.gz]
+[2023-06-06 07:35:00] INFO root fetch - processPackages [alltime-athletics-python]: Remove: archive file [/home/abi/fetcher/tmp/alltime_athletics_python-0.8.0.tar.gz]
+[2023-06-06 07:35:00] INFO root fetch - main [MainThread]: End processing [alltime-athletics-python]: success
+[2023-06-06 07:35:00] INFO root fetch - processPackages [validar-modelos]: Remove: archive file [/home/abi/fetcher/tmp/validar_modelos-0.0.5.tar.gz]
+[2023-06-06 07:35:00] INFO root fetch - processPackages [validar-modelos]: Remove: archive file [/home/abi/fetcher/tmp/validar_modelos-0.0.6.tar.gz]
+[2023-06-06 07:35:00] INFO root fetch - main [MainThread]: End processing [validar-modelos]: success
+[2023-06-06 07:35:00] INFO root fetch - main [MainThread]: End processing [alltime-athletics-python]: success
+[2023-06-06 07:35:01] INFO root fetch - processPackages [write-the]: Remove: archive file [/home/abi/fetcher/tmp/write_the-0.9.0.tar.gz]
+[2023-06-06 07:35:01] INFO root fetch - processPackages [write-the]: Remove: archive file [/home/abi/fetcher/tmp/write_the-0.9.1.tar.gz]
+[2023-06-06 07:35:01] INFO root fetch - main [MainThread]: End processing [write-the]: success
+[2023-06-06 07:35:01] INFO root fetch - main [MainThread]: Store serial: [18386980]
