@@ -11753,3 +11753,67 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 06:12:35] INFO root fetch - processPackages [featureform]: Remove: archive file [/home/abi/fetcher/tmp/featureform-1.9.0.tar.gz]
 [2023-06-06 06:12:35] INFO root fetch - main [MainThread]: End processing [featureform]: success
 [2023-06-06 06:12:35] INFO root fetch - main [MainThread]: Store serial: [18386457]
+[2023-06-06 06:17:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18386457]
+[2023-06-06 06:17:44] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-06 06:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PPOCRLabel-Japan
+[2023-06-06 06:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-account-invoice-margin
+[2023-06-06 06:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addon-account-invoice-margin-sale
+[2023-06-06 06:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addons-oca-margin-analysis
+[2023-06-06 06:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xraylarch
+[2023-06-06 06:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bertagent
+[2023-06-06 06:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: autoviz
+[2023-06-06 06:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sickrage
+[2023-06-06 06:17:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: validar-modelos
+[2023-06-06 06:17:44] INFO root fetch - processPackages [bertagent]: New version: [1.0.0] Old Version: [0.1.1]
+[2023-06-06 06:17:44] INFO root fetch - processPackages [odoo-addon-account-invoice-margin-sale]: New version: [16.0.1.0.0.6] Old Version: [16.0.1.0.0.3]
+[2023-06-06 06:17:44] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: New version: [16.0.20230605.0] Old Version: [16.0.20230602.0]
+[2023-06-06 06:17:44] INFO root fetch - processPackages [odoo-addon-account-invoice-margin]: New version: [16.0.1.0.0.5] Old Version: [16.0.1.0.0.2]
+[2023-06-06 06:17:44] WARNING root fetch - processPackages [validar-modelos]: Skipping, unable to determine old version
+[2023-06-06 06:17:44] INFO root fetch - main [MainThread]: End processing [validar-modelos] error
+[2023-06-06 06:17:44] WARNING root fetch - processPackages [PPOCRLabel-Japan]: Skipping, unable to determine old version
+[2023-06-06 06:17:44] INFO root fetch - processPackages [xraylarch]: New version: [0.9.69] Old Version: [0.9.68]
+[2023-06-06 06:17:44] INFO root fetch - main [MainThread]: End processing [PPOCRLabel-Japan] error
+[2023-06-06 06:17:44] INFO root fetch - processPackages [autoviz]: New version: [0.1.73] Old Version: [0.1.720]
+[2023-06-06 06:17:44] INFO root fetch - processPackages [sickrage]: New version: [9.4.99] Old Version: [9.4.98]
+[2023-06-06 06:17:44] INFO root fetch - processPackages [odoo-addon-account-invoice-margin-sale]: Downloading https://files.pythonhosted.org/packages/4b/d0/c399337592b685f69df9e170756d83b673fd0141a9e3c1b9d2028f5c55fd/odoo_addon_account_invoice_margin_sale-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-06 06:17:44] INFO root fetch - processPackages [bertagent]: Downloading https://files.pythonhosted.org/packages/c0/7b/f2b57d5ddbb0a0df6f53bbe240b46b168508438ef3419211c9d606e8b767/bertagent-0.1.1.tar.gz
+[2023-06-06 06:17:44] INFO root fetch - processPackages [autoviz]: Downloading https://files.pythonhosted.org/packages/78/b6/78dffa4201a2a2919aa90edfb82d7e9c93374ab44cace99f34f85981e580/autoviz-0.1.720.tar.gz
+[2023-06-06 06:17:44] INFO root fetch - processPackages [xraylarch]: Downloading https://files.pythonhosted.org/packages/cf/d5/8fcc36d580af2196da0220935dd6962abc697716cf9d182c05110b42badc/xraylarch-0.9.68.tar.gz
+[2023-06-06 06:17:44] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: Downloading https://files.pythonhosted.org/packages/ff/8f/eae5d3e37787ee54167616139f045606f3765f8998dfc1731bd4b8d7bf08/odoo_addons_oca_margin_analysis-16.0.20230602.0-py3-none-any.whl
+[2023-06-06 06:17:44] INFO root fetch - processPackages [odoo-addon-account-invoice-margin]: Downloading https://files.pythonhosted.org/packages/9d/92/1a10eb12d1d1d7fe6662b92c4645454a2d3f4f425b5e836676191cbde03d/odoo_addon_account_invoice_margin-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-06 06:17:44] WARNING root fetch - processPackages [xraylarch]: Skipping package: exceeds size limit 75838356>=10485760
+[2023-06-06 06:17:44] INFO root fetch - main [MainThread]: End processing [xraylarch] error
+[2023-06-06 06:17:44] INFO root fetch - processPackages [sickrage]: Downloading https://files.pythonhosted.org/packages/52/82/44cfeae920a203267057cbe2c99cc7ea1c3a3e54698f1ed240c514a57bb9/sickrage-9.4.98.tar.gz
+[2023-06-06 06:17:44] INFO root fetch - processPackages [odoo-addon-account-invoice-margin-sale]: Downloading https://files.pythonhosted.org/packages/5b/11/e24cbb236bc41bfced58b6c426e68f38ee25888bab428c3176cb2d29665e/odoo_addon_account_invoice_margin_sale-16.0.1.0.0.6-py3-none-any.whl
+[2023-06-06 06:17:44] INFO root fetch - processPackages [bertagent]: Downloading https://files.pythonhosted.org/packages/c9/ab/61960475bda7d57dc23950227f477bec90b51a8b5601933bf6a480c00cb2/bertagent-1.0.0.tar.gz
+[2023-06-06 06:17:45] INFO root fetch - processPackages [odoo-addon-account-invoice-margin-sale]: executing diffoscope
+[2023-06-06 06:17:45] INFO root fetch - processPackages [odoo-addon-account-invoice-margin-sale]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_margin_sale-16.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_margin_sale-16.0.1.0.0.6-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-account-invoice-margin-sale/16.0.1.0.0.3-16.0.1.0.0.6/diff.md --exclude *.pyd
+[2023-06-06 06:17:45] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: Downloading https://files.pythonhosted.org/packages/aa/09/13a1a1724831186225cced67bff8d9a62be435d9c98b51030e5fd9910fda/odoo_addons_oca_margin_analysis-16.0.20230605.0-py3-none-any.whl
+[2023-06-06 06:17:45] INFO root fetch - processPackages [bertagent]: executing diffoscope
+[2023-06-06 06:17:45] INFO root fetch - processPackages [bertagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bertagent-0.1.1.tar.gz tmp/bertagent-1.0.0.tar.gz --markdown 20230606/b/bertagent/0.1.1-1.0.0/diff.md --exclude *.pyd
+[2023-06-06 06:17:45] INFO root fetch - processPackages [autoviz]: Downloading https://files.pythonhosted.org/packages/aa/78/53021a887010a122c18058e0cdbe6e12c037d9f413c6ef7d1427766e780f/autoviz-0.1.73.tar.gz
+[2023-06-06 06:17:45] INFO root fetch - processPackages [odoo-addon-account-invoice-margin]: Downloading https://files.pythonhosted.org/packages/d6/d7/1cf862e8de68614b112a20103d16f771ef1db81ac08cc08cca627bb3b230/odoo_addon_account_invoice_margin-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-06 06:17:45] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: executing diffoscope
+[2023-06-06 06:17:45] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_margin_analysis-16.0.20230602.0-py3-none-any.whl.zip tmp/odoo_addons_oca_margin_analysis-16.0.20230605.0-py3-none-any.whl.zip --markdown 20230606/o/odoo-addons-oca-margin-analysis/16.0.20230602.0-16.0.20230605.0/diff.md --exclude *.pyd
+[2023-06-06 06:17:45] INFO root fetch - processPackages [autoviz]: executing diffoscope
+[2023-06-06 06:17:45] INFO root fetch - processPackages [autoviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/autoviz-0.1.720.tar.gz tmp/autoviz-0.1.73.tar.gz --markdown 20230606/a/autoviz/0.1.720-0.1.73/diff.md --exclude *.pyd
+[2023-06-06 06:17:45] WARNING root fetch - processPackages [sickrage]: Skipping package: exceeds size limit 16173905>=10485760
+[2023-06-06 06:17:45] INFO root fetch - main [MainThread]: End processing [sickrage] error
+[2023-06-06 06:17:45] INFO root fetch - processPackages [odoo-addon-account-invoice-margin]: executing diffoscope
+[2023-06-06 06:17:45] INFO root fetch - processPackages [odoo-addon-account-invoice-margin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_account_invoice_margin-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_account_invoice_margin-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-account-invoice-margin/16.0.1.0.0.2-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-06-06 06:17:46] INFO root fetch - processPackages [odoo-addon-account-invoice-margin-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_margin_sale-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-06 06:17:46] INFO root fetch - processPackages [odoo-addon-account-invoice-margin-sale]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_margin_sale-16.0.1.0.0.6-py3-none-any.whl.zip]
+[2023-06-06 06:17:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-margin-sale]: success
+[2023-06-06 06:17:46] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_margin_analysis-16.0.20230602.0-py3-none-any.whl.zip]
+[2023-06-06 06:17:46] INFO root fetch - processPackages [odoo-addons-oca-margin-analysis]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_margin_analysis-16.0.20230605.0-py3-none-any.whl.zip]
+[2023-06-06 06:17:46] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-margin-analysis]: success
+[2023-06-06 06:17:46] INFO root fetch - processPackages [bertagent]: Remove: archive file [/home/abi/fetcher/tmp/bertagent-0.1.1.tar.gz]
+[2023-06-06 06:17:46] INFO root fetch - processPackages [bertagent]: Remove: archive file [/home/abi/fetcher/tmp/bertagent-1.0.0.tar.gz]
+[2023-06-06 06:17:46] INFO root fetch - main [MainThread]: End processing [bertagent]: success
+[2023-06-06 06:17:46] INFO root fetch - processPackages [autoviz]: Remove: archive file [/home/abi/fetcher/tmp/autoviz-0.1.720.tar.gz]
+[2023-06-06 06:17:46] INFO root fetch - processPackages [autoviz]: Remove: archive file [/home/abi/fetcher/tmp/autoviz-0.1.73.tar.gz]
+[2023-06-06 06:17:46] INFO root fetch - main [MainThread]: End processing [autoviz]: success
+[2023-06-06 06:17:46] INFO root fetch - processPackages [odoo-addon-account-invoice-margin]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_margin-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-06 06:17:46] INFO root fetch - processPackages [odoo-addon-account-invoice-margin]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_account_invoice_margin-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-06 06:17:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-account-invoice-margin]: success
+[2023-06-06 06:17:46] INFO root fetch - main [MainThread]: Store serial: [18386486]
