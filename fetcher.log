@@ -3300,3 +3300,72 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 03:05:39] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
 [2023-06-06 03:05:39] INFO root fetch - main [MainThread]: End processing [bioversions]: success
 [2023-06-06 03:05:39] INFO root fetch - main [MainThread]: Store serial: [18383414]
+[2023-06-06 03:10:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18383414]
+[2023-06-06 03:10:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-06 03:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-06-06 03:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlalchemy-pgspider
+[2023-06-06 03:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: newrelic-sb-sdk
+[2023-06-06 03:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdk-lambda-layer-curl
+[2023-06-06 03:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Algebra-with-SymPy
+[2023-06-06 03:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aemcmc-nightly
+[2023-06-06 03:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lib-for-messanger
+[2023-06-06 03:10:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ecape
+[2023-06-06 03:10:47] INFO root fetch - processPackages [aemcmc-nightly]: New version: [0.0.8.dev20230605] Old Version: [0.0.8.dev20230604]
+[2023-06-06 03:10:47] INFO root fetch - processPackages [Algebra-with-SymPy]: New version: [0.9.4rc0] Old Version: [0.9.4]
+[2023-06-06 03:10:47] INFO root fetch - processPackages [ecape]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-06 03:10:47] INFO root fetch - processPackages [lib-for-messanger]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-06 03:10:47] INFO root fetch - processPackages [newrelic-sb-sdk]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-06-06 03:10:47] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-06 03:10:47] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-06 03:10:47] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/8e/d2/840d7d476b25e80ec108e73e8a32555017f1c8600a304094d080de21dad9/aemcmc-nightly-0.0.8.dev20230604.tar.gz
+[2023-06-06 03:10:47] WARNING root fetch - processPackages [sqlalchemy-pgspider]: Skipping, unable to determine old version
+[2023-06-06 03:10:47] INFO root fetch - main [MainThread]: End processing [sqlalchemy-pgspider] error
+[2023-06-06 03:10:47] INFO root fetch - processPackages [lib-for-messanger]: Downloading https://files.pythonhosted.org/packages/a3/34/0a929def2dde42205a327204891957ddd4daeb4d263a74e1acecd4703755/lib_for_messanger-1.0.1.tar.gz
+[2023-06-06 03:10:47] INFO root fetch - processPackages [ecape]: Downloading https://files.pythonhosted.org/packages/e8/1f/1bf5bbf267bc1d2b7a9d257eced7b8dafe5f90dc38a1a98ede9b9f63798f/ecape-0.0.5.tar.gz
+[2023-06-06 03:10:47] INFO root fetch - processPackages [newrelic-sb-sdk]: Downloading https://files.pythonhosted.org/packages/b4/42/0f178992271719b6d6f32f399ffa7e0dcf51d058975d53c1493526c1d68f/newrelic_sb_sdk-0.4.0.tar.gz
+[2023-06-06 03:10:47] INFO root fetch - processPackages [Algebra-with-SymPy]: Downloading https://files.pythonhosted.org/packages/26/f9/0fab7e49ea103b3b83007e3019237cca3f3b0f0eaf720d7c74440c95b068/Algebra_with_SymPy-0.9.4.tar.gz
+[2023-06-06 03:10:47] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-06-06 03:10:47] INFO root fetch - processPackages [lib-for-messanger]: Downloading https://files.pythonhosted.org/packages/da/0f/e78e77ace38e408687ae8cd041b4b29223dc82c9f573ff8cc8a619b4bb7e/lib_for_messanger-1.0.2.tar.gz
+[2023-06-06 03:10:47] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-06 03:10:47] INFO root fetch - processPackages [ecape]: Downloading https://files.pythonhosted.org/packages/6e/cf/cb6517fcae40b195951da194796e7a974011c31574cdac7ad1c03450add7/ecape-0.0.6.tar.gz
+[2023-06-06 03:10:48] INFO root fetch - processPackages [newrelic-sb-sdk]: Downloading https://files.pythonhosted.org/packages/05/e3/75a587a7a5eeb98c731b9d6dd64ccea47c58b1c9638a7a7d038c2e76fbc5/newrelic_sb_sdk-0.5.0.tar.gz
+[2023-06-06 03:10:48] INFO root fetch - processPackages [aemcmc-nightly]: Downloading https://files.pythonhosted.org/packages/07/1f/d80e29518d648cc05f75462f986b3fc1e17d5cb848ae2ad32dfce90bff90/aemcmc-nightly-0.0.8.dev20230605.tar.gz
+[2023-06-06 03:10:48] INFO root fetch - processPackages [lib-for-messanger]: executing diffoscope
+[2023-06-06 03:10:48] INFO root fetch - processPackages [lib-for-messanger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_for_messanger-1.0.1.tar.gz tmp/lib_for_messanger-1.0.2.tar.gz --markdown 20230606/l/lib-for-messanger/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-06 03:10:48] INFO root fetch - processPackages [ecape]: executing diffoscope
+[2023-06-06 03:10:48] INFO root fetch - processPackages [ecape]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ecape-0.0.5.tar.gz tmp/ecape-0.0.6.tar.gz --markdown 20230606/e/ecape/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-06 03:10:48] INFO root fetch - processPackages [aemcmc-nightly]: executing diffoscope
+[2023-06-06 03:10:48] INFO root fetch - processPackages [aemcmc-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aemcmc-nightly-0.0.8.dev20230604.tar.gz tmp/aemcmc-nightly-0.0.8.dev20230605.tar.gz --markdown 20230606/a/aemcmc-nightly/0.0.8.dev20230604-0.0.8.dev20230605/diff.md --exclude *.pyd
+[2023-06-06 03:10:48] INFO root fetch - processPackages [newrelic-sb-sdk]: executing diffoscope
+[2023-06-06 03:10:48] INFO root fetch - processPackages [newrelic-sb-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newrelic_sb_sdk-0.4.0.tar.gz tmp/newrelic_sb_sdk-0.5.0.tar.gz --markdown 20230606/n/newrelic-sb-sdk/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-06-06 03:10:48] INFO root fetch - processPackages [Algebra-with-SymPy]: Downloading https://files.pythonhosted.org/packages/11/97/ab359e9436d01fd8a6df5e3b71469f5f8f31a496e30bcc6d187d9bddcf06/Algebra_with_SymPy-0.9.4rc0.tar.gz
+[2023-06-06 03:10:48] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-06 03:10:48] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-06-06 03:10:48] INFO root fetch - processPackages [Algebra-with-SymPy]: executing diffoscope
+[2023-06-06 03:10:48] INFO root fetch - processPackages [Algebra-with-SymPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Algebra_with_SymPy-0.9.4.tar.gz tmp/Algebra_with_SymPy-0.9.4rc0.tar.gz --markdown 20230606/A/Algebra-with-SymPy/0.9.4-0.9.4rc0/diff.md --exclude *.pyd
+[2023-06-06 03:10:48] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-06 03:10:48] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230606/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-06 03:10:48] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-06-06 03:10:48] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230606/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-06 03:10:49] INFO root fetch - processPackages [lib-for-messanger]: Remove: archive file [/home/abi/fetcher/tmp/lib_for_messanger-1.0.1.tar.gz]
+[2023-06-06 03:10:49] INFO root fetch - processPackages [lib-for-messanger]: Remove: archive file [/home/abi/fetcher/tmp/lib_for_messanger-1.0.2.tar.gz]
+[2023-06-06 03:10:49] INFO root fetch - main [MainThread]: End processing [lib-for-messanger]: success
+[2023-06-06 03:10:49] INFO root fetch - processPackages [ecape]: Remove: archive file [/home/abi/fetcher/tmp/ecape-0.0.5.tar.gz]
+[2023-06-06 03:10:49] INFO root fetch - processPackages [ecape]: Remove: archive file [/home/abi/fetcher/tmp/ecape-0.0.6.tar.gz]
+[2023-06-06 03:10:49] INFO root fetch - main [MainThread]: End processing [ecape]: success
+[2023-06-06 03:10:49] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230604.tar.gz]
+[2023-06-06 03:10:49] INFO root fetch - processPackages [aemcmc-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aemcmc-nightly-0.0.8.dev20230605.tar.gz]
+[2023-06-06 03:10:49] INFO root fetch - main [MainThread]: End processing [aemcmc-nightly]: success
+[2023-06-06 03:10:49] INFO root fetch - processPackages [Algebra-with-SymPy]: Remove: archive file [/home/abi/fetcher/tmp/Algebra_with_SymPy-0.9.4.tar.gz]
+[2023-06-06 03:10:49] INFO root fetch - processPackages [Algebra-with-SymPy]: Remove: archive file [/home/abi/fetcher/tmp/Algebra_with_SymPy-0.9.4rc0.tar.gz]
+[2023-06-06 03:10:49] INFO root fetch - main [MainThread]: End processing [Algebra-with-SymPy]: success
+[2023-06-06 03:10:49] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-06-06 03:10:49] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-06-06 03:10:49] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-06-06 03:10:50] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-06 03:10:50] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-06 03:10:50] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-06 03:10:51] INFO root fetch - processPackages [newrelic-sb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/newrelic_sb_sdk-0.4.0.tar.gz]
+[2023-06-06 03:10:51] INFO root fetch - processPackages [newrelic-sb-sdk]: Remove: archive file [/home/abi/fetcher/tmp/newrelic_sb_sdk-0.5.0.tar.gz]
+[2023-06-06 03:10:51] INFO root fetch - main [MainThread]: End processing [newrelic-sb-sdk]: success
+[2023-06-06 03:10:51] INFO root fetch - main [MainThread]: Store serial: [18383441]
