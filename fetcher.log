@@ -3692,3 +3692,78 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 03:32:09] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
 [2023-06-06 03:32:09] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
 [2023-06-06 03:32:09] INFO root fetch - main [MainThread]: Store serial: [18383692]
+[2023-06-06 03:37:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18383692]
+[2023-06-06 03:37:17] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-06 03:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: time-interpret
+[2023-06-06 03:37:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: text-emotion
+[2023-06-06 03:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mlplatformutils
+[2023-06-06 03:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prismstudio-dev
+[2023-06-06 03:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: subprocreg
+[2023-06-06 03:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alphawave
+[2023-06-06 03:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: scotthsieh-projen-statemachine
+[2023-06-06 03:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-stdlib
+[2023-06-06 03:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nbdev-test-ar
+[2023-06-06 03:37:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-numpy
+[2023-06-06 03:37:18] WARNING root fetch - processPackages [text-emotion]: Skipping, unable to determine old version
+[2023-06-06 03:37:18] INFO root fetch - main [MainThread]: End processing [text-emotion] error
+[2023-06-06 03:37:18] INFO root fetch - processPackages [time-interpret]: New version: [0.3.0] Old Version: [0.2.1]
+[2023-06-06 03:37:18] INFO root fetch - processPackages [mlplatformutils]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-06-06 03:37:18] WARNING root fetch - processPackages [subprocreg]: Skipping, unable to determine old version
+[2023-06-06 03:37:18] INFO root fetch - main [MainThread]: End processing [subprocreg] error
+[2023-06-06 03:37:18] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-06 03:37:18] INFO root fetch - processPackages [alphawave]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-06 03:37:18] INFO root fetch - processPackages [prismstudio-dev]: New version: [1.1.2] Old Version: [1.1.1b0]
+[2023-06-06 03:37:18] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-06 03:37:18] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-06 03:37:18] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/f0/68/531ddceef5c51349e1ed51d039a07d2f95f4eb5f7bf34a64abb5f9e55e8e/mlplatformutils-0.8.5.tar.gz
+[2023-06-06 03:37:18] INFO root fetch - processPackages [alphawave]: Downloading https://files.pythonhosted.org/packages/a9/ef/a83fab81934f5c4c8ec75391430a7d4d52c343d9df45a9cdf8a6bb8af0ab/alphawave-0.1.0.tar.gz
+[2023-06-06 03:37:18] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-06-06 03:37:18] WARNING root fetch - processPackages [nbdev-test-ar]: Skipping, unable to determine old version
+[2023-06-06 03:37:18] INFO root fetch - main [MainThread]: End processing [nbdev-test-ar] error
+[2023-06-06 03:37:18] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-06-06 03:37:18] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/75/2e/d50f8b081603ac850ec9b5d5d5206498a7d302b7a6ea31adbd59cb01a4ae/scotthsieh_projen_statemachine-2.0.98.tar.gz
+[2023-06-06 03:37:18] INFO root fetch - processPackages [time-interpret]: Downloading https://files.pythonhosted.org/packages/1b/a8/486a7e7d09327305ffbb73f8491e16a157094f768fecb6e4bbea1458283a/time_interpret-0.2.1.tar.gz
+[2023-06-06 03:37:18] INFO root fetch - processPackages [prismstudio-dev]: Downloading https://files.pythonhosted.org/packages/b2/11/46b77dadba7adcd9bf6601522efad52271b9ac313677937b85bb43c38bad/prismstudio-dev-1.1.1b0.tar.gz
+[2023-06-06 03:37:18] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-06-06 03:37:18] INFO root fetch - processPackages [mlplatformutils]: Downloading https://files.pythonhosted.org/packages/1d/14/08cf87272d6138850bca40b951f22f4961cd38ca267e0637b57311810178/mlplatformutils-0.8.6.tar.gz
+[2023-06-06 03:37:18] INFO root fetch - processPackages [mlplatformutils]: executing diffoscope
+[2023-06-06 03:37:18] INFO root fetch - processPackages [mlplatformutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mlplatformutils-0.8.5.tar.gz tmp/mlplatformutils-0.8.6.tar.gz --markdown 20230606/m/mlplatformutils/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-06-06 03:37:18] INFO root fetch - processPackages [alphawave]: Downloading https://files.pythonhosted.org/packages/d3/0f/3922630a47def3fa74e89ce6ed28c7e7715b3ca5fdf8ce5212d7ab21b09a/alphawave-0.1.1.tar.gz
+[2023-06-06 03:37:18] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-06-06 03:37:18] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230606/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-06 03:37:18] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-06-06 03:37:18] INFO root fetch - processPackages [time-interpret]: Downloading https://files.pythonhosted.org/packages/af/78/7b7a09aaea24c068ef9c9590515d178b65809492d06641d11823406e1983/time_interpret-0.3.0.tar.gz
+[2023-06-06 03:37:18] INFO root fetch - processPackages [alphawave]: executing diffoscope
+[2023-06-06 03:37:18] INFO root fetch - processPackages [alphawave]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alphawave-0.1.0.tar.gz tmp/alphawave-0.1.1.tar.gz --markdown 20230606/a/alphawave/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-06 03:37:18] INFO root fetch - processPackages [time-interpret]: executing diffoscope
+[2023-06-06 03:37:18] INFO root fetch - processPackages [time-interpret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/time_interpret-0.2.1.tar.gz tmp/time_interpret-0.3.0.tar.gz --markdown 20230606/t/time-interpret/0.2.1-0.3.0/diff.md --exclude *.pyd
+[2023-06-06 03:37:18] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Downloading https://files.pythonhosted.org/packages/8d/5b/2a5beec8e0ad27c9cbe9feb5d73fadf98cf28ce1a01ad03f7abb00f14071/scotthsieh_projen_statemachine-2.0.99.tar.gz
+[2023-06-06 03:37:19] INFO root fetch - processPackages [prismstudio-dev]: Downloading https://files.pythonhosted.org/packages/92/79/70011a514ffd30e7e3400d356e8b036e7e4e28a298d29e0752377fea6c38/prismstudio-dev-1.1.2.tar.gz
+[2023-06-06 03:37:19] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-06-06 03:37:19] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230606/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-06 03:37:19] INFO root fetch - processPackages [prismstudio-dev]: executing diffoscope
+[2023-06-06 03:37:19] INFO root fetch - processPackages [prismstudio-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prismstudio-dev-1.1.1b0.tar.gz tmp/prismstudio-dev-1.1.2.tar.gz --markdown 20230606/p/prismstudio-dev/1.1.1b0-1.1.2/diff.md --exclude *.pyd
+[2023-06-06 03:37:19] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: executing diffoscope
+[2023-06-06 03:37:19] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz --markdown 20230606/s/scotthsieh-projen-statemachine/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-06 03:37:19] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.8.5.tar.gz]
+[2023-06-06 03:37:19] INFO root fetch - processPackages [mlplatformutils]: Remove: archive file [/home/abi/fetcher/tmp/mlplatformutils-0.8.6.tar.gz]
+[2023-06-06 03:37:19] INFO root fetch - main [MainThread]: End processing [mlplatformutils]: success
+[2023-06-06 03:37:19] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-06-06 03:37:19] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-06-06 03:37:19] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-06-06 03:37:19] INFO root fetch - processPackages [alphawave]: Remove: archive file [/home/abi/fetcher/tmp/alphawave-0.1.0.tar.gz]
+[2023-06-06 03:37:19] INFO root fetch - processPackages [alphawave]: Remove: archive file [/home/abi/fetcher/tmp/alphawave-0.1.1.tar.gz]
+[2023-06-06 03:37:19] INFO root fetch - main [MainThread]: End processing [alphawave]: success
+[2023-06-06 03:37:20] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-06-06 03:37:20] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-06-06 03:37:20] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-06-06 03:37:20] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.98.tar.gz]
+[2023-06-06 03:37:20] INFO root fetch - processPackages [scotthsieh-projen-statemachine]: Remove: archive file [/home/abi/fetcher/tmp/scotthsieh_projen_statemachine-2.0.99.tar.gz]
+[2023-06-06 03:37:20] INFO root fetch - main [MainThread]: End processing [scotthsieh-projen-statemachine]: success
+[2023-06-06 03:37:21] INFO root fetch - processPackages [time-interpret]: Remove: archive file [/home/abi/fetcher/tmp/time_interpret-0.2.1.tar.gz]
+[2023-06-06 03:37:21] INFO root fetch - processPackages [time-interpret]: Remove: archive file [/home/abi/fetcher/tmp/time_interpret-0.3.0.tar.gz]
+[2023-06-06 03:37:21] INFO root fetch - main [MainThread]: End processing [time-interpret]: success
+[2023-06-06 03:37:21] INFO root fetch - processPackages [prismstudio-dev]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-dev-1.1.1b0.tar.gz]
+[2023-06-06 03:37:21] INFO root fetch - processPackages [prismstudio-dev]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-dev-1.1.2.tar.gz]
+[2023-06-06 03:37:21] INFO root fetch - main [MainThread]: End processing [prismstudio-dev]: success
+[2023-06-06 03:37:21] INFO root fetch - main [MainThread]: Store serial: [18383734]
