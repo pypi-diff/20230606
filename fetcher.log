@@ -19934,3 +19934,18 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-06 12:28:50] INFO root fetch - processPackages [Mosek]: Remove: archive file [/home/abi/fetcher/tmp/Mosek-9.3.9-cp39-cp39-win_amd64.whl.zip]
 [2023-06-06 12:28:50] INFO root fetch - main [MainThread]: End processing [Mosek]: success
 [2023-06-06 12:28:50] INFO root fetch - main [MainThread]: Store serial: [18389975]
+[2023-06-06 12:33:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18389975]
+[2023-06-06 12:34:00] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-06-06 12:34:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Finance-Jindowin
+[2023-06-06 12:34:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AstroInstrumentAD
+[2023-06-06 12:34:00] INFO root fetch - processPackages [Finance-Jindowin]: New version: [1.2.7] Old Version: [1.2.6]
+[2023-06-06 12:34:00] WARNING root fetch - processPackages [AstroInstrumentAD]: Skipping, unable to determine old version
+[2023-06-06 12:34:00] INFO root fetch - main [MainThread]: End processing [AstroInstrumentAD] error
+[2023-06-06 12:34:01] INFO root fetch - processPackages [Finance-Jindowin]: Downloading https://files.pythonhosted.org/packages/ec/5f/8c75995b87388b709566e2613ac056838e300a87eab15bfcae26bad8361b/Finance-Jindowin-1.2.6.tar.gz
+[2023-06-06 12:34:01] INFO root fetch - processPackages [Finance-Jindowin]: Downloading https://files.pythonhosted.org/packages/17/99/8c8b606cc07d30c6870c924f05ab92c9498c80a8a907082e4e5a48ce68d3/Finance-Jindowin-1.2.7.tar.gz
+[2023-06-06 12:34:01] INFO root fetch - processPackages [Finance-Jindowin]: executing diffoscope
+[2023-06-06 12:34:01] INFO root fetch - processPackages [Finance-Jindowin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Finance-Jindowin-1.2.6.tar.gz tmp/Finance-Jindowin-1.2.7.tar.gz --markdown 20230606/F/Finance-Jindowin/1.2.6-1.2.7/diff.md --exclude *.pyd
+[2023-06-06 12:34:03] INFO root fetch - processPackages [Finance-Jindowin]: Remove: archive file [/home/abi/fetcher/tmp/Finance-Jindowin-1.2.6.tar.gz]
+[2023-06-06 12:34:03] INFO root fetch - processPackages [Finance-Jindowin]: Remove: archive file [/home/abi/fetcher/tmp/Finance-Jindowin-1.2.7.tar.gz]
+[2023-06-06 12:34:03] INFO root fetch - main [MainThread]: End processing [Finance-Jindowin]: success
+[2023-06-06 12:34:03] INFO root fetch - main [MainThread]: Store serial: [18389997]
