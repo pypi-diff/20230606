@@ -20928,3 +20928,114 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-06 13:21:13] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230606111617.tar.gz]
 [2023-06-06 13:21:13] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-06-06 13:21:13] INFO root fetch - main [MainThread]: Store serial: [18390391]
+[2023-06-06 13:26:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18390391]
+[2023-06-06 13:26:22] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-06 13:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: diveplane-amalgam-api
+[2023-06-06 13:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-private-bucket
+[2023-06-06 13:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: faKy
+[2023-06-06 13:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tensordict-nightly
+[2023-06-06 13:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: optimos
+[2023-06-06 13:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AstroInstrumentAD
+[2023-06-06 13:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyfromroot
+[2023-06-06 13:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: firefly-exchange-client
+[2023-06-06 13:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: phc-ingestion
+[2023-06-06 13:26:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lavacli
+[2023-06-06 13:26:22] INFO root fetch - processPackages [AstroInstrumentAD]: New version: [0.13] Old Version: [0.12]
+[2023-06-06 13:26:22] INFO root fetch - processPackages [phc-ingestion]: New version: [0.3.33] Old Version: [0.3.32]
+[2023-06-06 13:26:22] WARNING root fetch - processPackages [diveplane-amalgam-api]: Skipping, unable to determine old version
+[2023-06-06 13:26:22] WARNING root fetch - processPackages [optimos]: Skipping, unable to determine old version
+[2023-06-06 13:26:22] INFO root fetch - processPackages [diveplane-amalgam-api]: Start processing: miskibin
+[2023-06-06 13:26:22] INFO root fetch - main [MainThread]: End processing [diveplane-amalgam-api] error
+[2023-06-06 13:26:22] INFO root fetch - processPackages [optimos]: Start processing: netbox-cisco-maintenance
+[2023-06-06 13:26:22] INFO root fetch - main [MainThread]: End processing [optimos] error
+[2023-06-06 13:26:22] INFO root fetch - processPackages [faKy]: New version: [1.2.3] Old Version: [1.2.1]
+[2023-06-06 13:26:22] INFO root fetch - processPackages [firefly-exchange-client]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-06 13:26:22] INFO root fetch - processPackages [lavacli]: New version: [2.0] Old Version: [1.9]
+[2023-06-06 13:26:22] INFO root fetch - processPackages [pyfromroot]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-06 13:26:22] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-06 13:26:22] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.98] Old Version: [0.0.97]
+[2023-06-06 13:26:22] INFO root fetch - processPackages [miskibin]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-06 13:26:22] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/80/62/cc45dc11451ccf44d78c049e63c5d0c63e654d6ec935a93d7a03e672c3de/phc-ingestion-0.3.32.tar.gz
+[2023-06-06 13:26:22] INFO root fetch - processPackages [AstroInstrumentAD]: Downloading https://files.pythonhosted.org/packages/92/19/6be97443f929acbddba22b32a38c4831c9c2976ca74f66fe35424bafd4a9/AstroInstrumentAD-0.12.tar.gz
+[2023-06-06 13:26:22] INFO root fetch - processPackages [miskibin]: Downloading https://files.pythonhosted.org/packages/b8/3f/9e8e8020dd99d7f1b013af2bc3944d9ee38b0e08409a6dbf24d2aea142f8/miskibin-1.2.2.tar.gz
+[2023-06-06 13:26:22] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/6e/26/6cc7a9daff77b68fc08b9d9bf3402d174a2c5f81dcb19fffbed7f3560611/netbox-cisco-maintenance-0.0.97.tar.gz
+[2023-06-06 13:26:22] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.6.6] Old Version: [2023.6.5]
+[2023-06-06 13:26:22] INFO root fetch - processPackages [firefly-exchange-client]: Downloading https://files.pythonhosted.org/packages/0c/02/6c7ecaf8f5c713a1f7c01962e248bec887e14307ec348ff5c6c3d3163cc4/firefly_exchange_client-0.3.0.tar.gz
+[2023-06-06 13:26:22] INFO root fetch - processPackages [faKy]: Downloading https://files.pythonhosted.org/packages/90/72/f2e22f126b1ff4601c71d5c2bc50c3d5465a61942a13b2c26141acbf76cf/faKy-1.2.1.tar.gz
+[2023-06-06 13:26:22] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e7/b6/4073de848e06d760b3ef30686b0684410fc4bb899faf50e7ef4a0b2fac85/pepperize.cdk-private-bucket-0.0.98.tar.gz
+[2023-06-06 13:26:22] INFO root fetch - processPackages [lavacli]: Downloading https://files.pythonhosted.org/packages/5e/23/84dbd3aac122c42f6b3fb100eda64109105afcf8acd7cdf3551be8e24ef5/lavacli-1.9.tar.gz
+[2023-06-06 13:26:22] INFO root fetch - processPackages [pyfromroot]: Downloading https://files.pythonhosted.org/packages/a3/92/9c4d8a92944ebd4436586b6578183ad86649a14eefb42950fbc6ecba8d05/pyfromroot-0.2.1.tar.gz
+[2023-06-06 13:26:22] INFO root fetch - processPackages [AstroInstrumentAD]: Downloading https://files.pythonhosted.org/packages/e0/f0/cab4a4b811e6d632f02f06ad06d24f044ffd228bdc40076084c212cc67ec/AstroInstrumentAD-0.13.tar.gz
+[2023-06-06 13:26:22] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/d3/0d/ca568620b6303f600b6186b1087fc7b73d87c7365e6b28f1345ea51afa9c/tensordict_nightly-2023.6.5-py39-none-any.whl
+[2023-06-06 13:26:23] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/49/9b/a1c0c74911cdf52ff01e40ea24fa7dd8c615a41dbbdae40f076bf871e18c/netbox-cisco-maintenance-0.0.98.tar.gz
+[2023-06-06 13:26:23] INFO root fetch - processPackages [miskibin]: Downloading https://files.pythonhosted.org/packages/42/c0/f875ee7b76f05ab65307e8375cd635d1f6319be555d7018893224468156e/miskibin-1.2.3.tar.gz
+[2023-06-06 13:26:23] INFO root fetch - processPackages [phc-ingestion]: Downloading https://files.pythonhosted.org/packages/2c/c3/31e98efc2c5c4b91b047ca4e93c0e3ef2fc177d874cf0b3aa8ed5db982b4/phc-ingestion-0.3.33.tar.gz
+[2023-06-06 13:26:23] INFO root fetch - processPackages [AstroInstrumentAD]: executing diffoscope
+[2023-06-06 13:26:23] INFO root fetch - processPackages [AstroInstrumentAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AstroInstrumentAD-0.12.tar.gz tmp/AstroInstrumentAD-0.13.tar.gz --markdown 20230606/A/AstroInstrumentAD/0.12-0.13/diff.md --exclude *.pyd
+[2023-06-06 13:26:23] INFO root fetch - processPackages [faKy]: Downloading https://files.pythonhosted.org/packages/97/bf/e84053ac0b445083dcd68b7a20accbe4b0a4a36171258afdf7fcc7b9937b/faKy-1.2.3.tar.gz
+[2023-06-06 13:26:23] INFO root fetch - processPackages [firefly-exchange-client]: Downloading https://files.pythonhosted.org/packages/ec/53/5bb1ba1c0b409d8d4c4e62e049a8f9bd0235429a1360b4fa5cf80f901062/firefly_exchange_client-0.3.1.tar.gz
+[2023-06-06 13:26:23] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-06 13:26:23] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.97.tar.gz tmp/netbox-cisco-maintenance-0.0.98.tar.gz --markdown 20230606/n/netbox-cisco-maintenance/0.0.97-0.0.98/diff.md --exclude *.pyd
+[2023-06-06 13:26:23] INFO root fetch - processPackages [miskibin]: executing diffoscope
+[2023-06-06 13:26:23] INFO root fetch - processPackages [miskibin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miskibin-1.2.2.tar.gz tmp/miskibin-1.2.3.tar.gz --markdown 20230606/m/miskibin/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-06 13:26:23] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Downloading https://files.pythonhosted.org/packages/e3/22/68d054109f3033e215b3e2bb124cce096ee16c91911cef45f98e5a69d1ca/pepperize.cdk-private-bucket-0.0.99.tar.gz
+[2023-06-06 13:26:23] INFO root fetch - processPackages [lavacli]: Downloading https://files.pythonhosted.org/packages/fb/05/cf8d343289be84ea2acb37a005704eec8afcfcac03b08f57a72ee390d24e/lavacli-2.0.tar.gz
+[2023-06-06 13:26:23] INFO root fetch - processPackages [firefly-exchange-client]: executing diffoscope
+[2023-06-06 13:26:23] INFO root fetch - processPackages [firefly-exchange-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/firefly_exchange_client-0.3.0.tar.gz tmp/firefly_exchange_client-0.3.1.tar.gz --markdown 20230606/f/firefly-exchange-client/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-06 13:26:23] INFO root fetch - processPackages [faKy]: executing diffoscope
+[2023-06-06 13:26:23] INFO root fetch - processPackages [faKy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faKy-1.2.1.tar.gz tmp/faKy-1.2.3.tar.gz --markdown 20230606/f/faKy/1.2.1-1.2.3/diff.md --exclude *.pyd
+[2023-06-06 13:26:23] INFO root fetch - processPackages [pyfromroot]: Downloading https://files.pythonhosted.org/packages/cf/35/aff29d29a0de1e5d6a5e39abf6aff1d5c8514e5fa181ea919a1299abad5a/pyfromroot-0.2.2.tar.gz
+[2023-06-06 13:26:23] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: executing diffoscope
+[2023-06-06 13:26:23] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz --markdown 20230606/p/pepperize.cdk-private-bucket/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-06 13:26:23] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/8d/63/605ebd4743c80b0a5f396e1ec5ccb35d7025e06fa7558c266defd194ba50/tensordict_nightly-2023.6.6-py39-none-any.whl
+[2023-06-06 13:26:23] INFO root fetch - processPackages [lavacli]: executing diffoscope
+[2023-06-06 13:26:23] INFO root fetch - processPackages [lavacli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lavacli-1.9.tar.gz tmp/lavacli-2.0.tar.gz --markdown 20230606/l/lavacli/1.9-2.0/diff.md --exclude *.pyd
+[2023-06-06 13:26:23] INFO root fetch - processPackages [phc-ingestion]: executing diffoscope
+[2023-06-06 13:26:23] INFO root fetch - processPackages [phc-ingestion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/phc-ingestion-0.3.32.tar.gz tmp/phc-ingestion-0.3.33.tar.gz --markdown 20230606/p/phc-ingestion/0.3.32-0.3.33/diff.md --exclude *.pyd
+[2023-06-06 13:26:23] INFO root fetch - processPackages [pyfromroot]: executing diffoscope
+[2023-06-06 13:26:23] INFO root fetch - processPackages [pyfromroot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfromroot-0.2.1.tar.gz tmp/pyfromroot-0.2.2.tar.gz --markdown 20230606/p/pyfromroot/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-06 13:26:23] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-06-06 13:26:23] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.6.5-py39-none-any.whl.zip tmp/tensordict_nightly-2023.6.6-py39-none-any.whl.zip --markdown 20230606/t/tensordict-nightly/2023.6.5-2023.6.6/diff.md --exclude *.pyd
+[2023-06-06 13:26:24] INFO root fetch - processPackages [AstroInstrumentAD]: Remove: archive file [/home/abi/fetcher/tmp/AstroInstrumentAD-0.12.tar.gz]
+[2023-06-06 13:26:24] INFO root fetch - processPackages [AstroInstrumentAD]: Remove: archive file [/home/abi/fetcher/tmp/AstroInstrumentAD-0.13.tar.gz]
+[2023-06-06 13:26:24] INFO root fetch - processPackages [AstroInstrumentAD]: Start processing: odoo14-addon-mrp-bom-note
+[2023-06-06 13:26:24] INFO root fetch - main [MainThread]: End processing [AstroInstrumentAD]: success
+[2023-06-06 13:26:24] WARNING root fetch - processPackages [odoo14-addon-mrp-bom-note]: Skipping, unable to determine old version
+[2023-06-06 13:26:24] INFO root fetch - processPackages [odoo14-addon-mrp-bom-note]: Start processing: priceloop-api
+[2023-06-06 13:26:24] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-bom-note] error
+[2023-06-06 13:26:24] INFO root fetch - processPackages [priceloop-api]: New version: [0.97.0] Old Version: [0.95.0]
+[2023-06-06 13:26:24] INFO root fetch - processPackages [miskibin]: Remove: archive file [/home/abi/fetcher/tmp/miskibin-1.2.2.tar.gz]
+[2023-06-06 13:26:24] INFO root fetch - processPackages [miskibin]: Remove: archive file [/home/abi/fetcher/tmp/miskibin-1.2.3.tar.gz]
+[2023-06-06 13:26:24] INFO root fetch - main [MainThread]: End processing [miskibin]: success
+[2023-06-06 13:26:24] INFO root fetch - processPackages [priceloop-api]: Downloading https://files.pythonhosted.org/packages/f4/e0/3088f226e581e6c17ad492a0b5fe1fcf48c8da0ee246ebbb3a3784d33a31/priceloop-api-0.95.0.tar.gz
+[2023-06-06 13:26:24] INFO root fetch - processPackages [faKy]: Remove: archive file [/home/abi/fetcher/tmp/faKy-1.2.1.tar.gz]
+[2023-06-06 13:26:24] INFO root fetch - processPackages [faKy]: Remove: archive file [/home/abi/fetcher/tmp/faKy-1.2.3.tar.gz]
+[2023-06-06 13:26:24] INFO root fetch - main [MainThread]: End processing [faKy]: success
+[2023-06-06 13:26:24] INFO root fetch - processPackages [firefly-exchange-client]: Remove: archive file [/home/abi/fetcher/tmp/firefly_exchange_client-0.3.0.tar.gz]
+[2023-06-06 13:26:24] INFO root fetch - processPackages [firefly-exchange-client]: Remove: archive file [/home/abi/fetcher/tmp/firefly_exchange_client-0.3.1.tar.gz]
+[2023-06-06 13:26:24] INFO root fetch - main [MainThread]: End processing [firefly-exchange-client]: success
+[2023-06-06 13:26:24] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.97.tar.gz]
+[2023-06-06 13:26:25] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.98.tar.gz]
+[2023-06-06 13:26:25] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-06 13:26:25] INFO root fetch - processPackages [priceloop-api]: Downloading https://files.pythonhosted.org/packages/9d/74/6ba416c056a1971adb4037077324b06748a266234c5ac4107c2ed821cadb/priceloop-api-0.97.0.tar.gz
+[2023-06-06 13:26:25] INFO root fetch - processPackages [priceloop-api]: executing diffoscope
+[2023-06-06 13:26:25] INFO root fetch - processPackages [priceloop-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/priceloop-api-0.95.0.tar.gz tmp/priceloop-api-0.97.0.tar.gz --markdown 20230606/p/priceloop-api/0.95.0-0.97.0/diff.md --exclude *.pyd
+[2023-06-06 13:26:25] INFO root fetch - processPackages [pyfromroot]: Remove: archive file [/home/abi/fetcher/tmp/pyfromroot-0.2.1.tar.gz]
+[2023-06-06 13:26:25] INFO root fetch - processPackages [pyfromroot]: Remove: archive file [/home/abi/fetcher/tmp/pyfromroot-0.2.2.tar.gz]
+[2023-06-06 13:26:25] INFO root fetch - main [MainThread]: End processing [pyfromroot]: success
+[2023-06-06 13:26:25] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.98.tar.gz]
+[2023-06-06 13:26:25] INFO root fetch - processPackages [pepperize.cdk-private-bucket]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-private-bucket-0.0.99.tar.gz]
+[2023-06-06 13:26:25] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-private-bucket]: success
+[2023-06-06 13:26:25] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.6.5-py39-none-any.whl.zip]
+[2023-06-06 13:26:25] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.6.6-py39-none-any.whl.zip]
+[2023-06-06 13:26:25] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-06-06 13:26:26] INFO root fetch - processPackages [priceloop-api]: Remove: archive file [/home/abi/fetcher/tmp/priceloop-api-0.95.0.tar.gz]
+[2023-06-06 13:26:26] INFO root fetch - processPackages [priceloop-api]: Remove: archive file [/home/abi/fetcher/tmp/priceloop-api-0.97.0.tar.gz]
+[2023-06-06 13:26:26] INFO root fetch - main [MainThread]: End processing [priceloop-api]: success
+[2023-06-06 13:26:26] INFO root fetch - processPackages [phc-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/phc-ingestion-0.3.32.tar.gz]
+[2023-06-06 13:26:26] INFO root fetch - processPackages [phc-ingestion]: Remove: archive file [/home/abi/fetcher/tmp/phc-ingestion-0.3.33.tar.gz]
+[2023-06-06 13:26:26] INFO root fetch - main [MainThread]: End processing [phc-ingestion]: success
+[2023-06-06 13:27:18] INFO root fetch - processPackages [lavacli]: Remove: archive file [/home/abi/fetcher/tmp/lavacli-1.9.tar.gz]
+[2023-06-06 13:27:18] INFO root fetch - processPackages [lavacli]: Remove: archive file [/home/abi/fetcher/tmp/lavacli-2.0.tar.gz]
+[2023-06-06 13:27:18] INFO root fetch - main [MainThread]: End processing [lavacli]: success
+[2023-06-06 13:27:18] INFO root fetch - main [MainThread]: Store serial: [18390436]
