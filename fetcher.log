@@ -19513,3 +19513,245 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-06 12:02:14] INFO root fetch - processPackages [udata-front]: Remove: archive file [/home/abi/fetcher/tmp/udata_front-3.2.4.dev11033-py2.py3-none-any.whl.zip]
 [2023-06-06 12:02:14] INFO root fetch - main [MainThread]: End processing [udata-front]: success
 [2023-06-06 12:02:14] INFO root fetch - main [MainThread]: Store serial: [18389779]
+[2023-06-06 12:07:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18389779]
+[2023-06-06 12:07:24] INFO root fetch - main [MainThread]: No changed packages found
+[2023-06-06 12:12:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18389802]
+[2023-06-06 12:12:30] INFO root fetch - main [MainThread]: No changed packages found
+[2023-06-06 12:17:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18389802]
+[2023-06-06 12:17:35] INFO root fetch - main [MainThread]: No changed packages found
+[2023-06-06 12:22:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18389802]
+[2023-06-06 12:22:41] INFO root fetch - main [MainThread]: Found 29 changed packages
+[2023-06-06 12:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cassio
+[2023-06-06 12:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: MeUtils
+[2023-06-06 12:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bw2io
+[2023-06-06 12:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dls-servbase
+[2023-06-06 12:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pfizer-components
+[2023-06-06 12:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: CellConstructor
+[2023-06-06 12:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pipeline-feature
+[2023-06-06 12:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: OMGITSLACKO
+[2023-06-06 12:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: clickzetta-connector
+[2023-06-06 12:22:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyrepresent
+[2023-06-06 12:22:41] INFO root fetch - processPackages [dls-servbase]: New version: [1.6.0] Old Version: [1.5.0]
+[2023-06-06 12:22:41] INFO root fetch - processPackages [cassio]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-06 12:22:41] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-06 12:22:41] INFO root fetch - processPackages [pipeline-feature]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 12:22:41] INFO root fetch - processPackages [pfizer-components]: New version: [0.0.7] Old Version: [0.0.5]
+[2023-06-06 12:22:41] INFO root fetch - processPackages [CellConstructor]: New version: [1.3.1] Old Version: [1.2.2]
+[2023-06-06 12:22:41] INFO root fetch - processPackages [pyrepresent]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 12:22:41] INFO root fetch - processPackages [OMGITSLACKO]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-06 12:22:41] INFO root fetch - processPackages [bw2io]: New version: [0.9.dev9] Old Version: [0.9.dev8]
+[2023-06-06 12:22:41] INFO root fetch - processPackages [MeUtils]: New version: [2023.6.6.18.16.46] Old Version: [2023.6.6.17.59.6]
+[2023-06-06 12:22:41] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/72/d1/d65bb4b4077a404aa08b3a2615159873fac64bc9adabf42a5b45cb50f00b/clickzetta-connector-0.8.8.tar.gz
+[2023-06-06 12:22:41] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/f3/4a/2e80d65029b16741c3837546037e85683a420fa8ed5653d5378655998e68/pipeline-feature-0.0.8.tar.gz
+[2023-06-06 12:22:41] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/7e/0a/7700ba136e3ab8e6afa260758380036f1d8a59941cfcf2dc0a30cf24f978/MeUtils-2023.6.6.17.59.6.tar.gz
+[2023-06-06 12:22:41] WARNING root fetch - processPackages [CellConstructor]: fallback to get urls: [1.2.2]
+[2023-06-06 12:22:41] INFO root fetch - processPackages [pfizer-components]: Downloading https://files.pythonhosted.org/packages/8d/89/9b117ec962ab0b1b1c24c72a20b2de991faa7284df2d751c720e127f733e/pfizer_components-0.0.5-py3-none-any.whl
+[2023-06-06 12:22:41] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/2d/7d/8d87cbdf414b1b7a2a9cc9b2bd5f360572b7da334ce7f3ff61009413e3d6/pipeline-feature-0.0.9.tar.gz
+[2023-06-06 12:22:41] INFO root fetch - processPackages [cassio]: Downloading https://files.pythonhosted.org/packages/0f/86/ab2b8c3c58243019fde794e574043f1d80c760b8fb4a9bfa3a4e1ab5120f/cassio-0.0.2.tar.gz
+[2023-06-06 12:22:41] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/81/41/2c55796964b0e67291955e1856242db62fc8e6f14e179a50bf1c6296f067/clickzetta-connector-0.8.9.tar.gz
+[2023-06-06 12:22:41] INFO root fetch - processPackages [bw2io]: Downloading https://files.pythonhosted.org/packages/0e/0f/0eaa9c3e04896283c073d862eac1c10c478bfa742c349b265cdd66f15077/bw2io-0.9.dev8.tar.gz
+[2023-06-06 12:22:41] WARNING root fetch - processPackages [CellConstructor]: None
+[2023-06-06 12:22:41] INFO root fetch - processPackages [OMGITSLACKO]: Downloading https://files.pythonhosted.org/packages/2b/61/3caba09892b6a47b960e2d0dbf8f51fc3b52030af0eae981ae2829b3e53d/OMGITSLACKO-0.1.7.tar.gz
+[2023-06-06 12:22:41] INFO root fetch - processPackages [pyrepresent]: Downloading https://files.pythonhosted.org/packages/ca/2d/2b126a2b08c36ec6974cf5653cb464f84e22a6538fa85423922a990661ab/pyrepresent-0.0.8.tar.gz
+[2023-06-06 12:22:41] WARNING root fetch - processPackages [CellConstructor]: None
+[2023-06-06 12:22:41] WARNING root fetch - processPackages [bw2io]: Skipping package: exceeds size limit 35426844>=10485760
+[2023-06-06 12:22:41] INFO root fetch - processPackages [bw2io]: Start processing: mpi-cbs.huscy.mpicbs-project-consents
+[2023-06-06 12:22:41] INFO root fetch - main [MainThread]: End processing [bw2io] error
+[2023-06-06 12:22:41] INFO root fetch - processPackages [dls-servbase]: Downloading https://files.pythonhosted.org/packages/38/f8/cd8634af4c6420b582cde37cc2e4e8b74830c5504ad56f19d411ea91f105/dls-servbase-1.5.0.tar.gz
+[2023-06-06 12:22:41] WARNING root fetch - processPackages [mpi-cbs.huscy.mpicbs-project-consents]: Skipping, unable to determine old version
+[2023-06-06 12:22:41] INFO root fetch - processPackages [mpi-cbs.huscy.mpicbs-project-consents]: Start processing: nonebot-plugin-sky
+[2023-06-06 12:22:41] INFO root fetch - main [MainThread]: End processing [mpi-cbs.huscy.mpicbs-project-consents] error
+[2023-06-06 12:22:41] WARNING root fetch - processPackages [CellConstructor]: unable to get url for both version [1.2.2]
+[2023-06-06 12:22:41] INFO root fetch - processPackages [pipeline-feature]: executing diffoscope
+[2023-06-06 12:22:41] INFO root fetch - processPackages [pipeline-feature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline-feature-0.0.8.tar.gz tmp/pipeline-feature-0.0.9.tar.gz --markdown 20230606/p/pipeline-feature/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 12:22:41] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2023-06-06 12:22:41] INFO root fetch - processPackages [nonebot-plugin-sky]: New version: [2.2.9.post1] Old Version: [2.2.9]
+[2023-06-06 12:22:41] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.8.8.tar.gz tmp/clickzetta-connector-0.8.9.tar.gz --markdown 20230606/c/clickzetta-connector/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-06 12:22:41] WARNING root fetch - processPackages [CellConstructor]: None
+[2023-06-06 12:22:41] INFO root fetch - processPackages [CellConstructor]: Start processing: test-graphql-sdk
+[2023-06-06 12:22:41] INFO root fetch - main [MainThread]: End processing [CellConstructor] error
+[2023-06-06 12:22:41] INFO root fetch - processPackages [test-graphql-sdk]: New version: [0.1.0] Old Version: [0.0.9]
+[2023-06-06 12:22:41] INFO root fetch - processPackages [OMGITSLACKO]: Downloading https://files.pythonhosted.org/packages/67/c7/43334d5f1ec8c3e3094eb5316c14aba1b4731c38a226a5a0498a699ae701/OMGITSLACKO-0.1.8.tar.gz
+[2023-06-06 12:22:41] INFO root fetch - processPackages [pfizer-components]: Downloading https://files.pythonhosted.org/packages/7c/8b/29fd9ea9f588fa0fbf3489fc2c26f93c151fd8683917521b2ded5304401b/pfizer_components-0.0.7-py3-none-any.whl
+[2023-06-06 12:22:41] INFO root fetch - processPackages [cassio]: Downloading https://files.pythonhosted.org/packages/4c/a4/739f0c58e3eb4480edf9b686723c00ba8e34703946abcf23f0bd4d84524d/cassio-0.0.3.tar.gz
+[2023-06-06 12:22:41] INFO root fetch - processPackages [MeUtils]: Downloading https://files.pythonhosted.org/packages/d1/11/8d77c72aa3d20af25d58b4ab456dc705e2879b3bdb168bfd1fb0fc2734af/MeUtils-2023.6.6.18.16.46.tar.gz
+[2023-06-06 12:22:41] INFO root fetch - processPackages [nonebot-plugin-sky]: Downloading https://files.pythonhosted.org/packages/a2/c4/c8bd8866838ff6cd531b7c7875a10692087ad5ce3d7753669e38537cab65/nonebot-plugin-sky-2.2.9.tar.gz
+[2023-06-06 12:22:41] INFO root fetch - processPackages [pyrepresent]: Downloading https://files.pythonhosted.org/packages/7b/18/ef6544251e6b9db01f6f48f8079e4f5de7a7e7f92ebc43c0ad54551a386b/pyrepresent-0.0.9.tar.gz
+[2023-06-06 12:22:41] INFO root fetch - processPackages [pfizer-components]: executing diffoscope
+[2023-06-06 12:22:41] INFO root fetch - processPackages [pfizer-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfizer_components-0.0.5-py3-none-any.whl.zip tmp/pfizer_components-0.0.7-py3-none-any.whl.zip --markdown 20230606/p/pfizer-components/0.0.5-0.0.7/diff.md --exclude *.pyd
+[2023-06-06 12:22:41] INFO root fetch - processPackages [dls-servbase]: Downloading https://files.pythonhosted.org/packages/00/8b/dbbb1f25b30e9ed5e2149889ef7b0da58c018dac35b59c87bb1547834d09/dls-servbase-1.6.0.tar.gz
+[2023-06-06 12:22:41] INFO root fetch - processPackages [test-graphql-sdk]: Downloading https://files.pythonhosted.org/packages/2e/df/61699b4c0d07c1febd2d3273e8367c47f94ce96f8389b65a0974301428a5/test_graphql_sdk-0.0.9.tar.gz
+[2023-06-06 12:22:41] INFO root fetch - processPackages [cassio]: executing diffoscope
+[2023-06-06 12:22:41] INFO root fetch - processPackages [cassio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cassio-0.0.2.tar.gz tmp/cassio-0.0.3.tar.gz --markdown 20230606/c/cassio/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-06 12:22:41] INFO root fetch - processPackages [pyrepresent]: executing diffoscope
+[2023-06-06 12:22:41] INFO root fetch - processPackages [pyrepresent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrepresent-0.0.8.tar.gz tmp/pyrepresent-0.0.9.tar.gz --markdown 20230606/p/pyrepresent/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 12:22:42] INFO root fetch - processPackages [OMGITSLACKO]: executing diffoscope
+[2023-06-06 12:22:42] INFO root fetch - processPackages [OMGITSLACKO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OMGITSLACKO-0.1.7.tar.gz tmp/OMGITSLACKO-0.1.8.tar.gz --markdown 20230606/O/OMGITSLACKO/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-06 12:22:42] INFO root fetch - processPackages [MeUtils]: executing diffoscope
+[2023-06-06 12:22:42] INFO root fetch - processPackages [MeUtils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MeUtils-2023.6.6.17.59.6.tar.gz tmp/MeUtils-2023.6.6.18.16.46.tar.gz --markdown 20230606/M/MeUtils/2023.6.6.17.59.6-2023.6.6.18.16.46/diff.md --exclude *.pyd
+[2023-06-06 12:22:42] INFO root fetch - processPackages [dls-servbase]: executing diffoscope
+[2023-06-06 12:22:42] INFO root fetch - processPackages [dls-servbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dls-servbase-1.5.0.tar.gz tmp/dls-servbase-1.6.0.tar.gz --markdown 20230606/d/dls-servbase/1.5.0-1.6.0/diff.md --exclude *.pyd
+[2023-06-06 12:22:42] INFO root fetch - processPackages [test-graphql-sdk]: Downloading https://files.pythonhosted.org/packages/46/e0/fbea3dcb3eaeaf18d6534c205654403181ccd8d7198f3f9bd7f7297754b9/test_graphql_sdk-0.1.0.tar.gz
+[2023-06-06 12:22:42] INFO root fetch - processPackages [nonebot-plugin-sky]: Downloading https://files.pythonhosted.org/packages/f2/09/52a7fd843dfcee3bc994606a6d94baf85d1921205fd8d0c5408c37f6d104/nonebot-plugin-sky-2.2.9.post1.tar.gz
+[2023-06-06 12:22:42] INFO root fetch - processPackages [test-graphql-sdk]: executing diffoscope
+[2023-06-06 12:22:42] INFO root fetch - processPackages [test-graphql-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/test_graphql_sdk-0.0.9.tar.gz tmp/test_graphql_sdk-0.1.0.tar.gz --markdown 20230606/t/test-graphql-sdk/0.0.9-0.1.0/diff.md --exclude *.pyd
+[2023-06-06 12:22:42] INFO root fetch - processPackages [nonebot-plugin-sky]: executing diffoscope
+[2023-06-06 12:22:42] INFO root fetch - processPackages [nonebot-plugin-sky]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-sky-2.2.9.tar.gz tmp/nonebot-plugin-sky-2.2.9.post1.tar.gz --markdown 20230606/n/nonebot-plugin-sky/2.2.9-2.2.9.post1/diff.md --exclude *.pyd
+[2023-06-06 12:22:43] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.8.tar.gz]
+[2023-06-06 12:22:43] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.9.tar.gz]
+[2023-06-06 12:22:43] INFO root fetch - processPackages [pipeline-feature]: Start processing: th2-data-services-lwdp
+[2023-06-06 12:22:43] INFO root fetch - main [MainThread]: End processing [pipeline-feature]: success
+[2023-06-06 12:22:43] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.1.0.0.dev5187253613] Old Version: [2.1.0.0.dev5186729691]
+[2023-06-06 12:22:43] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/fd/c9/2d5a5b8081c94a6b3d0a4d183046f85fe4ed34fe62248c3f5b7c783c3741/th2_data_services_lwdp-2.1.0.0.dev5186729691.tar.gz
+[2023-06-06 12:22:43] INFO root fetch - processPackages [pfizer-components]: Remove: archive file [/home/abi/fetcher/tmp/pfizer_components-0.0.5-py3-none-any.whl.zip]
+[2023-06-06 12:22:43] INFO root fetch - processPackages [pfizer-components]: Remove: archive file [/home/abi/fetcher/tmp/pfizer_components-0.0.7-py3-none-any.whl.zip]
+[2023-06-06 12:22:43] INFO root fetch - processPackages [pfizer-components]: Start processing: nlptest
+[2023-06-06 12:22:43] INFO root fetch - main [MainThread]: End processing [pfizer-components]: success
+[2023-06-06 12:22:43] INFO root fetch - processPackages [nlptest]: New version: [1.4.0rc4] Old Version: [1.4.0rc3]
+[2023-06-06 12:22:43] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/e1/99/108d7be8157a034d94fe2a10ac10400f88c324d37c4207ea279ea0a01a98/th2_data_services_lwdp-2.1.0.0.dev5187253613.tar.gz
+[2023-06-06 12:22:43] INFO root fetch - processPackages [nlptest]: Downloading https://files.pythonhosted.org/packages/0d/a5/5e3de1a982fdc9ecde691c722f1935e5b7104846ffd1bca33652c541af45/nlptest-1.4.0rc3.tar.gz
+[2023-06-06 12:22:43] INFO root fetch - processPackages [cassio]: Remove: archive file [/home/abi/fetcher/tmp/cassio-0.0.2.tar.gz]
+[2023-06-06 12:22:43] INFO root fetch - processPackages [cassio]: Remove: archive file [/home/abi/fetcher/tmp/cassio-0.0.3.tar.gz]
+[2023-06-06 12:22:43] INFO root fetch - processPackages [cassio]: Start processing: pyneoncli
+[2023-06-06 12:22:43] INFO root fetch - main [MainThread]: End processing [cassio]: success
+[2023-06-06 12:22:43] WARNING root fetch - processPackages [nlptest]: Skipping package: exceeds size limit 59661543>=10485760
+[2023-06-06 12:22:43] INFO root fetch - processPackages [nlptest]: Start processing: mini-color
+[2023-06-06 12:22:43] INFO root fetch - main [MainThread]: End processing [nlptest] error
+[2023-06-06 12:22:43] INFO root fetch - processPackages [pyneoncli]: New version: [0.0.9a3] Old Version: [0.0.8]
+[2023-06-06 12:22:43] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-06-06 12:22:43] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.1.0.0.dev5186729691.tar.gz tmp/th2_data_services_lwdp-2.1.0.0.dev5187253613.tar.gz --markdown 20230606/t/th2-data-services-lwdp/2.1.0.0.dev5186729691-2.1.0.0.dev5187253613/diff.md --exclude *.pyd
+[2023-06-06 12:22:43] WARNING root fetch - processPackages [mini-color]: Skipping, unable to determine old version
+[2023-06-06 12:22:43] INFO root fetch - processPackages [mini-color]: Start processing: pipeline-feature
+[2023-06-06 12:22:43] INFO root fetch - main [MainThread]: End processing [mini-color] error
+[2023-06-06 12:22:43] INFO root fetch - processPackages [pipeline-feature]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 12:22:43] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/f3/4a/2e80d65029b16741c3837546037e85683a420fa8ed5653d5378655998e68/pipeline-feature-0.0.8.tar.gz
+[2023-06-06 12:22:43] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.8.tar.gz]
+[2023-06-06 12:22:43] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.9.tar.gz]
+[2023-06-06 12:22:43] INFO root fetch - processPackages [clickzetta-connector]: Start processing: webscapy
+[2023-06-06 12:22:43] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2023-06-06 12:22:43] INFO root fetch - processPackages [webscapy]: New version: [1.6.5] Old Version: [1.5.5]
+[2023-06-06 12:22:43] INFO root fetch - processPackages [pyneoncli]: Downloading https://files.pythonhosted.org/packages/eb/49/f60df7f0be0db74bea503a2579d9142802931190335436986e767646fd18/pyneoncli-0.0.8.tar.gz
+[2023-06-06 12:22:43] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/2d/7d/8d87cbdf414b1b7a2a9cc9b2bd5f360572b7da334ce7f3ff61009413e3d6/pipeline-feature-0.0.9.tar.gz
+[2023-06-06 12:22:43] INFO root fetch - processPackages [webscapy]: Downloading https://files.pythonhosted.org/packages/ff/03/adda8f081a68d91db984c5bac9536f4efd8c2a613e295c495feff99e7606/webscapy-1.5.5.tar.gz
+[2023-06-06 12:22:43] INFO root fetch - processPackages [pipeline-feature]: executing diffoscope
+[2023-06-06 12:22:43] INFO root fetch - processPackages [pipeline-feature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline-feature-0.0.8.tar.gz tmp/pipeline-feature-0.0.9.tar.gz --markdown 20230606/p/pipeline-feature/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 12:22:43] INFO root fetch - processPackages [pyrepresent]: Remove: archive file [/home/abi/fetcher/tmp/pyrepresent-0.0.8.tar.gz]
+[2023-06-06 12:22:43] INFO root fetch - processPackages [pyrepresent]: Remove: archive file [/home/abi/fetcher/tmp/pyrepresent-0.0.9.tar.gz]
+[2023-06-06 12:22:43] INFO root fetch - processPackages [pyrepresent]: Start processing: omnata-plugin-runtime
+[2023-06-06 12:22:43] INFO root fetch - main [MainThread]: End processing [pyrepresent]: success
+[2023-06-06 12:22:44] INFO root fetch - processPackages [pyneoncli]: Downloading https://files.pythonhosted.org/packages/21/d4/a8a6c11fd4515c2282da7a85a6e06c68b0a17cdcebee9616c7e858d4bf57/pyneoncli-0.0.9a3.tar.gz
+[2023-06-06 12:22:44] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 12:22:44] INFO root fetch - processPackages [OMGITSLACKO]: Remove: archive file [/home/abi/fetcher/tmp/OMGITSLACKO-0.1.7.tar.gz]
+[2023-06-06 12:22:44] INFO root fetch - processPackages [OMGITSLACKO]: Remove: archive file [/home/abi/fetcher/tmp/OMGITSLACKO-0.1.8.tar.gz]
+[2023-06-06 12:22:44] INFO root fetch - processPackages [OMGITSLACKO]: Start processing: odoo-addon-repair-type
+[2023-06-06 12:22:44] INFO root fetch - main [MainThread]: End processing [OMGITSLACKO]: success
+[2023-06-06 12:22:44] WARNING root fetch - processPackages [odoo-addon-repair-type]: Skipping, unable to determine old version
+[2023-06-06 12:22:44] INFO root fetch - processPackages [odoo-addon-repair-type]: Start processing: jhOMR
+[2023-06-06 12:22:44] INFO root fetch - main [MainThread]: End processing [odoo-addon-repair-type] error
+[2023-06-06 12:22:44] INFO root fetch - processPackages [test-graphql-sdk]: Remove: archive file [/home/abi/fetcher/tmp/test_graphql_sdk-0.0.9.tar.gz]
+[2023-06-06 12:22:44] INFO root fetch - processPackages [test-graphql-sdk]: Remove: archive file [/home/abi/fetcher/tmp/test_graphql_sdk-0.1.0.tar.gz]
+[2023-06-06 12:22:44] INFO root fetch - processPackages [test-graphql-sdk]: Start processing: clickzetta-sqlalchemy
+[2023-06-06 12:22:44] INFO root fetch - main [MainThread]: End processing [test-graphql-sdk]: success
+[2023-06-06 12:22:44] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-06-06 12:22:44] INFO root fetch - processPackages [jhOMR]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-06 12:22:44] INFO root fetch - processPackages [clickzetta-sqlalchemy]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-06 12:22:44] INFO root fetch - processPackages [pyneoncli]: executing diffoscope
+[2023-06-06 12:22:44] INFO root fetch - processPackages [pyneoncli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyneoncli-0.0.8.tar.gz tmp/pyneoncli-0.0.9a3.tar.gz --markdown 20230606/p/pyneoncli/0.0.8-0.0.9a3/diff.md --exclude *.pyd
+[2023-06-06 12:22:44] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/1e/c5/d4be8dcc2a67d1d955c84c09b0223b9977fd638ed0bf7d09cc2a752386cf/clickzetta-sqlalchemy-0.8.8.tar.gz
+[2023-06-06 12:22:44] INFO root fetch - processPackages [webscapy]: Downloading https://files.pythonhosted.org/packages/0a/5e/eb84db26324b17b450e5964cafa26765a4ce77aa20dbe548401f00933f67/webscapy-1.6.5.tar.gz
+[2023-06-06 12:22:44] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-06-06 12:22:44] INFO root fetch - processPackages [webscapy]: executing diffoscope
+[2023-06-06 12:22:44] INFO root fetch - processPackages [webscapy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webscapy-1.5.5.tar.gz tmp/webscapy-1.6.5.tar.gz --markdown 20230606/w/webscapy/1.5.5-1.6.5/diff.md --exclude *.pyd
+[2023-06-06 12:22:44] INFO root fetch - processPackages [jhOMR]: Downloading https://files.pythonhosted.org/packages/b2/2b/651ff788fcad31babe84393bd9b27cd951f4152a461547a4c3861d936da4/jhOMR-0.0.3.tar.gz
+[2023-06-06 12:22:44] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/05/6f/f31876ff58c9201594d988fd4bbd8a182a97a305a16842de419109e35005/clickzetta-sqlalchemy-0.8.9.tar.gz
+[2023-06-06 12:22:44] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-06-06 12:22:44] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230606/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 12:22:44] INFO root fetch - processPackages [dls-servbase]: Remove: archive file [/home/abi/fetcher/tmp/dls-servbase-1.5.0.tar.gz]
+[2023-06-06 12:22:44] INFO root fetch - processPackages [dls-servbase]: Remove: archive file [/home/abi/fetcher/tmp/dls-servbase-1.6.0.tar.gz]
+[2023-06-06 12:22:44] INFO root fetch - processPackages [dls-servbase]: Start processing: dune-harmonizer
+[2023-06-06 12:22:44] INFO root fetch - main [MainThread]: End processing [dls-servbase]: success
+[2023-06-06 12:22:44] INFO root fetch - processPackages [dune-harmonizer]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-06 12:22:44] INFO root fetch - processPackages [clickzetta-sqlalchemy]: executing diffoscope
+[2023-06-06 12:22:44] INFO root fetch - processPackages [clickzetta-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-sqlalchemy-0.8.8.tar.gz tmp/clickzetta-sqlalchemy-0.8.9.tar.gz --markdown 20230606/c/clickzetta-sqlalchemy/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-06 12:22:44] INFO root fetch - processPackages [dune-harmonizer]: Downloading https://files.pythonhosted.org/packages/78/03/557e18e62003264a5315906abc868164bf906618d89e83ea7ec9501e060b/dune_harmonizer-0.8.0.tar.gz
+[2023-06-06 12:22:44] INFO root fetch - processPackages [jhOMR]: Downloading https://files.pythonhosted.org/packages/78/22/bf59ee40b78fb23f45726dad32bc48208b784c2ce250e0c67319bf41a110/jhOMR-0.0.4.tar.gz
+[2023-06-06 12:22:44] INFO root fetch - processPackages [dune-harmonizer]: Downloading https://files.pythonhosted.org/packages/1a/d4/89c417ac730e0448e708d536f273bf29ee1ccbaba9643d6e2a40d3d12b8d/dune_harmonizer-0.9.0.tar.gz
+[2023-06-06 12:22:44] INFO root fetch - processPackages [jhOMR]: executing diffoscope
+[2023-06-06 12:22:44] INFO root fetch - processPackages [jhOMR]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jhOMR-0.0.3.tar.gz tmp/jhOMR-0.0.4.tar.gz --markdown 20230606/j/jhOMR/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-06 12:22:44] INFO root fetch - processPackages [dune-harmonizer]: executing diffoscope
+[2023-06-06 12:22:44] INFO root fetch - processPackages [dune-harmonizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dune_harmonizer-0.8.0.tar.gz tmp/dune_harmonizer-0.9.0.tar.gz --markdown 20230606/d/dune-harmonizer/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-06 12:22:45] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5186729691.tar.gz]
+[2023-06-06 12:22:45] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5187253613.tar.gz]
+[2023-06-06 12:22:45] INFO root fetch - processPackages [th2-data-services-lwdp]: Start processing: wonder-sdk
+[2023-06-06 12:22:45] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-06-06 12:22:45] INFO root fetch - processPackages [wonder-sdk]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 12:22:45] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.8.tar.gz]
+[2023-06-06 12:22:45] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.9.tar.gz]
+[2023-06-06 12:22:45] INFO root fetch - processPackages [pipeline-feature]: Start processing: swh.storage
+[2023-06-06 12:22:45] INFO root fetch - main [MainThread]: End processing [pipeline-feature]: success
+[2023-06-06 12:22:45] INFO root fetch - processPackages [wonder-sdk]: Downloading https://files.pythonhosted.org/packages/37/05/241450cdd86b168a622dc8451f3538b4f32243b5ee9cc34c5c69fd955cfe/wonder-sdk-0.1.8.tar.gz
+[2023-06-06 12:22:45] INFO root fetch - processPackages [swh.storage]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-06-06 12:22:45] INFO root fetch - processPackages [pyneoncli]: Remove: archive file [/home/abi/fetcher/tmp/pyneoncli-0.0.8.tar.gz]
+[2023-06-06 12:22:45] INFO root fetch - processPackages [pyneoncli]: Remove: archive file [/home/abi/fetcher/tmp/pyneoncli-0.0.9a3.tar.gz]
+[2023-06-06 12:22:45] INFO root fetch - processPackages [pyneoncli]: Start processing: CellConstructor
+[2023-06-06 12:22:45] INFO root fetch - main [MainThread]: End processing [pyneoncli]: success
+[2023-06-06 12:22:45] INFO root fetch - processPackages [CellConstructor]: New version: [1.3.1] Old Version: [1.2.2]
+[2023-06-06 12:22:45] WARNING root fetch - processPackages [CellConstructor]: fallback to get urls: [1.2.2]
+[2023-06-06 12:22:45] INFO root fetch - processPackages [swh.storage]: Downloading https://files.pythonhosted.org/packages/2a/de/dfede4312a54f58ce0cacba3673579b46c45be36910fe4c346f85de2a969/swh.storage-1.8.0.tar.gz
+[2023-06-06 12:22:45] WARNING root fetch - processPackages [CellConstructor]: None
+[2023-06-06 12:22:45] INFO root fetch - processPackages [webscapy]: Remove: archive file [/home/abi/fetcher/tmp/webscapy-1.5.5.tar.gz]
+[2023-06-06 12:22:45] INFO root fetch - processPackages [webscapy]: Remove: archive file [/home/abi/fetcher/tmp/webscapy-1.6.5.tar.gz]
+[2023-06-06 12:22:45] INFO root fetch - processPackages [webscapy]: Start processing: dbt-clickzetta
+[2023-06-06 12:22:45] INFO root fetch - main [MainThread]: End processing [webscapy]: success
+[2023-06-06 12:22:45] WARNING root fetch - processPackages [CellConstructor]: None
+[2023-06-06 12:22:45] INFO root fetch - processPackages [dbt-clickzetta]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-06 12:22:45] WARNING root fetch - processPackages [CellConstructor]: unable to get url for both version [1.2.2]
+[2023-06-06 12:22:45] WARNING root fetch - processPackages [CellConstructor]: None
+[2023-06-06 12:22:45] INFO root fetch - processPackages [CellConstructor]: Start processing: OMGITSLACKO
+[2023-06-06 12:22:45] INFO root fetch - main [MainThread]: End processing [CellConstructor] error
+[2023-06-06 12:22:45] INFO root fetch - processPackages [OMGITSLACKO]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-06 12:22:45] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/09/f0/5a413293e92b4ca0d7431450a7218700efac779c0ce2a94f2b8d575440f2/dbt-clickzetta-0.2.8.tar.gz
+[2023-06-06 12:22:45] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-06-06 12:22:45] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-06-06 12:22:45] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-06-06 12:22:45] INFO root fetch - processPackages [OMGITSLACKO]: Downloading https://files.pythonhosted.org/packages/2b/61/3caba09892b6a47b960e2d0dbf8f51fc3b52030af0eae981ae2829b3e53d/OMGITSLACKO-0.1.7.tar.gz
+[2023-06-06 12:22:45] INFO root fetch - processPackages [wonder-sdk]: Downloading https://files.pythonhosted.org/packages/f5/25/4991f4bef37b01368e06cda988181108fda8312bf6cdff12e141d0b13a80/wonder-sdk-0.1.9.tar.gz
+[2023-06-06 12:22:45] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/c1/14/85271f2139ff454c5ff9bcefec81d708e59f4ed0230702dafe1a5b557869/dbt-clickzetta-0.2.9.tar.gz
+[2023-06-06 12:22:45] INFO root fetch - processPackages [OMGITSLACKO]: Downloading https://files.pythonhosted.org/packages/67/c7/43334d5f1ec8c3e3094eb5316c14aba1b4731c38a226a5a0498a699ae701/OMGITSLACKO-0.1.8.tar.gz
+[2023-06-06 12:22:45] INFO root fetch - processPackages [wonder-sdk]: executing diffoscope
+[2023-06-06 12:22:45] INFO root fetch - processPackages [wonder-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wonder-sdk-0.1.8.tar.gz tmp/wonder-sdk-0.1.9.tar.gz --markdown 20230606/w/wonder-sdk/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 12:22:45] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.8.tar.gz]
+[2023-06-06 12:22:45] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.9.tar.gz]
+[2023-06-06 12:22:45] INFO root fetch - main [MainThread]: End processing [clickzetta-sqlalchemy]: success
+[2023-06-06 12:22:45] INFO root fetch - processPackages [dbt-clickzetta]: executing diffoscope
+[2023-06-06 12:22:45] INFO root fetch - processPackages [dbt-clickzetta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-clickzetta-0.2.8.tar.gz tmp/dbt-clickzetta-0.2.9.tar.gz --markdown 20230606/d/dbt-clickzetta/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-06 12:22:45] INFO root fetch - processPackages [OMGITSLACKO]: executing diffoscope
+[2023-06-06 12:22:45] INFO root fetch - processPackages [OMGITSLACKO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OMGITSLACKO-0.1.7.tar.gz tmp/OMGITSLACKO-0.1.8.tar.gz --markdown 20230606/O/OMGITSLACKO/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-06 12:22:45] INFO root fetch - processPackages [jhOMR]: Remove: archive file [/home/abi/fetcher/tmp/jhOMR-0.0.3.tar.gz]
+[2023-06-06 12:22:45] INFO root fetch - processPackages [jhOMR]: Remove: archive file [/home/abi/fetcher/tmp/jhOMR-0.0.4.tar.gz]
+[2023-06-06 12:22:45] INFO root fetch - main [MainThread]: End processing [jhOMR]: success
+[2023-06-06 12:22:45] INFO root fetch - processPackages [swh.storage]: Downloading https://files.pythonhosted.org/packages/96/d9/1ce230d5c980eab9071c640a60c695e7efad82145bb8f2662ef8678e7661/swh.storage-1.9.0.tar.gz
+[2023-06-06 12:22:46] INFO root fetch - processPackages [dune-harmonizer]: Remove: archive file [/home/abi/fetcher/tmp/dune_harmonizer-0.8.0.tar.gz]
+[2023-06-06 12:22:46] INFO root fetch - processPackages [dune-harmonizer]: Remove: archive file [/home/abi/fetcher/tmp/dune_harmonizer-0.9.0.tar.gz]
+[2023-06-06 12:22:46] INFO root fetch - main [MainThread]: End processing [dune-harmonizer]: success
+[2023-06-06 12:22:46] INFO root fetch - processPackages [swh.storage]: executing diffoscope
+[2023-06-06 12:22:46] INFO root fetch - processPackages [swh.storage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/swh.storage-1.8.0.tar.gz tmp/swh.storage-1.9.0.tar.gz --markdown 20230606/s/swh.storage/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-06-06 12:22:46] INFO root fetch - processPackages [wonder-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-sdk-0.1.8.tar.gz]
+[2023-06-06 12:22:46] INFO root fetch - processPackages [wonder-sdk]: Remove: archive file [/home/abi/fetcher/tmp/wonder-sdk-0.1.9.tar.gz]
+[2023-06-06 12:22:46] INFO root fetch - main [MainThread]: End processing [wonder-sdk]: success
+[2023-06-06 12:22:47] INFO root fetch - processPackages [OMGITSLACKO]: Remove: archive file [/home/abi/fetcher/tmp/OMGITSLACKO-0.1.7.tar.gz]
+[2023-06-06 12:22:47] INFO root fetch - processPackages [OMGITSLACKO]: Remove: archive file [/home/abi/fetcher/tmp/OMGITSLACKO-0.1.8.tar.gz]
+[2023-06-06 12:22:47] INFO root fetch - main [MainThread]: End processing [OMGITSLACKO]: success
+[2023-06-06 12:22:47] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.8.tar.gz]
+[2023-06-06 12:22:47] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.9.tar.gz]
+[2023-06-06 12:22:47] INFO root fetch - main [MainThread]: End processing [dbt-clickzetta]: success
+[2023-06-06 12:22:47] INFO root fetch - processPackages [nonebot-plugin-sky]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sky-2.2.9.tar.gz]
+[2023-06-06 12:22:47] INFO root fetch - processPackages [nonebot-plugin-sky]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-sky-2.2.9.post1.tar.gz]
+[2023-06-06 12:22:47] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-sky]: success
+[2023-06-06 12:22:49] INFO root fetch - processPackages [swh.storage]: Remove: archive file [/home/abi/fetcher/tmp/swh.storage-1.8.0.tar.gz]
+[2023-06-06 12:22:49] INFO root fetch - processPackages [swh.storage]: Remove: archive file [/home/abi/fetcher/tmp/swh.storage-1.9.0.tar.gz]
+[2023-06-06 12:22:49] INFO root fetch - main [MainThread]: End processing [swh.storage]: success
+[2023-06-06 12:22:49] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.6.6.17.59.6.tar.gz]
+[2023-06-06 12:22:49] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.6.6.18.16.46.tar.gz]
+[2023-06-06 12:22:49] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
+[2023-06-06 12:22:49] INFO root fetch - main [MainThread]: Store serial: [18389914]
