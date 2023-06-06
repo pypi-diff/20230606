@@ -14893,3 +14893,106 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 09:12:37] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-06-06 09:12:37] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-06-06 09:12:37] INFO root fetch - main [MainThread]: Store serial: [18387798]
+[2023-06-06 09:17:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18387798]
+[2023-06-06 09:17:46] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-06-06 09:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-06 09:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyLTSpice
+[2023-06-06 09:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: zhousf-lib
+[2023-06-06 09:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: easydags
+[2023-06-06 09:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: clinica
+[2023-06-06 09:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: giefstat
+[2023-06-06 09:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pygnssutils
+[2023-06-06 09:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pycup
+[2023-06-06 09:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: jdReplace
+[2023-06-06 09:17:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sickrage
+[2023-06-06 09:17:46] INFO root fetch - processPackages [easydags]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-06 09:17:46] INFO root fetch - processPackages [zhousf-lib]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-06 09:17:46] INFO root fetch - processPackages [clinica]: New version: [0.7.5] Old Version: [0.7.4]
+[2023-06-06 09:17:46] INFO root fetch - processPackages [pycup]: New version: [0.1.7.1] Old Version: [0.1.7]
+[2023-06-06 09:17:46] INFO root fetch - processPackages [giefstat]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-06 09:17:46] INFO root fetch - processPackages [PyLTSpice]: New version: [4.0.4] Old Version: [4.0.3]
+[2023-06-06 09:17:46] INFO root fetch - processPackages [pygnssutils]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-06 09:17:46] INFO root fetch - processPackages [jdReplace]: New version: [4.1] Old Version: [4.0]
+[2023-06-06 09:17:47] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-06 09:17:47] INFO root fetch - processPackages [sickrage]: New version: [9.4.99] Old Version: [9.4.98]
+[2023-06-06 09:17:47] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/fd/e2/30b18d04f4c725ac1a997fd9535ae58673ac7c227d4abb29090020e610f0/zhousf-lib-0.5.1.tar.gz
+[2023-06-06 09:17:47] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-06 09:17:47] INFO root fetch - processPackages [giefstat]: Downloading https://files.pythonhosted.org/packages/d3/9c/6c02a734bef9f772eed5fd3b45237f23c23770c8c568d12ed03c6076fb2c/giefstat-0.0.5.tar.gz
+[2023-06-06 09:17:47] INFO root fetch - processPackages [pycup]: Downloading https://files.pythonhosted.org/packages/3f/2b/107f975e408357ee961d30c304eadc9a5cde0c12af0ab03c17153cf7f0da/pycup-0.1.7.tar.gz
+[2023-06-06 09:17:47] INFO root fetch - processPackages [sickrage]: Downloading https://files.pythonhosted.org/packages/52/82/44cfeae920a203267057cbe2c99cc7ea1c3a3e54698f1ed240c514a57bb9/sickrage-9.4.98.tar.gz
+[2023-06-06 09:17:47] WARNING root fetch - processPackages [zhousf-lib]: Skipping package: exceeds size limit 14947210>=10485760
+[2023-06-06 09:17:47] INFO root fetch - processPackages [zhousf-lib]: Start processing: muffin-admin
+[2023-06-06 09:17:47] INFO root fetch - main [MainThread]: End processing [zhousf-lib] error
+[2023-06-06 09:17:47] INFO root fetch - processPackages [easydags]: Downloading https://files.pythonhosted.org/packages/a7/1c/2d30f57ca816492e12d25fdff0aa639888a4cd6f463eac3cd842fa064f0f/easydags-0.0.1.tar.gz
+[2023-06-06 09:17:47] WARNING root fetch - processPackages [sickrage]: Skipping package: exceeds size limit 16173905>=10485760
+[2023-06-06 09:17:47] INFO root fetch - processPackages [sickrage]: Start processing: simplegeomap
+[2023-06-06 09:17:47] INFO root fetch - main [MainThread]: End processing [sickrage] error
+[2023-06-06 09:17:47] INFO root fetch - processPackages [simplegeomap]: New version: [0.0.28] Old Version: [0.0.27]
+[2023-06-06 09:17:47] INFO root fetch - processPackages [clinica]: Downloading https://files.pythonhosted.org/packages/53/83/eaab42326c73a1d44c22c0062dbf20367f20a00d8fc86cc977fce7e5cb4c/clinica-0.7.4.tar.gz
+[2023-06-06 09:17:47] INFO root fetch - processPackages [jdReplace]: Downloading https://files.pythonhosted.org/packages/a7/db/1594b293980e1de0ef1b8dd82857d9cd2483bfebd1317796cbab04204b35/jdReplace-4.0.tar.gz
+[2023-06-06 09:17:47] INFO root fetch - processPackages [PyLTSpice]: Downloading https://files.pythonhosted.org/packages/30/fb/671e3eb3d54ac64d2b24fda7108798b2eb0e335c5fdc01d888e142894794/PyLTSpice-4.0.3.tar.gz
+[2023-06-06 09:17:47] INFO root fetch - processPackages [muffin-admin]: New version: [1.9.0] Old Version: [1.8.1]
+[2023-06-06 09:17:47] INFO root fetch - processPackages [pygnssutils]: Downloading https://files.pythonhosted.org/packages/16/7e/091892ce757059cd8b75192008396545c82fdbf8efedca672d7e3add77f9/pygnssutils-1.0.8.tar.gz
+[2023-06-06 09:17:47] INFO root fetch - processPackages [simplegeomap]: Downloading https://files.pythonhosted.org/packages/6c/c1/9578547a108dbb049b142d8ec33c8cffbd15fdd31b10c377c3cf0041c862/simplegeomap-0.0.27.tar.gz
+[2023-06-06 09:17:47] INFO root fetch - processPackages [pycup]: Downloading https://files.pythonhosted.org/packages/1f/1e/c3b02c826af48a27e0f11310acb3b075aad34874102d93b752d4d01323b8/pycup-0.1.7.1.tar.gz
+[2023-06-06 09:17:47] INFO root fetch - processPackages [giefstat]: Downloading https://files.pythonhosted.org/packages/8c/c2/0169301678025a2bf25c1ab303692429239950542bc9cee98ea2e08a47df/giefstat-0.0.6.tar.gz
+[2023-06-06 09:17:47] INFO root fetch - processPackages [easydags]: Downloading https://files.pythonhosted.org/packages/74/cf/8c76132f3d8bd06e668183d5c2a482693882e3df6eda14c92bbdea52c931/easydags-0.0.2.tar.gz
+[2023-06-06 09:17:47] INFO root fetch - processPackages [simplegeomap]: Downloading https://files.pythonhosted.org/packages/a1/00/1a306471377790265373ee519593784a61501690537e5f57b2fc14caf599/simplegeomap-0.0.28.tar.gz
+[2023-06-06 09:17:47] INFO root fetch - processPackages [clinica]: Downloading https://files.pythonhosted.org/packages/f8/ba/e16ea940e0f871bc7e7128d0fd2cb2914c114678deedc3f25a50fe3647a1/clinica-0.7.5.tar.gz
+[2023-06-06 09:17:47] INFO root fetch - processPackages [muffin-admin]: Downloading https://files.pythonhosted.org/packages/63/e9/6b034c32bbf3742c8219ee3a69ba44c2b94b9758f99cfa0ec0aa10c3d352/muffin-admin-1.8.1.tar.gz
+[2023-06-06 09:17:47] INFO root fetch - processPackages [PyLTSpice]: Downloading https://files.pythonhosted.org/packages/03/40/5ba83076d0a9a397c4f1bc7410fa297bc4234586e2d50dc341e48db8d9f2/PyLTSpice-4.0.4.tar.gz
+[2023-06-06 09:17:47] INFO root fetch - processPackages [jdReplace]: Downloading https://files.pythonhosted.org/packages/b0/ab/9f5eddb60144cec4e22b30662b636ed99668447c8f252e0039ec6857527d/jdReplace-4.1.tar.gz
+[2023-06-06 09:17:47] INFO root fetch - processPackages [simplegeomap]: executing diffoscope
+[2023-06-06 09:17:47] INFO root fetch - processPackages [simplegeomap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplegeomap-0.0.27.tar.gz tmp/simplegeomap-0.0.28.tar.gz --markdown 20230606/s/simplegeomap/0.0.27-0.0.28/diff.md --exclude *.pyd
+[2023-06-06 09:17:47] INFO root fetch - processPackages [giefstat]: executing diffoscope
+[2023-06-06 09:17:47] INFO root fetch - processPackages [giefstat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giefstat-0.0.5.tar.gz tmp/giefstat-0.0.6.tar.gz --markdown 20230606/g/giefstat/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-06 09:17:47] INFO root fetch - processPackages [easydags]: executing diffoscope
+[2023-06-06 09:17:47] INFO root fetch - processPackages [easydags]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easydags-0.0.1.tar.gz tmp/easydags-0.0.2.tar.gz --markdown 20230606/e/easydags/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-06 09:17:47] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-06 09:17:47] INFO root fetch - processPackages [clinica]: executing diffoscope
+[2023-06-06 09:17:47] INFO root fetch - processPackages [clinica]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clinica-0.7.4.tar.gz tmp/clinica-0.7.5.tar.gz --markdown 20230606/c/clinica/0.7.4-0.7.5/diff.md --exclude *.pyd
+[2023-06-06 09:17:47] INFO root fetch - processPackages [PyLTSpice]: executing diffoscope
+[2023-06-06 09:17:47] INFO root fetch - processPackages [PyLTSpice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyLTSpice-4.0.3.tar.gz tmp/PyLTSpice-4.0.4.tar.gz --markdown 20230606/P/PyLTSpice/4.0.3-4.0.4/diff.md --exclude *.pyd
+[2023-06-06 09:17:47] INFO root fetch - processPackages [jdReplace]: executing diffoscope
+[2023-06-06 09:17:47] INFO root fetch - processPackages [jdReplace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jdReplace-4.0.tar.gz tmp/jdReplace-4.1.tar.gz --markdown 20230606/j/jdReplace/4.0-4.1/diff.md --exclude *.pyd
+[2023-06-06 09:17:47] INFO root fetch - processPackages [pygnssutils]: Downloading https://files.pythonhosted.org/packages/8f/a5/b347422af7aafd4bf552de83c9fdf85bca7e93d6f4160961525964fc1163/pygnssutils-1.0.9.tar.gz
+[2023-06-06 09:17:47] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-06 09:17:47] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230606/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-06 09:17:47] INFO root fetch - processPackages [pygnssutils]: executing diffoscope
+[2023-06-06 09:17:47] INFO root fetch - processPackages [pygnssutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygnssutils-1.0.8.tar.gz tmp/pygnssutils-1.0.9.tar.gz --markdown 20230606/p/pygnssutils/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-06 09:17:47] INFO root fetch - processPackages [pycup]: executing diffoscope
+[2023-06-06 09:17:47] INFO root fetch - processPackages [pycup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycup-0.1.7.tar.gz tmp/pycup-0.1.7.1.tar.gz --markdown 20230606/p/pycup/0.1.7-0.1.7.1/diff.md --exclude *.pyd
+[2023-06-06 09:17:47] INFO root fetch - processPackages [muffin-admin]: Downloading https://files.pythonhosted.org/packages/9e/5b/3cda6b53f22847d402f99962337e921c6478b940e51a6d1e692ea3b0538f/muffin-admin-1.9.0.tar.gz
+[2023-06-06 09:17:48] INFO root fetch - processPackages [muffin-admin]: executing diffoscope
+[2023-06-06 09:17:48] INFO root fetch - processPackages [muffin-admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/muffin-admin-1.8.1.tar.gz tmp/muffin-admin-1.9.0.tar.gz --markdown 20230606/m/muffin-admin/1.8.1-1.9.0/diff.md --exclude *.pyd
+[2023-06-06 09:17:48] INFO root fetch - processPackages [simplegeomap]: Remove: archive file [/home/abi/fetcher/tmp/simplegeomap-0.0.27.tar.gz]
+[2023-06-06 09:17:48] INFO root fetch - processPackages [simplegeomap]: Remove: archive file [/home/abi/fetcher/tmp/simplegeomap-0.0.28.tar.gz]
+[2023-06-06 09:17:48] INFO root fetch - main [MainThread]: End processing [simplegeomap]: success
+[2023-06-06 09:17:49] INFO root fetch - processPackages [easydags]: Remove: archive file [/home/abi/fetcher/tmp/easydags-0.0.1.tar.gz]
+[2023-06-06 09:17:49] INFO root fetch - processPackages [easydags]: Remove: archive file [/home/abi/fetcher/tmp/easydags-0.0.2.tar.gz]
+[2023-06-06 09:17:49] INFO root fetch - main [MainThread]: End processing [easydags]: success
+[2023-06-06 09:17:49] INFO root fetch - processPackages [jdReplace]: Remove: archive file [/home/abi/fetcher/tmp/jdReplace-4.0.tar.gz]
+[2023-06-06 09:17:49] INFO root fetch - processPackages [jdReplace]: Remove: archive file [/home/abi/fetcher/tmp/jdReplace-4.1.tar.gz]
+[2023-06-06 09:17:49] INFO root fetch - main [MainThread]: End processing [jdReplace]: success
+[2023-06-06 09:17:49] INFO root fetch - processPackages [giefstat]: Remove: archive file [/home/abi/fetcher/tmp/giefstat-0.0.5.tar.gz]
+[2023-06-06 09:17:49] INFO root fetch - processPackages [giefstat]: Remove: archive file [/home/abi/fetcher/tmp/giefstat-0.0.6.tar.gz]
+[2023-06-06 09:17:49] INFO root fetch - main [MainThread]: End processing [giefstat]: success
+[2023-06-06 09:17:49] INFO root fetch - processPackages [pygnssutils]: Remove: archive file [/home/abi/fetcher/tmp/pygnssutils-1.0.8.tar.gz]
+[2023-06-06 09:17:49] INFO root fetch - processPackages [pygnssutils]: Remove: archive file [/home/abi/fetcher/tmp/pygnssutils-1.0.9.tar.gz]
+[2023-06-06 09:17:49] INFO root fetch - main [MainThread]: End processing [pygnssutils]: success
+[2023-06-06 09:17:49] INFO root fetch - processPackages [PyLTSpice]: Remove: archive file [/home/abi/fetcher/tmp/PyLTSpice-4.0.3.tar.gz]
+[2023-06-06 09:17:49] INFO root fetch - processPackages [PyLTSpice]: Remove: archive file [/home/abi/fetcher/tmp/PyLTSpice-4.0.4.tar.gz]
+[2023-06-06 09:17:49] INFO root fetch - main [MainThread]: End processing [PyLTSpice]: success
+[2023-06-06 09:17:51] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-06 09:17:51] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-06 09:17:51] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-06 09:17:52] INFO root fetch - processPackages [pycup]: Remove: archive file [/home/abi/fetcher/tmp/pycup-0.1.7.tar.gz]
+[2023-06-06 09:17:52] INFO root fetch - processPackages [pycup]: Remove: archive file [/home/abi/fetcher/tmp/pycup-0.1.7.1.tar.gz]
+[2023-06-06 09:17:52] INFO root fetch - main [MainThread]: End processing [pycup]: success
+[2023-06-06 09:17:53] INFO root fetch - processPackages [clinica]: Remove: archive file [/home/abi/fetcher/tmp/clinica-0.7.4.tar.gz]
+[2023-06-06 09:17:53] INFO root fetch - processPackages [clinica]: Remove: archive file [/home/abi/fetcher/tmp/clinica-0.7.5.tar.gz]
+[2023-06-06 09:17:53] INFO root fetch - main [MainThread]: End processing [clinica]: success
+[2023-06-06 09:18:05] INFO root fetch - processPackages [muffin-admin]: Remove: archive file [/home/abi/fetcher/tmp/muffin-admin-1.8.1.tar.gz]
+[2023-06-06 09:18:05] INFO root fetch - processPackages [muffin-admin]: Remove: archive file [/home/abi/fetcher/tmp/muffin-admin-1.9.0.tar.gz]
+[2023-06-06 09:18:05] INFO root fetch - main [MainThread]: End processing [muffin-admin]: success
+[2023-06-06 09:18:05] INFO root fetch - main [MainThread]: Store serial: [18387833]
