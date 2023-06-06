@@ -14491,3 +14491,113 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 08:51:22] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-06-06 08:51:22] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-06-06 08:51:22] INFO root fetch - main [MainThread]: Store serial: [18387660]
+[2023-06-06 08:56:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18387660]
+[2023-06-06 08:56:31] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-06 08:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bluepy3
+[2023-06-06 08:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: reacttrs
+[2023-06-06 08:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbox
+[2023-06-06 08:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sorrek-dataroom
+[2023-06-06 08:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rdf-doctor
+[2023-06-06 08:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: thundra
+[2023-06-06 08:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-stock-procurement-customer
+[2023-06-06 08:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: liquisource
+[2023-06-06 08:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: kindenty-base
+[2023-06-06 08:56:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: KiMoPack
+[2023-06-06 08:56:31] INFO root fetch - processPackages [sorrek-dataroom]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-06 08:56:31] INFO root fetch - processPackages [reacttrs]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-06 08:56:31] INFO root fetch - processPackages [rdf-doctor]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-06-06 08:56:31] INFO root fetch - processPackages [bluepy3]: New version: [1.6.4] Old Version: [1.6.3]
+[2023-06-06 08:56:31] INFO root fetch - processPackages [liquisource]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-06-06 08:56:31] INFO root fetch - processPackages [kindenty-base]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 08:56:31] INFO root fetch - processPackages [thundra]: New version: [3.0.4] Old Version: [3.0.3]
+[2023-06-06 08:56:31] INFO root fetch - processPackages [odoo-addon-stock-procurement-customer]: New version: [16.0.1.0.1] Old Version: [16.0.1.0.0.4]
+[2023-06-06 08:56:31] INFO root fetch - processPackages [KiMoPack]: New version: [7.0.9] Old Version: [7.0.8]
+[2023-06-06 08:56:31] INFO root fetch - processPackages [nbox]: New version: [0.9.9rc0] Old Version: [0.9.9]
+[2023-06-06 08:56:31] INFO root fetch - processPackages [kindenty-base]: Downloading https://files.pythonhosted.org/packages/d8/f1/25fd412ec34280da66e11935b1afdf4a96d789bb145544262bc9541d69e2/kindenty_base-0.1.8.tar.gz
+[2023-06-06 08:56:31] INFO root fetch - processPackages [sorrek-dataroom]: Downloading https://files.pythonhosted.org/packages/c8/da/dea7e90db3f0f0bb237b35a21156445dbec1e5f9fbbba69db2796c90777b/sorrek-dataroom-1.0.1.tar.gz
+[2023-06-06 08:56:31] INFO root fetch - processPackages [bluepy3]: Downloading https://files.pythonhosted.org/packages/b6/30/f6d61889657ea048cd23e67b29fd31b6585199a2dd0f4e45b7c5b09ef14e/bluepy3-1.6.3.tar.gz
+[2023-06-06 08:56:31] INFO root fetch - processPackages [reacttrs]: Downloading https://files.pythonhosted.org/packages/fc/c7/4610de85b3bb7335a1ef60a399ddb5d8fc85ab3d737dc42e0c4f49e26d9c/reacttrs-0.1.3.tar.gz
+[2023-06-06 08:56:31] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/9a/e5/f7beb634ff7215814c7446991ac41ef5fad93caa3ac7b7ac92aa2b75b15c/rdf_doctor-0.8.0-py3-none-any.whl
+[2023-06-06 08:56:31] INFO root fetch - processPackages [odoo-addon-stock-procurement-customer]: Downloading https://files.pythonhosted.org/packages/fe/10/70e555e051a8804d0404f3ca44d046338fb19b2d39edc4c497f9d73b5d07/odoo_addon_stock_procurement_customer-16.0.1.0.0.4-py3-none-any.whl
+[2023-06-06 08:56:31] INFO root fetch - processPackages [liquisource]: Downloading https://files.pythonhosted.org/packages/b3/5c/f406e3a90ab027d69d70383a4a2c1adf9133407c0474b6bd383161f1199e/liquisource-1.1.7.tar.gz
+[2023-06-06 08:56:31] INFO root fetch - processPackages [KiMoPack]: Downloading https://files.pythonhosted.org/packages/32/d9/4e06e90f9fbbaf6c0c3c9908682c88319e3c2720e28b27eef6efe988a4e9/KiMoPack-7.0.8.tar.gz
+[2023-06-06 08:56:31] INFO root fetch - processPackages [nbox]: Downloading https://files.pythonhosted.org/packages/3d/74/98cb97a2dc0cd9f45292cd8ded3d3da9318b1bede8a34420822679c48c34/nbox-0.9.9.tar.gz
+[2023-06-06 08:56:31] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/09/51/c18fe66b01b1bb5e2206936ca839134a0d6c55df701faa8ce04ecbd70a07/thundra-3.0.3-py2.py3-none-any.whl
+[2023-06-06 08:56:31] INFO root fetch - processPackages [kindenty-base]: Downloading https://files.pythonhosted.org/packages/7e/3a/fbcbd1cbd8d43f51b059906b8c8f55792fd62ddb6409cc657177f32ac622/kindenty_base-0.1.9.tar.gz
+[2023-06-06 08:56:31] INFO root fetch - processPackages [kindenty-base]: executing diffoscope
+[2023-06-06 08:56:31] INFO root fetch - processPackages [kindenty-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kindenty_base-0.1.8.tar.gz tmp/kindenty_base-0.1.9.tar.gz --markdown 20230606/k/kindenty-base/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 08:56:31] WARNING root fetch - processPackages [KiMoPack]: Skipping package: exceeds size limit 55231158>=10485760
+[2023-06-06 08:56:31] INFO root fetch - processPackages [KiMoPack]: Start processing: scrapgpt
+[2023-06-06 08:56:31] INFO root fetch - main [MainThread]: End processing [KiMoPack] error
+[2023-06-06 08:56:31] INFO root fetch - processPackages [sorrek-dataroom]: Downloading https://files.pythonhosted.org/packages/ae/05/47625c9fdb7b43ea1c1f239266f13933c523a4c3a907545d81768debf40e/sorrek_dataroom-1.0.2-py3-none-any.whl
+[2023-06-06 08:56:31] WARNING root fetch - processPackages [scrapgpt]: Skipping, unable to determine old version
+[2023-06-06 08:56:31] INFO root fetch - processPackages [scrapgpt]: Start processing: dapla-toolbelt-pseudo
+[2023-06-06 08:56:31] INFO root fetch - main [MainThread]: End processing [scrapgpt] error
+[2023-06-06 08:56:31] INFO root fetch - processPackages [bluepy3]: Downloading https://files.pythonhosted.org/packages/e3/ae/a394468953a30d8309204fae9f52fe13c4110e7f50c55a0f40ce3dbd020c/bluepy3-1.6.4.tar.gz
+[2023-06-06 08:56:32] INFO root fetch - processPackages [liquisource]: Downloading https://files.pythonhosted.org/packages/3d/6d/5a13cc89e8165bdc160f3ad5cb487cf4f8db6037f18cda5d3e0b96183e40/liquisource-1.1.8.tar.gz
+[2023-06-06 08:56:32] INFO root fetch - processPackages [odoo-addon-stock-procurement-customer]: Downloading https://files.pythonhosted.org/packages/94/37/11bf207e73a9db78fa8e2b8f0cce5d17f3f97ee92b516f1795696f88dbee/odoo_addon_stock_procurement_customer-16.0.1.0.1-py3-none-any.whl
+[2023-06-06 08:56:32] INFO root fetch - processPackages [thundra]: Downloading https://files.pythonhosted.org/packages/6a/22/d8653a1c90037b7c4d7a92a3e335a35d041a1073327e7f72d045023cce6c/thundra-3.0.4.tar.gz
+[2023-06-06 08:56:32] INFO root fetch - processPackages [reacttrs]: Downloading https://files.pythonhosted.org/packages/52/cd/46d60ce2895910062d24740f3c9c26c2b049db731c40e9993265172dfeed/reacttrs-0.1.4.tar.gz
+[2023-06-06 08:56:32] INFO root fetch - processPackages [rdf-doctor]: Downloading https://files.pythonhosted.org/packages/1d/48/fbb120246d03cc508a339ad36946367b9d1af262c6e7b98116d29ac8c73d/rdf_doctor-0.8.1-py3-none-any.whl
+[2023-06-06 08:56:32] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-06-06 08:56:32] INFO root fetch - processPackages [liquisource]: executing diffoscope
+[2023-06-06 08:56:32] INFO root fetch - processPackages [liquisource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liquisource-1.1.7.tar.gz tmp/liquisource-1.1.8.tar.gz --markdown 20230606/l/liquisource/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-06-06 08:56:32] INFO root fetch - processPackages [odoo-addon-stock-procurement-customer]: executing diffoscope
+[2023-06-06 08:56:32] INFO root fetch - processPackages [odoo-addon-stock-procurement-customer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_stock_procurement_customer-16.0.1.0.0.4-py3-none-any.whl.zip tmp/odoo_addon_stock_procurement_customer-16.0.1.0.1-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-stock-procurement-customer/16.0.1.0.0.4-16.0.1.0.1/diff.md --exclude *.pyd
+[2023-06-06 08:56:32] INFO root fetch - processPackages [sorrek-dataroom]: executing diffoscope
+[2023-06-06 08:56:32] INFO root fetch - processPackages [sorrek-dataroom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sorrek-dataroom-1.0.1.tar.gz tmp/sorrek_dataroom-1.0.2-py3-none-any.whl.zip --markdown 20230606/s/sorrek-dataroom/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-06 08:56:32] INFO root fetch - processPackages [reacttrs]: executing diffoscope
+[2023-06-06 08:56:32] INFO root fetch - processPackages [reacttrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reacttrs-0.1.3.tar.gz tmp/reacttrs-0.1.4.tar.gz --markdown 20230606/r/reacttrs/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-06 08:56:32] INFO root fetch - processPackages [thundra]: executing diffoscope
+[2023-06-06 08:56:32] INFO root fetch - processPackages [thundra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thundra-3.0.3-py2.py3-none-any.whl.zip tmp/thundra-3.0.4.tar.gz --markdown 20230606/t/thundra/3.0.3-3.0.4/diff.md --exclude *.pyd
+[2023-06-06 08:56:32] INFO root fetch - processPackages [nbox]: Downloading https://files.pythonhosted.org/packages/e9/5a/a1cec5678c7bcca81531e8e340b7ace580efc6d998e285970e6d0a94f7cd/nbox-0.9.9rc0.tar.gz
+[2023-06-06 08:56:32] INFO root fetch - processPackages [bluepy3]: executing diffoscope
+[2023-06-06 08:56:32] INFO root fetch - processPackages [bluepy3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluepy3-1.6.3.tar.gz tmp/bluepy3-1.6.4.tar.gz --markdown 20230606/b/bluepy3/1.6.3-1.6.4/diff.md --exclude *.pyd
+[2023-06-06 08:56:32] INFO root fetch - processPackages [rdf-doctor]: executing diffoscope
+[2023-06-06 08:56:32] INFO root fetch - processPackages [rdf-doctor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdf_doctor-0.8.0-py3-none-any.whl.zip tmp/rdf_doctor-0.8.1-py3-none-any.whl.zip --markdown 20230606/r/rdf-doctor/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-06-06 08:56:32] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Downloading https://files.pythonhosted.org/packages/9f/46/5cd5eed16abea86572a640737ebc91908d3f22ecdba55eb7e0a423f934b2/dapla_toolbelt_pseudo-0.2.7.tar.gz
+[2023-06-06 08:56:32] INFO root fetch - processPackages [nbox]: executing diffoscope
+[2023-06-06 08:56:32] INFO root fetch - processPackages [nbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbox-0.9.9.tar.gz tmp/nbox-0.9.9rc0.tar.gz --markdown 20230606/n/nbox/0.9.9-0.9.9rc0/diff.md --exclude *.pyd
+[2023-06-06 08:56:32] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Downloading https://files.pythonhosted.org/packages/02/8d/2db0345d64cf6c244846b9c567a1f0aef36483c797fe3441c494ebb261f1/dapla_toolbelt_pseudo-0.2.8.tar.gz
+[2023-06-06 08:56:32] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: executing diffoscope
+[2023-06-06 08:56:32] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dapla_toolbelt_pseudo-0.2.7.tar.gz tmp/dapla_toolbelt_pseudo-0.2.8.tar.gz --markdown 20230606/d/dapla-toolbelt-pseudo/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-06-06 08:56:33] INFO root fetch - processPackages [kindenty-base]: Remove: archive file [/home/abi/fetcher/tmp/kindenty_base-0.1.8.tar.gz]
+[2023-06-06 08:56:33] INFO root fetch - processPackages [kindenty-base]: Remove: archive file [/home/abi/fetcher/tmp/kindenty_base-0.1.9.tar.gz]
+[2023-06-06 08:56:33] INFO root fetch - processPackages [kindenty-base]: Start processing: request-boost
+[2023-06-06 08:56:33] INFO root fetch - main [MainThread]: End processing [kindenty-base]: success
+[2023-06-06 08:56:33] INFO root fetch - processPackages [request-boost]: New version: [0.8] Old Version: [0.7]
+[2023-06-06 08:56:33] INFO root fetch - processPackages [liquisource]: Remove: archive file [/home/abi/fetcher/tmp/liquisource-1.1.7.tar.gz]
+[2023-06-06 08:56:33] INFO root fetch - processPackages [liquisource]: Remove: archive file [/home/abi/fetcher/tmp/liquisource-1.1.8.tar.gz]
+[2023-06-06 08:56:33] INFO root fetch - main [MainThread]: End processing [liquisource]: success
+[2023-06-06 08:56:33] INFO root fetch - processPackages [request-boost]: Downloading https://files.pythonhosted.org/packages/90/49/a16532dc4211be94c61aec7dc8a77913d24fa3e9bdd3614cbf9ad04fd74d/request-boost-0.7.tar.gz
+[2023-06-06 08:56:33] INFO root fetch - processPackages [reacttrs]: Remove: archive file [/home/abi/fetcher/tmp/reacttrs-0.1.3.tar.gz]
+[2023-06-06 08:56:33] INFO root fetch - processPackages [reacttrs]: Remove: archive file [/home/abi/fetcher/tmp/reacttrs-0.1.4.tar.gz]
+[2023-06-06 08:56:33] INFO root fetch - main [MainThread]: End processing [reacttrs]: success
+[2023-06-06 08:56:33] INFO root fetch - processPackages [odoo-addon-stock-procurement-customer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_procurement_customer-16.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-06-06 08:56:33] INFO root fetch - processPackages [odoo-addon-stock-procurement-customer]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_stock_procurement_customer-16.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-06 08:56:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-stock-procurement-customer]: success
+[2023-06-06 08:56:33] INFO root fetch - processPackages [sorrek-dataroom]: Remove: archive file [/home/abi/fetcher/tmp/sorrek-dataroom-1.0.1.tar.gz]
+[2023-06-06 08:56:33] INFO root fetch - processPackages [sorrek-dataroom]: Remove: archive file [/home/abi/fetcher/tmp/sorrek_dataroom-1.0.2-py3-none-any.whl.zip]
+[2023-06-06 08:56:33] INFO root fetch - main [MainThread]: End processing [sorrek-dataroom]: success
+[2023-06-06 08:56:33] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-3.0.3-py2.py3-none-any.whl.zip]
+[2023-06-06 08:56:33] INFO root fetch - processPackages [thundra]: Remove: archive file [/home/abi/fetcher/tmp/thundra-3.0.4.tar.gz]
+[2023-06-06 08:56:33] INFO root fetch - main [MainThread]: End processing [thundra]: success
+[2023-06-06 08:56:33] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-0.8.0-py3-none-any.whl.zip]
+[2023-06-06 08:56:33] INFO root fetch - processPackages [rdf-doctor]: Remove: archive file [/home/abi/fetcher/tmp/rdf_doctor-0.8.1-py3-none-any.whl.zip]
+[2023-06-06 08:56:33] INFO root fetch - main [MainThread]: End processing [rdf-doctor]: success
+[2023-06-06 08:56:34] INFO root fetch - processPackages [request-boost]: Downloading https://files.pythonhosted.org/packages/32/0c/917b744b0dfb4449b8e431147f182ce0f1bbd39ad7083ddfd8a4a7b12b62/request-boost-0.8.tar.gz
+[2023-06-06 08:56:34] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Remove: archive file [/home/abi/fetcher/tmp/dapla_toolbelt_pseudo-0.2.7.tar.gz]
+[2023-06-06 08:56:34] INFO root fetch - processPackages [dapla-toolbelt-pseudo]: Remove: archive file [/home/abi/fetcher/tmp/dapla_toolbelt_pseudo-0.2.8.tar.gz]
+[2023-06-06 08:56:34] INFO root fetch - main [MainThread]: End processing [dapla-toolbelt-pseudo]: success
+[2023-06-06 08:56:34] INFO root fetch - processPackages [request-boost]: executing diffoscope
+[2023-06-06 08:56:34] INFO root fetch - processPackages [request-boost]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/request-boost-0.7.tar.gz tmp/request-boost-0.8.tar.gz --markdown 20230606/r/request-boost/0.7-0.8/diff.md --exclude *.pyd
+[2023-06-06 08:56:35] INFO root fetch - processPackages [bluepy3]: Remove: archive file [/home/abi/fetcher/tmp/bluepy3-1.6.3.tar.gz]
+[2023-06-06 08:56:35] INFO root fetch - processPackages [bluepy3]: Remove: archive file [/home/abi/fetcher/tmp/bluepy3-1.6.4.tar.gz]
+[2023-06-06 08:56:35] INFO root fetch - main [MainThread]: End processing [bluepy3]: success
+[2023-06-06 08:56:35] INFO root fetch - processPackages [request-boost]: Remove: archive file [/home/abi/fetcher/tmp/request-boost-0.7.tar.gz]
+[2023-06-06 08:56:35] INFO root fetch - processPackages [request-boost]: Remove: archive file [/home/abi/fetcher/tmp/request-boost-0.8.tar.gz]
+[2023-06-06 08:56:35] INFO root fetch - main [MainThread]: End processing [request-boost]: success
+[2023-06-06 08:56:36] INFO root fetch - processPackages [nbox]: Remove: archive file [/home/abi/fetcher/tmp/nbox-0.9.9.tar.gz]
+[2023-06-06 08:56:36] INFO root fetch - processPackages [nbox]: Remove: archive file [/home/abi/fetcher/tmp/nbox-0.9.9rc0.tar.gz]
+[2023-06-06 08:56:37] INFO root fetch - main [MainThread]: End processing [nbox]: success
+[2023-06-06 08:56:37] INFO root fetch - main [MainThread]: Store serial: [18387692]
