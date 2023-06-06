@@ -7577,3 +7577,45 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 04:02:13] INFO root fetch - processPackages [EnergyCapSdk]: Remove: archive file [/home/abi/fetcher/tmp/EnergyCapSdk-8.2304.4578.tar.gz]
 [2023-06-06 04:02:13] INFO root fetch - main [MainThread]: End processing [EnergyCapSdk]: success
 [2023-06-06 04:02:13] INFO root fetch - main [MainThread]: Store serial: [18385011]
+[2023-06-06 04:07:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18385011]
+[2023-06-06 04:07:22] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-06 04:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: piperider
+[2023-06-06 04:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: neon-messagebus
+[2023-06-06 04:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: foundation-cancer-image-biomarker
+[2023-06-06 04:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jax-metal
+[2023-06-06 04:07:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: homeassistant-stubs
+[2023-06-06 04:07:22] INFO root fetch - processPackages [neon-messagebus]: New version: [1.0.1a2] Old Version: [1.0.1a1]
+[2023-06-06 04:07:22] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: New version: [0.0.1a1] Old Version: [0.0.1a0]
+[2023-06-06 04:07:22] INFO root fetch - processPackages [piperider]: New version: [0.9.0rc1] Old Version: [0.9.0]
+[2023-06-06 04:07:22] WARNING root fetch - processPackages [jax-metal]: Skipping, unable to determine old version
+[2023-06-06 04:07:22] INFO root fetch - main [MainThread]: End processing [jax-metal] error
+[2023-06-06 04:07:22] INFO root fetch - processPackages [neon-messagebus]: Downloading https://files.pythonhosted.org/packages/01/75/2e47e98c649e508f85d064bce5a11fbebfde5880dae22ac8e055693605f9/neon_messagebus-1.0.1a1-py3-none-any.whl
+[2023-06-06 04:07:22] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2023.6.0b5] Old Version: [2023.6.0b4]
+[2023-06-06 04:07:22] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Downloading https://files.pythonhosted.org/packages/09/3e/740e720e69c945eec0233b69bb8f9177896657d6a42ee9c221282e11f562/foundation_cancer_image_biomarker-0.0.1a0.tar.gz
+[2023-06-06 04:07:22] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/a4/50/e24b00f8c9eee6add2d234812268358dd31efb1c7692b89e4f2abcf53b3a/piperider-0.9.0.tar.gz
+[2023-06-06 04:07:22] INFO root fetch - processPackages [neon-messagebus]: Downloading https://files.pythonhosted.org/packages/ef/1d/a796358acce42072cc6cf80ddfc9d44840fbfc6475a456358e2ca83c155a/neon_messagebus-1.0.1a2-py3-none-any.whl
+[2023-06-06 04:07:22] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/61/6e/72ec932f8f1d791e8e6773d03c90ef0ab36732aaa93391c1c55f37d1d000/homeassistant_stubs-2023.6.0b4.tar.gz
+[2023-06-06 04:07:22] INFO root fetch - processPackages [neon-messagebus]: executing diffoscope
+[2023-06-06 04:07:22] INFO root fetch - processPackages [neon-messagebus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_messagebus-1.0.1a1-py3-none-any.whl.zip tmp/neon_messagebus-1.0.1a2-py3-none-any.whl.zip --markdown 20230606/n/neon-messagebus/1.0.1a1-1.0.1a2/diff.md --exclude *.pyd
+[2023-06-06 04:07:22] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Downloading https://files.pythonhosted.org/packages/14/6d/cf8be8029b99a5088b07118d0cd3f8f1021d4e63c29868f43bbfc5914ab5/foundation_cancer_image_biomarker-0.0.1a1.tar.gz
+[2023-06-06 04:07:22] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: executing diffoscope
+[2023-06-06 04:07:22] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/foundation_cancer_image_biomarker-0.0.1a0.tar.gz tmp/foundation_cancer_image_biomarker-0.0.1a1.tar.gz --markdown 20230606/f/foundation-cancer-image-biomarker/0.0.1a0-0.0.1a1/diff.md --exclude *.pyd
+[2023-06-06 04:07:22] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/90/19/0feb9d13d410d241665e78085b90be4838ef7289ed4399f2580a2b4dd8b3/homeassistant_stubs-2023.6.0b5.tar.gz
+[2023-06-06 04:07:23] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2023-06-06 04:07:23] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2023.6.0b4.tar.gz tmp/homeassistant_stubs-2023.6.0b5.tar.gz --markdown 20230606/h/homeassistant-stubs/2023.6.0b4-2023.6.0b5/diff.md --exclude *.pyd
+[2023-06-06 04:07:23] INFO root fetch - processPackages [piperider]: Downloading https://files.pythonhosted.org/packages/7a/f9/9cc8461c7b00069da016c58db04f6c975e2adf28d9cbd443a882dd7396de/piperider-0.9.0rc1.tar.gz
+[2023-06-06 04:07:23] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Remove: archive file [/home/abi/fetcher/tmp/foundation_cancer_image_biomarker-0.0.1a0.tar.gz]
+[2023-06-06 04:07:23] INFO root fetch - processPackages [foundation-cancer-image-biomarker]: Remove: archive file [/home/abi/fetcher/tmp/foundation_cancer_image_biomarker-0.0.1a1.tar.gz]
+[2023-06-06 04:07:23] INFO root fetch - main [MainThread]: End processing [foundation-cancer-image-biomarker]: success
+[2023-06-06 04:07:23] INFO root fetch - processPackages [neon-messagebus]: Remove: archive file [/home/abi/fetcher/tmp/neon_messagebus-1.0.1a1-py3-none-any.whl.zip]
+[2023-06-06 04:07:23] INFO root fetch - processPackages [neon-messagebus]: Remove: archive file [/home/abi/fetcher/tmp/neon_messagebus-1.0.1a2-py3-none-any.whl.zip]
+[2023-06-06 04:07:23] INFO root fetch - main [MainThread]: End processing [neon-messagebus]: success
+[2023-06-06 04:07:24] INFO root fetch - processPackages [piperider]: executing diffoscope
+[2023-06-06 04:07:24] INFO root fetch - processPackages [piperider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/piperider-0.9.0.tar.gz tmp/piperider-0.9.0rc1.tar.gz --markdown 20230606/p/piperider/0.9.0-0.9.0rc1/diff.md --exclude *.pyd
+[2023-06-06 04:07:27] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0.tar.gz]
+[2023-06-06 04:07:27] INFO root fetch - processPackages [piperider]: Remove: archive file [/home/abi/fetcher/tmp/piperider-0.9.0rc1.tar.gz]
+[2023-06-06 04:07:27] INFO root fetch - main [MainThread]: End processing [piperider]: success
+[2023-06-06 04:08:12] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.6.0b4.tar.gz]
+[2023-06-06 04:08:12] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.6.0b5.tar.gz]
+[2023-06-06 04:08:12] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2023-06-06 04:08:12] INFO root fetch - main [MainThread]: Store serial: [18385027]
