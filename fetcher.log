@@ -14265,3 +14265,145 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 08:40:17] INFO root fetch - processPackages [FindJobsTW]: Remove: archive file [/home/abi/fetcher/tmp/FindJobsTW-0.2.2.tar.gz]
 [2023-06-06 08:40:17] INFO root fetch - main [MainThread]: End processing [FindJobsTW]: success
 [2023-06-06 08:40:17] INFO root fetch - main [MainThread]: Store serial: [18387571]
+[2023-06-06 08:45:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18387571]
+[2023-06-06 08:45:27] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-06 08:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: liquisource
+[2023-06-06 08:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pynmeagps
+[2023-06-06 08:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: askai-cli
+[2023-06-06 08:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cdnmon
+[2023-06-06 08:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyarmor.cli
+[2023-06-06 08:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bomf
+[2023-06-06 08:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dipex
+[2023-06-06 08:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tlgateway
+[2023-06-06 08:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sorrek-dataroom
+[2023-06-06 08:45:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sorrek-dataroom
+[2023-06-06 08:45:27] INFO root fetch - processPackages [cdnmon]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-06-06 08:45:27] WARNING root fetch - processPackages [askai-cli]: Skipping, unable to determine old version
+[2023-06-06 08:45:27] INFO root fetch - processPackages [askai-cli]: Start processing: pytlgateway
+[2023-06-06 08:45:27] INFO root fetch - main [MainThread]: End processing [askai-cli] error
+[2023-06-06 08:45:27] INFO root fetch - processPackages [sorrek-dataroom]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-06 08:45:27] INFO root fetch - processPackages [tlgateway]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-06 08:45:27] INFO root fetch - processPackages [sorrek-dataroom]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-06 08:45:27] INFO root fetch - processPackages [pyarmor.cli]: New version: [8.2.dev2] Old Version: [8.2.dev1]
+[2023-06-06 08:45:27] INFO root fetch - processPackages [liquisource]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-06 08:45:27] INFO root fetch - processPackages [bomf]: New version: [0.5.4] Old Version: [0.5.3]
+[2023-06-06 08:45:27] INFO root fetch - processPackages [dipex]: New version: [4.9.2] Old Version: [4.9.1]
+[2023-06-06 08:45:27] INFO root fetch - processPackages [pytlgateway]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-06 08:45:27] INFO root fetch - processPackages [pyarmor.cli]: Downloading https://files.pythonhosted.org/packages/16/a5/4072c136091c636b41e19e77997027cd60aa089a9015d15962c9a043e5f8/pyarmor.cli-8.2.dev1-py2.py3-none-any.whl
+[2023-06-06 08:45:27] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/47/0d/6466a037ca051985bc01d09c3a4eca36ce60d7898629a9da8e4578b1ed7f/bomf-0.5.3.tar.gz
+[2023-06-06 08:45:27] INFO root fetch - processPackages [cdnmon]: Downloading https://files.pythonhosted.org/packages/56/68/8b39d8956e4ba3f097a0fdad4a58f8f0847149740ff40f7025991c0fc5a6/cdnmon-0.2.0.tar.gz
+[2023-06-06 08:45:27] INFO root fetch - processPackages [pynmeagps]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-06 08:45:27] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/ca/fb/bcdbc34d4ffff4b37acd3e2fb76f42bcea1844762d4b998c319652fc6b38/dipex-4.9.1.tar.gz
+[2023-06-06 08:45:27] INFO root fetch - processPackages [sorrek-dataroom]: Downloading https://files.pythonhosted.org/packages/0a/27/5d842f7bb217f3a330e3a326aece004f60309a7ec8daba94f260bfd703af/sorrek-dataroom-1.0.0.tar.gz
+[2023-06-06 08:45:27] INFO root fetch - processPackages [sorrek-dataroom]: Downloading https://files.pythonhosted.org/packages/0a/27/5d842f7bb217f3a330e3a326aece004f60309a7ec8daba94f260bfd703af/sorrek-dataroom-1.0.0.tar.gz
+[2023-06-06 08:45:27] INFO root fetch - processPackages [tlgateway]: Downloading https://files.pythonhosted.org/packages/35/b5/caf8984bb26f6f0882adefb2fe248f314943e74fc6f5becd2e33c58505a1/tlgateway-0.2.8.tar.gz
+[2023-06-06 08:45:27] INFO root fetch - processPackages [liquisource]: Downloading https://files.pythonhosted.org/packages/a3/49/2c1719b734433ae39019731e6d7857fda07de8d07b2aeaa2ce081180ea7f/liquisource-1.1.5.tar.gz
+[2023-06-06 08:45:27] INFO root fetch - processPackages [pytlgateway]: Downloading https://files.pythonhosted.org/packages/e3/0b/a307305c8607d605d2d5f0ff5730b4e6e0455c02ef1ba9252280a95dc55a/pytlgateway-0.2.8.tar.gz
+[2023-06-06 08:45:27] INFO root fetch - processPackages [bomf]: Downloading https://files.pythonhosted.org/packages/32/fc/69a8af54caf43829b6e4897ddaefd1452f9221d2a4c160a650778f1d42dd/bomf-0.5.4.tar.gz
+[2023-06-06 08:45:28] INFO root fetch - processPackages [cdnmon]: Downloading https://files.pythonhosted.org/packages/e2/16/ba1fbb476b832c184942f8ee80bdc7556dbe1071ca30481fe66c5f3e711d/cdnmon-0.2.2.tar.gz
+[2023-06-06 08:45:28] INFO root fetch - processPackages [pyarmor.cli]: Downloading https://files.pythonhosted.org/packages/58/d6/ac109f3c3337cabe88f01410b858a2020a8f962d90fff6c3cb4d659dab24/pyarmor.cli-8.2.dev2-py2.py3-none-any.whl
+[2023-06-06 08:45:28] INFO root fetch - processPackages [pynmeagps]: Downloading https://files.pythonhosted.org/packages/86/11/d07532664983049560a2cc15cca1f126305db42affbcde1fa9a25fbb608e/pynmeagps-1.0.8.tar.gz
+[2023-06-06 08:45:28] INFO root fetch - processPackages [bomf]: executing diffoscope
+[2023-06-06 08:45:28] INFO root fetch - processPackages [bomf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bomf-0.5.3.tar.gz tmp/bomf-0.5.4.tar.gz --markdown 20230606/b/bomf/0.5.3-0.5.4/diff.md --exclude *.pyd
+[2023-06-06 08:45:28] INFO root fetch - processPackages [dipex]: Downloading https://files.pythonhosted.org/packages/d3/fa/fbf692999f299bb256217f34df9cc1e4ee2f9e1ae9e87e051b2b8b92aaa1/dipex-4.9.2.tar.gz
+[2023-06-06 08:45:28] INFO root fetch - processPackages [cdnmon]: executing diffoscope
+[2023-06-06 08:45:28] INFO root fetch - processPackages [cdnmon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdnmon-0.2.0.tar.gz tmp/cdnmon-0.2.2.tar.gz --markdown 20230606/c/cdnmon/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-06-06 08:45:28] INFO root fetch - processPackages [liquisource]: Downloading https://files.pythonhosted.org/packages/da/e7/933c24d398466057f961ad8b09ff0bf736aa20b9df4844193c8662e33107/liquisource-1.1.6.tar.gz
+[2023-06-06 08:45:28] INFO root fetch - processPackages [sorrek-dataroom]: Downloading https://files.pythonhosted.org/packages/c8/da/dea7e90db3f0f0bb237b35a21156445dbec1e5f9fbbba69db2796c90777b/sorrek-dataroom-1.0.1.tar.gz
+[2023-06-06 08:45:28] INFO root fetch - processPackages [sorrek-dataroom]: Downloading https://files.pythonhosted.org/packages/c8/da/dea7e90db3f0f0bb237b35a21156445dbec1e5f9fbbba69db2796c90777b/sorrek-dataroom-1.0.1.tar.gz
+[2023-06-06 08:45:28] INFO root fetch - processPackages [pyarmor.cli]: executing diffoscope
+[2023-06-06 08:45:28] INFO root fetch - processPackages [pyarmor.cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli-8.2.dev1-py2.py3-none-any.whl.zip tmp/pyarmor.cli-8.2.dev2-py2.py3-none-any.whl.zip --markdown 20230606/p/pyarmor.cli/8.2.dev1-8.2.dev2/diff.md --exclude *.pyd
+[2023-06-06 08:45:28] INFO root fetch - processPackages [liquisource]: executing diffoscope
+[2023-06-06 08:45:28] INFO root fetch - processPackages [liquisource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liquisource-1.1.5.tar.gz tmp/liquisource-1.1.6.tar.gz --markdown 20230606/l/liquisource/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-06 08:45:28] INFO root fetch - processPackages [sorrek-dataroom]: executing diffoscope
+[2023-06-06 08:45:28] INFO root fetch - processPackages [sorrek-dataroom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sorrek-dataroom-1.0.0.tar.gz tmp/sorrek-dataroom-1.0.1.tar.gz --markdown 20230606/s/sorrek-dataroom/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-06 08:45:28] INFO root fetch - processPackages [sorrek-dataroom]: executing diffoscope
+[2023-06-06 08:45:28] INFO root fetch - processPackages [sorrek-dataroom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sorrek-dataroom-1.0.0.tar.gz tmp/sorrek-dataroom-1.0.1.tar.gz --markdown 20230606/s/sorrek-dataroom/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-06 08:45:28] INFO root fetch - processPackages [dipex]: executing diffoscope
+[2023-06-06 08:45:28] INFO root fetch - processPackages [dipex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipex-4.9.1.tar.gz tmp/dipex-4.9.2.tar.gz --markdown 20230606/d/dipex/4.9.1-4.9.2/diff.md --exclude *.pyd
+[2023-06-06 08:45:28] INFO root fetch - processPackages [pytlgateway]: Downloading https://files.pythonhosted.org/packages/9f/e6/9b96f04a4f3ec43222c9c9fc99dfdaa689ae9fa03583b57727c461413769/pytlgateway-0.2.9.tar.gz
+[2023-06-06 08:45:28] INFO root fetch - processPackages [pynmeagps]: Downloading https://files.pythonhosted.org/packages/f2/7c/538ebb6a9317ab0dad32cb32f0ed63512b095231228692c599a5989c34cf/pynmeagps-1.0.9.tar.gz
+[2023-06-06 08:45:28] INFO root fetch - processPackages [pytlgateway]: executing diffoscope
+[2023-06-06 08:45:28] INFO root fetch - processPackages [pytlgateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytlgateway-0.2.8.tar.gz tmp/pytlgateway-0.2.9.tar.gz --markdown 20230606/p/pytlgateway/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-06 08:45:28] INFO root fetch - processPackages [tlgateway]: Downloading https://files.pythonhosted.org/packages/1b/83/52f36a3a7bf56d581a8138b72788416f2e9432ff0b53ebeecada9a66e70a/tlgateway-0.2.9.tar.gz
+[2023-06-06 08:45:28] INFO root fetch - processPackages [tlgateway]: executing diffoscope
+[2023-06-06 08:45:28] INFO root fetch - processPackages [tlgateway]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tlgateway-0.2.8.tar.gz tmp/tlgateway-0.2.9.tar.gz --markdown 20230606/t/tlgateway/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-06 08:45:28] INFO root fetch - processPackages [pynmeagps]: executing diffoscope
+[2023-06-06 08:45:28] INFO root fetch - processPackages [pynmeagps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynmeagps-1.0.8.tar.gz tmp/pynmeagps-1.0.9.tar.gz --markdown 20230606/p/pynmeagps/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-06 08:45:29] INFO root fetch - processPackages [cdnmon]: Remove: archive file [/home/abi/fetcher/tmp/cdnmon-0.2.0.tar.gz]
+[2023-06-06 08:45:29] INFO root fetch - processPackages [cdnmon]: Remove: archive file [/home/abi/fetcher/tmp/cdnmon-0.2.2.tar.gz]
+[2023-06-06 08:45:29] INFO root fetch - processPackages [cdnmon]: Start processing: kindenty-base
+[2023-06-06 08:45:29] INFO root fetch - main [MainThread]: End processing [cdnmon]: success
+[2023-06-06 08:45:29] INFO root fetch - processPackages [kindenty-base]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 08:45:29] INFO root fetch - processPackages [kindenty-base]: Downloading https://files.pythonhosted.org/packages/d8/f1/25fd412ec34280da66e11935b1afdf4a96d789bb145544262bc9541d69e2/kindenty_base-0.1.8.tar.gz
+[2023-06-06 08:45:29] INFO root fetch - processPackages [liquisource]: Remove: archive file [/home/abi/fetcher/tmp/liquisource-1.1.5.tar.gz]
+[2023-06-06 08:45:29] INFO root fetch - processPackages [liquisource]: Remove: archive file [/home/abi/fetcher/tmp/liquisource-1.1.6.tar.gz]
+[2023-06-06 08:45:29] INFO root fetch - processPackages [liquisource]: Start processing: revChatGPT
+[2023-06-06 08:45:29] INFO root fetch - main [MainThread]: End processing [liquisource]: success
+[2023-06-06 08:45:29] INFO root fetch - processPackages [revChatGPT]: New version: [6.0.4] Old Version: [6.0.3]
+[2023-06-06 08:45:29] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/d9/ee/ad1a8ecc226debe380ce67e3e0b4b1248b182b86e179a03117f04001ac44/revChatGPT-6.0.3.tar.gz
+[2023-06-06 08:45:29] INFO root fetch - processPackages [pyarmor.cli]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli-8.2.dev1-py2.py3-none-any.whl.zip]
+[2023-06-06 08:45:29] INFO root fetch - processPackages [pyarmor.cli]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli-8.2.dev2-py2.py3-none-any.whl.zip]
+[2023-06-06 08:45:29] INFO root fetch - processPackages [pyarmor.cli]: Start processing: yyxx-game-pkg
+[2023-06-06 08:45:29] INFO root fetch - main [MainThread]: End processing [pyarmor.cli]: success
+[2023-06-06 08:45:29] INFO root fetch - processPackages [yyxx-game-pkg]: New version: [2023.6.6.1] Old Version: [2023.5.4.1]
+[2023-06-06 08:45:29] INFO root fetch - processPackages [sorrek-dataroom]: Remove: archive file [/home/abi/fetcher/tmp/sorrek-dataroom-1.0.0.tar.gz]
+[2023-06-06 08:45:29] INFO root fetch - processPackages [sorrek-dataroom]: Remove: archive file [/home/abi/fetcher/tmp/sorrek-dataroom-1.0.1.tar.gz]
+[2023-06-06 08:45:29] INFO root fetch - processPackages [sorrek-dataroom]: Start processing: plaquette-unionfind
+[2023-06-06 08:45:29] INFO root fetch - main [MainThread]: End processing [sorrek-dataroom]: success
+[2023-06-06 08:45:29] INFO root fetch - processPackages [sorrek-dataroom]: Start processing: liquisource
+[2023-06-06 08:45:29] INFO root fetch - main [MainThread]: End processing [sorrek-dataroom]: success
+[2023-06-06 08:45:29] INFO root fetch - processPackages [kindenty-base]: Downloading https://files.pythonhosted.org/packages/7e/3a/fbcbd1cbd8d43f51b059906b8c8f55792fd62ddb6409cc657177f32ac622/kindenty_base-0.1.9.tar.gz
+[2023-06-06 08:45:29] WARNING root fetch - processPackages [plaquette-unionfind]: Skipping, unable to determine old version
+[2023-06-06 08:45:29] INFO root fetch - processPackages [plaquette-unionfind]: Start processing: LbProdRun
+[2023-06-06 08:45:29] INFO root fetch - main [MainThread]: End processing [plaquette-unionfind] error
+[2023-06-06 08:45:29] INFO root fetch - processPackages [liquisource]: New version: [1.1.6] Old Version: [1.1.5]
+[2023-06-06 08:45:30] INFO root fetch - processPackages [revChatGPT]: Downloading https://files.pythonhosted.org/packages/c1/6c/6b299ed68ae07794ef3f70fa41798ca2c5fd4c6b0b44c58a7916c4fbf037/revChatGPT-6.0.4.tar.gz
+[2023-06-06 08:45:30] INFO root fetch - processPackages [LbProdRun]: New version: [1.5.0] Old Version: [1.4.1]
+[2023-06-06 08:45:30] INFO root fetch - processPackages [revChatGPT]: executing diffoscope
+[2023-06-06 08:45:30] INFO root fetch - processPackages [revChatGPT]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/revChatGPT-6.0.3.tar.gz tmp/revChatGPT-6.0.4.tar.gz --markdown 20230606/r/revChatGPT/6.0.3-6.0.4/diff.md --exclude *.pyd
+[2023-06-06 08:45:30] INFO root fetch - processPackages [liquisource]: Downloading https://files.pythonhosted.org/packages/a3/49/2c1719b734433ae39019731e6d7857fda07de8d07b2aeaa2ce081180ea7f/liquisource-1.1.5.tar.gz
+[2023-06-06 08:45:30] INFO root fetch - processPackages [kindenty-base]: executing diffoscope
+[2023-06-06 08:45:30] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/a5/73/9e57b9b59e83d8a8c7761faf5f6e097db7f7be4a7baf0902d2cc7a3804f2/yyxx_game_pkg-2023.5.4.1.tar.gz
+[2023-06-06 08:45:30] INFO root fetch - processPackages [kindenty-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kindenty_base-0.1.8.tar.gz tmp/kindenty_base-0.1.9.tar.gz --markdown 20230606/k/kindenty-base/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 08:45:30] INFO root fetch - processPackages [pytlgateway]: Remove: archive file [/home/abi/fetcher/tmp/pytlgateway-0.2.8.tar.gz]
+[2023-06-06 08:45:30] INFO root fetch - processPackages [pytlgateway]: Remove: archive file [/home/abi/fetcher/tmp/pytlgateway-0.2.9.tar.gz]
+[2023-06-06 08:45:30] INFO root fetch - main [MainThread]: End processing [pytlgateway]: success
+[2023-06-06 08:45:30] INFO root fetch - processPackages [liquisource]: Downloading https://files.pythonhosted.org/packages/da/e7/933c24d398466057f961ad8b09ff0bf736aa20b9df4844193c8662e33107/liquisource-1.1.6.tar.gz
+[2023-06-06 08:45:30] INFO root fetch - processPackages [liquisource]: executing diffoscope
+[2023-06-06 08:45:30] INFO root fetch - processPackages [liquisource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liquisource-1.1.5.tar.gz tmp/liquisource-1.1.6.tar.gz --markdown 20230606/l/liquisource/1.1.5-1.1.6/diff.md --exclude *.pyd
+[2023-06-06 08:45:30] INFO root fetch - processPackages [LbProdRun]: Downloading https://files.pythonhosted.org/packages/26/86/e85bd9b76ad3473a3392b0b76cf04bf6e870cfc402fad069761f8f56e342/LbProdRun-1.4.1.tar.gz
+[2023-06-06 08:45:30] INFO root fetch - processPackages [bomf]: Remove: archive file [/home/abi/fetcher/tmp/bomf-0.5.3.tar.gz]
+[2023-06-06 08:45:30] INFO root fetch - processPackages [bomf]: Remove: archive file [/home/abi/fetcher/tmp/bomf-0.5.4.tar.gz]
+[2023-06-06 08:45:30] INFO root fetch - main [MainThread]: End processing [bomf]: success
+[2023-06-06 08:45:30] INFO root fetch - processPackages [pynmeagps]: Remove: archive file [/home/abi/fetcher/tmp/pynmeagps-1.0.8.tar.gz]
+[2023-06-06 08:45:30] INFO root fetch - processPackages [pynmeagps]: Remove: archive file [/home/abi/fetcher/tmp/pynmeagps-1.0.9.tar.gz]
+[2023-06-06 08:45:30] INFO root fetch - main [MainThread]: End processing [pynmeagps]: success
+[2023-06-06 08:45:30] INFO root fetch - processPackages [tlgateway]: Remove: archive file [/home/abi/fetcher/tmp/tlgateway-0.2.8.tar.gz]
+[2023-06-06 08:45:30] INFO root fetch - processPackages [tlgateway]: Remove: archive file [/home/abi/fetcher/tmp/tlgateway-0.2.9.tar.gz]
+[2023-06-06 08:45:30] INFO root fetch - main [MainThread]: End processing [tlgateway]: success
+[2023-06-06 08:45:30] INFO root fetch - processPackages [LbProdRun]: Downloading https://files.pythonhosted.org/packages/6d/af/f29dca5f714697d42c60e4f47ace208cf680ee235aa5fcc7e3a2d2f0f3eb/LbProdRun-1.5.0.tar.gz
+[2023-06-06 08:45:30] INFO root fetch - processPackages [LbProdRun]: executing diffoscope
+[2023-06-06 08:45:30] INFO root fetch - processPackages [LbProdRun]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/LbProdRun-1.4.1.tar.gz tmp/LbProdRun-1.5.0.tar.gz --markdown 20230606/L/LbProdRun/1.4.1-1.5.0/diff.md --exclude *.pyd
+[2023-06-06 08:45:31] INFO root fetch - processPackages [yyxx-game-pkg]: Downloading https://files.pythonhosted.org/packages/7f/18/9075bbb727f2170f06e26e2de9f9d3faca69cc1a4f526aba9721bb61f1df/yyxx_game_pkg-2023.6.6.1.tar.gz
+[2023-06-06 08:45:31] INFO root fetch - processPackages [yyxx-game-pkg]: executing diffoscope
+[2023-06-06 08:45:31] INFO root fetch - processPackages [yyxx-game-pkg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yyxx_game_pkg-2023.5.4.1.tar.gz tmp/yyxx_game_pkg-2023.6.6.1.tar.gz --markdown 20230606/y/yyxx-game-pkg/2023.5.4.1-2023.6.6.1/diff.md --exclude *.pyd
+[2023-06-06 08:45:31] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.1.tar.gz]
+[2023-06-06 08:45:31] INFO root fetch - processPackages [dipex]: Remove: archive file [/home/abi/fetcher/tmp/dipex-4.9.2.tar.gz]
+[2023-06-06 08:45:31] INFO root fetch - main [MainThread]: End processing [dipex]: success
+[2023-06-06 08:45:31] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.0.3.tar.gz]
+[2023-06-06 08:45:31] INFO root fetch - processPackages [revChatGPT]: Remove: archive file [/home/abi/fetcher/tmp/revChatGPT-6.0.4.tar.gz]
+[2023-06-06 08:45:31] INFO root fetch - main [MainThread]: End processing [revChatGPT]: success
+[2023-06-06 08:45:31] INFO root fetch - processPackages [kindenty-base]: Remove: archive file [/home/abi/fetcher/tmp/kindenty_base-0.1.8.tar.gz]
+[2023-06-06 08:45:31] INFO root fetch - processPackages [kindenty-base]: Remove: archive file [/home/abi/fetcher/tmp/kindenty_base-0.1.9.tar.gz]
+[2023-06-06 08:45:31] INFO root fetch - main [MainThread]: End processing [kindenty-base]: success
+[2023-06-06 08:45:31] INFO root fetch - processPackages [liquisource]: Remove: archive file [/home/abi/fetcher/tmp/liquisource-1.1.5.tar.gz]
+[2023-06-06 08:45:31] INFO root fetch - processPackages [liquisource]: Remove: archive file [/home/abi/fetcher/tmp/liquisource-1.1.6.tar.gz]
+[2023-06-06 08:45:31] INFO root fetch - main [MainThread]: End processing [liquisource]: success
+[2023-06-06 08:45:31] INFO root fetch - processPackages [LbProdRun]: Remove: archive file [/home/abi/fetcher/tmp/LbProdRun-1.4.1.tar.gz]
+[2023-06-06 08:45:31] INFO root fetch - processPackages [LbProdRun]: Remove: archive file [/home/abi/fetcher/tmp/LbProdRun-1.5.0.tar.gz]
+[2023-06-06 08:45:31] INFO root fetch - main [MainThread]: End processing [LbProdRun]: success
+[2023-06-06 08:45:33] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2023.5.4.1.tar.gz]
+[2023-06-06 08:45:33] INFO root fetch - processPackages [yyxx-game-pkg]: Remove: archive file [/home/abi/fetcher/tmp/yyxx_game_pkg-2023.6.6.1.tar.gz]
+[2023-06-06 08:45:33] INFO root fetch - main [MainThread]: End processing [yyxx-game-pkg]: success
+[2023-06-06 08:45:33] INFO root fetch - main [MainThread]: Store serial: [18387626]
