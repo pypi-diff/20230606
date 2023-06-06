@@ -12419,3 +12419,87 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 06:54:41] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.6.2.tar.gz]
 [2023-06-06 06:54:41] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-06-06 06:54:41] INFO root fetch - main [MainThread]: Store serial: [18386720]
+[2023-06-06 06:59:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18386720]
+[2023-06-06 06:59:49] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-06-06 06:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flowetl
+[2023-06-06 06:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flowmachine
+[2023-06-06 06:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: flowclient
+[2023-06-06 06:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vector-vault
+[2023-06-06 06:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: molecule-qemu
+[2023-06-06 06:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: motion-python
+[2023-06-06 06:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-sale-elaboration
+[2023-06-06 06:59:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addon-sale-order-invoice-amount
+[2023-06-06 06:59:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: odoo-addons-oca-sale-workflow
+[2023-06-06 06:59:50] INFO root fetch - processPackages [molecule-qemu]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-06-06 06:59:50] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: New version: [16.0.1.0.0.3] Old Version: [16.0.1.0.0.2]
+[2023-06-06 06:59:50] INFO root fetch - processPackages [odoo-addon-sale-order-invoice-amount]: New version: [16.0.1.0.0.2] Old Version: [16.0.1.0.0.1]
+[2023-06-06 06:59:50] INFO root fetch - processPackages [vector-vault]: New version: [2.0.1] Old Version: [2.0.0]
+[2023-06-06 06:59:50] INFO root fetch - processPackages [motion-python]: New version: [0.1.57] Old Version: [0.1.56]
+[2023-06-06 06:59:50] INFO root fetch - processPackages [flowclient]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-06-06 06:59:50] INFO root fetch - processPackages [flowetl]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-06-06 06:59:50] INFO root fetch - processPackages [flowmachine]: New version: [1.9.4.post0.dev76] Old Version: [1.9.4.post0.dev70]
+[2023-06-06 06:59:50] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/cc/99/071b081738d76a3489b67dc76ae052274427bab836adeaae6ec3d149e6ba/vector_vault-2.0.0.tar.gz
+[2023-06-06 06:59:50] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/cd/1d/59edc98a324996e8f0efd5ab982815fa96e92baf9468491a399f3c4a431f/motion_python-0.1.56.tar.gz
+[2023-06-06 06:59:50] INFO root fetch - processPackages [odoo-addon-sale-order-invoice-amount]: Downloading https://files.pythonhosted.org/packages/da/d1/9662c7d6b13133f3f6f331eff8eec4b26e52dea37637809aa029a30169f6/odoo_addon_sale_order_invoice_amount-16.0.1.0.0.1-py3-none-any.whl
+[2023-06-06 06:59:50] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: New version: [16.0.20230605.1] Old Version: [16.0.20230516.0]
+[2023-06-06 06:59:50] INFO root fetch - processPackages [molecule-qemu]: Downloading https://files.pythonhosted.org/packages/f0/a4/625e7e355b4e663651bcceadb6ce38fa842046909f85e3df7dbc4c73366c/molecule-qemu-0.4.2.tar.gz
+[2023-06-06 06:59:50] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Downloading https://files.pythonhosted.org/packages/fb/1e/705a22342831ef9095d7069d150c0fab28a7cc69f5cba24d136ecadd4354/odoo_addon_sale_elaboration-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-06 06:59:50] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/ff/bf/14ac068a066254bcc3b11ea0939b748a8b86f4e7e01bff260e84c6428c02/flowmachine-1.9.4.post0.dev70-py3-none-any.whl
+[2023-06-06 06:59:50] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/6e/37/bfddd70659fed8e7ba3a486ccedc2b55d3a84bf6338dbd6fda2fc4b2d415/flowclient-1.9.4.post0.dev70-py3-none-any.whl
+[2023-06-06 06:59:50] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/7d/68/60330ef4aed6e6a0e8c8f1474a60a9868ed4e2bf928a79eae26c2becd5cb/flowetl-1.9.4.post0.dev70-py3-none-any.whl
+[2023-06-06 06:59:50] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/1b/23/538505f03ef11a6bc2becdf228be95577b413c619ba40a0c0ca93f2d89fa/odoo_addons_oca_sale_workflow-16.0.20230516.0-py3-none-any.whl
+[2023-06-06 06:59:50] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/21/55/42839355039479c2ff74d145d5a2d4d76bb377a61a7dcba9f34d5a134dc2/vector_vault-2.0.1.tar.gz
+[2023-06-06 06:59:50] INFO root fetch - processPackages [motion-python]: Downloading https://files.pythonhosted.org/packages/c7/21/e92fcc7c9772f1f1ae311b7d6356cb2c7872c602dffe77eb6044025eada2/motion_python-0.1.57.tar.gz
+[2023-06-06 06:59:50] INFO root fetch - processPackages [odoo-addon-sale-order-invoice-amount]: Downloading https://files.pythonhosted.org/packages/31/5e/1c95442bcbba881227bc0f0435ab7757835eb98e67275af75e40b13eb80e/odoo_addon_sale_order_invoice_amount-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-06 06:59:50] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-06-06 06:59:50] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-2.0.0.tar.gz tmp/vector_vault-2.0.1.tar.gz --markdown 20230606/v/vector-vault/2.0.0-2.0.1/diff.md --exclude *.pyd
+[2023-06-06 06:59:50] INFO root fetch - processPackages [molecule-qemu]: Downloading https://files.pythonhosted.org/packages/f6/c7/0da32dd0f7e9444d0e5c8e6ce8589f7f59538f2f5c652eb4959492d0d96c/molecule-qemu-0.4.3.tar.gz
+[2023-06-06 06:59:50] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Downloading https://files.pythonhosted.org/packages/bd/50/5b39b16eff58284a5fe9e39be84bfce8e2159a9c7f672d20cff8734ea8c0/odoo_addon_sale_elaboration-16.0.1.0.0.3-py3-none-any.whl
+[2023-06-06 06:59:50] INFO root fetch - processPackages [odoo-addon-sale-order-invoice-amount]: executing diffoscope
+[2023-06-06 06:59:50] INFO root fetch - processPackages [odoo-addon-sale-order-invoice-amount]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_order_invoice_amount-16.0.1.0.0.1-py3-none-any.whl.zip tmp/odoo_addon_sale_order_invoice_amount-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-sale-order-invoice-amount/16.0.1.0.0.1-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-06 06:59:50] INFO root fetch - processPackages [motion-python]: executing diffoscope
+[2023-06-06 06:59:50] INFO root fetch - processPackages [motion-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motion_python-0.1.56.tar.gz tmp/motion_python-0.1.57.tar.gz --markdown 20230606/m/motion-python/0.1.56-0.1.57/diff.md --exclude *.pyd
+[2023-06-06 06:59:50] INFO root fetch - processPackages [flowmachine]: Downloading https://files.pythonhosted.org/packages/25/d8/7f2f3ed6764c57835d2e49a0547b3be72952a62e845b2f82cfb00d4847df/flowmachine-1.9.4.post0.dev76-py3-none-any.whl
+[2023-06-06 06:59:50] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: executing diffoscope
+[2023-06-06 06:59:50] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_elaboration-16.0.1.0.0.2-py3-none-any.whl.zip tmp/odoo_addon_sale_elaboration-16.0.1.0.0.3-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-sale-elaboration/16.0.1.0.0.2-16.0.1.0.0.3/diff.md --exclude *.pyd
+[2023-06-06 06:59:50] INFO root fetch - processPackages [molecule-qemu]: executing diffoscope
+[2023-06-06 06:59:50] INFO root fetch - processPackages [flowetl]: Downloading https://files.pythonhosted.org/packages/aa/29/1fe11f39e3155139661660c2caf8caf80ccb6e0fce150e201a56d2aaf812/flowetl-1.9.4.post0.dev76-py3-none-any.whl
+[2023-06-06 06:59:50] INFO root fetch - processPackages [molecule-qemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecule-qemu-0.4.2.tar.gz tmp/molecule-qemu-0.4.3.tar.gz --markdown 20230606/m/molecule-qemu/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-06-06 06:59:50] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Downloading https://files.pythonhosted.org/packages/56/be/aed656e9248f2d8032671b07d1932d8e02d7db9d7c3fa98992bb26f875a2/odoo_addons_oca_sale_workflow-16.0.20230605.1-py3-none-any.whl
+[2023-06-06 06:59:50] INFO root fetch - processPackages [flowclient]: Downloading https://files.pythonhosted.org/packages/3e/ea/cf6edcf54b4b9f2c2c6149b4a6c3d8c57011245b7036b7468a43028bb1db/flowclient-1.9.4.post0.dev76-py3-none-any.whl
+[2023-06-06 06:59:50] INFO root fetch - processPackages [flowetl]: executing diffoscope
+[2023-06-06 06:59:50] INFO root fetch - processPackages [flowetl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230606/f/flowetl/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-06-06 06:59:50] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: executing diffoscope
+[2023-06-06 06:59:50] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_workflow-16.0.20230516.0-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_workflow-16.0.20230605.1-py3-none-any.whl.zip --markdown 20230606/o/odoo-addons-oca-sale-workflow/16.0.20230516.0-16.0.20230605.1/diff.md --exclude *.pyd
+[2023-06-06 06:59:50] INFO root fetch - processPackages [flowclient]: executing diffoscope
+[2023-06-06 06:59:50] INFO root fetch - processPackages [flowclient]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230606/f/flowclient/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-06-06 06:59:50] INFO root fetch - processPackages [flowmachine]: executing diffoscope
+[2023-06-06 06:59:50] INFO root fetch - processPackages [flowmachine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip --markdown 20230606/f/flowmachine/1.9.4.post0.dev70-1.9.4.post0.dev76/diff.md --exclude *.pyd
+[2023-06-06 06:59:51] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-2.0.0.tar.gz]
+[2023-06-06 06:59:51] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-2.0.1.tar.gz]
+[2023-06-06 06:59:51] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-06-06 06:59:52] INFO root fetch - processPackages [motion-python]: Remove: archive file [/home/abi/fetcher/tmp/motion_python-0.1.56.tar.gz]
+[2023-06-06 06:59:52] INFO root fetch - processPackages [motion-python]: Remove: archive file [/home/abi/fetcher/tmp/motion_python-0.1.57.tar.gz]
+[2023-06-06 06:59:52] INFO root fetch - main [MainThread]: End processing [motion-python]: success
+[2023-06-06 06:59:52] INFO root fetch - processPackages [odoo-addon-sale-order-invoice-amount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_invoice_amount-16.0.1.0.0.1-py3-none-any.whl.zip]
+[2023-06-06 06:59:52] INFO root fetch - processPackages [odoo-addon-sale-order-invoice-amount]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_order_invoice_amount-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-06 06:59:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-order-invoice-amount]: success
+[2023-06-06 06:59:52] INFO root fetch - processPackages [molecule-qemu]: Remove: archive file [/home/abi/fetcher/tmp/molecule-qemu-0.4.2.tar.gz]
+[2023-06-06 06:59:52] INFO root fetch - processPackages [molecule-qemu]: Remove: archive file [/home/abi/fetcher/tmp/molecule-qemu-0.4.3.tar.gz]
+[2023-06-06 06:59:52] INFO root fetch - main [MainThread]: End processing [molecule-qemu]: success
+[2023-06-06 06:59:52] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_elaboration-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-06 06:59:52] INFO root fetch - processPackages [odoo-addon-sale-elaboration]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_elaboration-16.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-06 06:59:52] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-elaboration]: success
+[2023-06-06 06:59:52] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20230516.0-py3-none-any.whl.zip]
+[2023-06-06 06:59:52] INFO root fetch - processPackages [odoo-addons-oca-sale-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_workflow-16.0.20230605.1-py3-none-any.whl.zip]
+[2023-06-06 06:59:52] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-workflow]: success
+[2023-06-06 06:59:52] INFO root fetch - processPackages [flowclient]: Remove: archive file [/home/abi/fetcher/tmp/flowclient-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2023-06-06 06:59:52] INFO root fetch - processPackages [flowclient]: Remove: archive file [/home/abi/fetcher/tmp/flowclient-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2023-06-06 06:59:52] INFO root fetch - main [MainThread]: End processing [flowclient]: success
+[2023-06-06 06:59:52] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2023-06-06 06:59:52] INFO root fetch - processPackages [flowetl]: Remove: archive file [/home/abi/fetcher/tmp/flowetl-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2023-06-06 06:59:52] INFO root fetch - main [MainThread]: End processing [flowetl]: success
+[2023-06-06 06:59:53] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev70-py3-none-any.whl.zip]
+[2023-06-06 06:59:53] INFO root fetch - processPackages [flowmachine]: Remove: archive file [/home/abi/fetcher/tmp/flowmachine-1.9.4.post0.dev76-py3-none-any.whl.zip]
+[2023-06-06 06:59:53] INFO root fetch - main [MainThread]: End processing [flowmachine]: success
+[2023-06-06 06:59:53] INFO root fetch - main [MainThread]: Store serial: [18386741]
