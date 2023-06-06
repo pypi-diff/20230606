@@ -12659,3 +12659,126 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 07:14:06] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
 [2023-06-06 07:14:06] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
 [2023-06-06 07:14:06] INFO root fetch - main [MainThread]: Store serial: [18386801]
+[2023-06-06 07:19:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18386801]
+[2023-06-06 07:19:15] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-06-06 07:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lc-checkpoint
+[2023-06-06 07:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytest-homeassistant-custom-component
+[2023-06-06 07:19:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: chalkpy
+[2023-06-06 07:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qos-tools
+[2023-06-06 07:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: apiiif
+[2023-06-06 07:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: refaci
+[2023-06-06 07:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: vee-ap-generation
+[2023-06-06 07:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: molecule-qemu
+[2023-06-06 07:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nemo-library
+[2023-06-06 07:19:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: AnaplanPY
+[2023-06-06 07:19:16] INFO root fetch - processPackages [apiiif]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-06 07:19:16] WARNING root fetch - processPackages [qos-tools]: Skipping, unable to determine old version
+[2023-06-06 07:19:16] INFO root fetch - processPackages [qos-tools]: Start processing: macrometa-source-collection
+[2023-06-06 07:19:16] INFO root fetch - main [MainThread]: End processing [qos-tools] error
+[2023-06-06 07:19:16] WARNING root fetch - processPackages [lc-checkpoint]: Skipping, unable to determine old version
+[2023-06-06 07:19:16] INFO root fetch - processPackages [lc-checkpoint]: Start processing: lppls
+[2023-06-06 07:19:16] INFO root fetch - main [MainThread]: End processing [lc-checkpoint] error
+[2023-06-06 07:19:16] INFO root fetch - processPackages [AnaplanPY]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-06 07:19:16] INFO root fetch - processPackages [vee-ap-generation]: New version: [9.0.11209] Old Version: [1.0.11209]
+[2023-06-06 07:19:16] INFO root fetch - processPackages [refaci]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-06 07:19:16] INFO root fetch - processPackages [molecule-qemu]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-06-06 07:19:16] INFO root fetch - processPackages [nemo-library]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-06 07:19:16] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-06 07:19:16] INFO root fetch - processPackages [macrometa-source-collection]: New version: [0.0.38] Old Version: [0.0.37]
+[2023-06-06 07:19:16] INFO root fetch - processPackages [lppls]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-06 07:19:16] INFO root fetch - processPackages [AnaplanPY]: Downloading https://files.pythonhosted.org/packages/59/df/69c2f30610b81ba4888ff81d435d80fcf92279ee7f3e33e19bc247022446/AnaplanPY-0.2.2.tar.gz
+[2023-06-06 07:19:16] INFO root fetch - processPackages [chalkpy]: New version: [2.6.3] Old Version: [2.6.2]
+[2023-06-06 07:19:16] INFO root fetch - processPackages [molecule-qemu]: Downloading https://files.pythonhosted.org/packages/f6/c7/0da32dd0f7e9444d0e5c8e6ce8589f7f59538f2f5c652eb4959492d0d96c/molecule-qemu-0.4.3.tar.gz
+[2023-06-06 07:19:16] INFO root fetch - processPackages [nemo-library]: Downloading https://files.pythonhosted.org/packages/96/21/8535415cc9cc8917f162abf7b1da0fcb05f7bd27055ddb39595fec13e2ce/nemo_library-1.0.8.tar.gz
+[2023-06-06 07:19:16] INFO root fetch - processPackages [lppls]: Downloading https://files.pythonhosted.org/packages/3d/46/3bbe84bbda949befc9a10fb84d3b141f00e728b6c87f17e239131be19326/lppls-0.6.8.tar.gz
+[2023-06-06 07:19:16] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/50/1c/7a02dad4deed4b1cc1f570298aa605c44e7c740d9f76dbd540db9f136833/macrometa-source-collection-0.0.37.tar.gz
+[2023-06-06 07:19:16] INFO root fetch - processPackages [refaci]: Downloading https://files.pythonhosted.org/packages/7c/ee/6a2b2fb77dd91e71f612bb4e02c60688b99cc256fee747cf02a31b9d9445/refaci-0.3.0.tar.gz
+[2023-06-06 07:19:16] INFO root fetch - processPackages [vee-ap-generation]: Downloading https://files.pythonhosted.org/packages/c2/8d/581625a0d987f5a12545d11d3fd7a1d8bf0d9827e3921eeaf869fd4938b0/vee-ap-generation-1.0.11209.tar.gz
+[2023-06-06 07:19:16] INFO root fetch - processPackages [apiiif]: Downloading https://files.pythonhosted.org/packages/c9/26/220def2d9f4f2e1852a05e03ea3eccdc512a81fbb7c2298ff823c1eb3719/apiiif-0.0.3.tar.gz
+[2023-06-06 07:19:16] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/8a/3b/b76075872ac35edad46a4fd3401c3faebda7af874b306526a1d7e1a4336a/pytest-homeassistant-custom-component-0.9.8.tar.gz
+[2023-06-06 07:19:16] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/8e/14/389966ec8551b2aeaec9b25afd94bb216566ff6f8e4df9928cec79afdc23/chalkpy-2.6.2.tar.gz
+[2023-06-06 07:19:16] INFO root fetch - processPackages [lppls]: Downloading https://files.pythonhosted.org/packages/9e/ea/11d64d046a471492c9b7d4ba794c93b75e0b9e46cb8cfbcc7e570b90e9c0/lppls-0.6.9.tar.gz
+[2023-06-06 07:19:16] INFO root fetch - processPackages [AnaplanPY]: Downloading https://files.pythonhosted.org/packages/05/ac/19bf1f0938a65a1f0d59e38f449cb7e0e5360f3e04a3a22aeb6f3cb92858/AnaplanPY-0.2.3.tar.gz
+[2023-06-06 07:19:16] INFO root fetch - processPackages [nemo-library]: Downloading https://files.pythonhosted.org/packages/1c/ac/14ae2f7f8a4d99ed894b1c19114aff87c84d1136565a92f2d179daa6499f/nemo_library-1.0.9.tar.gz
+[2023-06-06 07:19:16] INFO root fetch - processPackages [lppls]: executing diffoscope
+[2023-06-06 07:19:16] INFO root fetch - processPackages [lppls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lppls-0.6.8.tar.gz tmp/lppls-0.6.9.tar.gz --markdown 20230606/l/lppls/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-06 07:19:16] INFO root fetch - processPackages [AnaplanPY]: executing diffoscope
+[2023-06-06 07:19:16] INFO root fetch - processPackages [macrometa-source-collection]: Downloading https://files.pythonhosted.org/packages/e6/cd/c9a2336cc00360562d5b46a6420a3985b9289705ea6336f4758e7e88ca73/macrometa-source-collection-0.0.38.tar.gz
+[2023-06-06 07:19:16] INFO root fetch - processPackages [AnaplanPY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AnaplanPY-0.2.2.tar.gz tmp/AnaplanPY-0.2.3.tar.gz --markdown 20230606/A/AnaplanPY/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-06 07:19:16] INFO root fetch - processPackages [refaci]: Downloading https://files.pythonhosted.org/packages/f5/c0/97be87f1ceec152e140e08a20327f021fc74397a502a9e9420257d1884c6/refaci-0.4.0.tar.gz
+[2023-06-06 07:19:16] INFO root fetch - processPackages [molecule-qemu]: Downloading https://files.pythonhosted.org/packages/5c/c5/1265f2ccb107d7ffb1b239f92b32b0c7cd35975c3c7005589d8f7453b879/molecule-qemu-0.4.4.tar.gz
+[2023-06-06 07:19:16] INFO root fetch - processPackages [vee-ap-generation]: Downloading https://files.pythonhosted.org/packages/e7/d0/2820cc4e2ad68bfe3da5a98ab1b9eb573c3ada02412376c78c8687187596/vee-ap-generation-9.0.11209.tar.gz
+[2023-06-06 07:19:16] INFO root fetch - processPackages [apiiif]: Downloading https://files.pythonhosted.org/packages/41/7d/47f76081b3ff5d50303effc41746b4af4ae78d6add73a18a58c70ae0f335/apiiif-0.0.4.tar.gz
+[2023-06-06 07:19:16] INFO root fetch - processPackages [refaci]: executing diffoscope
+[2023-06-06 07:19:16] INFO root fetch - processPackages [refaci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refaci-0.3.0.tar.gz tmp/refaci-0.4.0.tar.gz --markdown 20230606/r/refaci/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-06 07:19:16] INFO root fetch - processPackages [apiiif]: executing diffoscope
+[2023-06-06 07:19:16] INFO root fetch - processPackages [apiiif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apiiif-0.0.3.tar.gz tmp/apiiif-0.0.4.tar.gz --markdown 20230606/a/apiiif/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-06 07:19:16] INFO root fetch - processPackages [chalkpy]: Downloading https://files.pythonhosted.org/packages/7c/6d/a9fdef5cbab6588b9e51cc2f520596fe2cfe6125fb76fa9f3cb06f6ee26f/chalkpy-2.6.3.tar.gz
+[2023-06-06 07:19:16] INFO root fetch - processPackages [nemo-library]: executing diffoscope
+[2023-06-06 07:19:16] INFO root fetch - processPackages [macrometa-source-collection]: executing diffoscope
+[2023-06-06 07:19:16] INFO root fetch - processPackages [nemo-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nemo_library-1.0.8.tar.gz tmp/nemo_library-1.0.9.tar.gz --markdown 20230606/n/nemo-library/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-06 07:19:16] INFO root fetch - processPackages [macrometa-source-collection]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-source-collection-0.0.37.tar.gz tmp/macrometa-source-collection-0.0.38.tar.gz --markdown 20230606/m/macrometa-source-collection/0.0.37-0.0.38/diff.md --exclude *.pyd
+[2023-06-06 07:19:16] INFO root fetch - processPackages [molecule-qemu]: executing diffoscope
+[2023-06-06 07:19:16] INFO root fetch - processPackages [molecule-qemu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/molecule-qemu-0.4.3.tar.gz tmp/molecule-qemu-0.4.4.tar.gz --markdown 20230606/m/molecule-qemu/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-06-06 07:19:16] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/60/4e/ba1174db4b883610c2a5afba7a30857178ada41a2368936b2e3d764bfe6a/pytest-homeassistant-custom-component-0.9.9.tar.gz
+[2023-06-06 07:19:16] INFO root fetch - processPackages [vee-ap-generation]: executing diffoscope
+[2023-06-06 07:19:16] INFO root fetch - processPackages [vee-ap-generation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vee-ap-generation-1.0.11209.tar.gz tmp/vee-ap-generation-9.0.11209.tar.gz --markdown 20230606/v/vee-ap-generation/1.0.11209-9.0.11209/diff.md --exclude *.pyd
+[2023-06-06 07:19:16] INFO root fetch - processPackages [chalkpy]: executing diffoscope
+[2023-06-06 07:19:16] INFO root fetch - processPackages [chalkpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chalkpy-2.6.2.tar.gz tmp/chalkpy-2.6.3.tar.gz --markdown 20230606/c/chalkpy/2.6.2-2.6.3/diff.md --exclude *.pyd
+[2023-06-06 07:19:16] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: executing diffoscope
+[2023-06-06 07:19:16] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz --markdown 20230606/p/pytest-homeassistant-custom-component/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-06 07:19:17] INFO root fetch - processPackages [AnaplanPY]: Remove: archive file [/home/abi/fetcher/tmp/AnaplanPY-0.2.2.tar.gz]
+[2023-06-06 07:19:17] INFO root fetch - processPackages [AnaplanPY]: Remove: archive file [/home/abi/fetcher/tmp/AnaplanPY-0.2.3.tar.gz]
+[2023-06-06 07:19:17] INFO root fetch - processPackages [AnaplanPY]: Start processing: carefree-drawboard
+[2023-06-06 07:19:17] INFO root fetch - main [MainThread]: End processing [AnaplanPY]: success
+[2023-06-06 07:19:17] INFO root fetch - processPackages [lppls]: Remove: archive file [/home/abi/fetcher/tmp/lppls-0.6.8.tar.gz]
+[2023-06-06 07:19:17] INFO root fetch - processPackages [lppls]: Remove: archive file [/home/abi/fetcher/tmp/lppls-0.6.9.tar.gz]
+[2023-06-06 07:19:17] INFO root fetch - processPackages [lppls]: Start processing: pipeline-feature
+[2023-06-06 07:19:17] INFO root fetch - main [MainThread]: End processing [lppls]: success
+[2023-06-06 07:19:17] INFO root fetch - processPackages [carefree-drawboard]: New version: [0.0.2a0] Old Version: [0.0.1a4]
+[2023-06-06 07:19:17] WARNING root fetch - processPackages [pipeline-feature]: Skipping, unable to determine old version
+[2023-06-06 07:19:17] INFO root fetch - processPackages [pipeline-feature]: Start processing: streamlit-network-d3
+[2023-06-06 07:19:17] INFO root fetch - main [MainThread]: End processing [pipeline-feature] error
+[2023-06-06 07:19:18] WARNING root fetch - processPackages [streamlit-network-d3]: Skipping, unable to determine old version
+[2023-06-06 07:19:18] INFO root fetch - processPackages [streamlit-network-d3]: Start processing: validar-modelos
+[2023-06-06 07:19:18] INFO root fetch - main [MainThread]: End processing [streamlit-network-d3] error
+[2023-06-06 07:19:18] INFO root fetch - processPackages [validar-modelos]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-06 07:19:18] INFO root fetch - processPackages [validar-modelos]: Downloading https://files.pythonhosted.org/packages/0e/50/889574c9866e2298090850aa61b7c00bd718a177fa713b32b040169750a6/validar_modelos-0.0.3.tar.gz
+[2023-06-06 07:19:18] INFO root fetch - processPackages [carefree-drawboard]: Downloading https://files.pythonhosted.org/packages/d8/37/b662b337d41e6f85c635073f19dedd656f0f5e5d2fd9c937ca30de53be65/carefree-drawboard-0.0.1a4.tar.gz
+[2023-06-06 07:19:18] INFO root fetch - processPackages [apiiif]: Remove: archive file [/home/abi/fetcher/tmp/apiiif-0.0.3.tar.gz]
+[2023-06-06 07:19:18] INFO root fetch - processPackages [apiiif]: Remove: archive file [/home/abi/fetcher/tmp/apiiif-0.0.4.tar.gz]
+[2023-06-06 07:19:18] INFO root fetch - main [MainThread]: End processing [apiiif]: success
+[2023-06-06 07:19:18] INFO root fetch - processPackages [refaci]: Remove: archive file [/home/abi/fetcher/tmp/refaci-0.3.0.tar.gz]
+[2023-06-06 07:19:18] INFO root fetch - processPackages [refaci]: Remove: archive file [/home/abi/fetcher/tmp/refaci-0.4.0.tar.gz]
+[2023-06-06 07:19:18] INFO root fetch - main [MainThread]: End processing [refaci]: success
+[2023-06-06 07:19:18] INFO root fetch - processPackages [validar-modelos]: Downloading https://files.pythonhosted.org/packages/8c/8c/55c784ab73fb8cab500fc6f3eb02d6e515529580eabe79c41aaebe31a82d/validar_modelos-0.0.4.tar.gz
+[2023-06-06 07:19:18] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.37.tar.gz]
+[2023-06-06 07:19:18] INFO root fetch - processPackages [macrometa-source-collection]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-source-collection-0.0.38.tar.gz]
+[2023-06-06 07:19:18] INFO root fetch - main [MainThread]: End processing [macrometa-source-collection]: success
+[2023-06-06 07:19:18] INFO root fetch - processPackages [validar-modelos]: executing diffoscope
+[2023-06-06 07:19:18] INFO root fetch - processPackages [validar-modelos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validar_modelos-0.0.3.tar.gz tmp/validar_modelos-0.0.4.tar.gz --markdown 20230606/v/validar-modelos/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-06 07:19:18] INFO root fetch - processPackages [carefree-drawboard]: Downloading https://files.pythonhosted.org/packages/be/e6/886f6a14ff6332cabf65b25af98ef1fb7be849d4fdc681e105c87277986b/carefree-drawboard-0.0.2a0.tar.gz
+[2023-06-06 07:19:18] INFO root fetch - processPackages [vee-ap-generation]: Remove: archive file [/home/abi/fetcher/tmp/vee-ap-generation-1.0.11209.tar.gz]
+[2023-06-06 07:19:18] INFO root fetch - processPackages [vee-ap-generation]: Remove: archive file [/home/abi/fetcher/tmp/vee-ap-generation-9.0.11209.tar.gz]
+[2023-06-06 07:19:18] INFO root fetch - main [MainThread]: End processing [vee-ap-generation]: success
+[2023-06-06 07:19:18] INFO root fetch - processPackages [carefree-drawboard]: executing diffoscope
+[2023-06-06 07:19:18] INFO root fetch - processPackages [carefree-drawboard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/carefree-drawboard-0.0.1a4.tar.gz tmp/carefree-drawboard-0.0.2a0.tar.gz --markdown 20230606/c/carefree-drawboard/0.0.1a4-0.0.2a0/diff.md --exclude *.pyd
+[2023-06-06 07:19:18] INFO root fetch - processPackages [molecule-qemu]: Remove: archive file [/home/abi/fetcher/tmp/molecule-qemu-0.4.3.tar.gz]
+[2023-06-06 07:19:18] INFO root fetch - processPackages [molecule-qemu]: Remove: archive file [/home/abi/fetcher/tmp/molecule-qemu-0.4.4.tar.gz]
+[2023-06-06 07:19:18] INFO root fetch - main [MainThread]: End processing [molecule-qemu]: success
+[2023-06-06 07:19:18] INFO root fetch - processPackages [nemo-library]: Remove: archive file [/home/abi/fetcher/tmp/nemo_library-1.0.8.tar.gz]
+[2023-06-06 07:19:18] INFO root fetch - processPackages [nemo-library]: Remove: archive file [/home/abi/fetcher/tmp/nemo_library-1.0.9.tar.gz]
+[2023-06-06 07:19:18] INFO root fetch - main [MainThread]: End processing [nemo-library]: success
+[2023-06-06 07:19:18] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz]
+[2023-06-06 07:19:18] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz]
+[2023-06-06 07:19:18] INFO root fetch - main [MainThread]: End processing [pytest-homeassistant-custom-component]: success
+[2023-06-06 07:19:19] INFO root fetch - processPackages [validar-modelos]: Remove: archive file [/home/abi/fetcher/tmp/validar_modelos-0.0.3.tar.gz]
+[2023-06-06 07:19:19] INFO root fetch - processPackages [validar-modelos]: Remove: archive file [/home/abi/fetcher/tmp/validar_modelos-0.0.4.tar.gz]
+[2023-06-06 07:19:19] INFO root fetch - main [MainThread]: End processing [validar-modelos]: success
+[2023-06-06 07:19:21] INFO root fetch - processPackages [carefree-drawboard]: Remove: archive file [/home/abi/fetcher/tmp/carefree-drawboard-0.0.1a4.tar.gz]
+[2023-06-06 07:19:21] INFO root fetch - processPackages [carefree-drawboard]: Remove: archive file [/home/abi/fetcher/tmp/carefree-drawboard-0.0.2a0.tar.gz]
+[2023-06-06 07:19:21] INFO root fetch - main [MainThread]: End processing [carefree-drawboard]: success
+[2023-06-06 07:19:22] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.6.2.tar.gz]
+[2023-06-06 07:19:22] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.6.3.tar.gz]
+[2023-06-06 07:19:22] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
+[2023-06-06 07:19:22] INFO root fetch - main [MainThread]: Store serial: [18386856]
