@@ -18918,3 +18918,51 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-06 11:34:37] INFO root fetch - processPackages [optimos]: Remove: archive file [/home/abi/fetcher/tmp/optimos-0.9.1.tar.gz]
 [2023-06-06 11:34:37] INFO root fetch - main [MainThread]: End processing [optimos]: success
 [2023-06-06 11:34:37] INFO root fetch - main [MainThread]: Store serial: [18389464]
+[2023-06-06 11:39:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18389464]
+[2023-06-06 11:39:46] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-06 11:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-clickzetta
+[2023-06-06 11:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: jalali-calendar-cli
+[2023-06-06 11:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: optimos
+[2023-06-06 11:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: procure
+[2023-06-06 11:39:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: simplegoogleapi
+[2023-06-06 11:39:46] INFO root fetch - processPackages [optimos]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-06 11:39:46] INFO root fetch - processPackages [procure]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-06 11:39:46] INFO root fetch - processPackages [simplegoogleapi]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-06 11:39:46] INFO root fetch - processPackages [jalali-calendar-cli]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-06 11:39:46] INFO root fetch - processPackages [dbt-clickzetta]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-06 11:39:47] INFO root fetch - processPackages [optimos]: Downloading https://files.pythonhosted.org/packages/9c/50/ac2ffb7afc753902fc149a404f3f6f1d94039e197a919ab72ef6f5856e23/optimos-0.9.1.tar.gz
+[2023-06-06 11:39:47] INFO root fetch - processPackages [jalali-calendar-cli]: Downloading https://files.pythonhosted.org/packages/48/a5/da800b18cc7cc0ecb554f2818278d976ad940afd18dfd79523b4ebb1f203/jalali_calendar_cli-0.1.3.tar.gz
+[2023-06-06 11:39:47] INFO root fetch - processPackages [simplegoogleapi]: Downloading https://files.pythonhosted.org/packages/f8/5d/bb30ae014c4f2374f67b2978e8ea354cb0d5363a0197c5610ef6b54c8ec3/simplegoogleapi-0.1.0-py3-none-any.whl
+[2023-06-06 11:39:47] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/09/f0/5a413293e92b4ca0d7431450a7218700efac779c0ce2a94f2b8d575440f2/dbt-clickzetta-0.2.8.tar.gz
+[2023-06-06 11:39:47] INFO root fetch - processPackages [procure]: Downloading https://files.pythonhosted.org/packages/91/c4/9fe36d16be9638d353fc6d96619a822a0ff8f2bbf94ac89a3d2020fa39f5/procure-0.1.0.tar.gz
+[2023-06-06 11:39:47] INFO root fetch - processPackages [jalali-calendar-cli]: Downloading https://files.pythonhosted.org/packages/78/c2/b3305d868863a2f2f76c746df5d3c5c442e2453bc214fb71ef89535778a4/jalali_calendar_cli-0.1.4.tar.gz
+[2023-06-06 11:39:47] INFO root fetch - processPackages [optimos]: Downloading https://files.pythonhosted.org/packages/8b/b2/404e42c820bdb761ea70b42d4c043a259e851ae8223e9493a6a3092d2851/optimos-0.9.2.tar.gz
+[2023-06-06 11:39:47] INFO root fetch - processPackages [simplegoogleapi]: Downloading https://files.pythonhosted.org/packages/fc/e4/2aded747488c56fc92388d1a262828c8f0b8088efbdfa542cb9f74da06e3/simplegoogleapi-0.1.1-py3-none-any.whl
+[2023-06-06 11:39:47] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/c1/14/85271f2139ff454c5ff9bcefec81d708e59f4ed0230702dafe1a5b557869/dbt-clickzetta-0.2.9.tar.gz
+[2023-06-06 11:39:47] INFO root fetch - processPackages [dbt-clickzetta]: executing diffoscope
+[2023-06-06 11:39:47] INFO root fetch - processPackages [dbt-clickzetta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-clickzetta-0.2.8.tar.gz tmp/dbt-clickzetta-0.2.9.tar.gz --markdown 20230606/d/dbt-clickzetta/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-06 11:39:47] INFO root fetch - processPackages [jalali-calendar-cli]: executing diffoscope
+[2023-06-06 11:39:47] INFO root fetch - processPackages [jalali-calendar-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jalali_calendar_cli-0.1.3.tar.gz tmp/jalali_calendar_cli-0.1.4.tar.gz --markdown 20230606/j/jalali-calendar-cli/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-06 11:39:47] INFO root fetch - processPackages [optimos]: executing diffoscope
+[2023-06-06 11:39:47] INFO root fetch - processPackages [optimos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimos-0.9.1.tar.gz tmp/optimos-0.9.2.tar.gz --markdown 20230606/o/optimos/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-06 11:39:47] INFO root fetch - processPackages [procure]: Downloading https://files.pythonhosted.org/packages/95/39/500a9c4f27e79573ee4af8af96d1be23eba86875f0f0f5ccf818dacaa148/procure-0.1.1.tar.gz
+[2023-06-06 11:39:47] INFO root fetch - processPackages [simplegoogleapi]: executing diffoscope
+[2023-06-06 11:39:47] INFO root fetch - processPackages [simplegoogleapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simplegoogleapi-0.1.0-py3-none-any.whl.zip tmp/simplegoogleapi-0.1.1-py3-none-any.whl.zip --markdown 20230606/s/simplegoogleapi/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-06 11:39:47] INFO root fetch - processPackages [procure]: executing diffoscope
+[2023-06-06 11:39:47] INFO root fetch - processPackages [procure]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/procure-0.1.0.tar.gz tmp/procure-0.1.1.tar.gz --markdown 20230606/p/procure/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-06 11:39:48] INFO root fetch - processPackages [jalali-calendar-cli]: Remove: archive file [/home/abi/fetcher/tmp/jalali_calendar_cli-0.1.3.tar.gz]
+[2023-06-06 11:39:48] INFO root fetch - processPackages [jalali-calendar-cli]: Remove: archive file [/home/abi/fetcher/tmp/jalali_calendar_cli-0.1.4.tar.gz]
+[2023-06-06 11:39:48] INFO root fetch - main [MainThread]: End processing [jalali-calendar-cli]: success
+[2023-06-06 11:39:48] INFO root fetch - processPackages [simplegoogleapi]: Remove: archive file [/home/abi/fetcher/tmp/simplegoogleapi-0.1.0-py3-none-any.whl.zip]
+[2023-06-06 11:39:48] INFO root fetch - processPackages [simplegoogleapi]: Remove: archive file [/home/abi/fetcher/tmp/simplegoogleapi-0.1.1-py3-none-any.whl.zip]
+[2023-06-06 11:39:48] INFO root fetch - main [MainThread]: End processing [simplegoogleapi]: success
+[2023-06-06 11:39:48] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.8.tar.gz]
+[2023-06-06 11:39:48] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.9.tar.gz]
+[2023-06-06 11:39:48] INFO root fetch - main [MainThread]: End processing [dbt-clickzetta]: success
+[2023-06-06 11:39:48] INFO root fetch - processPackages [procure]: Remove: archive file [/home/abi/fetcher/tmp/procure-0.1.0.tar.gz]
+[2023-06-06 11:39:48] INFO root fetch - processPackages [procure]: Remove: archive file [/home/abi/fetcher/tmp/procure-0.1.1.tar.gz]
+[2023-06-06 11:39:48] INFO root fetch - main [MainThread]: End processing [procure]: success
+[2023-06-06 11:39:48] INFO root fetch - processPackages [optimos]: Remove: archive file [/home/abi/fetcher/tmp/optimos-0.9.1.tar.gz]
+[2023-06-06 11:39:48] INFO root fetch - processPackages [optimos]: Remove: archive file [/home/abi/fetcher/tmp/optimos-0.9.2.tar.gz]
+[2023-06-06 11:39:48] INFO root fetch - main [MainThread]: End processing [optimos]: success
+[2023-06-06 11:39:48] INFO root fetch - main [MainThread]: Store serial: [18389478]
