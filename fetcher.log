@@ -12548,3 +12548,114 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 07:05:57] INFO root fetch - processPackages [zipline-norgatedata]: Remove: archive file [/home/abi/fetcher/tmp/zipline_norgatedata-2.4.3-py3-none-any.whl.zip]
 [2023-06-06 07:05:57] INFO root fetch - main [MainThread]: End processing [zipline-norgatedata]: success
 [2023-06-06 07:05:57] INFO root fetch - main [MainThread]: Store serial: [18386762]
+[2023-06-06 07:11:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18386762]
+[2023-06-06 07:11:06] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-06-06 07:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: p0-script
+[2023-06-06 07:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: validar-modelos
+[2023-06-06 07:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rapid-pe
+[2023-06-06 07:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: flask-themer
+[2023-06-06 07:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: multi-model-server
+[2023-06-06 07:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: signax
+[2023-06-06 07:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bohra
+[2023-06-06 07:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-base-model-restrict-update
+[2023-06-06 07:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tflite-model-maker-nightly
+[2023-06-06 07:11:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: lppls
+[2023-06-06 07:11:06] INFO root fetch - processPackages [flask-themer]: New version: [2.0.0] Old Version: [1.4.3]
+[2023-06-06 07:11:06] INFO root fetch - processPackages [validar-modelos]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-06 07:11:06] INFO root fetch - processPackages [signax]: New version: [0.2.0] Old Version: [0.1.2]
+[2023-06-06 07:11:06] INFO root fetch - processPackages [lppls]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-06 07:11:06] INFO root fetch - processPackages [odoo14-addon-base-model-restrict-update]: New version: [14.0.1.1.1.dev1] Old Version: [14.0.1.1.0]
+[2023-06-06 07:11:06] INFO root fetch - processPackages [bohra]: New version: [2.3.2] Old Version: [2.3.1]
+[2023-06-06 07:11:06] WARNING root fetch - processPackages [p0-script]: Skipping, unable to determine old version
+[2023-06-06 07:11:06] INFO root fetch - processPackages [p0-script]: Start processing: hrin-msb
+[2023-06-06 07:11:06] INFO root fetch - main [MainThread]: End processing [p0-script] error
+[2023-06-06 07:11:06] INFO root fetch - processPackages [rapid-pe]: New version: [0.1.1.dev20230606] Old Version: [0.1.1.dev20230605]
+[2023-06-06 07:11:06] INFO root fetch - processPackages [multi-model-server]: New version: [1.1.9b20230601] Old Version: [1.1.9]
+[2023-06-06 07:11:06] INFO root fetch - processPackages [hrin-msb]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-06-06 07:11:06] INFO root fetch - processPackages [tflite-model-maker-nightly]: New version: [0.4.3.dev202306050507] Old Version: [0.4.3.dev202306040508]
+[2023-06-06 07:11:06] INFO root fetch - processPackages [odoo14-addon-base-model-restrict-update]: Downloading https://files.pythonhosted.org/packages/07/93/9ccbb1ba97a332b33bed2b076af7a4837e8d9db05a0822fd76544d58d1f5/odoo14_addon_base_model_restrict_update-14.0.1.1.0-py3-none-any.whl
+[2023-06-06 07:11:06] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/d7/cd/29ffab1b776be6893d556b9cb410e30b51cd0b6c826ae32c78c1744d900d/tflite-model-maker-nightly-0.4.3.dev202306040508.tar.gz
+[2023-06-06 07:11:06] INFO root fetch - processPackages [validar-modelos]: Downloading https://files.pythonhosted.org/packages/0e/50/889574c9866e2298090850aa61b7c00bd718a177fa713b32b040169750a6/validar_modelos-0.0.3.tar.gz
+[2023-06-06 07:11:06] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/01/68/1789fa953fb7468267c85f88fd2bd30966fc7095fa1019588962e2e45635/hrin_msb-0.2.8.tar.gz
+[2023-06-06 07:11:06] INFO root fetch - processPackages [flask-themer]: Downloading https://files.pythonhosted.org/packages/46/2a/70921bf635a8595ad0fc2f68677f11ac814258c464e711b78dc4d069fb48/flask-themer-1.4.3.tar.gz
+[2023-06-06 07:11:06] INFO root fetch - processPackages [lppls]: Downloading https://files.pythonhosted.org/packages/3d/46/3bbe84bbda949befc9a10fb84d3b141f00e728b6c87f17e239131be19326/lppls-0.6.8.tar.gz
+[2023-06-06 07:11:06] INFO root fetch - processPackages [bohra]: Downloading https://files.pythonhosted.org/packages/78/2f/9a0a5ce0495260f11396e82a62a2f6a61986841f1e05bf74053a4f46931b/bohra-2.3.1.tar.gz
+[2023-06-06 07:11:06] INFO root fetch - processPackages [signax]: Downloading https://files.pythonhosted.org/packages/80/90/bfb41d8f7e1107d1111255dd367bb68689c1c2c3ff7ce361f9a027355daf/signax-0.1.2.tar.gz
+[2023-06-06 07:11:06] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/57/86/fd629c0e0c89a427469cc1bc9415c39e82adb53939ccb173a096f607e4cc/rapid_pe-0.1.1.dev20230605.tar.gz
+[2023-06-06 07:11:06] INFO root fetch - processPackages [hrin-msb]: Downloading https://files.pythonhosted.org/packages/f7/94/d59c8a5b3bee420117fc2d467d62317feecd19b8b1d838107abbbf1f5528/hrin_msb-0.2.9.tar.gz
+[2023-06-06 07:11:06] INFO root fetch - processPackages [odoo14-addon-base-model-restrict-update]: Downloading https://files.pythonhosted.org/packages/cc/c5/c20488f2b9d7e24025b5a27fac2b6971aab21a50fa6a5adbd619487471b9/odoo14_addon_base_model_restrict_update-14.0.1.1.1.dev1-py3-none-any.whl
+[2023-06-06 07:11:06] INFO root fetch - processPackages [validar-modelos]: Downloading https://files.pythonhosted.org/packages/8c/8c/55c784ab73fb8cab500fc6f3eb02d6e515529580eabe79c41aaebe31a82d/validar_modelos-0.0.4.tar.gz
+[2023-06-06 07:11:06] INFO root fetch - processPackages [multi-model-server]: executing diffoscope
+[2023-06-06 07:11:06] INFO root fetch - processPackages [multi-model-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multi_model_server-1.1.9-py2.py3-none-any.whl.zip tmp/multi_model_server-1.1.9b20230601-py2.py3-none-any.whl.zip --markdown 20230606/m/multi-model-server/1.1.9-1.1.9b20230601/diff.md --exclude *.pyd
+[2023-06-06 07:11:06] INFO root fetch - processPackages [hrin-msb]: executing diffoscope
+[2023-06-06 07:11:06] INFO root fetch - processPackages [hrin-msb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hrin_msb-0.2.8.tar.gz tmp/hrin_msb-0.2.9.tar.gz --markdown 20230606/h/hrin-msb/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-06-06 07:11:06] INFO root fetch - processPackages [tflite-model-maker-nightly]: Downloading https://files.pythonhosted.org/packages/3b/56/e9a882643818e25f1a7539df4107c5fc9b8a2715edae1cfa2e0abbac4b06/tflite-model-maker-nightly-0.4.3.dev202306050507.tar.gz
+[2023-06-06 07:11:06] INFO root fetch - processPackages [lppls]: Downloading https://files.pythonhosted.org/packages/9e/ea/11d64d046a471492c9b7d4ba794c93b75e0b9e46cb8cfbcc7e570b90e9c0/lppls-0.6.9.tar.gz
+[2023-06-06 07:11:06] INFO root fetch - processPackages [flask-themer]: Downloading https://files.pythonhosted.org/packages/46/d5/af8aad885ea0b96425adda4c24f2f2e30c12770d478f27b2f3895bacf184/flask-themer-2.0.0.tar.gz
+[2023-06-06 07:11:06] INFO root fetch - processPackages [validar-modelos]: executing diffoscope
+[2023-06-06 07:11:06] INFO root fetch - processPackages [validar-modelos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validar_modelos-0.0.3.tar.gz tmp/validar_modelos-0.0.4.tar.gz --markdown 20230606/v/validar-modelos/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-06 07:11:06] INFO root fetch - processPackages [rapid-pe]: Downloading https://files.pythonhosted.org/packages/cb/93/03c842826d6bf2b7a5714f48183557ff7dc2f5795c2b85b883c5f97d9eaf/rapid_pe-0.1.1.dev20230606.tar.gz
+[2023-06-06 07:11:06] INFO root fetch - processPackages [odoo14-addon-base-model-restrict-update]: executing diffoscope
+[2023-06-06 07:11:06] INFO root fetch - processPackages [odoo14-addon-base-model-restrict-update]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_base_model_restrict_update-14.0.1.1.0-py3-none-any.whl.zip tmp/odoo14_addon_base_model_restrict_update-14.0.1.1.1.dev1-py3-none-any.whl.zip --markdown 20230606/o/odoo14-addon-base-model-restrict-update/14.0.1.1.0-14.0.1.1.1.dev1/diff.md --exclude *.pyd
+[2023-06-06 07:11:06] INFO root fetch - processPackages [tflite-model-maker-nightly]: executing diffoscope
+[2023-06-06 07:11:06] INFO root fetch - processPackages [tflite-model-maker-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite-model-maker-nightly-0.4.3.dev202306040508.tar.gz tmp/tflite-model-maker-nightly-0.4.3.dev202306050507.tar.gz --markdown 20230606/t/tflite-model-maker-nightly/0.4.3.dev202306040508-0.4.3.dev202306050507/diff.md --exclude *.pyd
+[2023-06-06 07:11:07] INFO root fetch - processPackages [lppls]: executing diffoscope
+[2023-06-06 07:11:07] INFO root fetch - processPackages [lppls]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lppls-0.6.8.tar.gz tmp/lppls-0.6.9.tar.gz --markdown 20230606/l/lppls/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-06 07:11:07] INFO root fetch - processPackages [bohra]: Downloading https://files.pythonhosted.org/packages/fd/d4/3b7623c393f78b3bb7553e175f161dc8d98d21af22e86bb5b010d03d03b8/bohra-2.3.2.tar.gz
+[2023-06-06 07:11:07] INFO root fetch - processPackages [flask-themer]: executing diffoscope
+[2023-06-06 07:11:07] INFO root fetch - processPackages [flask-themer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flask-themer-1.4.3.tar.gz tmp/flask-themer-2.0.0.tar.gz --markdown 20230606/f/flask-themer/1.4.3-2.0.0/diff.md --exclude *.pyd
+[2023-06-06 07:11:07] INFO root fetch - processPackages [signax]: Downloading https://files.pythonhosted.org/packages/e0/ab/bfa372c25de0ecf6638568f524ba271046ee127f8eec292b3c5cec196491/signax-0.2.0.tar.gz
+[2023-06-06 07:11:07] INFO root fetch - processPackages [rapid-pe]: executing diffoscope
+[2023-06-06 07:11:07] INFO root fetch - processPackages [rapid-pe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_pe-0.1.1.dev20230605.tar.gz tmp/rapid_pe-0.1.1.dev20230606.tar.gz --markdown 20230606/r/rapid-pe/0.1.1.dev20230605-0.1.1.dev20230606/diff.md --exclude *.pyd
+[2023-06-06 07:11:07] INFO root fetch - processPackages [signax]: executing diffoscope
+[2023-06-06 07:11:07] INFO root fetch - processPackages [signax]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/signax-0.1.2.tar.gz tmp/signax-0.2.0.tar.gz --markdown 20230606/s/signax/0.1.2-0.2.0/diff.md --exclude *.pyd
+[2023-06-06 07:11:07] INFO root fetch - processPackages [bohra]: executing diffoscope
+[2023-06-06 07:11:07] INFO root fetch - processPackages [bohra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bohra-2.3.1.tar.gz tmp/bohra-2.3.2.tar.gz --markdown 20230606/b/bohra/2.3.1-2.3.2/diff.md --exclude *.pyd
+[2023-06-06 07:11:08] INFO root fetch - processPackages [odoo14-addon-base-model-restrict-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_model_restrict_update-14.0.1.1.0-py3-none-any.whl.zip]
+[2023-06-06 07:11:08] INFO root fetch - processPackages [odoo14-addon-base-model-restrict-update]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_base_model_restrict_update-14.0.1.1.1.dev1-py3-none-any.whl.zip]
+[2023-06-06 07:11:08] INFO root fetch - processPackages [odoo14-addon-base-model-restrict-update]: Start processing: ppocrlabel-japan
+[2023-06-06 07:11:08] INFO root fetch - main [MainThread]: End processing [odoo14-addon-base-model-restrict-update]: success
+[2023-06-06 07:11:08] INFO root fetch - processPackages [ppocrlabel-japan]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-06 07:11:08] INFO root fetch - processPackages [flask-themer]: Remove: archive file [/home/abi/fetcher/tmp/flask-themer-1.4.3.tar.gz]
+[2023-06-06 07:11:08] INFO root fetch - processPackages [flask-themer]: Remove: archive file [/home/abi/fetcher/tmp/flask-themer-2.0.0.tar.gz]
+[2023-06-06 07:11:08] INFO root fetch - processPackages [flask-themer]: Start processing: hosgdSims
+[2023-06-06 07:11:08] INFO root fetch - main [MainThread]: End processing [flask-themer]: success
+[2023-06-06 07:11:08] INFO root fetch - processPackages [hosgdSims]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-06 07:11:08] INFO root fetch - processPackages [validar-modelos]: Remove: archive file [/home/abi/fetcher/tmp/validar_modelos-0.0.3.tar.gz]
+[2023-06-06 07:11:08] INFO root fetch - processPackages [validar-modelos]: Remove: archive file [/home/abi/fetcher/tmp/validar_modelos-0.0.4.tar.gz]
+[2023-06-06 07:11:08] INFO root fetch - main [MainThread]: End processing [validar-modelos]: success
+[2023-06-06 07:11:08] INFO root fetch - processPackages [ppocrlabel-japan]: Downloading https://files.pythonhosted.org/packages/cd/ac/eaabbf4d5406544a84188161d59facced070b7de1bbe8e8ebfefde764038/ppocrlabel-japan-0.0.1.tar.gz
+[2023-06-06 07:11:08] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230605.tar.gz]
+[2023-06-06 07:11:08] INFO root fetch - processPackages [rapid-pe]: Remove: archive file [/home/abi/fetcher/tmp/rapid_pe-0.1.1.dev20230606.tar.gz]
+[2023-06-06 07:11:08] INFO root fetch - main [MainThread]: End processing [rapid-pe]: success
+[2023-06-06 07:11:08] INFO root fetch - processPackages [hosgdSims]: Downloading https://files.pythonhosted.org/packages/b7/49/59e4d877b2e8cf5edb084dde3c9f26ba524b6331219df9bbc1d8edff016e/hosgdSims-0.2.0.tar.gz
+[2023-06-06 07:11:08] INFO root fetch - processPackages [ppocrlabel-japan]: Downloading https://files.pythonhosted.org/packages/09/ea/4fd7f37a26a2bf97a347c0ef36ed83503f835e0f7d6d0a52541dbf6a7a6d/ppocrlabel-japan-0.0.2.tar.gz
+[2023-06-06 07:11:09] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.8.tar.gz]
+[2023-06-06 07:11:09] INFO root fetch - processPackages [hrin-msb]: Remove: archive file [/home/abi/fetcher/tmp/hrin_msb-0.2.9.tar.gz]
+[2023-06-06 07:11:09] INFO root fetch - main [MainThread]: End processing [hrin-msb]: success
+[2023-06-06 07:11:09] INFO root fetch - processPackages [hosgdSims]: Downloading https://files.pythonhosted.org/packages/b0/0c/9cf47632d28681157944521485a1725dc71f661c542144a87ba6997755ca/hosgdSims-0.3.0.tar.gz
+[2023-06-06 07:11:09] INFO root fetch - processPackages [ppocrlabel-japan]: executing diffoscope
+[2023-06-06 07:11:09] INFO root fetch - processPackages [ppocrlabel-japan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppocrlabel-japan-0.0.1.tar.gz tmp/ppocrlabel-japan-0.0.2.tar.gz --markdown 20230606/p/ppocrlabel-japan/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-06 07:11:09] INFO root fetch - processPackages [hosgdSims]: executing diffoscope
+[2023-06-06 07:11:09] INFO root fetch - processPackages [hosgdSims]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hosgdSims-0.2.0.tar.gz tmp/hosgdSims-0.3.0.tar.gz --markdown 20230606/h/hosgdSims/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-06 07:11:09] INFO root fetch - processPackages [lppls]: Remove: archive file [/home/abi/fetcher/tmp/lppls-0.6.8.tar.gz]
+[2023-06-06 07:11:09] INFO root fetch - processPackages [lppls]: Remove: archive file [/home/abi/fetcher/tmp/lppls-0.6.9.tar.gz]
+[2023-06-06 07:11:09] INFO root fetch - main [MainThread]: End processing [lppls]: success
+[2023-06-06 07:11:10] INFO root fetch - processPackages [hosgdSims]: Remove: archive file [/home/abi/fetcher/tmp/hosgdSims-0.2.0.tar.gz]
+[2023-06-06 07:11:10] INFO root fetch - processPackages [hosgdSims]: Remove: archive file [/home/abi/fetcher/tmp/hosgdSims-0.3.0.tar.gz]
+[2023-06-06 07:11:10] INFO root fetch - main [MainThread]: End processing [hosgdSims]: success
+[2023-06-06 07:11:10] INFO root fetch - processPackages [ppocrlabel-japan]: Remove: archive file [/home/abi/fetcher/tmp/ppocrlabel-japan-0.0.1.tar.gz]
+[2023-06-06 07:11:10] INFO root fetch - processPackages [ppocrlabel-japan]: Remove: archive file [/home/abi/fetcher/tmp/ppocrlabel-japan-0.0.2.tar.gz]
+[2023-06-06 07:11:10] INFO root fetch - main [MainThread]: End processing [ppocrlabel-japan]: success
+[2023-06-06 07:11:10] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306040508.tar.gz]
+[2023-06-06 07:11:10] INFO root fetch - processPackages [tflite-model-maker-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite-model-maker-nightly-0.4.3.dev202306050507.tar.gz]
+[2023-06-06 07:11:10] INFO root fetch - main [MainThread]: End processing [tflite-model-maker-nightly]: success
+[2023-06-06 07:11:10] INFO root fetch - processPackages [signax]: Remove: archive file [/home/abi/fetcher/tmp/signax-0.1.2.tar.gz]
+[2023-06-06 07:11:10] INFO root fetch - processPackages [signax]: Remove: archive file [/home/abi/fetcher/tmp/signax-0.2.0.tar.gz]
+[2023-06-06 07:11:10] INFO root fetch - main [MainThread]: End processing [signax]: success
+[2023-06-06 07:11:12] INFO root fetch - processPackages [bohra]: Remove: archive file [/home/abi/fetcher/tmp/bohra-2.3.1.tar.gz]
+[2023-06-06 07:11:12] INFO root fetch - processPackages [bohra]: Remove: archive file [/home/abi/fetcher/tmp/bohra-2.3.2.tar.gz]
+[2023-06-06 07:11:12] INFO root fetch - main [MainThread]: End processing [bohra]: success
+[2023-06-06 07:14:06] ERROR root fetch - processPackages [multi-model-server]: Timeout during execution of pkgdiff
+[2023-06-06 07:14:06] INFO root fetch - main [MainThread]: End processing [multi-model-server] error
+[2023-06-06 07:14:06] INFO root fetch - main [MainThread]: Store serial: [18386801]
