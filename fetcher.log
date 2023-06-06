@@ -12782,3 +12782,97 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 07:19:22] INFO root fetch - processPackages [chalkpy]: Remove: archive file [/home/abi/fetcher/tmp/chalkpy-2.6.3.tar.gz]
 [2023-06-06 07:19:22] INFO root fetch - main [MainThread]: End processing [chalkpy]: success
 [2023-06-06 07:19:22] INFO root fetch - main [MainThread]: Store serial: [18386856]
+[2023-06-06 07:24:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18386856]
+[2023-06-06 07:24:31] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-06 07:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: text-overlay-dataset
+[2023-06-06 07:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: landingai
+[2023-06-06 07:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: macrometa-target-mongo
+[2023-06-06 07:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: api-secrets
+[2023-06-06 07:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: alibabacloud-btripopen20220520-py2
+[2023-06-06 07:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: apiiif
+[2023-06-06 07:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-btripopen20220520
+[2023-06-06 07:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aioairzone
+[2023-06-06 07:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: api-secrets
+[2023-06-06 07:24:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: appsurifyci
+[2023-06-06 07:24:31] INFO root fetch - processPackages [text-overlay-dataset]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-06 07:24:31] INFO root fetch - processPackages [macrometa-target-mongo]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 07:24:31] INFO root fetch - processPackages [landingai]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-06 07:24:31] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-06 07:24:31] INFO root fetch - processPackages [api-secrets]: New version: [1.21] Old Version: [1.2]
+[2023-06-06 07:24:31] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-06 07:24:31] INFO root fetch - processPackages [aioairzone]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-06 07:24:31] INFO root fetch - processPackages [apiiif]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-06 07:24:31] INFO root fetch - processPackages [api-secrets]: New version: [1.21] Old Version: [1.2]
+[2023-06-06 07:24:31] INFO root fetch - processPackages [api-secrets]: Downloading https://files.pythonhosted.org/packages/0a/46/dd3d70c314c2f1dc7c0336ed1a3d5bcc0a4a82c7e9b589e3173c788fffa8/api_secrets-1.2.tar.gz
+[2023-06-06 07:24:31] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/24/85/41de202cb57658583318c807ea79fedd058c090462f950346d7677af0cfb/landingai-0.0.7.tar.gz
+[2023-06-06 07:24:31] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Downloading https://files.pythonhosted.org/packages/de/a0/5d0af6d89a2c23444ae609a054c08a29d7641fc54acaf60d73a7d01fe4c2/alibabacloud_btripopen20220520_py2-1.0.8.tar.gz
+[2023-06-06 07:24:31] INFO root fetch - processPackages [api-secrets]: Downloading https://files.pythonhosted.org/packages/0a/46/dd3d70c314c2f1dc7c0336ed1a3d5bcc0a4a82c7e9b589e3173c788fffa8/api_secrets-1.2.tar.gz
+[2023-06-06 07:24:31] INFO root fetch - processPackages [apiiif]: Downloading https://files.pythonhosted.org/packages/41/7d/47f76081b3ff5d50303effc41746b4af4ae78d6add73a18a58c70ae0f335/apiiif-0.0.4.tar.gz
+[2023-06-06 07:24:31] INFO root fetch - processPackages [aioairzone]: Downloading https://files.pythonhosted.org/packages/a8/15/821f61975dd7d2df81a27fd573e7f910e0446214af12c432b571cbf5283d/aioairzone-0.6.1.tar.gz
+[2023-06-06 07:24:31] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/22/db/55856f6d8870724d595ac9e131b5fb49d5acd414a50bd7142cebbc660f9d/alibabacloud_btripopen20220520-1.0.8.tar.gz
+[2023-06-06 07:24:31] INFO root fetch - processPackages [appsurifyci]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 07:24:31] INFO root fetch - processPackages [macrometa-target-mongo]: Downloading https://files.pythonhosted.org/packages/ef/d4/a749f2e67e9171099f2c4ed2c75142cadd30ab1784967ffc875704a40ee6/macrometa-target-mongo-0.0.8.tar.gz
+[2023-06-06 07:24:31] INFO root fetch - processPackages [text-overlay-dataset]: Downloading https://files.pythonhosted.org/packages/de/77/3373cb92737fcb1deb332888f7f90620d5482ef9d3bfb57ca5844c1ac519/text-overlay-dataset-0.1.0.tar.gz
+[2023-06-06 07:24:31] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Downloading https://files.pythonhosted.org/packages/e4/c7/d4efe3620d3319b87755842b6ed1925259fd25ba21cce7089faa20c24d4b/alibabacloud_btripopen20220520_py2-1.0.9.tar.gz
+[2023-06-06 07:24:31] INFO root fetch - processPackages [landingai]: Downloading https://files.pythonhosted.org/packages/fe/41/217b3e0de0fdb300f1bc686d8d5f39f3f600569ab95aa5302ab5c16adc30/landingai-0.0.8.tar.gz
+[2023-06-06 07:24:31] INFO root fetch - processPackages [aioairzone]: Downloading https://files.pythonhosted.org/packages/e2/03/0f37c06004689ac6d5265e159216479439c46bdcc2bcd0418ae0e649e590/aioairzone-0.6.2.tar.gz
+[2023-06-06 07:24:31] INFO root fetch - processPackages [api-secrets]: Downloading https://files.pythonhosted.org/packages/d7/83/de7e889a00cd22b974d6fb1c19d7f606a49887779701f76062c758da22d2/api_secrets-1.21-py3-none-any.whl
+[2023-06-06 07:24:31] INFO root fetch - processPackages [landingai]: executing diffoscope
+[2023-06-06 07:24:31] INFO root fetch - processPackages [landingai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/landingai-0.0.7.tar.gz tmp/landingai-0.0.8.tar.gz --markdown 20230606/l/landingai/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-06 07:24:31] INFO root fetch - processPackages [api-secrets]: Downloading https://files.pythonhosted.org/packages/d7/83/de7e889a00cd22b974d6fb1c19d7f606a49887779701f76062c758da22d2/api_secrets-1.21-py3-none-any.whl
+[2023-06-06 07:24:32] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: executing diffoscope
+[2023-06-06 07:24:32] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520_py2-1.0.8.tar.gz tmp/alibabacloud_btripopen20220520_py2-1.0.9.tar.gz --markdown 20230606/a/alibabacloud-btripopen20220520-py2/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-06 07:24:32] INFO root fetch - processPackages [appsurifyci]: Downloading https://files.pythonhosted.org/packages/be/78/e633e7cea242e900964a292a85e443de25712046c3092cb90e623f5df51f/appsurifyci-0.1.8.tar.gz
+[2023-06-06 07:24:32] INFO root fetch - processPackages [apiiif]: Downloading https://files.pythonhosted.org/packages/9c/c3/c6534f65f54ecc98d4c3315cfb2d688c3dd508feb41c8ee25b5f456c68b6/apiiif-0.0.5.tar.gz
+[2023-06-06 07:24:32] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Downloading https://files.pythonhosted.org/packages/9a/a2/11400c6b9d370d1b31aa09ba794773931b464f71096c6677a22ccfacd119/alibabacloud_btripopen20220520-1.0.9.tar.gz
+[2023-06-06 07:24:32] INFO root fetch - processPackages [aioairzone]: executing diffoscope
+[2023-06-06 07:24:32] INFO root fetch - processPackages [aioairzone]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioairzone-0.6.1.tar.gz tmp/aioairzone-0.6.2.tar.gz --markdown 20230606/a/aioairzone/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-06 07:24:32] INFO root fetch - processPackages [api-secrets]: executing diffoscope
+[2023-06-06 07:24:32] INFO root fetch - processPackages [api-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api_secrets-1.2.tar.gz tmp/api_secrets-1.21-py3-none-any.whl.zip --markdown 20230606/a/api-secrets/1.2-1.21/diff.md --exclude *.pyd
+[2023-06-06 07:24:32] INFO root fetch - processPackages [api-secrets]: executing diffoscope
+[2023-06-06 07:24:32] INFO root fetch - processPackages [api-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api_secrets-1.2.tar.gz tmp/api_secrets-1.21-py3-none-any.whl.zip --markdown 20230606/a/api-secrets/1.2-1.21/diff.md --exclude *.pyd
+[2023-06-06 07:24:32] INFO root fetch - processPackages [text-overlay-dataset]: Downloading https://files.pythonhosted.org/packages/b4/85/f8d6fb7dcee19a5fb6e3f4ded352ec32137093bc79c007eeb432280cc087/text-overlay-dataset-0.1.1.tar.gz
+[2023-06-06 07:24:32] INFO root fetch - processPackages [apiiif]: executing diffoscope
+[2023-06-06 07:24:32] INFO root fetch - processPackages [apiiif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apiiif-0.0.4.tar.gz tmp/apiiif-0.0.5.tar.gz --markdown 20230606/a/apiiif/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-06 07:24:32] INFO root fetch - processPackages [macrometa-target-mongo]: Downloading https://files.pythonhosted.org/packages/7d/ba/e4d42212a121d6658bf7d01b8b0e4fde578004371ebe2f5ad0d4905926e9/macrometa-target-mongo-0.0.9.tar.gz
+[2023-06-06 07:24:32] INFO root fetch - processPackages [text-overlay-dataset]: executing diffoscope
+[2023-06-06 07:24:32] INFO root fetch - processPackages [text-overlay-dataset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/text-overlay-dataset-0.1.0.tar.gz tmp/text-overlay-dataset-0.1.1.tar.gz --markdown 20230606/t/text-overlay-dataset/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-06 07:24:32] INFO root fetch - processPackages [appsurifyci]: Downloading https://files.pythonhosted.org/packages/d1/1a/83fd0a2a85db4bcfae5c7da196564233f55a65456f7d620ff4d1899e8f0c/appsurifyci-0.1.9.tar.gz
+[2023-06-06 07:24:32] INFO root fetch - processPackages [macrometa-target-mongo]: executing diffoscope
+[2023-06-06 07:24:32] INFO root fetch - processPackages [macrometa-target-mongo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/macrometa-target-mongo-0.0.8.tar.gz tmp/macrometa-target-mongo-0.0.9.tar.gz --markdown 20230606/m/macrometa-target-mongo/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 07:24:32] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: executing diffoscope
+[2023-06-06 07:24:32] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_btripopen20220520-1.0.8.tar.gz tmp/alibabacloud_btripopen20220520-1.0.9.tar.gz --markdown 20230606/a/alibabacloud-btripopen20220520/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-06 07:24:32] INFO root fetch - processPackages [appsurifyci]: executing diffoscope
+[2023-06-06 07:24:32] INFO root fetch - processPackages [appsurifyci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appsurifyci-0.1.8.tar.gz tmp/appsurifyci-0.1.9.tar.gz --markdown 20230606/a/appsurifyci/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 07:24:33] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.0.7.tar.gz]
+[2023-06-06 07:24:33] INFO root fetch - processPackages [landingai]: Remove: archive file [/home/abi/fetcher/tmp/landingai-0.0.8.tar.gz]
+[2023-06-06 07:24:33] INFO root fetch - processPackages [landingai]: Start processing: test-lib-39485735
+[2023-06-06 07:24:33] INFO root fetch - main [MainThread]: End processing [landingai]: success
+[2023-06-06 07:24:33] INFO root fetch - processPackages [api-secrets]: Remove: archive file [/home/abi/fetcher/tmp/api_secrets-1.2.tar.gz]
+[2023-06-06 07:24:33] INFO root fetch - processPackages [api-secrets]: Remove: archive file [/home/abi/fetcher/tmp/api_secrets-1.21-py3-none-any.whl.zip]
+[2023-06-06 07:24:33] INFO root fetch - main [MainThread]: End processing [api-secrets]: success
+[2023-06-06 07:24:33] ERROR root fetch - processPackages [test-lib-39485735]: Unable to get metadata: No such project 'test-lib-39485735'
+[2023-06-06 07:24:33] INFO root fetch - main [MainThread]: End processing [test-lib-39485735] error
+[2023-06-06 07:24:33] INFO root fetch - processPackages [apiiif]: Remove: archive file [/home/abi/fetcher/tmp/apiiif-0.0.4.tar.gz]
+[2023-06-06 07:24:33] INFO root fetch - processPackages [apiiif]: Remove: archive file [/home/abi/fetcher/tmp/apiiif-0.0.5.tar.gz]
+[2023-06-06 07:24:33] INFO root fetch - main [MainThread]: End processing [apiiif]: success
+[2023-06-06 07:24:33] INFO root fetch - main [MainThread]: End processing [api-secrets]: success
+[2023-06-06 07:24:33] INFO root fetch - processPackages [aioairzone]: Remove: archive file [/home/abi/fetcher/tmp/aioairzone-0.6.1.tar.gz]
+[2023-06-06 07:24:33] INFO root fetch - processPackages [aioairzone]: Remove: archive file [/home/abi/fetcher/tmp/aioairzone-0.6.2.tar.gz]
+[2023-06-06 07:24:33] INFO root fetch - main [MainThread]: End processing [aioairzone]: success
+[2023-06-06 07:24:33] INFO root fetch - processPackages [macrometa-target-mongo]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mongo-0.0.8.tar.gz]
+[2023-06-06 07:24:33] INFO root fetch - processPackages [macrometa-target-mongo]: Remove: archive file [/home/abi/fetcher/tmp/macrometa-target-mongo-0.0.9.tar.gz]
+[2023-06-06 07:24:33] INFO root fetch - main [MainThread]: End processing [macrometa-target-mongo]: success
+[2023-06-06 07:24:33] INFO root fetch - processPackages [text-overlay-dataset]: Remove: archive file [/home/abi/fetcher/tmp/text-overlay-dataset-0.1.0.tar.gz]
+[2023-06-06 07:24:33] INFO root fetch - processPackages [text-overlay-dataset]: Remove: archive file [/home/abi/fetcher/tmp/text-overlay-dataset-0.1.1.tar.gz]
+[2023-06-06 07:24:33] INFO root fetch - main [MainThread]: End processing [text-overlay-dataset]: success
+[2023-06-06 07:24:34] INFO root fetch - processPackages [appsurifyci]: Remove: archive file [/home/abi/fetcher/tmp/appsurifyci-0.1.8.tar.gz]
+[2023-06-06 07:24:34] INFO root fetch - processPackages [appsurifyci]: Remove: archive file [/home/abi/fetcher/tmp/appsurifyci-0.1.9.tar.gz]
+[2023-06-06 07:24:34] INFO root fetch - main [MainThread]: End processing [appsurifyci]: success
+[2023-06-06 07:24:35] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520_py2-1.0.8.tar.gz]
+[2023-06-06 07:24:35] INFO root fetch - processPackages [alibabacloud-btripopen20220520-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520_py2-1.0.9.tar.gz]
+[2023-06-06 07:24:35] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520-py2]: success
+[2023-06-06 07:24:36] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520-1.0.8.tar.gz]
+[2023-06-06 07:24:36] INFO root fetch - processPackages [alibabacloud-btripopen20220520]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_btripopen20220520-1.0.9.tar.gz]
+[2023-06-06 07:24:36] INFO root fetch - main [MainThread]: End processing [alibabacloud-btripopen20220520]: success
+[2023-06-06 07:24:36] INFO root fetch - main [MainThread]: Store serial: [18386895]
