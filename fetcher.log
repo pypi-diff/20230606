@@ -19949,3 +19949,362 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-06 12:34:03] INFO root fetch - processPackages [Finance-Jindowin]: Remove: archive file [/home/abi/fetcher/tmp/Finance-Jindowin-1.2.7.tar.gz]
 [2023-06-06 12:34:03] INFO root fetch - main [MainThread]: End processing [Finance-Jindowin]: success
 [2023-06-06 12:34:03] INFO root fetch - main [MainThread]: Store serial: [18389997]
+[2023-06-06 12:39:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18389997]
+[2023-06-06 12:39:12] INFO root fetch - main [MainThread]: No changed packages found
+[2023-06-06 12:44:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18389997]
+[2023-06-06 12:44:18] INFO root fetch - main [MainThread]: No changed packages found
+[2023-06-06 12:49:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18390019]
+[2023-06-06 12:49:23] INFO root fetch - main [MainThread]: No changed packages found
+[2023-06-06 12:54:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18390019]
+[2023-06-06 12:54:29] INFO root fetch - main [MainThread]: No changed packages found
+[2023-06-06 12:59:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18390041]
+[2023-06-06 12:59:35] INFO root fetch - main [MainThread]: Found 41 changed packages
+[2023-06-06 12:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neuron-image-denoise
+[2023-06-06 12:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: onnx2tf
+[2023-06-06 12:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: virustotalpy
+[2023-06-06 12:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cc12703-uiautomator2
+[2023-06-06 12:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edwh
+[2023-06-06 12:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyiron-base
+[2023-06-06 12:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pipeline-feature
+[2023-06-06 12:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ampltools
+[2023-06-06 12:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: vysion
+[2023-06-06 12:59:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: AstroInstrumentAD
+[2023-06-06 12:59:35] INFO root fetch - processPackages [virustotalpy]: New version: [1.0] Old Version: [0.2.4]
+[2023-06-06 12:59:35] INFO root fetch - processPackages [neuron-image-denoise]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-06 12:59:35] INFO root fetch - processPackages [vysion]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-06-06 12:59:35] INFO root fetch - processPackages [AstroInstrumentAD]: New version: [0.11] Old Version: [0.1]
+[2023-06-06 12:59:35] INFO root fetch - processPackages [cc12703-uiautomator2]: New version: [2.7.3] Old Version: [2.7.2]
+[2023-06-06 12:59:35] INFO root fetch - processPackages [edwh]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-06-06 12:59:35] INFO root fetch - processPackages [ampltools]: New version: [0.5.5] Old Version: [0.5.4b3]
+[2023-06-06 12:59:35] INFO root fetch - processPackages [pipeline-feature]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 12:59:35] INFO root fetch - processPackages [pyiron-base]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-06-06 12:59:35] INFO root fetch - processPackages [onnx2tf]: New version: [1.9.9] Old Version: [1.9.8]
+[2023-06-06 12:59:35] INFO root fetch - processPackages [AstroInstrumentAD]: Downloading https://files.pythonhosted.org/packages/0a/eb/41c8b1d69f92abe741c6b175d271423e95798c7e1a879ebfa215a89929f1/AstroInstrumentAD-0.1.tar.gz
+[2023-06-06 12:59:35] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/66/5d/ddc69440b515b26a7d91851679bacc4d5bbfd451a63ecd2b403e154e0703/edwh-0.9.0.tar.gz
+[2023-06-06 12:59:35] INFO root fetch - processPackages [pyiron-base]: Downloading https://files.pythonhosted.org/packages/89/e0/3a6c6e4057e938b216c9b573c919431c6dcf5c361b6253a8f895e9107602/pyiron_base-0.5.8.tar.gz
+[2023-06-06 12:59:35] INFO root fetch - processPackages [virustotalpy]: Downloading https://files.pythonhosted.org/packages/32/e0/51e82b640814cfa538f28f6b32dee018bf5cd9f6cd3deb96cf4182e417ef/virustotalpy-0.2.4.tar.gz
+[2023-06-06 12:59:35] INFO root fetch - processPackages [vysion]: Downloading https://files.pythonhosted.org/packages/fc/16/789daec414e45ce69f72c42f306ca399e5cb3098e76fd865ad991b4d54dd/vysion-1.0.5.tar.gz
+[2023-06-06 12:59:35] INFO root fetch - processPackages [ampltools]: Downloading https://files.pythonhosted.org/packages/cc/7f/08383412309b648564e92e4153c5c2c333832d30e21dccc70fb818c1df26/ampltools-0.5.4b3.tar.gz
+[2023-06-06 12:59:35] INFO root fetch - processPackages [cc12703-uiautomator2]: Downloading https://files.pythonhosted.org/packages/e5/c7/dbed380730b958e75509fbba0a678b38fe2e70776cfee3c4507795f56da9/cc12703_uiautomator2-2.7.2.tar.gz
+[2023-06-06 12:59:35] INFO root fetch - processPackages [neuron-image-denoise]: Downloading https://files.pythonhosted.org/packages/44/3f/6f360c22d6f81b617887df913530de5742b8d4ce73ed6672a0d038a65d79/neuron-image-denoise-0.0.1.tar.gz
+[2023-06-06 12:59:35] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/f3/4a/2e80d65029b16741c3837546037e85683a420fa8ed5653d5378655998e68/pipeline-feature-0.0.8.tar.gz
+[2023-06-06 12:59:35] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/6f/b3/519ee148592d2531639c5f3c1434df000ecf2c24a5b55b61cba8fd4767f9/onnx2tf-1.9.8.tar.gz
+[2023-06-06 12:59:35] INFO root fetch - processPackages [AstroInstrumentAD]: Downloading https://files.pythonhosted.org/packages/f6/78/60c0468d1a01d7a361ee6af6bb046953c01b4f8dabde6162cd3e32af62e7/AstroInstrumentAD-0.11.tar.gz
+[2023-06-06 12:59:35] INFO root fetch - processPackages [virustotalpy]: Downloading https://files.pythonhosted.org/packages/7f/f2/e5c6d96e886b654a9f9b7e65b238ccf8d9fda66cafde94c99fcdb8bd8d9a/virustotalpy-1.0.tar.gz
+[2023-06-06 12:59:35] INFO root fetch - processPackages [ampltools]: Downloading https://files.pythonhosted.org/packages/c9/b7/22e939d3be62277cf200ce7541a65c3b1047ee5f02526b0d8cb4b7597482/ampltools-0.5.5.tar.gz
+[2023-06-06 12:59:35] INFO root fetch - processPackages [edwh]: Downloading https://files.pythonhosted.org/packages/a1/b2/ffc583af9d774bfd7b622dbed69ea2357b3a1f9096658cf1202307626113/edwh-0.9.1.tar.gz
+[2023-06-06 12:59:35] INFO root fetch - processPackages [AstroInstrumentAD]: executing diffoscope
+[2023-06-06 12:59:35] INFO root fetch - processPackages [AstroInstrumentAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AstroInstrumentAD-0.1.tar.gz tmp/AstroInstrumentAD-0.11.tar.gz --markdown 20230606/A/AstroInstrumentAD/0.1-0.11/diff.md --exclude *.pyd
+[2023-06-06 12:59:35] INFO root fetch - processPackages [neuron-image-denoise]: Downloading https://files.pythonhosted.org/packages/64/1f/a7cc628286ba67257e32d9c55c11b96790da1ec4dab2c22bcaddadfc024e/neuron-image-denoise-0.0.2.tar.gz
+[2023-06-06 12:59:35] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/2d/7d/8d87cbdf414b1b7a2a9cc9b2bd5f360572b7da334ce7f3ff61009413e3d6/pipeline-feature-0.0.9.tar.gz
+[2023-06-06 12:59:35] WARNING root fetch - processPackages [edwh]: Skipping package: exceeds size limit 32547749>=10485760
+[2023-06-06 12:59:35] INFO root fetch - processPackages [edwh]: Start processing: dcspy
+[2023-06-06 12:59:35] INFO root fetch - main [MainThread]: End processing [edwh] error
+[2023-06-06 12:59:35] INFO root fetch - processPackages [vysion]: Downloading https://files.pythonhosted.org/packages/c9/19/78332fda85684af5f15c331aeb503997d1496441c32ad74db93537a571bf/vysion-1.0.6-py3-none-any.whl
+[2023-06-06 12:59:35] INFO root fetch - processPackages [dcspy]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-06-06 12:59:35] INFO root fetch - processPackages [cc12703-uiautomator2]: Downloading https://files.pythonhosted.org/packages/ad/57/53a120ba6ca4129b83a299a1d405ac408c0a23f150b548436d61e2148c5b/cc12703_uiautomator2-2.7.3.tar.gz
+[2023-06-06 12:59:35] INFO root fetch - processPackages [virustotalpy]: executing diffoscope
+[2023-06-06 12:59:35] INFO root fetch - processPackages [virustotalpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virustotalpy-0.2.4.tar.gz tmp/virustotalpy-1.0.tar.gz --markdown 20230606/v/virustotalpy/0.2.4-1.0/diff.md --exclude *.pyd
+[2023-06-06 12:59:35] INFO root fetch - processPackages [neuron-image-denoise]: executing diffoscope
+[2023-06-06 12:59:35] INFO root fetch - processPackages [neuron-image-denoise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neuron-image-denoise-0.0.1.tar.gz tmp/neuron-image-denoise-0.0.2.tar.gz --markdown 20230606/n/neuron-image-denoise/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-06 12:59:35] INFO root fetch - processPackages [pipeline-feature]: executing diffoscope
+[2023-06-06 12:59:35] INFO root fetch - processPackages [pipeline-feature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline-feature-0.0.8.tar.gz tmp/pipeline-feature-0.0.9.tar.gz --markdown 20230606/p/pipeline-feature/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 12:59:36] INFO root fetch - processPackages [vysion]: executing diffoscope
+[2023-06-06 12:59:36] INFO root fetch - processPackages [vysion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vysion-1.0.5.tar.gz tmp/vysion-1.0.6-py3-none-any.whl.zip --markdown 20230606/v/vysion/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-06-06 12:59:36] INFO root fetch - processPackages [ampltools]: executing diffoscope
+[2023-06-06 12:59:36] INFO root fetch - processPackages [ampltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ampltools-0.5.4b3.tar.gz tmp/ampltools-0.5.5.tar.gz --markdown 20230606/a/ampltools/0.5.4b3-0.5.5/diff.md --exclude *.pyd
+[2023-06-06 12:59:36] INFO root fetch - processPackages [onnx2tf]: Downloading https://files.pythonhosted.org/packages/0e/df/e0c6978b06db6c5c04de100ecbe0bbb281caed31c4dd88663e61e36ca571/onnx2tf-1.9.9.tar.gz
+[2023-06-06 12:59:36] INFO root fetch - processPackages [pyiron-base]: Downloading https://files.pythonhosted.org/packages/82/a2/6326e2f76111a92bf086d931cfc7f540414c18281e0f6278a2033a021352/pyiron_base-0.5.9.tar.gz
+[2023-06-06 12:59:36] INFO root fetch - processPackages [dcspy]: Downloading https://files.pythonhosted.org/packages/2b/c3/b237a0c367a7ccd2e66de14b6c04ede9867720460fa203ed6900458a4c20/dcspy-2.1.1.tar.gz
+[2023-06-06 12:59:36] INFO root fetch - processPackages [pyiron-base]: executing diffoscope
+[2023-06-06 12:59:36] INFO root fetch - processPackages [pyiron-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyiron_base-0.5.8.tar.gz tmp/pyiron_base-0.5.9.tar.gz --markdown 20230606/p/pyiron-base/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-06-06 12:59:36] INFO root fetch - processPackages [dcspy]: Downloading https://files.pythonhosted.org/packages/9b/5a/c15516ffe533f6c56d2eeaeeb42f540bf7d12341c27e50196cd6041233fd/dcspy-2.1.2-py3-none-any.whl
+[2023-06-06 12:59:36] INFO root fetch - processPackages [dcspy]: executing diffoscope
+[2023-06-06 12:59:36] INFO root fetch - processPackages [dcspy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dcspy-2.1.1.tar.gz tmp/dcspy-2.1.2-py3-none-any.whl.zip --markdown 20230606/d/dcspy/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-06-06 12:59:36] INFO root fetch - processPackages [onnx2tf]: executing diffoscope
+[2023-06-06 12:59:36] INFO root fetch - processPackages [onnx2tf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnx2tf-1.9.8.tar.gz tmp/onnx2tf-1.9.9.tar.gz --markdown 20230606/o/onnx2tf/1.9.8-1.9.9/diff.md --exclude *.pyd
+[2023-06-06 12:59:37] INFO root fetch - processPackages [AstroInstrumentAD]: Remove: archive file [/home/abi/fetcher/tmp/AstroInstrumentAD-0.1.tar.gz]
+[2023-06-06 12:59:37] INFO root fetch - processPackages [AstroInstrumentAD]: Remove: archive file [/home/abi/fetcher/tmp/AstroInstrumentAD-0.11.tar.gz]
+[2023-06-06 12:59:37] INFO root fetch - processPackages [AstroInstrumentAD]: Start processing: spiderx
+[2023-06-06 12:59:37] INFO root fetch - main [MainThread]: End processing [AstroInstrumentAD]: success
+[2023-06-06 12:59:37] INFO root fetch - processPackages [spiderx]: New version: [1.8.9] Old Version: [1.8.2]
+[2023-06-06 12:59:37] INFO root fetch - processPackages [virustotalpy]: Remove: archive file [/home/abi/fetcher/tmp/virustotalpy-0.2.4.tar.gz]
+[2023-06-06 12:59:37] INFO root fetch - processPackages [virustotalpy]: Remove: archive file [/home/abi/fetcher/tmp/virustotalpy-1.0.tar.gz]
+[2023-06-06 12:59:37] INFO root fetch - processPackages [virustotalpy]: Start processing: case-attribute-discovery
+[2023-06-06 12:59:37] INFO root fetch - main [MainThread]: End processing [virustotalpy]: success
+[2023-06-06 12:59:37] WARNING root fetch - processPackages [case-attribute-discovery]: Skipping, unable to determine old version
+[2023-06-06 12:59:37] INFO root fetch - processPackages [case-attribute-discovery]: Start processing: terragit
+[2023-06-06 12:59:37] INFO root fetch - main [MainThread]: End processing [case-attribute-discovery] error
+[2023-06-06 12:59:37] INFO root fetch - processPackages [terragit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-06 12:59:37] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/0a/38/bdc5166668af43c8d8fb12955ee54797392b7e8d7c1bc7aa8180d6cf526b/spiderx-1.8.2.tar.gz
+[2023-06-06 12:59:37] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.8.tar.gz]
+[2023-06-06 12:59:37] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.9.tar.gz]
+[2023-06-06 12:59:37] INFO root fetch - processPackages [pipeline-feature]: Start processing: portage
+[2023-06-06 12:59:37] INFO root fetch - main [MainThread]: End processing [pipeline-feature]: success
+[2023-06-06 12:59:37] INFO root fetch - processPackages [portage]: New version: [3.0.48.1] Old Version: [3.0.48]
+[2023-06-06 12:59:37] INFO root fetch - processPackages [terragit]: Downloading https://files.pythonhosted.org/packages/8f/1e/1dbf0848bbcdd033628c4113f8d980aafb860aac99b44453e05e661ce615/terragit-0.3.8.tar.gz
+[2023-06-06 12:59:37] INFO root fetch - processPackages [neuron-image-denoise]: Remove: archive file [/home/abi/fetcher/tmp/neuron-image-denoise-0.0.1.tar.gz]
+[2023-06-06 12:59:37] INFO root fetch - processPackages [neuron-image-denoise]: Remove: archive file [/home/abi/fetcher/tmp/neuron-image-denoise-0.0.2.tar.gz]
+[2023-06-06 12:59:37] INFO root fetch - processPackages [neuron-image-denoise]: Start processing: functime-client
+[2023-06-06 12:59:37] INFO root fetch - main [MainThread]: End processing [neuron-image-denoise]: success
+[2023-06-06 12:59:37] INFO root fetch - processPackages [functime-client]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-06 12:59:37] INFO root fetch - processPackages [ampltools]: Remove: archive file [/home/abi/fetcher/tmp/ampltools-0.5.4b3.tar.gz]
+[2023-06-06 12:59:37] INFO root fetch - processPackages [ampltools]: Remove: archive file [/home/abi/fetcher/tmp/ampltools-0.5.5.tar.gz]
+[2023-06-06 12:59:37] INFO root fetch - processPackages [ampltools]: Start processing: faKy
+[2023-06-06 12:59:37] INFO root fetch - main [MainThread]: End processing [ampltools]: success
+[2023-06-06 12:59:37] INFO root fetch - processPackages [portage]: Downloading https://files.pythonhosted.org/packages/c6/7b/f7f48068fe9e6ea07c7572161638b20b85613fc12723a9481b69ae8661d0/portage-3.0.48.tar.gz
+[2023-06-06 12:59:37] INFO root fetch - processPackages [faKy]: New version: [1.2.0] Old Version: [1.0.0]
+[2023-06-06 12:59:37] INFO root fetch - processPackages [spiderx]: Downloading https://files.pythonhosted.org/packages/89/1b/9167dbeeaa50aa50ace655fad0bdde6e911624db12636d31909324747f8a/spiderx-1.8.9.tar.gz
+[2023-06-06 12:59:37] INFO root fetch - processPackages [vysion]: Remove: archive file [/home/abi/fetcher/tmp/vysion-1.0.5.tar.gz]
+[2023-06-06 12:59:37] INFO root fetch - processPackages [vysion]: Remove: archive file [/home/abi/fetcher/tmp/vysion-1.0.6-py3-none-any.whl.zip]
+[2023-06-06 12:59:37] INFO root fetch - processPackages [vysion]: Start processing: omnata-plugin-devkit
+[2023-06-06 12:59:37] INFO root fetch - main [MainThread]: End processing [vysion]: success
+[2023-06-06 12:59:37] INFO root fetch - processPackages [omnata-plugin-devkit]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-06-06 12:59:37] INFO root fetch - processPackages [dcspy]: Remove: archive file [/home/abi/fetcher/tmp/dcspy-2.1.1.tar.gz]
+[2023-06-06 12:59:37] INFO root fetch - processPackages [dcspy]: Remove: archive file [/home/abi/fetcher/tmp/dcspy-2.1.2-py3-none-any.whl.zip]
+[2023-06-06 12:59:37] INFO root fetch - processPackages [dcspy]: Start processing: datarobot-model-metrics
+[2023-06-06 12:59:37] INFO root fetch - main [MainThread]: End processing [dcspy]: success
+[2023-06-06 12:59:37] INFO root fetch - processPackages [functime-client]: Downloading https://files.pythonhosted.org/packages/c7/7c/844941f6df7226b6657b9c7a64e1c4a794326787ec5bcbb1e9c9f039f5dc/functime_client-0.1.1-py3-none-any.whl
+[2023-06-06 12:59:37] INFO root fetch - processPackages [datarobot-model-metrics]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-06-06 12:59:37] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/ea/b5/9750ba43164622cdfaffb3a65983c1ac36c902da811f2084ed4c8eb4d215/omnata_plugin_devkit-0.1.3.tar.gz
+[2023-06-06 12:59:37] INFO root fetch - processPackages [terragit]: Downloading https://files.pythonhosted.org/packages/4e/c8/27f80e582c732d4cc538d5f875a5646217b24d63a5d9e4664ac07e1198f0/terragit-0.3.9.tar.gz
+[2023-06-06 12:59:37] INFO root fetch - processPackages [faKy]: Downloading https://files.pythonhosted.org/packages/f9/45/20ee2a2cb2b5afc8f3e4c81fe4ca7708d8f4a9cb4379d2cde07d8f9f4045/faKy-1.0.0.tar.gz
+[2023-06-06 12:59:37] INFO root fetch - processPackages [portage]: Downloading https://files.pythonhosted.org/packages/66/e3/27a661f891b4a089a1b3e213ef59e91e9954059abb8237ab2ddcec6f0b77/portage-3.0.48.1.tar.gz
+[2023-06-06 12:59:38] INFO root fetch - processPackages [datarobot-model-metrics]: Downloading https://files.pythonhosted.org/packages/b5/2c/cfdd9e6befb667c9eae0851425fab85f3189df6d10c410ce1b32c731307d/datarobot_model_metrics-0.1.5-py2.py3-none-any.whl
+[2023-06-06 12:59:38] INFO root fetch - processPackages [functime-client]: Downloading https://files.pythonhosted.org/packages/51/85/3eece82978e915e03816809482b853167f74afbcccea60e28296faa57487/functime_client-0.1.2-py3-none-any.whl
+[2023-06-06 12:59:38] INFO root fetch - processPackages [terragit]: executing diffoscope
+[2023-06-06 12:59:38] INFO root fetch - processPackages [terragit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terragit-0.3.8.tar.gz tmp/terragit-0.3.9.tar.gz --markdown 20230606/t/terragit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-06 12:59:38] INFO root fetch - processPackages [omnata-plugin-devkit]: Downloading https://files.pythonhosted.org/packages/94/42/ee2568b0c893cfd728abe6b9e4826ba8145e405b4332bbbb5b0019942e62/omnata_plugin_devkit-0.1.4.tar.gz
+[2023-06-06 12:59:38] INFO root fetch - processPackages [spiderx]: executing diffoscope
+[2023-06-06 12:59:38] INFO root fetch - processPackages [spiderx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spiderx-1.8.2.tar.gz tmp/spiderx-1.8.9.tar.gz --markdown 20230606/s/spiderx/1.8.2-1.8.9/diff.md --exclude *.pyd
+[2023-06-06 12:59:38] INFO root fetch - processPackages [portage]: executing diffoscope
+[2023-06-06 12:59:38] INFO root fetch - processPackages [portage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portage-3.0.48.tar.gz tmp/portage-3.0.48.1.tar.gz --markdown 20230606/p/portage/3.0.48-3.0.48.1/diff.md --exclude *.pyd
+[2023-06-06 12:59:38] INFO root fetch - processPackages [faKy]: Downloading https://files.pythonhosted.org/packages/cc/8f/549a273c0b122da0707d1498014dd744baccbe2d784a656b8db66c97e597/faKy-1.2.0.tar.gz
+[2023-06-06 12:59:38] INFO root fetch - processPackages [functime-client]: executing diffoscope
+[2023-06-06 12:59:38] INFO root fetch - processPackages [functime-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/functime_client-0.1.1-py3-none-any.whl.zip tmp/functime_client-0.1.2-py3-none-any.whl.zip --markdown 20230606/f/functime-client/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-06 12:59:38] INFO root fetch - processPackages [faKy]: executing diffoscope
+[2023-06-06 12:59:38] INFO root fetch - processPackages [faKy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faKy-1.0.0.tar.gz tmp/faKy-1.2.0.tar.gz --markdown 20230606/f/faKy/1.0.0-1.2.0/diff.md --exclude *.pyd
+[2023-06-06 12:59:38] INFO root fetch - processPackages [datarobot-model-metrics]: Downloading https://files.pythonhosted.org/packages/f7/34/e71abbee6c929c049fc7ae17ac25d486344664d26972ede09352d6df7768/datarobot_model_metrics-0.1.6-py2.py3-none-any.whl
+[2023-06-06 12:59:38] INFO root fetch - processPackages [omnata-plugin-devkit]: executing diffoscope
+[2023-06-06 12:59:38] INFO root fetch - processPackages [omnata-plugin-devkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_devkit-0.1.3.tar.gz tmp/omnata_plugin_devkit-0.1.4.tar.gz --markdown 20230606/o/omnata-plugin-devkit/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-06-06 12:59:38] INFO root fetch - processPackages [datarobot-model-metrics]: executing diffoscope
+[2023-06-06 12:59:38] INFO root fetch - processPackages [datarobot-model-metrics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datarobot_model_metrics-0.1.5-py2.py3-none-any.whl.zip tmp/datarobot_model_metrics-0.1.6-py2.py3-none-any.whl.zip --markdown 20230606/d/datarobot-model-metrics/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-06-06 12:59:39] INFO root fetch - processPackages [terragit]: Remove: archive file [/home/abi/fetcher/tmp/terragit-0.3.8.tar.gz]
+[2023-06-06 12:59:39] INFO root fetch - processPackages [terragit]: Remove: archive file [/home/abi/fetcher/tmp/terragit-0.3.9.tar.gz]
+[2023-06-06 12:59:39] INFO root fetch - processPackages [terragit]: Start processing: th2-data-services-lwdp
+[2023-06-06 12:59:39] INFO root fetch - main [MainThread]: End processing [terragit]: success
+[2023-06-06 12:59:39] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.1.0.0.dev5187472979] Old Version: [2.1.0.0.dev5187253613]
+[2023-06-06 12:59:39] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.2.tar.gz]
+[2023-06-06 12:59:39] INFO root fetch - processPackages [spiderx]: Remove: archive file [/home/abi/fetcher/tmp/spiderx-1.8.9.tar.gz]
+[2023-06-06 12:59:39] INFO root fetch - processPackages [spiderx]: Start processing: unirna
+[2023-06-06 12:59:39] INFO root fetch - main [MainThread]: End processing [spiderx]: success
+[2023-06-06 12:59:39] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.8.tar.gz]
+[2023-06-06 12:59:39] INFO root fetch - processPackages [onnx2tf]: Remove: archive file [/home/abi/fetcher/tmp/onnx2tf-1.9.9.tar.gz]
+[2023-06-06 12:59:39] INFO root fetch - processPackages [onnx2tf]: Start processing: raillabel
+[2023-06-06 12:59:39] INFO root fetch - main [MainThread]: End processing [onnx2tf]: success
+[2023-06-06 12:59:39] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/e1/99/108d7be8157a034d94fe2a10ac10400f88c324d37c4207ea279ea0a01a98/th2_data_services_lwdp-2.1.0.0.dev5187253613.tar.gz
+[2023-06-06 12:59:39] WARNING root fetch - processPackages [unirna]: Skipping, unable to determine old version
+[2023-06-06 12:59:39] INFO root fetch - processPackages [unirna]: Start processing: h5pydantic
+[2023-06-06 12:59:39] INFO root fetch - main [MainThread]: End processing [unirna] error
+[2023-06-06 12:59:39] INFO root fetch - processPackages [raillabel]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-06-06 12:59:39] INFO root fetch - processPackages [h5pydantic]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-06 12:59:39] INFO root fetch - processPackages [functime-client]: Remove: archive file [/home/abi/fetcher/tmp/functime_client-0.1.1-py3-none-any.whl.zip]
+[2023-06-06 12:59:39] INFO root fetch - processPackages [functime-client]: Remove: archive file [/home/abi/fetcher/tmp/functime_client-0.1.2-py3-none-any.whl.zip]
+[2023-06-06 12:59:39] INFO root fetch - processPackages [functime-client]: Start processing: pulumi-onelogin
+[2023-06-06 12:59:39] INFO root fetch - main [MainThread]: End processing [functime-client]: success
+[2023-06-06 12:59:39] INFO root fetch - processPackages [h5pydantic]: Downloading https://files.pythonhosted.org/packages/d3/74/3296de8ccaa4aa4c7f3254d0ded2ee409a894decdb514571fca914a63491/h5pydantic-0.3.0.tar.gz
+[2023-06-06 12:59:39] INFO root fetch - processPackages [faKy]: Remove: archive file [/home/abi/fetcher/tmp/faKy-1.0.0.tar.gz]
+[2023-06-06 12:59:39] INFO root fetch - processPackages [faKy]: Remove: archive file [/home/abi/fetcher/tmp/faKy-1.2.0.tar.gz]
+[2023-06-06 12:59:39] INFO root fetch - processPackages [faKy]: Start processing: test-py-packaging
+[2023-06-06 12:59:39] INFO root fetch - main [MainThread]: End processing [faKy]: success
+[2023-06-06 12:59:39] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/a9/7a/b85e40ac18ee041cbd0f23da189141ed93da41494f46b95daa9416b7e517/th2_data_services_lwdp-2.1.0.0.dev5187472979.tar.gz
+[2023-06-06 12:59:39] INFO root fetch - processPackages [pulumi-onelogin]: New version: [0.6.1a1686047939] Old Version: [0.6.1a1685168871]
+[2023-06-06 12:59:39] WARNING root fetch - processPackages [test-py-packaging]: Skipping, unable to determine old version
+[2023-06-06 12:59:39] INFO root fetch - processPackages [test-py-packaging]: Start processing: gmltools
+[2023-06-06 12:59:39] INFO root fetch - main [MainThread]: End processing [test-py-packaging] error
+[2023-06-06 12:59:39] INFO root fetch - processPackages [datarobot-model-metrics]: Remove: archive file [/home/abi/fetcher/tmp/datarobot_model_metrics-0.1.5-py2.py3-none-any.whl.zip]
+[2023-06-06 12:59:39] INFO root fetch - processPackages [datarobot-model-metrics]: Remove: archive file [/home/abi/fetcher/tmp/datarobot_model_metrics-0.1.6-py2.py3-none-any.whl.zip]
+[2023-06-06 12:59:39] INFO root fetch - processPackages [datarobot-model-metrics]: Start processing: huscy.project-consents
+[2023-06-06 12:59:39] INFO root fetch - main [MainThread]: End processing [datarobot-model-metrics]: success
+[2023-06-06 12:59:39] INFO root fetch - processPackages [gmltools]: New version: [0.0.77] Old Version: [0.0.76]
+[2023-06-06 12:59:39] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.3.tar.gz]
+[2023-06-06 12:59:39] INFO root fetch - processPackages [omnata-plugin-devkit]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_devkit-0.1.4.tar.gz]
+[2023-06-06 12:59:39] INFO root fetch - processPackages [omnata-plugin-devkit]: Start processing: iLCDirac
+[2023-06-06 12:59:39] INFO root fetch - main [MainThread]: End processing [omnata-plugin-devkit]: success
+[2023-06-06 12:59:39] INFO root fetch - processPackages [huscy.project-consents]: New version: [0.7.1a9] Old Version: [0.7.0a8]
+[2023-06-06 12:59:39] INFO root fetch - processPackages [iLCDirac]: New version: [34.0.0a5] Old Version: [34.0.0a4]
+[2023-06-06 12:59:39] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-06-06 12:59:39] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.1.0.0.dev5187253613.tar.gz tmp/th2_data_services_lwdp-2.1.0.0.dev5187472979.tar.gz --markdown 20230606/t/th2-data-services-lwdp/2.1.0.0.dev5187253613-2.1.0.0.dev5187472979/diff.md --exclude *.pyd
+[2023-06-06 12:59:39] INFO root fetch - processPackages [raillabel]: Downloading https://files.pythonhosted.org/packages/ee/04/b3765edf4992ba1cdd67e67c740e8ab3384a6c1c36de2940bef24a2b570d/raillabel-2.1.0.tar.gz
+[2023-06-06 12:59:40] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/51/34/6cefce9cf7a515877b2448fc057a6df657d9a54c2c452dea3137714e86d7/pulumi_onelogin-0.6.1a1685168871.tar.gz
+[2023-06-06 12:59:40] INFO root fetch - processPackages [h5pydantic]: Downloading https://files.pythonhosted.org/packages/2e/84/a97f7873596955a041f1a63d81114374cd9c6d2e31823c025b7c4cfd2249/h5pydantic-0.3.1.tar.gz
+[2023-06-06 12:59:40] INFO root fetch - processPackages [gmltools]: Downloading https://files.pythonhosted.org/packages/3d/fe/4b9ecd7ccdc870a2f330ad79d10cfca6a40593f4ce3d1f4e60c7181d217e/gmltools-0.0.76.tar.gz
+[2023-06-06 12:59:40] INFO root fetch - processPackages [huscy.project-consents]: Downloading https://files.pythonhosted.org/packages/bf/a3/7ae8a7c663a988a85183df2322117e9bb2103af0828ef119663c7161ec6a/huscy.project_consents-0.7.0a8.tar.gz
+[2023-06-06 12:59:40] INFO root fetch - processPackages [iLCDirac]: Downloading https://files.pythonhosted.org/packages/a0/12/7f206c6d707f34a0d36af7d9f1c9f4169e41b14e58d8e5ac2980563104ba/iLCDirac-34.0.0a4.tar.gz
+[2023-06-06 12:59:40] INFO root fetch - processPackages [h5pydantic]: executing diffoscope
+[2023-06-06 12:59:40] INFO root fetch - processPackages [h5pydantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/h5pydantic-0.3.0.tar.gz tmp/h5pydantic-0.3.1.tar.gz --markdown 20230606/h/h5pydantic/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-06 12:59:40] INFO root fetch - processPackages [raillabel]: Downloading https://files.pythonhosted.org/packages/e4/6e/d50dba6b5b9816685d9dd4f445a6c5500d60e31c34fa428cadf1f30589b0/raillabel-2.2.0.tar.gz
+[2023-06-06 12:59:40] INFO root fetch - processPackages [pulumi-onelogin]: Downloading https://files.pythonhosted.org/packages/d0/78/e5efe3e5ff1a117a0bc4513125bd51c18294b3ae0d1ad9918bd283e2dde4/pulumi_onelogin-0.6.1a1686047939.tar.gz
+[2023-06-06 12:59:40] INFO root fetch - processPackages [raillabel]: executing diffoscope
+[2023-06-06 12:59:40] INFO root fetch - processPackages [raillabel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/raillabel-2.1.0.tar.gz tmp/raillabel-2.2.0.tar.gz --markdown 20230606/r/raillabel/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-06-06 12:59:40] INFO root fetch - processPackages [gmltools]: Downloading https://files.pythonhosted.org/packages/b2/6f/a7c1ef0374671a29a05b3f021b01d2eb28f4541205f2f200320c37d65719/gmltools-0.0.77.tar.gz
+[2023-06-06 12:59:40] INFO root fetch - processPackages [pulumi-onelogin]: executing diffoscope
+[2023-06-06 12:59:40] INFO root fetch - processPackages [pulumi-onelogin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_onelogin-0.6.1a1685168871.tar.gz tmp/pulumi_onelogin-0.6.1a1686047939.tar.gz --markdown 20230606/p/pulumi-onelogin/0.6.1a1685168871-0.6.1a1686047939/diff.md --exclude *.pyd
+[2023-06-06 12:59:40] INFO root fetch - processPackages [huscy.project-consents]: Downloading https://files.pythonhosted.org/packages/ff/d7/07b33f3524d9a8efbfb92d0ce502bf63ce02b7f4b20c699e0d0d7992ff49/huscy.project_consents-0.7.1a9.tar.gz
+[2023-06-06 12:59:40] INFO root fetch - processPackages [gmltools]: executing diffoscope
+[2023-06-06 12:59:40] INFO root fetch - processPackages [gmltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmltools-0.0.76.tar.gz tmp/gmltools-0.0.77.tar.gz --markdown 20230606/g/gmltools/0.0.76-0.0.77/diff.md --exclude *.pyd
+[2023-06-06 12:59:40] INFO root fetch - processPackages [iLCDirac]: Downloading https://files.pythonhosted.org/packages/b3/9c/8c4de297c92c06ce767a5b311300b08f3890f2042ba912bcb1a4f8620dd3/iLCDirac-34.0.0a5.tar.gz
+[2023-06-06 12:59:40] INFO root fetch - processPackages [huscy.project-consents]: executing diffoscope
+[2023-06-06 12:59:40] INFO root fetch - processPackages [huscy.project-consents]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/huscy.project_consents-0.7.0a8.tar.gz tmp/huscy.project_consents-0.7.1a9.tar.gz --markdown 20230606/h/huscy.project-consents/0.7.0a8-0.7.1a9/diff.md --exclude *.pyd
+[2023-06-06 12:59:40] INFO root fetch - processPackages [iLCDirac]: executing diffoscope
+[2023-06-06 12:59:40] INFO root fetch - processPackages [iLCDirac]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iLCDirac-34.0.0a4.tar.gz tmp/iLCDirac-34.0.0a5.tar.gz --markdown 20230606/i/iLCDirac/34.0.0a4-34.0.0a5/diff.md --exclude *.pyd
+[2023-06-06 12:59:41] INFO root fetch - processPackages [pyiron-base]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_base-0.5.8.tar.gz]
+[2023-06-06 12:59:41] INFO root fetch - processPackages [pyiron-base]: Remove: archive file [/home/abi/fetcher/tmp/pyiron_base-0.5.9.tar.gz]
+[2023-06-06 12:59:41] INFO root fetch - processPackages [pyiron-base]: Start processing: OMGITSLACKO
+[2023-06-06 12:59:41] INFO root fetch - main [MainThread]: End processing [pyiron-base]: success
+[2023-06-06 12:59:41] INFO root fetch - processPackages [OMGITSLACKO]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 12:59:41] INFO root fetch - processPackages [OMGITSLACKO]: Downloading https://files.pythonhosted.org/packages/67/c7/43334d5f1ec8c3e3094eb5316c14aba1b4731c38a226a5a0498a699ae701/OMGITSLACKO-0.1.8.tar.gz
+[2023-06-06 12:59:41] INFO root fetch - processPackages [OMGITSLACKO]: Downloading https://files.pythonhosted.org/packages/f8/aa/fb0d4c2fd6b941d5b81284ea75d68894062a1c09790d71e5ac20c54900f2/OMGITSLACKO-0.1.9.tar.gz
+[2023-06-06 12:59:41] INFO root fetch - processPackages [h5pydantic]: Remove: archive file [/home/abi/fetcher/tmp/h5pydantic-0.3.0.tar.gz]
+[2023-06-06 12:59:41] INFO root fetch - processPackages [h5pydantic]: Remove: archive file [/home/abi/fetcher/tmp/h5pydantic-0.3.1.tar.gz]
+[2023-06-06 12:59:41] INFO root fetch - processPackages [h5pydantic]: Start processing: python-pdfbox-v2
+[2023-06-06 12:59:41] INFO root fetch - main [MainThread]: End processing [h5pydantic]: success
+[2023-06-06 12:59:41] INFO root fetch - processPackages [python-pdfbox-v2]: New version: [2.0.28.2] Old Version: [2.0.28]
+[2023-06-06 12:59:41] INFO root fetch - processPackages [python-pdfbox-v2]: Downloading https://files.pythonhosted.org/packages/24/fe/4510a2455e26bc8d1683eafa610173c4ff1fa8bdae2128995b5ca8ba312f/python-pdfbox-v2-2.0.28.tar.gz
+[2023-06-06 12:59:41] INFO root fetch - processPackages [OMGITSLACKO]: executing diffoscope
+[2023-06-06 12:59:41] INFO root fetch - processPackages [OMGITSLACKO]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OMGITSLACKO-0.1.8.tar.gz tmp/OMGITSLACKO-0.1.9.tar.gz --markdown 20230606/O/OMGITSLACKO/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 12:59:41] INFO root fetch - processPackages [python-pdfbox-v2]: Downloading https://files.pythonhosted.org/packages/e5/e2/88c12bc693352f6b0b9018d6a63b1bcf86078787d23fc369ec2d45d3a8a9/python-pdfbox-v2-2.0.28.2.tar.gz
+[2023-06-06 12:59:41] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5187253613.tar.gz]
+[2023-06-06 12:59:41] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5187472979.tar.gz]
+[2023-06-06 12:59:41] INFO root fetch - processPackages [th2-data-services-lwdp]: Start processing: pipeline-feature
+[2023-06-06 12:59:41] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-06-06 12:59:42] INFO root fetch - processPackages [pipeline-feature]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 12:59:42] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/f3/4a/2e80d65029b16741c3837546037e85683a420fa8ed5653d5378655998e68/pipeline-feature-0.0.8.tar.gz
+[2023-06-06 12:59:42] INFO root fetch - processPackages [python-pdfbox-v2]: executing diffoscope
+[2023-06-06 12:59:42] INFO root fetch - processPackages [python-pdfbox-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-pdfbox-v2-2.0.28.tar.gz tmp/python-pdfbox-v2-2.0.28.2.tar.gz --markdown 20230606/p/python-pdfbox-v2/2.0.28-2.0.28.2/diff.md --exclude *.pyd
+[2023-06-06 12:59:42] INFO root fetch - processPackages [huscy.project-consents]: Remove: archive file [/home/abi/fetcher/tmp/huscy.project_consents-0.7.0a8.tar.gz]
+[2023-06-06 12:59:42] INFO root fetch - processPackages [huscy.project-consents]: Remove: archive file [/home/abi/fetcher/tmp/huscy.project_consents-0.7.1a9.tar.gz]
+[2023-06-06 12:59:42] INFO root fetch - processPackages [huscy.project-consents]: Start processing: langflow
+[2023-06-06 12:59:42] INFO root fetch - main [MainThread]: End processing [huscy.project-consents]: success
+[2023-06-06 12:59:42] INFO root fetch - processPackages [langflow]: New version: [0.0.83] Old Version: [0.0.81]
+[2023-06-06 12:59:42] INFO root fetch - processPackages [pipeline-feature]: Downloading https://files.pythonhosted.org/packages/2d/7d/8d87cbdf414b1b7a2a9cc9b2bd5f360572b7da334ce7f3ff61009413e3d6/pipeline-feature-0.0.9.tar.gz
+[2023-06-06 12:59:42] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.6.1a1685168871.tar.gz]
+[2023-06-06 12:59:42] INFO root fetch - processPackages [pulumi-onelogin]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_onelogin-0.6.1a1686047939.tar.gz]
+[2023-06-06 12:59:42] INFO root fetch - processPackages [pulumi-onelogin]: Start processing: django-anonymous
+[2023-06-06 12:59:42] INFO root fetch - main [MainThread]: End processing [pulumi-onelogin]: success
+[2023-06-06 12:59:42] INFO root fetch - processPackages [django-anonymous]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-06-06 12:59:42] INFO root fetch - processPackages [gmltools]: Remove: archive file [/home/abi/fetcher/tmp/gmltools-0.0.76.tar.gz]
+[2023-06-06 12:59:42] INFO root fetch - processPackages [gmltools]: Remove: archive file [/home/abi/fetcher/tmp/gmltools-0.0.77.tar.gz]
+[2023-06-06 12:59:42] INFO root fetch - processPackages [gmltools]: Start processing: awsenergylabelerlib
+[2023-06-06 12:59:42] INFO root fetch - main [MainThread]: End processing [gmltools]: success
+[2023-06-06 12:59:42] INFO root fetch - processPackages [pipeline-feature]: executing diffoscope
+[2023-06-06 12:59:42] INFO root fetch - processPackages [pipeline-feature]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipeline-feature-0.0.8.tar.gz tmp/pipeline-feature-0.0.9.tar.gz --markdown 20230606/p/pipeline-feature/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 12:59:42] INFO root fetch - processPackages [awsenergylabelerlib]: New version: [4.0.0] Old Version: [3.2.4]
+[2023-06-06 12:59:42] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/38/7b/9ecd8044df4f42bb5aad8f70f29b6a0b7ce6884e647c66edfef1396444ae/langflow-0.0.81.tar.gz
+[2023-06-06 12:59:42] INFO root fetch - processPackages [django-anonymous]: Downloading https://files.pythonhosted.org/packages/56/c0/8820277dc422b7e0762a54f9ef3eeb711b5fdb9ee5e90c3adb9a3d132f6a/django-anonymous-0.3.1.tar.gz
+[2023-06-06 12:59:42] INFO root fetch - processPackages [awsenergylabelerlib]: Downloading https://files.pythonhosted.org/packages/8b/27/2cfcc3c814d63c183a68ac338940fd4d889295046d435a14f98b1dcb438d/awsenergylabelerlib-3.2.4.tar.gz
+[2023-06-06 12:59:42] INFO root fetch - processPackages [raillabel]: Remove: archive file [/home/abi/fetcher/tmp/raillabel-2.1.0.tar.gz]
+[2023-06-06 12:59:42] INFO root fetch - processPackages [raillabel]: Remove: archive file [/home/abi/fetcher/tmp/raillabel-2.2.0.tar.gz]
+[2023-06-06 12:59:42] INFO root fetch - processPackages [raillabel]: Start processing: featurepy
+[2023-06-06 12:59:42] INFO root fetch - main [MainThread]: End processing [raillabel]: success
+[2023-06-06 12:59:42] INFO root fetch - processPackages [featurepy]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-06-06 12:59:42] INFO root fetch - processPackages [langflow]: Downloading https://files.pythonhosted.org/packages/af/90/0b52e47513663ff58c1dd52703571e16af946c9e96c780b5557e7d3e41c8/langflow-0.0.83.tar.gz
+[2023-06-06 12:59:42] INFO root fetch - processPackages [django-anonymous]: Downloading https://files.pythonhosted.org/packages/77/d3/8b3ebd295cdd40464cd13749acfa96de6b1776da63c95491e3fd0490f542/django-anonymous-0.4.0.tar.gz
+[2023-06-06 12:59:42] INFO root fetch - processPackages [langflow]: executing diffoscope
+[2023-06-06 12:59:42] INFO root fetch - processPackages [langflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langflow-0.0.81.tar.gz tmp/langflow-0.0.83.tar.gz --markdown 20230606/l/langflow/0.0.81-0.0.83/diff.md --exclude *.pyd
+[2023-06-06 12:59:42] INFO root fetch - processPackages [featurepy]: Downloading https://files.pythonhosted.org/packages/25/e5/e9d0332045594dc10766b35bba8612482dd7f259307ed8f9259970abba7c/featurepy-0.1.1.tar.gz
+[2023-06-06 12:59:42] INFO root fetch - processPackages [awsenergylabelerlib]: Downloading https://files.pythonhosted.org/packages/01/e3/fff4b875521e30cecb47d8875d390035e92e239abf4bd9c948da7441046a/awsenergylabelerlib-4.0.0.tar.gz
+[2023-06-06 12:59:42] INFO root fetch - processPackages [django-anonymous]: executing diffoscope
+[2023-06-06 12:59:42] INFO root fetch - processPackages [django-anonymous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-anonymous-0.3.1.tar.gz tmp/django-anonymous-0.4.0.tar.gz --markdown 20230606/d/django-anonymous/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-06 12:59:42] INFO root fetch - processPackages [awsenergylabelerlib]: executing diffoscope
+[2023-06-06 12:59:42] INFO root fetch - processPackages [awsenergylabelerlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/awsenergylabelerlib-3.2.4.tar.gz tmp/awsenergylabelerlib-4.0.0.tar.gz --markdown 20230606/a/awsenergylabelerlib/3.2.4-4.0.0/diff.md --exclude *.pyd
+[2023-06-06 12:59:43] INFO root fetch - processPackages [OMGITSLACKO]: Remove: archive file [/home/abi/fetcher/tmp/OMGITSLACKO-0.1.8.tar.gz]
+[2023-06-06 12:59:43] INFO root fetch - processPackages [OMGITSLACKO]: Remove: archive file [/home/abi/fetcher/tmp/OMGITSLACKO-0.1.9.tar.gz]
+[2023-06-06 12:59:43] INFO root fetch - processPackages [OMGITSLACKO]: Start processing: cybotrade
+[2023-06-06 12:59:43] INFO root fetch - main [MainThread]: End processing [OMGITSLACKO]: success
+[2023-06-06 12:59:43] INFO root fetch - processPackages [cybotrade]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-06-06 12:59:43] INFO root fetch - processPackages [featurepy]: Downloading https://files.pythonhosted.org/packages/97/08/9e55fd7c9e2055fab07dc7580168ba03f06151c4e0b0153702a76a9c0def/featurepy-0.2.0.tar.gz
+[2023-06-06 12:59:43] INFO root fetch - processPackages [featurepy]: executing diffoscope
+[2023-06-06 12:59:43] INFO root fetch - processPackages [featurepy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/featurepy-0.1.1.tar.gz tmp/featurepy-0.2.0.tar.gz --markdown 20230606/f/featurepy/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-06-06 12:59:43] INFO root fetch - processPackages [cybotrade]: Downloading https://files.pythonhosted.org/packages/cb/05/9a9b92577c0a6d85208bb7f04ff5770e7a870811f4346996a432a833ef2a/cybotrade-0.1.0.tar.gz
+[2023-06-06 12:59:43] INFO root fetch - processPackages [cc12703-uiautomator2]: executing diffoscope
+[2023-06-06 12:59:43] INFO root fetch - processPackages [cc12703-uiautomator2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cc12703_uiautomator2-2.7.2.tar.gz tmp/cc12703_uiautomator2-2.7.3.tar.gz --markdown 20230606/c/cc12703-uiautomator2/2.7.2-2.7.3/diff.md --exclude *.pyd
+[2023-06-06 12:59:43] INFO root fetch - processPackages [cybotrade]: Downloading https://files.pythonhosted.org/packages/2b/8d/09051fee34ef8714c77eeaaaefd9a6e446f4b5c2275685452f0a81eca1c1/cybotrade-0.1.1.tar.gz
+[2023-06-06 12:59:43] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.8.tar.gz]
+[2023-06-06 12:59:43] INFO root fetch - processPackages [pipeline-feature]: Remove: archive file [/home/abi/fetcher/tmp/pipeline-feature-0.0.9.tar.gz]
+[2023-06-06 12:59:43] INFO root fetch - processPackages [pipeline-feature]: Start processing: petisco
+[2023-06-06 12:59:43] INFO root fetch - main [MainThread]: End processing [pipeline-feature]: success
+[2023-06-06 12:59:43] INFO root fetch - processPackages [cybotrade]: executing diffoscope
+[2023-06-06 12:59:43] INFO root fetch - processPackages [cybotrade]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cybotrade-0.1.0.tar.gz tmp/cybotrade-0.1.1.tar.gz --markdown 20230606/c/cybotrade/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-06-06 12:59:43] INFO root fetch - processPackages [petisco]: New version: [2.0.0rc0] Old Version: [1.9.9]
+[2023-06-06 12:59:44] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/89/5e/d19d08dde3196f9307b06251e80c9a77180aab7de5dc95dd95f174c26645/petisco-1.9.9.tar.gz
+[2023-06-06 12:59:44] INFO root fetch - processPackages [python-pdfbox-v2]: Remove: archive file [/home/abi/fetcher/tmp/python-pdfbox-v2-2.0.28.tar.gz]
+[2023-06-06 12:59:44] INFO root fetch - processPackages [python-pdfbox-v2]: Remove: archive file [/home/abi/fetcher/tmp/python-pdfbox-v2-2.0.28.2.tar.gz]
+[2023-06-06 12:59:44] INFO root fetch - processPackages [python-pdfbox-v2]: Start processing: llmspec
+[2023-06-06 12:59:44] INFO root fetch - main [MainThread]: End processing [python-pdfbox-v2]: success
+[2023-06-06 12:59:44] INFO root fetch - processPackages [llmspec]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-06 12:59:44] INFO root fetch - processPackages [django-anonymous]: Remove: archive file [/home/abi/fetcher/tmp/django-anonymous-0.3.1.tar.gz]
+[2023-06-06 12:59:44] INFO root fetch - processPackages [django-anonymous]: Remove: archive file [/home/abi/fetcher/tmp/django-anonymous-0.4.0.tar.gz]
+[2023-06-06 12:59:44] INFO root fetch - processPackages [django-anonymous]: Start processing: dmtpy
+[2023-06-06 12:59:44] INFO root fetch - main [MainThread]: End processing [django-anonymous]: success
+[2023-06-06 12:59:44] INFO root fetch - processPackages [dmtpy]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-06 12:59:44] INFO root fetch - processPackages [petisco]: Downloading https://files.pythonhosted.org/packages/d7/43/78f9603b40ce70a8dceccf4ce680a08ecbc8145f2fcd5c4ef6cc9df13eef/petisco-2.0.0rc0.tar.gz
+[2023-06-06 12:59:44] INFO root fetch - processPackages [llmspec]: Downloading https://files.pythonhosted.org/packages/78/b9/4a0fb2c7ed94e96a750b639027045ba6bdd9385b68fff54123fb03a36607/llmspec-0.3.8.tar.gz
+[2023-06-06 12:59:44] INFO root fetch - processPackages [petisco]: executing diffoscope
+[2023-06-06 12:59:44] INFO root fetch - processPackages [petisco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/petisco-1.9.9.tar.gz tmp/petisco-2.0.0rc0.tar.gz --markdown 20230606/p/petisco/1.9.9-2.0.0rc0/diff.md --exclude *.pyd
+[2023-06-06 12:59:44] INFO root fetch - processPackages [dmtpy]: Downloading https://files.pythonhosted.org/packages/d8/d9/7505b014f76774ea3d56bf4045046c8af969221108ce7d416a46b594950d/dmtpy-0.3.3.tar.gz
+[2023-06-06 12:59:44] INFO root fetch - processPackages [featurepy]: Remove: archive file [/home/abi/fetcher/tmp/featurepy-0.1.1.tar.gz]
+[2023-06-06 12:59:44] INFO root fetch - processPackages [featurepy]: Remove: archive file [/home/abi/fetcher/tmp/featurepy-0.2.0.tar.gz]
+[2023-06-06 12:59:44] INFO root fetch - processPackages [featurepy]: Start processing: shepherd-core
+[2023-06-06 12:59:44] INFO root fetch - main [MainThread]: End processing [featurepy]: success
+[2023-06-06 12:59:44] INFO root fetch - processPackages [shepherd-core]: New version: [2023.6.3] Old Version: [2023.6.2]
+[2023-06-06 12:59:44] INFO root fetch - processPackages [dmtpy]: Downloading https://files.pythonhosted.org/packages/75/80/cc950f15acbd37dd5ce7f3f87191434c303a63468835c33882d6ddba6a88/dmtpy-0.3.4.tar.gz
+[2023-06-06 12:59:44] INFO root fetch - processPackages [llmspec]: Downloading https://files.pythonhosted.org/packages/cb/ec/5feb32c379c88bb108234a46b8c773e1dba766fbc66e2897479931b4216a/llmspec-0.3.9.tar.gz
+[2023-06-06 12:59:45] INFO root fetch - processPackages [awsenergylabelerlib]: Remove: archive file [/home/abi/fetcher/tmp/awsenergylabelerlib-3.2.4.tar.gz]
+[2023-06-06 12:59:45] INFO root fetch - processPackages [awsenergylabelerlib]: Remove: archive file [/home/abi/fetcher/tmp/awsenergylabelerlib-4.0.0.tar.gz]
+[2023-06-06 12:59:45] INFO root fetch - processPackages [awsenergylabelerlib]: Start processing: flamapy-fm-dist
+[2023-06-06 12:59:45] INFO root fetch - main [MainThread]: End processing [awsenergylabelerlib]: success
+[2023-06-06 12:59:45] INFO root fetch - processPackages [flamapy-fm-dist]: New version: [1.5.0] Old Version: [1.0.0.dev5]
+[2023-06-06 12:59:45] INFO root fetch - processPackages [shepherd-core]: Downloading https://files.pythonhosted.org/packages/e7/8e/ed3d7fdc7084025bf27025bce9e66c1639252a586316f60b244c03494537/shepherd_core-2023.6.2.tar.gz
+[2023-06-06 12:59:45] INFO root fetch - processPackages [llmspec]: executing diffoscope
+[2023-06-06 12:59:45] INFO root fetch - processPackages [llmspec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/llmspec-0.3.8.tar.gz tmp/llmspec-0.3.9.tar.gz --markdown 20230606/l/llmspec/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-06 12:59:45] INFO root fetch - processPackages [dmtpy]: executing diffoscope
+[2023-06-06 12:59:45] INFO root fetch - processPackages [dmtpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dmtpy-0.3.3.tar.gz tmp/dmtpy-0.3.4.tar.gz --markdown 20230606/d/dmtpy/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-06-06 12:59:45] INFO root fetch - processPackages [flamapy-fm-dist]: Downloading https://files.pythonhosted.org/packages/1f/b6/4c8929d26634cd1ad5e87c2306bc517cf45d5ba50b6f1667e2cbb758767f/flamapy-fm-dist-1.0.0.dev5.tar.gz
+[2023-06-06 12:59:45] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.0.81.tar.gz]
+[2023-06-06 12:59:45] INFO root fetch - processPackages [langflow]: Remove: archive file [/home/abi/fetcher/tmp/langflow-0.0.83.tar.gz]
+[2023-06-06 12:59:45] INFO root fetch - main [MainThread]: End processing [langflow]: success
+[2023-06-06 12:59:45] INFO root fetch - processPackages [flamapy-fm-dist]: Downloading https://files.pythonhosted.org/packages/8b/e6/b7a38ef818c904fe0abdc1cbbdd3588b34cc023e2db56c22511eb8d668ed/flamapy-fm-dist-1.5.0.tar.gz
+[2023-06-06 12:59:45] INFO root fetch - processPackages [flamapy-fm-dist]: executing diffoscope
+[2023-06-06 12:59:45] INFO root fetch - processPackages [flamapy-fm-dist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flamapy-fm-dist-1.0.0.dev5.tar.gz tmp/flamapy-fm-dist-1.5.0.tar.gz --markdown 20230606/f/flamapy-fm-dist/1.0.0.dev5-1.5.0/diff.md --exclude *.pyd
+[2023-06-06 12:59:45] INFO root fetch - processPackages [shepherd-core]: Downloading https://files.pythonhosted.org/packages/52/d8/1e483445556bedfabee6daed7cd96c1733e533bf2f510ffc7009d18c1bcb/shepherd_core-2023.6.3.tar.gz
+[2023-06-06 12:59:45] INFO root fetch - processPackages [shepherd-core]: executing diffoscope
+[2023-06-06 12:59:45] INFO root fetch - processPackages [shepherd-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shepherd_core-2023.6.2.tar.gz tmp/shepherd_core-2023.6.3.tar.gz --markdown 20230606/s/shepherd-core/2023.6.2-2023.6.3/diff.md --exclude *.pyd
+[2023-06-06 12:59:45] INFO root fetch - processPackages [cc12703-uiautomator2]: Remove: archive file [/home/abi/fetcher/tmp/cc12703_uiautomator2-2.7.2.tar.gz]
+[2023-06-06 12:59:45] INFO root fetch - processPackages [cc12703-uiautomator2]: Remove: archive file [/home/abi/fetcher/tmp/cc12703_uiautomator2-2.7.3.tar.gz]
+[2023-06-06 12:59:45] INFO root fetch - main [MainThread]: End processing [cc12703-uiautomator2]: success
+[2023-06-06 12:59:45] INFO root fetch - processPackages [cybotrade]: Remove: archive file [/home/abi/fetcher/tmp/cybotrade-0.1.0.tar.gz]
+[2023-06-06 12:59:45] INFO root fetch - processPackages [cybotrade]: Remove: archive file [/home/abi/fetcher/tmp/cybotrade-0.1.1.tar.gz]
+[2023-06-06 12:59:45] INFO root fetch - main [MainThread]: End processing [cybotrade]: success
+[2023-06-06 12:59:46] INFO root fetch - processPackages [iLCDirac]: Remove: archive file [/home/abi/fetcher/tmp/iLCDirac-34.0.0a4.tar.gz]
+[2023-06-06 12:59:46] INFO root fetch - processPackages [iLCDirac]: Remove: archive file [/home/abi/fetcher/tmp/iLCDirac-34.0.0a5.tar.gz]
+[2023-06-06 12:59:46] INFO root fetch - main [MainThread]: End processing [iLCDirac]: success
+[2023-06-06 12:59:46] INFO root fetch - processPackages [llmspec]: Remove: archive file [/home/abi/fetcher/tmp/llmspec-0.3.8.tar.gz]
+[2023-06-06 12:59:46] INFO root fetch - processPackages [llmspec]: Remove: archive file [/home/abi/fetcher/tmp/llmspec-0.3.9.tar.gz]
+[2023-06-06 12:59:46] INFO root fetch - main [MainThread]: End processing [llmspec]: success
+[2023-06-06 12:59:46] INFO root fetch - processPackages [flamapy-fm-dist]: Remove: archive file [/home/abi/fetcher/tmp/flamapy-fm-dist-1.0.0.dev5.tar.gz]
+[2023-06-06 12:59:46] INFO root fetch - processPackages [flamapy-fm-dist]: Remove: archive file [/home/abi/fetcher/tmp/flamapy-fm-dist-1.5.0.tar.gz]
+[2023-06-06 12:59:46] INFO root fetch - main [MainThread]: End processing [flamapy-fm-dist]: success
+[2023-06-06 12:59:46] INFO root fetch - processPackages [dmtpy]: Remove: archive file [/home/abi/fetcher/tmp/dmtpy-0.3.3.tar.gz]
+[2023-06-06 12:59:46] INFO root fetch - processPackages [dmtpy]: Remove: archive file [/home/abi/fetcher/tmp/dmtpy-0.3.4.tar.gz]
+[2023-06-06 12:59:46] INFO root fetch - main [MainThread]: End processing [dmtpy]: success
+[2023-06-06 12:59:47] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-1.9.9.tar.gz]
+[2023-06-06 12:59:47] INFO root fetch - processPackages [petisco]: Remove: archive file [/home/abi/fetcher/tmp/petisco-2.0.0rc0.tar.gz]
+[2023-06-06 12:59:47] INFO root fetch - main [MainThread]: End processing [petisco]: success
+[2023-06-06 12:59:47] INFO root fetch - processPackages [shepherd-core]: Remove: archive file [/home/abi/fetcher/tmp/shepherd_core-2023.6.2.tar.gz]
+[2023-06-06 12:59:47] INFO root fetch - processPackages [shepherd-core]: Remove: archive file [/home/abi/fetcher/tmp/shepherd_core-2023.6.3.tar.gz]
+[2023-06-06 12:59:47] INFO root fetch - main [MainThread]: End processing [shepherd-core]: success
+[2023-06-06 12:59:49] INFO root fetch - processPackages [portage]: Remove: archive file [/home/abi/fetcher/tmp/portage-3.0.48.tar.gz]
+[2023-06-06 12:59:49] INFO root fetch - processPackages [portage]: Remove: archive file [/home/abi/fetcher/tmp/portage-3.0.48.1.tar.gz]
+[2023-06-06 12:59:49] INFO root fetch - main [MainThread]: End processing [portage]: success
+[2023-06-06 12:59:49] INFO root fetch - main [MainThread]: Store serial: [18390160]
