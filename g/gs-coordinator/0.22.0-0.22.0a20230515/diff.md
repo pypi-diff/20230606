@@ -1,43 +1,43 @@
-# Comparing `tmp/gs_coordinator-0.22.0-py2.py3-none-any.whl.zip` & `tmp/gs_coordinator-0.22.0a20230515-py2.py3-none-macosx_11_0_x86_64.whl.zip`
+# Comparing `tmp/gs_coordinator-0.22.0-py2.py3-none-macosx_12_0_arm64.whl.zip` & `tmp/gs_coordinator-0.22.0a20230515-py2.py3-none-macosx_11_0_x86_64.whl.zip`
 
 ## zipinfo {}
 
 ```diff
 @@ -1,34 +1,34 @@
--Zip file size: 93674 bytes, number of entries: 32
---rw-r--r--  2.0 unx      694 b- defN 23-Jun-06 06:38 graphscope_runtime/__init__.py
---rw-r--r--  2.0 unx        7 b- defN 23-Jun-06 06:38 gscoordinator/VERSION
---rw-r--r--  2.0 unx      990 b- defN 23-Jun-06 06:38 gscoordinator/__init__.py
---rw-r--r--  2.0 unx       77 b- defN 23-Jun-06 06:38 gscoordinator/__main__.py
---rw-r--r--  2.0 unx    22541 b- defN 23-Jun-06 06:38 gscoordinator/cluster_builder.py
---rw-r--r--  2.0 unx    37570 b- defN 23-Jun-06 06:38 gscoordinator/coordinator.py
---rw-r--r--  2.0 unx     5537 b- defN 23-Jun-06 06:38 gscoordinator/dag_manager.py
---rw-r--r--  2.0 unx     4091 b- defN 23-Jun-06 06:38 gscoordinator/io_utils.py
---rw-r--r--  2.0 unx    58206 b- defN 23-Jun-06 06:38 gscoordinator/kubernetes_launcher.py
---rw-r--r--  2.0 unx     5062 b- defN 23-Jun-06 06:38 gscoordinator/launcher.py
---rw-r--r--  2.0 unx     2450 b- defN 23-Jun-06 06:38 gscoordinator/learning.py
---rw-r--r--  2.0 unx    19978 b- defN 23-Jun-06 06:38 gscoordinator/local_launcher.py
---rw-r--r--  2.0 unx     7006 b- defN 23-Jun-06 06:38 gscoordinator/monitor.py
---rw-r--r--  2.0 unx     2957 b- defN 23-Jun-06 06:38 gscoordinator/object_manager.py
---rw-r--r--  2.0 unx    38436 b- defN 23-Jun-06 06:38 gscoordinator/op_executor.py
---rw-r--r--  2.0 unx    77420 b- defN 23-Jun-06 06:38 gscoordinator/utils.py
---rw-r--r--  2.0 unx     1045 b- defN 23-Jun-06 06:38 gscoordinator/version.py
---rw-r--r--  2.0 unx      646 b- defN 23-Jun-06 06:38 gscoordinator/builtin/__init__.py
---rw-r--r--  2.0 unx    23996 b- defN 23-Jun-06 06:38 gscoordinator/builtin/app/.gs_conf.yaml
---rw-r--r--  2.0 unx      646 b- defN 23-Jun-06 06:38 gscoordinator/builtin/app/__init__.py
---rw-r--r--  2.0 unx     5601 b- defN 23-Jun-06 08:23 gscoordinator/builtin/app/builtin_app.gar
---rw-r--r--  2.0 unx      646 b- defN 23-Jun-06 06:38 gscoordinator/hook/__init__.py
---rw-r--r--  2.0 unx      646 b- defN 23-Jun-06 06:38 gscoordinator/hook/prestop/__init__.py
---rw-r--r--  2.0 unx     1560 b- defN 23-Jun-06 06:38 gscoordinator/hook/prestop/__main__.py
---rw-r--r--  2.0 unx    19957 b- defN 23-Jun-06 06:38 gscoordinator/template/CMakeLists.template
---rw-r--r--  2.0 unx      646 b- defN 23-Jun-06 06:38 gscoordinator/template/__init__.py
---rw-r--r--  2.0 unx     4957 b- defN 23-Jun-06 06:38 gscoordinator/template/pie.pxd.template
---rw-r--r--  2.0 unx     4340 b- defN 23-Jun-06 06:38 gscoordinator/template/pregel.pxd.template
---rw-r--r--  2.0 unx    22312 b- defN 23-Jun-06 08:23 gs_coordinator-0.22.0.dist-info/METADATA
---rw-r--r--  2.0 unx      110 b- defN 23-Jun-06 08:23 gs_coordinator-0.22.0.dist-info/WHEEL
---rw-r--r--  2.0 unx       33 b- defN 23-Jun-06 08:23 gs_coordinator-0.22.0.dist-info/top_level.txt
---rw-rw-r--  2.0 unx     2797 b- defN 23-Jun-06 08:23 gs_coordinator-0.22.0.dist-info/RECORD
--32 files, 372960 bytes uncompressed, 89154 bytes compressed:  76.1%
+-Zip file size: 93699 bytes, number of entries: 32
+--rw-r--r--  2.0 unx      694 b- defN 23-Jun-06 08:10 graphscope_runtime/__init__.py
+--rw-rw-r--  2.0 unx     2829 b- defN 23-Jun-06 01:44 gs_coordinator-0.22.0.dist-info/RECORD
+--rw-r--r--  2.0 unx      138 b- defN 23-Jun-06 08:40 gs_coordinator-0.22.0.dist-info/WHEEL
+--rw-r--r--  2.0 unx       33 b- defN 23-Jun-06 08:40 gs_coordinator-0.22.0.dist-info/top_level.txt
+--rw-r--r--  2.0 unx    22312 b- defN 23-Jun-06 08:40 gs_coordinator-0.22.0.dist-info/METADATA
+--rw-r--r--  2.0 unx    58206 b- defN 23-Jun-06 08:10 gscoordinator/kubernetes_launcher.py
+--rw-r--r--  2.0 unx    37570 b- defN 23-Jun-06 08:10 gscoordinator/coordinator.py
+--rw-r--r--  2.0 unx     5537 b- defN 23-Jun-06 08:10 gscoordinator/dag_manager.py
+--rw-r--r--  2.0 unx     1045 b- defN 23-Jun-06 08:10 gscoordinator/version.py
+--rw-r--r--  2.0 unx     7006 b- defN 23-Jun-06 08:10 gscoordinator/monitor.py
+--rw-r--r--  2.0 unx    38436 b- defN 23-Jun-06 08:10 gscoordinator/op_executor.py
+--rw-r--r--  2.0 unx     2957 b- defN 23-Jun-06 08:10 gscoordinator/object_manager.py
+--rw-r--r--  2.0 unx      990 b- defN 23-Jun-06 08:10 gscoordinator/__init__.py
+--rw-r--r--  2.0 unx    22541 b- defN 23-Jun-06 08:10 gscoordinator/cluster_builder.py
+--rw-r--r--  2.0 unx    19978 b- defN 23-Jun-06 08:10 gscoordinator/local_launcher.py
+--rw-r--r--  2.0 unx        7 b- defN 23-Jun-06 08:10 gscoordinator/VERSION
+--rw-r--r--  2.0 unx    77420 b- defN 23-Jun-06 08:10 gscoordinator/utils.py
+--rw-r--r--  2.0 unx     4091 b- defN 23-Jun-06 08:10 gscoordinator/io_utils.py
+--rw-r--r--  2.0 unx     5062 b- defN 23-Jun-06 08:10 gscoordinator/launcher.py
+--rw-r--r--  2.0 unx     2450 b- defN 23-Jun-06 08:10 gscoordinator/learning.py
+--rw-r--r--  2.0 unx       77 b- defN 23-Jun-06 08:10 gscoordinator/__main__.py
+--rw-r--r--  2.0 unx      646 b- defN 23-Jun-06 08:10 gscoordinator/template/__init__.py
+--rw-r--r--  2.0 unx     4340 b- defN 23-Jun-06 08:10 gscoordinator/template/pregel.pxd.template
+--rw-r--r--  2.0 unx     4957 b- defN 23-Jun-06 08:10 gscoordinator/template/pie.pxd.template
+--rw-r--r--  2.0 unx    19957 b- defN 23-Jun-06 08:10 gscoordinator/template/CMakeLists.template
+--rw-r--r--  2.0 unx      646 b- defN 23-Jun-06 08:10 gscoordinator/builtin/__init__.py
+--rw-r--r--  2.0 unx    23996 b- defN 23-Jun-06 08:10 gscoordinator/builtin/app/.gs_conf.yaml
+--rw-r--r--  2.0 unx     5601 b- defN 23-Jun-06 08:40 gscoordinator/builtin/app/builtin_app.gar
+--rw-r--r--  2.0 unx      646 b- defN 23-Jun-06 08:10 gscoordinator/builtin/app/__init__.py
+--rw-r--r--  2.0 unx      646 b- defN 23-Jun-06 08:10 gscoordinator/hook/__init__.py
+--rw-r--r--  2.0 unx      646 b- defN 23-Jun-06 08:10 gscoordinator/hook/prestop/__init__.py
+--rw-r--r--  2.0 unx     1560 b- defN 23-Jun-06 08:10 gscoordinator/hook/prestop/__main__.py
+-32 files, 373020 bytes uncompressed, 89179 bytes compressed:  76.1%
 +Zip file size: 89340 bytes, number of entries: 32
 +-rw-rw-r--  2.0 unx     2866 b- defN 23-May-15 21:26 gs_coordinator-0.22.0a20230515.dist-info/RECORD
 +-rw-r--r--  2.0 unx      140 b- defN 23-May-15 21:14 gs_coordinator-0.22.0a20230515.dist-info/WHEEL
@@ -77,472 +77,32 @@
 ## zipnote {}
 
 ```diff
-@@ -1,97 +1,97 @@
+@@ -1,20 +1,20 @@
 -Filename: graphscope_runtime/__init__.py
 +Filename: gs_coordinator-0.22.0a20230515.dist-info/RECORD
  Comment: 
  
--Filename: gscoordinator/VERSION
+-Filename: gs_coordinator-0.22.0.dist-info/RECORD
 +Filename: gs_coordinator-0.22.0a20230515.dist-info/WHEEL
  Comment: 
  
--Filename: gscoordinator/__init__.py
+-Filename: gs_coordinator-0.22.0.dist-info/WHEEL
 +Filename: gs_coordinator-0.22.0a20230515.dist-info/top_level.txt
  Comment: 
  
--Filename: gscoordinator/__main__.py
+-Filename: gs_coordinator-0.22.0.dist-info/top_level.txt
 +Filename: gs_coordinator-0.22.0a20230515.dist-info/METADATA
  Comment: 
  
--Filename: gscoordinator/cluster_builder.py
+-Filename: gs_coordinator-0.22.0.dist-info/METADATA
 +Filename: graphscope_runtime/__init__.py
-+Comment: 
-+
-+Filename: gscoordinator/kubernetes_launcher.py
+ Comment: 
+ 
+ Filename: gscoordinator/kubernetes_launcher.py
  Comment: 
  
  Filename: gscoordinator/coordinator.py
- Comment: 
- 
- Filename: gscoordinator/dag_manager.py
- Comment: 
- 
--Filename: gscoordinator/io_utils.py
-+Filename: gscoordinator/version.py
- Comment: 
- 
--Filename: gscoordinator/kubernetes_launcher.py
-+Filename: gscoordinator/monitor.py
- Comment: 
- 
--Filename: gscoordinator/launcher.py
-+Filename: gscoordinator/op_executor.py
- Comment: 
- 
--Filename: gscoordinator/learning.py
-+Filename: gscoordinator/object_manager.py
- Comment: 
- 
--Filename: gscoordinator/local_launcher.py
-+Filename: gscoordinator/__init__.py
- Comment: 
- 
--Filename: gscoordinator/monitor.py
-+Filename: gscoordinator/cluster_builder.py
- Comment: 
- 
--Filename: gscoordinator/object_manager.py
-+Filename: gscoordinator/local_launcher.py
- Comment: 
- 
--Filename: gscoordinator/op_executor.py
-+Filename: gscoordinator/VERSION
- Comment: 
- 
- Filename: gscoordinator/utils.py
- Comment: 
- 
--Filename: gscoordinator/version.py
--Comment: 
--
--Filename: gscoordinator/builtin/__init__.py
-+Filename: gscoordinator/io_utils.py
- Comment: 
- 
--Filename: gscoordinator/builtin/app/.gs_conf.yaml
-+Filename: gscoordinator/launcher.py
- Comment: 
- 
--Filename: gscoordinator/builtin/app/__init__.py
-+Filename: gscoordinator/learning.py
- Comment: 
- 
--Filename: gscoordinator/builtin/app/builtin_app.gar
-+Filename: gscoordinator/__main__.py
- Comment: 
- 
--Filename: gscoordinator/hook/__init__.py
-+Filename: gscoordinator/template/__init__.py
- Comment: 
- 
--Filename: gscoordinator/hook/prestop/__init__.py
-+Filename: gscoordinator/template/pregel.pxd.template
- Comment: 
- 
--Filename: gscoordinator/hook/prestop/__main__.py
-+Filename: gscoordinator/template/pie.pxd.template
- Comment: 
- 
- Filename: gscoordinator/template/CMakeLists.template
- Comment: 
- 
--Filename: gscoordinator/template/__init__.py
-+Filename: gscoordinator/builtin/__init__.py
- Comment: 
- 
--Filename: gscoordinator/template/pie.pxd.template
-+Filename: gscoordinator/builtin/app/.gs_conf.yaml
- Comment: 
- 
--Filename: gscoordinator/template/pregel.pxd.template
-+Filename: gscoordinator/builtin/app/builtin_app.gar
- Comment: 
- 
--Filename: gs_coordinator-0.22.0.dist-info/METADATA
-+Filename: gscoordinator/builtin/app/__init__.py
- Comment: 
- 
--Filename: gs_coordinator-0.22.0.dist-info/WHEEL
-+Filename: gscoordinator/hook/__init__.py
- Comment: 
- 
--Filename: gs_coordinator-0.22.0.dist-info/top_level.txt
-+Filename: gscoordinator/hook/prestop/__init__.py
- Comment: 
- 
--Filename: gs_coordinator-0.22.0.dist-info/RECORD
-+Filename: gscoordinator/hook/prestop/__main__.py
- Comment: 
- 
- Zip file comment:
-```
-
-## gscoordinator/VERSION
-
-```diff
-@@ -1 +1 @@
--0.22.0
-+0.22.0a20230515
-```
-
-## gscoordinator/cluster_builder.py
-
-```diff
-@@ -50,15 +50,14 @@
- 
- class EngineCluster:
-     def __init__(
-         self,
-         engine_cpu,
-         engine_mem,
-         engine_pod_node_selector,
--        engine_pod_prefix,
-         glog_level,
-         image_pull_policy,
-         image_pull_secrets,
-         image_registry,
-         image_repository,
-         image_tag,
-         instance_id,
-@@ -77,15 +76,15 @@
-         with_analytical_java,
-         with_dataset,
-         with_interactive,
-         with_learning,
-         with_mars,
-         dataset_proxy,
-     ):
--        self._gs_prefix = engine_pod_prefix
-+        self._gs_prefix = "gs-engine-"
-         self._analytical_prefix = "gs-analytical-"
-         self._interactive_frontend_prefix = "gs-interactive-frontend-"
- 
-         self._learning_prefix = "gs-learning-"
- 
-         self._vineyard_prefix = "vineyard-"
- 
-@@ -98,17 +97,15 @@
- 
-         self._namespace = namespace
-         self._engine_labels = {
-             "app.kubernetes.io/name": "graphscope",
-             "app.kubernetes.io/instance": self._instance_id,
-             "app.kubernetes.io/version": __version__,
-             "app.kubernetes.io/component": "engine",
--            "app.kubernetes.io/engine_selector": self.engine_stateful_set_name,
-         }
--
-         self._frontend_labels = self._engine_labels.copy()
-         self._frontend_labels["app.kubernetes.io/component"] = "frontend"
- 
-         self._with_dataset = with_dataset
-         if not image_registry:
-             image_prefix = image_repository
-         else:
-@@ -215,14 +212,33 @@
-     def get_base_machine_env(self):
-         env = [
-             ResourceBuilder.get_value_from_field_ref(key, value)
-             for key, value in BASE_MACHINE_ENVS.items()
-         ]
-         return env
- 
-+    def get_vineyard_socket_volume(self):
-+        name = "vineyard-ipc-socket"
-+        volume = kube_client.V1Volume(name=name)
-+        if self._vineyard_deployment is None:
-+            empty_dir = kube_client.V1EmptyDirVolumeSource()
-+            volume.empty_dir = empty_dir
-+        else:
-+            path = f"/var/run/vineyard-kubernetes/{self._namespace}/{self._vineyard_deployment}"
-+            host_path = kube_client.V1HostPathVolumeSource(path=path)
-+            host_path.type = "Directory"
-+            volume.host_path = host_path
-+
-+        source_volume_mount = kube_client.V1VolumeMount(
-+            name=name, mount_path="/tmp/vineyard_workspace"
-+        )
-+        destination_volume_mount = source_volume_mount
-+
-+        return volume, source_volume_mount, destination_volume_mount
-+
-     def get_shm_volume(self):
-         name = "host-shm"
-         volume = kube_client.V1Volume(name=name)
-         volume.empty_dir = kube_client.V1EmptyDirVolumeSource()
-         volume.empty_dir.medium = "Memory"
- 
-         source_volume_mount = kube_client.V1VolumeMount(
-@@ -317,14 +333,48 @@
-         )
-         container.ports = [
-             kube_client.V1ContainerPort(container_port=p)
-             for p in range(self._learning_start_port, self._learning_start_port + 1000)
-         ]
-         return container
- 
-+    def get_vineyard_container(self, volume_mounts):
-+        name = self.vineyard_container_name
-+        image = self._vineyard_image
-+        sts_name = self.engine_stateful_set_name
-+        svc_name = sts_name + "-headless"
-+        pod0_dns = f"{sts_name}-0.{svc_name}.{self._namespace}.svc.cluster.local"
-+        vineyard_cmd = (
-+            f"vineyardd -size {self._vineyard_shared_mem} -socket {self._sock}"
-+        )
-+        args = f"""
-+            [[ `hostname` =~ -([0-9]+)$ ]] || exit 1;
-+            ordinal=${{BASH_REMATCH[1]}};
-+            if (( $ordinal == 0 )); then
-+                {vineyard_cmd} -etcd_endpoint http://0.0.0.0:{self._etcd_port}
-+            else
-+                until nslookup {pod0_dns}; do sleep 1; done;
-+                {vineyard_cmd} -etcd_endpoint http://{pod0_dns}:{self._etcd_port}
-+            fi;
-+            """
-+        args = ["bash", "-c", args]
-+        container = self.get_engine_container_helper(
-+            name,
-+            image,
-+            args,
-+            volume_mounts,
-+            self._vineyard_requests,
-+            self._vineyard_requests,
-+        )
-+        container.ports = [
-+            kube_client.V1ContainerPort(container_port=self._vineyard_service_port),
-+            kube_client.V1ContainerPort(container_port=self._etcd_port),
-+        ]
-+        return container
-+
-     def get_mars_container(self):
-         _ = self.mars_container_name
-         return
- 
-     def get_dataset_container(self, volume_mounts):
-         name = self.dataset_container_name
-         container = kube_client.V1Container(name=name)
-@@ -338,43 +388,23 @@
-         container.volume_mounts = volume_mounts
-         if self._dataset_proxy and self._dataset_proxy is not None:
-             container.env = self.get_dataset_proxy_env()
- 
-         container.security_context = kube_client.V1SecurityContext(privileged=True)
-         return container
- 
--    def get_vineyard_socket_volume_from_vineyard_deployment(self):
--        name = "vineyard-ipc-socket"
--
--        # Notice, the path must be same as the one in vineyardd_types.go
--        # https://github.com/v6d-io/v6d/blob/main/k8s/apis/k8s/v1alpha1/vineyardd_types.go#L125
--        path = f"/var/run/vineyard-kubernetes/{self._namespace}/{self._vineyard_deployment}"
--        host_path = kube_client.V1HostPathVolumeSource(path=path)
--        host_path.type = "Directory"
--        volume = kube_client.V1Volume(name=name, host_path=host_path)
--        volume_mount = kube_client.V1VolumeMount(
--            name=name, mount_path="/tmp/vineyard_workspace"
--        )
--        return volume, volume_mount
--
-     def get_engine_pod_spec(self):
-         containers = []
-         volumes = []
- 
-+        socket_volume = self.get_vineyard_socket_volume()
-         shm_volume = self.get_shm_volume()
--        volumes = [shm_volume[0]]
--        engine_volume_mounts = [shm_volume[2]]
-+        volumes.extend([socket_volume[0], shm_volume[0]])
- 
--        if self.vineyard_deployment_exists():
--            (
--                volume,
--                volume_mount,
--            ) = self.get_vineyard_socket_volume_from_vineyard_deployment()
--            volumes.append(volume)
--            engine_volume_mounts.append(volume_mount)
-+        engine_volume_mounts = [socket_volume[2], shm_volume[2]]
- 
-         if self._volumes and self._volumes is not None:
-             udf_volumes = ResourceBuilder.get_user_defined_volumes(self._volumes)
-             volumes.extend(udf_volumes[0])
-             engine_volume_mounts.extend(udf_volumes[2])
- 
-         if self._with_analytical:
-@@ -394,14 +424,21 @@
-                 )
-             )
-         if self._with_learning:
-             containers.append(
-                 self.get_learning_container(volume_mounts=engine_volume_mounts)
-             )
- 
-+        if self._vineyard_deployment is None:
-+            containers.append(
-+                self.get_vineyard_container(
-+                    volume_mounts=[socket_volume[1], shm_volume[1]]
-+                )
-+            )
-+
-         if self._with_dataset:
-             dataset_volume = self.get_dataset_volume()
-             volumes.append(dataset_volume[0])
-             containers.append(
-                 self.get_dataset_container(volume_mounts=[dataset_volume[1]])
-             )
-             engine_volume_mounts.append(dataset_volume[2])
-@@ -440,22 +477,33 @@
- 
-     def get_engine_headless_service(self):
-         name = self.engine_stateful_set_name + "-headless"
-         ports = [kube_client.V1ServicePort(name="etcd", port=self._etcd_port)]
-         service_spec = ResourceBuilder.get_service_spec(
-             "ClusterIP", ports, self._engine_labels, None
-         )
--
-         # Necessary, create a headless service for statefulset
-         service_spec.cluster_ip = "None"
-         service = ResourceBuilder.get_service(
-             self._namespace, name, service_spec, self._engine_labels
-         )
-         return service
- 
-+    def get_vineyard_service(self):
-+        service_type = self._service_type
-+        name = f"{self._vineyard_prefix}{self._instance_id}"
-+        ports = [kube_client.V1ServicePort(name=name, port=self._vineyard_service_port)]
-+        service_spec = ResourceBuilder.get_service_spec(
-+            service_type, ports, self._engine_labels, None
-+        )
-+        service = ResourceBuilder.get_service(
-+            self._namespace, name, service_spec, self._engine_labels
-+        )
-+        return service
-+
-     def get_learning_service(self, object_id, start_port):
-         service_type = self._service_type
-         num_workers = self._num_workers
-         name = self.get_learning_service_name(object_id)
-         ports = []
-         for i in range(start_port, start_port + num_workers):
-             port = kube_client.V1ServicePort(name=f"{name}-{i}", port=i, protocol="TCP")
-@@ -478,22 +526,23 @@
- 
-     @property
-     def frontend_deployment_name(self):
-         return f"{self._interactive_frontend_prefix}{self._instance_id}"
- 
-     @property
-     def vineyard_service_name(self):
--        return f"{self.engine_stateful_set_name}-{self._instance_id}-vineyard-rpc"
-+        return f"{self._vineyard_prefix}{self._instance_id}"
- 
-     def get_vineyard_service_endpoint(self, api_client):
-         # return f"{self.vineyard_service_name}:{self._vineyard_service_port}"
-         service_name = self.vineyard_service_name
-         service_type = self._service_type
-         if self.vineyard_deployment_exists():
-             service_name = self._vineyard_deployment + "-rpc"
-+            service_type = "ClusterIP"
-         endpoints = get_service_endpoints(
-             api_client=api_client,
-             namespace=self._namespace,
-             name=service_name,
-             service_type=service_type,
-         )
-         assert len(endpoints) > 0
-```
-
-## gscoordinator/coordinator.py
-
-```diff
-@@ -862,20 +862,14 @@
-         type=str2bool,
-         nargs="?",
-         const=False,
-         default=False,
-         help="Mount the aliyun dataset bucket as a volume by ossfs.",
-     )
-     parser.add_argument(
--        "--k8s_deploy_mode",
--        type=str,
--        default="eager",
--        help="The deploying mode of graphscope, eager or lazy.",
--    )
--    parser.add_argument(
-         "--monitor",
-         type=str2bool,
-         nargs="?",
-         const=False,
-         default=False,
-         help="Enable or disable prometheus exporter.",
-     )
-@@ -935,15 +929,14 @@
-             vineyard_mem=args.k8s_vineyard_mem,
-             vineyard_shared_mem=args.vineyard_shared_mem,
-             volumes=args.k8s_volumes,
-             waiting_for_delete=args.waiting_for_delete,
-             with_mars=args.k8s_with_mars,
-             enabled_engines=args.k8s_enabled_engines,
-             dataset_proxy=args.dataset_proxy,
--            deploy_mode=args.k8s_deploy_mode,
-         )
-     elif args.cluster_type == "hosts":
-         launcher = LocalLauncher(
-             num_workers=args.num_workers,
-             hosts=args.hosts,
-             etcd_addrs=args.etcd_addrs,
-             etcd_listening_client_port=args.etcd_listening_client_port,
-@@ -988,17 +981,17 @@
- 
-     if args.monitor:
-         try:
-             Monitor.startServer(args.monitor_port, "0.0.0.0")
-             logger.info(
-                 "Coordinator monitor server listen at 0.0.0.0:%d", args.monitor_port
-             )
--        except Exception:  # noqa: E722, pylint: disable=broad-except
--            logger.exception(
--                "Failed to start monitor server 0.0.0.0:%d", args.monitor_port
-+        except Exception as e:
-+            logger.error(
-+                "Failed to start monitor server 0.0.0.0:%d : %s", args.monitor_port, e
-             )
- 
-     # handle SIGTERM signal
-     def terminate(signum, frame):
-         server.stop(True)
-         coordinator_service_servicer.cleanup()
+ Comment:
 ```
 
 ## gscoordinator/kubernetes_launcher.py
@@ -1765,6 +1325,429 @@
                  api_client=self._api_client,
 ```
 
+## gscoordinator/coordinator.py
+
+```diff
+@@ -862,20 +862,14 @@
+         type=str2bool,
+         nargs="?",
+         const=False,
+         default=False,
+         help="Mount the aliyun dataset bucket as a volume by ossfs.",
+     )
+     parser.add_argument(
+-        "--k8s_deploy_mode",
+-        type=str,
+-        default="eager",
+-        help="The deploying mode of graphscope, eager or lazy.",
+-    )
+-    parser.add_argument(
+         "--monitor",
+         type=str2bool,
+         nargs="?",
+         const=False,
+         default=False,
+         help="Enable or disable prometheus exporter.",
+     )
+@@ -935,15 +929,14 @@
+             vineyard_mem=args.k8s_vineyard_mem,
+             vineyard_shared_mem=args.vineyard_shared_mem,
+             volumes=args.k8s_volumes,
+             waiting_for_delete=args.waiting_for_delete,
+             with_mars=args.k8s_with_mars,
+             enabled_engines=args.k8s_enabled_engines,
+             dataset_proxy=args.dataset_proxy,
+-            deploy_mode=args.k8s_deploy_mode,
+         )
+     elif args.cluster_type == "hosts":
+         launcher = LocalLauncher(
+             num_workers=args.num_workers,
+             hosts=args.hosts,
+             etcd_addrs=args.etcd_addrs,
+             etcd_listening_client_port=args.etcd_listening_client_port,
+@@ -988,17 +981,17 @@
+ 
+     if args.monitor:
+         try:
+             Monitor.startServer(args.monitor_port, "0.0.0.0")
+             logger.info(
+                 "Coordinator monitor server listen at 0.0.0.0:%d", args.monitor_port
+             )
+-        except Exception:  # noqa: E722, pylint: disable=broad-except
+-            logger.exception(
+-                "Failed to start monitor server 0.0.0.0:%d", args.monitor_port
++        except Exception as e:
++            logger.error(
++                "Failed to start monitor server 0.0.0.0:%d : %s", args.monitor_port, e
+             )
+ 
+     # handle SIGTERM signal
+     def terminate(signum, frame):
+         server.stop(True)
+         coordinator_service_servicer.cleanup()
+```
+
+## gscoordinator/op_executor.py
+
+```diff
+@@ -13,15 +13,15 @@
+ from graphscope.framework import utils
+ from graphscope.framework.dag_utils import create_graph
+ from graphscope.framework.dag_utils import create_loader
+ from graphscope.framework.errors import AnalyticalEngineInternalError
+ from graphscope.framework.graph_utils import normalize_parameter_edges
+ from graphscope.framework.graph_utils import normalize_parameter_vertices
+ from graphscope.framework.loader import Loader
+-from graphscope.framework.utils import find_java_exe
++from graphscope.framework.utils import find_java
+ from graphscope.framework.utils import get_tempdir
+ from graphscope.framework.utils import normalize_data_type_str
+ from graphscope.proto import attr_value_pb2
+ from graphscope.proto import engine_service_pb2_grpc
+ from graphscope.proto import graph_def_pb2
+ from graphscope.proto import message_pb2
+ from graphscope.proto import op_def_pb2
+@@ -333,32 +333,30 @@
+     def _create_analytical_grpc_stub(self):
+         options = [
+             ("grpc.max_send_message_length", GS_GRPC_MAX_MESSAGE_LENGTH),
+             ("grpc.max_receive_message_length", GS_GRPC_MAX_MESSAGE_LENGTH),
+             ("grpc.max_metadata_size", GS_GRPC_MAX_MESSAGE_LENGTH),
+         ]
+         # Check connectivity, otherwise the stub is useless
+-        delay = 2
+-        for retry in range(8):  # approximated 255s
++        retry = 0
++        while retry < 20:
+             try:
+                 channel = grpc.insecure_channel(
+                     self._launcher.analytical_engine_endpoint, options=options
+                 )
+                 stub = engine_service_pb2_grpc.EngineServiceStub(channel)
+                 stub.HeartBeat(message_pb2.HeartBeatRequest())
+                 return stub
+             except grpc.RpcError as e:
+                 logger.warning(
+-                    "Connecting to analytical engine... tried %d time, will retry in %d seconds",
+-                    retry + 1,
+-                    delay,
++                    "Connecting to analytical engine... retrying %d time", retry
+                 )
+                 logger.warning("Error code: %s, details %s", e.code(), e.details())
+-                time.sleep(delay)
+-                delay *= 2  # back off
++                retry += 1
++                time.sleep(3)
+         raise RuntimeError(
+             "Failed to connect to engine in 60s, deployment may failed. Please check coordinator log for details"
+         )
+ 
+     @property
+     def analytical_grpc_stub(self):
+         if self._launcher.analytical_engine_endpoint is None:
+@@ -373,15 +371,15 @@
+         config = json.loads(
+             response_head.head.results[0].result.decode("utf-8", errors="ignore")
+         )
+         config["engine_hosts"] = self._launcher.hosts
+         # Disable ENABLE_JAVA_SDK when java is not installed on coordinator
+         if config["enable_java_sdk"] == "ON":
+             try:
+-                find_java_exe()
++                find_java()
+             except RuntimeError:
+                 logger.warning(
+                     "Disable java sdk support since java is not installed on coordinator"
+                 )
+                 config["enable_java_sdk"] = "OFF"
+         return config
+ 
+@@ -634,15 +632,14 @@
+                 types_pb2.DIRECTED: utils.b_to_attr(True),
+                 types_pb2.OID_TYPE: utils.s_to_attr(oid_type),
+                 types_pb2.GENERATE_EID: utils.b_to_attr(False),
+                 # otherwise the new graph cannot be used for GIE
+                 types_pb2.RETAIN_OID: utils.b_to_attr(True),
+                 types_pb2.VID_TYPE: utils.s_to_attr("uint64_t"),
+                 types_pb2.IS_FROM_VINEYARD_ID: utils.b_to_attr(False),
+-                types_pb2.COMPACT_EDGES: utils.b_to_attr(False),
+             }
+             new_op = create_graph(
+                 self._session_id,
+                 graph_def_pb2.ARROW_PROPERTY,
+                 inputs=[loader_op],
+                 attrs=config,
+             )
+```
+
+## gscoordinator/cluster_builder.py
+
+```diff
+@@ -50,15 +50,14 @@
+ 
+ class EngineCluster:
+     def __init__(
+         self,
+         engine_cpu,
+         engine_mem,
+         engine_pod_node_selector,
+-        engine_pod_prefix,
+         glog_level,
+         image_pull_policy,
+         image_pull_secrets,
+         image_registry,
+         image_repository,
+         image_tag,
+         instance_id,
+@@ -77,15 +76,15 @@
+         with_analytical_java,
+         with_dataset,
+         with_interactive,
+         with_learning,
+         with_mars,
+         dataset_proxy,
+     ):
+-        self._gs_prefix = engine_pod_prefix
++        self._gs_prefix = "gs-engine-"
+         self._analytical_prefix = "gs-analytical-"
+         self._interactive_frontend_prefix = "gs-interactive-frontend-"
+ 
+         self._learning_prefix = "gs-learning-"
+ 
+         self._vineyard_prefix = "vineyard-"
+ 
+@@ -98,17 +97,15 @@
+ 
+         self._namespace = namespace
+         self._engine_labels = {
+             "app.kubernetes.io/name": "graphscope",
+             "app.kubernetes.io/instance": self._instance_id,
+             "app.kubernetes.io/version": __version__,
+             "app.kubernetes.io/component": "engine",
+-            "app.kubernetes.io/engine_selector": self.engine_stateful_set_name,
+         }
+-
+         self._frontend_labels = self._engine_labels.copy()
+         self._frontend_labels["app.kubernetes.io/component"] = "frontend"
+ 
+         self._with_dataset = with_dataset
+         if not image_registry:
+             image_prefix = image_repository
+         else:
+@@ -215,14 +212,33 @@
+     def get_base_machine_env(self):
+         env = [
+             ResourceBuilder.get_value_from_field_ref(key, value)
+             for key, value in BASE_MACHINE_ENVS.items()
+         ]
+         return env
+ 
++    def get_vineyard_socket_volume(self):
++        name = "vineyard-ipc-socket"
++        volume = kube_client.V1Volume(name=name)
++        if self._vineyard_deployment is None:
++            empty_dir = kube_client.V1EmptyDirVolumeSource()
++            volume.empty_dir = empty_dir
++        else:
++            path = f"/var/run/vineyard-kubernetes/{self._namespace}/{self._vineyard_deployment}"
++            host_path = kube_client.V1HostPathVolumeSource(path=path)
++            host_path.type = "Directory"
++            volume.host_path = host_path
++
++        source_volume_mount = kube_client.V1VolumeMount(
++            name=name, mount_path="/tmp/vineyard_workspace"
++        )
++        destination_volume_mount = source_volume_mount
++
++        return volume, source_volume_mount, destination_volume_mount
++
+     def get_shm_volume(self):
+         name = "host-shm"
+         volume = kube_client.V1Volume(name=name)
+         volume.empty_dir = kube_client.V1EmptyDirVolumeSource()
+         volume.empty_dir.medium = "Memory"
+ 
+         source_volume_mount = kube_client.V1VolumeMount(
+@@ -317,14 +333,48 @@
+         )
+         container.ports = [
+             kube_client.V1ContainerPort(container_port=p)
+             for p in range(self._learning_start_port, self._learning_start_port + 1000)
+         ]
+         return container
+ 
++    def get_vineyard_container(self, volume_mounts):
++        name = self.vineyard_container_name
++        image = self._vineyard_image
++        sts_name = self.engine_stateful_set_name
++        svc_name = sts_name + "-headless"
++        pod0_dns = f"{sts_name}-0.{svc_name}.{self._namespace}.svc.cluster.local"
++        vineyard_cmd = (
++            f"vineyardd -size {self._vineyard_shared_mem} -socket {self._sock}"
++        )
++        args = f"""
++            [[ `hostname` =~ -([0-9]+)$ ]] || exit 1;
++            ordinal=${{BASH_REMATCH[1]}};
++            if (( $ordinal == 0 )); then
++                {vineyard_cmd} -etcd_endpoint http://0.0.0.0:{self._etcd_port}
++            else
++                until nslookup {pod0_dns}; do sleep 1; done;
++                {vineyard_cmd} -etcd_endpoint http://{pod0_dns}:{self._etcd_port}
++            fi;
++            """
++        args = ["bash", "-c", args]
++        container = self.get_engine_container_helper(
++            name,
++            image,
++            args,
++            volume_mounts,
++            self._vineyard_requests,
++            self._vineyard_requests,
++        )
++        container.ports = [
++            kube_client.V1ContainerPort(container_port=self._vineyard_service_port),
++            kube_client.V1ContainerPort(container_port=self._etcd_port),
++        ]
++        return container
++
+     def get_mars_container(self):
+         _ = self.mars_container_name
+         return
+ 
+     def get_dataset_container(self, volume_mounts):
+         name = self.dataset_container_name
+         container = kube_client.V1Container(name=name)
+@@ -338,43 +388,23 @@
+         container.volume_mounts = volume_mounts
+         if self._dataset_proxy and self._dataset_proxy is not None:
+             container.env = self.get_dataset_proxy_env()
+ 
+         container.security_context = kube_client.V1SecurityContext(privileged=True)
+         return container
+ 
+-    def get_vineyard_socket_volume_from_vineyard_deployment(self):
+-        name = "vineyard-ipc-socket"
+-
+-        # Notice, the path must be same as the one in vineyardd_types.go
+-        # https://github.com/v6d-io/v6d/blob/main/k8s/apis/k8s/v1alpha1/vineyardd_types.go#L125
+-        path = f"/var/run/vineyard-kubernetes/{self._namespace}/{self._vineyard_deployment}"
+-        host_path = kube_client.V1HostPathVolumeSource(path=path)
+-        host_path.type = "Directory"
+-        volume = kube_client.V1Volume(name=name, host_path=host_path)
+-        volume_mount = kube_client.V1VolumeMount(
+-            name=name, mount_path="/tmp/vineyard_workspace"
+-        )
+-        return volume, volume_mount
+-
+     def get_engine_pod_spec(self):
+         containers = []
+         volumes = []
+ 
++        socket_volume = self.get_vineyard_socket_volume()
+         shm_volume = self.get_shm_volume()
+-        volumes = [shm_volume[0]]
+-        engine_volume_mounts = [shm_volume[2]]
++        volumes.extend([socket_volume[0], shm_volume[0]])
+ 
+-        if self.vineyard_deployment_exists():
+-            (
+-                volume,
+-                volume_mount,
+-            ) = self.get_vineyard_socket_volume_from_vineyard_deployment()
+-            volumes.append(volume)
+-            engine_volume_mounts.append(volume_mount)
++        engine_volume_mounts = [socket_volume[2], shm_volume[2]]
+ 
+         if self._volumes and self._volumes is not None:
+             udf_volumes = ResourceBuilder.get_user_defined_volumes(self._volumes)
+             volumes.extend(udf_volumes[0])
+             engine_volume_mounts.extend(udf_volumes[2])
+ 
+         if self._with_analytical:
+@@ -394,14 +424,21 @@
+                 )
+             )
+         if self._with_learning:
+             containers.append(
+                 self.get_learning_container(volume_mounts=engine_volume_mounts)
+             )
+ 
++        if self._vineyard_deployment is None:
++            containers.append(
++                self.get_vineyard_container(
++                    volume_mounts=[socket_volume[1], shm_volume[1]]
++                )
++            )
++
+         if self._with_dataset:
+             dataset_volume = self.get_dataset_volume()
+             volumes.append(dataset_volume[0])
+             containers.append(
+                 self.get_dataset_container(volume_mounts=[dataset_volume[1]])
+             )
+             engine_volume_mounts.append(dataset_volume[2])
+@@ -440,22 +477,33 @@
+ 
+     def get_engine_headless_service(self):
+         name = self.engine_stateful_set_name + "-headless"
+         ports = [kube_client.V1ServicePort(name="etcd", port=self._etcd_port)]
+         service_spec = ResourceBuilder.get_service_spec(
+             "ClusterIP", ports, self._engine_labels, None
+         )
+-
+         # Necessary, create a headless service for statefulset
+         service_spec.cluster_ip = "None"
+         service = ResourceBuilder.get_service(
+             self._namespace, name, service_spec, self._engine_labels
+         )
+         return service
+ 
++    def get_vineyard_service(self):
++        service_type = self._service_type
++        name = f"{self._vineyard_prefix}{self._instance_id}"
++        ports = [kube_client.V1ServicePort(name=name, port=self._vineyard_service_port)]
++        service_spec = ResourceBuilder.get_service_spec(
++            service_type, ports, self._engine_labels, None
++        )
++        service = ResourceBuilder.get_service(
++            self._namespace, name, service_spec, self._engine_labels
++        )
++        return service
++
+     def get_learning_service(self, object_id, start_port):
+         service_type = self._service_type
+         num_workers = self._num_workers
+         name = self.get_learning_service_name(object_id)
+         ports = []
+         for i in range(start_port, start_port + num_workers):
+             port = kube_client.V1ServicePort(name=f"{name}-{i}", port=i, protocol="TCP")
+@@ -478,22 +526,23 @@
+ 
+     @property
+     def frontend_deployment_name(self):
+         return f"{self._interactive_frontend_prefix}{self._instance_id}"
+ 
+     @property
+     def vineyard_service_name(self):
+-        return f"{self.engine_stateful_set_name}-{self._instance_id}-vineyard-rpc"
++        return f"{self._vineyard_prefix}{self._instance_id}"
+ 
+     def get_vineyard_service_endpoint(self, api_client):
+         # return f"{self.vineyard_service_name}:{self._vineyard_service_port}"
+         service_name = self.vineyard_service_name
+         service_type = self._service_type
+         if self.vineyard_deployment_exists():
+             service_name = self._vineyard_deployment + "-rpc"
++            service_type = "ClusterIP"
+         endpoints = get_service_endpoints(
+             api_client=api_client,
+             namespace=self._namespace,
+             name=service_name,
+             service_type=service_type,
+         )
+         assert len(endpoints) > 0
+```
+
 ## gscoordinator/local_launcher.py
 
 ```diff
@@ -1866,97 +1849,12 @@
          return etcd
 ```
 
-## gscoordinator/op_executor.py
+## gscoordinator/VERSION
 
 ```diff
-@@ -13,15 +13,15 @@
- from graphscope.framework import utils
- from graphscope.framework.dag_utils import create_graph
- from graphscope.framework.dag_utils import create_loader
- from graphscope.framework.errors import AnalyticalEngineInternalError
- from graphscope.framework.graph_utils import normalize_parameter_edges
- from graphscope.framework.graph_utils import normalize_parameter_vertices
- from graphscope.framework.loader import Loader
--from graphscope.framework.utils import find_java_exe
-+from graphscope.framework.utils import find_java
- from graphscope.framework.utils import get_tempdir
- from graphscope.framework.utils import normalize_data_type_str
- from graphscope.proto import attr_value_pb2
- from graphscope.proto import engine_service_pb2_grpc
- from graphscope.proto import graph_def_pb2
- from graphscope.proto import message_pb2
- from graphscope.proto import op_def_pb2
-@@ -333,32 +333,30 @@
-     def _create_analytical_grpc_stub(self):
-         options = [
-             ("grpc.max_send_message_length", GS_GRPC_MAX_MESSAGE_LENGTH),
-             ("grpc.max_receive_message_length", GS_GRPC_MAX_MESSAGE_LENGTH),
-             ("grpc.max_metadata_size", GS_GRPC_MAX_MESSAGE_LENGTH),
-         ]
-         # Check connectivity, otherwise the stub is useless
--        delay = 2
--        for retry in range(8):  # approximated 255s
-+        retry = 0
-+        while retry < 20:
-             try:
-                 channel = grpc.insecure_channel(
-                     self._launcher.analytical_engine_endpoint, options=options
-                 )
-                 stub = engine_service_pb2_grpc.EngineServiceStub(channel)
-                 stub.HeartBeat(message_pb2.HeartBeatRequest())
-                 return stub
-             except grpc.RpcError as e:
-                 logger.warning(
--                    "Connecting to analytical engine... tried %d time, will retry in %d seconds",
--                    retry + 1,
--                    delay,
-+                    "Connecting to analytical engine... retrying %d time", retry
-                 )
-                 logger.warning("Error code: %s, details %s", e.code(), e.details())
--                time.sleep(delay)
--                delay *= 2  # back off
-+                retry += 1
-+                time.sleep(3)
-         raise RuntimeError(
-             "Failed to connect to engine in 60s, deployment may failed. Please check coordinator log for details"
-         )
- 
-     @property
-     def analytical_grpc_stub(self):
-         if self._launcher.analytical_engine_endpoint is None:
-@@ -373,15 +371,15 @@
-         config = json.loads(
-             response_head.head.results[0].result.decode("utf-8", errors="ignore")
-         )
-         config["engine_hosts"] = self._launcher.hosts
-         # Disable ENABLE_JAVA_SDK when java is not installed on coordinator
-         if config["enable_java_sdk"] == "ON":
-             try:
--                find_java_exe()
-+                find_java()
-             except RuntimeError:
-                 logger.warning(
-                     "Disable java sdk support since java is not installed on coordinator"
-                 )
-                 config["enable_java_sdk"] = "OFF"
-         return config
- 
-@@ -634,15 +632,14 @@
-                 types_pb2.DIRECTED: utils.b_to_attr(True),
-                 types_pb2.OID_TYPE: utils.s_to_attr(oid_type),
-                 types_pb2.GENERATE_EID: utils.b_to_attr(False),
-                 # otherwise the new graph cannot be used for GIE
-                 types_pb2.RETAIN_OID: utils.b_to_attr(True),
-                 types_pb2.VID_TYPE: utils.s_to_attr("uint64_t"),
-                 types_pb2.IS_FROM_VINEYARD_ID: utils.b_to_attr(False),
--                types_pb2.COMPACT_EDGES: utils.b_to_attr(False),
-             }
-             new_op = create_graph(
-                 self._session_id,
-                 graph_def_pb2.ARROW_PROPERTY,
-                 inputs=[loader_op],
-                 attrs=config,
-             )
+@@ -1 +1 @@
+-0.22.0
++0.22.0a20230515
 ```
 
 ## gscoordinator/utils.py
@@ -2272,94 +2170,6 @@
          # grape::ArrowFlattenFragment<int64_t, uint32_t, double, double>
 ```
 
-## gscoordinator/builtin/app/builtin_app.gar
-
-### zipinfo {}
-
-```diff
-@@ -1,5 +1,5 @@
- Zip file size: 5601 bytes, number of entries: 3
---rw-r--r--  2.0 unx    23996 b- defN 23-Jun-06 14:38 .gs_conf.yaml
---rw-r--r--  2.0 unx      646 b- defN 23-Jun-06 14:38 __init__.py
---rw-r--r--  2.0 unx     2676 b- defN 23-Jun-06 16:23 builtin_app.zip
-+-rw-r--r--  2.0 unx    23996 b- defN 23-May-15 19:08 .gs_conf.yaml
-+-rw-r--r--  2.0 unx      646 b- defN 23-May-15 19:08 __init__.py
-+-rw-r--r--  2.0 unx     2676 b- defN 23-May-15 21:14 builtin_app.zip
- 3 files, 27318 bytes uncompressed, 5273 bytes compressed:  80.7%
-```
-
-### builtin_app.zip
-
- * *Command `'zipinfo {}'` failed with exit code 9. Standard output:*
-
- * *    Archive:  /tmp/diffoscope_14_4vttt_/tmpwozepg0__ZipContainer/builtin_app.zip*
-
- * *    […]*
-
- * *Archive contents identical but files differ, possibly due to different compression levels. Falling back to binary comparison.*
-
-```diff
-@@ -1,8 +1,8 @@
--00000000: 504b 0304 1400 0000 0800 c674 c656 c5fe  PK.........t.V..
-+00000000: 504b 0304 1400 0000 0800 1c99 af56 c5fe  PK...........V..
- 00000010: c588 8608 0000 bc5d 0000 0d00 0000 2e67  .......].......g
- 00000020: 735f 636f 6e66 2e79 616d 6ccd 9c5b 739b  s_conf.yaml..[s.
- 00000030: 3814 80df f757 e40f b0cc a46f 7973 48b3  8....W.....oysH.
- 00000040: cd34 693d 71ba bbb3 2f8c 8c15 ac8d 0cac  .4i=q.../.......
- 00000050: 046e dd5f bf47 0299 8b01 1fd9 a9c5 431c  .n._.G........C.
- 00000060: 0fe8 5c3e 1d5d 8e84 30c9 b29b dfae aebc  ..\>.]..0.......
- 00000070: 2bc2 e3f4 e62a 2331 1524 7983 4b57 57f9  +....*#1.$y.KWW.
-@@ -133,15 +133,15 @@
- 00000840: 6fc7 5e60 68a3 69f5 6eb6 d06d f6d0 b163  o.^`h.i.n..m...c
- 00000850: fbd2 cde0 0e66 2d9e ea00 cee8 1b4f 6d1e  .....f-......Om.
- 00000860: 370f 74a4 4578 16e8 f048 37e1 9156 e159  7.t.Ex...H7..V.Y
- 00000870: e0c3 235d 8567 2918 28c1 b738 5d1c dbe6  ..#].g).(..8]...
- 00000880: 7461 7754 363d 490b a03b 932e ed26 6020  tawT6=I..;...&` 
- 00000890: 1e66 294b 2c32 8a22 9f2b 01ec 585e e49e  .f)K,2.".+..X^..
- 000008a0: 36e0 94ce e6c5 cf8a 0f1b bd3d e045 02f8  6..........=.E..
--000008b0: 3f50 4b03 0414 0000 0008 00c6 74c6 567c  ?PK.........t.V|
-+000008b0: 3f50 4b03 0414 0000 0008 001c 99af 567c  ?PK...........V|
- 000008c0: bd2d f09a 0100 0086 0200 000b 0000 005f  .-............._
- 000008d0: 5f69 6e69 745f 5f2e 7079 6592 416f db30  _init__.pye.Ao.0
- 000008e0: 0c85 effd 156f c965 1b92 38c8 2e43 77f2  .....o.e..8..Cw.
- 000008f0: d26c 3516 3840 9cae e851 b669 9b80 2369  .l5.8@...Q.i..#i
- 00000900: 925c 37ff 7e94 9b01 2da6 8b20 f1f1 e923  .\7.~...-.. ...#
- 00000910: a9f9 0724 8377 49c9 3a21 fd0c 7b09 9dd1  ...$.wI.:!..{...
- 00000920: 5f6e e658 7e5e a232 35eb f616 4368 965f  _n.X~^.25...Ch._
-```
-
-#### builtin_app.zip
-
-```diff
-@@ -1,8 +1,8 @@
--00000000: 504b 0304 1400 0000 0800 c674 c656 c5fe  PK.........t.V..
-+00000000: 504b 0304 1400 0000 0800 1c99 af56 c5fe  PK...........V..
- 00000010: c588 8608 0000 bc5d 0000 0d00 0000 2e67  .......].......g
- 00000020: 735f 636f 6e66 2e79 616d 6ccd 9c5b 739b  s_conf.yaml..[s.
- 00000030: 3814 80df f757 e40f b0cc a46f 7973 48b3  8....W.....oysH.
- 00000040: cd34 693d 71ba bbb3 2f8c 8c15 ac8d 0cac  .4i=q.../.......
- 00000050: 046e dd5f bf47 0299 8b01 1fd9 a9c5 431c  .n._.G........C.
- 00000060: 0fe8 5c3e 1d5d 8e84 30c9 b29b dfae aebc  ..\>.]..0.......
- 00000070: 2bc2 e3f4 e62a 2331 1524 7983 4b57 57f9  +....*#1.$y.KWW.
-@@ -133,15 +133,15 @@
- 00000840: 6fc7 5e60 68a3 69f5 6eb6 d06d f6d0 b163  o.^`h.i.n..m...c
- 00000850: fbd2 cde0 0e66 2d9e ea00 cee8 1b4f 6d1e  .....f-......Om.
- 00000860: 370f 74a4 4578 16e8 f048 37e1 9156 e159  7.t.Ex...H7..V.Y
- 00000870: e0c3 235d 8567 2918 28c1 b738 5d1c dbe6  ..#].g).(..8]...
- 00000880: 7461 7754 363d 490b a03b 932e ed26 6020  tawT6=I..;...&` 
- 00000890: 1e66 294b 2c32 8a22 9f2b 01ec 585e e49e  .f)K,2.".+..X^..
- 000008a0: 36e0 94ce e6c5 cf8a 0f1b bd3d e045 02f8  6..........=.E..
--000008b0: 3f50 4b03 0414 0000 0008 00c6 74c6 567c  ?PK.........t.V|
-+000008b0: 3f50 4b03 0414 0000 0008 001c 99af 567c  ?PK...........V|
- 000008c0: bd2d f09a 0100 0086 0200 000b 0000 005f  .-............._
- 000008d0: 5f69 6e69 745f 5f2e 7079 6592 416f db30  _init__.pye.Ao.0
- 000008e0: 0c85 effd 156f c965 1b92 38c8 2e43 77f2  .....o.e..8..Cw.
- 000008f0: d26c 3516 3840 9cae e851 b669 9b80 2369  .l5.8@...Q.i..#i
- 00000900: 925c 37ff 7e94 9b01 2da6 8b20 f1f1 e923  .\7.~...-.. ...#
- 00000910: a9f9 0724 8377 49c9 3a21 fd0c 7b09 9dd1  ...$.wI.:!..{...
- 00000920: 5f6e e658 7e5e a232 35eb f616 4368 965f  _n.X~^.25...Ch._
-```
-
 ## gscoordinator/template/CMakeLists.template
 
 ```diff
@@ -2382,6 +2192,147 @@
                                       ${ANALYTICAL_ENGINE_FRAME_DIR}/cython_app_frame.cc)
      target_compile_definitions(${FRAME_NAME} PRIVATE _OID_TYPE=$_oid_type
                                                       _VD_TYPE=$_vd_type
+```
+
+## gscoordinator/builtin/app/builtin_app.gar
+
+### zipinfo {}
+
+```diff
+@@ -1,5 +1,5 @@
+ Zip file size: 5601 bytes, number of entries: 3
+--rw-r--r--  2.0 unx    23996 b- defN 23-Jun-06 01:10 .gs_conf.yaml
+--rw-r--r--  2.0 unx      646 b- defN 23-Jun-06 01:10 __init__.py
+--rw-r--r--  2.0 unx     2676 b- defN 23-Jun-06 01:40 builtin_app.zip
++-rw-r--r--  2.0 unx    23996 b- defN 23-May-15 19:08 .gs_conf.yaml
++-rw-r--r--  2.0 unx      646 b- defN 23-May-15 19:08 __init__.py
++-rw-r--r--  2.0 unx     2676 b- defN 23-May-15 21:14 builtin_app.zip
+ 3 files, 27318 bytes uncompressed, 5273 bytes compressed:  80.7%
+```
+
+### builtin_app.zip
+
+ * *Command `'zipinfo {}'` failed with exit code 9. Standard output:*
+
+ * *    Archive:  /tmp/diffoscope_qvsva96x_/tmpj2t0jp59_ZipContainer/builtin_app.zip*
+
+ * *    […]*
+
+ * *Archive contents identical but files differ, possibly due to different compression levels. Falling back to binary comparison.*
+
+```diff
+@@ -1,8 +1,8 @@
+-00000000: 504b 0304 1400 0000 0800 4809 c656 c5fe  PK........H..V..
++00000000: 504b 0304 1400 0000 0800 1c99 af56 c5fe  PK...........V..
+ 00000010: c588 8608 0000 bc5d 0000 0d00 0000 2e67  .......].......g
+ 00000020: 735f 636f 6e66 2e79 616d 6ccd 9c5b 739b  s_conf.yaml..[s.
+ 00000030: 3814 80df f757 e40f b0cc a46f 7973 48b3  8....W.....oysH.
+ 00000040: cd34 693d 71ba bbb3 2f8c 8c15 ac8d 0cac  .4i=q.../.......
+ 00000050: 046e dd5f bf47 0299 8b01 1fd9 a9c5 431c  .n._.G........C.
+ 00000060: 0fe8 5c3e 1d5d 8e84 30c9 b29b dfae aebc  ..\>.]..0.......
+ 00000070: 2bc2 e3f4 e62a 2331 1524 7983 4b57 57f9  +....*#1.$y.KWW.
+@@ -133,15 +133,15 @@
+ 00000840: 6fc7 5e60 68a3 69f5 6eb6 d06d f6d0 b163  o.^`h.i.n..m...c
+ 00000850: fbd2 cde0 0e66 2d9e ea00 cee8 1b4f 6d1e  .....f-......Om.
+ 00000860: 370f 74a4 4578 16e8 f048 37e1 9156 e159  7.t.Ex...H7..V.Y
+ 00000870: e0c3 235d 8567 2918 28c1 b738 5d1c dbe6  ..#].g).(..8]...
+ 00000880: 7461 7754 363d 490b a03b 932e ed26 6020  tawT6=I..;...&` 
+ 00000890: 1e66 294b 2c32 8a22 9f2b 01ec 585e e49e  .f)K,2.".+..X^..
+ 000008a0: 36e0 94ce e6c5 cf8a 0f1b bd3d e045 02f8  6..........=.E..
+-000008b0: 3f50 4b03 0414 0000 0008 0048 09c6 567c  ?PK........H..V|
++000008b0: 3f50 4b03 0414 0000 0008 001c 99af 567c  ?PK...........V|
+ 000008c0: bd2d f09a 0100 0086 0200 000b 0000 005f  .-............._
+ 000008d0: 5f69 6e69 745f 5f2e 7079 6592 416f db30  _init__.pye.Ao.0
+ 000008e0: 0c85 effd 156f c965 1b92 38c8 2e43 77f2  .....o.e..8..Cw.
+ 000008f0: d26c 3516 3840 9cae e851 b669 9b80 2369  .l5.8@...Q.i..#i
+ 00000900: 925c 37ff 7e94 9b01 2da6 8b20 f1f1 e923  .\7.~...-.. ...#
+ 00000910: a9f9 0724 8377 49c9 3a21 fd0c 7b09 9dd1  ...$.wI.:!..{...
+ 00000920: 5f6e e658 7e5e a232 35eb f616 4368 965f  _n.X~^.25...Ch._
+```
+
+#### builtin_app.zip
+
+```diff
+@@ -1,8 +1,8 @@
+-00000000: 504b 0304 1400 0000 0800 4809 c656 c5fe  PK........H..V..
++00000000: 504b 0304 1400 0000 0800 1c99 af56 c5fe  PK...........V..
+ 00000010: c588 8608 0000 bc5d 0000 0d00 0000 2e67  .......].......g
+ 00000020: 735f 636f 6e66 2e79 616d 6ccd 9c5b 739b  s_conf.yaml..[s.
+ 00000030: 3814 80df f757 e40f b0cc a46f 7973 48b3  8....W.....oysH.
+ 00000040: cd34 693d 71ba bbb3 2f8c 8c15 ac8d 0cac  .4i=q.../.......
+ 00000050: 046e dd5f bf47 0299 8b01 1fd9 a9c5 431c  .n._.G........C.
+ 00000060: 0fe8 5c3e 1d5d 8e84 30c9 b29b dfae aebc  ..\>.]..0.......
+ 00000070: 2bc2 e3f4 e62a 2331 1524 7983 4b57 57f9  +....*#1.$y.KWW.
+@@ -133,15 +133,15 @@
+ 00000840: 6fc7 5e60 68a3 69f5 6eb6 d06d f6d0 b163  o.^`h.i.n..m...c
+ 00000850: fbd2 cde0 0e66 2d9e ea00 cee8 1b4f 6d1e  .....f-......Om.
+ 00000860: 370f 74a4 4578 16e8 f048 37e1 9156 e159  7.t.Ex...H7..V.Y
+ 00000870: e0c3 235d 8567 2918 28c1 b738 5d1c dbe6  ..#].g).(..8]...
+ 00000880: 7461 7754 363d 490b a03b 932e ed26 6020  tawT6=I..;...&` 
+ 00000890: 1e66 294b 2c32 8a22 9f2b 01ec 585e e49e  .f)K,2.".+..X^..
+ 000008a0: 36e0 94ce e6c5 cf8a 0f1b bd3d e045 02f8  6..........=.E..
+-000008b0: 3f50 4b03 0414 0000 0008 0048 09c6 567c  ?PK........H..V|
++000008b0: 3f50 4b03 0414 0000 0008 001c 99af 567c  ?PK...........V|
+ 000008c0: bd2d f09a 0100 0086 0200 000b 0000 005f  .-............._
+ 000008d0: 5f69 6e69 745f 5f2e 7079 6592 416f db30  _init__.pye.Ao.0
+ 000008e0: 0c85 effd 156f c965 1b92 38c8 2e43 77f2  .....o.e..8..Cw.
+ 000008f0: d26c 3516 3840 9cae e851 b669 9b80 2369  .l5.8@...Q.i..#i
+ 00000900: 925c 37ff 7e94 9b01 2da6 8b20 f1f1 e923  .\7.~...-.. ...#
+ 00000910: a9f9 0724 8377 49c9 3a21 fd0c 7b09 9dd1  ...$.wI.:!..{...
+ 00000920: 5f6e e658 7e5e a232 35eb f616 4368 965f  _n.X~^.25...Ch._
+```
+
+## Comparing `gs_coordinator-0.22.0.dist-info/RECORD` & `gs_coordinator-0.22.0a20230515.dist-info/RECORD`
+
+ * *Files 8% similar despite different names*
+
+```diff
+@@ -1,32 +1,32 @@
++gs_coordinator-0.22.0a20230515.dist-info/RECORD,,
++gs_coordinator-0.22.0a20230515.dist-info/WHEEL,sha256=fw_hGi-Yx84a3ggAIzpSq5odRE77o5K1cXAmZvJuyLk,140
++gs_coordinator-0.22.0a20230515.dist-info/top_level.txt,sha256=GiJfpWt7WpC-H1BxUy5V39G7WAtPut6eqH3yAciJhqQ,33
++gs_coordinator-0.22.0a20230515.dist-info/METADATA,sha256=SLHLGCyhkv2hhhnTVm_KX4QgJSXM7fQuXhhpF0GU8vI,22321
+ graphscope_runtime/__init__.py,sha256=w_Me0NHI5zy8GitMCD7mzOi0Qz7ZfeE2zUI5wGfZIyM,694
+-gs_coordinator-0.22.0.dist-info/RECORD,,
+-gs_coordinator-0.22.0.dist-info/WHEEL,sha256=HKte8F_3_5BhqubTWOSqDKg3FZYIY1VaDasAQmf0R1I,138
+-gs_coordinator-0.22.0.dist-info/top_level.txt,sha256=GiJfpWt7WpC-H1BxUy5V39G7WAtPut6eqH3yAciJhqQ,33
+-gs_coordinator-0.22.0.dist-info/METADATA,sha256=wTi7R4iWPVHz7ykwI78mo6Q04rCKjfB9e6ijfBv3K10,22312
+-gscoordinator/kubernetes_launcher.py,sha256=rDDRJU6Py9ucic7pFE5FD7wTmV1fGuwsUXaQGLKw9d0,58206
+-gscoordinator/coordinator.py,sha256=uvCxBHcnwZHaVGcVvGxRafHs7j-s-pPbn9iQcC97yZ0,37570
++gscoordinator/kubernetes_launcher.py,sha256=Mf3xJddi_2dQOPglhM4wksQWc77WDqEPSG4yZxX32tU,36024
++gscoordinator/coordinator.py,sha256=m32CaDozoiIObS3lLa-JuqfS5p91HY4bkN4u3n0oSrU,37321
+ gscoordinator/dag_manager.py,sha256=GJBIzr3BNs2_1a2rbTwkBw7H8SwiTFbrzhotdiMjDCY,5537
+ gscoordinator/version.py,sha256=bS71qRjwM-xk4LAFTExdiWJOaJEXaeNdlJYCAqtD98U,1045
+ gscoordinator/monitor.py,sha256=7-barfbJ0LefMG3bQvkuG0qy5pKTTfeWD4T4zImB81A,7006
+-gscoordinator/op_executor.py,sha256=Otx9T3y2qkFxkBUPj8tShJD0TsSW3E-7LuFsYjbEiTo,38436
++gscoordinator/op_executor.py,sha256=f21lQ5NIQ28nG1m4j_RzJpu4xBrNOIWMSNsJhvMt4rU,38246
+ gscoordinator/object_manager.py,sha256=_mWIHV4E4UHhdbdXU23juWPDhA4EgDY4XIhHb-z0aiI,2957
+ gscoordinator/__init__.py,sha256=nUqENyB6dtqMgYfbJjblAdV2nemmlsaTMp_yTteBnOw,990
+-gscoordinator/cluster_builder.py,sha256=h3Q61iS_F11Id497WI2Cn2eyEFO7_uaC5vyhrJau5-U,22541
+-gscoordinator/local_launcher.py,sha256=s3RAAeXhbMrKpw5TEu8nIjxOcMXuVwU9djigUeSarjk,19978
+-gscoordinator/VERSION,sha256=Rkhj7mlsqGL2riv-6XKOu9hEY1l4JUQu_GKDjZRbAPs,7
+-gscoordinator/utils.py,sha256=outYdoGzVv1oOE8S-LJ3pkAHpYIf8GQGOJ9BS2sc9TM,77420
++gscoordinator/cluster_builder.py,sha256=nEjGzaoahhmr8CZvb16OjFDn48A04P3CyELInho4AP4,24417
++gscoordinator/local_launcher.py,sha256=SZaP7BdJLsYOnvBJWMT1hRK153QEWugRmLcOcdUs-wQ,19314
++gscoordinator/VERSION,sha256=KQJZBG-Mxkijark9CBH9Oczy7Hti0axQ2uqhEXerj5Q,16
++gscoordinator/utils.py,sha256=zvhTbhL19l8pZKdtSByG7mf3IttuOTjFJU82OjVKScg,76887
+ gscoordinator/io_utils.py,sha256=8lxUPh-DfBj4yPIAPY9ovv2Iweg7MG8V77LscRlPM8o,4091
+ gscoordinator/launcher.py,sha256=uxi4zSyr11csGtQLihzmzR4S07ZI9sYjkd1FEJxOnLk,5062
+ gscoordinator/learning.py,sha256=M9MOv4ywKjZVYv1o1SB0fXN0ToTLD1EhfPiiBU1ic94,2450
+ gscoordinator/__main__.py,sha256=pfC-UJ0gz8i-p1lGAs2jBB8zALAz6PaBokLa9v6AYQ4,77
+ gscoordinator/template/__init__.py,sha256=TsAsMQRDcEJ9nRXDAeF-pJPapJrZPwVeb-TxxVp42aY,646
+ gscoordinator/template/pregel.pxd.template,sha256=Eh4tESR8KlmM30Mcw-eIUfiQNeadDj3WWGCUzkIsT2M,4340
+ gscoordinator/template/pie.pxd.template,sha256=-hYphyhUzTnyQELecGEsCK_S-fEXLWGiTV91-gDqAU8,4957
+-gscoordinator/template/CMakeLists.template,sha256=HTO9-vFKVWwT3OJn8YcmciJ2Hh8Ox4IqyNfcD85jcwg,19957
++gscoordinator/template/CMakeLists.template,sha256=JVAD0zemkedKacJbyJDEmLzzoUgRhEvXHu3AGcl6O5k,19853
+ gscoordinator/builtin/__init__.py,sha256=TsAsMQRDcEJ9nRXDAeF-pJPapJrZPwVeb-TxxVp42aY,646
+ gscoordinator/builtin/app/.gs_conf.yaml,sha256=S15xBlunwTgfjtjjsIGreWXv8OkWwtAlNANO84u08YE,23996
+-gscoordinator/builtin/app/builtin_app.gar,sha256=wFNCtj7hSLnKJfRP75EZZ2wWKItykZ8IUjutlzNkDnQ,5601
++gscoordinator/builtin/app/builtin_app.gar,sha256=Z-PgxO2UKY1FqOPnhuhFp6zrwA-T-itwgv-_HKxyuYU,5601
+ gscoordinator/builtin/app/__init__.py,sha256=TsAsMQRDcEJ9nRXDAeF-pJPapJrZPwVeb-TxxVp42aY,646
+ gscoordinator/hook/__init__.py,sha256=jzzLJxC1gBgRLMb4xzX6vucYuNdosuWOtZKRj7Cal_o,646
+ gscoordinator/hook/prestop/__init__.py,sha256=jzzLJxC1gBgRLMb4xzX6vucYuNdosuWOtZKRj7Cal_o,646
+ gscoordinator/hook/prestop/__main__.py,sha256=1FmS0g2hwl85NPMOtbAvW_IGn4GFnldmjbSSwaj9GrE,1560
 ```
 
 ## Comparing `gs_coordinator-0.22.0.dist-info/METADATA` & `gs_coordinator-0.22.0a20230515.dist-info/METADATA`
@@ -2443,77 +2394,5 @@
  ## Development
  
  ### Building on local
-```
-
-## Comparing `gs_coordinator-0.22.0.dist-info/RECORD` & `gs_coordinator-0.22.0a20230515.dist-info/RECORD`
-
- * *Files 22% similar despite different names*
-
-```diff
-@@ -1,32 +1,32 @@
--graphscope_runtime/__init__.py,sha256=w_Me0NHI5zy8GitMCD7mzOi0Qz7ZfeE2zUI5wGfZIyM,694
--gscoordinator/VERSION,sha256=Rkhj7mlsqGL2riv-6XKOu9hEY1l4JUQu_GKDjZRbAPs,7
--gscoordinator/__init__.py,sha256=nUqENyB6dtqMgYfbJjblAdV2nemmlsaTMp_yTteBnOw,990
--gscoordinator/__main__.py,sha256=pfC-UJ0gz8i-p1lGAs2jBB8zALAz6PaBokLa9v6AYQ4,77
--gscoordinator/cluster_builder.py,sha256=h3Q61iS_F11Id497WI2Cn2eyEFO7_uaC5vyhrJau5-U,22541
--gscoordinator/coordinator.py,sha256=uvCxBHcnwZHaVGcVvGxRafHs7j-s-pPbn9iQcC97yZ0,37570
--gscoordinator/dag_manager.py,sha256=GJBIzr3BNs2_1a2rbTwkBw7H8SwiTFbrzhotdiMjDCY,5537
--gscoordinator/io_utils.py,sha256=8lxUPh-DfBj4yPIAPY9ovv2Iweg7MG8V77LscRlPM8o,4091
--gscoordinator/kubernetes_launcher.py,sha256=rDDRJU6Py9ucic7pFE5FD7wTmV1fGuwsUXaQGLKw9d0,58206
--gscoordinator/launcher.py,sha256=uxi4zSyr11csGtQLihzmzR4S07ZI9sYjkd1FEJxOnLk,5062
--gscoordinator/learning.py,sha256=M9MOv4ywKjZVYv1o1SB0fXN0ToTLD1EhfPiiBU1ic94,2450
--gscoordinator/local_launcher.py,sha256=s3RAAeXhbMrKpw5TEu8nIjxOcMXuVwU9djigUeSarjk,19978
--gscoordinator/monitor.py,sha256=7-barfbJ0LefMG3bQvkuG0qy5pKTTfeWD4T4zImB81A,7006
--gscoordinator/object_manager.py,sha256=_mWIHV4E4UHhdbdXU23juWPDhA4EgDY4XIhHb-z0aiI,2957
--gscoordinator/op_executor.py,sha256=Otx9T3y2qkFxkBUPj8tShJD0TsSW3E-7LuFsYjbEiTo,38436
--gscoordinator/utils.py,sha256=outYdoGzVv1oOE8S-LJ3pkAHpYIf8GQGOJ9BS2sc9TM,77420
--gscoordinator/version.py,sha256=bS71qRjwM-xk4LAFTExdiWJOaJEXaeNdlJYCAqtD98U,1045
--gscoordinator/builtin/__init__.py,sha256=TsAsMQRDcEJ9nRXDAeF-pJPapJrZPwVeb-TxxVp42aY,646
--gscoordinator/builtin/app/.gs_conf.yaml,sha256=S15xBlunwTgfjtjjsIGreWXv8OkWwtAlNANO84u08YE,23996
--gscoordinator/builtin/app/__init__.py,sha256=TsAsMQRDcEJ9nRXDAeF-pJPapJrZPwVeb-TxxVp42aY,646
--gscoordinator/builtin/app/builtin_app.gar,sha256=xA8Y6uTRzh1z6Tv69pYGwv7wrm65qFMGqVcyz94WbIU,5601
--gscoordinator/hook/__init__.py,sha256=jzzLJxC1gBgRLMb4xzX6vucYuNdosuWOtZKRj7Cal_o,646
--gscoordinator/hook/prestop/__init__.py,sha256=jzzLJxC1gBgRLMb4xzX6vucYuNdosuWOtZKRj7Cal_o,646
--gscoordinator/hook/prestop/__main__.py,sha256=1FmS0g2hwl85NPMOtbAvW_IGn4GFnldmjbSSwaj9GrE,1560
--gscoordinator/template/CMakeLists.template,sha256=HTO9-vFKVWwT3OJn8YcmciJ2Hh8Ox4IqyNfcD85jcwg,19957
--gscoordinator/template/__init__.py,sha256=TsAsMQRDcEJ9nRXDAeF-pJPapJrZPwVeb-TxxVp42aY,646
--gscoordinator/template/pie.pxd.template,sha256=-hYphyhUzTnyQELecGEsCK_S-fEXLWGiTV91-gDqAU8,4957
--gscoordinator/template/pregel.pxd.template,sha256=Eh4tESR8KlmM30Mcw-eIUfiQNeadDj3WWGCUzkIsT2M,4340
--gs_coordinator-0.22.0.dist-info/METADATA,sha256=wTi7R4iWPVHz7ykwI78mo6Q04rCKjfB9e6ijfBv3K10,22312
--gs_coordinator-0.22.0.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
--gs_coordinator-0.22.0.dist-info/top_level.txt,sha256=GiJfpWt7WpC-H1BxUy5V39G7WAtPut6eqH3yAciJhqQ,33
--gs_coordinator-0.22.0.dist-info/RECORD,,
-+gs_coordinator-0.22.0a20230515.dist-info/RECORD,,
-+gs_coordinator-0.22.0a20230515.dist-info/WHEEL,sha256=fw_hGi-Yx84a3ggAIzpSq5odRE77o5K1cXAmZvJuyLk,140
-+gs_coordinator-0.22.0a20230515.dist-info/top_level.txt,sha256=GiJfpWt7WpC-H1BxUy5V39G7WAtPut6eqH3yAciJhqQ,33
-+gs_coordinator-0.22.0a20230515.dist-info/METADATA,sha256=SLHLGCyhkv2hhhnTVm_KX4QgJSXM7fQuXhhpF0GU8vI,22321
-+graphscope_runtime/__init__.py,sha256=w_Me0NHI5zy8GitMCD7mzOi0Qz7ZfeE2zUI5wGfZIyM,694
-+gscoordinator/kubernetes_launcher.py,sha256=Mf3xJddi_2dQOPglhM4wksQWc77WDqEPSG4yZxX32tU,36024
-+gscoordinator/coordinator.py,sha256=m32CaDozoiIObS3lLa-JuqfS5p91HY4bkN4u3n0oSrU,37321
-+gscoordinator/dag_manager.py,sha256=GJBIzr3BNs2_1a2rbTwkBw7H8SwiTFbrzhotdiMjDCY,5537
-+gscoordinator/version.py,sha256=bS71qRjwM-xk4LAFTExdiWJOaJEXaeNdlJYCAqtD98U,1045
-+gscoordinator/monitor.py,sha256=7-barfbJ0LefMG3bQvkuG0qy5pKTTfeWD4T4zImB81A,7006
-+gscoordinator/op_executor.py,sha256=f21lQ5NIQ28nG1m4j_RzJpu4xBrNOIWMSNsJhvMt4rU,38246
-+gscoordinator/object_manager.py,sha256=_mWIHV4E4UHhdbdXU23juWPDhA4EgDY4XIhHb-z0aiI,2957
-+gscoordinator/__init__.py,sha256=nUqENyB6dtqMgYfbJjblAdV2nemmlsaTMp_yTteBnOw,990
-+gscoordinator/cluster_builder.py,sha256=nEjGzaoahhmr8CZvb16OjFDn48A04P3CyELInho4AP4,24417
-+gscoordinator/local_launcher.py,sha256=SZaP7BdJLsYOnvBJWMT1hRK153QEWugRmLcOcdUs-wQ,19314
-+gscoordinator/VERSION,sha256=KQJZBG-Mxkijark9CBH9Oczy7Hti0axQ2uqhEXerj5Q,16
-+gscoordinator/utils.py,sha256=zvhTbhL19l8pZKdtSByG7mf3IttuOTjFJU82OjVKScg,76887
-+gscoordinator/io_utils.py,sha256=8lxUPh-DfBj4yPIAPY9ovv2Iweg7MG8V77LscRlPM8o,4091
-+gscoordinator/launcher.py,sha256=uxi4zSyr11csGtQLihzmzR4S07ZI9sYjkd1FEJxOnLk,5062
-+gscoordinator/learning.py,sha256=M9MOv4ywKjZVYv1o1SB0fXN0ToTLD1EhfPiiBU1ic94,2450
-+gscoordinator/__main__.py,sha256=pfC-UJ0gz8i-p1lGAs2jBB8zALAz6PaBokLa9v6AYQ4,77
-+gscoordinator/template/__init__.py,sha256=TsAsMQRDcEJ9nRXDAeF-pJPapJrZPwVeb-TxxVp42aY,646
-+gscoordinator/template/pregel.pxd.template,sha256=Eh4tESR8KlmM30Mcw-eIUfiQNeadDj3WWGCUzkIsT2M,4340
-+gscoordinator/template/pie.pxd.template,sha256=-hYphyhUzTnyQELecGEsCK_S-fEXLWGiTV91-gDqAU8,4957
-+gscoordinator/template/CMakeLists.template,sha256=JVAD0zemkedKacJbyJDEmLzzoUgRhEvXHu3AGcl6O5k,19853
-+gscoordinator/builtin/__init__.py,sha256=TsAsMQRDcEJ9nRXDAeF-pJPapJrZPwVeb-TxxVp42aY,646
-+gscoordinator/builtin/app/.gs_conf.yaml,sha256=S15xBlunwTgfjtjjsIGreWXv8OkWwtAlNANO84u08YE,23996
-+gscoordinator/builtin/app/builtin_app.gar,sha256=Z-PgxO2UKY1FqOPnhuhFp6zrwA-T-itwgv-_HKxyuYU,5601
-+gscoordinator/builtin/app/__init__.py,sha256=TsAsMQRDcEJ9nRXDAeF-pJPapJrZPwVeb-TxxVp42aY,646
-+gscoordinator/hook/__init__.py,sha256=jzzLJxC1gBgRLMb4xzX6vucYuNdosuWOtZKRj7Cal_o,646
-+gscoordinator/hook/prestop/__init__.py,sha256=jzzLJxC1gBgRLMb4xzX6vucYuNdosuWOtZKRj7Cal_o,646
-+gscoordinator/hook/prestop/__main__.py,sha256=1FmS0g2hwl85NPMOtbAvW_IGn4GFnldmjbSSwaj9GrE,1560
 ```
 
