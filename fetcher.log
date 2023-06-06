@@ -15367,3 +15367,189 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 09:39:41] INFO root fetch - processPackages [checkov]: Remove: archive file [/home/abi/fetcher/tmp/checkov-2.3.99.tar.gz]
 [2023-06-06 09:39:41] INFO root fetch - main [MainThread]: End processing [checkov]: success
 [2023-06-06 09:39:41] INFO root fetch - main [MainThread]: Store serial: [18388075]
+[2023-06-06 09:44:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18388075]
+[2023-06-06 09:44:50] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-06 09:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: clickzetta-connector
+[2023-06-06 09:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clickzetta-sqlalchemy
+[2023-06-06 09:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: algokit-utils
+[2023-06-06 09:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lyrebird-bugit
+[2023-06-06 09:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: waqiasync
+[2023-06-06 09:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: winwin
+[2023-06-06 09:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Rabbit-in-a-Blender
+[2023-06-06 09:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pepperize.cdk-apigateway-swagger-ui
+[2023-06-06 09:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cm-two
+[2023-06-06 09:44:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyBigKinds
+[2023-06-06 09:44:50] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-06-06 09:44:50] INFO root fetch - processPackages [clickzetta-sqlalchemy]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-06-06 09:44:50] INFO root fetch - processPackages [waqiasync]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-06-06 09:44:50] INFO root fetch - processPackages [lyrebird-bugit]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-06 09:44:50] INFO root fetch - processPackages [algokit-utils]: New version: [1.2.0b9] Old Version: [1.2.0b8]
+[2023-06-06 09:44:50] INFO root fetch - processPackages [Rabbit-in-a-Blender]: New version: [0.0.28] Old Version: [0.0.27]
+[2023-06-06 09:44:50] INFO root fetch - processPackages [winwin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 09:44:50] INFO root fetch - processPackages [cm-two]: New version: [2.3.3] Old Version: [2.3.23]
+[2023-06-06 09:44:50] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: New version: [0.0.99] Old Version: [0.0.97]
+[2023-06-06 09:44:50] INFO root fetch - processPackages [winwin]: Downloading https://files.pythonhosted.org/packages/b4/c5/8cb8d299bae029bb5342ace265ce1a7a86261f33b58cb993ac7abd1f07b2/winwin-0.0.8.tar.gz
+[2023-06-06 09:44:50] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/b5/4b/0742a4ab14bdc0e7e1a1efa5e089f45c05c18e939582e562ff5095837d67/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz
+[2023-06-06 09:44:50] INFO root fetch - processPackages [pyBigKinds]: New version: [1.0.5] Old Version: [1.0.0]
+[2023-06-06 09:44:50] INFO root fetch - processPackages [winwin]: Downloading https://files.pythonhosted.org/packages/da/47/bbe293778015f3a259a0e99a91efd6e5032b0456dce5e7582b515d851e8b/winwin-0.0.9.tar.gz
+[2023-06-06 09:44:50] INFO root fetch - processPackages [waqiasync]: Downloading https://files.pythonhosted.org/packages/a3/9c/646cb00e381b8e52eef595ab384b1114292ed68f82926c34138b932d7e37/waqiasync-1.0.0.tar.gz
+[2023-06-06 09:44:50] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/6f/33/ef08b18c6940a1e3a5ffc1eb8e8dc6cf3a415f31c50ff184b872a6c0f95f/clickzetta-connector-0.8.5.tar.gz
+[2023-06-06 09:44:50] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/9b/07/f42a52f67c938d890cb3ff809e7712e536347f0df8eb2b2928120a100e48/clickzetta-sqlalchemy-0.8.5.tar.gz
+[2023-06-06 09:44:50] INFO root fetch - processPackages [lyrebird-bugit]: Downloading https://files.pythonhosted.org/packages/d3/95/eace435b1592036295ad9c2b6e0aa3e11d0bb883a7e34745dab498e8a890/lyrebird-bugit-1.9.0.tar.gz
+[2023-06-06 09:44:50] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/95/5d/1b4e816f41359170344cec5dcc0f48979d443c6396d6c38366f34a649348/algokit_utils-1.2.0b8-py3-none-any.whl
+[2023-06-06 09:44:50] INFO root fetch - processPackages [winwin]: executing diffoscope
+[2023-06-06 09:44:50] INFO root fetch - processPackages [winwin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/winwin-0.0.8.tar.gz tmp/winwin-0.0.9.tar.gz --markdown 20230606/w/winwin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 09:44:50] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Downloading https://files.pythonhosted.org/packages/c7/46/0f42bc025c61bcf7528be4662164372850647ddcc00ec2a211a0b9e071cc/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz
+[2023-06-06 09:44:50] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Downloading https://files.pythonhosted.org/packages/68/3e/fc0dd85b239dfb8f5d60db3a26bdac93fa18b59315c1c45ce05c4b045b3c/Rabbit-in-a-Blender-0.0.27.tar.gz
+[2023-06-06 09:44:50] INFO root fetch - processPackages [pyBigKinds]: Downloading https://files.pythonhosted.org/packages/fa/92/e6b5eedec9c0da2e3c18ce0944624b5b5be4a38dc3d65cc6b629d7145b6a/pyBigKinds-1.0.0-py3-none-any.whl
+[2023-06-06 09:44:50] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/83/77/f5d4ed0c2479bb892a39c5e6d1dc0fa262d1d38b04d99ae0393963c87cb1/cm_two-2.3.23-py3-none-any.whl
+[2023-06-06 09:44:50] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: executing diffoscope
+[2023-06-06 09:44:50] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz --markdown 20230606/p/pepperize.cdk-apigateway-swagger-ui/0.0.97-0.0.99/diff.md --exclude *.pyd
+[2023-06-06 09:44:50] INFO root fetch - processPackages [algokit-utils]: Downloading https://files.pythonhosted.org/packages/97/c0/c716f84876cd98ca0fda6d6f650e5f45e5ecc2801f24aab3ffeba28b2db7/algokit_utils-1.2.0b9-py3-none-any.whl
+[2023-06-06 09:44:50] INFO root fetch - processPackages [pyBigKinds]: Downloading https://files.pythonhosted.org/packages/19/24/7389772dd7c9ad0caec7be7eb7d51c9a2171e4cbafbfa269be76b2fe6596/pyBigKinds-1.0.5-py3-none-any.whl
+[2023-06-06 09:44:50] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/f6/66/29203ff52fb9e2cbd0b85da6913abad9a10ddb8c9fc2ab77b124254ee5b4/clickzetta-connector-0.8.6.tar.gz
+[2023-06-06 09:44:50] INFO root fetch - processPackages [waqiasync]: Downloading https://files.pythonhosted.org/packages/7e/37/173a5de42a54a0e3a1bf29e4c62c96391d8cf9427614b9b4881d90dd7bcc/waqiasync-1.1.0.tar.gz
+[2023-06-06 09:44:50] INFO root fetch - processPackages [cm-two]: Downloading https://files.pythonhosted.org/packages/46/47/7ee2c3b284436a364082b79b1728bda5744700adb9766cb60291dbca4885/cm_two-2.3.3-py3-none-any.whl
+[2023-06-06 09:44:50] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/2c/bc/c07dae5c4978d260787838585e7c35d64530c0dda1f7697d5fa58d548e81/clickzetta-sqlalchemy-0.8.6.tar.gz
+[2023-06-06 09:44:50] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2023-06-06 09:44:50] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.8.5.tar.gz tmp/clickzetta-connector-0.8.6.tar.gz --markdown 20230606/c/clickzetta-connector/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-06-06 09:44:50] INFO root fetch - processPackages [algokit-utils]: executing diffoscope
+[2023-06-06 09:44:50] INFO root fetch - processPackages [algokit-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algokit_utils-1.2.0b8-py3-none-any.whl.zip tmp/algokit_utils-1.2.0b9-py3-none-any.whl.zip --markdown 20230606/a/algokit-utils/1.2.0b8-1.2.0b9/diff.md --exclude *.pyd
+[2023-06-06 09:44:50] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Downloading https://files.pythonhosted.org/packages/ef/4a/4bb7702763bfe1b64694229565c5d96094384a9db38245df5a05504b7d6f/Rabbit-in-a-Blender-0.0.28.tar.gz
+[2023-06-06 09:44:50] INFO root fetch - processPackages [waqiasync]: executing diffoscope
+[2023-06-06 09:44:50] INFO root fetch - processPackages [waqiasync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/waqiasync-1.0.0.tar.gz tmp/waqiasync-1.1.0.tar.gz --markdown 20230606/w/waqiasync/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-06-06 09:44:50] INFO root fetch - processPackages [clickzetta-sqlalchemy]: executing diffoscope
+[2023-06-06 09:44:50] INFO root fetch - processPackages [clickzetta-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-sqlalchemy-0.8.5.tar.gz tmp/clickzetta-sqlalchemy-0.8.6.tar.gz --markdown 20230606/c/clickzetta-sqlalchemy/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-06-06 09:44:50] INFO root fetch - processPackages [pyBigKinds]: executing diffoscope
+[2023-06-06 09:44:50] INFO root fetch - processPackages [pyBigKinds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyBigKinds-1.0.0-py3-none-any.whl.zip tmp/pyBigKinds-1.0.5-py3-none-any.whl.zip --markdown 20230606/p/pyBigKinds/1.0.0-1.0.5/diff.md --exclude *.pyd
+[2023-06-06 09:44:50] INFO root fetch - processPackages [Rabbit-in-a-Blender]: executing diffoscope
+[2023-06-06 09:44:50] INFO root fetch - processPackages [Rabbit-in-a-Blender]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Rabbit-in-a-Blender-0.0.27.tar.gz tmp/Rabbit-in-a-Blender-0.0.28.tar.gz --markdown 20230606/R/Rabbit-in-a-Blender/0.0.27-0.0.28/diff.md --exclude *.pyd
+[2023-06-06 09:44:51] INFO root fetch - processPackages [cm-two]: executing diffoscope
+[2023-06-06 09:44:51] INFO root fetch - processPackages [cm-two]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cm_two-2.3.23-py3-none-any.whl.zip tmp/cm_two-2.3.3-py3-none-any.whl.zip --markdown 20230606/c/cm-two/2.3.23-2.3.3/diff.md --exclude *.pyd
+[2023-06-06 09:44:51] INFO root fetch - processPackages [lyrebird-bugit]: Downloading https://files.pythonhosted.org/packages/e5/f0/e11fd63cc79d9b3c22836e7848a7f61dc72450e691ccf4c287491a1fa9ee/lyrebird-bugit-1.9.1.tar.gz
+[2023-06-06 09:44:51] INFO root fetch - processPackages [lyrebird-bugit]: executing diffoscope
+[2023-06-06 09:44:51] INFO root fetch - processPackages [lyrebird-bugit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lyrebird-bugit-1.9.0.tar.gz tmp/lyrebird-bugit-1.9.1.tar.gz --markdown 20230606/l/lyrebird-bugit/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-06 09:44:51] INFO root fetch - processPackages [winwin]: Remove: archive file [/home/abi/fetcher/tmp/winwin-0.0.8.tar.gz]
+[2023-06-06 09:44:51] INFO root fetch - processPackages [winwin]: Remove: archive file [/home/abi/fetcher/tmp/winwin-0.0.9.tar.gz]
+[2023-06-06 09:44:51] INFO root fetch - processPackages [winwin]: Start processing: sklearn2pmml
+[2023-06-06 09:44:51] INFO root fetch - main [MainThread]: End processing [winwin]: success
+[2023-06-06 09:44:52] INFO root fetch - processPackages [sklearn2pmml]: New version: [0.93.0] Old Version: [0.92.2]
+[2023-06-06 09:44:52] INFO root fetch - processPackages [sklearn2pmml]: Downloading https://files.pythonhosted.org/packages/e6/95/8305d097858b5dc3b54b48b83fb1554f122b5c7aa8679757d0a178fd52cd/sklearn2pmml-0.92.2.tar.gz
+[2023-06-06 09:44:52] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.97.tar.gz]
+[2023-06-06 09:44:52] INFO root fetch - processPackages [pepperize.cdk-apigateway-swagger-ui]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-apigateway-swagger-ui-0.0.99.tar.gz]
+[2023-06-06 09:44:52] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-apigateway-swagger-ui]: success
+[2023-06-06 09:44:52] INFO root fetch - processPackages [waqiasync]: Remove: archive file [/home/abi/fetcher/tmp/waqiasync-1.0.0.tar.gz]
+[2023-06-06 09:44:52] INFO root fetch - processPackages [waqiasync]: Remove: archive file [/home/abi/fetcher/tmp/waqiasync-1.1.0.tar.gz]
+[2023-06-06 09:44:52] INFO root fetch - main [MainThread]: End processing [waqiasync]: success
+[2023-06-06 09:44:52] ERROR root fetch - processPackages [cm-two]: Diffoscope failed: Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 416, in _compare_using_details
+    details.extend(self.compare_details(other, source))
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 252, in compare_details
+    differences.extend(zipinfo_differences(self, other))
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 127, in zipinfo_differences
+    zipinfo = Difference.from_operation(Zipinfo, file.path, other.path)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 126, in feeder
+    end_nl = feeder(out_file)
+             ^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 81, in feeder
+    out = filter_reader(buf, filter)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 47, in filter_reader
+    buf = additional_filter(buf)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 57, in filter
+    m = self.re_strip_path.match(line.decode("utf-8"))
+                                 ^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xd4 in position 72: invalid continuation byte
+
+[2023-06-06 09:44:52] INFO root fetch - main [MainThread]: End processing [cm-two] error
+[2023-06-06 09:44:52] INFO root fetch - processPackages [algokit-utils]: Remove: archive file [/home/abi/fetcher/tmp/algokit_utils-1.2.0b8-py3-none-any.whl.zip]
+[2023-06-06 09:44:52] INFO root fetch - processPackages [algokit-utils]: Remove: archive file [/home/abi/fetcher/tmp/algokit_utils-1.2.0b9-py3-none-any.whl.zip]
+[2023-06-06 09:44:52] INFO root fetch - main [MainThread]: End processing [algokit-utils]: success
+[2023-06-06 09:44:52] INFO root fetch - processPackages [pyBigKinds]: Remove: archive file [/home/abi/fetcher/tmp/pyBigKinds-1.0.0-py3-none-any.whl.zip]
+[2023-06-06 09:44:52] INFO root fetch - processPackages [pyBigKinds]: Remove: archive file [/home/abi/fetcher/tmp/pyBigKinds-1.0.5-py3-none-any.whl.zip]
+[2023-06-06 09:44:52] INFO root fetch - main [MainThread]: End processing [pyBigKinds]: success
+[2023-06-06 09:44:52] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.5.tar.gz]
+[2023-06-06 09:44:52] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.6.tar.gz]
+[2023-06-06 09:44:52] INFO root fetch - main [MainThread]: End processing [clickzetta-sqlalchemy]: success
+[2023-06-06 09:44:52] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.5.tar.gz]
+[2023-06-06 09:44:52] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.6.tar.gz]
+[2023-06-06 09:44:52] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2023-06-06 09:44:53] INFO root fetch - processPackages [sklearn2pmml]: Downloading https://files.pythonhosted.org/packages/06/70/e32ba36464d47f4787bbc25779a24785639c9a67170c3d25df9bc97db911/sklearn2pmml-0.93.0.tar.gz
+[2023-06-06 09:44:54] INFO root fetch - processPackages [sklearn2pmml]: executing diffoscope
+[2023-06-06 09:44:54] INFO root fetch - processPackages [sklearn2pmml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn2pmml-0.92.2.tar.gz tmp/sklearn2pmml-0.93.0.tar.gz --markdown 20230606/s/sklearn2pmml/0.92.2-0.93.0/diff.md --exclude *.pyd
+[2023-06-06 09:44:56] INFO root fetch - processPackages [lyrebird-bugit]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-bugit-1.9.0.tar.gz]
+[2023-06-06 09:44:56] INFO root fetch - processPackages [lyrebird-bugit]: Remove: archive file [/home/abi/fetcher/tmp/lyrebird-bugit-1.9.1.tar.gz]
+[2023-06-06 09:44:56] INFO root fetch - main [MainThread]: End processing [lyrebird-bugit]: success
+[2023-06-06 09:45:00] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Remove: archive file [/home/abi/fetcher/tmp/Rabbit-in-a-Blender-0.0.27.tar.gz]
+[2023-06-06 09:45:00] INFO root fetch - processPackages [Rabbit-in-a-Blender]: Remove: archive file [/home/abi/fetcher/tmp/Rabbit-in-a-Blender-0.0.28.tar.gz]
+[2023-06-06 09:45:00] INFO root fetch - main [MainThread]: End processing [Rabbit-in-a-Blender]: success
+[2023-06-06 09:47:28] INFO root fetch - processPackages [sklearn2pmml]: Remove: archive file [/home/abi/fetcher/tmp/sklearn2pmml-0.92.2.tar.gz]
+[2023-06-06 09:47:28] INFO root fetch - processPackages [sklearn2pmml]: Remove: archive file [/home/abi/fetcher/tmp/sklearn2pmml-0.93.0.tar.gz]
+[2023-06-06 09:47:28] INFO root fetch - main [MainThread]: End processing [sklearn2pmml]: success
+[2023-06-06 09:47:28] INFO root fetch - main [MainThread]: Store serial: [18388102]
