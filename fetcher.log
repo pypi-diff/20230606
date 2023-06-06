@@ -11897,3 +11897,153 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 06:23:04] INFO root fetch - processPackages [odoo14-addon-openupgrade-scripts]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_openupgrade_scripts-14.0.1.0.2.dev99-py3-none-any.whl.zip]
 [2023-06-06 06:23:04] INFO root fetch - main [MainThread]: End processing [odoo14-addon-openupgrade-scripts]: success
 [2023-06-06 06:23:04] INFO root fetch - main [MainThread]: Store serial: [18386524]
+[2023-06-06 06:28:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18386524]
+[2023-06-06 06:28:13] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-06 06:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: liquisource
+[2023-06-06 06:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: apiiif
+[2023-06-06 06:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: xendit-python
+[2023-06-06 06:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mock-data-generator
+[2023-06-06 06:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mynacode
+[2023-06-06 06:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zeroscratches
+[2023-06-06 06:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cirq
+[2023-06-06 06:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cirq-google
+[2023-06-06 06:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cirq-rigetti
+[2023-06-06 06:28:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cirq-aqt
+[2023-06-06 06:28:13] INFO root fetch - processPackages [xendit-python]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-06-06 06:28:13] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-06 06:28:13] INFO root fetch - processPackages [mock-data-generator]: New version: [1.2.3] Old Version: [1.2.2]
+[2023-06-06 06:28:13] INFO root fetch - processPackages [liquisource]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-06-06 06:28:14] INFO root fetch - processPackages [apiiif]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-06 06:28:14] INFO root fetch - processPackages [cirq-rigetti]: New version: [1.2.0.dev20230606042656] Old Version: [1.2.0.dev20230605223657]
+[2023-06-06 06:28:14] INFO root fetch - processPackages [cirq-google]: New version: [1.2.0.dev20230606042656] Old Version: [1.2.0.dev20230605223657]
+[2023-06-06 06:28:14] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-06-06 06:28:14] INFO root fetch - processPackages [cirq-aqt]: New version: [1.2.0.dev20230606042656] Old Version: [1.2.0.dev20230605223657]
+[2023-06-06 06:28:14] INFO root fetch - processPackages [cirq]: New version: [1.2.0.dev20230606042656] Old Version: [1.2.0.dev20230605223657]
+[2023-06-06 06:28:14] WARNING root fetch - processPackages [zeroscratches]: Skipping, unable to determine old version
+[2023-06-06 06:28:14] INFO root fetch - processPackages [zeroscratches]: Start processing: odoo8-addon-pos-payment-terminal
+[2023-06-06 06:28:14] INFO root fetch - main [MainThread]: End processing [zeroscratches] error
+[2023-06-06 06:28:14] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/c2/a1/204016169bd2876326660c51472f931fed0817499e0e6ecf4be64ae23296/cirq_rigetti-1.2.0.dev20230605223657-py3-none-any.whl
+[2023-06-06 06:28:14] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/8c/ca/3ba788fec54cc44136d22d645b263d5ab5832bfcc6139caf6df5eded4b00/cirq_google-1.2.0.dev20230605223657-py3-none-any.whl
+[2023-06-06 06:28:14] INFO root fetch - processPackages [mock-data-generator]: Downloading https://files.pythonhosted.org/packages/fc/07/6fef9ee9bdf9988349a8763514473e2a431c957a679a3c78011c5946a8cd/mock_data_generator-1.2.2.tar.gz
+[2023-06-06 06:28:14] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/e9/4c/67c106a82af9f886fc144d35f406635ce133e09913b2d9f2afd260337690/cirq_aqt-1.2.0.dev20230605223657-py3-none-any.whl
+[2023-06-06 06:28:14] INFO root fetch - processPackages [odoo8-addon-pos-payment-terminal]: New version: [8.0.0.1.0.99.dev9] Old Version: [8.0.0.1.0.99.dev8]
+[2023-06-06 06:28:14] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/42/f2/b9431c031eae688bcd02c2d8f7e6ede631947296eeceeef15c0cd311ab8e/cirq-1.2.0.dev20230605223657-py3-none-any.whl
+[2023-06-06 06:28:14] INFO root fetch - processPackages [liquisource]: Downloading https://files.pythonhosted.org/packages/6e/88/971bf399cebce395378fb83531d838714ca3ebae129dba23480379f02459/liquisource-1.1.0.tar.gz
+[2023-06-06 06:28:14] INFO root fetch - processPackages [apiiif]: Downloading https://files.pythonhosted.org/packages/fc/53/7b70c86a93f0271a179a0eb323c3aceae1c06e6206b7746a5949fc320cdc/apiiif-0.0.2.tar.gz
+[2023-06-06 06:28:14] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-06-06 06:28:14] INFO root fetch - processPackages [xendit-python]: Downloading https://files.pythonhosted.org/packages/3d/63/31d19e82ce0a68bb39d47eb7bfad2a505e9958e8365b750043c817279465/xendit_python-0.2.1.tar.gz
+[2023-06-06 06:28:14] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-06-06 06:28:14] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230606/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-06 06:28:14] INFO root fetch - processPackages [odoo8-addon-pos-payment-terminal]: Downloading https://files.pythonhosted.org/packages/ec/a8/337e9ab8d9d7ad4e56f3c7bd2c1949ce587b33f6fd30e26000bb9c3f9e4c/odoo8_addon_pos_payment_terminal-8.0.0.1.0.99.dev8-py2-none-any.whl
+[2023-06-06 06:28:14] INFO root fetch - processPackages [cirq-rigetti]: Downloading https://files.pythonhosted.org/packages/08/18/9c413bd75a437ec9cd44c09a789c2359789696848f24a705fbc92518d4f3/cirq_rigetti-1.2.0.dev20230606042656-py3-none-any.whl
+[2023-06-06 06:28:14] INFO root fetch - processPackages [mock-data-generator]: Downloading https://files.pythonhosted.org/packages/ef/b4/875afb68d16e8a54ef21d74b2971bd7be0f8621d70b11f29d939275aaae5/mock_data_generator-1.2.3.tar.gz
+[2023-06-06 06:28:14] INFO root fetch - processPackages [cirq-aqt]: Downloading https://files.pythonhosted.org/packages/f8/2c/3b1579e68bea74de11aa9394321dec7e93459da673d884852665ab0709e4/cirq_aqt-1.2.0.dev20230606042656-py3-none-any.whl
+[2023-06-06 06:28:14] INFO root fetch - processPackages [cirq]: Downloading https://files.pythonhosted.org/packages/ea/4b/639ffff21e4a62287b0ba3fa9607cdd677ffa92ace6945f889addbee8ec6/cirq-1.2.0.dev20230606042656-py3-none-any.whl
+[2023-06-06 06:28:14] INFO root fetch - processPackages [cirq-google]: Downloading https://files.pythonhosted.org/packages/57/4c/b4a291eaa3f1d0942b3a7f19a311f5ba9a4bc2a0b82e71aa6e316c78d3f3/cirq_google-1.2.0.dev20230606042656-py3-none-any.whl
+[2023-06-06 06:28:14] INFO root fetch - processPackages [liquisource]: Downloading https://files.pythonhosted.org/packages/4b/e1/7fc6b078df5d9a6cb1adafbf92535e2f0428789e4f14974fe599ec7856d9/liquisource-1.1.1.tar.gz
+[2023-06-06 06:28:14] INFO root fetch - processPackages [apiiif]: Downloading https://files.pythonhosted.org/packages/c9/26/220def2d9f4f2e1852a05e03ea3eccdc512a81fbb7c2298ff823c1eb3719/apiiif-0.0.3.tar.gz
+[2023-06-06 06:28:14] INFO root fetch - processPackages [mock-data-generator]: executing diffoscope
+[2023-06-06 06:28:14] INFO root fetch - processPackages [mock-data-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mock_data_generator-1.2.2.tar.gz tmp/mock_data_generator-1.2.3.tar.gz --markdown 20230606/m/mock-data-generator/1.2.2-1.2.3/diff.md --exclude *.pyd
+[2023-06-06 06:28:14] INFO root fetch - processPackages [liquisource]: executing diffoscope
+[2023-06-06 06:28:14] INFO root fetch - processPackages [liquisource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/liquisource-1.1.0.tar.gz tmp/liquisource-1.1.1.tar.gz --markdown 20230606/l/liquisource/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-06-06 06:28:14] INFO root fetch - processPackages [xendit-python]: Downloading https://files.pythonhosted.org/packages/eb/0a/00ddb43bee7a64a6cb3097a4d8426d7d03ceed78e87ab8d2fa679e55b0ab/xendit_python-0.2.2.tar.gz
+[2023-06-06 06:28:14] INFO root fetch - processPackages [apiiif]: executing diffoscope
+[2023-06-06 06:28:14] INFO root fetch - processPackages [apiiif]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/apiiif-0.0.2.tar.gz tmp/apiiif-0.0.3.tar.gz --markdown 20230606/a/apiiif/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-06 06:28:14] INFO root fetch - processPackages [cirq-rigetti]: executing diffoscope
+[2023-06-06 06:28:14] INFO root fetch - processPackages [cirq-rigetti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_rigetti-1.2.0.dev20230605223657-py3-none-any.whl.zip tmp/cirq_rigetti-1.2.0.dev20230606042656-py3-none-any.whl.zip --markdown 20230606/c/cirq-rigetti/1.2.0.dev20230605223657-1.2.0.dev20230606042656/diff.md --exclude *.pyd
+[2023-06-06 06:28:14] INFO root fetch - processPackages [cirq-aqt]: executing diffoscope
+[2023-06-06 06:28:14] INFO root fetch - processPackages [cirq-aqt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_aqt-1.2.0.dev20230605223657-py3-none-any.whl.zip tmp/cirq_aqt-1.2.0.dev20230606042656-py3-none-any.whl.zip --markdown 20230606/c/cirq-aqt/1.2.0.dev20230605223657-1.2.0.dev20230606042656/diff.md --exclude *.pyd
+[2023-06-06 06:28:14] INFO root fetch - processPackages [cirq]: executing diffoscope
+[2023-06-06 06:28:14] INFO root fetch - processPackages [cirq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq-1.2.0.dev20230605223657-py3-none-any.whl.zip tmp/cirq-1.2.0.dev20230606042656-py3-none-any.whl.zip --markdown 20230606/c/cirq/1.2.0.dev20230605223657-1.2.0.dev20230606042656/diff.md --exclude *.pyd
+[2023-06-06 06:28:14] INFO root fetch - processPackages [cirq-google]: executing diffoscope
+[2023-06-06 06:28:14] INFO root fetch - processPackages [cirq-google]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_google-1.2.0.dev20230605223657-py3-none-any.whl.zip tmp/cirq_google-1.2.0.dev20230606042656-py3-none-any.whl.zip --markdown 20230606/c/cirq-google/1.2.0.dev20230605223657-1.2.0.dev20230606042656/diff.md --exclude *.pyd
+[2023-06-06 06:28:14] INFO root fetch - processPackages [xendit-python]: executing diffoscope
+[2023-06-06 06:28:14] INFO root fetch - processPackages [xendit-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xendit_python-0.2.1.tar.gz tmp/xendit_python-0.2.2.tar.gz --markdown 20230606/x/xendit-python/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-06-06 06:28:14] INFO root fetch - processPackages [odoo8-addon-pos-payment-terminal]: Downloading https://files.pythonhosted.org/packages/00/32/45fb67a8ab9620429bfd2e0bb13f950c24cf1df8ba986c603e73d6962788/odoo8_addon_pos_payment_terminal-8.0.0.1.0.99.dev9-py2-none-any.whl
+[2023-06-06 06:28:14] INFO root fetch - processPackages [odoo8-addon-pos-payment-terminal]: executing diffoscope
+[2023-06-06 06:28:14] INFO root fetch - processPackages [odoo8-addon-pos-payment-terminal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo8_addon_pos_payment_terminal-8.0.0.1.0.99.dev8-py2-none-any.whl.zip tmp/odoo8_addon_pos_payment_terminal-8.0.0.1.0.99.dev9-py2-none-any.whl.zip --markdown 20230606/o/odoo8-addon-pos-payment-terminal/8.0.0.1.0.99.dev8-8.0.0.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-06-06 06:28:15] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-06-06 06:28:15] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-06-06 06:28:15] INFO root fetch - processPackages [mynacode]: Start processing: cirq-core
+[2023-06-06 06:28:15] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-06-06 06:28:15] INFO root fetch - processPackages [cirq-core]: New version: [1.2.0.dev20230606042656] Old Version: [1.2.0.dev20230605223657]
+[2023-06-06 06:28:15] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/ad/53/56a45a14007b9a573efc21fcf88b115cfe35a9a10f17f8d58d74ee2fcccb/cirq_core-1.2.0.dev20230605223657-py3-none-any.whl
+[2023-06-06 06:28:16] INFO root fetch - processPackages [mock-data-generator]: Remove: archive file [/home/abi/fetcher/tmp/mock_data_generator-1.2.2.tar.gz]
+[2023-06-06 06:28:16] INFO root fetch - processPackages [mock-data-generator]: Remove: archive file [/home/abi/fetcher/tmp/mock_data_generator-1.2.3.tar.gz]
+[2023-06-06 06:28:16] INFO root fetch - processPackages [mock-data-generator]: Start processing: cirq-pasqal
+[2023-06-06 06:28:16] INFO root fetch - main [MainThread]: End processing [mock-data-generator]: success
+[2023-06-06 06:28:16] INFO root fetch - processPackages [cirq-pasqal]: New version: [1.2.0.dev20230606042656] Old Version: [1.2.0.dev20230605223657]
+[2023-06-06 06:28:16] INFO root fetch - processPackages [cirq-core]: Downloading https://files.pythonhosted.org/packages/a2/65/f5f80ea7fe100a68866c3ddee306650253a147a741ac131e38df09df9670/cirq_core-1.2.0.dev20230606042656-py3-none-any.whl
+[2023-06-06 06:28:16] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/c8/8f/d588bdda77ade0f8c084cb252ef8231f90409af532a0c29dc1ab7d691d97/cirq_pasqal-1.2.0.dev20230605223657-py3-none-any.whl
+[2023-06-06 06:28:16] INFO root fetch - processPackages [liquisource]: Remove: archive file [/home/abi/fetcher/tmp/liquisource-1.1.0.tar.gz]
+[2023-06-06 06:28:16] INFO root fetch - processPackages [liquisource]: Remove: archive file [/home/abi/fetcher/tmp/liquisource-1.1.1.tar.gz]
+[2023-06-06 06:28:16] INFO root fetch - processPackages [liquisource]: Start processing: cirq-ionq
+[2023-06-06 06:28:16] INFO root fetch - main [MainThread]: End processing [liquisource]: success
+[2023-06-06 06:28:16] INFO root fetch - processPackages [cirq-ionq]: New version: [1.2.0.dev20230606042656] Old Version: [1.2.0.dev20230605223657]
+[2023-06-06 06:28:16] INFO root fetch - processPackages [apiiif]: Remove: archive file [/home/abi/fetcher/tmp/apiiif-0.0.2.tar.gz]
+[2023-06-06 06:28:16] INFO root fetch - processPackages [apiiif]: Remove: archive file [/home/abi/fetcher/tmp/apiiif-0.0.3.tar.gz]
+[2023-06-06 06:28:16] INFO root fetch - processPackages [apiiif]: Start processing: cirq-web
+[2023-06-06 06:28:16] INFO root fetch - main [MainThread]: End processing [apiiif]: success
+[2023-06-06 06:28:16] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/f7/0f/738e9086e78eeaa0fcd4263ba915173907d8fd208bb2a52e59464694277e/cirq_ionq-1.2.0.dev20230605223657-py3-none-any.whl
+[2023-06-06 06:28:16] INFO root fetch - processPackages [cirq-web]: New version: [1.2.0.dev20230606042656] Old Version: [1.2.0.dev20230605223657]
+[2023-06-06 06:28:16] INFO root fetch - processPackages [cirq-pasqal]: Downloading https://files.pythonhosted.org/packages/b9/d6/3424421b4d04e3d2ac75e569fca31f964ef337f228fdb5484af4e387fea6/cirq_pasqal-1.2.0.dev20230606042656-py3-none-any.whl
+[2023-06-06 06:28:16] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.2.0.dev20230605223657-py3-none-any.whl.zip]
+[2023-06-06 06:28:16] INFO root fetch - processPackages [cirq-aqt]: Remove: archive file [/home/abi/fetcher/tmp/cirq_aqt-1.2.0.dev20230606042656-py3-none-any.whl.zip]
+[2023-06-06 06:28:16] INFO root fetch - processPackages [cirq-aqt]: Start processing: mynacode
+[2023-06-06 06:28:16] INFO root fetch - main [MainThread]: End processing [cirq-aqt]: success
+[2023-06-06 06:28:16] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/da/5c/cb89baa67b71964f48d950a09b0a4e9f39654f2a0fe7e69081a41168d888/cirq_web-1.2.0.dev20230605223657-py3-none-any.whl
+[2023-06-06 06:28:16] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.2.0.dev20230605223657-py3-none-any.whl.zip]
+[2023-06-06 06:28:16] INFO root fetch - processPackages [cirq]: Remove: archive file [/home/abi/fetcher/tmp/cirq-1.2.0.dev20230606042656-py3-none-any.whl.zip]
+[2023-06-06 06:28:16] INFO root fetch - processPackages [cirq]: Start processing: odoo12-addon-pos-multiple-control
+[2023-06-06 06:28:16] INFO root fetch - main [MainThread]: End processing [cirq]: success
+[2023-06-06 06:28:16] INFO root fetch - processPackages [cirq-core]: executing diffoscope
+[2023-06-06 06:28:16] INFO root fetch - processPackages [cirq-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_core-1.2.0.dev20230605223657-py3-none-any.whl.zip tmp/cirq_core-1.2.0.dev20230606042656-py3-none-any.whl.zip --markdown 20230606/c/cirq-core/1.2.0.dev20230605223657-1.2.0.dev20230606042656/diff.md --exclude *.pyd
+[2023-06-06 06:28:16] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-06 06:28:16] INFO root fetch - processPackages [cirq-pasqal]: executing diffoscope
+[2023-06-06 06:28:16] INFO root fetch - processPackages [cirq-pasqal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_pasqal-1.2.0.dev20230605223657-py3-none-any.whl.zip tmp/cirq_pasqal-1.2.0.dev20230606042656-py3-none-any.whl.zip --markdown 20230606/c/cirq-pasqal/1.2.0.dev20230605223657-1.2.0.dev20230606042656/diff.md --exclude *.pyd
+[2023-06-06 06:28:16] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-06-06 06:28:16] INFO root fetch - processPackages [cirq-ionq]: Downloading https://files.pythonhosted.org/packages/c0/16/60069b63d6ee8d5cfd432c87a632d1921a50a8c9d46c3553ebf5a86bb18f/cirq_ionq-1.2.0.dev20230606042656-py3-none-any.whl
+[2023-06-06 06:28:16] INFO root fetch - processPackages [odoo12-addon-pos-multiple-control]: New version: [12.0.1.3.1.99.dev8] Old Version: [12.0.1.3.1.99.dev7]
+[2023-06-06 06:28:16] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.2.0.dev20230605223657-py3-none-any.whl.zip]
+[2023-06-06 06:28:16] INFO root fetch - processPackages [cirq-rigetti]: Remove: archive file [/home/abi/fetcher/tmp/cirq_rigetti-1.2.0.dev20230606042656-py3-none-any.whl.zip]
+[2023-06-06 06:28:16] INFO root fetch - main [MainThread]: End processing [cirq-rigetti]: success
+[2023-06-06 06:28:16] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-06-06 06:28:16] INFO root fetch - processPackages [cirq-web]: Downloading https://files.pythonhosted.org/packages/e5/d6/b7a74b4ef2d376659bc43424c90db8040e993fd23e535566577f02cfa804/cirq_web-1.2.0.dev20230606042656-py3-none-any.whl
+[2023-06-06 06:28:16] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-06-06 06:28:16] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230606/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-06 06:28:16] INFO root fetch - processPackages [cirq-ionq]: executing diffoscope
+[2023-06-06 06:28:16] INFO root fetch - processPackages [cirq-ionq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_ionq-1.2.0.dev20230605223657-py3-none-any.whl.zip tmp/cirq_ionq-1.2.0.dev20230606042656-py3-none-any.whl.zip --markdown 20230606/c/cirq-ionq/1.2.0.dev20230605223657-1.2.0.dev20230606042656/diff.md --exclude *.pyd
+[2023-06-06 06:28:16] INFO root fetch - processPackages [odoo12-addon-pos-multiple-control]: Downloading https://files.pythonhosted.org/packages/7d/15/f20232e4a561bda51664a9ad07e6c256fd9987488215ff8a62c67284cda1/odoo12_addon_pos_multiple_control-12.0.1.3.1.99.dev7-py3-none-any.whl
+[2023-06-06 06:28:16] INFO root fetch - processPackages [odoo8-addon-pos-payment-terminal]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_pos_payment_terminal-8.0.0.1.0.99.dev8-py2-none-any.whl.zip]
+[2023-06-06 06:28:16] INFO root fetch - processPackages [odoo8-addon-pos-payment-terminal]: Remove: archive file [/home/abi/fetcher/tmp/odoo8_addon_pos_payment_terminal-8.0.0.1.0.99.dev9-py2-none-any.whl.zip]
+[2023-06-06 06:28:16] INFO root fetch - main [MainThread]: End processing [odoo8-addon-pos-payment-terminal]: success
+[2023-06-06 06:28:16] INFO root fetch - processPackages [cirq-web]: executing diffoscope
+[2023-06-06 06:28:16] INFO root fetch - processPackages [cirq-web]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cirq_web-1.2.0.dev20230605223657-py3-none-any.whl.zip tmp/cirq_web-1.2.0.dev20230606042656-py3-none-any.whl.zip --markdown 20230606/c/cirq-web/1.2.0.dev20230605223657-1.2.0.dev20230606042656/diff.md --exclude *.pyd
+[2023-06-06 06:28:17] INFO root fetch - processPackages [odoo12-addon-pos-multiple-control]: Downloading https://files.pythonhosted.org/packages/fa/12/354a917c8eb667b5869ef0dc28bc04e8c7aea9a42ea177daa68fc8a430c0/odoo12_addon_pos_multiple_control-12.0.1.3.1.99.dev8-py3-none-any.whl
+[2023-06-06 06:28:17] INFO root fetch - processPackages [xendit-python]: Remove: archive file [/home/abi/fetcher/tmp/xendit_python-0.2.1.tar.gz]
+[2023-06-06 06:28:17] INFO root fetch - processPackages [xendit-python]: Remove: archive file [/home/abi/fetcher/tmp/xendit_python-0.2.2.tar.gz]
+[2023-06-06 06:28:17] INFO root fetch - main [MainThread]: End processing [xendit-python]: success
+[2023-06-06 06:28:17] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.2.0.dev20230605223657-py3-none-any.whl.zip]
+[2023-06-06 06:28:17] INFO root fetch - processPackages [cirq-pasqal]: Remove: archive file [/home/abi/fetcher/tmp/cirq_pasqal-1.2.0.dev20230606042656-py3-none-any.whl.zip]
+[2023-06-06 06:28:17] INFO root fetch - main [MainThread]: End processing [cirq-pasqal]: success
+[2023-06-06 06:28:17] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-06-06 06:28:17] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-06-06 06:28:17] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-06-06 06:28:18] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.2.0.dev20230605223657-py3-none-any.whl.zip]
+[2023-06-06 06:28:18] INFO root fetch - processPackages [cirq-ionq]: Remove: archive file [/home/abi/fetcher/tmp/cirq_ionq-1.2.0.dev20230606042656-py3-none-any.whl.zip]
+[2023-06-06 06:28:18] INFO root fetch - main [MainThread]: End processing [cirq-ionq]: success
+[2023-06-06 06:28:18] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.2.0.dev20230605223657-py3-none-any.whl.zip]
+[2023-06-06 06:28:18] INFO root fetch - processPackages [cirq-web]: Remove: archive file [/home/abi/fetcher/tmp/cirq_web-1.2.0.dev20230606042656-py3-none-any.whl.zip]
+[2023-06-06 06:28:18] INFO root fetch - main [MainThread]: End processing [cirq-web]: success
+[2023-06-06 06:28:18] INFO root fetch - processPackages [odoo12-addon-pos-multiple-control]: executing diffoscope
+[2023-06-06 06:28:18] INFO root fetch - processPackages [odoo12-addon-pos-multiple-control]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_pos_multiple_control-12.0.1.3.1.99.dev7-py3-none-any.whl.zip tmp/odoo12_addon_pos_multiple_control-12.0.1.3.1.99.dev8-py3-none-any.whl.zip --markdown 20230606/o/odoo12-addon-pos-multiple-control/12.0.1.3.1.99.dev7-12.0.1.3.1.99.dev8/diff.md --exclude *.pyd
+[2023-06-06 06:28:19] INFO root fetch - processPackages [odoo12-addon-pos-multiple-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_pos_multiple_control-12.0.1.3.1.99.dev7-py3-none-any.whl.zip]
+[2023-06-06 06:28:19] INFO root fetch - processPackages [odoo12-addon-pos-multiple-control]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_pos_multiple_control-12.0.1.3.1.99.dev8-py3-none-any.whl.zip]
+[2023-06-06 06:28:19] INFO root fetch - main [MainThread]: End processing [odoo12-addon-pos-multiple-control]: success
+[2023-06-06 06:28:20] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.2.0.dev20230605223657-py3-none-any.whl.zip]
+[2023-06-06 06:28:20] INFO root fetch - processPackages [cirq-google]: Remove: archive file [/home/abi/fetcher/tmp/cirq_google-1.2.0.dev20230606042656-py3-none-any.whl.zip]
+[2023-06-06 06:28:20] INFO root fetch - main [MainThread]: End processing [cirq-google]: success
+[2023-06-06 06:28:32] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230605223657-py3-none-any.whl.zip]
+[2023-06-06 06:28:32] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230606042656-py3-none-any.whl.zip]
+[2023-06-06 06:28:32] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
+[2023-06-06 06:28:32] INFO root fetch - main [MainThread]: Store serial: [18386566]
