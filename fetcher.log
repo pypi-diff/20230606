@@ -3188,3 +3188,44 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 02:54:59] INFO root fetch - processPackages [vstutils]: Remove: archive file [/home/abi/fetcher/tmp/vstutils-5.4.9.tar.gz]
 [2023-06-06 02:54:59] INFO root fetch - main [MainThread]: End processing [vstutils]: success
 [2023-06-06 02:54:59] INFO root fetch - main [MainThread]: Store serial: [18383361]
+[2023-06-06 03:00:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18383361]
+[2023-06-06 03:00:07] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-06-06 03:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FindSystemFontsFilename
+[2023-06-06 03:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-databrew-cicd
+[2023-06-06 03:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vollseg
+[2023-06-06 03:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: klp-commons
+[2023-06-06 03:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: architect-py
+[2023-06-06 03:00:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: matchcode-toolkit
+[2023-06-06 03:00:07] INFO root fetch - processPackages [FindSystemFontsFilename]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-06 03:00:07] WARNING root fetch - processPackages [matchcode-toolkit]: Skipping, unable to determine old version
+[2023-06-06 03:00:07] INFO root fetch - main [MainThread]: End processing [matchcode-toolkit] error
+[2023-06-06 03:00:07] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-06 03:00:08] WARNING root fetch - processPackages [architect-py]: Skipping, unable to determine old version
+[2023-06-06 03:00:08] INFO root fetch - main [MainThread]: End processing [architect-py] error
+[2023-06-06 03:00:08] INFO root fetch - processPackages [klp-commons]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 03:00:08] INFO root fetch - processPackages [vollseg]: New version: [8.0.0] Old Version: [7.0.0]
+[2023-06-06 03:00:08] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-06-06 03:00:08] INFO root fetch - processPackages [klp-commons]: Downloading https://files.pythonhosted.org/packages/e3/94/b9d41734be8fbd3cebf962ef11a4248d4440e5a30e129d67ac7ed28b4f70/klp-commons-0.0.8.tar.gz
+[2023-06-06 03:00:08] INFO root fetch - processPackages [vollseg]: Downloading https://files.pythonhosted.org/packages/49/5e/9558410d2a3b0f12598784a6541087a52cb9eac28650e25b7d767e2c56b0/vollseg-7.0.0.tar.gz
+[2023-06-06 03:00:08] WARNING root fetch - processPackages [vollseg]: Skipping package: exceeds size limit 29985919>=10485760
+[2023-06-06 03:00:08] INFO root fetch - main [MainThread]: End processing [vollseg] error
+[2023-06-06 03:00:08] INFO root fetch - processPackages [FindSystemFontsFilename]: Downloading https://files.pythonhosted.org/packages/ce/b8/49633af723cfb1832e67a55462e734b1122be550ade84b03a0b319460532/FindSystemFontsFilename-0.0.3.tar.gz
+[2023-06-06 03:00:08] INFO root fetch - processPackages [klp-commons]: Downloading https://files.pythonhosted.org/packages/53/33/d9ffdd5b9e8330b9db6c43b84e3bde30134298a6bf8696655c5c0ee970e2/klp-commons-0.0.9.tar.gz
+[2023-06-06 03:00:08] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-06-06 03:00:08] INFO root fetch - processPackages [klp-commons]: executing diffoscope
+[2023-06-06 03:00:08] INFO root fetch - processPackages [klp-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/klp-commons-0.0.8.tar.gz tmp/klp-commons-0.0.9.tar.gz --markdown 20230606/k/klp-commons/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 03:00:08] INFO root fetch - processPackages [FindSystemFontsFilename]: Downloading https://files.pythonhosted.org/packages/08/8b/9d512e7ce30d3a41871216290c0554df7c67103180157f9a42e4ce3851a7/FindSystemFontsFilename-0.0.4.tar.gz
+[2023-06-06 03:00:08] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-06-06 03:00:08] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230606/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-06 03:00:08] INFO root fetch - processPackages [FindSystemFontsFilename]: executing diffoscope
+[2023-06-06 03:00:08] INFO root fetch - processPackages [FindSystemFontsFilename]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FindSystemFontsFilename-0.0.3.tar.gz tmp/FindSystemFontsFilename-0.0.4.tar.gz --markdown 20230606/F/FindSystemFontsFilename/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-06 03:00:09] INFO root fetch - processPackages [FindSystemFontsFilename]: Remove: archive file [/home/abi/fetcher/tmp/FindSystemFontsFilename-0.0.3.tar.gz]
+[2023-06-06 03:00:09] INFO root fetch - processPackages [FindSystemFontsFilename]: Remove: archive file [/home/abi/fetcher/tmp/FindSystemFontsFilename-0.0.4.tar.gz]
+[2023-06-06 03:00:09] INFO root fetch - main [MainThread]: End processing [FindSystemFontsFilename]: success
+[2023-06-06 03:00:09] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-06-06 03:00:09] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-06-06 03:00:09] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-06-06 03:00:09] INFO root fetch - processPackages [klp-commons]: Remove: archive file [/home/abi/fetcher/tmp/klp-commons-0.0.8.tar.gz]
+[2023-06-06 03:00:09] INFO root fetch - processPackages [klp-commons]: Remove: archive file [/home/abi/fetcher/tmp/klp-commons-0.0.9.tar.gz]
+[2023-06-06 03:00:09] INFO root fetch - main [MainThread]: End processing [klp-commons]: success
+[2023-06-06 03:00:09] INFO root fetch - main [MainThread]: Store serial: [18383386]
