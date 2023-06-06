@@ -18425,3 +18425,274 @@ EOFError: EOF read where object expected
 [2023-06-06 11:18:01] INFO root fetch - processPackages [mage-ai]: Remove: archive file [/home/abi/fetcher/tmp/mage-ai-0.8.90.tar.gz]
 [2023-06-06 11:18:01] INFO root fetch - main [MainThread]: End processing [mage-ai]: success
 [2023-06-06 11:18:01] INFO root fetch - main [MainThread]: Store serial: [18389311]
+[2023-06-06 11:23:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18389311]
+[2023-06-06 11:23:11] INFO root fetch - main [MainThread]: Found 21 changed packages
+[2023-06-06 11:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: omnata-plugin-runtime
+[2023-06-06 11:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snk
+[2023-06-06 11:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ec2map
+[2023-06-06 11:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: antchain-baasplus
+[2023-06-06 11:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lkcom
+[2023-06-06 11:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ipysnowball
+[2023-06-06 11:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: giskard-client
+[2023-06-06 11:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyParallelPipe
+[2023-06-06 11:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spanishconjugator
+[2023-06-06 11:23:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: bigraph-schema
+[2023-06-06 11:23:11] WARNING root fetch - processPackages [ipysnowball]: Skipping, unable to determine old version
+[2023-06-06 11:23:11] INFO root fetch - processPackages [ipysnowball]: Start processing: spanishconjugator
+[2023-06-06 11:23:11] INFO root fetch - main [MainThread]: End processing [ipysnowball] error
+[2023-06-06 11:23:11] INFO root fetch - processPackages [snk]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-06 11:23:11] INFO root fetch - processPackages [PyParallelPipe]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-06 11:23:11] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 11:23:11] INFO root fetch - processPackages [giskard-client]: New version: [0.1.1b0] Old Version: [0.1.0b1]
+[2023-06-06 11:23:11] INFO root fetch - processPackages [bigraph-schema]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 11:23:11] INFO root fetch - processPackages [ec2map]: New version: [1.0.9b2] Old Version: [1.0.9b1]
+[2023-06-06 11:23:11] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-06-06 11:23:11] INFO root fetch - processPackages [giskard-client]: Downloading https://files.pythonhosted.org/packages/8e/0f/a16401fbe2885f4235075b6d8bb5ab626c8af458e7bec6bab52c0edf67e0/giskard_client-0.1.0b1.tar.gz
+[2023-06-06 11:23:11] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-06 11:23:11] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-06-06 11:23:11] INFO root fetch - processPackages [antchain-baasplus]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-06-06 11:23:11] INFO root fetch - processPackages [lkcom]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-06 11:23:11] INFO root fetch - processPackages [bigraph-schema]: Downloading https://files.pythonhosted.org/packages/df/8e/61432e7e2966e9e03a0109b78f810b877d0a4243c7fc3e9379a460c0dbc4/bigraph-schema-0.0.8.tar.gz
+[2023-06-06 11:23:11] INFO root fetch - processPackages [ec2map]: Downloading https://files.pythonhosted.org/packages/69/34/479b35e2f9d7ec16abdbacadd205cc5a5e54b963a55b652c6feebcf0bde0/ec2map-1.0.9b1.tar.gz
+[2023-06-06 11:23:11] INFO root fetch - processPackages [PyParallelPipe]: Downloading https://files.pythonhosted.org/packages/34/69/de48b47eae8758cd3aff7e13c9ad085081b1600e23a107024419ead2920c/PyParallelPipe-1.0.0.tar.gz
+[2023-06-06 11:23:11] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/5f/25/498a68ee6957c8cba1824b2d29b4e7dfead6be445897b17214e03e59d6d2/snk-0.6.8.tar.gz
+[2023-06-06 11:23:11] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-06-06 11:23:12] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-06 11:23:12] INFO root fetch - processPackages [antchain-baasplus]: Downloading https://files.pythonhosted.org/packages/06/11/cb0fd4f634ad04ff72a1f9039fe4eee37774d8293b63ffcb627e4f4f8ace/antchain_baasplus-1.1.8.tar.gz
+[2023-06-06 11:23:12] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-06-06 11:23:12] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-06-06 11:23:12] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230606/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 11:23:12] INFO root fetch - processPackages [lkcom]: Downloading https://files.pythonhosted.org/packages/9f/42/cd65c9028174f1d5e56421b4c669e4172b5d0b9e4f577dcab2c27c02654b/lkcom-0.3.2.tar.gz
+[2023-06-06 11:23:12] INFO root fetch - processPackages [giskard-client]: Downloading https://files.pythonhosted.org/packages/12/33/20c2a4769a90125fa0c3f4dc83e47f3b3c1ff6d23e53689d128eb17352cf/giskard_client-0.1.1b0.tar.gz
+[2023-06-06 11:23:12] INFO root fetch - processPackages [bigraph-schema]: Downloading https://files.pythonhosted.org/packages/18/e5/fff625d433358f1bf734149e805b1d565b616ead4a146f56f4807198801e/bigraph-schema-0.0.9.tar.gz
+[2023-06-06 11:23:12] INFO root fetch - processPackages [PyParallelPipe]: Downloading https://files.pythonhosted.org/packages/e2/0a/dfd66dba8c4e251bd05d5a483baa651db3ce9d4210ab7f8fb6d90c039033/PyParallelPipe-1.0.1.tar.gz
+[2023-06-06 11:23:12] INFO root fetch - processPackages [snk]: Downloading https://files.pythonhosted.org/packages/69/8f/bd5d1d8a19a988e91e920b165a268176a788a6c11f298a95a073b02453cf/snk-0.6.9.tar.gz
+[2023-06-06 11:23:12] INFO root fetch - processPackages [giskard-client]: executing diffoscope
+[2023-06-06 11:23:12] INFO root fetch - processPackages [giskard-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/giskard_client-0.1.0b1.tar.gz tmp/giskard_client-0.1.1b0.tar.gz --markdown 20230606/g/giskard-client/0.1.0b1-0.1.1b0/diff.md --exclude *.pyd
+[2023-06-06 11:23:12] INFO root fetch - processPackages [bigraph-schema]: executing diffoscope
+[2023-06-06 11:23:12] INFO root fetch - processPackages [bigraph-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigraph-schema-0.0.8.tar.gz tmp/bigraph-schema-0.0.9.tar.gz --markdown 20230606/b/bigraph-schema/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 11:23:12] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-06 11:23:12] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-06-06 11:23:12] INFO root fetch - processPackages [PyParallelPipe]: executing diffoscope
+[2023-06-06 11:23:12] INFO root fetch - processPackages [PyParallelPipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyParallelPipe-1.0.0.tar.gz tmp/PyParallelPipe-1.0.1.tar.gz --markdown 20230606/P/PyParallelPipe/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-06 11:23:12] INFO root fetch - processPackages [antchain-baasplus]: Downloading https://files.pythonhosted.org/packages/0e/05/1797c4541f67bf32518a5024f58f29c23ee1646b6e322382a32010f0a5ba/antchain_baasplus-1.1.9.tar.gz
+[2023-06-06 11:23:12] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-06 11:23:12] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-06-06 11:23:12] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230606/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-06 11:23:12] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230606/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-06-06 11:23:12] INFO root fetch - processPackages [lkcom]: Downloading https://files.pythonhosted.org/packages/16/64/af1106d6ceb65e974e1f288fbfc168e8509b47e23889031e6c37f375f657/lkcom-0.3.3.tar.gz
+[2023-06-06 11:23:12] INFO root fetch - processPackages [snk]: executing diffoscope
+[2023-06-06 11:23:12] INFO root fetch - processPackages [snk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snk-0.6.8.tar.gz tmp/snk-0.6.9.tar.gz --markdown 20230606/s/snk/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-06 11:23:12] INFO root fetch - processPackages [ec2map]: Downloading https://files.pythonhosted.org/packages/84/04/a5d0f9729915415e0903979f0f18b20098940319dc936fdd865f403a9876/ec2map-1.0.9b2.tar.gz
+[2023-06-06 11:23:12] INFO root fetch - processPackages [lkcom]: executing diffoscope
+[2023-06-06 11:23:12] INFO root fetch - processPackages [lkcom]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lkcom-0.3.2.tar.gz tmp/lkcom-0.3.3.tar.gz --markdown 20230606/l/lkcom/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-06 11:23:12] INFO root fetch - processPackages [antchain-baasplus]: executing diffoscope
+[2023-06-06 11:23:12] INFO root fetch - processPackages [antchain-baasplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_baasplus-1.1.8.tar.gz tmp/antchain_baasplus-1.1.9.tar.gz --markdown 20230606/a/antchain-baasplus/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-06-06 11:23:12] INFO root fetch - processPackages [ec2map]: executing diffoscope
+[2023-06-06 11:23:12] INFO root fetch - processPackages [ec2map]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ec2map-1.0.9b1.tar.gz tmp/ec2map-1.0.9b2.tar.gz --markdown 20230606/e/ec2map/1.0.9b1-1.0.9b2/diff.md --exclude *.pyd
+[2023-06-06 11:23:13] INFO root fetch - processPackages [giskard-client]: Remove: archive file [/home/abi/fetcher/tmp/giskard_client-0.1.0b1.tar.gz]
+[2023-06-06 11:23:13] INFO root fetch - processPackages [giskard-client]: Remove: archive file [/home/abi/fetcher/tmp/giskard_client-0.1.1b0.tar.gz]
+[2023-06-06 11:23:13] INFO root fetch - processPackages [giskard-client]: Start processing: openmodule-commands
+[2023-06-06 11:23:13] INFO root fetch - main [MainThread]: End processing [giskard-client]: success
+[2023-06-06 11:23:13] INFO root fetch - processPackages [openmodule-commands]: New version: [11.1.0rc2] Old Version: [11.1.0rc1]
+[2023-06-06 11:23:13] INFO root fetch - processPackages [openmodule-commands]: Downloading https://files.pythonhosted.org/packages/4c/ab/0e0c065dac613789a960de99af6eaf88d0104523adbdc373f06b93e02352/openmodule_commands-11.1.0rc1.tar.gz
+[2023-06-06 11:23:13] INFO root fetch - processPackages [PyParallelPipe]: Remove: archive file [/home/abi/fetcher/tmp/PyParallelPipe-1.0.0.tar.gz]
+[2023-06-06 11:23:13] INFO root fetch - processPackages [PyParallelPipe]: Remove: archive file [/home/abi/fetcher/tmp/PyParallelPipe-1.0.1.tar.gz]
+[2023-06-06 11:23:13] INFO root fetch - processPackages [PyParallelPipe]: Start processing: openmodule
+[2023-06-06 11:23:13] INFO root fetch - main [MainThread]: End processing [PyParallelPipe]: success
+[2023-06-06 11:23:14] INFO root fetch - processPackages [openmodule]: New version: [9.1.0] Old Version: [9.0.0rc9]
+[2023-06-06 11:23:14] INFO root fetch - processPackages [bigraph-schema]: Remove: archive file [/home/abi/fetcher/tmp/bigraph-schema-0.0.8.tar.gz]
+[2023-06-06 11:23:14] INFO root fetch - processPackages [bigraph-schema]: Remove: archive file [/home/abi/fetcher/tmp/bigraph-schema-0.0.9.tar.gz]
+[2023-06-06 11:23:14] INFO root fetch - processPackages [bigraph-schema]: Start processing: tbp-nightly
+[2023-06-06 11:23:14] INFO root fetch - main [MainThread]: End processing [bigraph-schema]: success
+[2023-06-06 11:23:14] INFO root fetch - processPackages [tbp-nightly]: New version: [2.9.0a20221130] Old Version: [2.9.0a20221129]
+[2023-06-06 11:23:14] INFO root fetch - processPackages [openmodule]: Downloading https://files.pythonhosted.org/packages/e3/bb/f041c5d77c5d10fd7137b23ff92757f6931cf24143d6794c63caaa775755/openmodule-9.0.0rc9.tar.gz
+[2023-06-06 11:23:14] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-06-06 11:23:14] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-06-06 11:23:14] INFO root fetch - processPackages [omnata-plugin-runtime]: Start processing: openmodule-test
+[2023-06-06 11:23:14] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-06-06 11:23:14] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-06-06 11:23:14] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-06-06 11:23:14] INFO root fetch - processPackages [spanishconjugator]: Start processing: dbt-clickzetta
+[2023-06-06 11:23:14] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-06-06 11:23:14] INFO root fetch - processPackages [openmodule-test]: New version: [9.1.0] Old Version: [9.0.0rc9]
+[2023-06-06 11:23:14] INFO root fetch - processPackages [openmodule-commands]: Downloading https://files.pythonhosted.org/packages/c2/65/0c9fe86085b2acedbe9db7157d72287db81f8e2ba67cee723e5568d1b068/openmodule_commands-11.1.0rc2.tar.gz
+[2023-06-06 11:23:14] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/b9/6c/43a589e5ab1d1b961e5780e41057576c7abd5bf16d3f871d8ef4ebdaf461/tbp-nightly-2.9.0a20221129.tar.gz
+[2023-06-06 11:23:14] INFO root fetch - processPackages [dbt-clickzetta]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-06-06 11:23:14] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/d3/6d/798f415d43458959315ed487edb57cdee7216d48bbe65f4a957e879a2a39/dbt-clickzetta-0.2.6.tar.gz
+[2023-06-06 11:23:14] INFO root fetch - processPackages [openmodule-commands]: executing diffoscope
+[2023-06-06 11:23:14] INFO root fetch - processPackages [openmodule-commands]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule_commands-11.1.0rc1.tar.gz tmp/openmodule_commands-11.1.0rc2.tar.gz --markdown 20230606/o/openmodule-commands/11.1.0rc1-11.1.0rc2/diff.md --exclude *.pyd
+[2023-06-06 11:23:14] INFO root fetch - processPackages [openmodule]: Downloading https://files.pythonhosted.org/packages/a6/3c/48ccf044ba1edc8806c136901666ecc29542b5bf8b40ee6194dbc2abd0fe/openmodule-9.1.0.tar.gz
+[2023-06-06 11:23:14] INFO root fetch - processPackages [dbt-clickzetta]: Downloading https://files.pythonhosted.org/packages/e1/d6/8ebc5f96e599c9e73f1add6befb8a49ba751b5c5fe465283c67640506f1e/dbt-clickzetta-0.2.7.tar.gz
+[2023-06-06 11:23:14] INFO root fetch - processPackages [openmodule-test]: Downloading https://files.pythonhosted.org/packages/98/2f/98fb439a0bb34c0be8268557d0c25ccf1102d6a23607c74e2376f8471efd/openmodule_test-9.0.0rc9.tar.gz
+[2023-06-06 11:23:14] ERROR root fetch - processPackages [spanishconjugator]: Diffoscope failed: gzip: tmp/spanishconjugator-2.3.999.tar.gz: No such file or directory
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 131, in comparisons
+    other_members = OrderedDict(other.get_adjusted_members_sizes())
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 126, in get_adjusted_members_sizes
+    size = path_apparent_size(member.path)
+                              ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 114, in path
+    self._path = self.container.extract(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/tools.py", line 141, in tool_check
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/gzip.py", line 51, in extract
+    subprocess.check_call(
+  File "/usr/lib/python3.11/subprocess.py", line 413, in check_call
+    raise CalledProcessError(retcode, cmd)
+subprocess.CalledProcessError: Command '['gzip', '-d', '-c', 'tmp/spanishconjugator-2.3.999.tar.gz']' returned non-zero exit status 1.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 536, in compare
+    difference = self.compare_bytes(other, source=source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 395, in compare_bytes
+    return compare_binary_files(self, other, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 176, in compare_binary_files
+    return Difference.from_operation(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 267, in from_operation
+    return Difference.from_operation_exc(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 316, in from_operation_exc
+    difference = Difference.from_feeder(
+                 ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/difference.py", line 214, in from_feeder
+    unified_diff = diff(feeder1, feeder2)
+                   ^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/diff.py", line 334, in diff
+    with FIFOFeeder(feeder1, fifo1_path) as fifo1, FIFOFeeder(
+  File "/srv/diffoscope/diffoscope/diff.py", line 225, in __exit__
+    self.join()
+  File "/srv/diffoscope/diffoscope/diff.py", line 258, in join
+    raise self._exception
+  File "/srv/diffoscope/diffoscope/diff.py", line 249, in run
+    end_nl = self.feeder(fifo)
+             ^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/feeders.py", line 138, in feeder
+    raise subprocess.CalledProcessError(
+subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit status 2.
+
+[2023-06-06 11:23:14] INFO root fetch - processPackages [spanishconjugator]: Start processing: imecilabt-gpulab-common
+[2023-06-06 11:23:14] INFO root fetch - main [MainThread]: End processing [spanishconjugator] error
+[2023-06-06 11:23:14] INFO root fetch - processPackages [antchain-baasplus]: Remove: archive file [/home/abi/fetcher/tmp/antchain_baasplus-1.1.8.tar.gz]
+[2023-06-06 11:23:14] INFO root fetch - processPackages [antchain-baasplus]: Remove: archive file [/home/abi/fetcher/tmp/antchain_baasplus-1.1.9.tar.gz]
+[2023-06-06 11:23:14] INFO root fetch - processPackages [antchain-baasplus]: Start processing: auto-test-common
+[2023-06-06 11:23:14] INFO root fetch - main [MainThread]: End processing [antchain-baasplus]: success
+[2023-06-06 11:23:14] INFO root fetch - processPackages [dbt-clickzetta]: executing diffoscope
+[2023-06-06 11:23:14] INFO root fetch - processPackages [dbt-clickzetta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-clickzetta-0.2.6.tar.gz tmp/dbt-clickzetta-0.2.7.tar.gz --markdown 20230606/d/dbt-clickzetta/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-06-06 11:23:14] INFO root fetch - processPackages [auto-test-common]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-06 11:23:14] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/32/5d/a940c7c89c47caa8d7d717ec993cadc32acaee6b8e51af4b6c99b06a303e/auto-test-common-1.0.8.tar.gz
+[2023-06-06 11:23:14] INFO root fetch - processPackages [imecilabt-gpulab-common]: New version: [4.3.0] Old Version: [4.0.0]
+[2023-06-06 11:23:14] INFO root fetch - processPackages [openmodule]: executing diffoscope
+[2023-06-06 11:23:14] INFO root fetch - processPackages [openmodule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule-9.0.0rc9.tar.gz tmp/openmodule-9.1.0.tar.gz --markdown 20230606/o/openmodule/9.0.0rc9-9.1.0/diff.md --exclude *.pyd
+[2023-06-06 11:23:14] INFO root fetch - processPackages [ec2map]: Remove: archive file [/home/abi/fetcher/tmp/ec2map-1.0.9b1.tar.gz]
+[2023-06-06 11:23:14] INFO root fetch - processPackages [ec2map]: Remove: archive file [/home/abi/fetcher/tmp/ec2map-1.0.9b2.tar.gz]
+[2023-06-06 11:23:14] INFO root fetch - processPackages [ec2map]: Start processing: aws-lambda-powertools
+[2023-06-06 11:23:14] INFO root fetch - main [MainThread]: End processing [ec2map]: success
+[2023-06-06 11:23:14] INFO root fetch - processPackages [auto-test-common]: Downloading https://files.pythonhosted.org/packages/02/72/7059e44b7cdcc0ef7e311e32e112b1bbc1c433726e8aba80f7591c6a5e89/auto-test-common-1.0.9.tar.gz
+[2023-06-06 11:23:14] INFO root fetch - processPackages [auto-test-common]: executing diffoscope
+[2023-06-06 11:23:14] INFO root fetch - processPackages [auto-test-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-test-common-1.0.8.tar.gz tmp/auto-test-common-1.0.9.tar.gz --markdown 20230606/a/auto-test-common/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-06 11:23:14] INFO root fetch - processPackages [aws-lambda-powertools]: New version: [2.9.1] Old Version: [2.9.0]
+[2023-06-06 11:23:14] INFO root fetch - processPackages [openmodule-test]: Downloading https://files.pythonhosted.org/packages/39/cc/7362aa9f98216bb93757efcda7a44a06d4f86bc1d828b0f6775240dae0d3/openmodule_test-9.1.0.tar.gz
+[2023-06-06 11:23:14] INFO root fetch - processPackages [imecilabt-gpulab-common]: Downloading https://files.pythonhosted.org/packages/2d/2b/f52797939f5edee4f4b83b86f8ec68a15a3baa69c53a5766b791411b79d4/imecilabt-gpulab-common-4.0.0.tar.gz
+[2023-06-06 11:23:14] INFO root fetch - processPackages [snk]: Remove: archive file [/home/abi/fetcher/tmp/snk-0.6.8.tar.gz]
+[2023-06-06 11:23:14] INFO root fetch - processPackages [snk]: Remove: archive file [/home/abi/fetcher/tmp/snk-0.6.9.tar.gz]
+[2023-06-06 11:23:14] INFO root fetch - processPackages [snk]: Start processing: lazyearth
+[2023-06-06 11:23:14] INFO root fetch - main [MainThread]: End processing [snk]: success
+[2023-06-06 11:23:14] INFO root fetch - processPackages [openmodule-test]: executing diffoscope
+[2023-06-06 11:23:14] INFO root fetch - processPackages [openmodule-test]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openmodule_test-9.0.0rc9.tar.gz tmp/openmodule_test-9.1.0.tar.gz --markdown 20230606/o/openmodule-test/9.0.0rc9-9.1.0/diff.md --exclude *.pyd
+[2023-06-06 11:23:14] INFO root fetch - processPackages [lazyearth]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-06-06 11:23:14] INFO root fetch - processPackages [aws-lambda-powertools]: Downloading https://files.pythonhosted.org/packages/a9/49/8be7a6c4973e4fb63e8009f75db67a06c1ea25a36e8e03e7562d90b909fd/aws_lambda_powertools-2.9.0.tar.gz
+[2023-06-06 11:23:14] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/d9/c7/af1d2c78694d1c93c56f540f2905e5ba84ce2e701c057e6ed55b4a5924bd/lazyearth-1.0.7.tar.gz
+[2023-06-06 11:23:14] INFO root fetch - processPackages [lkcom]: Remove: archive file [/home/abi/fetcher/tmp/lkcom-0.3.2.tar.gz]
+[2023-06-06 11:23:14] INFO root fetch - processPackages [lkcom]: Remove: archive file [/home/abi/fetcher/tmp/lkcom-0.3.3.tar.gz]
+[2023-06-06 11:23:14] INFO root fetch - processPackages [lkcom]: Start processing: hyperfast-python-template
+[2023-06-06 11:23:14] INFO root fetch - main [MainThread]: End processing [lkcom]: success
+[2023-06-06 11:23:14] INFO root fetch - processPackages [hyperfast-python-template]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-06-06 11:23:14] INFO root fetch - processPackages [imecilabt-gpulab-common]: Downloading https://files.pythonhosted.org/packages/46/58/52a94ea7e82a8f25a5cba4bc4ae47f0dd16888c02cd9341cec2be57d3b49/imecilabt-gpulab-common-4.3.0.tar.gz
+[2023-06-06 11:23:15] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/14/d5/910fbaf0cabb20dc9e3747c297a79da33478ef905f488ccdc724ff6c7c76/hyperfast_python_template-0.8.1.tar.gz
+[2023-06-06 11:23:15] INFO root fetch - processPackages [lazyearth]: Downloading https://files.pythonhosted.org/packages/57/a4/1f336b2de35597565a2417d8be51639317ff136edaf8e169f5f0828f24fc/lazyearth-1.0.8.tar.gz
+[2023-06-06 11:23:15] INFO root fetch - processPackages [imecilabt-gpulab-common]: executing diffoscope
+[2023-06-06 11:23:15] INFO root fetch - processPackages [imecilabt-gpulab-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/imecilabt-gpulab-common-4.0.0.tar.gz tmp/imecilabt-gpulab-common-4.3.0.tar.gz --markdown 20230606/i/imecilabt-gpulab-common/4.0.0-4.3.0/diff.md --exclude *.pyd
+[2023-06-06 11:23:15] INFO root fetch - processPackages [hyperfast-python-template]: Downloading https://files.pythonhosted.org/packages/25/50/122c6aa5a503548c0ad67efed47aa6faf81110cba222d9ac25afb6cbf10e/hyperfast_python_template-0.8.2.tar.gz
+[2023-06-06 11:23:15] INFO root fetch - processPackages [hyperfast-python-template]: executing diffoscope
+[2023-06-06 11:23:15] INFO root fetch - processPackages [hyperfast-python-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperfast_python_template-0.8.1.tar.gz tmp/hyperfast_python_template-0.8.2.tar.gz --markdown 20230606/h/hyperfast-python-template/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-06-06 11:23:15] INFO root fetch - processPackages [lazyearth]: executing diffoscope
+[2023-06-06 11:23:15] INFO root fetch - processPackages [lazyearth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazyearth-1.0.7.tar.gz tmp/lazyearth-1.0.8.tar.gz --markdown 20230606/l/lazyearth/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-06-06 11:23:15] INFO root fetch - processPackages [aws-lambda-powertools]: Downloading https://files.pythonhosted.org/packages/be/e3/ff85c035be26d266a4c353fb3f7d653f04b94e5cf23913e93f530125c7d6/aws_lambda_powertools-2.9.1.tar.gz
+[2023-06-06 11:23:15] INFO root fetch - processPackages [tbp-nightly]: Downloading https://files.pythonhosted.org/packages/2e/31/c611af28c0d42c7cbb86781523f94e57796654fd8b7a7049e8a6db2eecf3/tbp-nightly-2.9.0a20221130.tar.gz
+[2023-06-06 11:23:15] INFO root fetch - processPackages [openmodule-commands]: Remove: archive file [/home/abi/fetcher/tmp/openmodule_commands-11.1.0rc1.tar.gz]
+[2023-06-06 11:23:15] INFO root fetch - processPackages [openmodule-commands]: Remove: archive file [/home/abi/fetcher/tmp/openmodule_commands-11.1.0rc2.tar.gz]
+[2023-06-06 11:23:15] INFO root fetch - processPackages [aws-lambda-powertools]: executing diffoscope
+[2023-06-06 11:23:15] INFO root fetch - main [MainThread]: End processing [openmodule-commands]: success
+[2023-06-06 11:23:15] INFO root fetch - processPackages [aws-lambda-powertools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aws_lambda_powertools-2.9.0.tar.gz tmp/aws_lambda_powertools-2.9.1.tar.gz --markdown 20230606/a/aws-lambda-powertools/2.9.0-2.9.1/diff.md --exclude *.pyd
+[2023-06-06 11:23:15] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.6.tar.gz]
+[2023-06-06 11:23:15] INFO root fetch - processPackages [dbt-clickzetta]: Remove: archive file [/home/abi/fetcher/tmp/dbt-clickzetta-0.2.7.tar.gz]
+[2023-06-06 11:23:15] INFO root fetch - main [MainThread]: End processing [dbt-clickzetta]: success
+[2023-06-06 11:23:16] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-1.0.8.tar.gz]
+[2023-06-06 11:23:16] INFO root fetch - processPackages [auto-test-common]: Remove: archive file [/home/abi/fetcher/tmp/auto-test-common-1.0.9.tar.gz]
+[2023-06-06 11:23:16] INFO root fetch - main [MainThread]: End processing [auto-test-common]: success
+[2023-06-06 11:23:16] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.7.tar.gz]
+[2023-06-06 11:23:16] INFO root fetch - processPackages [lazyearth]: Remove: archive file [/home/abi/fetcher/tmp/lazyearth-1.0.8.tar.gz]
+[2023-06-06 11:23:16] INFO root fetch - main [MainThread]: End processing [lazyearth]: success
+[2023-06-06 11:23:16] INFO root fetch - processPackages [hyperfast-python-template]: Remove: archive file [/home/abi/fetcher/tmp/hyperfast_python_template-0.8.1.tar.gz]
+[2023-06-06 11:23:16] INFO root fetch - processPackages [hyperfast-python-template]: Remove: archive file [/home/abi/fetcher/tmp/hyperfast_python_template-0.8.2.tar.gz]
+[2023-06-06 11:23:16] INFO root fetch - main [MainThread]: End processing [hyperfast-python-template]: success
+[2023-06-06 11:23:16] INFO root fetch - processPackages [imecilabt-gpulab-common]: Remove: archive file [/home/abi/fetcher/tmp/imecilabt-gpulab-common-4.0.0.tar.gz]
+[2023-06-06 11:23:16] INFO root fetch - processPackages [imecilabt-gpulab-common]: Remove: archive file [/home/abi/fetcher/tmp/imecilabt-gpulab-common-4.3.0.tar.gz]
+[2023-06-06 11:23:16] INFO root fetch - main [MainThread]: End processing [imecilabt-gpulab-common]: success
+[2023-06-06 11:23:16] INFO root fetch - processPackages [openmodule-test]: Remove: archive file [/home/abi/fetcher/tmp/openmodule_test-9.0.0rc9.tar.gz]
+[2023-06-06 11:23:16] INFO root fetch - processPackages [openmodule-test]: Remove: archive file [/home/abi/fetcher/tmp/openmodule_test-9.1.0.tar.gz]
+[2023-06-06 11:23:16] INFO root fetch - main [MainThread]: End processing [openmodule-test]: success
+[2023-06-06 11:23:17] INFO root fetch - processPackages [tbp-nightly]: executing diffoscope
+[2023-06-06 11:23:17] INFO root fetch - processPackages [tbp-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tbp-nightly-2.9.0a20221129.tar.gz tmp/tbp-nightly-2.9.0a20221130.tar.gz --markdown 20230606/t/tbp-nightly/2.9.0a20221129-2.9.0a20221130/diff.md --exclude *.pyd
+[2023-06-06 11:23:17] INFO root fetch - processPackages [aws-lambda-powertools]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_powertools-2.9.0.tar.gz]
+[2023-06-06 11:23:17] INFO root fetch - processPackages [aws-lambda-powertools]: Remove: archive file [/home/abi/fetcher/tmp/aws_lambda_powertools-2.9.1.tar.gz]
+[2023-06-06 11:23:17] INFO root fetch - main [MainThread]: End processing [aws-lambda-powertools]: success
+[2023-06-06 11:23:18] INFO root fetch - processPackages [openmodule]: Remove: archive file [/home/abi/fetcher/tmp/openmodule-9.0.0rc9.tar.gz]
+[2023-06-06 11:23:18] INFO root fetch - processPackages [openmodule]: Remove: archive file [/home/abi/fetcher/tmp/openmodule-9.1.0.tar.gz]
+[2023-06-06 11:23:18] INFO root fetch - main [MainThread]: End processing [openmodule]: success
+[2023-06-06 11:23:19] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221129.tar.gz]
+[2023-06-06 11:23:19] INFO root fetch - processPackages [tbp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tbp-nightly-2.9.0a20221130.tar.gz]
+[2023-06-06 11:23:19] INFO root fetch - main [MainThread]: End processing [tbp-nightly]: success
+[2023-06-06 11:23:19] INFO root fetch - main [MainThread]: Store serial: [18389373]
