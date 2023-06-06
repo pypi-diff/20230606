@@ -12265,3 +12265,82 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 06:44:12] INFO root fetch - processPackages [django-mptt-admin]: Remove: archive file [/home/abi/fetcher/tmp/django-mptt-admin-2.5.1.tar.gz]
 [2023-06-06 06:44:12] INFO root fetch - main [MainThread]: End processing [django-mptt-admin]: success
 [2023-06-06 06:44:12] INFO root fetch - main [MainThread]: Store serial: [18386671]
+[2023-06-06 06:49:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18386671]
+[2023-06-06 06:49:21] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-06 06:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datacube
+[2023-06-06 06:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addons-oca-purchase-workflow
+[2023-06-06 06:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-purchase-workflow
+[2023-06-06 06:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sciform
+[2023-06-06 06:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: api-secrets
+[2023-06-06 06:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ppocrlabel-japan
+[2023-06-06 06:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: caqui
+[2023-06-06 06:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: vee-ap-generation
+[2023-06-06 06:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: validar-modelos
+[2023-06-06 06:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cstag
+[2023-06-06 06:49:21] INFO root fetch - processPackages [sciform]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-06-06 06:49:21] INFO root fetch - processPackages [datacube]: New version: [1.8.9] Old Version: [1.8.8rc1]
+[2023-06-06 06:49:21] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: New version: [16.0.20230605.0] Old Version: [16.0.20230516.0]
+[2023-06-06 06:49:21] WARNING root fetch - processPackages [ppocrlabel-japan]: Skipping, unable to determine old version
+[2023-06-06 06:49:21] INFO root fetch - main [MainThread]: End processing [ppocrlabel-japan] error
+[2023-06-06 06:49:21] INFO root fetch - processPackages [api-secrets]: New version: [1.1] Old Version: [1.0]
+[2023-06-06 06:49:21] INFO root fetch - processPackages [validar-modelos]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-06 06:49:21] INFO root fetch - processPackages [caqui]: New version: [1.9.0] Old Version: [1.0.8]
+[2023-06-06 06:49:21] WARNING root fetch - processPackages [vee-ap-generation]: Skipping, unable to determine old version
+[2023-06-06 06:49:21] INFO root fetch - main [MainThread]: End processing [vee-ap-generation] error
+[2023-06-06 06:49:21] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: New version: [16.0.20230605.0] Old Version: [16.0.20230516.0]
+[2023-06-06 06:49:21] INFO root fetch - processPackages [cstag]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-06-06 06:49:21] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/de/2b/7d8946ecb32e91b15363d3d1e7bdd7bcf3e9374693523a500c346a38fe6b/odoo_addons_oca_purchase_workflow-16.0.20230516.0-py3-none-any.whl
+[2023-06-06 06:49:21] INFO root fetch - processPackages [datacube]: Downloading https://files.pythonhosted.org/packages/51/9d/6f73aa589a09061f1e4da57703199b73d30a3a188151cf5e291831aefaaa/datacube-1.8.8rc1.tar.gz
+[2023-06-06 06:49:21] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/de/2b/7d8946ecb32e91b15363d3d1e7bdd7bcf3e9374693523a500c346a38fe6b/odoo_addons_oca_purchase_workflow-16.0.20230516.0-py3-none-any.whl
+[2023-06-06 06:49:21] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/2f/58/34f63bab80258461bddd7195b72169a511cc08aab09ba14794e48b1238fd/sciform-0.6.1.tar.gz
+[2023-06-06 06:49:21] INFO root fetch - processPackages [validar-modelos]: Downloading https://files.pythonhosted.org/packages/bf/26/98e52ec89a9e933a59a426262c2f4a6b44ecfd041432b4f69cb56a07b700/validar_modelos-0.0.1.tar.gz
+[2023-06-06 06:49:21] INFO root fetch - processPackages [api-secrets]: Downloading https://files.pythonhosted.org/packages/6a/d5/80d343012dd51e510250debabb98c3cb686f99c96cc5c6425f6f80a2ac13/api_secrets-1.0.tar.gz
+[2023-06-06 06:49:21] INFO root fetch - processPackages [caqui]: Downloading https://files.pythonhosted.org/packages/3c/48/bf225dfe11a0ab11769291a1a6b8f3fc195a5fc5d43d8a878186909b2922/caqui-1.0.8.tar.gz
+[2023-06-06 06:49:21] INFO root fetch - processPackages [cstag]: Downloading https://files.pythonhosted.org/packages/95/3a/a8902dbf66edcdd137d9f1ac825c3acf3d2ea89758f1088de2c112e40600/cstag-0.3.1.zip
+[2023-06-06 06:49:21] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/48/1f/2b5e24106ae47e7dd8de1b1f77e849e3a4f855e8a08c4119b7ace048fbe1/odoo_addons_oca_purchase_workflow-16.0.20230605.0-py3-none-any.whl
+[2023-06-06 06:49:21] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Downloading https://files.pythonhosted.org/packages/48/1f/2b5e24106ae47e7dd8de1b1f77e849e3a4f855e8a08c4119b7ace048fbe1/odoo_addons_oca_purchase_workflow-16.0.20230605.0-py3-none-any.whl
+[2023-06-06 06:49:21] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: executing diffoscope
+[2023-06-06 06:49:21] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_purchase_workflow-16.0.20230516.0-py3-none-any.whl.zip tmp/odoo_addons_oca_purchase_workflow-16.0.20230605.0-py3-none-any.whl.zip --markdown 20230606/o/odoo-addons-oca-purchase-workflow/16.0.20230516.0-16.0.20230605.0/diff.md --exclude *.pyd
+[2023-06-06 06:49:21] INFO root fetch - processPackages [validar-modelos]: Downloading https://files.pythonhosted.org/packages/5b/cf/e63212b957bc4f1b0bc128572530c7ab47438447d54c9ab5633b7cb4aba2/validar_modelos-0.0.2.tar.gz
+[2023-06-06 06:49:21] INFO root fetch - processPackages [api-secrets]: Downloading https://files.pythonhosted.org/packages/f4/34/66248995715ddd2ed633989820a5fd1692cf7c56cd5bd99db62739d26759/api_secrets-1.1.tar.gz
+[2023-06-06 06:49:21] INFO root fetch - processPackages [sciform]: Downloading https://files.pythonhosted.org/packages/24/7e/120e22e85b687992298aad67114fdb262d54a1f9509498625571504c28b4/sciform-0.7.0.tar.gz
+[2023-06-06 06:49:21] INFO root fetch - processPackages [caqui]: Downloading https://files.pythonhosted.org/packages/96/cb/610c7cb58e0d91615a6000802ec99074b7f59645f112551cb10c3f105439/caqui-1.9.0.tar.gz
+[2023-06-06 06:49:21] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: executing diffoscope
+[2023-06-06 06:49:21] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_purchase_workflow-16.0.20230516.0-py3-none-any.whl.zip tmp/odoo_addons_oca_purchase_workflow-16.0.20230605.0-py3-none-any.whl.zip --markdown 20230606/o/odoo-addons-oca-purchase-workflow/16.0.20230516.0-16.0.20230605.0/diff.md --exclude *.pyd
+[2023-06-06 06:49:21] INFO root fetch - processPackages [datacube]: Downloading https://files.pythonhosted.org/packages/29/f4/22fd735e40ad3ed6feafa1deafa257e4831d5722849e1b9b70d62544cea0/datacube-1.8.9.tar.gz
+[2023-06-06 06:49:21] INFO root fetch - processPackages [api-secrets]: executing diffoscope
+[2023-06-06 06:49:21] INFO root fetch - processPackages [api-secrets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/api_secrets-1.0.tar.gz tmp/api_secrets-1.1.tar.gz --markdown 20230606/a/api-secrets/1.0-1.1/diff.md --exclude *.pyd
+[2023-06-06 06:49:21] INFO root fetch - processPackages [validar-modelos]: executing diffoscope
+[2023-06-06 06:49:21] INFO root fetch - processPackages [validar-modelos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validar_modelos-0.0.1.tar.gz tmp/validar_modelos-0.0.2.tar.gz --markdown 20230606/v/validar-modelos/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-06 06:49:21] INFO root fetch - processPackages [sciform]: executing diffoscope
+[2023-06-06 06:49:21] INFO root fetch - processPackages [sciform]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sciform-0.6.1.tar.gz tmp/sciform-0.7.0.tar.gz --markdown 20230606/s/sciform/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-06-06 06:49:21] INFO root fetch - processPackages [caqui]: executing diffoscope
+[2023-06-06 06:49:21] INFO root fetch - processPackages [caqui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/caqui-1.0.8.tar.gz tmp/caqui-1.9.0.tar.gz --markdown 20230606/c/caqui/1.0.8-1.9.0/diff.md --exclude *.pyd
+[2023-06-06 06:49:21] INFO root fetch - processPackages [datacube]: executing diffoscope
+[2023-06-06 06:49:21] INFO root fetch - processPackages [datacube]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datacube-1.8.8rc1.tar.gz tmp/datacube-1.8.9.tar.gz --markdown 20230606/d/datacube/1.8.8rc1-1.8.9/diff.md --exclude *.pyd
+[2023-06-06 06:49:21] INFO root fetch - processPackages [cstag]: Downloading https://files.pythonhosted.org/packages/fc/54/0ad6221d2774cdbd6551118093221d7a0b49c58e0609e1ef535414631946/cstag-0.4.0.zip
+[2023-06-06 06:49:22] INFO root fetch - processPackages [cstag]: executing diffoscope
+[2023-06-06 06:49:22] INFO root fetch - processPackages [cstag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cstag-0.3.1.zip tmp/cstag-0.4.0.zip --markdown 20230606/c/cstag/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-06-06 06:49:22] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_purchase_workflow-16.0.20230516.0-py3-none-any.whl.zip]
+[2023-06-06 06:49:22] INFO root fetch - processPackages [odoo-addons-oca-purchase-workflow]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_purchase_workflow-16.0.20230605.0-py3-none-any.whl.zip]
+[2023-06-06 06:49:22] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-purchase-workflow]: success
+[2023-06-06 06:49:23] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-purchase-workflow]: success
+[2023-06-06 06:49:23] INFO root fetch - processPackages [api-secrets]: Remove: archive file [/home/abi/fetcher/tmp/api_secrets-1.0.tar.gz]
+[2023-06-06 06:49:23] INFO root fetch - processPackages [api-secrets]: Remove: archive file [/home/abi/fetcher/tmp/api_secrets-1.1.tar.gz]
+[2023-06-06 06:49:23] INFO root fetch - main [MainThread]: End processing [api-secrets]: success
+[2023-06-06 06:49:23] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.6.1.tar.gz]
+[2023-06-06 06:49:23] INFO root fetch - processPackages [sciform]: Remove: archive file [/home/abi/fetcher/tmp/sciform-0.7.0.tar.gz]
+[2023-06-06 06:49:23] INFO root fetch - main [MainThread]: End processing [sciform]: success
+[2023-06-06 06:49:23] INFO root fetch - processPackages [validar-modelos]: Remove: archive file [/home/abi/fetcher/tmp/validar_modelos-0.0.1.tar.gz]
+[2023-06-06 06:49:23] INFO root fetch - processPackages [validar-modelos]: Remove: archive file [/home/abi/fetcher/tmp/validar_modelos-0.0.2.tar.gz]
+[2023-06-06 06:49:23] INFO root fetch - main [MainThread]: End processing [validar-modelos]: success
+[2023-06-06 06:49:23] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-1.0.8.tar.gz]
+[2023-06-06 06:49:23] INFO root fetch - processPackages [caqui]: Remove: archive file [/home/abi/fetcher/tmp/caqui-1.9.0.tar.gz]
+[2023-06-06 06:49:23] INFO root fetch - main [MainThread]: End processing [caqui]: success
+[2023-06-06 06:49:23] INFO root fetch - processPackages [cstag]: Remove: archive file [/home/abi/fetcher/tmp/cstag-0.3.1.zip]
+[2023-06-06 06:49:23] INFO root fetch - processPackages [cstag]: Remove: archive file [/home/abi/fetcher/tmp/cstag-0.4.0.zip]
+[2023-06-06 06:49:23] INFO root fetch - main [MainThread]: End processing [cstag]: success
+[2023-06-06 06:49:26] INFO root fetch - processPackages [datacube]: Remove: archive file [/home/abi/fetcher/tmp/datacube-1.8.8rc1.tar.gz]
+[2023-06-06 06:49:26] INFO root fetch - processPackages [datacube]: Remove: archive file [/home/abi/fetcher/tmp/datacube-1.8.9.tar.gz]
+[2023-06-06 06:49:26] INFO root fetch - main [MainThread]: End processing [datacube]: success
+[2023-06-06 06:49:26] INFO root fetch - main [MainThread]: Store serial: [18386699]
