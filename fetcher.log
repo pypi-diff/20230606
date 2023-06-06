@@ -20673,3 +20673,141 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-06 13:10:37] INFO root fetch - processPackages [python-petpptx]: Remove: archive file [/home/abi/fetcher/tmp/python-petpptx-1.0.0.tar.gz]
 [2023-06-06 13:10:37] INFO root fetch - main [MainThread]: End processing [python-petpptx]: success
 [2023-06-06 13:10:37] INFO root fetch - main [MainThread]: Store serial: [18390296]
+[2023-06-06 13:15:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18390296]
+[2023-06-06 13:15:47] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-06-06 13:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pore-c-py
+[2023-06-06 13:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: afex-audit-trail
+[2023-06-06 13:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pulumi-github
+[2023-06-06 13:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jsonfmt
+[2023-06-06 13:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: batchx
+[2023-06-06 13:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pepperize.projen-awscdk-app-ts
+[2023-06-06 13:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tpy-packaging-v2
+[2023-06-06 13:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: adam-sdk
+[2023-06-06 13:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: netbox-cisco-maintenance
+[2023-06-06 13:15:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ProbLogPreCompilation
+[2023-06-06 13:15:47] INFO root fetch - processPackages [pore-c-py]: New version: [2.0.5] Old Version: [2.0.4]
+[2023-06-06 13:15:47] WARNING root fetch - processPackages [ProbLogPreCompilation]: Skipping, unable to determine old version
+[2023-06-06 13:15:47] INFO root fetch - processPackages [ProbLogPreCompilation]: Start processing: PyParallelPipe
+[2023-06-06 13:15:47] INFO root fetch - main [MainThread]: End processing [ProbLogPreCompilation] error
+[2023-06-06 13:15:47] INFO root fetch - processPackages [afex-audit-trail]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-06-06 13:15:47] INFO root fetch - processPackages [jsonfmt]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-06-06 13:15:47] WARNING root fetch - processPackages [tpy-packaging-v2]: Skipping, unable to determine old version
+[2023-06-06 13:15:47] INFO root fetch - processPackages [tpy-packaging-v2]: Start processing: faKy
+[2023-06-06 13:15:47] INFO root fetch - processPackages [adam-sdk]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-06-06 13:15:47] INFO root fetch - main [MainThread]: End processing [tpy-packaging-v2] error
+[2023-06-06 13:15:47] INFO root fetch - processPackages [pulumi-github]: New version: [5.9.1] Old Version: [5.9.0a1683752304]
+[2023-06-06 13:15:47] INFO root fetch - processPackages [batchx]: New version: [9.9.0] Old Version: [9.8.0]
+[2023-06-06 13:15:47] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.96] Old Version: [0.0.95]
+[2023-06-06 13:15:47] INFO root fetch - processPackages [PyParallelPipe]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-06 13:15:47] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-06 13:15:47] INFO root fetch - processPackages [faKy]: New version: [1.2.1] Old Version: [1.2.0]
+[2023-06-06 13:15:47] INFO root fetch - processPackages [batchx]: Downloading https://files.pythonhosted.org/packages/1a/b4/eafc6c05bd2118b4e79a8b7fe5d0f3b4f63562467082d84eb263df649056/batchx-9.8.0.tar.gz
+[2023-06-06 13:15:47] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/ba/73/e295a7d2a26e9e64a85b82215f241edd9eedee479fefb7f6ea0b024049f6/netbox-cisco-maintenance-0.0.95.tar.gz
+[2023-06-06 13:15:47] INFO root fetch - processPackages [PyParallelPipe]: Downloading https://files.pythonhosted.org/packages/e2/0a/dfd66dba8c4e251bd05d5a483baa651db3ce9d4210ab7f8fb6d90c039033/PyParallelPipe-1.0.1.tar.gz
+[2023-06-06 13:15:47] INFO root fetch - processPackages [faKy]: Downloading https://files.pythonhosted.org/packages/cc/8f/549a273c0b122da0707d1498014dd744baccbe2d784a656b8db66c97e597/faKy-1.2.0.tar.gz
+[2023-06-06 13:15:47] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/28/fc/54f1f63eb379b5c5560d5fe273751ff4c753fea4870c4ba1a754b481df0c/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz
+[2023-06-06 13:15:47] INFO root fetch - processPackages [pore-c-py]: Downloading https://files.pythonhosted.org/packages/c0/80/ae28fb5bcf65c145c815292a052cd7c7c795551ce21398c60dc76878b852/pore-c-py-2.0.4.tar.gz
+[2023-06-06 13:15:47] INFO root fetch - processPackages [adam-sdk]: Downloading https://files.pythonhosted.org/packages/9e/85/681e1eee297eb29dc1f87d1eb95ff1a64987cd4979dda8b92b838794bf80/adam-sdk-0.0.1.tar.gz
+[2023-06-06 13:15:47] INFO root fetch - processPackages [jsonfmt]: Downloading https://files.pythonhosted.org/packages/12/e0/8e126430391e2ebbc9616966f705d7c7a37f965a7c6a338fbbb018fe6116/jsonfmt-0.2.4.tar.gz
+[2023-06-06 13:15:47] INFO root fetch - processPackages [afex-audit-trail]: Downloading https://files.pythonhosted.org/packages/c7/80/17b4968c79fdc97ce808248e9101a5b730149a0f77fb353ed4ca0a13c07e/afex-audit-trail-0.1.7.tar.gz
+[2023-06-06 13:15:47] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/32/ed/961d0285211aa15049b6c58f7c819b33844f2916f9a913ccf0bfb1e54b4c/pulumi_github-5.9.0a1683752304.tar.gz
+[2023-06-06 13:15:47] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/2a/af/b37323c3ffd539cd740987d07e24a76b0410ccbef913e1b0220e5116f540/netbox-cisco-maintenance-0.0.96.tar.gz
+[2023-06-06 13:15:47] INFO root fetch - processPackages [faKy]: Downloading https://files.pythonhosted.org/packages/90/72/f2e22f126b1ff4601c71d5c2bc50c3d5465a61942a13b2c26141acbf76cf/faKy-1.2.1.tar.gz
+[2023-06-06 13:15:47] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Downloading https://files.pythonhosted.org/packages/44/cb/73b41b7503716cd836989732ed965709837bacf1b66b147f95689ad44458/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz
+[2023-06-06 13:15:47] INFO root fetch - processPackages [PyParallelPipe]: Downloading https://files.pythonhosted.org/packages/fc/cd/0fc4a5f3092dd3f226f85fa479e23a4c675f7fb54d3a6da2c541acb774d7/PyParallelPipe-1.0.2.tar.gz
+[2023-06-06 13:15:47] INFO root fetch - processPackages [batchx]: Downloading https://files.pythonhosted.org/packages/5b/81/5c50aa0623da735c9a61638def1c8ce16e9c73508049a9a537486f67b2cc/batchx-9.9.0.tar.gz
+[2023-06-06 13:15:47] INFO root fetch - processPackages [pore-c-py]: Downloading https://files.pythonhosted.org/packages/fe/7b/abe058a36c9d97ef2725226f606b3c5098a014167cb02df1ab37137607cf/pore-c-py-2.0.5.tar.gz
+[2023-06-06 13:15:47] INFO root fetch - processPackages [adam-sdk]: Downloading https://files.pythonhosted.org/packages/86/98/b904d96362343c2e8ed1954c9671a551b69cceefe6bc49826706fd32fead/adam-sdk-0.0.2.tar.gz
+[2023-06-06 13:15:48] INFO root fetch - processPackages [afex-audit-trail]: Downloading https://files.pythonhosted.org/packages/7e/6c/a44ea24082a96b732acb44ff99eb15b2f1c2aa81d5a2ab1ef32533acee23/afex-audit-trail-0.1.8.tar.gz
+[2023-06-06 13:15:48] INFO root fetch - processPackages [jsonfmt]: Downloading https://files.pythonhosted.org/packages/65/f5/6009a8b368e727bb2574cfad38a80603fd3c57835b80b562d0d62c1504a9/jsonfmt-0.2.5.tar.gz
+[2023-06-06 13:15:48] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-06 13:15:48] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.95.tar.gz tmp/netbox-cisco-maintenance-0.0.96.tar.gz --markdown 20230606/n/netbox-cisco-maintenance/0.0.95-0.0.96/diff.md --exclude *.pyd
+[2023-06-06 13:15:48] INFO root fetch - processPackages [batchx]: executing diffoscope
+[2023-06-06 13:15:48] INFO root fetch - processPackages [batchx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/batchx-9.8.0.tar.gz tmp/batchx-9.9.0.tar.gz --markdown 20230606/b/batchx/9.8.0-9.9.0/diff.md --exclude *.pyd
+[2023-06-06 13:15:48] INFO root fetch - processPackages [adam-sdk]: executing diffoscope
+[2023-06-06 13:15:48] INFO root fetch - processPackages [adam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adam-sdk-0.0.1.tar.gz tmp/adam-sdk-0.0.2.tar.gz --markdown 20230606/a/adam-sdk/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-06-06 13:15:48] INFO root fetch - processPackages [faKy]: executing diffoscope
+[2023-06-06 13:15:48] INFO root fetch - processPackages [faKy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/faKy-1.2.0.tar.gz tmp/faKy-1.2.1.tar.gz --markdown 20230606/f/faKy/1.2.0-1.2.1/diff.md --exclude *.pyd
+[2023-06-06 13:15:48] INFO root fetch - processPackages [pore-c-py]: executing diffoscope
+[2023-06-06 13:15:48] INFO root fetch - processPackages [pore-c-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pore-c-py-2.0.4.tar.gz tmp/pore-c-py-2.0.5.tar.gz --markdown 20230606/p/pore-c-py/2.0.4-2.0.5/diff.md --exclude *.pyd
+[2023-06-06 13:15:48] INFO root fetch - processPackages [PyParallelPipe]: executing diffoscope
+[2023-06-06 13:15:48] INFO root fetch - processPackages [PyParallelPipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyParallelPipe-1.0.1.tar.gz tmp/PyParallelPipe-1.0.2.tar.gz --markdown 20230606/P/PyParallelPipe/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-06 13:15:48] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: executing diffoscope
+[2023-06-06 13:15:48] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz --markdown 20230606/p/pepperize.projen-awscdk-app-ts/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-06 13:15:48] INFO root fetch - processPackages [jsonfmt]: executing diffoscope
+[2023-06-06 13:15:48] INFO root fetch - processPackages [jsonfmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jsonfmt-0.2.4.tar.gz tmp/jsonfmt-0.2.5.tar.gz --markdown 20230606/j/jsonfmt/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-06-06 13:15:48] INFO root fetch - processPackages [afex-audit-trail]: executing diffoscope
+[2023-06-06 13:15:48] INFO root fetch - processPackages [afex-audit-trail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/afex-audit-trail-0.1.7.tar.gz tmp/afex-audit-trail-0.1.8.tar.gz --markdown 20230606/a/afex-audit-trail/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-06-06 13:15:48] INFO root fetch - processPackages [pulumi-github]: Downloading https://files.pythonhosted.org/packages/c9/c7/93ab5613466154b7124ec8eae861573f6b499bd2807accd6d08c5fa08291/pulumi_github-5.9.1.tar.gz
+[2023-06-06 13:15:48] INFO root fetch - processPackages [pulumi-github]: executing diffoscope
+[2023-06-06 13:15:48] INFO root fetch - processPackages [pulumi-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_github-5.9.0a1683752304.tar.gz tmp/pulumi_github-5.9.1.tar.gz --markdown 20230606/p/pulumi-github/5.9.0a1683752304-5.9.1/diff.md --exclude *.pyd
+[2023-06-06 13:15:49] INFO root fetch - processPackages [adam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/adam-sdk-0.0.1.tar.gz]
+[2023-06-06 13:15:49] INFO root fetch - processPackages [adam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/adam-sdk-0.0.2.tar.gz]
+[2023-06-06 13:15:49] INFO root fetch - processPackages [adam-sdk]: Start processing: face-alignment
+[2023-06-06 13:15:49] INFO root fetch - main [MainThread]: End processing [adam-sdk]: success
+[2023-06-06 13:15:49] INFO root fetch - processPackages [face-alignment]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-06-06 13:15:49] INFO root fetch - processPackages [faKy]: Remove: archive file [/home/abi/fetcher/tmp/faKy-1.2.0.tar.gz]
+[2023-06-06 13:15:49] INFO root fetch - processPackages [faKy]: Remove: archive file [/home/abi/fetcher/tmp/faKy-1.2.1.tar.gz]
+[2023-06-06 13:15:49] INFO root fetch - processPackages [faKy]: Start processing: PyMoosh
+[2023-06-06 13:15:49] INFO root fetch - main [MainThread]: End processing [faKy]: success
+[2023-06-06 13:15:49] INFO root fetch - processPackages [PyMoosh]: New version: [3.0] Old Version: [2.62]
+[2023-06-06 13:15:49] INFO root fetch - processPackages [face-alignment]: Downloading https://files.pythonhosted.org/packages/49/9b/bd2e87013d7e3b4a7565a85336298c5089d2800ed696487158c8f9d8c7f0/face_alignment-1.3.5.tar.gz
+[2023-06-06 13:15:49] INFO root fetch - processPackages [PyMoosh]: Downloading https://files.pythonhosted.org/packages/cd/a6/3c1adeafebcb121258a5b2e96a6c652f132ae3b59fba553b0376d7dafacb/PyMoosh-2.62.tar.gz
+[2023-06-06 13:15:49] INFO root fetch - processPackages [pore-c-py]: Remove: archive file [/home/abi/fetcher/tmp/pore-c-py-2.0.4.tar.gz]
+[2023-06-06 13:15:49] INFO root fetch - processPackages [pore-c-py]: Remove: archive file [/home/abi/fetcher/tmp/pore-c-py-2.0.5.tar.gz]
+[2023-06-06 13:15:49] INFO root fetch - processPackages [pore-c-py]: Start processing: odoo13-addon-product-cost-rollup-to-bom
+[2023-06-06 13:15:49] INFO root fetch - main [MainThread]: End processing [pore-c-py]: success
+[2023-06-06 13:15:49] WARNING root fetch - processPackages [odoo13-addon-product-cost-rollup-to-bom]: Skipping, unable to determine old version
+[2023-06-06 13:15:49] INFO root fetch - processPackages [odoo13-addon-product-cost-rollup-to-bom]: Start processing: th2-grpc-lw-data-provider
+[2023-06-06 13:15:49] INFO root fetch - main [MainThread]: End processing [odoo13-addon-product-cost-rollup-to-bom] error
+[2023-06-06 13:15:49] INFO root fetch - processPackages [PyParallelPipe]: Remove: archive file [/home/abi/fetcher/tmp/PyParallelPipe-1.0.1.tar.gz]
+[2023-06-06 13:15:49] INFO root fetch - processPackages [PyParallelPipe]: Remove: archive file [/home/abi/fetcher/tmp/PyParallelPipe-1.0.2.tar.gz]
+[2023-06-06 13:15:49] INFO root fetch - processPackages [PyParallelPipe]: Start processing: openai-pygenerator
+[2023-06-06 13:15:49] INFO root fetch - main [MainThread]: End processing [PyParallelPipe]: success
+[2023-06-06 13:15:49] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: New version: [2.1.0.dev3871883101] Old Version: [2.0.0.dev5187847995]
+[2023-06-06 13:15:49] INFO root fetch - processPackages [openai-pygenerator]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-06 13:15:49] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.95.tar.gz]
+[2023-06-06 13:15:49] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.96.tar.gz]
+[2023-06-06 13:15:49] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-06 13:15:49] INFO root fetch - processPackages [face-alignment]: Downloading https://files.pythonhosted.org/packages/d2/af/c05478c19940d80e4ff8dbffe176f9d4c458a9731fde66a4da98979d7b71/face_alignment-1.3.6-py2.py3-none-any.whl
+[2023-06-06 13:15:49] INFO root fetch - processPackages [PyMoosh]: Downloading https://files.pythonhosted.org/packages/37/cc/5022f2c44fa940beb7894bdb6516d3f59503bdc47c8398073f278d16122b/PyMoosh-3.0.tar.gz
+[2023-06-06 13:15:49] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/73/53/1276a6aec2080efd8e3e8576063f78f3fe1c77befba88953c84816050b79/th2_grpc_lw_data_provider-2.0.0.dev5187847995.tar.gz
+[2023-06-06 13:15:49] INFO root fetch - processPackages [afex-audit-trail]: Remove: archive file [/home/abi/fetcher/tmp/afex-audit-trail-0.1.7.tar.gz]
+[2023-06-06 13:15:49] INFO root fetch - processPackages [afex-audit-trail]: Remove: archive file [/home/abi/fetcher/tmp/afex-audit-trail-0.1.8.tar.gz]
+[2023-06-06 13:15:49] INFO root fetch - main [MainThread]: End processing [afex-audit-trail]: success
+[2023-06-06 13:15:49] INFO root fetch - processPackages [openai-pygenerator]: Downloading https://files.pythonhosted.org/packages/3b/51/e438d4a7e755786b5492d427de5cd6bca02c1742d5498649f6752697a685/openai-pygenerator-0.3.0.tar.gz
+[2023-06-06 13:15:50] INFO root fetch - processPackages [face-alignment]: executing diffoscope
+[2023-06-06 13:15:50] INFO root fetch - processPackages [face-alignment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/face_alignment-1.3.5.tar.gz tmp/face_alignment-1.3.6-py2.py3-none-any.whl.zip --markdown 20230606/f/face-alignment/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-06-06 13:15:50] INFO root fetch - processPackages [PyMoosh]: executing diffoscope
+[2023-06-06 13:15:50] INFO root fetch - processPackages [PyMoosh]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyMoosh-2.62.tar.gz tmp/PyMoosh-3.0.tar.gz --markdown 20230606/P/PyMoosh/2.62-3.0/diff.md --exclude *.pyd
+[2023-06-06 13:15:50] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Downloading https://files.pythonhosted.org/packages/b8/71/939eea7287068082732ec066dc1b9af347f7ee06c935058691236acf7459/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz
+[2023-06-06 13:15:50] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.98.tar.gz]
+[2023-06-06 13:15:50] INFO root fetch - processPackages [pepperize.projen-awscdk-app-ts]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.projen-awscdk-app-ts-0.0.99.tar.gz]
+[2023-06-06 13:15:50] INFO root fetch - main [MainThread]: End processing [pepperize.projen-awscdk-app-ts]: success
+[2023-06-06 13:15:50] INFO root fetch - processPackages [openai-pygenerator]: Downloading https://files.pythonhosted.org/packages/d2/ee/56299d9394313df71d0f6f32d3d9b0ac8e34070332293c6420adaa6e551c/openai-pygenerator-0.4.0.tar.gz
+[2023-06-06 13:15:50] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: executing diffoscope
+[2023-06-06 13:15:50] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_grpc_lw_data_provider-2.0.0.dev5187847995.tar.gz tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz --markdown 20230606/t/th2-grpc-lw-data-provider/2.0.0.dev5187847995-2.1.0.dev3871883101/diff.md --exclude *.pyd
+[2023-06-06 13:15:50] INFO root fetch - processPackages [openai-pygenerator]: executing diffoscope
+[2023-06-06 13:15:50] INFO root fetch - processPackages [openai-pygenerator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openai-pygenerator-0.3.0.tar.gz tmp/openai-pygenerator-0.4.0.tar.gz --markdown 20230606/o/openai-pygenerator/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-06 13:15:50] INFO root fetch - processPackages [jsonfmt]: Remove: archive file [/home/abi/fetcher/tmp/jsonfmt-0.2.4.tar.gz]
+[2023-06-06 13:15:50] INFO root fetch - processPackages [jsonfmt]: Remove: archive file [/home/abi/fetcher/tmp/jsonfmt-0.2.5.tar.gz]
+[2023-06-06 13:15:50] INFO root fetch - main [MainThread]: End processing [jsonfmt]: success
+[2023-06-06 13:15:51] INFO root fetch - processPackages [batchx]: Remove: archive file [/home/abi/fetcher/tmp/batchx-9.8.0.tar.gz]
+[2023-06-06 13:15:51] INFO root fetch - processPackages [batchx]: Remove: archive file [/home/abi/fetcher/tmp/batchx-9.9.0.tar.gz]
+[2023-06-06 13:15:51] INFO root fetch - main [MainThread]: End processing [batchx]: success
+[2023-06-06 13:15:51] INFO root fetch - processPackages [face-alignment]: Remove: archive file [/home/abi/fetcher/tmp/face_alignment-1.3.5.tar.gz]
+[2023-06-06 13:15:51] INFO root fetch - processPackages [face-alignment]: Remove: archive file [/home/abi/fetcher/tmp/face_alignment-1.3.6-py2.py3-none-any.whl.zip]
+[2023-06-06 13:15:51] INFO root fetch - main [MainThread]: End processing [face-alignment]: success
+[2023-06-06 13:15:51] INFO root fetch - processPackages [PyMoosh]: Remove: archive file [/home/abi/fetcher/tmp/PyMoosh-2.62.tar.gz]
+[2023-06-06 13:15:51] INFO root fetch - processPackages [PyMoosh]: Remove: archive file [/home/abi/fetcher/tmp/PyMoosh-3.0.tar.gz]
+[2023-06-06 13:15:51] INFO root fetch - main [MainThread]: End processing [PyMoosh]: success
+[2023-06-06 13:15:52] INFO root fetch - processPackages [openai-pygenerator]: Remove: archive file [/home/abi/fetcher/tmp/openai-pygenerator-0.3.0.tar.gz]
+[2023-06-06 13:15:52] INFO root fetch - processPackages [openai-pygenerator]: Remove: archive file [/home/abi/fetcher/tmp/openai-pygenerator-0.4.0.tar.gz]
+[2023-06-06 13:15:52] INFO root fetch - main [MainThread]: End processing [openai-pygenerator]: success
+[2023-06-06 13:15:52] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.0.0.dev5187847995.tar.gz]
+[2023-06-06 13:15:52] INFO root fetch - processPackages [th2-grpc-lw-data-provider]: Remove: archive file [/home/abi/fetcher/tmp/th2_grpc_lw_data_provider-2.1.0.dev3871883101.tar.gz]
+[2023-06-06 13:15:52] INFO root fetch - main [MainThread]: End processing [th2-grpc-lw-data-provider]: success
+[2023-06-06 13:15:53] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-5.9.0a1683752304.tar.gz]
+[2023-06-06 13:15:53] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-5.9.1.tar.gz]
+[2023-06-06 13:15:53] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
+[2023-06-06 13:15:53] INFO root fetch - main [MainThread]: Store serial: [18390347]
