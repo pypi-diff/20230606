@@ -18966,3 +18966,185 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-06 11:39:48] INFO root fetch - processPackages [optimos]: Remove: archive file [/home/abi/fetcher/tmp/optimos-0.9.2.tar.gz]
 [2023-06-06 11:39:48] INFO root fetch - main [MainThread]: End processing [optimos]: success
 [2023-06-06 11:39:48] INFO root fetch - main [MainThread]: Store serial: [18389478]
+[2023-06-06 11:44:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18389478]
+[2023-06-06 11:44:58] INFO root fetch - main [MainThread]: Found 23 changed packages
+[2023-06-06 11:44:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opendal
+[2023-06-06 11:44:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdklabs.cdk-validator-cfnguard
+[2023-06-06 11:44:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mofish
+[2023-06-06 11:44:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: frequenz-api-common
+[2023-06-06 11:44:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ga4-data-import
+[2023-06-06 11:44:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: agera5tools
+[2023-06-06 11:44:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: easy-configer
+[2023-06-06 11:44:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: irrd
+[2023-06-06 11:44:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: grai-source-bigquery
+[2023-06-06 11:44:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: PMPrimer
+[2023-06-06 11:44:58] INFO root fetch - processPackages [mofish]: New version: [2023.6.6] Old Version: [1.0.4]
+[2023-06-06 11:44:58] INFO root fetch - processPackages [frequenz-api-common]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-06-06 11:44:58] INFO root fetch - processPackages [irrd]: New version: [4.3.0] Old Version: [4.2.8]
+[2023-06-06 11:44:58] INFO root fetch - processPackages [agera5tools]: New version: [2.0.6] Old Version: [2.0.5]
+[2023-06-06 11:44:58] INFO root fetch - processPackages [grai-source-bigquery]: New version: [0.1.0a6] Old Version: [0.1.0a5]
+[2023-06-06 11:44:58] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 11:44:58] INFO root fetch - processPackages [easy-configer]: New version: [2.1.0] Old Version: [2.0.0]
+[2023-06-06 11:44:58] INFO root fetch - processPackages [opendal]: New version: [0.37.0] Old Version: [0.36.1]
+[2023-06-06 11:44:58] INFO root fetch - processPackages [ga4-data-import]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-06-06 11:44:58] INFO root fetch - processPackages [PMPrimer]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-06 11:44:58] INFO root fetch - processPackages [grai-source-bigquery]: Downloading https://files.pythonhosted.org/packages/f5/9d/3e14136beadd738ef2ca90a4a2508eb1b108b78757e2bca4efc43962d5ae/grai_source_bigquery-0.1.0a5.tar.gz
+[2023-06-06 11:44:58] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Downloading https://files.pythonhosted.org/packages/ca/bf/82d7858f5b89f9588b018ab4ea93c6508a4508ce23569695827cdc5c3992/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz
+[2023-06-06 11:44:58] INFO root fetch - processPackages [mofish]: Downloading https://files.pythonhosted.org/packages/3c/76/47dac9de6b7062ccb51d0ebfebe86d566f1159af670717a422b623c21437/mofish-1.0.4.tar.gz
+[2023-06-06 11:44:58] INFO root fetch - processPackages [irrd]: Downloading https://files.pythonhosted.org/packages/f9/4f/919927f7540301344b34e45cba18d32d046a7b08850cd4841d2cf3479c19/irrd-4.2.8.tar.gz
+[2023-06-06 11:44:58] INFO root fetch - processPackages [PMPrimer]: Downloading https://files.pythonhosted.org/packages/59/0c/d436b9ce99cd140bc1330bd1331061364eded61bb3a0eb8ee254911b8fc9/PMPrimer-1.0.1.tar.gz
+[2023-06-06 11:44:58] INFO root fetch - processPackages [agera5tools]: Downloading https://files.pythonhosted.org/packages/41/f4/d12314e5bc3b95e6ec20197f68d5ab4a0ba709d598792f3762cc72f84660/agera5tools-2.0.5.tar.gz
+[2023-06-06 11:44:58] INFO root fetch - processPackages [easy-configer]: Downloading https://files.pythonhosted.org/packages/52/cd/8375361a79172058f0872314152180442d317e06ad0236110690d65c7aba/easy_configer-2.0.0.tar.gz
+[2023-06-06 11:44:58] INFO root fetch - processPackages [frequenz-api-common]: Downloading https://files.pythonhosted.org/packages/38/62/74333f8e2bfe933fd6436b62becff109f633d53e1ac6b588ae28554940c1/frequenz-api-common-0.2.0.tar.gz
+[2023-06-06 11:44:58] INFO root fetch - processPackages [opendal]: Downloading https://files.pythonhosted.org/packages/f1/c7/5db9459f7f617956bfb9b85c2aa4531b41dff6a3131151da51a07ec6d0bd/opendal-0.36.1.tar.gz
+[2023-06-06 11:44:58] INFO root fetch - processPackages [ga4-data-import]: Downloading https://files.pythonhosted.org/packages/eb/c4/527edbdedae34ac3bb42ad98e8b645fa40e33547615c24cc9d5dd5fb8b81/ga4_data_import-0.1.2-py3-none-any.whl
+[2023-06-06 11:44:58] INFO root fetch - processPackages [grai-source-bigquery]: Downloading https://files.pythonhosted.org/packages/0a/31/96ace4db5d272b0373da26bd33389b02961abcffa49857e5b06c5a85ee4a/grai_source_bigquery-0.1.0a6.tar.gz
+[2023-06-06 11:44:58] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Downloading https://files.pythonhosted.org/packages/87/72/a3d8003ada4028ea6518698c5f3ee208044ed9363e979c066104afb06a6a/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz
+[2023-06-06 11:44:58] INFO root fetch - processPackages [mofish]: Downloading https://files.pythonhosted.org/packages/c5/3a/3d2cbf596c67c83d2e9a253be0865c8a99eec25e6b0242cae760ead8a796/mofish-2023.6.6.tar.gz
+[2023-06-06 11:44:58] INFO root fetch - processPackages [irrd]: Downloading https://files.pythonhosted.org/packages/20/44/2334939dbf61a8a46684b22d5234fa5ed656700a4d9336d2ceb7cf7a7017/irrd-4.3.0.tar.gz
+[2023-06-06 11:44:58] INFO root fetch - processPackages [frequenz-api-common]: Downloading https://files.pythonhosted.org/packages/aa/ce/1bdd2035ef748d132b9e4df36a6e5e7c4d682a6afc2ac5fad4f7bbcb4b40/frequenz-api-common-0.3.0.tar.gz
+[2023-06-06 11:44:58] INFO root fetch - processPackages [ga4-data-import]: Downloading https://files.pythonhosted.org/packages/a3/0d/445fb582fc2471b4e0eacf06346bd282051a916d394f57f5407b3f66a352/ga4_data_import-0.1.3-py3-none-any.whl
+[2023-06-06 11:44:58] INFO root fetch - processPackages [mofish]: executing diffoscope
+[2023-06-06 11:44:58] INFO root fetch - processPackages [mofish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mofish-1.0.4.tar.gz tmp/mofish-2023.6.6.tar.gz --markdown 20230606/m/mofish/1.0.4-2023.6.6/diff.md --exclude *.pyd
+[2023-06-06 11:44:58] INFO root fetch - processPackages [PMPrimer]: Downloading https://files.pythonhosted.org/packages/51/56/0d57be49c4a33ef996ec8172b3f9afab03d1aaa3043248c3d0c50dc4ae9b/PMPrimer-1.0.2-py3-none-any.whl
+[2023-06-06 11:44:58] INFO root fetch - processPackages [agera5tools]: Downloading https://files.pythonhosted.org/packages/96/14/c7584d10c946b1c70955fd5d9b211e3fce6ecc52341a5c7ef9d8e6565707/agera5tools-2.0.6-py3-none-any.whl
+[2023-06-06 11:44:58] INFO root fetch - processPackages [easy-configer]: Downloading https://files.pythonhosted.org/packages/3c/1c/bfc8cd686798f9427374998e7d72ba9d712d3d7e67ed49593e7ed83fb7cf/easy_configer-2.1.0.tar.gz
+[2023-06-06 11:44:58] INFO root fetch - processPackages [grai-source-bigquery]: executing diffoscope
+[2023-06-06 11:44:58] INFO root fetch - processPackages [grai-source-bigquery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grai_source_bigquery-0.1.0a5.tar.gz tmp/grai_source_bigquery-0.1.0a6.tar.gz --markdown 20230606/g/grai-source-bigquery/0.1.0a5-0.1.0a6/diff.md --exclude *.pyd
+[2023-06-06 11:44:58] INFO root fetch - processPackages [frequenz-api-common]: executing diffoscope
+[2023-06-06 11:44:58] INFO root fetch - processPackages [frequenz-api-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/frequenz-api-common-0.2.0.tar.gz tmp/frequenz-api-common-0.3.0.tar.gz --markdown 20230606/f/frequenz-api-common/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-06-06 11:44:58] INFO root fetch - processPackages [irrd]: executing diffoscope
+[2023-06-06 11:44:58] INFO root fetch - processPackages [irrd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irrd-4.2.8.tar.gz tmp/irrd-4.3.0.tar.gz --markdown 20230606/i/irrd/4.2.8-4.3.0/diff.md --exclude *.pyd
+[2023-06-06 11:44:58] INFO root fetch - processPackages [ga4-data-import]: executing diffoscope
+[2023-06-06 11:44:58] INFO root fetch - processPackages [ga4-data-import]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ga4_data_import-0.1.2-py3-none-any.whl.zip tmp/ga4_data_import-0.1.3-py3-none-any.whl.zip --markdown 20230606/g/ga4-data-import/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-06-06 11:44:59] INFO root fetch - processPackages [opendal]: Downloading https://files.pythonhosted.org/packages/e8/a1/3dda1b4401e3c350679a503ab5cc14b8d053b9c5ba3cdd6e5764b15dd46d/opendal-0.37.0-cp37-abi3-macosx_10_9_x86_64.macosx_11_0_arm64.macosx_10_9_universal2.whl
+[2023-06-06 11:44:59] INFO root fetch - processPackages [PMPrimer]: executing diffoscope
+[2023-06-06 11:44:59] INFO root fetch - processPackages [PMPrimer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PMPrimer-1.0.1.tar.gz tmp/PMPrimer-1.0.2-py3-none-any.whl.zip --markdown 20230606/P/PMPrimer/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-06 11:44:59] INFO root fetch - processPackages [agera5tools]: executing diffoscope
+[2023-06-06 11:44:59] INFO root fetch - processPackages [agera5tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/agera5tools-2.0.5.tar.gz tmp/agera5tools-2.0.6-py3-none-any.whl.zip --markdown 20230606/a/agera5tools/2.0.5-2.0.6/diff.md --exclude *.pyd
+[2023-06-06 11:44:59] INFO root fetch - processPackages [easy-configer]: executing diffoscope
+[2023-06-06 11:44:59] INFO root fetch - processPackages [easy-configer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easy_configer-2.0.0.tar.gz tmp/easy_configer-2.1.0.tar.gz --markdown 20230606/e/easy-configer/2.0.0-2.1.0/diff.md --exclude *.pyd
+[2023-06-06 11:44:59] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: executing diffoscope
+[2023-06-06 11:44:59] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz tmp/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz --markdown 20230606/c/cdklabs.cdk-validator-cfnguard/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 11:44:59] INFO root fetch - processPackages [opendal]: executing diffoscope
+[2023-06-06 11:44:59] INFO root fetch - processPackages [opendal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opendal-0.36.1.tar.gz tmp/opendal-0.37.0-cp37-abi3-macosx_10_9_x86_64.macosx_11_0_arm64.macosx_10_9_universal2.whl.zip --markdown 20230606/o/opendal/0.36.1-0.37.0/diff.md --exclude *.pyd
+[2023-06-06 11:45:00] INFO root fetch - processPackages [grai-source-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_bigquery-0.1.0a5.tar.gz]
+[2023-06-06 11:45:00] INFO root fetch - processPackages [grai-source-bigquery]: Remove: archive file [/home/abi/fetcher/tmp/grai_source_bigquery-0.1.0a6.tar.gz]
+[2023-06-06 11:45:00] INFO root fetch - processPackages [grai-source-bigquery]: Start processing: pipd
+[2023-06-06 11:45:00] INFO root fetch - main [MainThread]: End processing [grai-source-bigquery]: success
+[2023-06-06 11:45:00] INFO root fetch - processPackages [pipd]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-06 11:45:00] INFO root fetch - processPackages [mofish]: Remove: archive file [/home/abi/fetcher/tmp/mofish-1.0.4.tar.gz]
+[2023-06-06 11:45:00] INFO root fetch - processPackages [mofish]: Remove: archive file [/home/abi/fetcher/tmp/mofish-2023.6.6.tar.gz]
+[2023-06-06 11:45:00] INFO root fetch - processPackages [mofish]: Start processing: gemseo-template-editor-gui
+[2023-06-06 11:45:00] INFO root fetch - main [MainThread]: End processing [mofish]: success
+[2023-06-06 11:45:00] WARNING root fetch - processPackages [gemseo-template-editor-gui]: Skipping, unable to determine old version
+[2023-06-06 11:45:00] INFO root fetch - processPackages [gemseo-template-editor-gui]: Start processing: BasicLibrary.PY
+[2023-06-06 11:45:00] INFO root fetch - main [MainThread]: End processing [gemseo-template-editor-gui] error
+[2023-06-06 11:45:00] WARNING root fetch - processPackages [BasicLibrary.PY]: Skipping, unable to determine old version
+[2023-06-06 11:45:00] INFO root fetch - processPackages [BasicLibrary.PY]: Start processing: max-num-1
+[2023-06-06 11:45:00] INFO root fetch - main [MainThread]: End processing [BasicLibrary.PY] error
+[2023-06-06 11:45:00] WARNING root fetch - processPackages [max-num-1]: Skipping, unable to determine old version
+[2023-06-06 11:45:00] INFO root fetch - processPackages [max-num-1]: Start processing: AstroInstrumentAD
+[2023-06-06 11:45:00] INFO root fetch - main [MainThread]: End processing [max-num-1] error
+[2023-06-06 11:45:00] INFO root fetch - processPackages [PMPrimer]: Remove: archive file [/home/abi/fetcher/tmp/PMPrimer-1.0.1.tar.gz]
+[2023-06-06 11:45:00] INFO root fetch - processPackages [PMPrimer]: Remove: archive file [/home/abi/fetcher/tmp/PMPrimer-1.0.2-py3-none-any.whl.zip]
+[2023-06-06 11:45:00] INFO root fetch - processPackages [PMPrimer]: Start processing: antchain-nftx
+[2023-06-06 11:45:00] INFO root fetch - main [MainThread]: End processing [PMPrimer]: success
+[2023-06-06 11:45:00] INFO root fetch - processPackages [pipd]: Downloading https://files.pythonhosted.org/packages/5a/d1/ede53482e590eb371dee57dfce54e8ee475f90c0fe3c77bc8fb228ba20fb/pipd-0.0.5.tar.gz
+[2023-06-06 11:45:00] WARNING root fetch - processPackages [AstroInstrumentAD]: Skipping, unable to determine old version
+[2023-06-06 11:45:00] INFO root fetch - processPackages [AstroInstrumentAD]: Start processing: streamlit-webrtc
+[2023-06-06 11:45:00] INFO root fetch - main [MainThread]: End processing [AstroInstrumentAD] error
+[2023-06-06 11:45:00] INFO root fetch - processPackages [antchain-nftx]: New version: [1.8.1] Old Version: [1.7.4]
+[2023-06-06 11:45:00] INFO root fetch - processPackages [streamlit-webrtc]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-06-06 11:45:00] INFO root fetch - processPackages [ga4-data-import]: Remove: archive file [/home/abi/fetcher/tmp/ga4_data_import-0.1.2-py3-none-any.whl.zip]
+[2023-06-06 11:45:00] INFO root fetch - processPackages [ga4-data-import]: Remove: archive file [/home/abi/fetcher/tmp/ga4_data_import-0.1.3-py3-none-any.whl.zip]
+[2023-06-06 11:45:00] INFO root fetch - processPackages [ga4-data-import]: Start processing: eodc-faas-sen2like
+[2023-06-06 11:45:00] INFO root fetch - main [MainThread]: End processing [ga4-data-import]: success
+[2023-06-06 11:45:00] INFO root fetch - processPackages [eodc-faas-sen2like]: New version: [2023.5.0rc9] Old Version: [2023.5.0rc8]
+[2023-06-06 11:45:00] INFO root fetch - processPackages [antchain-nftx]: Downloading https://files.pythonhosted.org/packages/33/2f/eb0728b88b78a3be5ed17aa6074a89b6c1442673917b440e32c5352f9c41/antchain_nftx-1.7.4.tar.gz
+[2023-06-06 11:45:00] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/6f/79/bae87beb530e78e07f51b8276ba5b8f6ac56ab41a37cceb885e96a64b264/eodc_faas_sen2like-2023.5.0rc8.tar.gz
+[2023-06-06 11:45:00] INFO root fetch - processPackages [streamlit-webrtc]: Downloading https://files.pythonhosted.org/packages/74/17/d5f8b9eb653171d0285a13e0033bf4355548b2f59d3e2dec7dce69e80035/streamlit-webrtc-0.8.1.tar.gz
+[2023-06-06 11:45:00] INFO root fetch - processPackages [pipd]: Downloading https://files.pythonhosted.org/packages/3f/4f/73c5b4e97e2026bcce67337fbaa00f7c1a9f0e9d97380b462fa5d4ab983f/pipd-0.0.6-py3-none-any.whl
+[2023-06-06 11:45:01] INFO root fetch - processPackages [eodc-faas-sen2like]: Downloading https://files.pythonhosted.org/packages/c8/b6/6c4840a096d42c0bb6a21eeb711f7f34d7a41ed6a998032a17efe3e0570a/eodc_faas_sen2like-2023.5.0rc9.tar.gz
+[2023-06-06 11:45:01] INFO root fetch - processPackages [pipd]: executing diffoscope
+[2023-06-06 11:45:01] INFO root fetch - processPackages [pipd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipd-0.0.5.tar.gz tmp/pipd-0.0.6-py3-none-any.whl.zip --markdown 20230606/p/pipd/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-06 11:45:01] INFO root fetch - processPackages [eodc-faas-sen2like]: executing diffoscope
+[2023-06-06 11:45:01] INFO root fetch - processPackages [eodc-faas-sen2like]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eodc_faas_sen2like-2023.5.0rc8.tar.gz tmp/eodc_faas_sen2like-2023.5.0rc9.tar.gz --markdown 20230606/e/eodc-faas-sen2like/2023.5.0rc8-2023.5.0rc9/diff.md --exclude *.pyd
+[2023-06-06 11:45:01] INFO root fetch - processPackages [frequenz-api-common]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-api-common-0.2.0.tar.gz]
+[2023-06-06 11:45:01] INFO root fetch - processPackages [frequenz-api-common]: Remove: archive file [/home/abi/fetcher/tmp/frequenz-api-common-0.3.0.tar.gz]
+[2023-06-06 11:45:01] INFO root fetch - processPackages [frequenz-api-common]: Start processing: omnata-plugin-runtime
+[2023-06-06 11:45:01] INFO root fetch - main [MainThread]: End processing [frequenz-api-common]: success
+[2023-06-06 11:45:01] INFO root fetch - processPackages [omnata-plugin-runtime]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-06-06 11:45:01] INFO root fetch - processPackages [antchain-nftx]: Downloading https://files.pythonhosted.org/packages/41/f9/61a73c1ed7f5835f1c843dcb2a2c1ed2be7a5f2734ca02541929b30e606d/antchain_nftx-1.8.1.tar.gz
+[2023-06-06 11:45:01] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/53/a1/adf4ca1ed5ea551e6c30a8edb566fbce83dbedc1f72d8e262ff85d80881e/omnata_plugin_runtime-0.1.8.tar.gz
+[2023-06-06 11:45:01] INFO root fetch - processPackages [antchain-nftx]: executing diffoscope
+[2023-06-06 11:45:01] INFO root fetch - processPackages [antchain-nftx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/antchain_nftx-1.7.4.tar.gz tmp/antchain_nftx-1.8.1.tar.gz --markdown 20230606/a/antchain-nftx/1.7.4-1.8.1/diff.md --exclude *.pyd
+[2023-06-06 11:45:01] INFO root fetch - processPackages [easy-configer]: Remove: archive file [/home/abi/fetcher/tmp/easy_configer-2.0.0.tar.gz]
+[2023-06-06 11:45:01] INFO root fetch - processPackages [easy-configer]: Remove: archive file [/home/abi/fetcher/tmp/easy_configer-2.1.0.tar.gz]
+[2023-06-06 11:45:01] INFO root fetch - processPackages [easy-configer]: Start processing: hiku
+[2023-06-06 11:45:01] INFO root fetch - main [MainThread]: End processing [easy-configer]: success
+[2023-06-06 11:45:01] INFO root fetch - processPackages [hiku]: New version: [0.7.0rc9] Old Version: [0.7.0rc8]
+[2023-06-06 11:45:01] INFO root fetch - processPackages [omnata-plugin-runtime]: Downloading https://files.pythonhosted.org/packages/cf/ef/88a357f5f8f3b7c775ede6822e6617364cfdcf04a79bca1e74d50ae0aae1/omnata_plugin_runtime-0.1.9.tar.gz
+[2023-06-06 11:45:01] INFO root fetch - processPackages [omnata-plugin-runtime]: executing diffoscope
+[2023-06-06 11:45:01] INFO root fetch - processPackages [omnata-plugin-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/omnata_plugin_runtime-0.1.8.tar.gz tmp/omnata_plugin_runtime-0.1.9.tar.gz --markdown 20230606/o/omnata-plugin-runtime/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 11:45:01] INFO root fetch - processPackages [streamlit-webrtc]: Downloading https://files.pythonhosted.org/packages/67/13/21c92cb4d03086d16d1a3b164e5c3f19a048c79b49b55973e607288ef3d2/streamlit-webrtc-0.9.0.tar.gz
+[2023-06-06 11:45:01] INFO root fetch - processPackages [hiku]: Downloading https://files.pythonhosted.org/packages/c4/5c/7b65ae890ce09d8ee6ac5bf61cefad6664796c2d8c2127a3aa615ba9b099/hiku-0.7.0rc8.tar.gz
+[2023-06-06 11:45:01] INFO root fetch - processPackages [hiku]: Downloading https://files.pythonhosted.org/packages/b3/ba/21c6e077517296756f2b640aa4b70fd8ed63db0f86133d0f4afcac142464/hiku-0.7.0rc9.tar.gz
+[2023-06-06 11:45:01] INFO root fetch - processPackages [streamlit-webrtc]: executing diffoscope
+[2023-06-06 11:45:01] INFO root fetch - processPackages [streamlit-webrtc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-webrtc-0.8.1.tar.gz tmp/streamlit-webrtc-0.9.0.tar.gz --markdown 20230606/s/streamlit-webrtc/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-06-06 11:45:01] INFO root fetch - processPackages [hiku]: executing diffoscope
+[2023-06-06 11:45:01] INFO root fetch - processPackages [hiku]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiku-0.7.0rc8.tar.gz tmp/hiku-0.7.0rc9.tar.gz --markdown 20230606/h/hiku/0.7.0rc8-0.7.0rc9/diff.md --exclude *.pyd
+[2023-06-06 11:45:01] INFO root fetch - processPackages [pipd]: Remove: archive file [/home/abi/fetcher/tmp/pipd-0.0.5.tar.gz]
+[2023-06-06 11:45:01] INFO root fetch - processPackages [pipd]: Remove: archive file [/home/abi/fetcher/tmp/pipd-0.0.6-py3-none-any.whl.zip]
+[2023-06-06 11:45:01] INFO root fetch - processPackages [pipd]: Start processing: PySide6-Addons
+[2023-06-06 11:45:01] INFO root fetch - main [MainThread]: End processing [pipd]: success
+[2023-06-06 11:45:02] INFO root fetch - processPackages [PySide6-Addons]: New version: [6.5.1.1] Old Version: [6.5.1]
+[2023-06-06 11:45:02] INFO root fetch - processPackages [PySide6-Addons]: Downloading https://files.pythonhosted.org/packages/86/c0/89129cb030517e08461eea35c16d26260cdca6e405e7a752268cd692767c/PySide6_Addons-6.5.1-pp39-pypy39_pp73-win_amd64.whl
+[2023-06-06 11:45:02] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2023.5.0rc8.tar.gz]
+[2023-06-06 11:45:02] INFO root fetch - processPackages [eodc-faas-sen2like]: Remove: archive file [/home/abi/fetcher/tmp/eodc_faas_sen2like-2023.5.0rc9.tar.gz]
+[2023-06-06 11:45:02] INFO root fetch - processPackages [eodc-faas-sen2like]: Start processing: Calibrator-KS1200
+[2023-06-06 11:45:02] INFO root fetch - main [MainThread]: End processing [eodc-faas-sen2like]: success
+[2023-06-06 11:45:02] WARNING root fetch - processPackages [PySide6-Addons]: Skipping package: exceeds size limit 111770203>=10485760
+[2023-06-06 11:45:02] INFO root fetch - processPackages [PySide6-Addons]: Start processing: pipd
+[2023-06-06 11:45:02] INFO root fetch - main [MainThread]: End processing [PySide6-Addons] error
+[2023-06-06 11:45:02] INFO root fetch - processPackages [pipd]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-06 11:45:02] INFO root fetch - processPackages [Calibrator-KS1200]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-06 11:45:02] INFO root fetch - processPackages [pipd]: Downloading https://files.pythonhosted.org/packages/3f/4f/73c5b4e97e2026bcce67337fbaa00f7c1a9f0e9d97380b462fa5d4ab983f/pipd-0.0.6-py3-none-any.whl
+[2023-06-06 11:45:02] INFO root fetch - processPackages [Calibrator-KS1200]: Downloading https://files.pythonhosted.org/packages/5a/b2/942ea9ba3d315edff4c5186dffc92a6efb0d38f9877b317ff9772fee1a45/Calibrator_KS1200-0.0.6-py3-none-any.whl
+[2023-06-06 11:45:02] INFO root fetch - processPackages [pipd]: Downloading https://files.pythonhosted.org/packages/43/99/d6065d6157836972a2409d6e9e701f086ea27296bd77d2fce24afc64a034/pipd-0.0.7.tar.gz
+[2023-06-06 11:45:02] INFO root fetch - processPackages [pipd]: executing diffoscope
+[2023-06-06 11:45:02] INFO root fetch - processPackages [pipd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pipd-0.0.6-py3-none-any.whl.zip tmp/pipd-0.0.7.tar.gz --markdown 20230606/p/pipd/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-06 11:45:02] INFO root fetch - processPackages [antchain-nftx]: Remove: archive file [/home/abi/fetcher/tmp/antchain_nftx-1.7.4.tar.gz]
+[2023-06-06 11:45:02] INFO root fetch - processPackages [antchain-nftx]: Remove: archive file [/home/abi/fetcher/tmp/antchain_nftx-1.8.1.tar.gz]
+[2023-06-06 11:45:02] INFO root fetch - main [MainThread]: End processing [antchain-nftx]: success
+[2023-06-06 11:45:02] INFO root fetch - processPackages [Calibrator-KS1200]: Downloading https://files.pythonhosted.org/packages/ab/15/7f11011b71ef95bb5d5c35779edf478567d41d42cee2dd3f6d833f7f90aa/Calibrator-KS1200-0.0.7.tar.gz
+[2023-06-06 11:45:03] INFO root fetch - processPackages [Calibrator-KS1200]: executing diffoscope
+[2023-06-06 11:45:03] INFO root fetch - processPackages [Calibrator-KS1200]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Calibrator_KS1200-0.0.6-py3-none-any.whl.zip tmp/Calibrator-KS1200-0.0.7.tar.gz --markdown 20230606/C/Calibrator-KS1200/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-06 11:45:03] INFO root fetch - processPackages [streamlit-webrtc]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-webrtc-0.8.1.tar.gz]
+[2023-06-06 11:45:03] INFO root fetch - processPackages [streamlit-webrtc]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-webrtc-0.9.0.tar.gz]
+[2023-06-06 11:45:03] INFO root fetch - main [MainThread]: End processing [streamlit-webrtc]: success
+[2023-06-06 11:45:03] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.8.tar.gz]
+[2023-06-06 11:45:03] INFO root fetch - processPackages [omnata-plugin-runtime]: Remove: archive file [/home/abi/fetcher/tmp/omnata_plugin_runtime-0.1.9.tar.gz]
+[2023-06-06 11:45:03] INFO root fetch - main [MainThread]: End processing [omnata-plugin-runtime]: success
+[2023-06-06 11:45:03] INFO root fetch - processPackages [hiku]: Remove: archive file [/home/abi/fetcher/tmp/hiku-0.7.0rc8.tar.gz]
+[2023-06-06 11:45:03] INFO root fetch - processPackages [hiku]: Remove: archive file [/home/abi/fetcher/tmp/hiku-0.7.0rc9.tar.gz]
+[2023-06-06 11:45:03] INFO root fetch - main [MainThread]: End processing [hiku]: success
+[2023-06-06 11:45:03] INFO root fetch - processPackages [pipd]: Remove: archive file [/home/abi/fetcher/tmp/pipd-0.0.6-py3-none-any.whl.zip]
+[2023-06-06 11:45:03] INFO root fetch - processPackages [pipd]: Remove: archive file [/home/abi/fetcher/tmp/pipd-0.0.7.tar.gz]
+[2023-06-06 11:45:03] INFO root fetch - main [MainThread]: End processing [pipd]: success
+[2023-06-06 11:45:04] INFO root fetch - processPackages [Calibrator-KS1200]: Remove: archive file [/home/abi/fetcher/tmp/Calibrator_KS1200-0.0.6-py3-none-any.whl.zip]
+[2023-06-06 11:45:04] INFO root fetch - processPackages [Calibrator-KS1200]: Remove: archive file [/home/abi/fetcher/tmp/Calibrator-KS1200-0.0.7.tar.gz]
+[2023-06-06 11:45:04] INFO root fetch - main [MainThread]: End processing [Calibrator-KS1200]: success
+[2023-06-06 11:45:04] INFO root fetch - processPackages [opendal]: Remove: archive file [/home/abi/fetcher/tmp/opendal-0.36.1.tar.gz]
+[2023-06-06 11:45:04] INFO root fetch - processPackages [opendal]: Remove: archive file [/home/abi/fetcher/tmp/opendal-0.37.0-cp37-abi3-macosx_10_9_x86_64.macosx_11_0_arm64.macosx_10_9_universal2.whl.zip]
+[2023-06-06 11:45:04] INFO root fetch - main [MainThread]: End processing [opendal]: success
+[2023-06-06 11:45:05] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-validator-cfnguard-0.0.8.tar.gz]
+[2023-06-06 11:45:05] INFO root fetch - processPackages [cdklabs.cdk-validator-cfnguard]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-validator-cfnguard-0.0.9.tar.gz]
+[2023-06-06 11:45:05] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-validator-cfnguard]: success
+[2023-06-06 11:45:05] INFO root fetch - processPackages [irrd]: Remove: archive file [/home/abi/fetcher/tmp/irrd-4.2.8.tar.gz]
+[2023-06-06 11:45:05] INFO root fetch - processPackages [irrd]: Remove: archive file [/home/abi/fetcher/tmp/irrd-4.3.0.tar.gz]
+[2023-06-06 11:45:05] INFO root fetch - main [MainThread]: End processing [irrd]: success
+[2023-06-06 11:45:12] INFO root fetch - processPackages [agera5tools]: Remove: archive file [/home/abi/fetcher/tmp/agera5tools-2.0.5.tar.gz]
+[2023-06-06 11:45:12] INFO root fetch - processPackages [agera5tools]: Remove: archive file [/home/abi/fetcher/tmp/agera5tools-2.0.6-py3-none-any.whl.zip]
+[2023-06-06 11:45:12] INFO root fetch - main [MainThread]: End processing [agera5tools]: success
+[2023-06-06 11:45:12] INFO root fetch - main [MainThread]: Store serial: [18389570]
