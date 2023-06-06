@@ -20308,3 +20308,189 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-06 12:59:49] INFO root fetch - processPackages [portage]: Remove: archive file [/home/abi/fetcher/tmp/portage-3.0.48.1.tar.gz]
 [2023-06-06 12:59:49] INFO root fetch - main [MainThread]: End processing [portage]: success
 [2023-06-06 12:59:49] INFO root fetch - main [MainThread]: Store serial: [18390160]
+[2023-06-06 13:04:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18390160]
+[2023-06-06 13:04:58] INFO root fetch - main [MainThread]: Found 22 changed packages
+[2023-06-06 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dbt-doris
+[2023-06-06 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: shepherd-data
+[2023-06-06 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dbt-teradata
+[2023-06-06 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tap-exact
+[2023-06-06 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: spotPython
+[2023-06-06 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: anywidget
+[2023-06-06 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spotPython
+[2023-06-06 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: copyleaks
+[2023-06-06 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: virustotalpy
+[2023-06-06 13:04:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: m2w
+[2023-06-06 13:04:58] INFO root fetch - processPackages [dbt-teradata]: New version: [1.3.3.0] Old Version: [1.3.0.0]
+[2023-06-06 13:04:58] INFO root fetch - processPackages [tap-exact]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-06 13:04:58] INFO root fetch - processPackages [shepherd-data]: New version: [2023.6.3] Old Version: [2023.6.2]
+[2023-06-06 13:04:58] INFO root fetch - processPackages [dbt-doris]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-06-06 13:04:58] INFO root fetch - processPackages [m2w]: New version: [2.5.5] Old Version: [2.5.3]
+[2023-06-06 13:04:58] INFO root fetch - processPackages [anywidget]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-06 13:04:58] INFO root fetch - processPackages [spotPython]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-06 13:04:58] INFO root fetch - processPackages [virustotalpy]: New version: [1.0.1] Old Version: [1.0]
+[2023-06-06 13:04:58] INFO root fetch - processPackages [copyleaks]: New version: [4.0.0] Old Version: [3.1.1]
+[2023-06-06 13:04:59] INFO root fetch - processPackages [spotPython]: New version: [0.2.9] Old Version: [0.2.7]
+[2023-06-06 13:04:59] INFO root fetch - processPackages [virustotalpy]: Downloading https://files.pythonhosted.org/packages/7f/f2/e5c6d96e886b654a9f9b7e65b238ccf8d9fda66cafde94c99fcdb8bd8d9a/virustotalpy-1.0.tar.gz
+[2023-06-06 13:04:59] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/e0/e8/66abc5ef55725dff58c177d37db719ddbb6e37303ad19de0c22e9499aada/spotPython-0.2.7.tar.gz
+[2023-06-06 13:04:59] INFO root fetch - processPackages [tap-exact]: Downloading https://files.pythonhosted.org/packages/4b/18/d112d6695c49d7114c27862caebf4c14b98b54d67a53918f7d603072ab3c/tap_exact-0.5.0.tar.gz
+[2023-06-06 13:04:59] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/e0/e8/66abc5ef55725dff58c177d37db719ddbb6e37303ad19de0c22e9499aada/spotPython-0.2.7.tar.gz
+[2023-06-06 13:04:59] INFO root fetch - processPackages [shepherd-data]: Downloading https://files.pythonhosted.org/packages/f3/39/9505704f3721beb1e5980dca995fbce34b5ef1059732f2cf639ee2441418/shepherd_data-2023.6.2.tar.gz
+[2023-06-06 13:04:59] INFO root fetch - processPackages [copyleaks]: Downloading https://files.pythonhosted.org/packages/cf/41/aad479eb7b2e8fdd853e5313b381eb36684989eae2c66cf888ad89c9f148/copyleaks-3.1.1.tar.gz
+[2023-06-06 13:04:59] INFO root fetch - processPackages [dbt-doris]: Downloading https://files.pythonhosted.org/packages/1f/e4/777a4712e5168d37336e4f95bffa6d6a360b3b8cdb7eea8321ff5c74cd3c/dbt-doris-0.2.0.tar.gz
+[2023-06-06 13:04:59] INFO root fetch - processPackages [dbt-teradata]: Downloading https://files.pythonhosted.org/packages/70/4a/2a2a04cb419a2da87251acc26676b5980efded2c8ff21286ff3011b0fdf5/dbt-teradata-1.3.0.0.tar.gz
+[2023-06-06 13:04:59] INFO root fetch - processPackages [anywidget]: Downloading https://files.pythonhosted.org/packages/2a/bf/64545096b46c0a31c91ffb034ddee58659c16184baa9766c064227948045/anywidget-0.4.1.tar.gz
+[2023-06-06 13:04:59] INFO root fetch - processPackages [m2w]: Downloading https://files.pythonhosted.org/packages/7a/0e/25b6d97e5f34ad5621fb6cd4607d3121bef37d81cd171a96c519e19915bc/m2w-2.5.3.tar.gz
+[2023-06-06 13:04:59] INFO root fetch - processPackages [virustotalpy]: Downloading https://files.pythonhosted.org/packages/5f/ae/6f85ed4b6d5e28c35a7f3ff78cdfc28263d0a37b8c4ded809a8bb34ba692/virustotalpy-1.0.1.tar.gz
+[2023-06-06 13:04:59] INFO root fetch - processPackages [spotPython]: Downloading https://files.pythonhosted.org/packages/69/84/9402cf387c9dac34b67ddeb1b709382852df04dd7b304e52275a288c4f8c/spotPython-0.2.9.tar.gz
+[2023-06-06 13:04:59] INFO root fetch - processPackages [tap-exact]: Downloading https://files.pythonhosted.org/packages/01/33/cc7da7420acddaa88621d57c0d3b6fbcf607c5632f4067a1ff58a6631f70/tap_exact-0.5.1.tar.gz
+[2023-06-06 13:04:59] INFO root fetch - processPackages [dbt-doris]: Downloading https://files.pythonhosted.org/packages/8a/06/f38a4dd9de8dd45f4ab5477f6c6ffe2a7be1fae37102a23cf989872764cb/dbt-doris-0.2.1.tar.gz
+[2023-06-06 13:04:59] INFO root fetch - processPackages [shepherd-data]: Downloading https://files.pythonhosted.org/packages/3a/61/84bf82d68a85764e7f28714cf1f8949e1b85a5dbcdf34eb7f3923e5ab8fd/shepherd_data-2023.6.3.tar.gz
+[2023-06-06 13:04:59] INFO root fetch - processPackages [virustotalpy]: executing diffoscope
+[2023-06-06 13:04:59] INFO root fetch - processPackages [copyleaks]: Downloading https://files.pythonhosted.org/packages/1d/04/0b9882bc9b9b6f30304a8d7046b9ea755cef1239d857949c62c7ad267a84/copyleaks-4.0.0.tar.gz
+[2023-06-06 13:04:59] INFO root fetch - processPackages [virustotalpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/virustotalpy-1.0.tar.gz tmp/virustotalpy-1.0.1.tar.gz --markdown 20230606/v/virustotalpy/1.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-06 13:04:59] INFO root fetch - processPackages [tap-exact]: executing diffoscope
+[2023-06-06 13:04:59] INFO root fetch - processPackages [tap-exact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_exact-0.5.0.tar.gz tmp/tap_exact-0.5.1.tar.gz --markdown 20230606/t/tap-exact/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-06 13:04:59] INFO root fetch - processPackages [m2w]: Downloading https://files.pythonhosted.org/packages/20/11/c3362dc74075473a759c0cb9e6b498660c6260d623cd5e6e3df2b31b8fb9/m2w-2.5.5.tar.gz
+[2023-06-06 13:04:59] INFO root fetch - processPackages [dbt-doris]: executing diffoscope
+[2023-06-06 13:04:59] INFO root fetch - processPackages [dbt-doris]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-doris-0.2.0.tar.gz tmp/dbt-doris-0.2.1.tar.gz --markdown 20230606/d/dbt-doris/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-06-06 13:04:59] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-06-06 13:04:59] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.2.7.tar.gz tmp/spotPython-0.2.9.tar.gz --markdown 20230606/s/spotPython/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-06 13:04:59] INFO root fetch - processPackages [shepherd-data]: executing diffoscope
+[2023-06-06 13:04:59] INFO root fetch - processPackages [shepherd-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shepherd_data-2023.6.2.tar.gz tmp/shepherd_data-2023.6.3.tar.gz --markdown 20230606/s/shepherd-data/2023.6.2-2023.6.3/diff.md --exclude *.pyd
+[2023-06-06 13:04:59] INFO root fetch - processPackages [copyleaks]: executing diffoscope
+[2023-06-06 13:04:59] INFO root fetch - processPackages [copyleaks]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/copyleaks-3.1.1.tar.gz tmp/copyleaks-4.0.0.tar.gz --markdown 20230606/c/copyleaks/3.1.1-4.0.0/diff.md --exclude *.pyd
+[2023-06-06 13:04:59] INFO root fetch - processPackages [spotPython]: executing diffoscope
+[2023-06-06 13:04:59] INFO root fetch - processPackages [spotPython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spotPython-0.2.7.tar.gz tmp/spotPython-0.2.9.tar.gz --markdown 20230606/s/spotPython/0.2.7-0.2.9/diff.md --exclude *.pyd
+[2023-06-06 13:04:59] INFO root fetch - processPackages [dbt-teradata]: Downloading https://files.pythonhosted.org/packages/b5/fa/f1bf2d8bda4643500e654a52bf8e952f5aa5c9e574c61de935fd90406501/dbt-teradata-1.3.3.0.tar.gz
+[2023-06-06 13:04:59] INFO root fetch - processPackages [anywidget]: Downloading https://files.pythonhosted.org/packages/46/a7/3cdbf6a22292bea22d61ad7c099d1feb1dbc57fc5076dbe72f186dee1e43/anywidget-0.4.2.tar.gz
+[2023-06-06 13:04:59] INFO root fetch - processPackages [m2w]: executing diffoscope
+[2023-06-06 13:04:59] INFO root fetch - processPackages [m2w]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m2w-2.5.3.tar.gz tmp/m2w-2.5.5.tar.gz --markdown 20230606/m/m2w/2.5.3-2.5.5/diff.md --exclude *.pyd
+[2023-06-06 13:04:59] INFO root fetch - processPackages [dbt-teradata]: executing diffoscope
+[2023-06-06 13:04:59] INFO root fetch - processPackages [dbt-teradata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dbt-teradata-1.3.0.0.tar.gz tmp/dbt-teradata-1.3.3.0.tar.gz --markdown 20230606/d/dbt-teradata/1.3.0.0-1.3.3.0/diff.md --exclude *.pyd
+[2023-06-06 13:04:59] INFO root fetch - processPackages [anywidget]: executing diffoscope
+[2023-06-06 13:04:59] INFO root fetch - processPackages [anywidget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anywidget-0.4.1.tar.gz tmp/anywidget-0.4.2.tar.gz --markdown 20230606/a/anywidget/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-06 13:05:01] INFO root fetch - processPackages [virustotalpy]: Remove: archive file [/home/abi/fetcher/tmp/virustotalpy-1.0.tar.gz]
+[2023-06-06 13:05:01] INFO root fetch - processPackages [virustotalpy]: Remove: archive file [/home/abi/fetcher/tmp/virustotalpy-1.0.1.tar.gz]
+[2023-06-06 13:05:01] INFO root fetch - processPackages [virustotalpy]: Start processing: iac-scan-runner
+[2023-06-06 13:05:01] INFO root fetch - main [MainThread]: End processing [virustotalpy]: success
+[2023-06-06 13:05:01] INFO root fetch - processPackages [iac-scan-runner]: New version: [0.4.1] Old Version: [0.4.0]
+[2023-06-06 13:05:01] INFO root fetch - processPackages [tap-exact]: Remove: archive file [/home/abi/fetcher/tmp/tap_exact-0.5.0.tar.gz]
+[2023-06-06 13:05:01] INFO root fetch - processPackages [tap-exact]: Remove: archive file [/home/abi/fetcher/tmp/tap_exact-0.5.1.tar.gz]
+[2023-06-06 13:05:01] INFO root fetch - processPackages [tap-exact]: Start processing: CacheControl
+[2023-06-06 13:05:01] INFO root fetch - main [MainThread]: End processing [tap-exact]: success
+[2023-06-06 13:05:01] INFO root fetch - processPackages [CacheControl]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-06 13:05:01] INFO root fetch - processPackages [iac-scan-runner]: Downloading https://files.pythonhosted.org/packages/94/1a/a9971f00db66786b564304c53655866b38fbfbcb15db3fabfa504b1240c4/iac-scan-runner-0.4.0.tar.gz
+[2023-06-06 13:05:01] INFO root fetch - processPackages [shepherd-data]: Remove: archive file [/home/abi/fetcher/tmp/shepherd_data-2023.6.2.tar.gz]
+[2023-06-06 13:05:01] INFO root fetch - processPackages [shepherd-data]: Remove: archive file [/home/abi/fetcher/tmp/shepherd_data-2023.6.3.tar.gz]
+[2023-06-06 13:05:01] INFO root fetch - processPackages [shepherd-data]: Start processing: qwak-core
+[2023-06-06 13:05:01] INFO root fetch - main [MainThread]: End processing [shepherd-data]: success
+[2023-06-06 13:05:01] INFO root fetch - processPackages [qwak-core]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-06 13:05:01] INFO root fetch - processPackages [CacheControl]: Downloading https://files.pythonhosted.org/packages/ec/c8/361da66e4f1f03b93b7e7fefd43049601b3693ed5638012d9c85aebe9f68/CacheControl-0.9.3.tar.gz
+[2023-06-06 13:05:01] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/5f/d0/45d94253bcdc4108ecf2f05cb74d19b34ae62ade127e415b792f382bd060/qwak_core-0.0.98.tar.gz
+[2023-06-06 13:05:01] INFO root fetch - processPackages [iac-scan-runner]: Downloading https://files.pythonhosted.org/packages/ff/a4/dd495067ebe9cc0dcac48933c8b66813059f0e1dfb536cc4a94ff4a21d86/iac-scan-runner-0.4.1.tar.gz
+[2023-06-06 13:05:01] INFO root fetch - processPackages [copyleaks]: Remove: archive file [/home/abi/fetcher/tmp/copyleaks-3.1.1.tar.gz]
+[2023-06-06 13:05:01] INFO root fetch - processPackages [copyleaks]: Remove: archive file [/home/abi/fetcher/tmp/copyleaks-4.0.0.tar.gz]
+[2023-06-06 13:05:01] INFO root fetch - processPackages [copyleaks]: Start processing: sspqdd
+[2023-06-06 13:05:01] INFO root fetch - main [MainThread]: End processing [copyleaks]: success
+[2023-06-06 13:05:01] INFO root fetch - processPackages [sspqdd]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-06-06 13:05:01] INFO root fetch - processPackages [qwak-core]: Downloading https://files.pythonhosted.org/packages/f2/c0/4910ee16f1146c11278c0b18778d0552fdbed48c75db8c1145bb48ab13c4/qwak_core-0.0.99.tar.gz
+[2023-06-06 13:05:01] INFO root fetch - processPackages [CacheControl]: Downloading https://files.pythonhosted.org/packages/a6/35/fbe223cd27653090199d6267e55557480e741fd6ca0e3828ba455f8553b2/CacheControl-0.9.4.tar.gz
+[2023-06-06 13:05:01] INFO root fetch - processPackages [dbt-doris]: Remove: archive file [/home/abi/fetcher/tmp/dbt-doris-0.2.0.tar.gz]
+[2023-06-06 13:05:01] INFO root fetch - processPackages [dbt-doris]: Remove: archive file [/home/abi/fetcher/tmp/dbt-doris-0.2.1.tar.gz]
+[2023-06-06 13:05:01] INFO root fetch - processPackages [dbt-doris]: Start processing: netbox-cisco-maintenance
+[2023-06-06 13:05:01] INFO root fetch - main [MainThread]: End processing [dbt-doris]: success
+[2023-06-06 13:05:01] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.95] Old Version: [0.0.93]
+[2023-06-06 13:05:01] INFO root fetch - processPackages [qwak-core]: executing diffoscope
+[2023-06-06 13:05:01] INFO root fetch - processPackages [qwak-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qwak_core-0.0.98.tar.gz tmp/qwak_core-0.0.99.tar.gz --markdown 20230606/q/qwak-core/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-06 13:05:01] INFO root fetch - processPackages [iac-scan-runner]: executing diffoscope
+[2023-06-06 13:05:01] INFO root fetch - processPackages [iac-scan-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iac-scan-runner-0.4.0.tar.gz tmp/iac-scan-runner-0.4.1.tar.gz --markdown 20230606/i/iac-scan-runner/0.4.0-0.4.1/diff.md --exclude *.pyd
+[2023-06-06 13:05:01] INFO root fetch - processPackages [sspqdd]: Downloading https://files.pythonhosted.org/packages/74/84/dee7a352a0f6e5428c36d6e5f30f857096ad4ed6e606753f5691e46fbbbf/sspqdd-1.0.8.tar.gz
+[2023-06-06 13:05:01] INFO root fetch - processPackages [CacheControl]: executing diffoscope
+[2023-06-06 13:05:01] INFO root fetch - processPackages [CacheControl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CacheControl-0.9.3.tar.gz tmp/CacheControl-0.9.4.tar.gz --markdown 20230606/C/CacheControl/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-06 13:05:01] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/9d/48/16fae28a288710c9f468e4d266bb39a5eef64167e30d40e4b3cb5a04e64b/netbox-cisco-maintenance-0.0.93.tar.gz
+[2023-06-06 13:05:02] INFO root fetch - processPackages [m2w]: Remove: archive file [/home/abi/fetcher/tmp/m2w-2.5.3.tar.gz]
+[2023-06-06 13:05:02] INFO root fetch - processPackages [m2w]: Remove: archive file [/home/abi/fetcher/tmp/m2w-2.5.5.tar.gz]
+[2023-06-06 13:05:02] INFO root fetch - processPackages [m2w]: Start processing: tpy-packaging
+[2023-06-06 13:05:02] INFO root fetch - main [MainThread]: End processing [m2w]: success
+[2023-06-06 13:05:02] ERROR root fetch - processPackages [tpy-packaging]: Unable to get metadata: No such project 'tpy-packaging'
+[2023-06-06 13:05:02] INFO root fetch - processPackages [tpy-packaging]: Start processing: alibabacloud-ha3engine
+[2023-06-06 13:05:02] INFO root fetch - main [MainThread]: End processing [tpy-packaging] error
+[2023-06-06 13:05:02] INFO root fetch - processPackages [alibabacloud-ha3engine]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-06-06 13:05:02] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/ba/73/e295a7d2a26e9e64a85b82215f241edd9eedee479fefb7f6ea0b024049f6/netbox-cisco-maintenance-0.0.95.tar.gz
+[2023-06-06 13:05:02] INFO root fetch - processPackages [sspqdd]: Downloading https://files.pythonhosted.org/packages/a2/74/5eb7c50051e82829030ce9db964560aa321c7989562ef5343379c44c67b0/sspqdd-1.0.9.tar.gz
+[2023-06-06 13:05:02] INFO root fetch - processPackages [dbt-teradata]: Remove: archive file [/home/abi/fetcher/tmp/dbt-teradata-1.3.0.0.tar.gz]
+[2023-06-06 13:05:02] INFO root fetch - processPackages [dbt-teradata]: Remove: archive file [/home/abi/fetcher/tmp/dbt-teradata-1.3.3.0.tar.gz]
+[2023-06-06 13:05:02] INFO root fetch - processPackages [dbt-teradata]: Start processing: error-parity
+[2023-06-06 13:05:02] INFO root fetch - main [MainThread]: End processing [dbt-teradata]: success
+[2023-06-06 13:05:02] WARNING root fetch - processPackages [error-parity]: Skipping, unable to determine old version
+[2023-06-06 13:05:02] INFO root fetch - processPackages [error-parity]: Start processing: odoo-addon-l10n-es-pos
+[2023-06-06 13:05:02] INFO root fetch - main [MainThread]: End processing [error-parity] error
+[2023-06-06 13:05:02] INFO root fetch - processPackages [sspqdd]: executing diffoscope
+[2023-06-06 13:05:02] INFO root fetch - processPackages [sspqdd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sspqdd-1.0.8.tar.gz tmp/sspqdd-1.0.9.tar.gz --markdown 20230606/s/sspqdd/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-06-06 13:05:02] INFO root fetch - processPackages [odoo-addon-l10n-es-pos]: New version: [16.0.1.0.0.5] Old Version: [15.0.2.0.1]
+[2023-06-06 13:05:02] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-06 13:05:02] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.93.tar.gz tmp/netbox-cisco-maintenance-0.0.95.tar.gz --markdown 20230606/n/netbox-cisco-maintenance/0.0.93-0.0.95/diff.md --exclude *.pyd
+[2023-06-06 13:05:02] INFO root fetch - processPackages [alibabacloud-ha3engine]: Downloading https://files.pythonhosted.org/packages/84/0e/b3f797eeffd08cf54fd578c4e6d8a9d75a5f61c3161611b44981accddcd1/alibabacloud_ha3engine-1.3.3.tar.gz
+[2023-06-06 13:05:02] INFO root fetch - processPackages [odoo-addon-l10n-es-pos]: Downloading https://files.pythonhosted.org/packages/71/45/c011dc2789691f328fbd3eb2d2c5b603e9267aa457b7d23ffed5a46c5f02/odoo_addon_l10n_es_pos-15.0.2.0.1-py3-none-any.whl
+[2023-06-06 13:05:02] INFO root fetch - processPackages [alibabacloud-ha3engine]: Downloading https://files.pythonhosted.org/packages/be/c8/4892a9fd56cf2a94f7c86a5ed9346a61fa57140d5f863a07090742286298/alibabacloud_ha3engine-1.3.4.tar.gz
+[2023-06-06 13:05:02] INFO root fetch - processPackages [odoo-addon-l10n-es-pos]: Downloading https://files.pythonhosted.org/packages/05/5c/0a417c93a78e0cf40e70e183e8150e4b804f242b9424251c497e05d16725/odoo_addon_l10n_es_pos-16.0.1.0.0.5-py3-none-any.whl
+[2023-06-06 13:05:02] INFO root fetch - processPackages [alibabacloud-ha3engine]: executing diffoscope
+[2023-06-06 13:05:02] INFO root fetch - processPackages [alibabacloud-ha3engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_ha3engine-1.3.3.tar.gz tmp/alibabacloud_ha3engine-1.3.4.tar.gz --markdown 20230606/a/alibabacloud-ha3engine/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-06-06 13:05:02] INFO root fetch - processPackages [odoo-addon-l10n-es-pos]: executing diffoscope
+[2023-06-06 13:05:02] INFO root fetch - processPackages [odoo-addon-l10n-es-pos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_es_pos-15.0.2.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_es_pos-16.0.1.0.0.5-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-l10n-es-pos/15.0.2.0.1-16.0.1.0.0.5/diff.md --exclude *.pyd
+[2023-06-06 13:05:03] INFO root fetch - processPackages [CacheControl]: Remove: archive file [/home/abi/fetcher/tmp/CacheControl-0.9.3.tar.gz]
+[2023-06-06 13:05:03] INFO root fetch - processPackages [CacheControl]: Remove: archive file [/home/abi/fetcher/tmp/CacheControl-0.9.4.tar.gz]
+[2023-06-06 13:05:03] INFO root fetch - processPackages [CacheControl]: Start processing: AstroInstrumentAD
+[2023-06-06 13:05:03] INFO root fetch - main [MainThread]: End processing [CacheControl]: success
+[2023-06-06 13:05:03] INFO root fetch - processPackages [AstroInstrumentAD]: New version: [0.12] Old Version: [0.11]
+[2023-06-06 13:05:03] INFO root fetch - processPackages [AstroInstrumentAD]: Downloading https://files.pythonhosted.org/packages/f6/78/60c0468d1a01d7a361ee6af6bb046953c01b4f8dabde6162cd3e32af62e7/AstroInstrumentAD-0.11.tar.gz
+[2023-06-06 13:05:03] INFO root fetch - processPackages [iac-scan-runner]: Remove: archive file [/home/abi/fetcher/tmp/iac-scan-runner-0.4.0.tar.gz]
+[2023-06-06 13:05:03] INFO root fetch - processPackages [iac-scan-runner]: Remove: archive file [/home/abi/fetcher/tmp/iac-scan-runner-0.4.1.tar.gz]
+[2023-06-06 13:05:03] INFO root fetch - processPackages [iac-scan-runner]: Start processing: hgutilities
+[2023-06-06 13:05:03] INFO root fetch - main [MainThread]: End processing [iac-scan-runner]: success
+[2023-06-06 13:05:03] INFO root fetch - processPackages [hgutilities]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-06 13:05:03] INFO root fetch - processPackages [sspqdd]: Remove: archive file [/home/abi/fetcher/tmp/sspqdd-1.0.8.tar.gz]
+[2023-06-06 13:05:03] INFO root fetch - processPackages [sspqdd]: Remove: archive file [/home/abi/fetcher/tmp/sspqdd-1.0.9.tar.gz]
+[2023-06-06 13:05:03] INFO root fetch - processPackages [sspqdd]: Start processing: modelz-llm
+[2023-06-06 13:05:03] INFO root fetch - main [MainThread]: End processing [sspqdd]: success
+[2023-06-06 13:05:03] INFO root fetch - processPackages [AstroInstrumentAD]: Downloading https://files.pythonhosted.org/packages/92/19/6be97443f929acbddba22b32a38c4831c9c2976ca74f66fe35424bafd4a9/AstroInstrumentAD-0.12.tar.gz
+[2023-06-06 13:05:03] INFO root fetch - processPackages [modelz-llm]: New version: [23.6.9] Old Version: [23.6.8]
+[2023-06-06 13:05:03] INFO root fetch - processPackages [modelz-llm]: Downloading https://files.pythonhosted.org/packages/f0/7f/aacc5708a48b3f480b9400e712426d4d4118d37b8d63d46fd3491c61c067/modelz-llm-23.6.8.tar.gz
+[2023-06-06 13:05:03] INFO root fetch - processPackages [AstroInstrumentAD]: executing diffoscope
+[2023-06-06 13:05:03] INFO root fetch - processPackages [hgutilities]: Downloading https://files.pythonhosted.org/packages/bb/27/39ee1d50903b78d5d8ab9f454e32bcfd597972cfec301502d96c984f9c64/hgutilities-1.0.4.tar.gz
+[2023-06-06 13:05:03] INFO root fetch - processPackages [AstroInstrumentAD]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AstroInstrumentAD-0.11.tar.gz tmp/AstroInstrumentAD-0.12.tar.gz --markdown 20230606/A/AstroInstrumentAD/0.11-0.12/diff.md --exclude *.pyd
+[2023-06-06 13:05:03] INFO root fetch - processPackages [modelz-llm]: Downloading https://files.pythonhosted.org/packages/66/a2/65210af0e41ae8501bc41dcfa062682db900c54c57b983cb51f37368ad01/modelz-llm-23.6.9.tar.gz
+[2023-06-06 13:05:03] INFO root fetch - processPackages [modelz-llm]: executing diffoscope
+[2023-06-06 13:05:03] INFO root fetch - processPackages [modelz-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelz-llm-23.6.8.tar.gz tmp/modelz-llm-23.6.9.tar.gz --markdown 20230606/m/modelz-llm/23.6.8-23.6.9/diff.md --exclude *.pyd
+[2023-06-06 13:05:04] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.93.tar.gz]
+[2023-06-06 13:05:04] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.95.tar.gz]
+[2023-06-06 13:05:04] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-06 13:05:04] INFO root fetch - processPackages [hgutilities]: Downloading https://files.pythonhosted.org/packages/5d/d6/88b9fbbe94f4fb656da3eb93795a32ad0ec8b2e7ccf6f7c4e42fc840e5dc/hgutilities-1.0.5.tar.gz
+[2023-06-06 13:05:04] INFO root fetch - processPackages [alibabacloud-ha3engine]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ha3engine-1.3.3.tar.gz]
+[2023-06-06 13:05:04] INFO root fetch - processPackages [alibabacloud-ha3engine]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_ha3engine-1.3.4.tar.gz]
+[2023-06-06 13:05:04] INFO root fetch - main [MainThread]: End processing [alibabacloud-ha3engine]: success
+[2023-06-06 13:05:04] INFO root fetch - processPackages [anywidget]: Remove: archive file [/home/abi/fetcher/tmp/anywidget-0.4.1.tar.gz]
+[2023-06-06 13:05:04] INFO root fetch - processPackages [anywidget]: Remove: archive file [/home/abi/fetcher/tmp/anywidget-0.4.2.tar.gz]
+[2023-06-06 13:05:04] INFO root fetch - main [MainThread]: End processing [anywidget]: success
+[2023-06-06 13:05:04] INFO root fetch - processPackages [hgutilities]: executing diffoscope
+[2023-06-06 13:05:04] INFO root fetch - processPackages [hgutilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hgutilities-1.0.4.tar.gz tmp/hgutilities-1.0.5.tar.gz --markdown 20230606/h/hgutilities/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-06 13:05:05] INFO root fetch - processPackages [AstroInstrumentAD]: Remove: archive file [/home/abi/fetcher/tmp/AstroInstrumentAD-0.11.tar.gz]
+[2023-06-06 13:05:05] INFO root fetch - processPackages [AstroInstrumentAD]: Remove: archive file [/home/abi/fetcher/tmp/AstroInstrumentAD-0.12.tar.gz]
+[2023-06-06 13:05:05] INFO root fetch - main [MainThread]: End processing [AstroInstrumentAD]: success
+[2023-06-06 13:05:05] INFO root fetch - processPackages [odoo-addon-l10n-es-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_pos-15.0.2.0.1-py3-none-any.whl.zip]
+[2023-06-06 13:05:05] INFO root fetch - processPackages [odoo-addon-l10n-es-pos]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_es_pos-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-06-06 13:05:05] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-es-pos]: success
+[2023-06-06 13:05:05] INFO root fetch - processPackages [modelz-llm]: Remove: archive file [/home/abi/fetcher/tmp/modelz-llm-23.6.8.tar.gz]
+[2023-06-06 13:05:05] INFO root fetch - processPackages [modelz-llm]: Remove: archive file [/home/abi/fetcher/tmp/modelz-llm-23.6.9.tar.gz]
+[2023-06-06 13:05:05] INFO root fetch - main [MainThread]: End processing [modelz-llm]: success
+[2023-06-06 13:05:06] INFO root fetch - processPackages [hgutilities]: Remove: archive file [/home/abi/fetcher/tmp/hgutilities-1.0.4.tar.gz]
+[2023-06-06 13:05:06] INFO root fetch - processPackages [hgutilities]: Remove: archive file [/home/abi/fetcher/tmp/hgutilities-1.0.5.tar.gz]
+[2023-06-06 13:05:06] INFO root fetch - main [MainThread]: End processing [hgutilities]: success
+[2023-06-06 13:05:07] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.98.tar.gz]
+[2023-06-06 13:05:07] INFO root fetch - processPackages [qwak-core]: Remove: archive file [/home/abi/fetcher/tmp/qwak_core-0.0.99.tar.gz]
+[2023-06-06 13:05:07] INFO root fetch - main [MainThread]: End processing [qwak-core]: success
+[2023-06-06 13:05:12] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.7.tar.gz]
+[2023-06-06 13:05:12] INFO root fetch - processPackages [spotPython]: Remove: archive file [/home/abi/fetcher/tmp/spotPython-0.2.9.tar.gz]
+[2023-06-06 13:05:12] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-06-06 13:05:16] INFO root fetch - main [MainThread]: End processing [spotPython]: success
+[2023-06-06 13:05:16] INFO root fetch - main [MainThread]: Store serial: [18390231]
