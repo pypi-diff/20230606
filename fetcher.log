@@ -11421,3 +11421,86 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 05:43:07] INFO root fetch - processPackages [neo-fairy-client]: Remove: archive file [/home/abi/fetcher/tmp/neo-fairy-client-3.4.1.1.tar.gz]
 [2023-06-06 05:43:07] INFO root fetch - main [MainThread]: End processing [neo-fairy-client]: success
 [2023-06-06 05:43:07] INFO root fetch - main [MainThread]: Store serial: [18386310]
+[2023-06-06 05:48:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18386310]
+[2023-06-06 05:48:16] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-06 05:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neon-skill-fallback-unknown
+[2023-06-06 05:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: streamlit-code-editor
+[2023-06-06 05:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lc-checkpoint
+[2023-06-06 05:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo11-addon-l10n-it-vat-registries
+[2023-06-06 05:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo10-addon-l10n-it-central-journal
+[2023-06-06 05:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo11-addon-l10n-it-central-journal
+[2023-06-06 05:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: meow-sim
+[2023-06-06 05:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo14-addon-l10n-it-riba-sale-commission
+[2023-06-06 05:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: graph-notebook
+[2023-06-06 05:48:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: antchain-ak-8146025f0aa2474a88d81f508253e029
+[2023-06-06 05:48:16] INFO root fetch - processPackages [lc-checkpoint]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-06 05:48:16] INFO root fetch - processPackages [streamlit-code-editor]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-06-06 05:48:16] INFO root fetch - processPackages [odoo10-addon-l10n-it-central-journal]: New version: [10.0.1.0.3.99.dev2] Old Version: [10.0.1.0.3.99.dev1]
+[2023-06-06 05:48:16] INFO root fetch - processPackages [odoo11-addon-l10n-it-vat-registries]: New version: [11.0.1.1.0.99.dev5] Old Version: [11.0.1.1.0.99.dev4]
+[2023-06-06 05:48:16] INFO root fetch - processPackages [neon-skill-fallback-unknown]: New version: [0.2.2a1] Old Version: [0.2.1a2]
+[2023-06-06 05:48:16] INFO root fetch - processPackages [odoo11-addon-l10n-it-central-journal]: New version: [11.0.1.1.1.99.dev3] Old Version: [11.0.1.1.1.99.dev2]
+[2023-06-06 05:48:16] INFO root fetch - processPackages [odoo14-addon-l10n-it-riba-sale-commission]: New version: [14.0.1.0.1.dev4] Old Version: [14.0.1.0.1.dev3]
+[2023-06-06 05:48:16] INFO root fetch - processPackages [meow-sim]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-06-06 05:48:16] INFO root fetch - processPackages [graph-notebook]: New version: [3.8.2] Old Version: [3.8.1]
+[2023-06-06 05:48:16] WARNING root fetch - processPackages [antchain-ak-8146025f0aa2474a88d81f508253e029]: Skipping, unable to determine old version
+[2023-06-06 05:48:16] INFO root fetch - main [MainThread]: End processing [antchain-ak-8146025f0aa2474a88d81f508253e029] error
+[2023-06-06 05:48:16] INFO root fetch - processPackages [lc-checkpoint]: Downloading https://files.pythonhosted.org/packages/26/9b/dbe105832d95c7910616641eafa26d6281f19ffff9ba4c4bd3ef4abcd21b/lc-checkpoint-0.1.1.tar.gz
+[2023-06-06 05:48:16] INFO root fetch - processPackages [neon-skill-fallback-unknown]: Downloading https://files.pythonhosted.org/packages/2e/ee/716642bc415be0a74f402a2aaf3826f5f5214d2f5cded3e947bacc0690c9/neon_skill_fallback_unknown-0.2.1a2-py3-none-any.whl
+[2023-06-06 05:48:16] INFO root fetch - processPackages [odoo14-addon-l10n-it-riba-sale-commission]: Downloading https://files.pythonhosted.org/packages/bc/3e/a692c060af15fb8d44c684f215ba8c47a8e29896332c201861f0618a76cc/odoo14_addon_l10n_it_riba_sale_commission-14.0.1.0.1.dev3-py3-none-any.whl
+[2023-06-06 05:48:16] INFO root fetch - processPackages [meow-sim]: Downloading https://files.pythonhosted.org/packages/1f/9d/a2c12e240e73abc8f4c41b86d1a36aaf598258cc16f75f63121115cad474/meow-sim-0.4.1.tar.gz
+[2023-06-06 05:48:16] INFO root fetch - processPackages [streamlit-code-editor]: Downloading https://files.pythonhosted.org/packages/8a/df/0bd2e32c4bfc437ecfaa77bdfa19eaa978fdb2c82a70b3416bba16d55019/streamlit-code-editor-0.1.1.tar.gz
+[2023-06-06 05:48:16] INFO root fetch - processPackages [odoo10-addon-l10n-it-central-journal]: Downloading https://files.pythonhosted.org/packages/a4/f7/02e61f98dbb666305d4c24a92465534e4e7cb07b811136891dd53526452f/odoo10_addon_l10n_it_central_journal-10.0.1.0.3.99.dev1-py2-none-any.whl
+[2023-06-06 05:48:16] INFO root fetch - processPackages [odoo11-addon-l10n-it-vat-registries]: Downloading https://files.pythonhosted.org/packages/c1/cc/d334107ae726ae60eaa0f008c1f7c0b59cc3241331b320822c736a355456/odoo11_addon_l10n_it_vat_registries-11.0.1.1.0.99.dev4-py2.py3-none-any.whl
+[2023-06-06 05:48:16] INFO root fetch - processPackages [graph-notebook]: Downloading https://files.pythonhosted.org/packages/d0/fe/24614412a8fcc7e2185f3f615f30d0c98d60d5033eeb4a89521be683ac11/graph-notebook-3.8.1.tar.gz
+[2023-06-06 05:48:16] INFO root fetch - processPackages [odoo11-addon-l10n-it-central-journal]: Downloading https://files.pythonhosted.org/packages/ed/45/3f86a6be412efeb022bab1654cce9428ba9456b563ac05cf41b1fe97fa91/odoo11_addon_l10n_it_central_journal-11.0.1.1.1.99.dev2-py2.py3-none-any.whl
+[2023-06-06 05:48:16] WARNING root fetch - processPackages [graph-notebook]: Skipping package: exceeds size limit 19407867>=10485760
+[2023-06-06 05:48:16] INFO root fetch - main [MainThread]: End processing [graph-notebook] error
+[2023-06-06 05:48:16] INFO root fetch - processPackages [lc-checkpoint]: Downloading https://files.pythonhosted.org/packages/bb/d3/547d2614e4df10b5a7602c72ac1eefa7d7928b120ebced46f6a9f32ba259/lc-checkpoint-0.1.2.tar.gz
+[2023-06-06 05:48:16] INFO root fetch - processPackages [neon-skill-fallback-unknown]: Downloading https://files.pythonhosted.org/packages/ac/a2/bff195e7fbcc7aeb4e29e0f80a000344e02724277c2c741dac612c1a7a8c/neon_skill_fallback_unknown-0.2.2a1-py3-none-any.whl
+[2023-06-06 05:48:16] INFO root fetch - processPackages [meow-sim]: Downloading https://files.pythonhosted.org/packages/e3/d3/9250c0c69df5e7b7ddef2cc74eb267167e9c20d33426e3aa24eb1e51fb7f/meow-sim-0.4.2.tar.gz
+[2023-06-06 05:48:16] INFO root fetch - processPackages [lc-checkpoint]: executing diffoscope
+[2023-06-06 05:48:16] INFO root fetch - processPackages [lc-checkpoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lc-checkpoint-0.1.1.tar.gz tmp/lc-checkpoint-0.1.2.tar.gz --markdown 20230606/l/lc-checkpoint/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-06 05:48:16] INFO root fetch - processPackages [odoo14-addon-l10n-it-riba-sale-commission]: Downloading https://files.pythonhosted.org/packages/7e/cd/153f84ce552ee5af5bf3b231304004644ecb8b03f030fb036f3350f4b00c/odoo14_addon_l10n_it_riba_sale_commission-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-06-06 05:48:16] INFO root fetch - processPackages [meow-sim]: executing diffoscope
+[2023-06-06 05:48:16] INFO root fetch - processPackages [meow-sim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meow-sim-0.4.1.tar.gz tmp/meow-sim-0.4.2.tar.gz --markdown 20230606/m/meow-sim/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-06-06 05:48:17] INFO root fetch - processPackages [odoo10-addon-l10n-it-central-journal]: Downloading https://files.pythonhosted.org/packages/30/41/6892e70067056701055e867a8b1764c776d4287daa55a3893baf481d1f61/odoo10_addon_l10n_it_central_journal-10.0.1.0.3.99.dev2-py2-none-any.whl
+[2023-06-06 05:48:17] INFO root fetch - processPackages [odoo11-addon-l10n-it-central-journal]: Downloading https://files.pythonhosted.org/packages/f4/9c/ac4d823ea8b90c2f90c811b120a69e326637158c0d5cc9e51babe5194c50/odoo11_addon_l10n_it_central_journal-11.0.1.1.1.99.dev3-py2.py3-none-any.whl
+[2023-06-06 05:48:17] INFO root fetch - processPackages [neon-skill-fallback-unknown]: executing diffoscope
+[2023-06-06 05:48:17] INFO root fetch - processPackages [neon-skill-fallback-unknown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_fallback_unknown-0.2.1a2-py3-none-any.whl.zip tmp/neon_skill_fallback_unknown-0.2.2a1-py3-none-any.whl.zip --markdown 20230606/n/neon-skill-fallback-unknown/0.2.1a2-0.2.2a1/diff.md --exclude *.pyd
+[2023-06-06 05:48:17] INFO root fetch - processPackages [odoo14-addon-l10n-it-riba-sale-commission]: executing diffoscope
+[2023-06-06 05:48:17] INFO root fetch - processPackages [odoo14-addon-l10n-it-riba-sale-commission]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_it_riba_sale_commission-14.0.1.0.1.dev3-py3-none-any.whl.zip tmp/odoo14_addon_l10n_it_riba_sale_commission-14.0.1.0.1.dev4-py3-none-any.whl.zip --markdown 20230606/o/odoo14-addon-l10n-it-riba-sale-commission/14.0.1.0.1.dev3-14.0.1.0.1.dev4/diff.md --exclude *.pyd
+[2023-06-06 05:48:17] INFO root fetch - processPackages [odoo11-addon-l10n-it-vat-registries]: Downloading https://files.pythonhosted.org/packages/62/9a/c6802a35d6309416cb74f5b62c73b23d4c47e1e8d27acfc79d724ec224d5/odoo11_addon_l10n_it_vat_registries-11.0.1.1.0.99.dev5-py2.py3-none-any.whl
+[2023-06-06 05:48:17] INFO root fetch - processPackages [odoo10-addon-l10n-it-central-journal]: executing diffoscope
+[2023-06-06 05:48:17] INFO root fetch - processPackages [odoo10-addon-l10n-it-central-journal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo10_addon_l10n_it_central_journal-10.0.1.0.3.99.dev1-py2-none-any.whl.zip tmp/odoo10_addon_l10n_it_central_journal-10.0.1.0.3.99.dev2-py2-none-any.whl.zip --markdown 20230606/o/odoo10-addon-l10n-it-central-journal/10.0.1.0.3.99.dev1-10.0.1.0.3.99.dev2/diff.md --exclude *.pyd
+[2023-06-06 05:48:17] INFO root fetch - processPackages [odoo11-addon-l10n-it-vat-registries]: executing diffoscope
+[2023-06-06 05:48:17] INFO root fetch - processPackages [odoo11-addon-l10n-it-vat-registries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_l10n_it_vat_registries-11.0.1.1.0.99.dev4-py2.py3-none-any.whl.zip tmp/odoo11_addon_l10n_it_vat_registries-11.0.1.1.0.99.dev5-py2.py3-none-any.whl.zip --markdown 20230606/o/odoo11-addon-l10n-it-vat-registries/11.0.1.1.0.99.dev4-11.0.1.1.0.99.dev5/diff.md --exclude *.pyd
+[2023-06-06 05:48:17] INFO root fetch - processPackages [streamlit-code-editor]: Downloading https://files.pythonhosted.org/packages/4c/7f/6647372bcada3784a67c9b5e5728f156bd5c199fb4dfc04f4952644bb062/streamlit-code-editor-0.1.2.tar.gz
+[2023-06-06 05:48:17] INFO root fetch - processPackages [odoo11-addon-l10n-it-central-journal]: executing diffoscope
+[2023-06-06 05:48:17] INFO root fetch - processPackages [odoo11-addon-l10n-it-central-journal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_l10n_it_central_journal-11.0.1.1.1.99.dev2-py2.py3-none-any.whl.zip tmp/odoo11_addon_l10n_it_central_journal-11.0.1.1.1.99.dev3-py2.py3-none-any.whl.zip --markdown 20230606/o/odoo11-addon-l10n-it-central-journal/11.0.1.1.1.99.dev2-11.0.1.1.1.99.dev3/diff.md --exclude *.pyd
+[2023-06-06 05:48:18] INFO root fetch - processPackages [streamlit-code-editor]: executing diffoscope
+[2023-06-06 05:48:18] INFO root fetch - processPackages [streamlit-code-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-code-editor-0.1.1.tar.gz tmp/streamlit-code-editor-0.1.2.tar.gz --markdown 20230606/s/streamlit-code-editor/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-06-06 05:48:18] INFO root fetch - processPackages [lc-checkpoint]: Remove: archive file [/home/abi/fetcher/tmp/lc-checkpoint-0.1.1.tar.gz]
+[2023-06-06 05:48:18] INFO root fetch - processPackages [lc-checkpoint]: Remove: archive file [/home/abi/fetcher/tmp/lc-checkpoint-0.1.2.tar.gz]
+[2023-06-06 05:48:18] INFO root fetch - main [MainThread]: End processing [lc-checkpoint]: success
+[2023-06-06 05:48:18] INFO root fetch - processPackages [meow-sim]: Remove: archive file [/home/abi/fetcher/tmp/meow-sim-0.4.1.tar.gz]
+[2023-06-06 05:48:18] INFO root fetch - processPackages [meow-sim]: Remove: archive file [/home/abi/fetcher/tmp/meow-sim-0.4.2.tar.gz]
+[2023-06-06 05:48:18] INFO root fetch - main [MainThread]: End processing [meow-sim]: success
+[2023-06-06 05:48:18] INFO root fetch - processPackages [odoo14-addon-l10n-it-riba-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_riba_sale_commission-14.0.1.0.1.dev3-py3-none-any.whl.zip]
+[2023-06-06 05:48:18] INFO root fetch - processPackages [odoo14-addon-l10n-it-riba-sale-commission]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_it_riba_sale_commission-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2023-06-06 05:48:18] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-it-riba-sale-commission]: success
+[2023-06-06 05:48:18] INFO root fetch - processPackages [odoo10-addon-l10n-it-central-journal]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_l10n_it_central_journal-10.0.1.0.3.99.dev1-py2-none-any.whl.zip]
+[2023-06-06 05:48:18] INFO root fetch - processPackages [odoo10-addon-l10n-it-central-journal]: Remove: archive file [/home/abi/fetcher/tmp/odoo10_addon_l10n_it_central_journal-10.0.1.0.3.99.dev2-py2-none-any.whl.zip]
+[2023-06-06 05:48:18] INFO root fetch - main [MainThread]: End processing [odoo10-addon-l10n-it-central-journal]: success
+[2023-06-06 05:48:19] INFO root fetch - processPackages [odoo11-addon-l10n-it-vat-registries]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_l10n_it_vat_registries-11.0.1.1.0.99.dev4-py2.py3-none-any.whl.zip]
+[2023-06-06 05:48:19] INFO root fetch - processPackages [odoo11-addon-l10n-it-vat-registries]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_l10n_it_vat_registries-11.0.1.1.0.99.dev5-py2.py3-none-any.whl.zip]
+[2023-06-06 05:48:19] INFO root fetch - main [MainThread]: End processing [odoo11-addon-l10n-it-vat-registries]: success
+[2023-06-06 05:48:19] INFO root fetch - processPackages [neon-skill-fallback-unknown]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_fallback_unknown-0.2.1a2-py3-none-any.whl.zip]
+[2023-06-06 05:48:19] INFO root fetch - processPackages [neon-skill-fallback-unknown]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_fallback_unknown-0.2.2a1-py3-none-any.whl.zip]
+[2023-06-06 05:48:19] INFO root fetch - main [MainThread]: End processing [neon-skill-fallback-unknown]: success
+[2023-06-06 05:48:19] INFO root fetch - processPackages [odoo11-addon-l10n-it-central-journal]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_l10n_it_central_journal-11.0.1.1.1.99.dev2-py2.py3-none-any.whl.zip]
+[2023-06-06 05:48:19] INFO root fetch - processPackages [odoo11-addon-l10n-it-central-journal]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_l10n_it_central_journal-11.0.1.1.1.99.dev3-py2.py3-none-any.whl.zip]
+[2023-06-06 05:48:19] INFO root fetch - main [MainThread]: End processing [odoo11-addon-l10n-it-central-journal]: success
+[2023-06-06 05:48:24] INFO root fetch - processPackages [streamlit-code-editor]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-code-editor-0.1.1.tar.gz]
+[2023-06-06 05:48:24] INFO root fetch - processPackages [streamlit-code-editor]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-code-editor-0.1.2.tar.gz]
+[2023-06-06 05:48:24] INFO root fetch - main [MainThread]: End processing [streamlit-code-editor]: success
+[2023-06-06 05:48:24] INFO root fetch - main [MainThread]: Store serial: [18386342]
