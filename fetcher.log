@@ -14807,3 +14807,89 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 09:07:11] INFO root fetch - processPackages [pyasd]: Remove: archive file [/home/abi/fetcher/tmp/pyasd-0.0.9.tar.gz]
 [2023-06-06 09:07:11] INFO root fetch - main [MainThread]: End processing [pyasd]: success
 [2023-06-06 09:07:11] INFO root fetch - main [MainThread]: Store serial: [18387763]
+[2023-06-06 09:12:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18387763]
+[2023-06-06 09:12:20] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-06-06 09:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: FindJobsTW
+[2023-06-06 09:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-hub-nightly
+[2023-06-06 09:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hexlet-code-frisson-fri
+[2023-06-06 09:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: CTkToolTip
+[2023-06-06 09:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: zepben.examples
+[2023-06-06 09:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: docrobot
+[2023-06-06 09:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: streamlit-nightly
+[2023-06-06 09:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: dissect.target
+[2023-06-06 09:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: openqr
+[2023-06-06 09:12:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: metarace
+[2023-06-06 09:12:20] INFO root fetch - processPackages [zepben.examples]: New version: [0.2.0b8] Old Version: [0.2.0b7]
+[2023-06-06 09:12:20] WARNING root fetch - processPackages [hexlet-code-frisson-fri]: Skipping, unable to determine old version
+[2023-06-06 09:12:20] INFO root fetch - processPackages [hexlet-code-frisson-fri]: Start processing: nucliadb-contributor-assets
+[2023-06-06 09:12:20] INFO root fetch - main [MainThread]: End processing [hexlet-code-frisson-fri] error
+[2023-06-06 09:12:20] WARNING root fetch - processPackages [CTkToolTip]: Skipping, unable to determine old version
+[2023-06-06 09:12:20] INFO root fetch - main [MainThread]: End processing [CTkToolTip] error
+[2023-06-06 09:12:21] INFO root fetch - processPackages [FindJobsTW]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-06-06 09:12:21] INFO root fetch - processPackages [openqr]: New version: [0.1.0] Old Version: [0.0.2]
+[2023-06-06 09:12:21] INFO root fetch - processPackages [metarace]: New version: [2.1.0] Old Version: [2.0.3]
+[2023-06-06 09:12:21] INFO root fetch - processPackages [docrobot]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-06-06 09:12:21] INFO root fetch - processPackages [nucliadb-contributor-assets]: New version: [1.0.0.post817] Old Version: [1.0.0.post814]
+[2023-06-06 09:12:21] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-06-06 09:12:21] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-06-06 09:12:21] INFO root fetch - processPackages [openqr]: Downloading https://files.pythonhosted.org/packages/73/3b/e462b5f9ab9fa231edf59d235aff8f11a88076091733a097461d107ffad4/openqr-0.0.2.tar.gz
+[2023-06-06 09:12:21] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-06-06 09:12:21] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/d5/95/2aaddd15d051b51b2b2e9354ec8a97bd2d0e86fbcf224aed18dd325296ef/nucliadb_contributor_assets-1.0.0.post814-py3-none-any.whl
+[2023-06-06 09:12:21] INFO root fetch - processPackages [zepben.examples]: Downloading https://files.pythonhosted.org/packages/72/d2/9b78651afb1db00b91b95a325ecd956b06701d3bc26981803c8aa319accd/zepben.examples-0.2.0b7-py3-none-any.whl
+[2023-06-06 09:12:21] INFO root fetch - processPackages [metarace]: Downloading https://files.pythonhosted.org/packages/fb/ad/c78d2794eeafe7250f0bfbe09731519e06656754699c8bfd1789ebded043/metarace-2.0.3.tar.gz
+[2023-06-06 09:12:21] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-06-06 09:12:21] INFO root fetch - processPackages [FindJobsTW]: Downloading https://files.pythonhosted.org/packages/4f/08/ba671135f3154e14fc8039a2500a3e1f106cc873b95e6001bb0362fcbc23/FindJobsTW-0.2.2.tar.gz
+[2023-06-06 09:12:21] INFO root fetch - processPackages [docrobot]: Downloading https://files.pythonhosted.org/packages/f1/68/3aaa025635842d0d8628501fb8f04b1cf28462089ccf7f5658249ae76b7c/docrobot-1.0.4.tar.gz
+[2023-06-06 09:12:21] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-06-06 09:12:21] INFO root fetch - processPackages [nucliadb-contributor-assets]: Downloading https://files.pythonhosted.org/packages/28/79/afb146227afc0f490cb335de7c17189a79e8bedaa39903ba8cdc5e7e37b8/nucliadb_contributor_assets-1.0.0.post817-py3-none-any.whl
+[2023-06-06 09:12:21] INFO root fetch - processPackages [openqr]: Downloading https://files.pythonhosted.org/packages/53/d7/cebc14bce115a79a617b7b2254b1232515713fa5ecaba7603a636b64b7d6/openqr-0.1.0.tar.gz
+[2023-06-06 09:12:21] INFO root fetch - processPackages [nucliadb-contributor-assets]: executing diffoscope
+[2023-06-06 09:12:21] INFO root fetch - processPackages [nucliadb-contributor-assets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nucliadb_contributor_assets-1.0.0.post814-py3-none-any.whl.zip tmp/nucliadb_contributor_assets-1.0.0.post817-py3-none-any.whl.zip --markdown 20230606/n/nucliadb-contributor-assets/1.0.0.post814-1.0.0.post817/diff.md --exclude *.pyd
+[2023-06-06 09:12:21] INFO root fetch - processPackages [zepben.examples]: Downloading https://files.pythonhosted.org/packages/d0/3c/49d56501ba511a9c98fe88a22ef9a01d8f27267bda4ba2576e363b77ca73/zepben.examples-0.2.0b8-py3-none-any.whl
+[2023-06-06 09:12:21] INFO root fetch - processPackages [metarace]: Downloading https://files.pythonhosted.org/packages/8a/68/8434b4b059948119b2026c3f4ec0e583f9a92700b4d71f0e2d5acd2a953d/metarace-2.1.0.tar.gz
+[2023-06-06 09:12:21] INFO root fetch - processPackages [openqr]: executing diffoscope
+[2023-06-06 09:12:21] INFO root fetch - processPackages [openqr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openqr-0.0.2.tar.gz tmp/openqr-0.1.0.tar.gz --markdown 20230606/o/openqr/0.0.2-0.1.0/diff.md --exclude *.pyd
+[2023-06-06 09:12:21] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-06-06 09:12:21] INFO root fetch - processPackages [FindJobsTW]: Downloading https://files.pythonhosted.org/packages/2c/c9/aaaf4ae2de5da6e58a6c78941ea5f66efa8c00c24f106ff1b122a31d483d/FindJobsTW-0.2.3.tar.gz
+[2023-06-06 09:12:21] INFO root fetch - processPackages [docrobot]: Downloading https://files.pythonhosted.org/packages/c6/2c/73cb84f2c193fa110ca5103b2ebac8637f6e14b14594e7482731b341370b/docrobot-1.0.5.tar.gz
+[2023-06-06 09:12:21] INFO root fetch - processPackages [FindJobsTW]: executing diffoscope
+[2023-06-06 09:12:21] INFO root fetch - processPackages [FindJobsTW]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/FindJobsTW-0.2.2.tar.gz tmp/FindJobsTW-0.2.3.tar.gz --markdown 20230606/F/FindJobsTW/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-06-06 09:12:21] INFO root fetch - processPackages [zepben.examples]: executing diffoscope
+[2023-06-06 09:12:21] INFO root fetch - processPackages [zepben.examples]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zepben.examples-0.2.0b7-py3-none-any.whl.zip tmp/zepben.examples-0.2.0b8-py3-none-any.whl.zip --markdown 20230606/z/zepben.examples/0.2.0b7-0.2.0b8/diff.md --exclude *.pyd
+[2023-06-06 09:12:21] INFO root fetch - processPackages [docrobot]: executing diffoscope
+[2023-06-06 09:12:21] INFO root fetch - processPackages [docrobot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docrobot-1.0.4.tar.gz tmp/docrobot-1.0.5.tar.gz --markdown 20230606/d/docrobot/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-06-06 09:12:21] INFO root fetch - processPackages [metarace]: executing diffoscope
+[2023-06-06 09:12:21] INFO root fetch - processPackages [metarace]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metarace-2.0.3.tar.gz tmp/metarace-2.1.0.tar.gz --markdown 20230606/m/metarace/2.0.3-2.1.0/diff.md --exclude *.pyd
+[2023-06-06 09:12:21] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-06-06 09:12:21] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-06-06 09:12:21] ERROR root fetch - processPackages [zepben.examples]: Diffoscope failed: Error: error creating container storage: the container name "peaceful_wu" is already in use by "c13960dfccea54c1e6e1e237f5948e659cf4aa03eded5e644d6062e6a4954021". You have to remove that container to be able to reuse that name.: that name is already in use
+
+[2023-06-06 09:12:21] INFO root fetch - main [MainThread]: End processing [zepben.examples] error
+[2023-06-06 09:12:21] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-06-06 09:12:22] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-06-06 09:12:22] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230606/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-06-06 09:12:22] INFO root fetch - processPackages [openqr]: Remove: archive file [/home/abi/fetcher/tmp/openqr-0.0.2.tar.gz]
+[2023-06-06 09:12:22] INFO root fetch - processPackages [openqr]: Remove: archive file [/home/abi/fetcher/tmp/openqr-0.1.0.tar.gz]
+[2023-06-06 09:12:22] INFO root fetch - main [MainThread]: End processing [openqr]: success
+[2023-06-06 09:12:22] INFO root fetch - processPackages [docrobot]: Remove: archive file [/home/abi/fetcher/tmp/docrobot-1.0.4.tar.gz]
+[2023-06-06 09:12:22] INFO root fetch - processPackages [docrobot]: Remove: archive file [/home/abi/fetcher/tmp/docrobot-1.0.5.tar.gz]
+[2023-06-06 09:12:22] INFO root fetch - main [MainThread]: End processing [docrobot]: success
+[2023-06-06 09:12:22] INFO root fetch - processPackages [FindJobsTW]: Remove: archive file [/home/abi/fetcher/tmp/FindJobsTW-0.2.2.tar.gz]
+[2023-06-06 09:12:22] INFO root fetch - processPackages [FindJobsTW]: Remove: archive file [/home/abi/fetcher/tmp/FindJobsTW-0.2.3.tar.gz]
+[2023-06-06 09:12:22] INFO root fetch - main [MainThread]: End processing [FindJobsTW]: success
+[2023-06-06 09:12:23] INFO root fetch - processPackages [metarace]: Remove: archive file [/home/abi/fetcher/tmp/metarace-2.0.3.tar.gz]
+[2023-06-06 09:12:23] INFO root fetch - processPackages [metarace]: Remove: archive file [/home/abi/fetcher/tmp/metarace-2.1.0.tar.gz]
+[2023-06-06 09:12:23] INFO root fetch - main [MainThread]: End processing [metarace]: success
+[2023-06-06 09:12:23] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-06-06 09:12:23] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-06-06 09:12:23] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-06-06 09:12:24] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-06-06 09:12:27] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-06-06 09:12:27] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230606/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-06-06 09:12:34] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post814-py3-none-any.whl.zip]
+[2023-06-06 09:12:34] INFO root fetch - processPackages [nucliadb-contributor-assets]: Remove: archive file [/home/abi/fetcher/tmp/nucliadb_contributor_assets-1.0.0.post817-py3-none-any.whl.zip]
+[2023-06-06 09:12:34] INFO root fetch - main [MainThread]: End processing [nucliadb-contributor-assets]: success
+[2023-06-06 09:12:37] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-06-06 09:12:37] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-06-06 09:12:37] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-06-06 09:12:37] INFO root fetch - main [MainThread]: Store serial: [18387798]
