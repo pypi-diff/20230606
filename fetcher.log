@@ -13192,3 +13192,90 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 07:45:24] INFO root fetch - processPackages [odoo14-addon-shopfloor]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_shopfloor-14.0.2.9.3.dev1-py3-none-any.whl.zip]
 [2023-06-06 07:45:24] INFO root fetch - main [MainThread]: End processing [odoo14-addon-shopfloor]: success
 [2023-06-06 07:45:24] INFO root fetch - main [MainThread]: Store serial: [18387039]
+[2023-06-06 07:50:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18387039]
+[2023-06-06 07:50:33] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-06-06 07:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: jijmodeling
+[2023-06-06 07:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: viser
+[2023-06-06 07:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: np-session
+[2023-06-06 07:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Trello-Wrapper
+[2023-06-06 07:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: plutous-trade-crypto
+[2023-06-06 07:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: zhousf-lib
+[2023-06-06 07:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: validar-modelos
+[2023-06-06 07:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: django-adminlte-ui
+[2023-06-06 07:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bagbag
+[2023-06-06 07:50:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: latinex-sdk
+[2023-06-06 07:50:33] INFO root fetch - processPackages [validar-modelos]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-06-06 07:50:33] INFO root fetch - processPackages [zhousf-lib]: New version: [0.3] Old Version: [0.1]
+[2023-06-06 07:50:33] INFO root fetch - processPackages [viser]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 07:50:33] ERROR root fetch - processPackages [latinex-sdk]: Unable to get metadata: No such project 'latinex-sdk'
+[2023-06-06 07:50:33] INFO root fetch - processPackages [plutous-trade-crypto]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 07:50:33] INFO root fetch - main [MainThread]: End processing [latinex-sdk] error
+[2023-06-06 07:50:33] INFO root fetch - processPackages [django-adminlte-ui]: New version: [2.0.0] Old Version: [1.7.2]
+[2023-06-06 07:50:33] INFO root fetch - processPackages [Trello-Wrapper]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-06 07:50:33] INFO root fetch - processPackages [np-session]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-06-06 07:50:33] INFO root fetch - processPackages [bagbag]: New version: [0.59.8] Old Version: [0.59.7]
+[2023-06-06 07:50:33] INFO root fetch - processPackages [validar-modelos]: Downloading https://files.pythonhosted.org/packages/6c/45/9aa03a573eb575ed34d0202553d7379664d52b1c51cf4ba858abdd2ae5fe/validar_modelos-0.0.6.tar.gz
+[2023-06-06 07:50:33] INFO root fetch - processPackages [viser]: Downloading https://files.pythonhosted.org/packages/6e/fe/c353160b1cadb91f2eb1f35a3c0e853765a09f0b07a38f84fb158ed4da6c/viser-0.0.8.tar.gz
+[2023-06-06 07:50:33] INFO root fetch - processPackages [jijmodeling]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-06-06 07:50:33] INFO root fetch - processPackages [Trello-Wrapper]: Downloading https://files.pythonhosted.org/packages/01/ba/60bbc6c5827cb29c5ef6c4fc3999f15fd5cc5670d22ab95b7947aab56879/Trello-Wrapper-0.0.3.tar.gz
+[2023-06-06 07:50:33] INFO root fetch - processPackages [np-session]: Downloading https://files.pythonhosted.org/packages/43/68/330d5cce9aff32fc503db123c3b4ae709157b5476cceef2063e44664e645/np-session-0.6.8.tar.gz
+[2023-06-06 07:50:33] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/c7/1c/bbf70cbe8f2b4581b2fcda9992ca1658c707698c871f28bda74f8b0bde49/zhousf_lib-0.1.tar.gz
+[2023-06-06 07:50:33] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/e3/db/d32a1544d7f944ad8af411383551ea4aa42adfdd0f238ff44a5a3edaa00e/plutous_trade_crypto-0.0.8.tar.gz
+[2023-06-06 07:50:33] INFO root fetch - processPackages [django-adminlte-ui]: Downloading https://files.pythonhosted.org/packages/e2/21/36624cf02c0f2742c489bdca190bd257be2ae0d531c44e1afd530fa9233b/django-adminlte-ui-1.7.2.tar.gz
+[2023-06-06 07:50:33] INFO root fetch - processPackages [np-session]: Downloading https://files.pythonhosted.org/packages/04/e1/a1de4b97de93b5b4309f7132b40b9235c59bd1856514346fa16e52dacf0a/np-session-0.6.9.tar.gz
+[2023-06-06 07:50:33] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/f2/fa/cd89fdd21bf60aab1d94c3f265d1822cc63243fbd93cb7e2bf9857ce686d/bagbag-0.59.7.tar.gz
+[2023-06-06 07:50:33] INFO root fetch - processPackages [validar-modelos]: Downloading https://files.pythonhosted.org/packages/dc/cf/2d7c44d449ec97684bbd57d9861866f824786d54bd6bc71d4fa124d06508/validar_modelos-0.0.7.tar.gz
+[2023-06-06 07:50:33] INFO root fetch - processPackages [Trello-Wrapper]: Downloading https://files.pythonhosted.org/packages/01/6e/172dda3b6730e5fe9a4e92ee8e7bc3ccbe86504d01ebd1c47f2c1325043a/Trello-Wrapper-0.0.4.tar.gz
+[2023-06-06 07:50:33] INFO root fetch - processPackages [jijmodeling]: Downloading https://files.pythonhosted.org/packages/49/fc/537e863c69af7f86de4ae2f7cb3b9df507938ba8fcbd0fe6c683b76b6e75/jijmodeling-0.9.8-cp39-cp39-win_amd64.whl
+[2023-06-06 07:50:34] INFO root fetch - processPackages [np-session]: executing diffoscope
+[2023-06-06 07:50:34] INFO root fetch - processPackages [np-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/np-session-0.6.8.tar.gz tmp/np-session-0.6.9.tar.gz --markdown 20230606/n/np-session/0.6.8-0.6.9/diff.md --exclude *.pyd
+[2023-06-06 07:50:34] INFO root fetch - processPackages [zhousf-lib]: Downloading https://files.pythonhosted.org/packages/1d/85/9e81eeddf4dc8a4dec15110fddf7737873f56737f701ed153f7912d87188/zhousf-lib-0.3.tar.gz
+[2023-06-06 07:50:34] INFO root fetch - processPackages [viser]: Downloading https://files.pythonhosted.org/packages/cb/f5/f013f503f5b339d78ad453be61c50acb5961c960d8c771453d6f3817f03c/viser-0.0.9.tar.gz
+[2023-06-06 07:50:34] INFO root fetch - processPackages [validar-modelos]: executing diffoscope
+[2023-06-06 07:50:34] INFO root fetch - processPackages [validar-modelos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/validar_modelos-0.0.6.tar.gz tmp/validar_modelos-0.0.7.tar.gz --markdown 20230606/v/validar-modelos/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-06-06 07:50:34] INFO root fetch - processPackages [Trello-Wrapper]: executing diffoscope
+[2023-06-06 07:50:34] INFO root fetch - processPackages [Trello-Wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Trello-Wrapper-0.0.3.tar.gz tmp/Trello-Wrapper-0.0.4.tar.gz --markdown 20230606/T/Trello-Wrapper/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-06 07:50:34] INFO root fetch - processPackages [zhousf-lib]: executing diffoscope
+[2023-06-06 07:50:34] INFO root fetch - processPackages [zhousf-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zhousf_lib-0.1.tar.gz tmp/zhousf-lib-0.3.tar.gz --markdown 20230606/z/zhousf-lib/0.1-0.3/diff.md --exclude *.pyd
+[2023-06-06 07:50:34] INFO root fetch - processPackages [django-adminlte-ui]: Downloading https://files.pythonhosted.org/packages/89/f3/68b1540d8bf8f1a211188480b8e09eb53ad801f36b44da3826f8b27a670e/django-adminlte-ui-2.0.0.tar.gz
+[2023-06-06 07:50:34] INFO root fetch - processPackages [viser]: executing diffoscope
+[2023-06-06 07:50:34] INFO root fetch - processPackages [viser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/viser-0.0.8.tar.gz tmp/viser-0.0.9.tar.gz --markdown 20230606/v/viser/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 07:50:34] INFO root fetch - processPackages [plutous-trade-crypto]: Downloading https://files.pythonhosted.org/packages/b4/a4/200ca398a36203e8bd51a034e50c51963506316cbf5e7a47866700accaee/plutous_trade_crypto-0.0.9.tar.gz
+[2023-06-06 07:50:34] INFO root fetch - processPackages [bagbag]: Downloading https://files.pythonhosted.org/packages/28/de/70b70b16bf233f9cff93f1225089ad13609bb49101785bfcd03ea372f37f/bagbag-0.59.8.tar.gz
+[2023-06-06 07:50:34] INFO root fetch - processPackages [plutous-trade-crypto]: executing diffoscope
+[2023-06-06 07:50:34] INFO root fetch - processPackages [plutous-trade-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous_trade_crypto-0.0.8.tar.gz tmp/plutous_trade_crypto-0.0.9.tar.gz --markdown 20230606/p/plutous-trade-crypto/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 07:50:34] INFO root fetch - processPackages [bagbag]: executing diffoscope
+[2023-06-06 07:50:34] INFO root fetch - processPackages [bagbag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bagbag-0.59.7.tar.gz tmp/bagbag-0.59.8.tar.gz --markdown 20230606/b/bagbag/0.59.7-0.59.8/diff.md --exclude *.pyd
+[2023-06-06 07:50:34] INFO root fetch - processPackages [jijmodeling]: Downloading https://files.pythonhosted.org/packages/89/d0/6cb71561aecdb852259cf24ad501a533d6d8ff22ba4e5836ab18377e567f/jijmodeling-0.9.9-cp39-cp39-win_amd64.whl
+[2023-06-06 07:50:34] INFO root fetch - processPackages [jijmodeling]: executing diffoscope
+[2023-06-06 07:50:34] INFO root fetch - processPackages [jijmodeling]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jijmodeling-0.9.8-cp39-cp39-win_amd64.whl.zip tmp/jijmodeling-0.9.9-cp39-cp39-win_amd64.whl.zip --markdown 20230606/j/jijmodeling/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-06-06 07:50:34] INFO root fetch - processPackages [django-adminlte-ui]: executing diffoscope
+[2023-06-06 07:50:34] INFO root fetch - processPackages [django-adminlte-ui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-adminlte-ui-1.7.2.tar.gz tmp/django-adminlte-ui-2.0.0.tar.gz --markdown 20230606/d/django-adminlte-ui/1.7.2-2.0.0/diff.md --exclude *.pyd
+[2023-06-06 07:50:35] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf_lib-0.1.tar.gz]
+[2023-06-06 07:50:35] INFO root fetch - processPackages [zhousf-lib]: Remove: archive file [/home/abi/fetcher/tmp/zhousf-lib-0.3.tar.gz]
+[2023-06-06 07:50:35] INFO root fetch - main [MainThread]: End processing [zhousf-lib]: success
+[2023-06-06 07:50:35] INFO root fetch - processPackages [validar-modelos]: Remove: archive file [/home/abi/fetcher/tmp/validar_modelos-0.0.6.tar.gz]
+[2023-06-06 07:50:35] INFO root fetch - processPackages [validar-modelos]: Remove: archive file [/home/abi/fetcher/tmp/validar_modelos-0.0.7.tar.gz]
+[2023-06-06 07:50:35] INFO root fetch - main [MainThread]: End processing [validar-modelos]: success
+[2023-06-06 07:50:35] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.8.tar.gz]
+[2023-06-06 07:50:35] INFO root fetch - processPackages [plutous-trade-crypto]: Remove: archive file [/home/abi/fetcher/tmp/plutous_trade_crypto-0.0.9.tar.gz]
+[2023-06-06 07:50:35] INFO root fetch - main [MainThread]: End processing [plutous-trade-crypto]: success
+[2023-06-06 07:50:36] INFO root fetch - processPackages [Trello-Wrapper]: Remove: archive file [/home/abi/fetcher/tmp/Trello-Wrapper-0.0.3.tar.gz]
+[2023-06-06 07:50:36] INFO root fetch - processPackages [Trello-Wrapper]: Remove: archive file [/home/abi/fetcher/tmp/Trello-Wrapper-0.0.4.tar.gz]
+[2023-06-06 07:50:36] INFO root fetch - main [MainThread]: End processing [Trello-Wrapper]: success
+[2023-06-06 07:50:36] INFO root fetch - processPackages [np-session]: Remove: archive file [/home/abi/fetcher/tmp/np-session-0.6.8.tar.gz]
+[2023-06-06 07:50:36] INFO root fetch - processPackages [np-session]: Remove: archive file [/home/abi/fetcher/tmp/np-session-0.6.9.tar.gz]
+[2023-06-06 07:50:36] INFO root fetch - main [MainThread]: End processing [np-session]: success
+[2023-06-06 07:50:37] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.59.7.tar.gz]
+[2023-06-06 07:50:37] INFO root fetch - processPackages [bagbag]: Remove: archive file [/home/abi/fetcher/tmp/bagbag-0.59.8.tar.gz]
+[2023-06-06 07:50:37] INFO root fetch - main [MainThread]: End processing [bagbag]: success
+[2023-06-06 07:50:40] INFO root fetch - processPackages [django-adminlte-ui]: Remove: archive file [/home/abi/fetcher/tmp/django-adminlte-ui-1.7.2.tar.gz]
+[2023-06-06 07:50:40] INFO root fetch - processPackages [django-adminlte-ui]: Remove: archive file [/home/abi/fetcher/tmp/django-adminlte-ui-2.0.0.tar.gz]
+[2023-06-06 07:50:40] INFO root fetch - main [MainThread]: End processing [django-adminlte-ui]: success
+[2023-06-06 07:50:41] INFO root fetch - processPackages [jijmodeling]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling-0.9.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-06 07:50:41] INFO root fetch - processPackages [jijmodeling]: Remove: archive file [/home/abi/fetcher/tmp/jijmodeling-0.9.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-06 07:50:41] INFO root fetch - main [MainThread]: End processing [jijmodeling]: success
+[2023-06-06 07:52:49] INFO root fetch - processPackages [viser]: Remove: archive file [/home/abi/fetcher/tmp/viser-0.0.8.tar.gz]
+[2023-06-06 07:52:49] INFO root fetch - processPackages [viser]: Remove: archive file [/home/abi/fetcher/tmp/viser-0.0.9.tar.gz]
+[2023-06-06 07:52:49] INFO root fetch - main [MainThread]: End processing [viser]: success
+[2023-06-06 07:52:49] INFO root fetch - main [MainThread]: Store serial: [18387101]
