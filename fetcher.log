@@ -12047,3 +12047,51 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 06:28:32] INFO root fetch - processPackages [cirq-core]: Remove: archive file [/home/abi/fetcher/tmp/cirq_core-1.2.0.dev20230606042656-py3-none-any.whl.zip]
 [2023-06-06 06:28:32] INFO root fetch - main [MainThread]: End processing [cirq-core]: success
 [2023-06-06 06:28:32] INFO root fetch - main [MainThread]: Store serial: [18386566]
+[2023-06-06 06:33:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18386566]
+[2023-06-06 06:33:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-06-06 06:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addon-pos-partner-firstname
+[2023-06-06 06:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snowflake-connector-python-nightly
+[2023-06-06 06:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: searchlogit
+[2023-06-06 06:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: threadbare
+[2023-06-06 06:33:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mynacode
+[2023-06-06 06:33:41] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-06-06 06:33:41] INFO root fetch - processPackages [threadbare]: New version: [3.1.0] Old Version: [3.0.0]
+[2023-06-06 06:33:41] INFO root fetch - processPackages [odoo14-addon-pos-partner-firstname]: New version: [14.0.1.0.2.dev2] Old Version: [14.0.1.0.1]
+[2023-06-06 06:33:42] INFO root fetch - processPackages [searchlogit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-06 06:33:42] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-06-06 06:33:42] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/f5/62/255711840ed9cd9070e216674becd88016cccca8dfbc9ebab1bc56121e22/searchlogit-0.3.8.tar.gz
+[2023-06-06 06:33:42] INFO root fetch - processPackages [threadbare]: Downloading https://files.pythonhosted.org/packages/6d/c8/71c80af4a7d9d538d3d56f883a854830944e0808fefe9305d9615b516a01/threadbare-3.0.0.tar.gz
+[2023-06-06 06:33:42] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-06-06 06:33:42] INFO root fetch - processPackages [snowflake-connector-python-nightly]: New version: [2023.6.6] Old Version: [2023.5.31]
+[2023-06-06 06:33:42] INFO root fetch - processPackages [odoo14-addon-pos-partner-firstname]: Downloading https://files.pythonhosted.org/packages/5a/1c/629137e72f9b5fa8135c1c89b39cb194b2fd4e8a5db7b99cd5699c01d103/odoo14_addon_pos_partner_firstname-14.0.1.0.1-py3-none-any.whl
+[2023-06-06 06:33:42] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/fc/74/c3d19c1b4219c82f7f6b2a10adf23ac3255cf75ba8b4f5e2007458846ede/searchlogit-0.3.9.tar.gz
+[2023-06-06 06:33:42] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-06-06 06:33:42] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230606/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-06-06 06:33:42] INFO root fetch - processPackages [searchlogit]: executing diffoscope
+[2023-06-06 06:33:42] INFO root fetch - processPackages [searchlogit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchlogit-0.3.8.tar.gz tmp/searchlogit-0.3.9.tar.gz --markdown 20230606/s/searchlogit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-06 06:33:42] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/73/e4/02824419c5412228a89b7712d8c002d5d53e7e1b095c8147550fb3e8712f/snowflake-connector-python-nightly-2023.5.31.tar.gz
+[2023-06-06 06:33:42] INFO root fetch - processPackages [odoo14-addon-pos-partner-firstname]: Downloading https://files.pythonhosted.org/packages/7b/fb/4d0a5dd02a456f2b97b613d586a5b7b011bfa322676f3a709fde594c0a92/odoo14_addon_pos_partner_firstname-14.0.1.0.2.dev2-py3-none-any.whl
+[2023-06-06 06:33:42] INFO root fetch - processPackages [threadbare]: Downloading https://files.pythonhosted.org/packages/3d/9b/184e09210acf415622edf1e9ae3a6d8db238fb3e0eb0825a1f1455f2be62/threadbare-3.1.0.tar.gz
+[2023-06-06 06:33:42] INFO root fetch - processPackages [odoo14-addon-pos-partner-firstname]: executing diffoscope
+[2023-06-06 06:33:42] INFO root fetch - processPackages [odoo14-addon-pos-partner-firstname]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pos_partner_firstname-14.0.1.0.1-py3-none-any.whl.zip tmp/odoo14_addon_pos_partner_firstname-14.0.1.0.2.dev2-py3-none-any.whl.zip --markdown 20230606/o/odoo14-addon-pos-partner-firstname/14.0.1.0.1-14.0.1.0.2.dev2/diff.md --exclude *.pyd
+[2023-06-06 06:33:42] INFO root fetch - processPackages [threadbare]: executing diffoscope
+[2023-06-06 06:33:42] INFO root fetch - processPackages [threadbare]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/threadbare-3.0.0.tar.gz tmp/threadbare-3.1.0.tar.gz --markdown 20230606/t/threadbare/3.0.0-3.1.0/diff.md --exclude *.pyd
+[2023-06-06 06:33:42] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/3a/de/a3d5952ae14f1d96d817896cf0b50d559c49fe0383f469683ff8db639a87/snowflake-connector-python-nightly-2023.6.6.tar.gz
+[2023-06-06 06:33:43] INFO root fetch - processPackages [snowflake-connector-python-nightly]: executing diffoscope
+[2023-06-06 06:33:43] INFO root fetch - processPackages [snowflake-connector-python-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-connector-python-nightly-2023.5.31.tar.gz tmp/snowflake-connector-python-nightly-2023.6.6.tar.gz --markdown 20230606/s/snowflake-connector-python-nightly/2023.5.31-2023.6.6/diff.md --exclude *.pyd
+[2023-06-06 06:33:43] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-06-06 06:33:43] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-06-06 06:33:43] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-06-06 06:33:43] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.8.tar.gz]
+[2023-06-06 06:33:43] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.9.tar.gz]
+[2023-06-06 06:33:43] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
+[2023-06-06 06:33:43] INFO root fetch - processPackages [threadbare]: Remove: archive file [/home/abi/fetcher/tmp/threadbare-3.0.0.tar.gz]
+[2023-06-06 06:33:43] INFO root fetch - processPackages [threadbare]: Remove: archive file [/home/abi/fetcher/tmp/threadbare-3.1.0.tar.gz]
+[2023-06-06 06:33:43] INFO root fetch - main [MainThread]: End processing [threadbare]: success
+[2023-06-06 06:33:43] INFO root fetch - processPackages [odoo14-addon-pos-partner-firstname]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pos_partner_firstname-14.0.1.0.1-py3-none-any.whl.zip]
+[2023-06-06 06:33:43] INFO root fetch - processPackages [odoo14-addon-pos-partner-firstname]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pos_partner_firstname-14.0.1.0.2.dev2-py3-none-any.whl.zip]
+[2023-06-06 06:33:43] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pos-partner-firstname]: success
+[2023-06-06 06:33:45] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2023.5.31.tar.gz]
+[2023-06-06 06:33:45] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2023.6.6.tar.gz]
+[2023-06-06 06:33:45] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
+[2023-06-06 06:33:45] INFO root fetch - main [MainThread]: Store serial: [18386610]
