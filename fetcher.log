@@ -13407,3 +13407,66 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 07:58:04] INFO root fetch - processPackages [ertk]: Remove: archive file [/home/abi/fetcher/tmp/ertk-2023.6.0.tar.gz]
 [2023-06-06 07:58:04] INFO root fetch - main [MainThread]: End processing [ertk]: success
 [2023-06-06 07:58:04] INFO root fetch - main [MainThread]: Store serial: [18387150]
+[2023-06-06 08:03:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18387150]
+[2023-06-06 08:03:13] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-06 08:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sentry-telegram-py3
+[2023-06-06 08:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ant1Interface
+[2023-06-06 08:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TreeSAK
+[2023-06-06 08:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PlanaPY
+[2023-06-06 08:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-twitter
+[2023-06-06 08:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chronogram
+[2023-06-06 08:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PlanaPY
+[2023-06-06 08:03:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: celery
+[2023-06-06 08:03:13] INFO root fetch - processPackages [sentry-telegram-py3]: New version: [0.6.0] Old Version: [0.5.0]
+[2023-06-06 08:03:13] WARNING root fetch - processPackages [PlanaPY]: Skipping, unable to determine old version
+[2023-06-06 08:03:13] INFO root fetch - main [MainThread]: End processing [PlanaPY] error
+[2023-06-06 08:03:13] INFO root fetch - processPackages [nonebot-plugin-twitter]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-06 08:03:13] WARNING root fetch - processPackages [PlanaPY]: Skipping, unable to determine old version
+[2023-06-06 08:03:13] INFO root fetch - main [MainThread]: End processing [PlanaPY] error
+[2023-06-06 08:03:13] INFO root fetch - processPackages [TreeSAK]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-06-06 08:03:13] INFO root fetch - processPackages [ant1Interface]: New version: [0.0.9] Old Version: [0.0.7]
+[2023-06-06 08:03:13] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/33/3d/03ab6748b3aed0610812e461492b58278718c5c15236ce439a758aa3fc27/TreeSAK-1.9.1.tar.gz
+[2023-06-06 08:03:13] INFO root fetch - processPackages [nonebot-plugin-twitter]: Downloading https://files.pythonhosted.org/packages/73/ec/d0e48e12bf25702908e8c0550caf9810399127a9dc445361beeec6a5eea1/nonebot-plugin-twitter-0.0.5.tar.gz
+[2023-06-06 08:03:13] INFO root fetch - processPackages [celery]: New version: [5.3.0rc2] Old Version: [5.3.0rc1]
+[2023-06-06 08:03:13] INFO root fetch - processPackages [chronogram]: New version: [0.2.0] Old Version: [0.1.7]
+[2023-06-06 08:03:13] INFO root fetch - processPackages [sentry-telegram-py3]: Downloading https://files.pythonhosted.org/packages/ac/dc/486ac78ed906d88a846f055199db4349b8bd23e516ab85c61bd75b8d99ea/sentry_telegram_py3-0.5.0.tar.gz
+[2023-06-06 08:03:13] INFO root fetch - processPackages [ant1Interface]: Downloading https://files.pythonhosted.org/packages/ec/88/3a42ef13eeb70e156d3cf4e296adf9012fbef15a7685742aedf921da4911/ant1Interface-0.0.7-py3-none-any.whl
+[2023-06-06 08:03:13] INFO root fetch - processPackages [TreeSAK]: Downloading https://files.pythonhosted.org/packages/3d/18/0b0f8a2c565de5415024065f522c859677184cac283a7e4af0060f267891/TreeSAK-1.9.2.tar.gz
+[2023-06-06 08:03:13] INFO root fetch - processPackages [nonebot-plugin-twitter]: Downloading https://files.pythonhosted.org/packages/d6/bf/1c959ad1fcb8fee3ba3b3d094c50d9599bacb87d45012ac0e41fba417524/nonebot-plugin-twitter-0.0.6.tar.gz
+[2023-06-06 08:03:13] INFO root fetch - processPackages [chronogram]: Downloading https://files.pythonhosted.org/packages/fb/ec/c628ce1a12514c9deeb5e42c94836c2d7ce38bc8b606838c572b1c147b06/chronogram-0.1.7.tar.gz
+[2023-06-06 08:03:13] INFO root fetch - processPackages [celery]: Downloading https://files.pythonhosted.org/packages/25/4c/952ff9cbff60238fdc0ba42d58385a733cca4e9023047dd327890d854084/celery-5.3.0rc1.tar.gz
+[2023-06-06 08:03:14] INFO root fetch - processPackages [TreeSAK]: executing diffoscope
+[2023-06-06 08:03:14] INFO root fetch - processPackages [TreeSAK]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TreeSAK-1.9.1.tar.gz tmp/TreeSAK-1.9.2.tar.gz --markdown 20230606/T/TreeSAK/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-06-06 08:03:14] INFO root fetch - processPackages [nonebot-plugin-twitter]: executing diffoscope
+[2023-06-06 08:03:14] INFO root fetch - processPackages [nonebot-plugin-twitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot-plugin-twitter-0.0.5.tar.gz tmp/nonebot-plugin-twitter-0.0.6.tar.gz --markdown 20230606/n/nonebot-plugin-twitter/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-06 08:03:14] INFO root fetch - processPackages [sentry-telegram-py3]: Downloading https://files.pythonhosted.org/packages/39/54/1e8e3c3b06d90560d59116b68bd434e44afdb9af53b93f3a7d7a3f864d62/sentry_telegram_py3-0.6.0.tar.gz
+[2023-06-06 08:03:14] INFO root fetch - processPackages [sentry-telegram-py3]: executing diffoscope
+[2023-06-06 08:03:14] INFO root fetch - processPackages [sentry-telegram-py3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sentry_telegram_py3-0.5.0.tar.gz tmp/sentry_telegram_py3-0.6.0.tar.gz --markdown 20230606/s/sentry-telegram-py3/0.5.0-0.6.0/diff.md --exclude *.pyd
+[2023-06-06 08:03:14] INFO root fetch - processPackages [chronogram]: Downloading https://files.pythonhosted.org/packages/5b/17/6aeb5de2fd4d14ada14bd08cbcbdf55e77a82f4f6fe897413315df10e5ad/chronogram-0.2.0.tar.gz
+[2023-06-06 08:03:14] INFO root fetch - processPackages [ant1Interface]: Downloading https://files.pythonhosted.org/packages/cf/d2/fcb6e1b2a714653f4642d8b21e4ee22b1b4ffbf9e9a950b6433053e972f8/ant1Interface-0.0.9-py3-none-any.whl
+[2023-06-06 08:03:14] INFO root fetch - processPackages [ant1Interface]: executing diffoscope
+[2023-06-06 08:03:14] INFO root fetch - processPackages [ant1Interface]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ant1Interface-0.0.7-py3-none-any.whl.zip tmp/ant1Interface-0.0.9-py3-none-any.whl.zip --markdown 20230606/a/ant1Interface/0.0.7-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 08:03:14] INFO root fetch - processPackages [celery]: Downloading https://files.pythonhosted.org/packages/22/1f/82510c8f7cf899be38ac2726f163ff852cd09d17cae067ed65f5fab36f34/celery-5.3.0rc2.tar.gz
+[2023-06-06 08:03:14] INFO root fetch - processPackages [celery]: executing diffoscope
+[2023-06-06 08:03:14] INFO root fetch - processPackages [celery]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celery-5.3.0rc1.tar.gz tmp/celery-5.3.0rc2.tar.gz --markdown 20230606/c/celery/5.3.0rc1-5.3.0rc2/diff.md --exclude *.pyd
+[2023-06-06 08:03:14] INFO root fetch - processPackages [chronogram]: executing diffoscope
+[2023-06-06 08:03:14] INFO root fetch - processPackages [chronogram]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chronogram-0.1.7.tar.gz tmp/chronogram-0.2.0.tar.gz --markdown 20230606/c/chronogram/0.1.7-0.2.0/diff.md --exclude *.pyd
+[2023-06-06 08:03:15] INFO root fetch - processPackages [nonebot-plugin-twitter]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-twitter-0.0.5.tar.gz]
+[2023-06-06 08:03:15] INFO root fetch - processPackages [nonebot-plugin-twitter]: Remove: archive file [/home/abi/fetcher/tmp/nonebot-plugin-twitter-0.0.6.tar.gz]
+[2023-06-06 08:03:15] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-twitter]: success
+[2023-06-06 08:03:15] INFO root fetch - processPackages [sentry-telegram-py3]: Remove: archive file [/home/abi/fetcher/tmp/sentry_telegram_py3-0.5.0.tar.gz]
+[2023-06-06 08:03:15] INFO root fetch - processPackages [sentry-telegram-py3]: Remove: archive file [/home/abi/fetcher/tmp/sentry_telegram_py3-0.6.0.tar.gz]
+[2023-06-06 08:03:15] INFO root fetch - main [MainThread]: End processing [sentry-telegram-py3]: success
+[2023-06-06 08:03:15] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.1.tar.gz]
+[2023-06-06 08:03:15] INFO root fetch - processPackages [TreeSAK]: Remove: archive file [/home/abi/fetcher/tmp/TreeSAK-1.9.2.tar.gz]
+[2023-06-06 08:03:15] INFO root fetch - main [MainThread]: End processing [TreeSAK]: success
+[2023-06-06 08:03:16] INFO root fetch - processPackages [ant1Interface]: Remove: archive file [/home/abi/fetcher/tmp/ant1Interface-0.0.7-py3-none-any.whl.zip]
+[2023-06-06 08:03:16] INFO root fetch - processPackages [ant1Interface]: Remove: archive file [/home/abi/fetcher/tmp/ant1Interface-0.0.9-py3-none-any.whl.zip]
+[2023-06-06 08:03:16] INFO root fetch - main [MainThread]: End processing [ant1Interface]: success
+[2023-06-06 08:03:20] INFO root fetch - processPackages [celery]: Remove: archive file [/home/abi/fetcher/tmp/celery-5.3.0rc1.tar.gz]
+[2023-06-06 08:03:20] INFO root fetch - processPackages [celery]: Remove: archive file [/home/abi/fetcher/tmp/celery-5.3.0rc2.tar.gz]
+[2023-06-06 08:03:20] INFO root fetch - main [MainThread]: End processing [celery]: success
+[2023-06-06 08:03:23] INFO root fetch - processPackages [chronogram]: Remove: archive file [/home/abi/fetcher/tmp/chronogram-0.1.7.tar.gz]
+[2023-06-06 08:03:23] INFO root fetch - processPackages [chronogram]: Remove: archive file [/home/abi/fetcher/tmp/chronogram-0.2.0.tar.gz]
+[2023-06-06 08:03:23] INFO root fetch - main [MainThread]: End processing [chronogram]: success
+[2023-06-06 08:03:23] INFO root fetch - main [MainThread]: Store serial: [18387172]
