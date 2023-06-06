@@ -20811,3 +20811,120 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-06 13:15:53] INFO root fetch - processPackages [pulumi-github]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_github-5.9.1.tar.gz]
 [2023-06-06 13:15:53] INFO root fetch - main [MainThread]: End processing [pulumi-github]: success
 [2023-06-06 13:15:53] INFO root fetch - main [MainThread]: Store serial: [18390347]
+[2023-06-06 13:20:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18390347]
+[2023-06-06 13:21:03] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-06-06 13:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: netbox-cisco-maintenance
+[2023-06-06 13:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2023-06-06 13:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vsiew
+[2023-06-06 13:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: layerx-sdk-beta
+[2023-06-06 13:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sw-product-lib
+[2023-06-06 13:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mats
+[2023-06-06 13:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: appier-report
+[2023-06-06 13:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tpypackaging
+[2023-06-06 13:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastapi-soap
+[2023-06-06 13:21:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: rockingester
+[2023-06-06 13:21:03] INFO root fetch - processPackages [vsiew]: New version: [2.2.1] Old Version: [2.2.0]
+[2023-06-06 13:21:03] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.97] Old Version: [0.0.96]
+[2023-06-06 13:21:03] INFO root fetch - processPackages [layerx-sdk-beta]: New version: [1.0.9b2] Old Version: [1.0.9b1]
+[2023-06-06 13:21:03] WARNING root fetch - processPackages [tpypackaging]: Skipping, unable to determine old version
+[2023-06-06 13:21:03] INFO root fetch - processPackages [tpypackaging]: Start processing: idem-gcp
+[2023-06-06 13:21:03] INFO root fetch - main [MainThread]: End processing [tpypackaging] error
+[2023-06-06 13:21:03] INFO root fetch - processPackages [rockingester]: New version: [3.0.1] Old Version: [2.3.0]
+[2023-06-06 13:21:03] INFO root fetch - processPackages [appier-report]: New version: [1.0.1] Old Version: [0.1.1]
+[2023-06-06 13:21:03] INFO root fetch - processPackages [fastapi-soap]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-06-06 13:21:03] INFO root fetch - processPackages [localstack-core]: New version: [2.1.1.dev20230606111617] Old Version: [2.1.1.dev20230606081421]
+[2023-06-06 13:21:03] INFO root fetch - processPackages [sw-product-lib]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-06-06 13:21:03] INFO root fetch - processPackages [mats]: New version: [0.73.0] Old Version: [0.72.0]
+[2023-06-06 13:21:03] INFO root fetch - processPackages [idem-gcp]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-06-06 13:21:03] INFO root fetch - processPackages [vsiew]: Downloading https://files.pythonhosted.org/packages/ac/06/d9d55e6c97dc8161a5940641eae055d347fc98e1333584df0efdbf0e7deb/vsiew-2.2.0.tar.gz
+[2023-06-06 13:21:03] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/91/54/eb1e61f09460ce7a46ade377a293f717881d546c6e07bb2adaa2e2425a24/localstack-core-2.1.1.dev20230606081421.tar.gz
+[2023-06-06 13:21:03] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/2a/af/b37323c3ffd539cd740987d07e24a76b0410ccbef913e1b0220e5116f540/netbox-cisco-maintenance-0.0.96.tar.gz
+[2023-06-06 13:21:03] INFO root fetch - processPackages [appier-report]: Downloading https://files.pythonhosted.org/packages/d6/f4/41da202c1c31c19afe090cc65663a4d30b1b60a433ae031b68582af55061/appier_report-0.1.1.tar.gz
+[2023-06-06 13:21:03] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/82/30/49db849a17663ef31174e31654b943efd6d652d8fead1d082f103f9ab59e/layerx-sdk-beta-1.0.9b1.tar.gz
+[2023-06-06 13:21:03] INFO root fetch - processPackages [sw-product-lib]: Downloading https://files.pythonhosted.org/packages/4e/c2/49cfbc55f484413b2c9232e14362855a0d3212d232260fa659cc66e796ce/sw_product_lib-0.6.1.tar.gz
+[2023-06-06 13:21:03] INFO root fetch - processPackages [idem-gcp]: Downloading https://files.pythonhosted.org/packages/12/23/6cb8ee4fdfe5a4c27bc28f2d8658308883b7415e05456539a00d0844cbb4/idem_gcp-0.8.0.tar.gz
+[2023-06-06 13:21:03] INFO root fetch - processPackages [mats]: Downloading https://files.pythonhosted.org/packages/55/52/67dc7924c856ac27308dff75a48109beb20daca73986598f0cc8685d9d3d/mats-0.72.0-py3-none-any.whl
+[2023-06-06 13:21:03] INFO root fetch - processPackages [fastapi-soap]: Downloading https://files.pythonhosted.org/packages/3d/62/c65382c2478621fbf17efbec1dbf78d81b46312a2dfcb67b5fb5cb6f0ffb/fastapi_soap-0.0.5.tar.gz
+[2023-06-06 13:21:03] INFO root fetch - processPackages [rockingester]: Downloading https://files.pythonhosted.org/packages/07/f7/e507e51728806d3e669f1f26b6b477c00307c6cce21335e86e56a794e7d1/rockingester-2.3.0.tar.gz
+[2023-06-06 13:21:03] INFO root fetch - processPackages [vsiew]: Downloading https://files.pythonhosted.org/packages/60/9e/131e7ea36e7fc1dc6c775958579e8566e93fb1bde6d38961749a3c73153e/vsiew-2.2.1.tar.gz
+[2023-06-06 13:21:03] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/6e/26/6cc7a9daff77b68fc08b9d9bf3402d174a2c5f81dcb19fffbed7f3560611/netbox-cisco-maintenance-0.0.97.tar.gz
+[2023-06-06 13:21:03] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/6f/5f/2a736724406d48ba2e607aa3a0ba884e5442cb178675dd6f340e781a00f6/localstack-core-2.1.1.dev20230606111617.tar.gz
+[2023-06-06 13:21:03] INFO root fetch - processPackages [sw-product-lib]: Downloading https://files.pythonhosted.org/packages/60/24/5a9f5ae86267cdbd9514b20d9d2fe2f924b7547bb86b8c269c1c4007b802/sw_product_lib-0.6.2.tar.gz
+[2023-06-06 13:21:03] INFO root fetch - processPackages [appier-report]: Downloading https://files.pythonhosted.org/packages/5a/02/ad74a59bc143cd0c4f0844698fb3fa72cdaf5ba14f4f8e1ee00298c4a576/appier_report-1.0.1.tar.gz
+[2023-06-06 13:21:03] INFO root fetch - processPackages [vsiew]: executing diffoscope
+[2023-06-06 13:21:03] INFO root fetch - processPackages [vsiew]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vsiew-2.2.0.tar.gz tmp/vsiew-2.2.1.tar.gz --markdown 20230606/v/vsiew/2.2.0-2.2.1/diff.md --exclude *.pyd
+[2023-06-06 13:21:03] INFO root fetch - processPackages [mats]: Downloading https://files.pythonhosted.org/packages/61/b4/e0fcf31bd2685a8576f79067e1907f7f89e0593fd5a5a01a7e2dd3b53e9a/mats-0.73.0-py3-none-any.whl
+[2023-06-06 13:21:03] INFO root fetch - processPackages [idem-gcp]: Downloading https://files.pythonhosted.org/packages/eb/15/ed9036d87031ececcf8c8d07783f31e76ac239648325b7d147abf78b5446/idem_gcp-0.9.0.tar.gz
+[2023-06-06 13:21:03] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-06 13:21:03] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.96.tar.gz tmp/netbox-cisco-maintenance-0.0.97.tar.gz --markdown 20230606/n/netbox-cisco-maintenance/0.0.96-0.0.97/diff.md --exclude *.pyd
+[2023-06-06 13:21:03] INFO root fetch - processPackages [layerx-sdk-beta]: Downloading https://files.pythonhosted.org/packages/80/17/9c39f674089d0687a6ebb4bb5cb263194817e74bbf02632c5b1f95ed63ed/layerx-sdk-beta-1.0.9b2.tar.gz
+[2023-06-06 13:21:03] INFO root fetch - processPackages [sw-product-lib]: executing diffoscope
+[2023-06-06 13:21:03] INFO root fetch - processPackages [sw-product-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sw_product_lib-0.6.1.tar.gz tmp/sw_product_lib-0.6.2.tar.gz --markdown 20230606/s/sw-product-lib/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-06-06 13:21:03] INFO root fetch - processPackages [mats]: executing diffoscope
+[2023-06-06 13:21:03] INFO root fetch - processPackages [mats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mats-0.72.0-py3-none-any.whl.zip tmp/mats-0.73.0-py3-none-any.whl.zip --markdown 20230606/m/mats/0.72.0-0.73.0/diff.md --exclude *.pyd
+[2023-06-06 13:21:03] INFO root fetch - processPackages [idem-gcp]: executing diffoscope
+[2023-06-06 13:21:03] INFO root fetch - processPackages [idem-gcp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idem_gcp-0.8.0.tar.gz tmp/idem_gcp-0.9.0.tar.gz --markdown 20230606/i/idem-gcp/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-06-06 13:21:03] INFO root fetch - processPackages [fastapi-soap]: Downloading https://files.pythonhosted.org/packages/dc/77/6b89d4beaf9d18296ec99a8adf264979fc1b59189269724a08e2db750105/fastapi_soap-0.0.6.tar.gz
+[2023-06-06 13:21:03] INFO root fetch - processPackages [rockingester]: Downloading https://files.pythonhosted.org/packages/82/6f/034ccc2f46aa156fd7a9ff592f0bf083e5edd69f49112f04876c0e22fa6f/rockingester-3.0.1.tar.gz
+[2023-06-06 13:21:03] INFO root fetch - processPackages [appier-report]: executing diffoscope
+[2023-06-06 13:21:03] INFO root fetch - processPackages [appier-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appier_report-0.1.1.tar.gz tmp/appier_report-1.0.1.tar.gz --markdown 20230606/a/appier-report/0.1.1-1.0.1/diff.md --exclude *.pyd
+[2023-06-06 13:21:03] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-06-06 13:21:03] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.1.1.dev20230606081421.tar.gz tmp/localstack-core-2.1.1.dev20230606111617.tar.gz --markdown 20230606/l/localstack-core/2.1.1.dev20230606081421-2.1.1.dev20230606111617/diff.md --exclude *.pyd
+[2023-06-06 13:21:03] INFO root fetch - processPackages [layerx-sdk-beta]: executing diffoscope
+[2023-06-06 13:21:03] INFO root fetch - processPackages [layerx-sdk-beta]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/layerx-sdk-beta-1.0.9b1.tar.gz tmp/layerx-sdk-beta-1.0.9b2.tar.gz --markdown 20230606/l/layerx-sdk-beta/1.0.9b1-1.0.9b2/diff.md --exclude *.pyd
+[2023-06-06 13:21:03] INFO root fetch - processPackages [fastapi-soap]: executing diffoscope
+[2023-06-06 13:21:03] INFO root fetch - processPackages [fastapi-soap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_soap-0.0.5.tar.gz tmp/fastapi_soap-0.0.6.tar.gz --markdown 20230606/f/fastapi-soap/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-06-06 13:21:03] INFO root fetch - processPackages [rockingester]: executing diffoscope
+[2023-06-06 13:21:03] INFO root fetch - processPackages [rockingester]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rockingester-2.3.0.tar.gz tmp/rockingester-3.0.1.tar.gz --markdown 20230606/r/rockingester/2.3.0-3.0.1/diff.md --exclude *.pyd
+[2023-06-06 13:21:05] INFO root fetch - processPackages [vsiew]: Remove: archive file [/home/abi/fetcher/tmp/vsiew-2.2.0.tar.gz]
+[2023-06-06 13:21:05] INFO root fetch - processPackages [vsiew]: Remove: archive file [/home/abi/fetcher/tmp/vsiew-2.2.1.tar.gz]
+[2023-06-06 13:21:05] INFO root fetch - processPackages [vsiew]: Start processing: adata
+[2023-06-06 13:21:05] INFO root fetch - main [MainThread]: End processing [vsiew]: success
+[2023-06-06 13:21:05] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.96.tar.gz]
+[2023-06-06 13:21:05] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.97.tar.gz]
+[2023-06-06 13:21:05] INFO root fetch - processPackages [netbox-cisco-maintenance]: Start processing: th2-data-services-lwdp
+[2023-06-06 13:21:05] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-06 13:21:05] INFO root fetch - processPackages [adata]: New version: [0.0.9b0] Old Version: [0.0.8b0]
+[2023-06-06 13:21:05] INFO root fetch - processPackages [th2-data-services-lwdp]: New version: [2.1.0.0.dev5187472979] Old Version: [2.1.0.0.dev5187253613]
+[2023-06-06 13:21:05] INFO root fetch - processPackages [adata]: Downloading https://files.pythonhosted.org/packages/66/fd/d3c9b9a7b2572489cc2001d80eeca95b9e231b8b8c1d6f582fe0e62853c5/adata-0.0.8b0.tar.gz
+[2023-06-06 13:21:05] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/e1/99/108d7be8157a034d94fe2a10ac10400f88c324d37c4207ea279ea0a01a98/th2_data_services_lwdp-2.1.0.0.dev5187253613.tar.gz
+[2023-06-06 13:21:05] INFO root fetch - processPackages [th2-data-services-lwdp]: Downloading https://files.pythonhosted.org/packages/a9/7a/b85e40ac18ee041cbd0f23da189141ed93da41494f46b95daa9416b7e517/th2_data_services_lwdp-2.1.0.0.dev5187472979.tar.gz
+[2023-06-06 13:21:05] INFO root fetch - processPackages [adata]: Downloading https://files.pythonhosted.org/packages/a8/b4/65647d57045b6c7d198901b3c90bec97ada894e04e9504c736ca433399c0/adata-0.0.9b0.tar.gz
+[2023-06-06 13:21:05] INFO root fetch - processPackages [appier-report]: Remove: archive file [/home/abi/fetcher/tmp/appier_report-0.1.1.tar.gz]
+[2023-06-06 13:21:05] INFO root fetch - processPackages [appier-report]: Remove: archive file [/home/abi/fetcher/tmp/appier_report-1.0.1.tar.gz]
+[2023-06-06 13:21:05] INFO root fetch - processPackages [appier-report]: Start processing: diveplane-amalgam-api
+[2023-06-06 13:21:05] INFO root fetch - main [MainThread]: End processing [appier-report]: success
+[2023-06-06 13:21:05] WARNING root fetch - processPackages [diveplane-amalgam-api]: Skipping, unable to determine old version
+[2023-06-06 13:21:05] INFO root fetch - main [MainThread]: End processing [diveplane-amalgam-api] error
+[2023-06-06 13:21:05] INFO root fetch - processPackages [th2-data-services-lwdp]: executing diffoscope
+[2023-06-06 13:21:05] INFO root fetch - processPackages [th2-data-services-lwdp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/th2_data_services_lwdp-2.1.0.0.dev5187253613.tar.gz tmp/th2_data_services_lwdp-2.1.0.0.dev5187472979.tar.gz --markdown 20230606/t/th2-data-services-lwdp/2.1.0.0.dev5187253613-2.1.0.0.dev5187472979/diff.md --exclude *.pyd
+[2023-06-06 13:21:05] INFO root fetch - processPackages [adata]: executing diffoscope
+[2023-06-06 13:21:05] INFO root fetch - processPackages [adata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adata-0.0.8b0.tar.gz tmp/adata-0.0.9b0.tar.gz --markdown 20230606/a/adata/0.0.8b0-0.0.9b0/diff.md --exclude *.pyd
+[2023-06-06 13:21:05] INFO root fetch - processPackages [fastapi-soap]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_soap-0.0.5.tar.gz]
+[2023-06-06 13:21:05] INFO root fetch - processPackages [fastapi-soap]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_soap-0.0.6.tar.gz]
+[2023-06-06 13:21:05] INFO root fetch - main [MainThread]: End processing [fastapi-soap]: success
+[2023-06-06 13:21:05] INFO root fetch - processPackages [mats]: Remove: archive file [/home/abi/fetcher/tmp/mats-0.72.0-py3-none-any.whl.zip]
+[2023-06-06 13:21:05] INFO root fetch - processPackages [mats]: Remove: archive file [/home/abi/fetcher/tmp/mats-0.73.0-py3-none-any.whl.zip]
+[2023-06-06 13:21:05] INFO root fetch - main [MainThread]: End processing [mats]: success
+[2023-06-06 13:21:05] INFO root fetch - processPackages [sw-product-lib]: Remove: archive file [/home/abi/fetcher/tmp/sw_product_lib-0.6.1.tar.gz]
+[2023-06-06 13:21:05] INFO root fetch - processPackages [sw-product-lib]: Remove: archive file [/home/abi/fetcher/tmp/sw_product_lib-0.6.2.tar.gz]
+[2023-06-06 13:21:05] INFO root fetch - main [MainThread]: End processing [sw-product-lib]: success
+[2023-06-06 13:21:05] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b1.tar.gz]
+[2023-06-06 13:21:05] INFO root fetch - processPackages [layerx-sdk-beta]: Remove: archive file [/home/abi/fetcher/tmp/layerx-sdk-beta-1.0.9b2.tar.gz]
+[2023-06-06 13:21:05] INFO root fetch - main [MainThread]: End processing [layerx-sdk-beta]: success
+[2023-06-06 13:21:06] INFO root fetch - processPackages [idem-gcp]: Remove: archive file [/home/abi/fetcher/tmp/idem_gcp-0.8.0.tar.gz]
+[2023-06-06 13:21:06] INFO root fetch - processPackages [idem-gcp]: Remove: archive file [/home/abi/fetcher/tmp/idem_gcp-0.9.0.tar.gz]
+[2023-06-06 13:21:06] INFO root fetch - main [MainThread]: End processing [idem-gcp]: success
+[2023-06-06 13:21:06] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5187253613.tar.gz]
+[2023-06-06 13:21:06] INFO root fetch - processPackages [th2-data-services-lwdp]: Remove: archive file [/home/abi/fetcher/tmp/th2_data_services_lwdp-2.1.0.0.dev5187472979.tar.gz]
+[2023-06-06 13:21:06] INFO root fetch - main [MainThread]: End processing [th2-data-services-lwdp]: success
+[2023-06-06 13:21:06] INFO root fetch - processPackages [adata]: Remove: archive file [/home/abi/fetcher/tmp/adata-0.0.8b0.tar.gz]
+[2023-06-06 13:21:06] INFO root fetch - processPackages [adata]: Remove: archive file [/home/abi/fetcher/tmp/adata-0.0.9b0.tar.gz]
+[2023-06-06 13:21:06] INFO root fetch - main [MainThread]: End processing [adata]: success
+[2023-06-06 13:21:08] INFO root fetch - processPackages [rockingester]: Remove: archive file [/home/abi/fetcher/tmp/rockingester-2.3.0.tar.gz]
+[2023-06-06 13:21:08] INFO root fetch - processPackages [rockingester]: Remove: archive file [/home/abi/fetcher/tmp/rockingester-3.0.1.tar.gz]
+[2023-06-06 13:21:08] INFO root fetch - main [MainThread]: End processing [rockingester]: success
+[2023-06-06 13:21:13] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230606081421.tar.gz]
+[2023-06-06 13:21:13] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.1.1.dev20230606111617.tar.gz]
+[2023-06-06 13:21:13] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-06-06 13:21:13] INFO root fetch - main [MainThread]: Store serial: [18390391]
