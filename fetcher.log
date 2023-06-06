@@ -19755,3 +19755,182 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-06 12:22:49] INFO root fetch - processPackages [MeUtils]: Remove: archive file [/home/abi/fetcher/tmp/MeUtils-2023.6.6.18.16.46.tar.gz]
 [2023-06-06 12:22:49] INFO root fetch - main [MainThread]: End processing [MeUtils]: success
 [2023-06-06 12:22:49] INFO root fetch - main [MainThread]: Store serial: [18389914]
+[2023-06-06 12:27:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18389914]
+[2023-06-06 12:27:59] INFO root fetch - main [MainThread]: Found 20 changed packages
+[2023-06-06 12:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: BasicLibrary.PY
+[2023-06-06 12:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: clickzetta-connector
+[2023-06-06 12:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: clickzetta-sqlalchemy
+[2023-06-06 12:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: python-sscha
+[2023-06-06 12:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pfizer-components
+[2023-06-06 12:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tca-beam
+[2023-06-06 12:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sommify
+[2023-06-06 12:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: yzy
+[2023-06-06 12:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Mosek
+[2023-06-06 12:27:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: prettynumbers
+[2023-06-06 12:27:59] INFO root fetch - processPackages [BasicLibrary.PY]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-06-06 12:27:59] INFO root fetch - processPackages [clickzetta-connector]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-06 12:27:59] INFO root fetch - processPackages [tca-beam]: New version: [0.4.0] Old Version: [0.3.5]
+[2023-06-06 12:27:59] INFO root fetch - processPackages [pfizer-components]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-06-06 12:27:59] INFO root fetch - processPackages [python-sscha]: New version: [1.3] Old Version: [1.2.1]
+[2023-06-06 12:27:59] INFO root fetch - processPackages [clickzetta-sqlalchemy]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-06-06 12:27:59] INFO root fetch - processPackages [prettynumbers]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-06-06 12:27:59] INFO root fetch - processPackages [sommify]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-06 12:27:59] INFO root fetch - processPackages [yzy]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-06-06 12:27:59] INFO root fetch - processPackages [Mosek]: New version: [9.3.9] Old Version: [9.3.8]
+[2023-06-06 12:27:59] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/72/d1/d65bb4b4077a404aa08b3a2615159873fac64bc9adabf42a5b45cb50f00b/clickzetta-connector-0.8.8.tar.gz
+[2023-06-06 12:27:59] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/1e/c5/d4be8dcc2a67d1d955c84c09b0223b9977fd638ed0bf7d09cc2a752386cf/clickzetta-sqlalchemy-0.8.8.tar.gz
+[2023-06-06 12:27:59] INFO root fetch - processPackages [pfizer-components]: Downloading https://files.pythonhosted.org/packages/7c/8b/29fd9ea9f588fa0fbf3489fc2c26f93c151fd8683917521b2ded5304401b/pfizer_components-0.0.7-py3-none-any.whl
+[2023-06-06 12:27:59] INFO root fetch - processPackages [BasicLibrary.PY]: Downloading https://files.pythonhosted.org/packages/b3/63/868770a2465bbb89e1405fe277750c5709c20c6be86f27ebd5c42360a87d/BasicLibrary.PY-0.5.0.tar.gz
+[2023-06-06 12:27:59] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Downloading https://files.pythonhosted.org/packages/05/6f/f31876ff58c9201594d988fd4bbd8a182a97a305a16842de419109e35005/clickzetta-sqlalchemy-0.8.9.tar.gz
+[2023-06-06 12:27:59] INFO root fetch - processPackages [clickzetta-connector]: Downloading https://files.pythonhosted.org/packages/81/41/2c55796964b0e67291955e1856242db62fc8e6f14e179a50bf1c6296f067/clickzetta-connector-0.8.9.tar.gz
+[2023-06-06 12:27:59] INFO root fetch - processPackages [clickzetta-sqlalchemy]: executing diffoscope
+[2023-06-06 12:27:59] INFO root fetch - processPackages [clickzetta-sqlalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-sqlalchemy-0.8.8.tar.gz tmp/clickzetta-sqlalchemy-0.8.9.tar.gz --markdown 20230606/c/clickzetta-sqlalchemy/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-06 12:27:59] INFO root fetch - processPackages [tca-beam]: Downloading https://files.pythonhosted.org/packages/8b/2d/b7b013be16d538b0124c4c6dfb088c6fcdeb1a3cdc65a9f2893ac269ff1b/tca_beam-0.3.5.tar.gz
+[2023-06-06 12:27:59] INFO root fetch - processPackages [prettynumbers]: Downloading https://files.pythonhosted.org/packages/fc/26/530fb0cd6a025068eeb3aff521f6079cd0f45bedb13589d9a4ccb8b82ec6/prettynumbers-0.3.2.tar.gz
+[2023-06-06 12:27:59] INFO root fetch - processPackages [python-sscha]: Downloading https://files.pythonhosted.org/packages/c8/be/cb0ab684d9af632677b297be8888c7c942cfde52c5b42a4f06c52ea33177/python-sscha-1.2.1.tar.gz
+[2023-06-06 12:27:59] INFO root fetch - processPackages [yzy]: Downloading https://files.pythonhosted.org/packages/73/ad/7de16ed1754528c1eaf01b986b33c11489aabb1f18e44d75e34241a3e9e6/yzy-0.0.4.tar.gz
+[2023-06-06 12:27:59] INFO root fetch - processPackages [Mosek]: Downloading https://files.pythonhosted.org/packages/4c/32/630b9e420bad8d8d1d1ac6ec6b3e5097f8b1b4783e16b3991153044fad86/Mosek-9.3.8-cp39-cp39-win_amd64.whl
+[2023-06-06 12:27:59] INFO root fetch - processPackages [clickzetta-connector]: executing diffoscope
+[2023-06-06 12:27:59] INFO root fetch - processPackages [clickzetta-connector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clickzetta-connector-0.8.8.tar.gz tmp/clickzetta-connector-0.8.9.tar.gz --markdown 20230606/c/clickzetta-connector/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-06-06 12:27:59] INFO root fetch - processPackages [sommify]: Downloading https://files.pythonhosted.org/packages/5a/5a/fb539ce7b04300ecf9015e76b50b262f0380a276f637ee17178c85e12d41/sommify-0.5.1.tar.gz
+[2023-06-06 12:27:59] INFO root fetch - processPackages [pfizer-components]: Downloading https://files.pythonhosted.org/packages/de/b0/dc7b8b0bb8980f29f4a836eb93c5e9fca9112a947a2c6c1c3b3e7085917e/pfizer_components-0.0.8-py3-none-any.whl
+[2023-06-06 12:27:59] INFO root fetch - processPackages [pfizer-components]: executing diffoscope
+[2023-06-06 12:27:59] INFO root fetch - processPackages [pfizer-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pfizer_components-0.0.7-py3-none-any.whl.zip tmp/pfizer_components-0.0.8-py3-none-any.whl.zip --markdown 20230606/p/pfizer-components/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-06-06 12:27:59] WARNING root fetch - processPackages [sommify]: Skipping package: exceeds size limit 98755501>=10485760
+[2023-06-06 12:27:59] INFO root fetch - processPackages [sommify]: Start processing: Flask-SimplePay
+[2023-06-06 12:27:59] INFO root fetch - main [MainThread]: End processing [sommify] error
+[2023-06-06 12:27:59] INFO root fetch - processPackages [tca-beam]: Downloading https://files.pythonhosted.org/packages/f9/03/19728f10c6f74a72a186a29f5c17a1ba0479bd1bc24aa3cb9aa2c69f7047/tca_beam-0.4.0.tar.gz
+[2023-06-06 12:27:59] INFO root fetch - processPackages [prettynumbers]: Downloading https://files.pythonhosted.org/packages/b6/b8/da81bc9fc144e2b1820b9cb9528bda7f44e5983b4cf728d29894fca31651/prettynumbers-0.3.3.tar.gz
+[2023-06-06 12:27:59] INFO root fetch - processPackages [Flask-SimplePay]: New version: [1.0] Old Version: [0.9]
+[2023-06-06 12:27:59] INFO root fetch - processPackages [BasicLibrary.PY]: Downloading https://files.pythonhosted.org/packages/95/00/5af249b6565d920983156d582679c25358f2d7026506a2b9303d8fb8f25b/BasicLibrary.PY-0.5.1.tar.gz
+[2023-06-06 12:27:59] INFO root fetch - processPackages [tca-beam]: executing diffoscope
+[2023-06-06 12:27:59] INFO root fetch - processPackages [tca-beam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tca_beam-0.3.5.tar.gz tmp/tca_beam-0.4.0.tar.gz --markdown 20230606/t/tca-beam/0.3.5-0.4.0/diff.md --exclude *.pyd
+[2023-06-06 12:27:59] INFO root fetch - processPackages [BasicLibrary.PY]: executing diffoscope
+[2023-06-06 12:27:59] INFO root fetch - processPackages [BasicLibrary.PY]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BasicLibrary.PY-0.5.0.tar.gz tmp/BasicLibrary.PY-0.5.1.tar.gz --markdown 20230606/B/BasicLibrary.PY/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-06-06 12:27:59] INFO root fetch - processPackages [yzy]: Downloading https://files.pythonhosted.org/packages/1a/96/c2e52eb291488a660a328ce8d7af28f020dce7c5edea64cb2fc640bf2a44/yzy-0.0.5.tar.gz
+[2023-06-06 12:27:59] INFO root fetch - processPackages [python-sscha]: Downloading https://files.pythonhosted.org/packages/d7/53/21634310834c042dbfec5bf64b0fe6287ed93a428ce64b864295c3f8ee00/python-sscha-1.3.tar.gz
+[2023-06-06 12:27:59] INFO root fetch - processPackages [python-sscha]: executing diffoscope
+[2023-06-06 12:27:59] INFO root fetch - processPackages [python-sscha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-sscha-1.2.1.tar.gz tmp/python-sscha-1.3.tar.gz --markdown 20230606/p/python-sscha/1.2.1-1.3/diff.md --exclude *.pyd
+[2023-06-06 12:27:59] INFO root fetch - processPackages [prettynumbers]: executing diffoscope
+[2023-06-06 12:27:59] INFO root fetch - processPackages [prettynumbers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prettynumbers-0.3.2.tar.gz tmp/prettynumbers-0.3.3.tar.gz --markdown 20230606/p/prettynumbers/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-06-06 12:27:59] INFO root fetch - processPackages [yzy]: executing diffoscope
+[2023-06-06 12:27:59] INFO root fetch - processPackages [yzy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yzy-0.0.4.tar.gz tmp/yzy-0.0.5.tar.gz --markdown 20230606/y/yzy/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-06-06 12:27:59] INFO root fetch - processPackages [Flask-SimplePay]: Downloading https://files.pythonhosted.org/packages/9b/a5/a8b701637e611e17c1587f21510cbf00123cc8e7f2905b5d29b3d93c3a59/Flask-SimplePay-0.9.tar.gz
+[2023-06-06 12:28:00] INFO root fetch - processPackages [Flask-SimplePay]: Downloading https://files.pythonhosted.org/packages/a9/7f/212fbad46f6f546f961cb6eb8e01cb1b57ff1cd78e88a7b2897273ae68ea/Flask-SimplePay-1.0.tar.gz
+[2023-06-06 12:28:00] INFO root fetch - processPackages [Flask-SimplePay]: executing diffoscope
+[2023-06-06 12:28:00] INFO root fetch - processPackages [Flask-SimplePay]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flask-SimplePay-0.9.tar.gz tmp/Flask-SimplePay-1.0.tar.gz --markdown 20230606/F/Flask-SimplePay/0.9-1.0/diff.md --exclude *.pyd
+[2023-06-06 12:28:00] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.8.tar.gz]
+[2023-06-06 12:28:00] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-sqlalchemy-0.8.9.tar.gz]
+[2023-06-06 12:28:00] INFO root fetch - processPackages [clickzetta-sqlalchemy]: Start processing: stigg-api-client
+[2023-06-06 12:28:00] INFO root fetch - main [MainThread]: End processing [clickzetta-sqlalchemy]: success
+[2023-06-06 12:28:00] INFO root fetch - processPackages [stigg-api-client]: New version: [0.5.0] Old Version: [0.458.4]
+[2023-06-06 12:28:00] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/cc/38/b696567a8dcc876afad39b78ae13f65a64c1d4499e0eaa6a8e8121fb0dcd/stigg_api_client-0.458.4.tar.gz
+[2023-06-06 12:28:00] INFO root fetch - processPackages [pfizer-components]: Remove: archive file [/home/abi/fetcher/tmp/pfizer_components-0.0.7-py3-none-any.whl.zip]
+[2023-06-06 12:28:00] INFO root fetch - processPackages [pfizer-components]: Remove: archive file [/home/abi/fetcher/tmp/pfizer_components-0.0.8-py3-none-any.whl.zip]
+[2023-06-06 12:28:00] INFO root fetch - processPackages [pfizer-components]: Start processing: domolibrary
+[2023-06-06 12:28:00] INFO root fetch - main [MainThread]: End processing [pfizer-components]: success
+[2023-06-06 12:28:00] INFO root fetch - processPackages [domolibrary]: New version: [0.1.9] Old Version: [0.1.80]
+[2023-06-06 12:28:00] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/59/9a/98f52fa0529e5ecde47a902ddc69c4c9388678fed970769797ca709b42a4/domolibrary-0.1.80.tar.gz
+[2023-06-06 12:28:01] INFO root fetch - processPackages [stigg-api-client]: Downloading https://files.pythonhosted.org/packages/6f/d2/ae3138d8e73b06a33bdd8d29d234ac4387d7bf23217c13b557d497089bbf/stigg_api_client-0.5.0.tar.gz
+[2023-06-06 12:28:01] INFO root fetch - processPackages [tca-beam]: Remove: archive file [/home/abi/fetcher/tmp/tca_beam-0.3.5.tar.gz]
+[2023-06-06 12:28:01] INFO root fetch - processPackages [tca-beam]: Remove: archive file [/home/abi/fetcher/tmp/tca_beam-0.4.0.tar.gz]
+[2023-06-06 12:28:01] INFO root fetch - processPackages [tca-beam]: Start processing: stigg-api-client-v2
+[2023-06-06 12:28:01] INFO root fetch - main [MainThread]: End processing [tca-beam]: success
+[2023-06-06 12:28:01] INFO root fetch - processPackages [stigg-api-client-v2]: New version: [0.458.4] Old Version: [0.457.0]
+[2023-06-06 12:28:01] INFO root fetch - processPackages [stigg-api-client]: executing diffoscope
+[2023-06-06 12:28:01] INFO root fetch - processPackages [stigg-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client-0.458.4.tar.gz tmp/stigg_api_client-0.5.0.tar.gz --markdown 20230606/s/stigg-api-client/0.458.4-0.5.0/diff.md --exclude *.pyd
+[2023-06-06 12:28:01] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/6c/a1/fbef115f551a1159931f5611089e064138b2f0984c9cbf1d2d417ca7d5c8/stigg_api_client_v2-0.457.0.tar.gz
+[2023-06-06 12:28:01] INFO root fetch - processPackages [prettynumbers]: Remove: archive file [/home/abi/fetcher/tmp/prettynumbers-0.3.2.tar.gz]
+[2023-06-06 12:28:01] INFO root fetch - processPackages [prettynumbers]: Remove: archive file [/home/abi/fetcher/tmp/prettynumbers-0.3.3.tar.gz]
+[2023-06-06 12:28:01] INFO root fetch - processPackages [prettynumbers]: Start processing: mads-datasets
+[2023-06-06 12:28:01] INFO root fetch - main [MainThread]: End processing [prettynumbers]: success
+[2023-06-06 12:28:01] INFO root fetch - processPackages [domolibrary]: Downloading https://files.pythonhosted.org/packages/ba/75/5a59616fc27c68dfb4e04e111a598384360b36ecbd4ac5c10bfb80277305/domolibrary-0.1.9.tar.gz
+[2023-06-06 12:28:01] INFO root fetch - processPackages [mads-datasets]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-06-06 12:28:01] INFO root fetch - processPackages [domolibrary]: executing diffoscope
+[2023-06-06 12:28:01] INFO root fetch - processPackages [domolibrary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domolibrary-0.1.80.tar.gz tmp/domolibrary-0.1.9.tar.gz --markdown 20230606/d/domolibrary/0.1.80-0.1.9/diff.md --exclude *.pyd
+[2023-06-06 12:28:01] INFO root fetch - processPackages [yzy]: Remove: archive file [/home/abi/fetcher/tmp/yzy-0.0.4.tar.gz]
+[2023-06-06 12:28:01] INFO root fetch - processPackages [yzy]: Remove: archive file [/home/abi/fetcher/tmp/yzy-0.0.5.tar.gz]
+[2023-06-06 12:28:01] INFO root fetch - processPackages [yzy]: Start processing: lusid-notifications-sdk-preview
+[2023-06-06 12:28:01] INFO root fetch - main [MainThread]: End processing [yzy]: success
+[2023-06-06 12:28:01] INFO root fetch - processPackages [stigg-api-client-v2]: Downloading https://files.pythonhosted.org/packages/09/cc/3a07fa0caa38fd8df42b9f82b3ed3c3b99dd465d7dca7349ca9263f25a23/stigg_api_client_v2-0.458.4.tar.gz
+[2023-06-06 12:28:01] INFO root fetch - processPackages [BasicLibrary.PY]: Remove: archive file [/home/abi/fetcher/tmp/BasicLibrary.PY-0.5.0.tar.gz]
+[2023-06-06 12:28:01] INFO root fetch - processPackages [BasicLibrary.PY]: Remove: archive file [/home/abi/fetcher/tmp/BasicLibrary.PY-0.5.1.tar.gz]
+[2023-06-06 12:28:01] INFO root fetch - processPackages [BasicLibrary.PY]: Start processing: pyrepresent
+[2023-06-06 12:28:01] INFO root fetch - main [MainThread]: End processing [BasicLibrary.PY]: success
+[2023-06-06 12:28:01] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: New version: [0.1.723] Old Version: [0.1.722]
+[2023-06-06 12:28:01] INFO root fetch - processPackages [pyrepresent]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 12:28:01] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/4c/2d/732418bf6cb9c1d4a084339b32693350418a7ac7359c21332712cf7834d1/lusid-notifications-sdk-preview-0.1.722.tar.gz
+[2023-06-06 12:28:01] INFO root fetch - processPackages [pyrepresent]: Downloading https://files.pythonhosted.org/packages/ca/2d/2b126a2b08c36ec6974cf5653cb464f84e22a6538fa85423922a990661ab/pyrepresent-0.0.8.tar.gz
+[2023-06-06 12:28:01] INFO root fetch - processPackages [mads-datasets]: Downloading https://files.pythonhosted.org/packages/91/0f/d8649c08c639e0fb2a4d4187cdb624a1f5f7348828c7d5a1fefafd3f59b3/mads_datasets-0.1.4.tar.gz
+[2023-06-06 12:28:01] INFO root fetch - processPackages [stigg-api-client-v2]: executing diffoscope
+[2023-06-06 12:28:01] INFO root fetch - processPackages [stigg-api-client-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stigg_api_client_v2-0.457.0.tar.gz tmp/stigg_api_client_v2-0.458.4.tar.gz --markdown 20230606/s/stigg-api-client-v2/0.457.0-0.458.4/diff.md --exclude *.pyd
+[2023-06-06 12:28:01] INFO root fetch - processPackages [python-sscha]: Remove: archive file [/home/abi/fetcher/tmp/python-sscha-1.2.1.tar.gz]
+[2023-06-06 12:28:01] INFO root fetch - processPackages [python-sscha]: Remove: archive file [/home/abi/fetcher/tmp/python-sscha-1.3.tar.gz]
+[2023-06-06 12:28:01] INFO root fetch - processPackages [python-sscha]: Start processing: trustero-api
+[2023-06-06 12:28:01] INFO root fetch - main [MainThread]: End processing [python-sscha]: success
+[2023-06-06 12:28:01] INFO root fetch - processPackages [trustero-api]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-06-06 12:28:01] INFO root fetch - processPackages [pyrepresent]: Downloading https://files.pythonhosted.org/packages/7b/18/ef6544251e6b9db01f6f48f8079e4f5de7a7e7f92ebc43c0ad54551a386b/pyrepresent-0.0.9.tar.gz
+[2023-06-06 12:28:01] INFO root fetch - processPackages [mads-datasets]: Downloading https://files.pythonhosted.org/packages/05/ae/e742cac6b6de8fd41eceb93aaf5025968dc7696e9dcd6a7f0c379ac46d17/mads_datasets-0.1.5.tar.gz
+[2023-06-06 12:28:01] INFO root fetch - processPackages [trustero-api]: Downloading https://files.pythonhosted.org/packages/41/20/3a615b01cbbdb3ecbb40288f8e2a3f30fdfd23f2a19e431813aeaa53bfd1/trustero_api-0.0.3.tar.gz
+[2023-06-06 12:28:01] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Downloading https://files.pythonhosted.org/packages/f0/a0/6671d465d144fd518e6524d8a03fb7fd35a3530cfecbe675c3c4727a866d/lusid-notifications-sdk-preview-0.1.723.tar.gz
+[2023-06-06 12:28:01] INFO root fetch - processPackages [pyrepresent]: executing diffoscope
+[2023-06-06 12:28:01] INFO root fetch - processPackages [pyrepresent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrepresent-0.0.8.tar.gz tmp/pyrepresent-0.0.9.tar.gz --markdown 20230606/p/pyrepresent/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 12:28:01] INFO root fetch - processPackages [Flask-SimplePay]: Remove: archive file [/home/abi/fetcher/tmp/Flask-SimplePay-0.9.tar.gz]
+[2023-06-06 12:28:01] INFO root fetch - processPackages [Flask-SimplePay]: Remove: archive file [/home/abi/fetcher/tmp/Flask-SimplePay-1.0.tar.gz]
+[2023-06-06 12:28:01] INFO root fetch - processPackages [Flask-SimplePay]: Start processing: netbox-cisco-maintenance
+[2023-06-06 12:28:01] INFO root fetch - main [MainThread]: End processing [Flask-SimplePay]: success
+[2023-06-06 12:28:01] INFO root fetch - processPackages [mads-datasets]: executing diffoscope
+[2023-06-06 12:28:01] INFO root fetch - processPackages [mads-datasets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mads_datasets-0.1.4.tar.gz tmp/mads_datasets-0.1.5.tar.gz --markdown 20230606/m/mads-datasets/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-06-06 12:28:01] INFO root fetch - processPackages [netbox-cisco-maintenance]: New version: [0.0.91] Old Version: [0.0.90]
+[2023-06-06 12:28:01] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/47/ed/a27edfb098f371fda3203a085807e3c891315fe00c98e7a811b8593c300e/netbox-cisco-maintenance-0.0.90.tar.gz
+[2023-06-06 12:28:01] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: executing diffoscope
+[2023-06-06 12:28:01] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lusid-notifications-sdk-preview-0.1.722.tar.gz tmp/lusid-notifications-sdk-preview-0.1.723.tar.gz --markdown 20230606/l/lusid-notifications-sdk-preview/0.1.722-0.1.723/diff.md --exclude *.pyd
+[2023-06-06 12:28:01] INFO root fetch - processPackages [trustero-api]: Downloading https://files.pythonhosted.org/packages/dd/18/2edb7e6f816d3274af757156cc0bbf097ca7e6ae4af4fc4df2a5b8e54b87/trustero_api-0.0.4.tar.gz
+[2023-06-06 12:28:02] INFO root fetch - processPackages [trustero-api]: executing diffoscope
+[2023-06-06 12:28:02] INFO root fetch - processPackages [trustero-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/trustero_api-0.0.3.tar.gz tmp/trustero_api-0.0.4.tar.gz --markdown 20230606/t/trustero-api/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-06-06 12:28:02] INFO root fetch - processPackages [Mosek]: Downloading https://files.pythonhosted.org/packages/f5/78/ea902908d2878b83f8e37f551e0f59478b1840a9f5f031e123c393c88b0e/Mosek-9.3.9-cp39-cp39-win_amd64.whl
+[2023-06-06 12:28:02] INFO root fetch - processPackages [netbox-cisco-maintenance]: Downloading https://files.pythonhosted.org/packages/9c/fb/0750941a91062f09800c51334fefe3038f8c6fae378894cfe10721eb10f2/netbox-cisco-maintenance-0.0.91.tar.gz
+[2023-06-06 12:28:02] INFO root fetch - processPackages [netbox-cisco-maintenance]: executing diffoscope
+[2023-06-06 12:28:02] INFO root fetch - processPackages [netbox-cisco-maintenance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/netbox-cisco-maintenance-0.0.90.tar.gz tmp/netbox-cisco-maintenance-0.0.91.tar.gz --markdown 20230606/n/netbox-cisco-maintenance/0.0.90-0.0.91/diff.md --exclude *.pyd
+[2023-06-06 12:28:02] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.8.tar.gz]
+[2023-06-06 12:28:02] INFO root fetch - processPackages [clickzetta-connector]: Remove: archive file [/home/abi/fetcher/tmp/clickzetta-connector-0.8.9.tar.gz]
+[2023-06-06 12:28:02] INFO root fetch - processPackages [clickzetta-connector]: Start processing: google-cloud-billing-budgets
+[2023-06-06 12:28:02] INFO root fetch - main [MainThread]: End processing [clickzetta-connector]: success
+[2023-06-06 12:28:02] INFO root fetch - processPackages [google-cloud-billing-budgets]: New version: [1.9.1] Old Version: [1.9.0]
+[2023-06-06 12:28:02] INFO root fetch - processPackages [mads-datasets]: Remove: archive file [/home/abi/fetcher/tmp/mads_datasets-0.1.4.tar.gz]
+[2023-06-06 12:28:02] INFO root fetch - processPackages [mads-datasets]: Remove: archive file [/home/abi/fetcher/tmp/mads_datasets-0.1.5.tar.gz]
+[2023-06-06 12:28:02] INFO root fetch - main [MainThread]: End processing [mads-datasets]: success
+[2023-06-06 12:28:03] INFO root fetch - processPackages [google-cloud-billing-budgets]: Downloading https://files.pythonhosted.org/packages/11/2f/4aa6af91c9a7ac233b4b58bdcd7c04f293e8bf7660ceb3f80417a07aced9/google-cloud-billing-budgets-1.9.0.tar.gz
+[2023-06-06 12:28:03] INFO root fetch - processPackages [trustero-api]: Remove: archive file [/home/abi/fetcher/tmp/trustero_api-0.0.3.tar.gz]
+[2023-06-06 12:28:03] INFO root fetch - processPackages [trustero-api]: Remove: archive file [/home/abi/fetcher/tmp/trustero_api-0.0.4.tar.gz]
+[2023-06-06 12:28:03] INFO root fetch - main [MainThread]: End processing [trustero-api]: success
+[2023-06-06 12:28:03] INFO root fetch - processPackages [pyrepresent]: Remove: archive file [/home/abi/fetcher/tmp/pyrepresent-0.0.8.tar.gz]
+[2023-06-06 12:28:03] INFO root fetch - processPackages [pyrepresent]: Remove: archive file [/home/abi/fetcher/tmp/pyrepresent-0.0.9.tar.gz]
+[2023-06-06 12:28:03] INFO root fetch - main [MainThread]: End processing [pyrepresent]: success
+[2023-06-06 12:28:03] INFO root fetch - processPackages [google-cloud-billing-budgets]: Downloading https://files.pythonhosted.org/packages/46/04/5dff9d85a66427fafa942c206c1252dc6fa5d440a0c72db5060fb1d1f555/google-cloud-billing-budgets-1.9.1.tar.gz
+[2023-06-06 12:28:03] INFO root fetch - processPackages [google-cloud-billing-budgets]: executing diffoscope
+[2023-06-06 12:28:03] INFO root fetch - processPackages [google-cloud-billing-budgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/google-cloud-billing-budgets-1.9.0.tar.gz tmp/google-cloud-billing-budgets-1.9.1.tar.gz --markdown 20230606/g/google-cloud-billing-budgets/1.9.0-1.9.1/diff.md --exclude *.pyd
+[2023-06-06 12:28:03] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.722.tar.gz]
+[2023-06-06 12:28:03] INFO root fetch - processPackages [lusid-notifications-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/lusid-notifications-sdk-preview-0.1.723.tar.gz]
+[2023-06-06 12:28:03] INFO root fetch - main [MainThread]: End processing [lusid-notifications-sdk-preview]: success
+[2023-06-06 12:28:03] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.90.tar.gz]
+[2023-06-06 12:28:03] INFO root fetch - processPackages [netbox-cisco-maintenance]: Remove: archive file [/home/abi/fetcher/tmp/netbox-cisco-maintenance-0.0.91.tar.gz]
+[2023-06-06 12:28:03] INFO root fetch - main [MainThread]: End processing [netbox-cisco-maintenance]: success
+[2023-06-06 12:28:04] INFO root fetch - processPackages [Mosek]: executing diffoscope
+[2023-06-06 12:28:04] INFO root fetch - processPackages [Mosek]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Mosek-9.3.8-cp39-cp39-win_amd64.whl.zip tmp/Mosek-9.3.9-cp39-cp39-win_amd64.whl.zip --markdown 20230606/M/Mosek/9.3.8-9.3.9/diff.md --exclude *.pyd
+[2023-06-06 12:28:04] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.458.4.tar.gz]
+[2023-06-06 12:28:04] INFO root fetch - processPackages [stigg-api-client]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client-0.5.0.tar.gz]
+[2023-06-06 12:28:04] INFO root fetch - main [MainThread]: End processing [stigg-api-client]: success
+[2023-06-06 12:28:05] INFO root fetch - processPackages [google-cloud-billing-budgets]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-billing-budgets-1.9.0.tar.gz]
+[2023-06-06 12:28:05] INFO root fetch - processPackages [google-cloud-billing-budgets]: Remove: archive file [/home/abi/fetcher/tmp/google-cloud-billing-budgets-1.9.1.tar.gz]
+[2023-06-06 12:28:05] INFO root fetch - main [MainThread]: End processing [google-cloud-billing-budgets]: success
+[2023-06-06 12:28:05] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.457.0.tar.gz]
+[2023-06-06 12:28:05] INFO root fetch - processPackages [stigg-api-client-v2]: Remove: archive file [/home/abi/fetcher/tmp/stigg_api_client_v2-0.458.4.tar.gz]
+[2023-06-06 12:28:05] INFO root fetch - main [MainThread]: End processing [stigg-api-client-v2]: success
+[2023-06-06 12:28:05] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.80.tar.gz]
+[2023-06-06 12:28:05] INFO root fetch - processPackages [domolibrary]: Remove: archive file [/home/abi/fetcher/tmp/domolibrary-0.1.9.tar.gz]
+[2023-06-06 12:28:05] INFO root fetch - main [MainThread]: End processing [domolibrary]: success
+[2023-06-06 12:28:50] INFO root fetch - processPackages [Mosek]: Remove: archive file [/home/abi/fetcher/tmp/Mosek-9.3.8-cp39-cp39-win_amd64.whl.zip]
+[2023-06-06 12:28:50] INFO root fetch - processPackages [Mosek]: Remove: archive file [/home/abi/fetcher/tmp/Mosek-9.3.9-cp39-cp39-win_amd64.whl.zip]
+[2023-06-06 12:28:50] INFO root fetch - main [MainThread]: End processing [Mosek]: success
+[2023-06-06 12:28:50] INFO root fetch - main [MainThread]: Store serial: [18389975]
