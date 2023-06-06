@@ -3417,3 +3417,125 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 03:16:02] INFO root fetch - processPackages [klp-commons]: Remove: archive file [/home/abi/fetcher/tmp/klp-commons-0.0.9.tar.gz]
 [2023-06-06 03:16:02] INFO root fetch - main [MainThread]: End processing [klp-commons]: success
 [2023-06-06 03:16:02] INFO root fetch - main [MainThread]: Store serial: [18383476]
+[2023-06-06 03:21:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18383476]
+[2023-06-06 03:21:11] INFO root fetch - main [MainThread]: Found 15 changed packages
+[2023-06-06 03:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-spark-gpt
+[2023-06-06 03:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: toolsql
+[2023-06-06 03:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dhtml
+[2023-06-06 03:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libretrofuzz
+[2023-06-06 03:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyarmor.cli.runtime
+[2023-06-06 03:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: searchlogit
+[2023-06-06 03:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: satori-ci
+[2023-06-06 03:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-hugo-deploy
+[2023-06-06 03:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pepperize.cdk-organizations
+[2023-06-06 03:21:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: daft-df
+[2023-06-06 03:21:11] WARNING root fetch - processPackages [dhtml]: Skipping, unable to determine old version
+[2023-06-06 03:21:11] INFO root fetch - processPackages [dhtml]: Start processing: azure-quantum
+[2023-06-06 03:21:11] INFO root fetch - main [MainThread]: End processing [dhtml] error
+[2023-06-06 03:21:11] INFO root fetch - processPackages [libretrofuzz]: New version: [2.9.4] Old Version: [2.9.3]
+[2023-06-06 03:21:11] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-06-06 03:21:11] WARNING root fetch - processPackages [daft-df]: Skipping, unable to determine old version
+[2023-06-06 03:21:11] INFO root fetch - processPackages [toolsql]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-06-06 03:21:11] INFO root fetch - processPackages [daft-df]: Start processing: qdk
+[2023-06-06 03:21:11] INFO root fetch - main [MainThread]: End processing [daft-df] error
+[2023-06-06 03:21:11] INFO root fetch - processPackages [pyarmor.cli.runtime]: New version: [3.2.dev2] Old Version: [3.2.dev1]
+[2023-06-06 03:21:11] INFO root fetch - processPackages [azure-quantum]: New version: [0.28.277227] Old Version: [0.28.276174]
+[2023-06-06 03:21:11] INFO root fetch - processPackages [satori-ci]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-06-06 03:21:11] INFO root fetch - processPackages [qdk]: New version: [0.9.1908.2906] Old Version: [0.28.277227]
+[2023-06-06 03:21:11] INFO root fetch - processPackages [searchlogit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-06 03:21:11] INFO root fetch - processPackages [cdk-hugo-deploy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-06 03:21:11] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/31/50/ff49e4502ee187c6b8ba71d82606f1f02ddf8aa4b601a9c8cd3c0e94366d/libretrofuzz-2.9.3.tar.gz
+[2023-06-06 03:21:11] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-06 03:21:11] INFO root fetch - processPackages [toolsql]: Downloading https://files.pythonhosted.org/packages/e7/08/b119ac5e16242a0885e415b8433818960efc2defe4239638b9f614dc787f/toolsql-0.6.0.tar.gz
+[2023-06-06 03:21:11] INFO root fetch - processPackages [satori-ci]: Downloading https://files.pythonhosted.org/packages/0f/e9/8730b0b247277bad0867ffd703c9de8cc8e32296273202190c6988be7d9e/satori_ci-1.2.8.tar.gz
+[2023-06-06 03:21:11] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-06 03:21:11] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/33/a0/02c1c61c08488072b10045f13351cac91a6dc5b3b289a3a38fb162ac9cfa/cdk-hugo-deploy-0.0.98.tar.gz
+[2023-06-06 03:21:11] INFO root fetch - processPackages [pyarmor.cli.runtime]: Downloading https://files.pythonhosted.org/packages/d0/9e/9bcfd437e921196f6d12017284db5ca1999e6c5902b08cff86bb1cc8e67a/pyarmor.cli.runtime-3.2.dev1-cp39-none-any.whl
+[2023-06-06 03:21:11] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Downloading https://files.pythonhosted.org/packages/80/d1/8f56eb15f792a1e73df0341d86e3a34f7f4506ce2ff78d976f8488f8543b/nonebot_plugin_spark_gpt-0.3.3.tar.gz
+[2023-06-06 03:21:11] INFO root fetch - processPackages [qdk]: Downloading https://files.pythonhosted.org/packages/38/13/ef43a09e5c577e1592662648afd7a25d206e7031e676b87dd8ddd3ab20dc/qdk-0.28.277227.tar.gz
+[2023-06-06 03:21:11] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/f5/62/255711840ed9cd9070e216674becd88016cccca8dfbc9ebab1bc56121e22/searchlogit-0.3.8.tar.gz
+[2023-06-06 03:21:11] INFO root fetch - processPackages [azure-quantum]: Downloading https://files.pythonhosted.org/packages/df/e3/02c183180b3f9bade4e5cbb0fae8f06975b82f01e5efa9398f45240057d9/azure-quantum-0.28.276174.tar.gz
+[2023-06-06 03:21:11] WARNING root fetch - processPackages [nonebot-plugin-spark-gpt]: Skipping package: exceeds size limit 11188665>=10485760
+[2023-06-06 03:21:11] INFO root fetch - processPackages [nonebot-plugin-spark-gpt]: Start processing: qsharp
+[2023-06-06 03:21:11] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-spark-gpt] error
+[2023-06-06 03:21:11] INFO root fetch - processPackages [satori-ci]: Downloading https://files.pythonhosted.org/packages/b7/0b/451eae7159f796f9dfb4eaee887b8acdd96fc946dedeb3da9cafe052e2aa/satori_ci-1.2.9.tar.gz
+[2023-06-06 03:21:11] INFO root fetch - processPackages [libretrofuzz]: Downloading https://files.pythonhosted.org/packages/8d/21/568a69b2c03dc05a7c8f5bf670b88a62eb68d0b90a095107edfcde8999c5/libretrofuzz-2.9.4.tar.gz
+[2023-06-06 03:21:11] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-06 03:21:11] INFO root fetch - processPackages [qsharp]: New version: [0.9.1909.3002] Old Version: [0.9.1908.2906]
+[2023-06-06 03:21:11] INFO root fetch - processPackages [toolsql]: Downloading https://files.pythonhosted.org/packages/64/dc/812c085dad3a60f7ea17660e68b879d4b4cc271e59a124fcf29c8e46481a/toolsql-0.6.1.tar.gz
+[2023-06-06 03:21:11] INFO root fetch - processPackages [cdk-hugo-deploy]: Downloading https://files.pythonhosted.org/packages/69/65/61cf4e2d01ce9f811649f2d5a9b579e9603a4b6257774c90a60bc13109ee/cdk-hugo-deploy-0.0.99.tar.gz
+[2023-06-06 03:21:11] INFO root fetch - processPackages [satori-ci]: executing diffoscope
+[2023-06-06 03:21:11] INFO root fetch - processPackages [satori-ci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/satori_ci-1.2.8.tar.gz tmp/satori_ci-1.2.9.tar.gz --markdown 20230606/s/satori-ci/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-06-06 03:21:11] INFO root fetch - processPackages [libretrofuzz]: executing diffoscope
+[2023-06-06 03:21:11] INFO root fetch - processPackages [libretrofuzz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libretrofuzz-2.9.3.tar.gz tmp/libretrofuzz-2.9.4.tar.gz --markdown 20230606/l/libretrofuzz/2.9.3-2.9.4/diff.md --exclude *.pyd
+[2023-06-06 03:21:11] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-06 03:21:11] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230606/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-06 03:21:11] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/fc/74/c3d19c1b4219c82f7f6b2a10adf23ac3255cf75ba8b4f5e2007458846ede/searchlogit-0.3.9.tar.gz
+[2023-06-06 03:21:11] INFO root fetch - processPackages [cdk-hugo-deploy]: executing diffoscope
+[2023-06-06 03:21:11] INFO root fetch - processPackages [cdk-hugo-deploy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-hugo-deploy-0.0.98.tar.gz tmp/cdk-hugo-deploy-0.0.99.tar.gz --markdown 20230606/c/cdk-hugo-deploy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-06 03:21:11] INFO root fetch - processPackages [azure-quantum]: Downloading https://files.pythonhosted.org/packages/13/be/44801339846fafbe78a17ca6c6cb2f9e76333b316a151c1a32dcb60c4d16/azure-quantum-0.28.277227.tar.gz
+[2023-06-06 03:21:11] INFO root fetch - processPackages [qsharp]: Downloading https://files.pythonhosted.org/packages/07/90/8806a28c828de3ad6db292bab7cd9025427f3eaa1b0ed8b130acd83cd2dc/qsharp-0.9.1908.2906-py3-none-any.whl
+[2023-06-06 03:21:11] INFO root fetch - processPackages [toolsql]: executing diffoscope
+[2023-06-06 03:21:11] INFO root fetch - processPackages [toolsql]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/toolsql-0.6.0.tar.gz tmp/toolsql-0.6.1.tar.gz --markdown 20230606/t/toolsql/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-06-06 03:21:11] INFO root fetch - processPackages [qdk]: Downloading https://files.pythonhosted.org/packages/8b/2f/8919a169c6c3580b9161f7ec12aa0ffa01e1794f5586ac583197a987f173/qdk-0.9.1908.2906.tar.gz
+[2023-06-06 03:21:11] INFO root fetch - processPackages [pyarmor.cli.runtime]: Downloading https://files.pythonhosted.org/packages/64/6b/2faea895b456da4f408b1ef4672beb2434ef0d96f377ead169004b1f76bd/pyarmor.cli.runtime-3.2.dev2-cp39-none-any.whl
+[2023-06-06 03:21:11] INFO root fetch - processPackages [azure-quantum]: executing diffoscope
+[2023-06-06 03:21:11] INFO root fetch - processPackages [azure-quantum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/azure-quantum-0.28.276174.tar.gz tmp/azure-quantum-0.28.277227.tar.gz --markdown 20230606/a/azure-quantum/0.28.276174-0.28.277227/diff.md --exclude *.pyd
+[2023-06-06 03:21:11] INFO root fetch - processPackages [qdk]: executing diffoscope
+[2023-06-06 03:21:11] INFO root fetch - processPackages [qdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qdk-0.28.277227.tar.gz tmp/qdk-0.9.1908.2906.tar.gz --markdown 20230606/q/qdk/0.28.277227-0.9.1908.2906/diff.md --exclude *.pyd
+[2023-06-06 03:21:11] INFO root fetch - processPackages [searchlogit]: executing diffoscope
+[2023-06-06 03:21:11] INFO root fetch - processPackages [searchlogit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchlogit-0.3.8.tar.gz tmp/searchlogit-0.3.9.tar.gz --markdown 20230606/s/searchlogit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-06 03:21:12] INFO root fetch - processPackages [pyarmor.cli.runtime]: executing diffoscope
+[2023-06-06 03:21:12] INFO root fetch - processPackages [pyarmor.cli.runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyarmor.cli.runtime-3.2.dev1-cp39-none-any.whl.zip tmp/pyarmor.cli.runtime-3.2.dev2-cp39-none-any.whl.zip --markdown 20230606/p/pyarmor.cli.runtime/3.2.dev1-3.2.dev2/diff.md --exclude *.pyd
+[2023-06-06 03:21:12] INFO root fetch - processPackages [qsharp]: Downloading https://files.pythonhosted.org/packages/ee/bb/87eaf70ec56e8f8b962477b4b758c7d384cff01f414c1136fe7d3c703fc7/qsharp-0.9.1909.3002-py3-none-any.whl
+[2023-06-06 03:21:12] INFO root fetch - processPackages [qsharp]: executing diffoscope
+[2023-06-06 03:21:12] INFO root fetch - processPackages [qsharp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp-0.9.1908.2906-py3-none-any.whl.zip tmp/qsharp-0.9.1909.3002-py3-none-any.whl.zip --markdown 20230606/q/qsharp/0.9.1908.2906-0.9.1909.3002/diff.md --exclude *.pyd
+[2023-06-06 03:21:13] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-2.9.3.tar.gz]
+[2023-06-06 03:21:13] INFO root fetch - processPackages [libretrofuzz]: Remove: archive file [/home/abi/fetcher/tmp/libretrofuzz-2.9.4.tar.gz]
+[2023-06-06 03:21:13] INFO root fetch - processPackages [libretrofuzz]: Start processing: qsharp-chemistry
+[2023-06-06 03:21:13] INFO root fetch - main [MainThread]: End processing [libretrofuzz]: success
+[2023-06-06 03:21:13] INFO root fetch - processPackages [qsharp-chemistry]: New version: [0.28.277227] Old Version: [0.28.276174]
+[2023-06-06 03:21:13] INFO root fetch - processPackages [qdk]: Remove: archive file [/home/abi/fetcher/tmp/qdk-0.28.277227.tar.gz]
+[2023-06-06 03:21:13] INFO root fetch - processPackages [qdk]: Remove: archive file [/home/abi/fetcher/tmp/qdk-0.9.1908.2906.tar.gz]
+[2023-06-06 03:21:13] INFO root fetch - processPackages [qdk]: Start processing: qsharp-core
+[2023-06-06 03:21:13] INFO root fetch - main [MainThread]: End processing [qdk]: success
+[2023-06-06 03:21:13] INFO root fetch - processPackages [qsharp-core]: New version: [0.28.277227] Old Version: [0.28.276174]
+[2023-06-06 03:21:13] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.98.tar.gz]
+[2023-06-06 03:21:13] INFO root fetch - processPackages [cdk-hugo-deploy]: Remove: archive file [/home/abi/fetcher/tmp/cdk-hugo-deploy-0.0.99.tar.gz]
+[2023-06-06 03:21:13] INFO root fetch - main [MainThread]: End processing [cdk-hugo-deploy]: success
+[2023-06-06 03:21:13] INFO root fetch - processPackages [qsharp-chemistry]: Downloading https://files.pythonhosted.org/packages/8b/47/598fd1e4b3d6b18388d72dcb8676edbe6aba1f5aa9c69b72fcfaa6b352a4/qsharp-chemistry-0.28.276174.tar.gz
+[2023-06-06 03:21:13] INFO root fetch - processPackages [satori-ci]: Remove: archive file [/home/abi/fetcher/tmp/satori_ci-1.2.8.tar.gz]
+[2023-06-06 03:21:13] INFO root fetch - processPackages [satori-ci]: Remove: archive file [/home/abi/fetcher/tmp/satori_ci-1.2.9.tar.gz]
+[2023-06-06 03:21:13] INFO root fetch - main [MainThread]: End processing [satori-ci]: success
+[2023-06-06 03:21:13] INFO root fetch - processPackages [qsharp-core]: Downloading https://files.pythonhosted.org/packages/22/e5/71ba2e92d12f5dd550904218d723a85e4d0e355c96784bef2b98814ddb1c/qsharp-core-0.28.276174.tar.gz
+[2023-06-06 03:21:13] INFO root fetch - processPackages [qsharp]: Remove: archive file [/home/abi/fetcher/tmp/qsharp-0.9.1908.2906-py3-none-any.whl.zip]
+[2023-06-06 03:21:13] INFO root fetch - processPackages [qsharp]: Remove: archive file [/home/abi/fetcher/tmp/qsharp-0.9.1909.3002-py3-none-any.whl.zip]
+[2023-06-06 03:21:13] INFO root fetch - main [MainThread]: End processing [qsharp]: success
+[2023-06-06 03:21:13] INFO root fetch - processPackages [qsharp-chemistry]: Downloading https://files.pythonhosted.org/packages/19/eb/df6f54a68c61b13d6634a5b8c1827d6c7124bb741ee6aeb891dbd7c5bd0b/qsharp-chemistry-0.28.277227.tar.gz
+[2023-06-06 03:21:13] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.8.tar.gz]
+[2023-06-06 03:21:13] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.9.tar.gz]
+[2023-06-06 03:21:13] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
+[2023-06-06 03:21:13] INFO root fetch - processPackages [toolsql]: Remove: archive file [/home/abi/fetcher/tmp/toolsql-0.6.0.tar.gz]
+[2023-06-06 03:21:13] INFO root fetch - processPackages [toolsql]: Remove: archive file [/home/abi/fetcher/tmp/toolsql-0.6.1.tar.gz]
+[2023-06-06 03:21:13] INFO root fetch - main [MainThread]: End processing [toolsql]: success
+[2023-06-06 03:21:13] INFO root fetch - processPackages [qsharp-chemistry]: executing diffoscope
+[2023-06-06 03:21:13] INFO root fetch - processPackages [qsharp-chemistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp-chemistry-0.28.276174.tar.gz tmp/qsharp-chemistry-0.28.277227.tar.gz --markdown 20230606/q/qsharp-chemistry/0.28.276174-0.28.277227/diff.md --exclude *.pyd
+[2023-06-06 03:21:13] INFO root fetch - processPackages [qsharp-core]: Downloading https://files.pythonhosted.org/packages/38/07/dc0d9378a9416dc31b4a1d123454713c33b67ee885d0e03ae77c5bd9bbc7/qsharp-core-0.28.277227.tar.gz
+[2023-06-06 03:21:13] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-06 03:21:13] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-06 03:21:13] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-06 03:21:13] INFO root fetch - processPackages [qsharp-core]: executing diffoscope
+[2023-06-06 03:21:13] INFO root fetch - processPackages [qsharp-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qsharp-core-0.28.276174.tar.gz tmp/qsharp-core-0.28.277227.tar.gz --markdown 20230606/q/qsharp-core/0.28.276174-0.28.277227/diff.md --exclude *.pyd
+[2023-06-06 03:21:14] INFO root fetch - processPackages [azure-quantum]: Remove: archive file [/home/abi/fetcher/tmp/azure-quantum-0.28.276174.tar.gz]
+[2023-06-06 03:21:14] INFO root fetch - processPackages [azure-quantum]: Remove: archive file [/home/abi/fetcher/tmp/azure-quantum-0.28.277227.tar.gz]
+[2023-06-06 03:21:14] INFO root fetch - main [MainThread]: End processing [azure-quantum]: success
+[2023-06-06 03:21:15] INFO root fetch - processPackages [qsharp-chemistry]: Remove: archive file [/home/abi/fetcher/tmp/qsharp-chemistry-0.28.276174.tar.gz]
+[2023-06-06 03:21:15] INFO root fetch - processPackages [qsharp-chemistry]: Remove: archive file [/home/abi/fetcher/tmp/qsharp-chemistry-0.28.277227.tar.gz]
+[2023-06-06 03:21:15] INFO root fetch - main [MainThread]: End processing [qsharp-chemistry]: success
+[2023-06-06 03:21:15] INFO root fetch - processPackages [qsharp-core]: Remove: archive file [/home/abi/fetcher/tmp/qsharp-core-0.28.276174.tar.gz]
+[2023-06-06 03:21:15] INFO root fetch - processPackages [qsharp-core]: Remove: archive file [/home/abi/fetcher/tmp/qsharp-core-0.28.277227.tar.gz]
+[2023-06-06 03:21:15] INFO root fetch - main [MainThread]: End processing [qsharp-core]: success
+[2023-06-06 03:21:35] INFO root fetch - processPackages [pyarmor.cli.runtime]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.runtime-3.2.dev1-cp39-none-any.whl.zip]
+[2023-06-06 03:21:35] INFO root fetch - processPackages [pyarmor.cli.runtime]: Remove: archive file [/home/abi/fetcher/tmp/pyarmor.cli.runtime-3.2.dev2-cp39-none-any.whl.zip]
+[2023-06-06 03:21:35] INFO root fetch - main [MainThread]: End processing [pyarmor.cli.runtime]: success
+[2023-06-06 03:21:35] INFO root fetch - main [MainThread]: Store serial: [18383571]
