@@ -11504,3 +11504,36 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 05:48:24] INFO root fetch - processPackages [streamlit-code-editor]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-code-editor-0.1.2.tar.gz]
 [2023-06-06 05:48:24] INFO root fetch - main [MainThread]: End processing [streamlit-code-editor]: success
 [2023-06-06 05:48:24] INFO root fetch - main [MainThread]: Store serial: [18386342]
+[2023-06-06 05:53:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18386342]
+[2023-06-06 05:53:33] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-06-06 05:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: defog
+[2023-06-06 05:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FindJobsTW
+[2023-06-06 05:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ana-sdk
+[2023-06-06 05:53:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: neon-skill-fallback-unknown
+[2023-06-06 05:53:33] INFO root fetch - processPackages [ana-sdk]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-06 05:53:33] INFO root fetch - processPackages [defog]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-06-06 05:53:33] INFO root fetch - processPackages [neon-skill-fallback-unknown]: New version: [0.2.2a1] Old Version: [0.2.2]
+[2023-06-06 05:53:33] WARNING root fetch - processPackages [FindJobsTW]: Skipping, unable to determine old version
+[2023-06-06 05:53:33] INFO root fetch - main [MainThread]: End processing [FindJobsTW] error
+[2023-06-06 05:53:33] INFO root fetch - processPackages [ana-sdk]: Downloading https://files.pythonhosted.org/packages/a7/25/f53465ae6229ac4131d1f591337441d7be3352df99e8b6e53b5b6991480d/ana_sdk-0.3.8.tar.gz
+[2023-06-06 05:53:33] INFO root fetch - processPackages [neon-skill-fallback-unknown]: Downloading https://files.pythonhosted.org/packages/45/69/7e553664060e673a728229b9d40600369086dc01adf3802f14a2b325977e/neon_skill_fallback_unknown-0.2.2-py3-none-any.whl
+[2023-06-06 05:53:33] INFO root fetch - processPackages [defog]: Downloading https://files.pythonhosted.org/packages/87/e8/5a15d483ae5d3383ccd70078fae7b28d2522217766e59237dbf84b7b20b8/defog-0.9.1.tar.gz
+[2023-06-06 05:53:34] INFO root fetch - processPackages [ana-sdk]: Downloading https://files.pythonhosted.org/packages/00/1e/7882d95ed2838f0193893edb0c5dfc58f20b2b763d0d3ebceec3eca2b970/ana_sdk-0.3.9.tar.gz
+[2023-06-06 05:53:34] INFO root fetch - processPackages [neon-skill-fallback-unknown]: Downloading https://files.pythonhosted.org/packages/ac/a2/bff195e7fbcc7aeb4e29e0f80a000344e02724277c2c741dac612c1a7a8c/neon_skill_fallback_unknown-0.2.2a1-py3-none-any.whl
+[2023-06-06 05:53:34] INFO root fetch - processPackages [ana-sdk]: executing diffoscope
+[2023-06-06 05:53:34] INFO root fetch - processPackages [ana-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ana_sdk-0.3.8.tar.gz tmp/ana_sdk-0.3.9.tar.gz --markdown 20230606/a/ana-sdk/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-06 05:53:34] INFO root fetch - processPackages [neon-skill-fallback-unknown]: executing diffoscope
+[2023-06-06 05:53:34] INFO root fetch - processPackages [neon-skill-fallback-unknown]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_fallback_unknown-0.2.2-py3-none-any.whl.zip tmp/neon_skill_fallback_unknown-0.2.2a1-py3-none-any.whl.zip --markdown 20230606/n/neon-skill-fallback-unknown/0.2.2-0.2.2a1/diff.md --exclude *.pyd
+[2023-06-06 05:53:34] INFO root fetch - processPackages [defog]: Downloading https://files.pythonhosted.org/packages/a7/30/76e85c431f8a525f9d7ea55f0f7acc629a6284f97ce86075abfb2019d42c/defog-0.9.2.tar.gz
+[2023-06-06 05:53:34] INFO root fetch - processPackages [defog]: executing diffoscope
+[2023-06-06 05:53:34] INFO root fetch - processPackages [defog]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/defog-0.9.1.tar.gz tmp/defog-0.9.2.tar.gz --markdown 20230606/d/defog/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-06-06 05:53:35] INFO root fetch - processPackages [ana-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ana_sdk-0.3.8.tar.gz]
+[2023-06-06 05:53:35] INFO root fetch - processPackages [ana-sdk]: Remove: archive file [/home/abi/fetcher/tmp/ana_sdk-0.3.9.tar.gz]
+[2023-06-06 05:53:35] INFO root fetch - main [MainThread]: End processing [ana-sdk]: success
+[2023-06-06 05:53:35] INFO root fetch - processPackages [defog]: Remove: archive file [/home/abi/fetcher/tmp/defog-0.9.1.tar.gz]
+[2023-06-06 05:53:35] INFO root fetch - processPackages [defog]: Remove: archive file [/home/abi/fetcher/tmp/defog-0.9.2.tar.gz]
+[2023-06-06 05:53:35] INFO root fetch - main [MainThread]: End processing [defog]: success
+[2023-06-06 05:53:36] INFO root fetch - processPackages [neon-skill-fallback-unknown]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_fallback_unknown-0.2.2-py3-none-any.whl.zip]
+[2023-06-06 05:53:36] INFO root fetch - processPackages [neon-skill-fallback-unknown]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_fallback_unknown-0.2.2a1-py3-none-any.whl.zip]
+[2023-06-06 05:53:36] INFO root fetch - main [MainThread]: End processing [neon-skill-fallback-unknown]: success
+[2023-06-06 05:53:36] INFO root fetch - main [MainThread]: Store serial: [18386355]
