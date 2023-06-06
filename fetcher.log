@@ -3053,3 +3053,68 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 02:39:12] INFO root fetch - processPackages [cdklabs.cdk-enterprise-iac]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-enterprise-iac-0.0.99.tar.gz]
 [2023-06-06 02:39:12] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-enterprise-iac]: success
 [2023-06-06 02:39:12] INFO root fetch - main [MainThread]: Store serial: [18383267]
+[2023-06-06 02:44:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18383267]
+[2023-06-06 02:44:20] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-06 02:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: NikChat
+[2023-06-06 02:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: coastseg
+[2023-06-06 02:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: state-machine-semaphore
+[2023-06-06 02:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: prismstudio-demo
+[2023-06-06 02:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pandasai
+[2023-06-06 02:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: melnor-bluetooth
+[2023-06-06 02:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: adnuntius
+[2023-06-06 02:44:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lib-for-messanger
+[2023-06-06 02:44:20] INFO root fetch - processPackages [pandasai]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-06-06 02:44:20] INFO root fetch - processPackages [adnuntius]: New version: [1.9] Old Version: [1.8]
+[2023-06-06 02:44:20] INFO root fetch - processPackages [prismstudio-demo]: New version: [1.1.1a0] Old Version: [1.1.1]
+[2023-06-06 02:44:20] INFO root fetch - processPackages [melnor-bluetooth]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 02:44:20] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-06-06 02:44:20] INFO root fetch - processPackages [lib-for-messanger]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-06-06 02:44:20] INFO root fetch - processPackages [coastseg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 02:44:20] INFO root fetch - processPackages [melnor-bluetooth]: Downloading https://files.pythonhosted.org/packages/ae/1b/e370cededd784265fdbd6335ae11181f66a89b0bf7aba749457cb06e0590/melnor-bluetooth-0.0.8.tar.gz
+[2023-06-06 02:44:20] INFO root fetch - processPackages [lib-for-messanger]: Downloading https://files.pythonhosted.org/packages/82/be/c9ec369a8d44bf7c780c1b113d0ccc2e4db260f2069bd1cc155e5165f8e4/lib_for_messanger-1.0.0.tar.gz
+[2023-06-06 02:44:20] WARNING root fetch - processPackages [NikChat]: Skipping, unable to determine old version
+[2023-06-06 02:44:20] INFO root fetch - main [MainThread]: End processing [NikChat] error
+[2023-06-06 02:44:20] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/5c/a8/6c87f3177fef69be666301caf33efa1fe38002fc6a0cfc5215a41dabae72/pandasai-0.3.0.tar.gz
+[2023-06-06 02:44:21] INFO root fetch - processPackages [adnuntius]: Downloading https://files.pythonhosted.org/packages/5a/3e/9012077474db43a0f62e6fc05f786ce927dd892377b95713413e92728ef6/adnuntius-1.8.tar.gz
+[2023-06-06 02:44:21] INFO root fetch - processPackages [prismstudio-demo]: Downloading https://files.pythonhosted.org/packages/b5/db/266e1b9f05502b3142a46d06e4c54038d63f6ac753ed79fa9ef4b43c41c6/prismstudio-demo-1.1.1.tar.gz
+[2023-06-06 02:44:21] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-06-06 02:44:21] INFO root fetch - processPackages [melnor-bluetooth]: Downloading https://files.pythonhosted.org/packages/ad/d8/409e697ace8337020f01d25524cfb5b7e0f4a4222e44db8121b100b86af9/melnor-bluetooth-0.0.9.tar.gz
+[2023-06-06 02:44:21] INFO root fetch - processPackages [coastseg]: Downloading https://files.pythonhosted.org/packages/75/3b/19efffac60ef69a861417a37a370dc3f3a497cb93009fe8fff8dda38b476/coastseg-0.0.8.tar.gz
+[2023-06-06 02:44:21] INFO root fetch - processPackages [melnor-bluetooth]: executing diffoscope
+[2023-06-06 02:44:21] INFO root fetch - processPackages [melnor-bluetooth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/melnor-bluetooth-0.0.8.tar.gz tmp/melnor-bluetooth-0.0.9.tar.gz --markdown 20230606/m/melnor-bluetooth/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 02:44:21] INFO root fetch - processPackages [lib-for-messanger]: Downloading https://files.pythonhosted.org/packages/a3/34/0a929def2dde42205a327204891957ddd4daeb4d263a74e1acecd4703755/lib_for_messanger-1.0.1.tar.gz
+[2023-06-06 02:44:21] WARNING root fetch - processPackages [coastseg]: Skipping package: exceeds size limit 38421077>=10485760
+[2023-06-06 02:44:21] INFO root fetch - main [MainThread]: End processing [coastseg] error
+[2023-06-06 02:44:21] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/75/d3/6c907ed8428db3f998a659d2a115a96910a4d400d4075062b36dc5500958/pandasai-0.4.0.tar.gz
+[2023-06-06 02:44:21] INFO root fetch - processPackages [adnuntius]: Downloading https://files.pythonhosted.org/packages/82/88/5cc388342ae0a1ab0b55016b7972c6969ed66e149cdc355ddd477f8c86f9/adnuntius-1.9.tar.gz
+[2023-06-06 02:44:21] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-06-06 02:44:21] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.3.0.tar.gz tmp/pandasai-0.4.0.tar.gz --markdown 20230606/p/pandasai/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-06-06 02:44:21] INFO root fetch - processPackages [prismstudio-demo]: Downloading https://files.pythonhosted.org/packages/c7/f0/3fcc9913dfb1805a2a16036896a456d133b7ccb56ee401c882682e212f57/prismstudio-demo-1.1.1a0.tar.gz
+[2023-06-06 02:44:21] INFO root fetch - processPackages [lib-for-messanger]: executing diffoscope
+[2023-06-06 02:44:21] INFO root fetch - processPackages [lib-for-messanger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lib_for_messanger-1.0.0.tar.gz tmp/lib_for_messanger-1.0.1.tar.gz --markdown 20230606/l/lib-for-messanger/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-06-06 02:44:21] INFO root fetch - processPackages [adnuntius]: executing diffoscope
+[2023-06-06 02:44:21] INFO root fetch - processPackages [adnuntius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adnuntius-1.8.tar.gz tmp/adnuntius-1.9.tar.gz --markdown 20230606/a/adnuntius/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-06 02:44:21] INFO root fetch - processPackages [prismstudio-demo]: executing diffoscope
+[2023-06-06 02:44:21] INFO root fetch - processPackages [prismstudio-demo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/prismstudio-demo-1.1.1.tar.gz tmp/prismstudio-demo-1.1.1a0.tar.gz --markdown 20230606/p/prismstudio-demo/1.1.1-1.1.1a0/diff.md --exclude *.pyd
+[2023-06-06 02:44:21] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-06-06 02:44:22] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-06-06 02:44:22] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230606/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-06-06 02:44:22] INFO root fetch - processPackages [melnor-bluetooth]: Remove: archive file [/home/abi/fetcher/tmp/melnor-bluetooth-0.0.8.tar.gz]
+[2023-06-06 02:44:22] INFO root fetch - processPackages [melnor-bluetooth]: Remove: archive file [/home/abi/fetcher/tmp/melnor-bluetooth-0.0.9.tar.gz]
+[2023-06-06 02:44:22] INFO root fetch - main [MainThread]: End processing [melnor-bluetooth]: success
+[2023-06-06 02:44:22] INFO root fetch - processPackages [lib-for-messanger]: Remove: archive file [/home/abi/fetcher/tmp/lib_for_messanger-1.0.0.tar.gz]
+[2023-06-06 02:44:22] INFO root fetch - processPackages [lib-for-messanger]: Remove: archive file [/home/abi/fetcher/tmp/lib_for_messanger-1.0.1.tar.gz]
+[2023-06-06 02:44:22] INFO root fetch - main [MainThread]: End processing [lib-for-messanger]: success
+[2023-06-06 02:44:22] INFO root fetch - processPackages [adnuntius]: Remove: archive file [/home/abi/fetcher/tmp/adnuntius-1.8.tar.gz]
+[2023-06-06 02:44:22] INFO root fetch - processPackages [adnuntius]: Remove: archive file [/home/abi/fetcher/tmp/adnuntius-1.9.tar.gz]
+[2023-06-06 02:44:22] INFO root fetch - main [MainThread]: End processing [adnuntius]: success
+[2023-06-06 02:44:22] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.3.0.tar.gz]
+[2023-06-06 02:44:22] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.4.0.tar.gz]
+[2023-06-06 02:44:22] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-06-06 02:44:23] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-06-06 02:44:23] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-06-06 02:44:23] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-06-06 02:44:25] INFO root fetch - processPackages [prismstudio-demo]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-demo-1.1.1.tar.gz]
+[2023-06-06 02:44:25] INFO root fetch - processPackages [prismstudio-demo]: Remove: archive file [/home/abi/fetcher/tmp/prismstudio-demo-1.1.1a0.tar.gz]
+[2023-06-06 02:44:25] INFO root fetch - main [MainThread]: End processing [prismstudio-demo]: success
+[2023-06-06 02:44:25] INFO root fetch - main [MainThread]: Store serial: [18383329]
