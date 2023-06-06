@@ -3626,3 +3626,69 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 03:26:55] INFO root fetch - processPackages [checkthechain]: Remove: archive file [/home/abi/fetcher/tmp/checkthechain-0.3.5.tar.gz]
 [2023-06-06 03:26:55] INFO root fetch - main [MainThread]: End processing [checkthechain]: success
 [2023-06-06 03:26:55] INFO root fetch - main [MainThread]: Store serial: [18383671]
+[2023-06-06 03:31:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18383671]
+[2023-06-06 03:32:04] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-06-06 03:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: searchlogit
+[2023-06-06 03:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-lambda-subminute
+[2023-06-06 03:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pkgmt
+[2023-06-06 03:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: adnuntius
+[2023-06-06 03:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pepperize.cdk-organizations
+[2023-06-06 03:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-lambda-layer-curl
+[2023-06-06 03:32:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: crankshaft
+[2023-06-06 03:32:04] INFO root fetch - processPackages [cdk-lambda-subminute]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-06 03:32:04] INFO root fetch - processPackages [searchlogit]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-06-06 03:32:04] INFO root fetch - processPackages [adnuntius]: New version: [1.9] Old Version: [1.8]
+[2023-06-06 03:32:04] INFO root fetch - processPackages [pkgmt]: New version: [0.6.0] Old Version: [0.5.1]
+[2023-06-06 03:32:04] INFO root fetch - processPackages [crankshaft]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-06-06 03:32:04] INFO root fetch - processPackages [cdk-lambda-layer-curl]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-06 03:32:04] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/f5/62/255711840ed9cd9070e216674becd88016cccca8dfbc9ebab1bc56121e22/searchlogit-0.3.8.tar.gz
+[2023-06-06 03:32:04] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/e5/12/963a9c9137cb30feaf66b7d9cb7a08a6ea591ebef038343c3b132f84bba7/cdk_lambda_subminute-2.0.98.tar.gz
+[2023-06-06 03:32:04] INFO root fetch - processPackages [pepperize.cdk-organizations]: New version: [0.7.99] Old Version: [0.7.98]
+[2023-06-06 03:32:04] INFO root fetch - processPackages [adnuntius]: Downloading https://files.pythonhosted.org/packages/5a/3e/9012077474db43a0f62e6fc05f786ce927dd892377b95713413e92728ef6/adnuntius-1.8.tar.gz
+[2023-06-06 03:32:04] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/c8/e2/39c88cfa63f418383f3a383b2b62dfe801cbfd5c53de4d005804c19d76dc/cdk-lambda-layer-curl-2.0.98.tar.gz
+[2023-06-06 03:32:04] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/c4/ec/fa2c14031b7b9ce22e4b044c652dd13a1a81769141fcd90e55c9eeb24d66/pepperize.cdk-organizations-0.7.98.tar.gz
+[2023-06-06 03:32:04] INFO root fetch - processPackages [adnuntius]: Downloading https://files.pythonhosted.org/packages/82/88/5cc388342ae0a1ab0b55016b7972c6969ed66e149cdc355ddd477f8c86f9/adnuntius-1.9.tar.gz
+[2023-06-06 03:32:04] INFO root fetch - processPackages [crankshaft]: Downloading https://files.pythonhosted.org/packages/31/ab/61664778995f0f2ce62913da239da392166b10791efdc114aa27755fded5/crankshaft-0.3.0.tar.gz
+[2023-06-06 03:32:04] INFO root fetch - processPackages [pkgmt]: Downloading https://files.pythonhosted.org/packages/ba/c7/2e64d33d871c2d9886bd326f6e2b042bb72f94b13ac6b7cb915a51f6527a/pkgmt-0.5.1.tar.gz
+[2023-06-06 03:32:04] INFO root fetch - processPackages [searchlogit]: Downloading https://files.pythonhosted.org/packages/fc/74/c3d19c1b4219c82f7f6b2a10adf23ac3255cf75ba8b4f5e2007458846ede/searchlogit-0.3.9.tar.gz
+[2023-06-06 03:32:04] INFO root fetch - processPackages [cdk-lambda-subminute]: Downloading https://files.pythonhosted.org/packages/72/85/0d48595efd9bc93c2b767982602157ef78a97896735d1d14075242ba3a9f/cdk_lambda_subminute-2.0.99.tar.gz
+[2023-06-06 03:32:04] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Downloading https://files.pythonhosted.org/packages/2e/02/9e7ab6bc6191e2cbe6705c1530f695ed00527096133668b731e72d6a6445/cdk-lambda-layer-curl-2.0.99.tar.gz
+[2023-06-06 03:32:04] INFO root fetch - processPackages [adnuntius]: executing diffoscope
+[2023-06-06 03:32:04] INFO root fetch - processPackages [adnuntius]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/adnuntius-1.8.tar.gz tmp/adnuntius-1.9.tar.gz --markdown 20230606/a/adnuntius/1.8-1.9/diff.md --exclude *.pyd
+[2023-06-06 03:32:04] INFO root fetch - processPackages [searchlogit]: executing diffoscope
+[2023-06-06 03:32:04] INFO root fetch - processPackages [searchlogit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/searchlogit-0.3.8.tar.gz tmp/searchlogit-0.3.9.tar.gz --markdown 20230606/s/searchlogit/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-06-06 03:32:04] INFO root fetch - processPackages [pepperize.cdk-organizations]: Downloading https://files.pythonhosted.org/packages/12/45/1106cc30844f7f4d96f7898a6ef3647d24a597c297bab995920a5915750e/pepperize.cdk-organizations-0.7.99.tar.gz
+[2023-06-06 03:32:04] INFO root fetch - processPackages [cdk-lambda-subminute]: executing diffoscope
+[2023-06-06 03:32:04] INFO root fetch - processPackages [cdk-lambda-subminute]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_lambda_subminute-2.0.98.tar.gz tmp/cdk_lambda_subminute-2.0.99.tar.gz --markdown 20230606/c/cdk-lambda-subminute/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-06 03:32:04] INFO root fetch - processPackages [cdk-lambda-layer-curl]: executing diffoscope
+[2023-06-06 03:32:04] INFO root fetch - processPackages [cdk-lambda-layer-curl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-curl-2.0.98.tar.gz tmp/cdk-lambda-layer-curl-2.0.99.tar.gz --markdown 20230606/c/cdk-lambda-layer-curl/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-06 03:32:04] INFO root fetch - processPackages [pepperize.cdk-organizations]: executing diffoscope
+[2023-06-06 03:32:04] INFO root fetch - processPackages [pepperize.cdk-organizations]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-organizations-0.7.98.tar.gz tmp/pepperize.cdk-organizations-0.7.99.tar.gz --markdown 20230606/p/pepperize.cdk-organizations/0.7.98-0.7.99/diff.md --exclude *.pyd
+[2023-06-06 03:32:04] INFO root fetch - processPackages [crankshaft]: Downloading https://files.pythonhosted.org/packages/7d/b6/fdc0433ba405019f877d812021ae49c1ae3441e2e74cf9d0109424237b0a/crankshaft-0.3.1.tar.gz
+[2023-06-06 03:32:05] INFO root fetch - processPackages [pkgmt]: Downloading https://files.pythonhosted.org/packages/7d/9d/2b7f341bccc8fbd3450c72e05542bba98356db817e96069fe1858eb442e3/pkgmt-0.6.0.tar.gz
+[2023-06-06 03:32:05] INFO root fetch - processPackages [crankshaft]: executing diffoscope
+[2023-06-06 03:32:05] INFO root fetch - processPackages [crankshaft]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crankshaft-0.3.0.tar.gz tmp/crankshaft-0.3.1.tar.gz --markdown 20230606/c/crankshaft/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-06-06 03:32:05] INFO root fetch - processPackages [pkgmt]: executing diffoscope
+[2023-06-06 03:32:05] INFO root fetch - processPackages [pkgmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgmt-0.5.1.tar.gz tmp/pkgmt-0.6.0.tar.gz --markdown 20230606/p/pkgmt/0.5.1-0.6.0/diff.md --exclude *.pyd
+[2023-06-06 03:32:05] INFO root fetch - processPackages [adnuntius]: Remove: archive file [/home/abi/fetcher/tmp/adnuntius-1.8.tar.gz]
+[2023-06-06 03:32:05] INFO root fetch - processPackages [adnuntius]: Remove: archive file [/home/abi/fetcher/tmp/adnuntius-1.9.tar.gz]
+[2023-06-06 03:32:05] INFO root fetch - main [MainThread]: End processing [adnuntius]: success
+[2023-06-06 03:32:06] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.98.tar.gz]
+[2023-06-06 03:32:06] INFO root fetch - processPackages [cdk-lambda-subminute]: Remove: archive file [/home/abi/fetcher/tmp/cdk_lambda_subminute-2.0.99.tar.gz]
+[2023-06-06 03:32:06] INFO root fetch - main [MainThread]: End processing [cdk-lambda-subminute]: success
+[2023-06-06 03:32:06] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.8.tar.gz]
+[2023-06-06 03:32:06] INFO root fetch - processPackages [searchlogit]: Remove: archive file [/home/abi/fetcher/tmp/searchlogit-0.3.9.tar.gz]
+[2023-06-06 03:32:06] INFO root fetch - main [MainThread]: End processing [searchlogit]: success
+[2023-06-06 03:32:06] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.98.tar.gz]
+[2023-06-06 03:32:06] INFO root fetch - processPackages [pepperize.cdk-organizations]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-organizations-0.7.99.tar.gz]
+[2023-06-06 03:32:06] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-organizations]: success
+[2023-06-06 03:32:06] INFO root fetch - processPackages [crankshaft]: Remove: archive file [/home/abi/fetcher/tmp/crankshaft-0.3.0.tar.gz]
+[2023-06-06 03:32:06] INFO root fetch - processPackages [crankshaft]: Remove: archive file [/home/abi/fetcher/tmp/crankshaft-0.3.1.tar.gz]
+[2023-06-06 03:32:06] INFO root fetch - main [MainThread]: End processing [crankshaft]: success
+[2023-06-06 03:32:06] INFO root fetch - processPackages [pkgmt]: Remove: archive file [/home/abi/fetcher/tmp/pkgmt-0.5.1.tar.gz]
+[2023-06-06 03:32:06] INFO root fetch - processPackages [pkgmt]: Remove: archive file [/home/abi/fetcher/tmp/pkgmt-0.6.0.tar.gz]
+[2023-06-06 03:32:06] INFO root fetch - main [MainThread]: End processing [pkgmt]: success
+[2023-06-06 03:32:09] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.98.tar.gz]
+[2023-06-06 03:32:09] INFO root fetch - processPackages [cdk-lambda-layer-curl]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-curl-2.0.99.tar.gz]
+[2023-06-06 03:32:09] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-curl]: success
+[2023-06-06 03:32:09] INFO root fetch - main [MainThread]: Store serial: [18383692]
