@@ -11391,3 +11391,33 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 05:37:56] INFO root fetch - processPackages [odoo-addon-attachment-preview]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_attachment_preview-15.0.1.0.0.6-py3-none-any.whl.zip]
 [2023-06-06 05:37:56] INFO root fetch - main [MainThread]: End processing [odoo-addon-attachment-preview]: success
 [2023-06-06 05:37:56] INFO root fetch - main [MainThread]: Store serial: [18386296]
+[2023-06-06 05:43:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18386296]
+[2023-06-06 05:43:05] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-06-06 05:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo14-addons-oca-l10n-brazil
+[2023-06-06 05:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plutous
+[2023-06-06 05:43:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neo-fairy-client
+[2023-06-06 05:43:05] INFO root fetch - processPackages [odoo14-addons-oca-l10n-brazil]: New version: [14.0.20230605.0] Old Version: [14.0.20230601.0]
+[2023-06-06 05:43:05] INFO root fetch - processPackages [plutous]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 05:43:05] INFO root fetch - processPackages [neo-fairy-client]: New version: [3.4.1.1] Old Version: [3.4.0.2]
+[2023-06-06 05:43:05] INFO root fetch - processPackages [odoo14-addons-oca-l10n-brazil]: Downloading https://files.pythonhosted.org/packages/cd/bc/2d79e46c65199b5ea0c99deadff584f05fd58093f582fe8319304a077b32/odoo14_addons_oca_l10n_brazil-14.0.20230601.0-py3-none-any.whl
+[2023-06-06 05:43:05] INFO root fetch - processPackages [neo-fairy-client]: Downloading https://files.pythonhosted.org/packages/38/43/77d671e2bc27edc626be17a74fff00081677e2839d4c996b23677ebddd15/neo-fairy-client-3.4.0.2.tar.gz
+[2023-06-06 05:43:05] INFO root fetch - processPackages [plutous]: Downloading https://files.pythonhosted.org/packages/7b/87/46b01464a031b3864589f4a2f515085b798f18797f8b387d7b906381ae01/plutous-0.0.8.tar.gz
+[2023-06-06 05:43:05] INFO root fetch - processPackages [odoo14-addons-oca-l10n-brazil]: Downloading https://files.pythonhosted.org/packages/fc/89/6c07b7d3a64ce85e244a338fad3998d6df026d3b3704ee3b63e0a14bed5a/odoo14_addons_oca_l10n_brazil-14.0.20230605.0-py3-none-any.whl
+[2023-06-06 05:43:06] INFO root fetch - processPackages [odoo14-addons-oca-l10n-brazil]: executing diffoscope
+[2023-06-06 05:43:06] INFO root fetch - processPackages [odoo14-addons-oca-l10n-brazil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addons_oca_l10n_brazil-14.0.20230601.0-py3-none-any.whl.zip tmp/odoo14_addons_oca_l10n_brazil-14.0.20230605.0-py3-none-any.whl.zip --markdown 20230606/o/odoo14-addons-oca-l10n-brazil/14.0.20230601.0-14.0.20230605.0/diff.md --exclude *.pyd
+[2023-06-06 05:43:06] INFO root fetch - processPackages [neo-fairy-client]: Downloading https://files.pythonhosted.org/packages/97/c8/4cbb2f1a2f5cda5ecdb44e36984d578785d78ae6a9d6c7fa193930c44e09/neo-fairy-client-3.4.1.1.tar.gz
+[2023-06-06 05:43:06] INFO root fetch - processPackages [plutous]: Downloading https://files.pythonhosted.org/packages/54/c3/3478de94362c23cfcaeae6b671240a12c457a692e0f09d11529ad56a320b/plutous-0.0.9.tar.gz
+[2023-06-06 05:43:06] INFO root fetch - processPackages [neo-fairy-client]: executing diffoscope
+[2023-06-06 05:43:06] INFO root fetch - processPackages [neo-fairy-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neo-fairy-client-3.4.0.2.tar.gz tmp/neo-fairy-client-3.4.1.1.tar.gz --markdown 20230606/n/neo-fairy-client/3.4.0.2-3.4.1.1/diff.md --exclude *.pyd
+[2023-06-06 05:43:06] INFO root fetch - processPackages [plutous]: executing diffoscope
+[2023-06-06 05:43:06] INFO root fetch - processPackages [plutous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plutous-0.0.8.tar.gz tmp/plutous-0.0.9.tar.gz --markdown 20230606/p/plutous/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 05:43:07] INFO root fetch - processPackages [odoo14-addons-oca-l10n-brazil]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_l10n_brazil-14.0.20230601.0-py3-none-any.whl.zip]
+[2023-06-06 05:43:07] INFO root fetch - processPackages [odoo14-addons-oca-l10n-brazil]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addons_oca_l10n_brazil-14.0.20230605.0-py3-none-any.whl.zip]
+[2023-06-06 05:43:07] INFO root fetch - main [MainThread]: End processing [odoo14-addons-oca-l10n-brazil]: success
+[2023-06-06 05:43:07] INFO root fetch - processPackages [plutous]: Remove: archive file [/home/abi/fetcher/tmp/plutous-0.0.8.tar.gz]
+[2023-06-06 05:43:07] INFO root fetch - processPackages [plutous]: Remove: archive file [/home/abi/fetcher/tmp/plutous-0.0.9.tar.gz]
+[2023-06-06 05:43:07] INFO root fetch - main [MainThread]: End processing [plutous]: success
+[2023-06-06 05:43:07] INFO root fetch - processPackages [neo-fairy-client]: Remove: archive file [/home/abi/fetcher/tmp/neo-fairy-client-3.4.0.2.tar.gz]
+[2023-06-06 05:43:07] INFO root fetch - processPackages [neo-fairy-client]: Remove: archive file [/home/abi/fetcher/tmp/neo-fairy-client-3.4.1.1.tar.gz]
+[2023-06-06 05:43:07] INFO root fetch - main [MainThread]: End processing [neo-fairy-client]: success
+[2023-06-06 05:43:07] INFO root fetch - main [MainThread]: Store serial: [18386310]
