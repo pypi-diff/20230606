@@ -21039,3 +21039,248 @@ subprocess.CalledProcessError: Command '['xxd {}']' returned non-zero exit statu
 [2023-06-06 13:27:18] INFO root fetch - processPackages [lavacli]: Remove: archive file [/home/abi/fetcher/tmp/lavacli-2.0.tar.gz]
 [2023-06-06 13:27:18] INFO root fetch - main [MainThread]: End processing [lavacli]: success
 [2023-06-06 13:27:18] INFO root fetch - main [MainThread]: Store serial: [18390436]
+[2023-06-06 13:32:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18390436]
+[2023-06-06 13:32:28] INFO root fetch - main [MainThread]: Found 28 changed packages
+[2023-06-06 13:32:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchserve-nightly
+[2023-06-06 13:32:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: torch-model-archiver-nightly
+[2023-06-06 13:32:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: torch-workflow-archiver-nightly
+[2023-06-06 13:32:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kodexa
+[2023-06-06 13:32:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gmltools
+[2023-06-06 13:32:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: torchrl-nightly
+[2023-06-06 13:32:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mkdocs-charts-plugin
+[2023-06-06 13:32:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: clipol
+[2023-06-06 13:32:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pulumi-civo
+[2023-06-06 13:32:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pasta-eln
+[2023-06-06 13:32:28] INFO root fetch - processPackages [pulumi-civo]: New version: [2.4.0a1686049790] Old Version: [2.4.0a1685164790]
+[2023-06-06 13:32:28] INFO root fetch - processPackages [gmltools]: New version: [0.0.78] Old Version: [0.0.77]
+[2023-06-06 13:32:28] INFO root fetch - processPackages [mkdocs-charts-plugin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-06-06 13:32:28] INFO root fetch - processPackages [pasta-eln]: New version: [2.3.9] Old Version: [2.3.8]
+[2023-06-06 13:32:28] WARNING root fetch - processPackages [clipol]: Skipping, unable to determine old version
+[2023-06-06 13:32:28] INFO root fetch - processPackages [clipol]: Start processing: torchrec-nightly
+[2023-06-06 13:32:28] INFO root fetch - main [MainThread]: End processing [clipol] error
+[2023-06-06 13:32:28] INFO root fetch - processPackages [kodexa]: New version: [6.2.25187940582] Old Version: [6.2.25177508890]
+[2023-06-06 13:32:28] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.6.5] Old Version: [2023.6.4]
+[2023-06-06 13:32:28] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.6.6] Old Version: [2023.6.5]
+[2023-06-06 13:32:28] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.6.6] Old Version: [2023.6.5]
+[2023-06-06 13:32:28] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.6.6] Old Version: [2023.6.5]
+[2023-06-06 13:32:28] INFO root fetch - processPackages [torchrl-nightly]: New version: [2023.6.6] Old Version: [2023.6.5]
+[2023-06-06 13:32:28] INFO root fetch - processPackages [gmltools]: Downloading https://files.pythonhosted.org/packages/b2/6f/a7c1ef0374671a29a05b3f021b01d2eb28f4541205f2f200320c37d65719/gmltools-0.0.77.tar.gz
+[2023-06-06 13:32:28] INFO root fetch - processPackages [pasta-eln]: Downloading https://files.pythonhosted.org/packages/59/01/45ffea951e67890c77f3163c7ed1a04ee8ce4d2bb13f356a5a300937db83/pasta_eln-2.3.8-py3-none-any.whl
+[2023-06-06 13:32:28] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/4a/40/43ce10a2dedda98694e5335664b4084aa8f50aef570dc6e8a2fa1db41563/pulumi_civo-2.4.0a1685164790.tar.gz
+[2023-06-06 13:32:28] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/0d/af/53c8b32bf1d28ac1ebc1778c1e52f504e968044d5b5761ee615588239379/kodexa-6.2.25177508890.tar.gz
+[2023-06-06 13:32:28] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/5b/8f/06d9b7625d618f27a52067d826316df7b8b7238ef178fbebaf65dc606d6c/torchserve_nightly-2023.6.5-py3-none-any.whl
+[2023-06-06 13:32:28] INFO root fetch - processPackages [mkdocs-charts-plugin]: Downloading https://files.pythonhosted.org/packages/40/86/49dc254503980bc00d1e3f76e565e592945781942808a7a635c7ac87668c/mkdocs-charts-plugin-0.0.8.tar.gz
+[2023-06-06 13:32:28] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/4e/39/05843e3af033df7c7e8a7fce3b2c51b3aaefe62ae7ee89a5291240f7c359/torchrec_nightly-2023.6.4-py39-none-any.whl
+[2023-06-06 13:32:28] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/b4/b3/7fb881cb71f324cbad777bd3ef0e72fb58d404014067ee5ec3e9e7e10858/torch_model_archiver_nightly-2023.6.5-py3-none-any.whl
+[2023-06-06 13:32:28] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23719571>=10485760
+[2023-06-06 13:32:28] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/63/ad/bdc739870478651dab3b93343e7562e8838e6c0c8b14b0d0eaa781583468/torch_workflow_archiver_nightly-2023.6.5-py3-none-any.whl
+[2023-06-06 13:32:28] INFO root fetch - processPackages [torchserve-nightly]: Start processing: appier-report
+[2023-06-06 13:32:28] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-06-06 13:32:28] INFO root fetch - processPackages [appier-report]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-06 13:32:28] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/72/9a/9b0da7611a1b6edc323c08989fa61dd0ac1d8f3366086e5a578a5b3e59c5/torchrl_nightly-2023.6.5-cp39-cp39-win_amd64.whl
+[2023-06-06 13:32:28] INFO root fetch - processPackages [appier-report]: Downloading https://files.pythonhosted.org/packages/5a/02/ad74a59bc143cd0c4f0844698fb3fa72cdaf5ba14f4f8e1ee00298c4a576/appier_report-1.0.1.tar.gz
+[2023-06-06 13:32:28] INFO root fetch - processPackages [pasta-eln]: Downloading https://files.pythonhosted.org/packages/ff/12/4f1000dade1566838e3e724b7d28c6409c52ce7ac4152a176bdc17bdb32f/pasta_eln-2.3.9-py3-none-any.whl
+[2023-06-06 13:32:28] INFO root fetch - processPackages [pulumi-civo]: Downloading https://files.pythonhosted.org/packages/1a/de/8b6a9bc142c59cae57109352044b97a300c98138df68c5378884171bcaf1/pulumi_civo-2.4.0a1686049790.tar.gz
+[2023-06-06 13:32:28] INFO root fetch - processPackages [gmltools]: Downloading https://files.pythonhosted.org/packages/14/41/dd299754aab8656595615cbf0b27cff3a1f69faa1c726ee4d037e9b401fe/gmltools-0.0.78.tar.gz
+[2023-06-06 13:32:28] INFO root fetch - processPackages [kodexa]: Downloading https://files.pythonhosted.org/packages/71/bd/dd2829175ed50c27a43bb8af4d092c3bdf119f9885930517b69f8fab95d7/kodexa-6.2.25187940582.tar.gz
+[2023-06-06 13:32:28] INFO root fetch - processPackages [mkdocs-charts-plugin]: Downloading https://files.pythonhosted.org/packages/98/85/f322c5386f4fbba2b1bf3d49eee11e315779308af2f427b6a228022a912d/mkdocs-charts-plugin-0.0.9.tar.gz
+[2023-06-06 13:32:28] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/9d/da/95ab87c69d5ef1050ce959bd669f0b0d55874b84c61c84b1b208bf6f8476/torch_model_archiver_nightly-2023.6.6-py3-none-any.whl
+[2023-06-06 13:32:28] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/23/a5/27753592f59aafbb750cd9cb78bb36bda2dcaaea5bcb7110e8b300c03981/torchrec_nightly-2023.6.5-py39-none-any.whl
+[2023-06-06 13:32:28] INFO root fetch - processPackages [pasta-eln]: executing diffoscope
+[2023-06-06 13:32:28] INFO root fetch - processPackages [pasta-eln]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pasta_eln-2.3.8-py3-none-any.whl.zip tmp/pasta_eln-2.3.9-py3-none-any.whl.zip --markdown 20230606/p/pasta-eln/2.3.8-2.3.9/diff.md --exclude *.pyd
+[2023-06-06 13:32:29] INFO root fetch - processPackages [pulumi-civo]: executing diffoscope
+[2023-06-06 13:32:29] INFO root fetch - processPackages [pulumi-civo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_civo-2.4.0a1685164790.tar.gz tmp/pulumi_civo-2.4.0a1686049790.tar.gz --markdown 20230606/p/pulumi-civo/2.4.0a1685164790-2.4.0a1686049790/diff.md --exclude *.pyd
+[2023-06-06 13:32:29] INFO root fetch - processPackages [mkdocs-charts-plugin]: executing diffoscope
+[2023-06-06 13:32:29] INFO root fetch - processPackages [mkdocs-charts-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-charts-plugin-0.0.8.tar.gz tmp/mkdocs-charts-plugin-0.0.9.tar.gz --markdown 20230606/m/mkdocs-charts-plugin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-06-06 13:32:29] INFO root fetch - processPackages [gmltools]: executing diffoscope
+[2023-06-06 13:32:29] INFO root fetch - processPackages [gmltools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmltools-0.0.77.tar.gz tmp/gmltools-0.0.78.tar.gz --markdown 20230606/g/gmltools/0.0.77-0.0.78/diff.md --exclude *.pyd
+[2023-06-06 13:32:29] INFO root fetch - processPackages [torchrl-nightly]: Downloading https://files.pythonhosted.org/packages/d3/bb/6370c53ad77bbd9fe531f703103bdb7e533a15bdc90c2c0dcdc197a0595a/torchrl_nightly-2023.6.6-cp39-cp39-win_amd64.whl
+[2023-06-06 13:32:29] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/ee/df/6913f8928a085929c483c8390fa90520da8f8ea697363028ca2e6805ae81/torch_workflow_archiver_nightly-2023.6.6-py3-none-any.whl
+[2023-06-06 13:32:29] INFO root fetch - processPackages [appier-report]: Downloading https://files.pythonhosted.org/packages/0e/21/9bbe7847d7e0cf197485ff4b94b89f9498dfeefc2de407f65f9e1a1f0979/appier_report-1.0.2.tar.gz
+[2023-06-06 13:32:29] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-06-06 13:32:29] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.6.4-py39-none-any.whl.zip tmp/torchrec_nightly-2023.6.5-py39-none-any.whl.zip --markdown 20230606/t/torchrec-nightly/2023.6.4-2023.6.5/diff.md --exclude *.pyd
+[2023-06-06 13:32:29] INFO root fetch - processPackages [kodexa]: executing diffoscope
+[2023-06-06 13:32:29] INFO root fetch - processPackages [kodexa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kodexa-6.2.25177508890.tar.gz tmp/kodexa-6.2.25187940582.tar.gz --markdown 20230606/k/kodexa/6.2.25177508890-6.2.25187940582/diff.md --exclude *.pyd
+[2023-06-06 13:32:29] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-06-06 13:32:29] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.6.5-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.6.6-py3-none-any.whl.zip --markdown 20230606/t/torch-model-archiver-nightly/2023.6.5-2023.6.6/diff.md --exclude *.pyd
+[2023-06-06 13:32:29] INFO root fetch - processPackages [appier-report]: executing diffoscope
+[2023-06-06 13:32:29] INFO root fetch - processPackages [appier-report]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/appier_report-1.0.1.tar.gz tmp/appier_report-1.0.2.tar.gz --markdown 20230606/a/appier-report/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-06 13:32:29] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-06-06 13:32:29] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.6.5-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.6.6-py3-none-any.whl.zip --markdown 20230606/t/torch-workflow-archiver-nightly/2023.6.5-2023.6.6/diff.md --exclude *.pyd
+[2023-06-06 13:32:29] INFO root fetch - processPackages [torchrl-nightly]: executing diffoscope
+[2023-06-06 13:32:29] INFO root fetch - processPackages [torchrl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrl_nightly-2023.6.5-cp39-cp39-win_amd64.whl.zip tmp/torchrl_nightly-2023.6.6-cp39-cp39-win_amd64.whl.zip --markdown 20230606/t/torchrl-nightly/2023.6.5-2023.6.6/diff.md --exclude *.pyd
+[2023-06-06 13:32:30] INFO root fetch - processPackages [pasta-eln]: Remove: archive file [/home/abi/fetcher/tmp/pasta_eln-2.3.8-py3-none-any.whl.zip]
+[2023-06-06 13:32:30] INFO root fetch - processPackages [pasta-eln]: Remove: archive file [/home/abi/fetcher/tmp/pasta_eln-2.3.9-py3-none-any.whl.zip]
+[2023-06-06 13:32:30] INFO root fetch - processPackages [pasta-eln]: Start processing: tvv
+[2023-06-06 13:32:30] INFO root fetch - main [MainThread]: End processing [pasta-eln]: success
+[2023-06-06 13:32:30] INFO root fetch - processPackages [tvv]: New version: [0.1] Old Version: [0.0]
+[2023-06-06 13:32:30] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.5-py3-none-any.whl.zip]
+[2023-06-06 13:32:30] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.6.6-py3-none-any.whl.zip]
+[2023-06-06 13:32:30] INFO root fetch - processPackages [torch-model-archiver-nightly]: Start processing: elg
+[2023-06-06 13:32:30] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-06-06 13:32:30] INFO root fetch - processPackages [elg]: New version: [0.5.0] Old Version: [0.4.post1]
+[2023-06-06 13:32:30] INFO root fetch - processPackages [mkdocs-charts-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-charts-plugin-0.0.8.tar.gz]
+[2023-06-06 13:32:30] INFO root fetch - processPackages [mkdocs-charts-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-charts-plugin-0.0.9.tar.gz]
+[2023-06-06 13:32:30] INFO root fetch - processPackages [mkdocs-charts-plugin]: Start processing: python-sscha
+[2023-06-06 13:32:30] INFO root fetch - main [MainThread]: End processing [mkdocs-charts-plugin]: success
+[2023-06-06 13:32:30] INFO root fetch - processPackages [python-sscha]: New version: [1.3.1] Old Version: [1.3]
+[2023-06-06 13:32:30] INFO root fetch - processPackages [appier-report]: Remove: archive file [/home/abi/fetcher/tmp/appier_report-1.0.1.tar.gz]
+[2023-06-06 13:32:30] INFO root fetch - processPackages [appier-report]: Remove: archive file [/home/abi/fetcher/tmp/appier_report-1.0.2.tar.gz]
+[2023-06-06 13:32:30] INFO root fetch - processPackages [appier-report]: Start processing: m3u8-XZ
+[2023-06-06 13:32:30] INFO root fetch - main [MainThread]: End processing [appier-report]: success
+[2023-06-06 13:32:30] INFO root fetch - processPackages [tvv]: Downloading https://files.pythonhosted.org/packages/75/99/0ff745e628f9d8538f744cb8b4993d5169e91a1e9abde6af96ed28a03e5f/tvv-0.0.tar.gz
+[2023-06-06 13:32:30] INFO root fetch - processPackages [m3u8-XZ]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-06-06 13:32:30] INFO root fetch - processPackages [elg]: Downloading https://files.pythonhosted.org/packages/c0/d1/00c2f3ea2a1c82dc8f6e8cd446704b228611233e1cbe94932a9d437583c0/elg-0.4.post1.tar.gz
+[2023-06-06 13:32:30] INFO root fetch - processPackages [python-sscha]: Downloading https://files.pythonhosted.org/packages/d7/53/21634310834c042dbfec5bf64b0fe6287ed93a428ce64b864295c3f8ee00/python-sscha-1.3.tar.gz
+[2023-06-06 13:32:31] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.5-py3-none-any.whl.zip]
+[2023-06-06 13:32:31] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.6.6-py3-none-any.whl.zip]
+[2023-06-06 13:32:31] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Start processing: hcai-nova-server-nightly
+[2023-06-06 13:32:31] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-06-06 13:32:31] INFO root fetch - processPackages [hcai-nova-server-nightly]: New version: [0.1.9.dev202306060908] Old Version: [0.1.9.dev202306051512]
+[2023-06-06 13:32:31] INFO root fetch - processPackages [m3u8-XZ]: Downloading https://files.pythonhosted.org/packages/fb/b7/7564d2e62fe6f79a627d51c1dbc800a1f1206f5fe169fc107b29d9afcc75/m3u8_XZ-0.0.2.tar.gz
+[2023-06-06 13:32:31] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/87/a7/6a453a13323cd23d58747ac82b2a78d39a008bc35fb4950e4ba9b79d8f28/hcai-nova-server-nightly-0.1.9.dev202306051512.tar.gz
+[2023-06-06 13:32:31] INFO root fetch - processPackages [tvv]: Downloading https://files.pythonhosted.org/packages/5a/26/d10ccf2908899250587fb958ec295298e7111a38b5b331d292144b141213/tvv-0.1.tar.gz
+[2023-06-06 13:32:31] INFO root fetch - processPackages [python-sscha]: Downloading https://files.pythonhosted.org/packages/1a/6f/70d992003346af80d05a8dcd20a71bd640c18b170f53839b88c59bf4163d/python-sscha-1.3.1.tar.gz
+[2023-06-06 13:32:31] INFO root fetch - processPackages [python-sscha]: executing diffoscope
+[2023-06-06 13:32:31] INFO root fetch - processPackages [python-sscha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-sscha-1.3.tar.gz tmp/python-sscha-1.3.1.tar.gz --markdown 20230606/p/python-sscha/1.3-1.3.1/diff.md --exclude *.pyd
+[2023-06-06 13:32:31] INFO root fetch - processPackages [elg]: Downloading https://files.pythonhosted.org/packages/c4/e3/23679e9a11ada879d58c9e271badcaffe1bf6713e77473fae525223252cf/elg-0.5.0.tar.gz
+[2023-06-06 13:32:31] INFO root fetch - processPackages [tvv]: executing diffoscope
+[2023-06-06 13:32:31] INFO root fetch - processPackages [tvv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tvv-0.0.tar.gz tmp/tvv-0.1.tar.gz --markdown 20230606/t/tvv/0.0-0.1/diff.md --exclude *.pyd
+[2023-06-06 13:32:31] INFO root fetch - processPackages [m3u8-XZ]: Downloading https://files.pythonhosted.org/packages/b8/7e/07451e107d5aa58e17dffd917dc7ed37254bb75e3a2bca042091b3a0cdf6/m3u8_XZ-0.0.3.tar.gz
+[2023-06-06 13:32:31] INFO root fetch - processPackages [elg]: executing diffoscope
+[2023-06-06 13:32:31] INFO root fetch - processPackages [elg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/elg-0.4.post1.tar.gz tmp/elg-0.5.0.tar.gz --markdown 20230606/e/elg/0.4.post1-0.5.0/diff.md --exclude *.pyd
+[2023-06-06 13:32:31] INFO root fetch - processPackages [hcai-nova-server-nightly]: Downloading https://files.pythonhosted.org/packages/4a/b0/7349a84c86940e5f8c8b22ef05d6ade85f6619aa27865d53025dd91feed9/hcai-nova-server-nightly-0.1.9.dev202306060908.tar.gz
+[2023-06-06 13:32:31] INFO root fetch - processPackages [m3u8-XZ]: executing diffoscope
+[2023-06-06 13:32:31] INFO root fetch - processPackages [m3u8-XZ]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/m3u8_XZ-0.0.2.tar.gz tmp/m3u8_XZ-0.0.3.tar.gz --markdown 20230606/m/m3u8-XZ/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-06-06 13:32:31] INFO root fetch - processPackages [hcai-nova-server-nightly]: executing diffoscope
+[2023-06-06 13:32:31] INFO root fetch - processPackages [hcai-nova-server-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hcai-nova-server-nightly-0.1.9.dev202306051512.tar.gz tmp/hcai-nova-server-nightly-0.1.9.dev202306060908.tar.gz --markdown 20230606/h/hcai-nova-server-nightly/0.1.9.dev202306051512-0.1.9.dev202306060908/diff.md --exclude *.pyd
+[2023-06-06 13:32:31] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.6.4-py39-none-any.whl.zip]
+[2023-06-06 13:32:31] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.6.5-py39-none-any.whl.zip]
+[2023-06-06 13:32:31] INFO root fetch - processPackages [torchrec-nightly]: Start processing: finetuner-stubs
+[2023-06-06 13:32:31] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-06-06 13:32:31] INFO root fetch - processPackages [finetuner-stubs]: New version: [0.9.3] Old Version: [0.13.7rc1]
+[2023-06-06 13:32:31] INFO root fetch - processPackages [finetuner-stubs]: Downloading https://files.pythonhosted.org/packages/10/68/a66cdcbe0f2078798327c8cabfc21420e6e83ed89cc109cda03fe8d6645f/finetuner_stubs-0.13.7rc1-py3-none-any.whl
+[2023-06-06 13:32:31] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.6.5-cp39-cp39-win_amd64.whl.zip]
+[2023-06-06 13:32:31] INFO root fetch - processPackages [torchrl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrl_nightly-2023.6.6-cp39-cp39-win_amd64.whl.zip]
+[2023-06-06 13:32:31] INFO root fetch - processPackages [torchrl-nightly]: Start processing: fingerprint-pro-server-api-sdk
+[2023-06-06 13:32:31] INFO root fetch - main [MainThread]: End processing [torchrl-nightly]: success
+[2023-06-06 13:32:31] INFO root fetch - processPackages [fingerprint-pro-server-api-sdk]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-06-06 13:32:32] INFO root fetch - processPackages [gmltools]: Remove: archive file [/home/abi/fetcher/tmp/gmltools-0.0.77.tar.gz]
+[2023-06-06 13:32:32] INFO root fetch - processPackages [gmltools]: Remove: archive file [/home/abi/fetcher/tmp/gmltools-0.0.78.tar.gz]
+[2023-06-06 13:32:32] INFO root fetch - processPackages [gmltools]: Start processing: finetuner-commons
+[2023-06-06 13:32:32] INFO root fetch - main [MainThread]: End processing [gmltools]: success
+[2023-06-06 13:32:32] INFO root fetch - processPackages [finetuner-stubs]: Downloading https://files.pythonhosted.org/packages/ef/16/270441d5d09ae4589cc4559a4e500eceea41c57fc45893813e21f24b16dc/finetuner-stubs-0.9.3.tar.gz
+[2023-06-06 13:32:32] INFO root fetch - processPackages [finetuner-commons]: New version: [0.9.3] Old Version: [0.13.7rc1]
+[2023-06-06 13:32:32] INFO root fetch - processPackages [finetuner-stubs]: executing diffoscope
+[2023-06-06 13:32:32] INFO root fetch - processPackages [finetuner-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finetuner_stubs-0.13.7rc1-py3-none-any.whl.zip tmp/finetuner-stubs-0.9.3.tar.gz --markdown 20230606/f/finetuner-stubs/0.13.7rc1-0.9.3/diff.md --exclude *.pyd
+[2023-06-06 13:32:32] INFO root fetch - processPackages [fingerprint-pro-server-api-sdk]: Downloading https://files.pythonhosted.org/packages/1e/79/eb8f01bb76048b82eef02973fa4ce57af4344a3b3c0a4dbd61b108be29d9/fingerprint-pro-server-api-sdk-2.2.0.tar.gz
+[2023-06-06 13:32:32] INFO root fetch - processPackages [finetuner-commons]: Downloading https://files.pythonhosted.org/packages/af/83/80e877e5179dae9c74883eea057fa55633b5ad449d48eb32f7d418b910f4/finetuner_commons-0.13.7rc1-py3-none-any.whl
+[2023-06-06 13:32:32] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1685164790.tar.gz]
+[2023-06-06 13:32:32] INFO root fetch - processPackages [pulumi-civo]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_civo-2.4.0a1686049790.tar.gz]
+[2023-06-06 13:32:32] INFO root fetch - processPackages [pulumi-civo]: Start processing: modelz-llm
+[2023-06-06 13:32:32] INFO root fetch - main [MainThread]: End processing [pulumi-civo]: success
+[2023-06-06 13:32:32] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.2.25177508890.tar.gz]
+[2023-06-06 13:32:32] INFO root fetch - processPackages [kodexa]: Remove: archive file [/home/abi/fetcher/tmp/kodexa-6.2.25187940582.tar.gz]
+[2023-06-06 13:32:32] INFO root fetch - processPackages [kodexa]: Start processing: ariadne-codegen
+[2023-06-06 13:32:32] INFO root fetch - main [MainThread]: End processing [kodexa]: success
+[2023-06-06 13:32:32] INFO root fetch - processPackages [modelz-llm]: New version: [23.6.9] Old Version: [23.6.8]
+[2023-06-06 13:32:32] INFO root fetch - processPackages [ariadne-codegen]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-06-06 13:32:32] INFO root fetch - processPackages [modelz-llm]: Downloading https://files.pythonhosted.org/packages/f0/7f/aacc5708a48b3f480b9400e712426d4d4118d37b8d63d46fd3491c61c067/modelz-llm-23.6.8.tar.gz
+[2023-06-06 13:32:32] INFO root fetch - processPackages [fingerprint-pro-server-api-sdk]: Downloading https://files.pythonhosted.org/packages/ce/1e/56cb652e9ff8ef75e8f9736bd64fae696e67115a8928a606bd9fce3e74b1/fingerprint-pro-server-api-sdk-2.3.0.tar.gz
+[2023-06-06 13:32:32] INFO root fetch - processPackages [finetuner-commons]: Downloading https://files.pythonhosted.org/packages/e1/c1/11430d37c19d8b297ea0e066a6e93ea1316ef71b4a98447a0f0eb51d465d/finetuner-commons-0.9.3.tar.gz
+[2023-06-06 13:32:32] INFO root fetch - processPackages [fingerprint-pro-server-api-sdk]: executing diffoscope
+[2023-06-06 13:32:32] INFO root fetch - processPackages [fingerprint-pro-server-api-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fingerprint-pro-server-api-sdk-2.2.0.tar.gz tmp/fingerprint-pro-server-api-sdk-2.3.0.tar.gz --markdown 20230606/f/fingerprint-pro-server-api-sdk/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-06-06 13:32:32] INFO root fetch - processPackages [tvv]: Remove: archive file [/home/abi/fetcher/tmp/tvv-0.0.tar.gz]
+[2023-06-06 13:32:32] INFO root fetch - processPackages [tvv]: Remove: archive file [/home/abi/fetcher/tmp/tvv-0.1.tar.gz]
+[2023-06-06 13:32:32] INFO root fetch - processPackages [tvv]: Start processing: tap-exact
+[2023-06-06 13:32:32] INFO root fetch - main [MainThread]: End processing [tvv]: success
+[2023-06-06 13:32:32] INFO root fetch - processPackages [modelz-llm]: Downloading https://files.pythonhosted.org/packages/66/a2/65210af0e41ae8501bc41dcfa062682db900c54c57b983cb51f37368ad01/modelz-llm-23.6.9.tar.gz
+[2023-06-06 13:32:32] INFO root fetch - processPackages [ariadne-codegen]: Downloading https://files.pythonhosted.org/packages/74/54/a517e37d52f68dd432f852fd80a8b4d29e2b1915477a4e3108a9a4ca7bf1/ariadne_codegen-0.7.0.tar.gz
+[2023-06-06 13:32:32] INFO root fetch - processPackages [tap-exact]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-06-06 13:32:32] INFO root fetch - processPackages [finetuner-commons]: executing diffoscope
+[2023-06-06 13:32:32] INFO root fetch - processPackages [finetuner-commons]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/finetuner_commons-0.13.7rc1-py3-none-any.whl.zip tmp/finetuner-commons-0.9.3.tar.gz --markdown 20230606/f/finetuner-commons/0.13.7rc1-0.9.3/diff.md --exclude *.pyd
+[2023-06-06 13:32:32] INFO root fetch - processPackages [tap-exact]: Downloading https://files.pythonhosted.org/packages/01/33/cc7da7420acddaa88621d57c0d3b6fbcf607c5632f4067a1ff58a6631f70/tap_exact-0.5.1.tar.gz
+[2023-06-06 13:32:32] INFO root fetch - processPackages [modelz-llm]: executing diffoscope
+[2023-06-06 13:32:32] INFO root fetch - processPackages [modelz-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelz-llm-23.6.8.tar.gz tmp/modelz-llm-23.6.9.tar.gz --markdown 20230606/m/modelz-llm/23.6.8-23.6.9/diff.md --exclude *.pyd
+[2023-06-06 13:32:32] INFO root fetch - processPackages [ariadne-codegen]: Downloading https://files.pythonhosted.org/packages/6e/af/8cc45d1e3f74aa22bcfa4222da314f8b408cd97c70c89b6bebbd8110c85c/ariadne_codegen-0.7.1.tar.gz
+[2023-06-06 13:32:32] INFO root fetch - processPackages [tap-exact]: Downloading https://files.pythonhosted.org/packages/5b/91/bc85af097e277cdfbecb6f09968af69cf836e49527b9823aa5e2b564d2cf/tap_exact-0.5.2.tar.gz
+[2023-06-06 13:32:32] INFO root fetch - processPackages [m3u8-XZ]: Remove: archive file [/home/abi/fetcher/tmp/m3u8_XZ-0.0.2.tar.gz]
+[2023-06-06 13:32:32] INFO root fetch - processPackages [m3u8-XZ]: Remove: archive file [/home/abi/fetcher/tmp/m3u8_XZ-0.0.3.tar.gz]
+[2023-06-06 13:32:32] INFO root fetch - processPackages [m3u8-XZ]: Start processing: odoo-addon-product-pricelist-revision
+[2023-06-06 13:32:32] INFO root fetch - main [MainThread]: End processing [m3u8-XZ]: success
+[2023-06-06 13:32:32] INFO root fetch - processPackages [ariadne-codegen]: executing diffoscope
+[2023-06-06 13:32:32] INFO root fetch - processPackages [ariadne-codegen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ariadne_codegen-0.7.0.tar.gz tmp/ariadne_codegen-0.7.1.tar.gz --markdown 20230606/a/ariadne-codegen/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-06-06 13:32:32] INFO root fetch - processPackages [odoo-addon-product-pricelist-revision]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.0.3]
+[2023-06-06 13:32:33] INFO root fetch - processPackages [tap-exact]: executing diffoscope
+[2023-06-06 13:32:33] INFO root fetch - processPackages [tap-exact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tap_exact-0.5.1.tar.gz tmp/tap_exact-0.5.2.tar.gz --markdown 20230606/t/tap-exact/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-06-06 13:32:33] INFO root fetch - processPackages [odoo-addon-product-pricelist-revision]: Downloading https://files.pythonhosted.org/packages/fd/28/ba28e7f89727f7141d3dc863683d49d273dccdd8d824b0bfc8cd585f318c/odoo_addon_product_pricelist_revision-15.0.1.0.0.3-py3-none-any.whl
+[2023-06-06 13:32:33] INFO root fetch - processPackages [odoo-addon-product-pricelist-revision]: Downloading https://files.pythonhosted.org/packages/92/33/03768d5dddb86ab6d0dcb6cf462ca7a9b8d70f3021e401ebcbe9379980b6/odoo_addon_product_pricelist_revision-16.0.1.0.0.2-py3-none-any.whl
+[2023-06-06 13:32:33] INFO root fetch - processPackages [finetuner-stubs]: Remove: archive file [/home/abi/fetcher/tmp/finetuner_stubs-0.13.7rc1-py3-none-any.whl.zip]
+[2023-06-06 13:32:33] INFO root fetch - processPackages [finetuner-stubs]: Remove: archive file [/home/abi/fetcher/tmp/finetuner-stubs-0.9.3.tar.gz]
+[2023-06-06 13:32:33] INFO root fetch - processPackages [finetuner-stubs]: Start processing: leanit-mweb
+[2023-06-06 13:32:33] INFO root fetch - main [MainThread]: End processing [finetuner-stubs]: success
+[2023-06-06 13:32:33] INFO root fetch - processPackages [leanit-mweb]: New version: [23.6.1] Old Version: [23.5.9]
+[2023-06-06 13:32:33] INFO root fetch - processPackages [odoo-addon-product-pricelist-revision]: executing diffoscope
+[2023-06-06 13:32:33] INFO root fetch - processPackages [odoo-addon-product-pricelist-revision]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_product_pricelist_revision-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_product_pricelist_revision-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230606/o/odoo-addon-product-pricelist-revision/15.0.1.0.0.3-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-06-06 13:32:33] INFO root fetch - processPackages [leanit-mweb]: Downloading https://files.pythonhosted.org/packages/cb/c6/a5bb1c5a00d9a73e92ee6e0ebf72f93285b9d9a4b6d97cc1b73021b230a0/leanit-mweb-23.5.9.tar.gz
+[2023-06-06 13:32:33] INFO root fetch - processPackages [hcai-nova-server-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-server-nightly-0.1.9.dev202306051512.tar.gz]
+[2023-06-06 13:32:33] INFO root fetch - processPackages [hcai-nova-server-nightly]: Remove: archive file [/home/abi/fetcher/tmp/hcai-nova-server-nightly-0.1.9.dev202306060908.tar.gz]
+[2023-06-06 13:32:33] INFO root fetch - processPackages [hcai-nova-server-nightly]: Start processing: bigdl-nano
+[2023-06-06 13:32:33] INFO root fetch - main [MainThread]: End processing [hcai-nova-server-nightly]: success
+[2023-06-06 13:32:33] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230605] Old Version: [2.4.0b20230603]
+[2023-06-06 13:32:33] INFO root fetch - processPackages [leanit-mweb]: Downloading https://files.pythonhosted.org/packages/25/fb/a2b76e9fb46219e79571c79ee232bd40a5789337b9f9cb342a5ec534a96d/leanit-mweb-23.6.1.tar.gz
+[2023-06-06 13:32:33] INFO root fetch - processPackages [leanit-mweb]: executing diffoscope
+[2023-06-06 13:32:33] INFO root fetch - processPackages [leanit-mweb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/leanit-mweb-23.5.9.tar.gz tmp/leanit-mweb-23.6.1.tar.gz --markdown 20230606/l/leanit-mweb/23.5.9-23.6.1/diff.md --exclude *.pyd
+[2023-06-06 13:32:33] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/b6/11/e96edbb17ed70f99173764938bc1f4bf496548b103df6c215904c86a660d/bigdl_nano-2.4.0b20230603-py3-none-win_amd64.whl
+[2023-06-06 13:32:33] INFO root fetch - processPackages [finetuner-commons]: Remove: archive file [/home/abi/fetcher/tmp/finetuner_commons-0.13.7rc1-py3-none-any.whl.zip]
+[2023-06-06 13:32:33] INFO root fetch - processPackages [finetuner-commons]: Remove: archive file [/home/abi/fetcher/tmp/finetuner-commons-0.9.3.tar.gz]
+[2023-06-06 13:32:33] INFO root fetch - processPackages [finetuner-commons]: Start processing: bigdl-chronos
+[2023-06-06 13:32:33] INFO root fetch - main [MainThread]: End processing [finetuner-commons]: success
+[2023-06-06 13:32:34] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230605] Old Version: [2.4.0b20230603]
+[2023-06-06 13:32:34] INFO root fetch - processPackages [modelz-llm]: Remove: archive file [/home/abi/fetcher/tmp/modelz-llm-23.6.8.tar.gz]
+[2023-06-06 13:32:34] INFO root fetch - processPackages [modelz-llm]: Remove: archive file [/home/abi/fetcher/tmp/modelz-llm-23.6.9.tar.gz]
+[2023-06-06 13:32:34] INFO root fetch - processPackages [modelz-llm]: Start processing: bigdl-serving
+[2023-06-06 13:32:34] INFO root fetch - main [MainThread]: End processing [modelz-llm]: success
+[2023-06-06 13:32:34] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/94/2e/31ea8d42bbd80428a3e8e71cd5cdc325d13cf7ce497eb0056b625ca5cb1d/bigdl_chronos-2.4.0b20230603-py3-none-win_amd64.whl
+[2023-06-06 13:32:34] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230605] Old Version: [2.4.0b20230603]
+[2023-06-06 13:32:34] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/1a/4e/1310dbcd7ac9baccd6cc369280be02c91dd999e78d0edd3e0194dc692579/bigdl_nano-2.4.0b20230605-py3-none-win_amd64.whl
+[2023-06-06 13:32:34] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/85/21/69297ab8df866ba81e46af614d4f8575365b03d81c66605b62d7d8c868eb/bigdl_serving-2.4.0b20230603-py2.py3-none-any.whl
+[2023-06-06 13:32:34] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-06-06 13:32:34] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230603-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230605-py3-none-win_amd64.whl.zip --markdown 20230606/b/bigdl-nano/2.4.0b20230603-2.4.0b20230605/diff.md --exclude *.pyd
+[2023-06-06 13:32:34] INFO root fetch - processPackages [python-sscha]: Remove: archive file [/home/abi/fetcher/tmp/python-sscha-1.3.tar.gz]
+[2023-06-06 13:32:34] INFO root fetch - processPackages [python-sscha]: Remove: archive file [/home/abi/fetcher/tmp/python-sscha-1.3.1.tar.gz]
+[2023-06-06 13:32:34] INFO root fetch - main [MainThread]: End processing [python-sscha]: success
+[2023-06-06 13:32:34] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/d1/bf/458e9896f66949612fe76d0653808b93974dba13b93c2bfb54413f6798f1/bigdl_serving-2.4.0b20230605-py2.py3-none-any.whl
+[2023-06-06 13:32:34] INFO root fetch - processPackages [tap-exact]: Remove: archive file [/home/abi/fetcher/tmp/tap_exact-0.5.1.tar.gz]
+[2023-06-06 13:32:34] INFO root fetch - processPackages [tap-exact]: Remove: archive file [/home/abi/fetcher/tmp/tap_exact-0.5.2.tar.gz]
+[2023-06-06 13:32:34] INFO root fetch - main [MainThread]: End processing [tap-exact]: success
+[2023-06-06 13:32:34] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/f0/a9/a873e40d985395915cfcdf803680ecfa459cf866aa7529e9ae98017f4c61/bigdl_chronos-2.4.0b20230605-py3-none-win_amd64.whl
+[2023-06-06 13:32:34] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-06-06 13:32:34] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230603-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230605-py2.py3-none-any.whl.zip --markdown 20230606/b/bigdl-serving/2.4.0b20230603-2.4.0b20230605/diff.md --exclude *.pyd
+[2023-06-06 13:32:34] INFO root fetch - processPackages [ariadne-codegen]: Remove: archive file [/home/abi/fetcher/tmp/ariadne_codegen-0.7.0.tar.gz]
+[2023-06-06 13:32:34] INFO root fetch - processPackages [ariadne-codegen]: Remove: archive file [/home/abi/fetcher/tmp/ariadne_codegen-0.7.1.tar.gz]
+[2023-06-06 13:32:34] INFO root fetch - main [MainThread]: End processing [ariadne-codegen]: success
+[2023-06-06 13:32:34] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-06-06 13:32:34] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230603-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230605-py3-none-win_amd64.whl.zip --markdown 20230606/b/bigdl-chronos/2.4.0b20230603-2.4.0b20230605/diff.md --exclude *.pyd
+[2023-06-06 13:32:34] INFO root fetch - processPackages [elg]: Remove: archive file [/home/abi/fetcher/tmp/elg-0.4.post1.tar.gz]
+[2023-06-06 13:32:34] INFO root fetch - processPackages [elg]: Remove: archive file [/home/abi/fetcher/tmp/elg-0.5.0.tar.gz]
+[2023-06-06 13:32:34] INFO root fetch - main [MainThread]: End processing [elg]: success
+[2023-06-06 13:32:35] INFO root fetch - processPackages [odoo-addon-product-pricelist-revision]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_pricelist_revision-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-06-06 13:32:35] INFO root fetch - processPackages [odoo-addon-product-pricelist-revision]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_product_pricelist_revision-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-06-06 13:32:35] INFO root fetch - main [MainThread]: End processing [odoo-addon-product-pricelist-revision]: success
+[2023-06-06 13:32:35] INFO root fetch - processPackages [fingerprint-pro-server-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fingerprint-pro-server-api-sdk-2.2.0.tar.gz]
+[2023-06-06 13:32:35] INFO root fetch - processPackages [fingerprint-pro-server-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/fingerprint-pro-server-api-sdk-2.3.0.tar.gz]
+[2023-06-06 13:32:35] INFO root fetch - main [MainThread]: End processing [fingerprint-pro-server-api-sdk]: success
+[2023-06-06 13:32:35] INFO root fetch - processPackages [leanit-mweb]: Remove: archive file [/home/abi/fetcher/tmp/leanit-mweb-23.5.9.tar.gz]
+[2023-06-06 13:32:35] INFO root fetch - processPackages [leanit-mweb]: Remove: archive file [/home/abi/fetcher/tmp/leanit-mweb-23.6.1.tar.gz]
+[2023-06-06 13:32:35] INFO root fetch - main [MainThread]: End processing [leanit-mweb]: success
+[2023-06-06 13:32:35] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230603-py2.py3-none-any.whl.zip]
+[2023-06-06 13:32:35] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230605-py2.py3-none-any.whl.zip]
+[2023-06-06 13:32:35] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-06-06 13:32:36] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230603-py3-none-win_amd64.whl.zip]
+[2023-06-06 13:32:36] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230605-py3-none-win_amd64.whl.zip]
+[2023-06-06 13:32:36] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-06-06 13:32:37] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230603-py3-none-win_amd64.whl.zip]
+[2023-06-06 13:32:37] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230605-py3-none-win_amd64.whl.zip]
+[2023-06-06 13:32:37] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-06-06 13:32:37] INFO root fetch - main [MainThread]: Store serial: [18390515]
