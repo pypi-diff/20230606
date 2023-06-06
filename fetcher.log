@@ -3229,3 +3229,74 @@ AssertionError: tmp/cdk-events-notify-2.0.98.tar.gz does not exist
 [2023-06-06 03:00:09] INFO root fetch - processPackages [klp-commons]: Remove: archive file [/home/abi/fetcher/tmp/klp-commons-0.0.9.tar.gz]
 [2023-06-06 03:00:09] INFO root fetch - main [MainThread]: End processing [klp-commons]: success
 [2023-06-06 03:00:09] INFO root fetch - main [MainThread]: Store serial: [18383386]
+[2023-06-06 03:05:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [18383386]
+[2023-06-06 03:05:18] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-06-06 03:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gns3-gui
+[2023-06-06 03:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: astartes
+[2023-06-06 03:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gns3-server
+[2023-06-06 03:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bioversions
+[2023-06-06 03:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: neon-skill-support-helper
+[2023-06-06 03:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aqueduct-utility
+[2023-06-06 03:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-sns-notify
+[2023-06-06 03:05:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdk-lambda-layer-wget
+[2023-06-06 03:05:18] INFO root fetch - processPackages [astartes]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-06-06 03:05:18] INFO root fetch - processPackages [aqueduct-utility]: New version: [0.9.4] Old Version: [0.9.3]
+[2023-06-06 03:05:18] INFO root fetch - processPackages [gns3-gui]: New version: [3.0.0a3] Old Version: [3.0.0a2]
+[2023-06-06 03:05:18] INFO root fetch - processPackages [gns3-server]: New version: [3.0.0a3] Old Version: [3.0.0a2]
+[2023-06-06 03:05:18] INFO root fetch - processPackages [neon-skill-support-helper]: New version: [0.2.2a3] Old Version: [0.2.2a2]
+[2023-06-06 03:05:18] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-06-06 03:05:18] INFO root fetch - processPackages [bioversions]: New version: [0.5.99] Old Version: [0.5.98]
+[2023-06-06 03:05:18] INFO root fetch - processPackages [cdk-lambda-layer-wget]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-06-06 03:05:18] INFO root fetch - processPackages [neon-skill-support-helper]: Downloading https://files.pythonhosted.org/packages/de/3e/79f85c6f33dce4aa3227e38b0aabef382bc457ea3794699d59be9bd59d83/neon_skill_support_helper-0.2.2a2-py3-none-any.whl
+[2023-06-06 03:05:18] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2023-06-06 03:05:18] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/e6/34/7c40209c13edc9fe7c611a00fd4b0d6e59d501613427ed6713ad6398b655/bioversions-0.5.98.tar.gz
+[2023-06-06 03:05:18] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Downloading https://files.pythonhosted.org/packages/f8/35/e47c6ddfa64ed9ac5f5a4b035ea0cc02916916c4bdbbbb9cc31928af9582/cdk-lambda-layer-wget-2.0.98.tar.gz
+[2023-06-06 03:05:18] INFO root fetch - processPackages [aqueduct-utility]: Downloading https://files.pythonhosted.org/packages/35/32/ea3c9d8df807bd542a3a43aa2ff5993eb3bf2abf00c8a8f86c5d3384ffed/aqueduct-utility-0.9.3.tar.gz
+[2023-06-06 03:05:18] INFO root fetch - processPackages [astartes]: Downloading https://files.pythonhosted.org/packages/75/4c/d3ff2ca3936f8ca6b6d5faf680082ca29cdd1577df3d8ba5a6a87f55fc74/astartes-1.0.1.tar.gz
+[2023-06-06 03:05:18] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2023-06-06 03:05:18] INFO root fetch - processPackages [gns3-server]: Downloading https://files.pythonhosted.org/packages/76/9f/37cd34b9d2adaa1f623deb3512df6985042e29a59f172df45233f2978436/gns3-server-3.0.0a2.tar.gz
+[2023-06-06 03:05:18] INFO root fetch - processPackages [gns3-gui]: Downloading https://files.pythonhosted.org/packages/62/9a/1387c4b06e150035dae2743434539e28292f0deaed11e4731f5cac8ff208/gns3-gui-3.0.0a2.tar.gz
+[2023-06-06 03:05:18] WARNING root fetch - processPackages [gns3-server]: Skipping package: exceeds size limit 11101961>=10485760
+[2023-06-06 03:05:18] INFO root fetch - main [MainThread]: End processing [gns3-server] error
+[2023-06-06 03:05:18] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-06-06 03:05:18] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230606/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-06-06 03:05:18] INFO root fetch - processPackages [neon-skill-support-helper]: Downloading https://files.pythonhosted.org/packages/5d/85/bad0cc13e28c7dac655a6bcb4f8d37b67cbce14dea24cd6822193801f95f/neon_skill_support_helper-0.2.2a3-py3-none-any.whl
+[2023-06-06 03:05:18] INFO root fetch - processPackages [bioversions]: Downloading https://files.pythonhosted.org/packages/0d/f5/5956eccd9643084cc5f7aba6325ec9de1ed3a2bb3568a8ee7ab88d0eac77/bioversions-0.5.99.tar.gz
+[2023-06-06 03:05:18] INFO root fetch - processPackages [neon-skill-support-helper]: executing diffoscope
+[2023-06-06 03:05:18] INFO root fetch - processPackages [neon-skill-support-helper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon_skill_support_helper-0.2.2a2-py3-none-any.whl.zip tmp/neon_skill_support_helper-0.2.2a3-py3-none-any.whl.zip --markdown 20230606/n/neon-skill-support-helper/0.2.2a2-0.2.2a3/diff.md --exclude *.pyd
+[2023-06-06 03:05:18] INFO root fetch - processPackages [aqueduct-utility]: Downloading https://files.pythonhosted.org/packages/97/78/03e711e1a03889192ba931be1e93fbb57366a36ab009469f9d24787c29b8/aqueduct-utility-0.9.4.tar.gz
+[2023-06-06 03:05:18] INFO root fetch - processPackages [astartes]: Downloading https://files.pythonhosted.org/packages/a9/2e/00aaf29471ce39fe90b0f6b4fd079128b7222ff06c2536c3b82c4240dc0e/astartes-1.0.2.tar.gz
+[2023-06-06 03:05:18] INFO root fetch - processPackages [bioversions]: executing diffoscope
+[2023-06-06 03:05:18] INFO root fetch - processPackages [bioversions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioversions-0.5.98.tar.gz tmp/bioversions-0.5.99.tar.gz --markdown 20230606/b/bioversions/0.5.98-0.5.99/diff.md --exclude *.pyd
+[2023-06-06 03:05:18] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Downloading https://files.pythonhosted.org/packages/98/52/07cb776b41ec70fb5cc0faffb812732ed10edeb529408976a37a888ef997/cdk-lambda-layer-wget-2.0.99.tar.gz
+[2023-06-06 03:05:18] INFO root fetch - processPackages [astartes]: executing diffoscope
+[2023-06-06 03:05:18] INFO root fetch - processPackages [astartes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astartes-1.0.1.tar.gz tmp/astartes-1.0.2.tar.gz --markdown 20230606/a/astartes/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-06-06 03:05:18] INFO root fetch - processPackages [aqueduct-utility]: executing diffoscope
+[2023-06-06 03:05:18] INFO root fetch - processPackages [aqueduct-utility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aqueduct-utility-0.9.3.tar.gz tmp/aqueduct-utility-0.9.4.tar.gz --markdown 20230606/a/aqueduct-utility/0.9.3-0.9.4/diff.md --exclude *.pyd
+[2023-06-06 03:05:18] INFO root fetch - processPackages [cdk-lambda-layer-wget]: executing diffoscope
+[2023-06-06 03:05:18] INFO root fetch - processPackages [cdk-lambda-layer-wget]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-lambda-layer-wget-2.0.98.tar.gz tmp/cdk-lambda-layer-wget-2.0.99.tar.gz --markdown 20230606/c/cdk-lambda-layer-wget/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-06-06 03:05:19] INFO root fetch - processPackages [gns3-gui]: Downloading https://files.pythonhosted.org/packages/e2/82/1ee7996124e6120bdddc377acb2e41de242ae5f11e58252f94e00be797e0/gns3-gui-3.0.0a3.tar.gz
+[2023-06-06 03:05:19] INFO root fetch - processPackages [gns3-gui]: executing diffoscope
+[2023-06-06 03:05:19] INFO root fetch - processPackages [gns3-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230606:/home/abi/fetcher/20230606:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gns3-gui-3.0.0a2.tar.gz tmp/gns3-gui-3.0.0a3.tar.gz --markdown 20230606/g/gns3-gui/3.0.0a2-3.0.0a3/diff.md --exclude *.pyd
+[2023-06-06 03:05:19] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2023-06-06 03:05:19] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2023-06-06 03:05:19] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-06-06 03:05:19] INFO root fetch - processPackages [neon-skill-support-helper]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_support_helper-0.2.2a2-py3-none-any.whl.zip]
+[2023-06-06 03:05:19] INFO root fetch - processPackages [neon-skill-support-helper]: Remove: archive file [/home/abi/fetcher/tmp/neon_skill_support_helper-0.2.2a3-py3-none-any.whl.zip]
+[2023-06-06 03:05:19] INFO root fetch - main [MainThread]: End processing [neon-skill-support-helper]: success
+[2023-06-06 03:05:20] INFO root fetch - processPackages [aqueduct-utility]: Remove: archive file [/home/abi/fetcher/tmp/aqueduct-utility-0.9.3.tar.gz]
+[2023-06-06 03:05:20] INFO root fetch - processPackages [aqueduct-utility]: Remove: archive file [/home/abi/fetcher/tmp/aqueduct-utility-0.9.4.tar.gz]
+[2023-06-06 03:05:20] INFO root fetch - main [MainThread]: End processing [aqueduct-utility]: success
+[2023-06-06 03:05:20] INFO root fetch - processPackages [astartes]: Remove: archive file [/home/abi/fetcher/tmp/astartes-1.0.1.tar.gz]
+[2023-06-06 03:05:20] INFO root fetch - processPackages [astartes]: Remove: archive file [/home/abi/fetcher/tmp/astartes-1.0.2.tar.gz]
+[2023-06-06 03:05:20] INFO root fetch - main [MainThread]: End processing [astartes]: success
+[2023-06-06 03:05:21] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-wget-2.0.98.tar.gz]
+[2023-06-06 03:05:21] INFO root fetch - processPackages [cdk-lambda-layer-wget]: Remove: archive file [/home/abi/fetcher/tmp/cdk-lambda-layer-wget-2.0.99.tar.gz]
+[2023-06-06 03:05:21] INFO root fetch - main [MainThread]: End processing [cdk-lambda-layer-wget]: success
+[2023-06-06 03:05:28] INFO root fetch - processPackages [gns3-gui]: Remove: archive file [/home/abi/fetcher/tmp/gns3-gui-3.0.0a2.tar.gz]
+[2023-06-06 03:05:28] INFO root fetch - processPackages [gns3-gui]: Remove: archive file [/home/abi/fetcher/tmp/gns3-gui-3.0.0a3.tar.gz]
+[2023-06-06 03:05:28] INFO root fetch - main [MainThread]: End processing [gns3-gui]: success
+[2023-06-06 03:05:39] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.98.tar.gz]
+[2023-06-06 03:05:39] INFO root fetch - processPackages [bioversions]: Remove: archive file [/home/abi/fetcher/tmp/bioversions-0.5.99.tar.gz]
+[2023-06-06 03:05:39] INFO root fetch - main [MainThread]: End processing [bioversions]: success
+[2023-06-06 03:05:39] INFO root fetch - main [MainThread]: Store serial: [18383414]
